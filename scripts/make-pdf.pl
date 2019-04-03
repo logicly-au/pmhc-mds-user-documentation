@@ -104,8 +104,6 @@ sub addCover {
     my $tree      = shift;
     my $timestamp = shift;
 
-    say "Timestamp: $timestamp";
-
     ( my $logo_position ) = $tree->find_by_tag_name( 'h1' );
     $logo_position->preinsert( [ 'img', { src => '_static/logo.png', class => 'logo' } ] );
 
