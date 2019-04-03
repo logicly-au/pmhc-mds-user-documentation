@@ -11,7 +11,6 @@ Version |version|
    The main documentation for the site is organized into several sections:
 
    * :ref:`user-docs`
-   * :ref:`data-docs`
    * :ref:`faqs`
 
    Getting Help
