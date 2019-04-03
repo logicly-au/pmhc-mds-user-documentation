@@ -5,19 +5,11 @@ set -e
 
 source doc/version.conf
 
-docker pull docker.sdlocal.net/csvw/metadata2rst
 docker pull stratdat/sphinx:production
 docker pull stratdat/sphinx-html2pdf:production
 
-docker run --rm -v `pwd`:/mnt/cwd \
-  docker.sdlocal.net/csvw/metadata2rst \
-    --meta=pmhc-metadata.json
-
 pushd .
 cd doc
-
-rm -rf data-specification/_data build
-cp -rf ../data data-specification/_data
 
 GIT_VERSION=$(git describe --tags --always)
 
@@ -33,14 +25,14 @@ docker run --rm -e GIT_VERSION -v `pwd`:/mnt/workdir \
   stratdat/sphinx-html2pdf:production \
   find . -name *.png -exec pngquant --force --output {} 8 {} \;
 
-echo Timestamp: ${timestamp}
+TIMESTAMP=$(git show -s --format="%ct")
 
 docker run --rm -e GIT_VERSION -v `pwd`:/mnt/workdir \
   stratdat/sphinx-html2pdf:production \
   /mnt/workdir/scripts/make-pdf.pl \
-  --spec-name "${SPEC_NAME}-${SPEC_VERSION}" \
+  --spec-name "${NAME}-${VERSION}" \
   --doc-dir   "/mnt/workdir/doc" \
-  --timestamp ${timestamp}
+  --timestamp ${TIMESTAMP}
 
 pushd .
 cd doc

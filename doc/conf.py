@@ -33,8 +33,8 @@ global ddict_conf
 ddict_conf = imp.load_source('ddict_conf', '', f)
 f.close()
 
-spec_name = ddict_conf.SPEC_NAME
-version   = ddict_conf.SPEC_VERSION
+doc_name = ddict_conf.NAME
+version   = ddict_conf.VERSION
 
 # -- General configuration ------------------------------------------------
 
@@ -155,12 +155,12 @@ html_theme_options = {}
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ['_static', 'data-specification/_data/_orig']
+html_static_path = ['_static']
 
 # Add any extra paths that contain custom files (such as robots.txt or
 # .htaccess) here, relative to this directory. These files are copied
 # directly to the root of the documentation.
-html_extra_path = ['CNAME', '.nojekyll']
+html_extra_path = [ '.nojekyll']
 
 # If not '', a 'Last updated on:' timestamp is inserted at every page bottom,
 # using the given strftime format.
@@ -311,7 +311,7 @@ if not on_rtd:  # only import and set the theme if we're building docs locally
 # see https://github.com/hoccleve-archive/hocl.tk/blob/70b71b5a265d0b1d64c5cb6e43b686d03ead4078/docs/conf.py#L48
 
 copyright = str(2019) + ", " + author
-download_pdf = ":download:`PDF </_static/" + spec_name + "-" + version + ".pdf>`"
+download_pdf = ":download:`PDF </_static/" + doc_name + "-" + version + ".pdf>`"
 
 rst_epilog = """
 .. |download-pdf| replace:: %(download_pdf)s
