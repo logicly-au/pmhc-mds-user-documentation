@@ -41,8 +41,3 @@ docker run --rm -e GIT_VERSION -v `pwd`:/mnt/workdir \
   stratdat/sphinx:production make html
 
 popd
-
-# make zip file
-scripts/metadata2zip.sh
-# mv new zip to data-specification folder
-mv pmhcmds-spec-meta.zip doc/build/html/_static/
