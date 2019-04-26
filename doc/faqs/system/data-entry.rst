@@ -14,14 +14,14 @@ Initially the PHN may decide to play a role in coordinating assignment and manag
 of these keys for Provider Organisations, prior to the PMHC MDS implementation a
 Master Client Index during :ref:`Stage-Two` of development.
 
-See data specifications for :ref:`identifier_management`.
+See data specifications for `Identifier management <http://docs.pmhc-mds.com/en/v1/data-specification/identifier-management.html>`_.
 
 .. _best-practice-client-key-faq:
 
 Can you suggest a best practice approach to managing client keys?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-We understand that PHNs and Provider Organisations will approach :ref:`identifier_management`
+We understand that PHNs and Provider Organisations will approach `Identifier management <http://docs.pmhc-mds.com/en/v1/data-specification/identifier-management.html>`_
 in various different ways to best suit their practice. PHNs may decide to
 manage client keys until the Master Client Index is developed and released
 in :ref:`Stage-Two`. In the interim, we suggest speaking with your PHN or another
@@ -38,7 +38,7 @@ Why can't we use the SLK as the client key?
 The Client Key is required to be a unique client identifier. The SLK isn’t a
 unique key and therefore not suitable to be used as the Client Key.
 
-Refer to data specifications for :ref:`identifier_management`.
+Refer to data specifications for `Identifier management <http://docs.pmhc-mds.com/en/v1/data-specification/identifier-management.html>`_.
 
 .. _master-client-index-faq:
 
@@ -66,7 +66,7 @@ See :ref:`dev-MCI-faq`.
 How often should I enter data into the MDS?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Refer to :ref:`reporting_timeliness`.
+Refer to `Reporting timeliness <https://docs.pmhc-mds.com/en/v1/data-specification/reporting-arrangements.html#reporting-timeliness>`_.
 
 .. _test-fictitious-data-faq:
 
@@ -96,22 +96,23 @@ website, under the SLK tab - https://pmhc-mds.net/#/slk. See :ref:`slk-generator
 How do I find what the Episode Key, Service Contact Key and Outcome Collection Occasion Key is?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The :ref:`Episode Key <episode-data-elements>`, :ref:`Service Contact Key<service-contact-data-elements>`
-and :ref:`Outcome Collection Occasion Key <outcome-collection-occasion-data-elements>`
-are the system :ref:`unique identification keys <unique_keys>` that will need to
+The `Episode Key <https://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#episode-data-elements>`_,
+`Service Contact Key <https://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#service-contact-data-elements>`_,
+and `Outcome Collection Occasion Key <https://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#outcome-collection-occasion-data-elements>`_
+are the system `unique identification keys <https://docs.pmhc-mds.com/en/v1/data-specification/identifier-management.html#unique-keys>`_ that will need to
 be manually created and managed by your Provider Organisation.
 
 Each record needs to be assigned a stable unique key within the Provider Organisation,
 in order to facilitate adding/updating/deleting each item when entering data.
 
-See data specifications for :ref:`identifier_management`.
+See data specifications for `Identifier management <http://docs.pmhc-mds.com/en/v1/data-specification/identifier-management.html>`_.
 
 .. _enter-practitioner-key-faq:
 
 How do I find what my Practitioner Key is?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The Practitioner Key is one of the system :ref:`unique identification keys <unique_keys>` that will
+The Practitioner Key is one of the system `unique identification keys <https://docs.pmhc-mds.com/en/v1/data-specification/identifier-management.html#unique-keys>`_ that will
 need to be manually created and managed by your Provider Organisation.
 
 Data Entry users can add a Practitioner once they know their key. Refer to the
@@ -145,7 +146,7 @@ See:
 How do I enter a referral?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-A referral can be entered as an :ref:`key-concepts-episode`.
+A referral can be entered as an `Episode <https://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#key-concepts-episode>`_.
 
 An Episode does not need to be concluded if the client requires as a new referral. If the treatment continues with a client, the service contacts can continue to be recorded to the original Episode until treatment is formally concluded either clinically or administratively.
 
@@ -156,7 +157,7 @@ Refer to the online User Guide :ref:`episode-data`.
 How do I enter a K10+, or K5?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-These measures tools, K10+ and K5, are entered as an :ref:`outcome-collection-occasion-data-elements`.
+These measures tools, K10+ and K5, are entered as an `Outcome Collection Occasion <https://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#outcome-collection-occasion-data-elements>`_.
 
 Refer to the online User Guide :ref:`outcome-collection-occasion-data`.
 
@@ -208,7 +209,7 @@ When data in the upload has the same identification key as recorded in the MDS,
 the data will automatically be updated for these files. The number of files present,
 created, and updated, are summarised on the successful upload notification email.
 
-Refer to upload specification :ref:`file-format`.
+Refer to upload specification `File format <https://docs.pmhc-mds.com/en/v1/data-specification/upload-specification.html#file-format>`_.
 
 .. _enter-no-show-faq:
 
@@ -223,9 +224,9 @@ to be selected. For any other Service Contact fields, please enter the response
 that would have been entered if the participant had attended the session.
 
 You can decide to enter as much information as possible within a no show form,
-as long as it meet the 'No Show' :ref:`validation guidelines for a service contact <service-contact-current-validations>`.
+as long as it meet the 'No Show' `validation guidelines for a service contact <https://docs.pmhc-mds.com/en/v1/data-specification/validation-rules.html#service-contact-current-validations>`_.
 
-Refer to :ref:`service-contact-data-elements`.
+Refer to `Service Contact <https://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#service-contact-data-elements>`_.
 
 .. _client-referred-elsewhere-faq:
 
@@ -262,7 +263,7 @@ The episode start date will be derived from the first service contact date.'
 When an episode does not have any service contacts added yet, it does not have
 a start date and the system will reported it as 'Uncommenced'.
 
-Refer to :ref:`key-concepts-episode`.
+Refer to `Episode <https://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#key-concepts-episode>`_.
 
 .. _data-entry-episode-closed-faq:
 
@@ -284,7 +285,7 @@ into the MDS is as complete as possible. However, most data items specify
 a 'Missing' response. Where information is unavailable, please use this
 response item. The aim is to minimise missing data as much as possible.
 
-Refer to :ref:`record-formats` for more information. By clicking on the field name
+Refer to `Record formats <https://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#record-formats>`_ for more information. By clicking on the field name
 this will take you to the field definition which outlines the associated notes that
 provide guidance on which response to use.
 
@@ -294,10 +295,10 @@ What are the options where the information collected does not fit into the avail
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Each data item has associated notes that provide guidance on which response to
-use. By clicking on the :ref:`record-formats` field name this will take you to the
+use. By clicking on the `Record formats <https://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#record-formats>`_ field name this will take you to the
 field definition which outlines the associated notes.
 
-Refer to :ref:`record-formats`.
+Refer to `Record formats <https://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#record-formats>`_.
 
 .. _capture-additional-data-faq:
 
@@ -323,7 +324,7 @@ Refer to the Department's response to :ref:`MHNIP-data-faq`.
 I have an error message but no idea what it means or how to fix it. What should I do?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Refer to :ref:`record-formats` for more information. By clicking on the field
+Refer to `Record formats <https://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#record-formats>`_ for more information. By clicking on the field
 name this will take you to the field definition which outlines the associated
 notes that provide guidance on which response to use. It will also inform you if
 there are any interrelated field requirements that can cause data errors.

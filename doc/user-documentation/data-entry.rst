@@ -38,11 +38,11 @@ Search Fields
 You can choose any one of three search options to search for a client, depending
 on the client information that you have available to you at the time.
 
-- **Client Key** - You can use this field to type in a whole :ref:`dfn-client_key`, or start thereof.
+- **Client Key** - You can use this field to type in a whole `Client Key <https://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#dfn-client-key>`_, or start thereof.
 
-- **SLK** - You can use this field to type in a client's :ref:`Statistical Linkage Key <dfn-slk>`
+- **SLK** - You can use this field to type in a client's `Statistical Linkage Key <https://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#dfn-slk>`_.
 
-- **DOB** - You can use this field to type in a client's :ref:`dfn-date_of_birth`.
+- **DOB** - You can use this field to type in a client's `Date of Birth <https://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#dfn-date-of-birth>`_.
 
 .. figure:: screen-shots/client-search-fields.png
    :alt: Client Data Search Fields
@@ -104,7 +104,7 @@ available on the Data Entry tab, by following these steps:
 
 4. Click Details tab for more information on the Client.
 
-A page will display the Client's details as recorded via the :ref:`Client Data Elements <client-data-elements>`.
+A page will display the Client's details as recorded via the `Client Data Elements <https://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#client-data-elements>`_.
 
 .. figure:: screen-shots/client-view-details.png
    :alt: Client Data Details View
@@ -121,7 +121,7 @@ available on the Data Entry tab, by following these steps:
 2. From the Client Search table, click the Client Key.
 3. Click Details tab, to view Client's details.
 4. Click Edit Details tab.
-5. Update the Client's details. Mandatory fields are marked with an * . (Specification :ref:`Client Data Elements <client-data-elements>`)
+5. Update the Client's details. Mandatory fields are marked with an * . (Specification `Client Data Elements <https://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#client-data-elements>`_)
 
     *Please note: You can edit the Client Key from this screen. See* :ref:`edit-client-key`.
 
@@ -145,7 +145,7 @@ will now be displaying these new details in the Clients View Details tab.
 
 If you receive an error message, the data will need to be corrected before the
 record is saved and added to the PMHC MDS.
-See Validation Rules - :ref:`client-current-validations`
+See Validation Rules - `Client <https://docs.pmhc-mds.com/en/v1/data-specification/validation-rules.html#client-current-validations>`_.
 
 .. _edit-client-key:
 
@@ -183,7 +183,7 @@ available on the Data Entry tab, by following these steps:
 2. Firstly double check the client is not already added.
 3. Click the blue 'Add New Client' button.
 4. Choose the Provider Organisation from the drop down list.
-5. Enter the Client's details. Mandatory fields are marked with an * . (Specification :ref:`Client Data Elements <client-data-elements>`)
+5. Enter the Client's details. Mandatory fields are marked with an * . (Specification `Client Data Elements <https://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#client-data-elements>`_)
 
     *Please note: With the 'Statistical Linkage Key' field you can choose to 'Enter' or 'Generate' a Client's SLK.*
     *The SLK is generated on your device, the names used are not stored or transmitted over the network.*
@@ -204,7 +204,7 @@ now be displaying the client's saved information in the Clients View Details tab
 
 If you receive an error message, the data will need to be corrected before the
 record is saved and added to the PMHC MDS.
-See Validation Rules - :ref:`client-current-validations`
+See Validation Rules - `Client <https://docs.pmhc-mds.com/en/v1/data-specification/validation-rules.html#client-current-validations>`_.
 
 .. _delete-client:
 
@@ -298,7 +298,7 @@ A Drop down list is available to view:
 .. figure:: screen-shots/client-episodes-details.png
    :alt: Client Episodes Details View
 
-A page will display the Client's Episode details as recorded via the :ref:`Episode Data Elements <episode-data-elements>`.
+A page will display the Client's Episode details as recorded via the `Episode Data Elements <https://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#episode-data-elements>`_.
 
 .. _edit-episode:
 
@@ -311,7 +311,7 @@ available on the Data Entry tab, by following these steps:
 1. Once :ref:`view-episodes`.
 2. From the Client's Episode table, click the Episode Key.
 3. Click Edit Details tab.
-4. Update the Client's Episode details. Mandatory fields are marked with an * . (Specification :ref:`Episode Data Elements <episode-data-elements>`)
+4. Update the Client's Episode details. Mandatory fields are marked with an * . (Specification `Episode Data Elements <https://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#episode-data-elements>`_)
 
     *Please note: You can edit the Episode Key from this screen. See* :ref:`edit-episode-key`.
 
@@ -328,7 +328,7 @@ and it will now be displaying these new details in the Episode View Details tab.
 
 If you receive an error message, the data will need to be corrected before the
 record is saved and added to the PMHC MDS.
-See Validation Rules - Episode :ref:`episode-current-validations`
+See Validation Rules - `Episode <https://docs.pmhc-mds.com/en/v1/data-specification/validation-rules.html#episode-current-validations>`_.
 
 .. _edit-episode-key:
 
@@ -363,9 +363,9 @@ You can add a clients through the :ref:`view-client-details`
 available on the Data Entry tab, by following these steps:
 
 1. Once :ref:`view-episodes`.
-2. Firstly double check the client does not have any open episode already showing. (A client can only have one open episode at a provider organsiation. :ref:`key-concepts-episode`)
+2. Firstly double check the client does not have any open episode already showing. (A client can only have one open episode at a provider organisation. `Episode <https://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#key-concepts-episode>`_)
 3. Click the Add Episode tab.
-4. Enter the Client's Episode details. Mandatory fields are marked with an * . (Specification :ref:`Episode Data Elements <episode-data-elements>`)
+4. Enter the Client's Episode details. Mandatory fields are marked with an * . (Specification `Episode Data Elements <https://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#episode-data-elements>`_)
 
 .. figure:: screen-shots/client-episodes-add.png
    :alt: Client Data Add Episode
@@ -380,7 +380,7 @@ and it will now be displaying these new details in the Episode View Details tab.
 
 If you receive an error message, the data will need to be corrected before the
 record is saved and added to the PMHC MDS.
-See Validation Rules - :ref:`episode-current-validations`
+See Validation Rules - `Episode <https://docs.pmhc-mds.com/en/v1/data-specification/validation-rules.html#episode-current-validations>`_.
 
 .. _closing-episode:
 
@@ -393,7 +393,7 @@ available on the Data Entry tab, by following these steps:
 1. Once :ref:`view-episodes`.
 2. From the Client's Episode table, click the Episode Key of the open episode.
 3. Click Edit Details tab.
-4. Update the Client's Episode details, by entering an 'End Date' and 'Completion Status'. (Specification :ref:`Episode Data Elements <episode-data-elements>`)
+4. Update the Client's Episode details, by entering an 'End Date' and 'Completion Status'. (Specification `Episode Data Elements <https://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#episode-data-elements>`_)
 
 .. figure:: screen-shots/client-episodes-edit.png
    :alt: Client Episodes Edit Details
@@ -408,7 +408,7 @@ and it will now be displaying these new details in the Episode View Details tab.
 
 If you receive an error message, the data will need to be corrected before the
 record is saved and added to the PMHC MDS.
-See Validation Rules - Episode :ref:`episode-current-validations`
+See Validation Rules - `Episode <https://docs.pmhc-mds.com/en/v1/data-specification/validation-rules.html#episode-current-validations>`_.
 
 .. _delete-episode:
 

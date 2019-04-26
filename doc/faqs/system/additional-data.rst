@@ -36,7 +36,7 @@ Can the PMHC MDS capture and record additional data?
 
 The PMHC MDS is designed to monitor and evaluate regional service delivery
 against key mental health performance indicators and can not capture and record
-additional data outside the :ref:`data-model`.
+additional data outside the `Data model <https://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#data-model>`_.
 
 The PMHC MDS does not confine PHNs to the data specified. Rather, it sets the
 minimum and common ground for what data are to be collected and reported for

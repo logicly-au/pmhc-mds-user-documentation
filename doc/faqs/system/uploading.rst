@@ -8,7 +8,7 @@ Uploading data
 How do I obtain a template to upload my data to the MDS?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Upload templates are available from :ref:`upload_specification`.
+Upload templates are available from `Upload specification <https://docs.pmhc-mds.com/en/v1/data-specification/upload-specification.html#upload-specification>`_.
 
 
 What do I do if I have collected the data in Excel or Access?
@@ -16,7 +16,7 @@ What do I do if I have collected the data in Excel or Access?
 
 Visit the online MDS documentation regarding uploads were a detailed User Guide for data uploads is available.
 
-See :ref:`upload_specification`.
+See `Upload specification <https://docs.pmhc-mds.com/en/v1/data-specification/upload-specification.html#upload-specification>`_.
 
 .. _which_data:
 
@@ -54,7 +54,7 @@ How can I delete a record I have previously uploaded?
 
 You can delete records via upload.
 
-Please refer to :ref:`deleting-records`.
+Please refer to `Deleting records <https://docs.pmhc-mds.com/en/v1/data-specification/upload-specification.html#deleting-records>`_.
 
 .. _upload-error-faq:
 
@@ -88,7 +88,7 @@ All the required CSV files must be included for each upload, even if the file
 contains no data. If choosing to include any optional CSV files, these must be
 included with the required files in the single upload zip file.
 
-See :ref:`upload_specification`.
+See `Upload specification <https://docs.pmhc-mds.com/en/v1/data-specification/upload-specification.html#upload-specification>`_.
 
 .. _upload-files-error-faq:
 
@@ -102,7 +102,7 @@ Refer to :ref:`upload-fixing-errors`.
 How do I fix data errors in an upload?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Refer to :ref:`record-formats` related to column name for each error. By clicking
+Refer to `Record formats <https://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#record-formats>`_ related to column name for each error. By clicking
 on the field name this will take you to the field definition which outlines the
 associated notes that provide guidance on which response to use.
 
@@ -193,7 +193,7 @@ Why am I receiving an error saying 'Could not find worksheet [Name]'?
 
 This error occurs when you are uploading and Excel spreadsheet. The worksheet
 names need to exactly match the name in the 'Excel worksheet name' column
-of the 'Summary of files to upload' table at :ref:`files-to-upload`. If all the
+of the 'Summary of files to upload' table at `Files or worksheets to upload <https://docs.pmhc-mds.com/en/v1/data-specification/upload-specification.html#files-to-upload>`_. If all the
 required worksheets are not present you will receive the error above.
 
 .. _upload_invalid_version_line_error:
@@ -213,8 +213,8 @@ Why am I receiving an error saying 'Column [Name] is not valid'?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Each item is a column in the file/worksheet. The 'Field Name' should be used for
-the column headings. These values can be found at :ref:`file-format`, or
-listed on the provided example file at :ref:`files-to-upload`. If the Column [Name]
+the column headings. These values can be found at `File format <https://docs.pmhc-mds.com/en/v1/data-specification/upload-specification.html#file-format>`_, or
+listed on the provided example file at `Files or worksheets to upload <https://docs.pmhc-mds.com/en/v1/data-specification/upload-specification.html#files-to-upload>`_. If the Column [Name]
 doesn't match identically you will receive the error above.
 
 .. _upload_invalid_org_path_error:
@@ -243,7 +243,7 @@ Why am I receiving an error saying 'Column [Name] is required on row ...'?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 There is a required field that has not been entered. If not supplied, insert the
-default 'Missing' or 'Not recorded' value. These values can be found at :ref:`record-formats`.
+default 'Missing' or 'Not recorded' value. These values can be found at `Record formats <https://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#record-formats>`_.
 If the Column [Name] is blank in a mandatory field you will receive the error above.
 
 .. _upload_invalid_file_error:
