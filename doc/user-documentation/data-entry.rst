@@ -298,7 +298,7 @@ A Drop down list is available to view:
 .. figure:: screen-shots/client-episodes-details.png
    :alt: Client Episodes Details View
 
-A page will display the Client's Episode details as recorded via the `Episode Data Elements <https://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#episode-data-elements>`_.
+A page will display the Client's Episode details as recorded via the `Episode Data Elements <https://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#episode-data-elements>`__.
 
 .. _edit-episode:
 
@@ -311,7 +311,7 @@ available on the Data Entry tab, by following these steps:
 1. Once :ref:`view-episodes`.
 2. From the Client's Episode table, click the Episode Key.
 3. Click Edit Details tab.
-4. Update the Client's Episode details. Mandatory fields are marked with an * . (Specification `Episode Data Elements <https://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#episode-data-elements>`_)
+4. Update the Client's Episode details. Mandatory fields are marked with an * . (Specification `Episode Data Elements <https://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#episode-data-elements>`__)
 
     *Please note: You can edit the Episode Key from this screen. See* :ref:`edit-episode-key`.
 
@@ -328,7 +328,7 @@ and it will now be displaying these new details in the Episode View Details tab.
 
 If you receive an error message, the data will need to be corrected before the
 record is saved and added to the PMHC MDS.
-See Validation Rules - `Episode <https://docs.pmhc-mds.com/en/v1/data-specification/validation-rules.html#episode-current-validations>`_.
+See Validation Rules - `Episode <https://docs.pmhc-mds.com/en/v1/data-specification/validation-rules.html#episode-current-validations>`__.
 
 .. _edit-episode-key:
 
@@ -363,9 +363,9 @@ You can add a clients through the :ref:`view-client-details`
 available on the Data Entry tab, by following these steps:
 
 1. Once :ref:`view-episodes`.
-2. Firstly double check the client does not have any open episode already showing. (A client can only have one open episode at a provider organisation. `Episode <https://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#key-concepts-episode>`_)
+2. Firstly double check the client does not have any open episode already showing. (A client can only have one open episode at a provider organisation. `Episode <https://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#key-concepts-episode>`__)
 3. Click the Add Episode tab.
-4. Enter the Client's Episode details. Mandatory fields are marked with an * . (Specification `Episode Data Elements <https://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#episode-data-elements>`_)
+4. Enter the Client's Episode details. Mandatory fields are marked with an * . (Specification `Episode Data Elements <https://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#episode-data-elements>`__)
 
 .. figure:: screen-shots/client-episodes-add.png
    :alt: Client Data Add Episode
@@ -380,7 +380,7 @@ and it will now be displaying these new details in the Episode View Details tab.
 
 If you receive an error message, the data will need to be corrected before the
 record is saved and added to the PMHC MDS.
-See Validation Rules - `Episode <https://docs.pmhc-mds.com/en/v1/data-specification/validation-rules.html#episode-current-validations>`_.
+See Validation Rules - `Episode <https://docs.pmhc-mds.com/en/v1/data-specification/validation-rules.html#episode-current-validations>`__.
 
 .. _closing-episode:
 
@@ -393,7 +393,7 @@ available on the Data Entry tab, by following these steps:
 1. Once :ref:`view-episodes`.
 2. From the Client's Episode table, click the Episode Key of the open episode.
 3. Click Edit Details tab.
-4. Update the Client's Episode details, by entering an 'End Date' and 'Completion Status'. (Specification `Episode Data Elements <https://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#episode-data-elements>`_)
+4. Update the Client's Episode details, by entering an 'End Date' and 'Completion Status'. (Specification `Episode Data Elements <https://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#episode-data-elements>`__)
 
 .. figure:: screen-shots/client-episodes-edit.png
    :alt: Client Episodes Edit Details
@@ -408,7 +408,7 @@ and it will now be displaying these new details in the Episode View Details tab.
 
 If you receive an error message, the data will need to be corrected before the
 record is saved and added to the PMHC MDS.
-See Validation Rules - `Episode <https://docs.pmhc-mds.com/en/v1/data-specification/validation-rules.html#episode-current-validations>`_.
+See Validation Rules - `Episode <https://docs.pmhc-mds.com/en/v1/data-specification/validation-rules.html#episode-current-validations>`__.
 
 .. _delete-episode:
 
@@ -488,7 +488,7 @@ A table will display all the Service Contacts linked to this Client's Episode.
 .. figure:: screen-shots/client-service-contacts-details.png
    :alt: Client Episode Service Contacts Details View
 
-A page will display the Service Contacts details as recorded via the :ref:`Service Contact Data Elements <service-contact-data-elements>`.
+A page will display the Service Contacts details as recorded via the `Service Contact Data Elements <http://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#service-contact-data-elements>`_.
 
 .. _edit-service-contact:
 
@@ -501,7 +501,7 @@ available on the Data Entry tab, by following these steps:
 1. Once :ref:`view-service-contact`.
 2. From the Service Contacts table, click the Service Contact Key.
 3. Click Edit Service Contact tab.
-4. Update the Client's Service Contact details for that service-contact. Mandatory fields are marked with an * . (Specification :ref:`Service Contact Data Elements <service-contact-data-elements>`)
+4. Update the Client's Service Contact details for that service-contact. Mandatory fields are marked with an * . (Specification `Service Contact Data Elements <http://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#service-contact-data-elements>`_)
 
     *Please note: You can edit the Service Contact Key from this screen. See* :ref:`edit-service-contact-key`.
 
@@ -518,7 +518,7 @@ and it will now be displaying these new details in the View service Contact Deta
 
 If you receive an error message, the data will need to be corrected before the
 record is saved and added to the PMHC MDS.
-See Validation Rules - :ref:`service-contact-current-validations`
+See Validation Rules - `Service Contact <http://docs.pmhc-mds.com/en/v1/data-specification/validation-rules.html#service-contact-current-validations>`_.
 
 .. _edit-service-contact-key:
 
@@ -555,7 +555,7 @@ available on the Data Entry tab, by following these steps:
 1. Once :ref:`view-service-contact`.
 2. Firstly double check the service contact is not already showing.
 3. Click the Add Service Contact tab.
-4. Enter the Client's Service Contact details for that episode. Mandatory fields are marked with an * . (Specification :ref:`Service Contact Data Elements <service-contact-data-elements>`)
+4. Enter the Client's Service Contact details for that episode. Mandatory fields are marked with an * . (Specification `Service Contact Data Elements <http://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#service-contact-data-elements>`_)
 
 .. figure:: screen-shots/client-service-contacts-add.png
    :alt: Client Data Add Service Contact
@@ -570,7 +570,7 @@ and it will now be displaying these new details in the View service Contact Deta
 
 If you receive an error message, the data will need to be corrected before the
 record is saved and added to the PMHC MDS.
-See Validation Rules - :ref:`service-contact-current-validations`
+See Validation Rules - `Service Contact <http://docs.pmhc-mds.com/en/v1/data-specification/validation-rules.html#service-contact-current-validations>`_.
 
 .. _delete-service-contact:
 
@@ -632,7 +632,7 @@ A table will display all the Collection Occasions linked to this Client's Episod
    :alt: Client Episode Collection Occasions Details View
 
 A page will display the Collection Occasions details as recorded via the
-:ref:`Outcome Collection Occasion Data Elements <outcome-collection-occasion-data-elements>`.
+`Outcome Collection Occasion Data Elements <http://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#outcome-collection-occasion-data-elements>`_.
 
 
 .. _edit-collection-occasion:
@@ -646,7 +646,7 @@ available on the Data Entry tab, by following these steps:
 1. Once :ref:`view-collection-occasion`.
 2. Click the Collection Occasions Key.
 3. Click Edit Details tab.
-4. Update the Client's Collection Occasions details. Mandatory fields are marked with an * .(Specification :ref:`Collection Occasions Data Elements <outcome-collection-occasion-data-elements>`)
+4. Update the Client's Collection Occasions details. Mandatory fields are marked with an * .(Specification `Outcome Collection Occasion Data Elements <http://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#outcome-collection-occasion-data-elements>`_)
 
     *Please note: You can edit the Collection Occasion Key from this screen. See* :ref:`edit-collection-occasion-key`.
 
@@ -667,9 +667,10 @@ and it will now be displaying these new details in the View Collection Occasions
 If you receive an error message, the data will need to be corrected before the
 record is saved and added to the PMHC MDS.
 See Validation Rules for:
-* :ref:`k10p-current-validations`
-* :ref:`k5-current-validations`
-* :ref:`sdq-current-validations`
+
+* `K10+ <http://docs.pmhc-mds.com/en/v1/data-specification/validation-rules.html#k10p-current-validations>`_
+* `K5 <http://docs.pmhc-mds.com/en/v1/data-specification/validation-rules.html#k5-current-validations>`_
+* `SDQ <http://docs.pmhc-mds.com/en/v1/data-specification/validation-rules.html#sdq-current-validations>`_
 
 .. _edit-collection-occasion-key:
 
@@ -718,7 +719,7 @@ available on the Data Entry tab, by following these steps:
 .. figure:: screen-shots/client-collection-occasions-score.png
    :alt: Client Data Add Collection Occasions
 
-6. Enter the Client's Collection Occasions details for that episode. Mandatory fields are marked with an * . (Specification :ref:`Collection Occasions Data Elements <outcome-collection-occasion-data-elements>`)
+6. Enter the Client's Collection Occasions details for that episode. Mandatory fields are marked with an * . (Specification `Outcome Collection Occasion Data Elements <http://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#outcome-collection-occasion-data-elements>`_)
 
 .. figure:: screen-shots/client-collection-occasions-add.png
    :alt: Client Data Add Collection Occasions
@@ -734,9 +735,10 @@ and it will now be displaying these new details in the View Collection Occasions
 If you receive an error message, the data will need to be corrected before the
 record is saved and added to the PMHC MDS.
 See Validation Rules for:
-* :ref:`k10p-current-validations`
-* :ref:`k5-current-validations`
-* :ref:`sdq-current-validations`
+
+* `K10+ <http://docs.pmhc-mds.com/en/v1/data-specification/validation-rules.html#k10p-current-validations>`_
+* `K5 <http://docs.pmhc-mds.com/en/v1/data-specification/validation-rules.html#k5-current-validations>`_
+* `SDQ <http://docs.pmhc-mds.com/en/v1/data-specification/validation-rules.html#sdq-current-validations>`_
 
 .. _delete-collection-occasion:
 
@@ -820,7 +822,7 @@ on the Data Entry tab, by following these steps:
 .. figure:: screen-shots/client-service-contacts-practitioner-key.png
    :alt: Practitioner Key on Outcome Collection Occasions Details
 
-A page will display the Practitioner's details as recorded via the :ref:`Practitioner Data Elements <practitioner-data-elements>`.
+A page will display the Practitioner's details as recorded via the `Practitioner Data Elements <http://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#practitioner-data-elements>`_.
 
 .. figure:: screen-shots/practitioner-details.png
    :alt: Practitioner Details View
@@ -854,7 +856,7 @@ and it will now be displaying these new details in the View Practitioner Details
 
 If you receive an error message, the data will need to be corrected before the
 record is saved and added to the PMHC MDS.
-See Validation Rules - :ref:`practitioner-current-validations`
+See Validation Rules - `Practitioner <http://docs.pmhc-mds.com/en/v1/data-specification/validation-rules.html#practitioner-current-validations>`__.
 
 .. _edit-practitioner-key:
 
@@ -905,7 +907,7 @@ and it will now be displaying these new details in the View Practitioner Details
 
 If you receive an error message, the data will need to be corrected before the
 record is saved and added to the PMHC MDS.
-See Validation Rules - :ref:`practitioner-current-validations`
+See Validation Rules - `Practitioner <http://docs.pmhc-mds.com/en/v1/data-specification/validation-rules.html#practitioner-current-validations>`__.
 
 You can add a practitioners individually through the data entry interface or
 alternately, practitioner records can be uploaded in bulk. See :ref:`upload`

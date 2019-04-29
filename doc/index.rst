@@ -29,7 +29,6 @@ Version |version|
    :maxdepth: 3
 
    user-documentation/index
-   data-specification/index
    faqs/index
 
 

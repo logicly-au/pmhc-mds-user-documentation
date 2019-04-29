@@ -36,7 +36,7 @@ following these steps:
 4. Select the name of the organisation from the drop down list.
 5. Click the first calendar icon to select the start date and then the second
    calendar icon to select the end date.
-6. If you click the 'Include only records with Client Consent' tickbox, the data for clients that have not consented to their anonymised data being provided to the Department of Health will be excluded from your report. (See :ref:`dfn-client_consent` )
+6. If you click the 'Include only records with Client Consent' tickbox, the data for clients that have not consented to their anonymised data being provided to the Department of Health will be excluded from your report. (See `Episode - Client Consent to Anonymised Data <http://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#dfn-client-consent>`_ )
 7. Click the blue ‘Request’ button.
 8. Your report will be displayed on screen and can be downloaded as a CSV.
 
@@ -789,10 +789,10 @@ Key specifications:
   occurred within the reporting period and are not flagged as ‘No Show’.
 * KPI is measured as the percentage of service contacts which are
   culturally appropriate
-* A culturally appropriate service is defined as one that is delivered by  
+* A culturally appropriate service is defined as one that is delivered by
   a service provider that is recorded as of ATSI origin, or employed by an
   Aboriginal Community Controlled Health Service or has indicated that
-  they have completed a recognised training programme in the delivery of 
+  they have completed a recognised training programme in the delivery of
   culturally safe services to ATSI peoples.
 
 .. _category-app-3:
@@ -809,9 +809,9 @@ Key specifications:
 * Only episodes with a referral date within the reporting period are included.
 * Service contacts which are flagged as ‘No Show’ are not included.
 * Service contacts where the Client Participation Indicator flag is ‘No’ are not included.
-* '% Episodes with Suicide Risk Flag %’ counts the proportion of all episodes 
+* '% Episodes with Suicide Risk Flag %’ counts the proportion of all episodes
   which are flagged as a suicide risk.
-* Other than in the '% Episodes with Suicide Risk Flag' column, only episodes 
+* Other than in the '% Episodes with Suicide Risk Flag' column, only episodes
   flagged as suicide risk are counted.
 * Episodes where the first service contact occurred within 7 days are
   tabulated as ‘7 days or less’

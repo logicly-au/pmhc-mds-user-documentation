@@ -165,7 +165,7 @@ data records directly on the file.
 
 The definition of each data item has associated notes that will provide guidance
 on why an error is returned. By visiting the data specifications documentation
-and clicking on the :ref:`record-formats` field name this will take you to the
+and clicking on the `Record formats <http://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#record-formats>`_ field name this will take you to the
 field definition which outlines the associated notes.
 
 In the Frequently Asked Questions guide there are questions about some of the
