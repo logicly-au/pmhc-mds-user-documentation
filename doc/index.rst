@@ -1,5 +1,5 @@
-PMHC-MDS Documentation
-======================
+PMHC-MDS User Guide
+===================
 
 Version |version|
 
@@ -10,8 +10,17 @@ Version |version|
 
    The main documentation for the site is organized into several sections:
 
-   * :ref:`user-docs`
+   * :ref:`passwords`
+   * :ref:`home`
+   * :ref:`organisations`
+   * :ref:`users`
+   * :ref:`upload`
+   * :ref:`data-entry`
+   * :ref:`reports`
+   * :ref:`data-extraction`
+   * :ref:`slk-generator`
    * :ref:`faqs`
+   * :ref:`user-guide-changelog`
 
    Getting Help
    ------------
@@ -28,10 +37,17 @@ Version |version|
    :caption: Table of Contents
    :maxdepth: 3
 
-   user-documentation/index
+   user-documentation/passwords
+   user-documentation/home
+   user-documentation/organisations
+   user-documentation/users
+   user-documentation/upload
+   user-documentation/data-entry
+   user-documentation/reporting
+   user-documentation/data-extract
+   user-documentation/slk
    faqs/index
-
-
+   user-documentation/change-log
 
 .. The LINK TO THE PDF will only appear in the online HTML version
    (make.sh html) and not in PDF itself (or any other renderings)
