@@ -1,5 +1,5 @@
-PMHC-MDS User Guide
-===================
+PMHC-MDS User Documentation
+===========================
 
 Version |version|
 

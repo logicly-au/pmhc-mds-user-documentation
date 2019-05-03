@@ -64,7 +64,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'PMHC MDS'
+project = u'PMHC MDS User Documentation'
 copyright = u'2019, Australian Government - Department of Health'
 author = u'PMHC MDS Working Group'
 
@@ -92,7 +92,7 @@ language = None
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
-exclude_patterns = ['record/*', 'data-specification/include/*', 'boilerplate/*', 'figures/*', 'data/*']
+# exclude_patterns = ['something/*', 'something-else/*']
 
 # The reST default role (used for this markup: `text`) to use for all
 # documents.
@@ -218,7 +218,7 @@ html_extra_path = [ '.nojekyll']
 #html_search_scorer = 'scorer.js'
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'PMHC'
+htmlhelp_basename = 'PMHC-MDS-User-Documentation'
 
 # -- Options for LaTeX output ---------------------------------------------
 
@@ -240,7 +240,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  (master_doc, 'PMHC.tex', u'Primary Mental Health Care Minimum Dataset specification',
+  (master_doc, 'PMHC-MDS-user-documentation.tex', u'PMHC-MDS User Documentation',
    author, 'manual'),
 ]
 
@@ -270,7 +270,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'PMHC MDS Specification', u'Primary Mental Health Care Minimum Dataset specification',
+    (master_doc, 'PMHC-MDS User Documentation', u'PMHC-MDS User Documentation',
      [author], 1)
 ]
 
@@ -284,8 +284,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  (master_doc, 'PMHC', u'Primary Mental Health Care Minimum Dataset specification',
-   author, 'PMHC', 'Primary Mental Health Care Minimum Dataset specification',
+  (master_doc, 'PMHC-MDS-User-Documentation', u'PMHC-MDS User Documentation',
+   author, 'PMHC-MDS User Documentation', 'PMHC-MDS User Documentation',
    'Miscellaneous'),
 ]
 
