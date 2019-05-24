@@ -771,8 +771,8 @@ Key specifications:
 * Only ‘active clients’ are reported. A Client is defined as ‘active’ and
   in scope for inclusion in this report if they are aged between 12-24 and had
   one or more Service Contacts recorded in the period. The episode must have a
-  'Principal Focus of Treatment'.
-  Plan' flagged as 'Child and youth-specific mental health services'.
+  'Principal Focus of Treatment Plan' flagged as 'Child and youth-specific mental
+  health services'.
 * Service Contacts flagged as ‘No Show’ are not included for this purpose.
 * Population is calculated from Estimated Regional Population figures
   for people aged 12-24.
