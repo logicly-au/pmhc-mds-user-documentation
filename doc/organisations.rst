@@ -49,6 +49,10 @@ the provider organisations of a PHN. Follow these steps:
 1. Navigate to the Organisations tab.
 2. Click on the PHN name in blue text displayed within the table list.
 3. Click on the 'Provider Organisations' tab.
+
+.. figure:: screen-shots/organisation-provider.png
+   :alt: PMHC MDS View Organisation
+
 4. Sort the listed provider organisations by simply clicking on a column header
    of the provider organisations table. Alternately you can click on the arrow beside a
    column header for more sort options, as follows:
@@ -58,16 +62,24 @@ the provider organisations of a PHN. Follow these steps:
    - Remove Sort
    - Hide Column
 
+You can also show or hide columns by unselecting and reselecting the items listed after pressing the 'Show/Hide' button.
+
+.. figure:: screen-shots/organisation-provider-show-hide.png
+   :alt: PMHC MDS Provider Organisations Show/Hide
+
 To filter the listed provider organisations:
 
 1. Click the grey 'Filters' button.
-2. Start typing in an edit box now displayed under the column headers.
+2. Start typing in any of the column header edit boxes now displayed above the column headers.
+3. Click the blue 'Apply' button.
 
-   .. figure:: screen-shots/organisations-provider-filter.png
-      :alt: PMHC MDS Organisations Filter
+   .. figure:: screen-shots/organisation-provider-filter.png
+      :alt: PMHC MDS Provider Organisations Filter
 
-3. To remove the filter, click the grey cross within the edit box beside any
-   entered text.
+4. To remove the filters, click the black cross on the applied filter name or the 'Clear all' if more than one filter is applied.
+
+.. figure:: screen-shots/organisation-provider-filter-applied.png
+   :alt: PMHC MDS Provider Organisations Filter
 
 .. _view-provider-organisation:
 

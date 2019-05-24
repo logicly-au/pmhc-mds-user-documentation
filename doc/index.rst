@@ -1,3 +1,5 @@
+.. _user-docs:
+
 PMHC-MDS User Documentation
 ===========================
 
