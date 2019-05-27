@@ -716,7 +716,8 @@ Key specifications:
 
 * Only ‘active clients’ are reported. A Client is defined as ‘active’ and
   in scope for inclusion in this report if they had one or more Service Contacts
-  recorded in the period.
+  recorded in the period. The episode must have a 'Principal Focus of Treatment
+  Plan' flagged as 'Low intensity psychological intervention'.
 * Service Contacts flagged as ‘No Show’ are not included for this purpose.
 * Population is calculated from Estimated Regional Population figures.
 * KPI is measured in clients per 100,000 population.
@@ -733,7 +734,8 @@ Key specifications:
 
 * Only ‘active clients’ are reported. A Client is defined as ‘active’ and
   in scope for inclusion in this report if they had one or more Service Contacts
-  recorded in the period.
+  recorded in the period. The episode must have a 'Principal Focus of Treatment
+  Plan' flagged as 'Psychological therapy'.
 * Service Contacts flagged as ‘No Show’ are not included for this purpose.
 * Population is calculated from Estimated Regional Population figures.
 * KPI is measured in clients per 100,000 population.
@@ -750,7 +752,8 @@ Key specifications:
 
 * Only ‘active clients’ are reported. A Client is defined as ‘active’ and
   in scope for inclusion in this report if they had one or more Service Contacts
-  recorded in the period.
+  recorded in the period. The episode must have a 'Principal Focus of Treatment
+  Plan' flagged as 'Clinical care coordination'.
 * Service Contacts flagged as ‘No Show’ are not included for this purpose.
 * Population is calculated from Estimated Regional Population figures.
 * KPI is measured in clients per 100,000 population.
@@ -766,8 +769,10 @@ youth-specific mental health services.
 Key specifications:
 
 * Only ‘active clients’ are reported. A Client is defined as ‘active’ and
-  in scope for inclusion in this report if they had one or more Service Contacts
-  recorded in the period.
+  in scope for inclusion in this report if they are aged between 12-24 and had
+  one or more Service Contacts recorded in the period. The episode must have a
+  'Principal Focus of Treatment Plan' flagged as 'Child and youth-specific mental
+  health services'.
 * Service Contacts flagged as ‘No Show’ are not included for this purpose.
 * Population is calculated from Estimated Regional Population figures
   for people aged 12-24.
