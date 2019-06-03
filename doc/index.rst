@@ -1,6 +1,12 @@
 PMHC-MDS User Documentation
 ===========================
 
+The PMHC MDS User Documentation site has been divided into the roles available on the MDS.
+There are step by step instructions and screenshots  to assist users with performing
+a specific task.
+
+A Frequently Asked Questions guide is also available for each role.
+
 Version |version|
 
    Getting Help
