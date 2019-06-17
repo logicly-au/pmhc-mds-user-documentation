@@ -32,7 +32,7 @@ The remaining features will be rolled out iteratively over the following months,
 * SDQ Data Entry Interface (Currently development is on hold until the Department finalises licensing requirements)
 * Develop pre-filled fields for interrelated field specifications
 * Ability to merge duplicate client records
-* An Online K5, K10+, and SDQ Outcome Measures Self-Service Interface
+* An Online K5, K10+, and SDQ Outcome Measures Self-Service Interface (OMSSS)
 
 Regularly check the announcements on the `PMHC MDS home page <https://pmhc-mds.net/#/>`_ to keep informed.
 
@@ -41,16 +41,17 @@ Regularly check the announcements on the `PMHC MDS home page <https://pmhc-mds.n
 Reporting
 ~~~~~~~~~
 
-The following reports will be rolled out iteratively over the following weeks:
+The following reports will be rolled out iteratively over the following months:
 
 * Category D reports: Key Performance Indicators
 
-The Department will consider local reporting requirements in the next phase of reviewing current reporting functionality.
+The Department will consider local PHN reporting requirements in the next phase of reviewing current reporting functionality.
 
 The :ref:`system-report-types` that are currently available are:
 * Category A: Monitoring progress of MDS implementation
 * Category B: Monitoring overall service delivery
 * Category C: Monitoring implementation of stepped care
+* Category D reports: Key Performance Indicators (7 out of the 9 KPI reports are currently available)
 * Category E: Reports for data managers to monitor data supply
 
 Regularly check the announcements on the `PMHC MDS home page <https://pmhc-mds.net/#/>`_ to keep informed on development updates.
