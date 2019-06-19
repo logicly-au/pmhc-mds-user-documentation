@@ -484,6 +484,7 @@ Key specifications:
 * Counts of Episodes to be based only on 'active' Episodes, defined as those
   that had one or more Service Contacts recorded in the period.
 * Service Contacts flagged as ‘No Show’ are not included for this purpose.
+* Age is calculated at start of episode.
 
 .. _category-b2:
 
@@ -586,6 +587,7 @@ Key specifications:
 * Service Contacts flagged as ‘No Show’ are not included for this purpose.
 * Counts shown in the report refer to Episodes, and are displayed as numbers
   or percent column based on user selection.
+* Age is calculated at start of episode.
 
 Client data elements that can be selected for the C1 report are:
 
@@ -777,6 +779,7 @@ Key specifications:
 * Population is calculated from Estimated Regional Population figures
   for people aged 12-24.
 * KPI is measured in clients per 100,000 population.
+* Age is calculated at start of episode.
 
 .. _category-app-2:
 
