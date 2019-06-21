@@ -35,6 +35,13 @@ system. All enquiries should be directed to: support@pmhc-mds.com.
    faqs/index
    change-log
 
+Data Specifications
+-------------------
+
+The PMHC MDS Data Specification documentation site defines what data items are
+collected in the PMHC MDS, what file formats are accepted for upload and
+associated reporting requirements - available at https://docs.pmhc-mds.com/#data-specifications.
+
 .. The LINK TO THE PDF will only appear in the online HTML version
    (make.sh html) and not in PDF itself (or any other renderings)
 
