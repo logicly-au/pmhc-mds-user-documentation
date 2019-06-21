@@ -25,11 +25,8 @@ Regularly check the announcements on the `PMHC MDS home page <https://pmhc-mds.n
 Data Entry Interface
 ~~~~~~~~~~~~~~~~~~~~
 
-In order to get Data Entry functionality to PHNs as soon as possible, the development of this feature was split into several components.
-
 The remaining features will be rolled out iteratively over the following months, and will be:
 
-* SDQ Data Entry Interface (Currently development is on hold until the Department finalises licensing requirements)
 * Develop pre-filled fields for interrelated field specifications
 * Ability to merge duplicate client records
 * An Online K5, K10+, and SDQ Outcome Measures Self-Service Interface (OMSSS)

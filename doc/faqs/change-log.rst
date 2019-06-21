@@ -3,6 +3,14 @@
 Frequently Asked Questions Change log
 =====================================
 
+21/06/2019
+----------
+
+System - Data Entry FAQs
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+* Updated the question :ref:`enter-k10-k5-sdq-faq`
+
 8/4/2019
 --------
 
@@ -108,8 +116,6 @@ System - Data Entry FAQs
 
 * Updated the question :ref:`enter-edit-key-faq`
 
-* Updated the question :ref:`enter-sdq-faq`
-
 System - Upload FAQs
 ~~~~~~~~~~~~~~~~~~~~
 
@@ -130,8 +136,6 @@ System - Data Entry FAQs
 * Updated the question :ref:`enter-no-show-faq`
 
 * Updated the question :ref:`enter-k10-k5-sdq-faq`
-
-* Added the question :ref:`enter-sdq-faq`
 
 System - Uploading data FAQs
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
