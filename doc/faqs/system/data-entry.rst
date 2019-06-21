@@ -154,24 +154,12 @@ Refer to the online User Guide :ref:`episode-data`.
 
 .. _enter-k10-k5-sdq-faq:
 
-How do I enter a K10+, or K5?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+How do I enter a K10+, or K5, or SDQ?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-These measures tools, K10+ and K5, are entered as an `Outcome Collection Occasion <https://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#outcome-collection-occasion-data-elements>`_.
+These measures tools, K10+, K5 and SDQ, are entered as an `Outcome Collection Occasion <https://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#outcome-collection-occasion-data-elements>`_.
 
 Refer to the online User Guide :ref:`outcome-collection-occasion-data`.
-
-.. _enter-sdq-faq:
-
-How do I enter a SDQ measure?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-The SDQ development for the Data Entry Interface is on hold, as the Department is currently in licensing negotiation with the SDQ developers to
-be able to add the complete SDQ online form to the PMHC MDS. Refer to :ref:`Data Entry Interface Development<dev-data-entry-faq>`.
-
-The SDQ paper version is still able to be used and once the development is released can be entered through the Data Entry Interface.
-
-In the interim, however you can currently add the SDQ subscales through the Data Entry Interface - See :ref:`add-collection-occasion`.
 
 .. _enter-delete-data-faq:
 

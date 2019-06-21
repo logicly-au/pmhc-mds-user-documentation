@@ -3,6 +3,11 @@
 User Guide Change log
 =====================
 
+21/06/2019
+----------
+
+* Edited :ref:`add-collection-occasion` to include entering SDQ items scores.
+
 14/3/2019
 ---------
 

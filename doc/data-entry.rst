@@ -707,14 +707,12 @@ available on the Data Entry tab, by following these steps:
 1. Once :ref:`view-collection-occasion`.
 2. Firstly double check the Collection Occasions is not already showing.
 3. Click the Add New Collection Occasion tab.
-4. Select the Collection Occassion Measure, either K10+, K5 or SDQ. (The SDQ items scored will be added in the near future. See Development Release Schedule :ref:`dev-data-entry-faq`)
+4. Select the Collection Occassion Measure, either K10+, K5 or SDQ.
 
 .. figure:: screen-shots/client-collection-occasions-measure.png
    :alt: Client Data Add Collection Occasions
 
 5. Select to enter the item scores or the total score. (Individual item scores will eventually be required and should be entered when available)
-
-    *Please note: The SDQ items scored will be added in the near future. See Development Release Schedule* :ref:`dev-data-entry-faq`.
 
 .. figure:: screen-shots/client-collection-occasions-score.png
    :alt: Client Data Add Collection Occasions
