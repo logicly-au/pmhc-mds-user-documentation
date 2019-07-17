@@ -3,6 +3,13 @@
 User Guide Change log
 =====================
 
+16/7/2019
+---------
+
+* Added :ref:`duplicate-service-contact`
+
+* Updated screenshots for :ref:`outcome-collection-occasion-data`
+
 21/06/2019
 ----------
 

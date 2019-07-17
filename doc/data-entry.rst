@@ -681,10 +681,7 @@ available on the Data Entry tab, by following these steps:
 
     *Please note: You can edit the Collection Occasion Key from this screen. See* :ref:`edit-collection-occasion-key`.
 
-.. figure:: screen-shots/client-collection-occasions-edit1.png
-   :alt: Client Collection Occasions Edit Details
-
-.. figure:: screen-shots/client-collection-occasions-edit2.png
+.. figure:: screen-shots/client-collection-occasions-edit.png
    :alt: Client Collection Occasions Edit Details
 
 5. Click the blue 'Save' button. (If you decide not to save changes, you can simply navigate away from this screen)
