@@ -572,6 +572,37 @@ If you receive an error message, the data will need to be corrected before the
 record is saved and added to the PMHC MDS.
 See Validation Rules - `Service Contact <http://docs.pmhc-mds.com/en/v1/data-specification/validation-rules.html#service-contact-current-validations>`_.
 
+.. _duplicate-service-contact:
+
+Duplicating a Client's existing Service Contact data
+----------------------------------------------------
+
+To improve the speed of data entry, users can can now duplicate a previously
+recorded service contact. This process creates a new record with a copy of the
+fields recorded in the existing service contact record you have duplicated.
+
+You can duplicate a client's service contacts through the :ref:`view-service-contact`
+available on the Data Entry tab, by following these steps:
+
+1. Once :ref:`view-service-contact`.
+2. Click the "Duplicate this Service Contact" icon next to a record, or open the service contact record and click the 'Duplicate' button.
+4. Complete the Mandatory fields marked with an * and review the pre-filled values. (Specification `Service Contact Data Elements <http://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#service-contact-data-elements>`_)
+
+.. figure:: screen-shots/client-service-contacts-duplicate.png
+   :alt: Client Data Add Service Contact
+
+5. Click the blue 'Save' button. (If you decide not to add this client's episode, you can simply navigate away from this screen)
+
+You will receive confirmation that the Client's service contact details have been added,
+and it will now be displaying these new details in the View service Contact Details tab.
+
+        .. figure:: screen-shots/client-data-saved.png
+           :alt: Client Data Saved Successfully
+
+If you receive an error message, the data will need to be corrected before the
+record is saved and added to the PMHC MDS.
+See Validation Rules - `Service Contact <http://docs.pmhc-mds.com/en/v1/data-specification/validation-rules.html#service-contact-current-validations>`_.
+
 .. _delete-service-contact:
 
 Deleting an Service Contact
@@ -650,10 +681,7 @@ available on the Data Entry tab, by following these steps:
 
     *Please note: You can edit the Collection Occasion Key from this screen. See* :ref:`edit-collection-occasion-key`.
 
-.. figure:: screen-shots/client-collection-occasions-edit1.png
-   :alt: Client Collection Occasions Edit Details
-
-.. figure:: screen-shots/client-collection-occasions-edit2.png
+.. figure:: screen-shots/client-collection-occasions-edit.png
    :alt: Client Collection Occasions Edit Details
 
 5. Click the blue 'Save' button. (If you decide not to save changes, you can simply navigate away from this screen)
