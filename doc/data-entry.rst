@@ -586,12 +586,12 @@ available on the Data Entry tab, by following these steps:
 
 1. Once :ref:`view-service-contact`.
 2. Click the "Duplicate this Service Contact" icon next to a record, or open the service contact record and click the 'Duplicate' button.
-4. Complete the Mandatory fields marked with an * and review the pre-filled values. (Specification `Service Contact Data Elements <http://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#service-contact-data-elements>`_)
+3. Complete the Mandatory fields marked with an * and review the pre-filled values. (Specification `Service Contact Data Elements <http://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#service-contact-data-elements>`_)
 
 .. figure:: screen-shots/client-service-contacts-duplicate.png
    :alt: Client Data Add Service Contact
 
-5. Click the blue 'Save' button. (If you decide not to add this client's episode, you can simply navigate away from this screen)
+4. Click the blue 'Save' button. (If you decide not to add this client's episode, you can simply navigate away from this screen)
 
 You will receive confirmation that the Client's service contact details have been added,
 and it will now be displaying these new details in the View service Contact Details tab.
