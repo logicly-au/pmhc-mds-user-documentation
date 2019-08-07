@@ -3,17 +3,17 @@
 Upload
 ======
 
-You will only be able to see the Upload tab if you have been assigned
+You will only be able to see the **Upload** tab if you have been assigned
 the 'Upload' role, when logged into the PMHC MDS on https://pmhc-mds.net.
 
-If you don’t have access to the Upload tab and you believe you should, please
+If you don’t have access to the **Upload** tab and you believe you should, please
 contact someone in your provider organisation or provider organisation's PHN
 who has the 'User Management' role.
 
 If you are unsure who has the 'User Management' role please email the
 PMHC helpdesk at support@pmhc-mds.com
 
-After navigating to the Upload tab, you will be presented with a drop down list
+After navigating to the **Upload** tab, you will be presented with a drop down list
 of the organisations to which you can upload.
 
 .. figure:: screen-shots/upload.png
@@ -24,36 +24,36 @@ of the organisations to which you can upload.
 Uploading a file
 ^^^^^^^^^^^^^^^^
 
-After navigating to the Upload tab, you will be able to upload
+After navigating to the **Upload** tab, you will be able to upload
 data files to organisations for which you have the 'Upload' role.
 
 You can upload data files through the upload tab, by following these steps:
 
-1. Navigate to the 'Upload' tab.
-2. The Primary Health Network (PHN) will be pre-filled in the 'Organisation' field,
+1. Navigate to the **Upload** tab
+2. The Primary Health Network (PHN) will be pre-filled in the **Organisation** field,
    unless you are allowed to upload to more than one PHN which will allow you to
-   select the PHN whose data you are uploading.
+   select the PHN whose data you are uploading
 
    .. figure:: screen-shots/upload-org-selected.png
       :alt: PMHC MDS Organisation Selected
 
-4. Click the blue 'Select File' button.
+4. Click the blue **Select File** button
 5. Navigate to where the upload file is saved on your system. Select the file
-   and click the grey 'Open' button.
+   and click the grey **Open** button
 
    .. figure:: screen-shots/upload-file-selected.png
       :alt: PMHC MDS Upload File Selected
 
 6. Check to ensure you have selected the correct file by reviewing the file
-   name now displayed below the 'Select File' button.
+   name now displayed below the **Select File** button
 
-7. Click the green 'Upload' button.
+7. Click the green **Upload** button
 
 You will receive confirmation that your file has been accepted. The file will
-now be validated and you will shortly receive a confirmation notification and an
-email. You you can click on the link confirmation notification or open the email
-to view the upload status informing you if your file was successfully uploaded to
-the PMHC MDS, or informing you of any errors that occurred. See :ref:`viewing-previous-uploads`
+now be validated and you will receive a confirmation notification and an
+email. You can click on the link confirmation notification or open the email
+to view the upload status, informing you that your file was successfully uploaded to
+the PMHC MDS, or informing you of any errors that occurred. See :ref:`viewing-previous-uploads`.
 
 Please email support@pmhc-mds.com if you don't receive an email within one hour.
 
@@ -67,29 +67,29 @@ Uploading a file in Test Mode
 A file can be uploaded in Test Mode. When uploading in test mode, the file is
 validated, however the data is not updated in the PMHC MDS database.
 
-After navigating to the Upload tab, you will be able to upload in Test Mode
+After navigating to the **Upload** tab, you will be able to upload in Test Mode
 data files to organisations for which you have the 'Upload' role.
 
-You can upload data files in Test Mode through the upload tab, by following these steps:
+You can upload data files in Test Mode through the **Upload** tab, by following these steps:
 
-1. Navigate to the 'Upload' tab.
+1. Navigate to the **Upload** tab
 2. If you are allowed to upload to more than one organisation you will be
-   asked to select an organisation name.
-3. Select the name of the organisation whose data you are uploading from the drop down list.
-4. Click the blue 'Select File' button.
+   asked to select an organisation name
+3. Select the name of the organisation whose data you are uploading from the drop down list
+4. Click the blue **Select File** button
 5. Navigate to where the upload file is saved on your system. Select the file
-   and click the grey 'Open' button.
+   and click the grey **Open** button
 6. Check to ensure you have selected the correct file by reviewing the file
-   name now displayed below the 'Select File' button.
-7. Click the 'Upload as test data' checkbox on the right hand side.
+   name now displayed below the **Select File** button
+7. Click the **Upload as test data** checkbox on the right hand side
 
    .. figure:: screen-shots/upload-test-mode.png
       :alt: PMHC MDS Test Mode selected
 
-8. Click the green 'Upload' button.
+8. Click the green **Upload** button
 
 You will receive confirmation that your file has been accepted. The file will
-now be validated and you will shortly receive an email informing you if
+now be validated and you will receive an email informing you if
 your file was valid, or informing you of any errors that occurred.
 
 *Even if your file was valid, the data will not be updated in the PMHC MDS database.*
@@ -110,7 +110,7 @@ The PMHC MDS allows you to review previous uploads.
 When an upload has been completed, irregardless of whether it validated successfully
 or not, the upload will be added to the table.
 
-The 'Status of Previous Uploads' table refreshes once files finish the validation process. Types of status results are:
+The **Status of Previous Uploads** table refreshes once files finish the validation process. Types of status results are:
 
   * **accept** - the file is currently going through the validation process
   * **complete** - the file has successfully passed the validation process
@@ -125,11 +125,11 @@ Viewing Upload Details
 
 You can view the results of an upload by following these steps:
 
-1. Navigate to the 'Upload' tab.
-2. Click the 'Upload Status' tab.
-3. Locate the date and time of the upload you are interested in.
-4. Click on the filename of the relevant upload.
-5. You will be shown the 'Upload Detail' page.
+1. Navigate to the **Upload** tab
+2. Click the **Upload Status** tab
+3. Locate the date and time of the upload you are interested in
+4. Click on the filename of the relevant upload
+5. You will be shown the **Upload Detail** page
 
 .. _viewing-complete-uploads:
 
