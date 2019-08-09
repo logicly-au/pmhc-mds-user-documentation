@@ -833,14 +833,34 @@ Key specifications:
 Out-1 - Clinical outcomes - Low intensity psychological interventions
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-To be discussed
+Purpose: Measure effectiveness of low intensity psychological interventions
+
+Key specifications:
+
+* Episodes are included using the same criteria as per :ref:`_category-out-3`.
+* The episode must have a 'Principal Focus of Treatment Plan'
+  flagged as 'Low intensity psychological intervention'.
+* Episodes are classified into 'Significant Improvement', 'No significant change'
+  and 'Significant deterioration' using the effect size statistic.
+* The effect size statistic for an episode is one half of the standard deviation
+  of all initial measurements of the appropriate measurement type.
 
 .. _category-out-2:
 
 Out-2 - Clinical outcomes - Psychological therapies delivered by mental health professionals
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-To be discussed
+Purpose: Measure effectiveness of psychological therapies delivered by mental health professionals
+
+Key specifications:
+
+* Episodes are included using the same criteria as per :ref:`_category-out-3`.
+* The episode must have a 'Principal Focus of Treatment Plan'
+  flagged as 'Psychological therapies delivered by mental health professionals'
+* Episodes are classified into 'Significant Improvement', 'No significant change'
+  and 'Significant deterioration' using the effect size statistic.
+* The effect size statistic for an episode is one half of the standard deviation
+  of all initial measurements of the appropriate measurement type.
 
 .. _category-out-3:
 
