@@ -25,8 +25,8 @@ summarised below.
 Coverage of community-based suicide prevention activities
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Activities such as mental health and suicide awareness training and whole of community health promotion programs (non-clinical services) (e.g., Farm-Link). targeted at groups or whole communities, are not a good fit for the PHMC MDS They are currently reported to the National Suicide Prevention Program) MDS which finishes on the 30th June 2016. What is the mechanism for the future?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Activities such as mental health and suicide awareness training and whole of community health promotion programs (non-clinical services) (e.g., Farm-Link). targeted at groups or whole communities, are not a good fit for the PHMC MDS. They are currently reported to the National Suicide Prevention Program) MDS which finishes on the 30th June 2016. What is the mechanism for the future?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 PHN-commissioned services of this type are outside the scope of the PMHC MDS.
 
@@ -45,8 +45,8 @@ collection and reporting to the PMHC MDS.
 Coverage of digital health services
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Are the PHNs expected to collect and upload all of the data outlined under the 6 Mental Health Priority Areas? If so it will be difficult to collect this data for referrals made to e-mental health sites such as mood gym, mind spot etc. There are also challenges around self-help groups.
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Are the PHNs expected to collect and upload all of the data outlined under the six Mental Health Priority Areas? If so it will be difficult to collect this data for referrals made to e-mental health sites such as mood gym, mind spot etc. There are also challenges around self-help groups.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 As indicated, scope of coverage is all PHN-commissioned mental health services
 delivered to individual clients, regardless of mode of service delivery.

@@ -12,7 +12,7 @@ How can I be advised of any changes to the MDS?
 
 When changes are made to the MDS we alert all users via an email list. MDS
 users are automatically added to this list, however sometimes other Primary
-Health Network or Provider Organisation staff who do not have accounts wish to
+Health Network or provider organisation staff who do not have accounts wish to
 be informed of updates.
 
 If you would like to be added to the mailing list please email support@pmhc-mds.com.
@@ -25,7 +25,7 @@ I have an MDS account but don't receive update emails.
 Please check that we have your correct email address. Refer to :ref:`updating-your-details`
 
 Mailing list emails will be sent from support@pmhc-mds.com. Please make sure
-this is not being caught in any spam filters.
+this is not being caught by any spam filters.
 
 .. _unsubscribe-faq:
 

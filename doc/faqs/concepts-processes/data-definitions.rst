@@ -25,8 +25,6 @@ The ABN provides a simple and nationally unique organisation identifier.
 Organisation ABNs are also public domain information, being available via the
 Australian Business Register website.
 
-...
-
 Practitioner
 ^^^^^^^^^^^^
 
@@ -54,8 +52,6 @@ credentialing or recognition as a qualified mental health professional and inclu
 * Social Workers
 * Aboriginal and Torres Strait Islander health workers.
 
-...
-
 Client
 ^^^^^^
 
@@ -76,8 +72,6 @@ Details on how the SLKs are created, are currently available on the `PMHC MDS Sp
 An SLK Generator has been developed on the `PMHC MDS - SLK tab <https://pmhc-mds.net/#/slk>`_.
 
 See :ref:`slk-generator` for details how to use this feature.
-
-...
 
 Episode
 ^^^^^^^
@@ -216,8 +210,6 @@ has been made that a new coding option should be added to the Episode
 Completion Status field to identify episodes that end due to a change in the
 type of care. The department will consider this as part of any changes made
 to the MDS in the future.
-
-...
 
 Service Contact
 ^^^^^^^^^^^^^^^

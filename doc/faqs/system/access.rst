@@ -19,11 +19,11 @@ How do I get started using the MDS?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Each individual staff member should be set up with their own unique login access.
-Generic login accounts are not encouraged to be set up and used within the PMHC MDS,
-and usernames/passwords should not be shared with other individuals. This process
-ensures that when a staff member leaves, their access can be easily disabled and
-it doesn’t affect other users or the security of the organisation’s data. A user’s
-account, should not be passed from one staff member to the next.
+It is inadvisable to set up and use generic login accounts within the PMHC MDS,
+and usernames / passwords should not be shared with other individuals. This
+ensures that when a staff member leaves, their access can be easily disabled without affecting
+other users or data security. A user’s
+account should not be passed from one staff member to the next.
 
 Refer to :ref:`how-do-i-obtain-access-to-the-mds` for information on
 getting an account on the MDS.
@@ -38,8 +38,8 @@ The MDS is accessed on the web at the following address: https://pmhc-mds.net/
 How do I obtain access to the PMHC MDS?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Access to the PMHC MDS is based around roles. Each role allows a user to perform
-specific tasks. A user can have more than one role. Each role is granted for a
+Access to the PMHC MDS is based on roles. Each role allows a user to perform
+specific tasks, and a user can be assigned multiple roles. Each role is granted for a
 user against an organisation. An organisation can either be a Primary Health
 Network (PHN) or a Provider Organisation. If a user is granted a role for a
 PHN they will also have this role for any Provider Organisations of that PHN.
@@ -47,7 +47,7 @@ A user can be invited to have a role at more than one organisations.
 
 See :ref:`roles` for a summary of each of the roles that currently exist within the PMHC MDS.
 
-User accounts can be created by a user at your PHN or Provider Organisation who
+User accounts can be created by a user at your PHN or provider organisation who
 has the User Management role. If unsure who this is, please contact support@pmhc-mds.com
 to find out who has this access.
 
@@ -69,26 +69,23 @@ being created (i.e., the person's manager or the CEO).
 This letter must contain the following details (for the person for whom
 the MDS access is being requested):
 
-#. Name.
-#. Email address.
-#. Contact telephone number.
-#. Mobile phone number.
+#. Name
+#. Email address
+#. Contact telephone number
+#. Mobile phone number
 #. The exact Primary Health Network or Provider Organisation's name in the MDS
-   you are seeking to access.
+   you are seeking to access
 #. The roles required for the user. The user can have any combination of these roles.
    (See :ref:`roles` for a summary of each of the roles that currently exist within the PMHC MDS.)
 
-This letter must be faxed or scanned then emailed to:
-
-- Strategic Data Fax: (03) 9340 9090
-- PMHC Helpdesk Email: support@pmhc-mds.com
+This letter must be faxed to (03) 9340 9090, or scanned and then emailed to support@pmhc-mds.com.
 
 The same protocol applies if an MDS user no longer requires MDS access and
 needs to hand over their MDS access to another person. However, in this case
 it is advised that the new MDS user has a new username and password issued to
 protect the privacy and security of the organisation's data.
 
-This process will also apply where a user is requesting a password re-set.
+This process will also apply where a user is requesting a password reset.
 However, the auto :ref:`password recovery <password-recovery-faq>` process available
 to you via the MDS login screen is the preferred method of password retrieval.
 
@@ -101,7 +98,7 @@ MDS login screen is the preferred method for a user to update their own details.
 What can a user see in the MDS?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-What you see once you login will depend upon what roles you have been assigned.
+What you see after you login will depend upon the roles to which you have been assigned.
 
 Refer to :ref:`roles` for more information.
 
@@ -110,7 +107,7 @@ Refer to :ref:`roles` for more information.
 I do not have a work mobile. What do I do?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-A user can use their personal mobile. Users' mobile phone numbers are not listed or able to be viewed by other
+A user can use their personal mobile. Users' mobile phone numbers are not listed or viewable by other
 users within the PMHC MDS.
 
 The mobile is only used by the PMHC MDS profile management system to deliver the
@@ -142,7 +139,7 @@ Refer to :ref:`how-do-i-obtain-access-to-the-mds`
 Can I add an existing user to another PHN or Provider Organisation?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Yes, a user can have role/s at more than one organisation.
+Yes, a user can have roles at more than one organisation.
 
 By ensuring you enter the same email and mobile number when completing the invitation
 steps in :ref:`adding-an-exsisting-user`, the system will automatically pick up if a user
@@ -171,7 +168,7 @@ What should I do if a user didn't receive the email invitation?
 
 You will not be able to re-invite this user using the same email within 7 days, as an :ref:`outstanding PMHC MDS invite exists <outstanding-invite-exists-faq>`.
 
-Firstly confirm that you have their correct email address.  Ask the user to
+First confirm that you have their correct email address.  Ask the user to
 double check their junk mail folder and search for an email sent from
 noreply@strategicdata.com.au. Otherwise, please contact the Helpdesk on support@pmhc-mds.com.
 
@@ -225,8 +222,8 @@ I'm a third-party software developer developing software to assist with uploadin
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Yes, we can supply you with an account that has access to a test Primary Health
-Network. In order to set up the test Primary Health Network account we need to
-follow a similar procedure to setting up a proper Primary Health Network account,
+Network. In order to set up the Primary Health Network account for the test environment, we need to
+follow a similar procedure to setting up a Primary Health Network account for the production environment,
 by producing a :ref:`letter of authority <letter-of-authority-faq>`.
 
 On company letterhead, this letter must be signed by an authority at your company
@@ -242,10 +239,7 @@ the MDS access is being requested):
 #. Mobile phone number
 #. Request access to the 'Test [Your Company Name]' Organisation
 
-This letter must be faxed or scanned then emailed to:
-
-- Strategic Data Fax: (03) 9340 9090
-- PMHC Helpdesk Email: support@pmhc-mds.com
+This letter must be faxed to (03) 9340 9090, or scanned and emailed to support@pmhc-mds.com.
 
 Base your letter on the details listed in :ref:`letter-of-authority-faq`
 
@@ -295,11 +289,11 @@ the registered mobile phone on your account.
 
 See :ref:`forgotten-password` for instructions on resetting your password.
 
-It is important to keep your email address and mobile phone current so that
+It is important to keep your email address and mobile phone number current so that
 you can make use of this facility. If you can no longer access the PMHC MDS
-please email the PMHC MDS Helpdesk at support@pmhc-mds.com to update your
+please email the PMHC MDS helpdesk at support@pmhc-mds.com to update your
 email address/mobile phone.
 
-Please note, when contacting the PMHC Helpdesk you will be asked to arrange
+Please note, when contacting the PMHC helpdesk you will be asked to arrange
 for a :ref:`letter of authority <letter-of-authority-faq>` stating the change(s)
 required. Refer to :ref:`letter-of-authority-faq`

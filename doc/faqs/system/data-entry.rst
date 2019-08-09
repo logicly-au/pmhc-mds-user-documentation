@@ -8,11 +8,10 @@ Entering data in the PMHC Minimum Data Set
 What is the best way to manage the client key?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The Client Key needs to be stable for each individual within the Provider Organisation.
+The Client Key needs to be stable for each individual within the provider organisation.
 
-Initially the PHN may decide to play a role in coordinating assignment and management
-of these keys for Provider Organisations, prior to the PMHC MDS implementation a
-Master Client Index during :ref:`Stage-Two` of development.
+The PHN may decide to play a role in coordinating assignment and management
+of these keys for provider organisations.
 
 See data specifications for `Identifier management <http://docs.pmhc-mds.com/en/v1/data-specification/identifier-management.html>`_.
 
@@ -21,11 +20,10 @@ See data specifications for `Identifier management <http://docs.pmhc-mds.com/en/
 Can you suggest a best practice approach to managing client keys?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-We understand that PHNs and Provider Organisations will approach `Identifier management <http://docs.pmhc-mds.com/en/v1/data-specification/identifier-management.html>`_
-in various different ways to best suit their practice. PHNs may decide to
-manage client keys until the Master Client Index is developed and released
-in :ref:`Stage-Two`. In the interim, we suggest speaking with your PHN or another
-Provider Organisation in your network to understand their approach to managing
+We understand that PHNs and provider organisations will approach `Identifier management <http://docs.pmhc-mds.com/en/v1/data-specification/identifier-management.html>`_
+in various different ways to best suit their practice. We
+suggest speaking with your PHN or another
+provider organisation in your network to understand their approach to managing
 their client keys.
 
 Refer to the Department's response to :ref:`identifier-and-key-FAQs`.
@@ -35,8 +33,8 @@ Refer to the Department's response to :ref:`identifier-and-key-FAQs`.
 Why can't we use the SLK as the client key?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The Client Key is required to be a unique client identifier. The SLK isn’t a
-unique key and therefore not suitable to be used as the Client Key.
+The client key is required to be a unique client identifier. The SLK isn’t a
+unique key and therefore not suitable to be used as the client key.
 
 Refer to data specifications for `Identifier management <http://docs.pmhc-mds.com/en/v1/data-specification/identifier-management.html>`_.
 
@@ -45,18 +43,18 @@ Refer to data specifications for `Identifier management <http://docs.pmhc-mds.co
 How will the Master Client Index work?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The previous PMHC MDS specification requires a Client Key that is unique and
-stable at the PHN regional level, not at the Provider Organisation level. The
-purpose of the Master Client Index is to help PHNs and their Provider Organisations
-manage client information across the PHN region. This requirement has proven
-problematic for PHNs and is being worked through by the PMHC MDS Working Group.
+The previous PMHC MDS specification required a client key that was unique and
+stable at the PHN regional level, not at the provider organisation level. The
+purpose of the master client index was to help PHNs and their provider organisations
+manage client information across the PHN region. This requirement proved
+problematic for PHNs and was worked through by the PMHC MDS working group.
 
-To determine what issues exist with managing the client key and possible solutions,
+To determine what issues existed with managing the client key and possible solutions,
 nine PHNs worked with Strategic Data to describe their models for triaging patients,
 the information systems being used by PHNs and Provider Organisations, the ease of
 updating information systems and resources available for manual reconciliation of clients.
 
-As a result of this work, a Master Client Index is not possible at this time,
+As a result of this work, a master client index is not possible at this time,
 and as such, will not be a requirement for full compliance from 1 July 2017.
 
 See :ref:`dev-MCI-faq`.
@@ -75,7 +73,7 @@ Can I enter fictitious data as a part of testing?
 
 The MDS is live and data uploads will be recorded. Real PMHC data can be trialled
 by uploading in test mode, whereas fictitious data should be trialled with a
-'Test Organisation' on developers.pmhc-mds.net.
+test organisation on developers.pmhc-mds.net.
 
 See `PMHC Developers Announcement <https://www.pmhc-mds.com/2017/02/17/Separate-PMHC-MDS-now-available-for-software-developers-to-test-upload-files/>`__.
 
@@ -88,7 +86,7 @@ If you don't have an internal system that can provide you with the client's SLK,
 an SLK generator is available within the client data entry forms. Refer to the
 online User Guide :ref:`add-client`.
 
-There is also a manual Statistical Linkage Key Generator available on the PMHC MDS
+There is also a manual statistical linkage key generator available on the PMHC MDS
 website, under the SLK tab - https://pmhc-mds.net/#/slk. See :ref:`slk-generator`.
 
 .. _enter-unique-key-faq:
@@ -100,9 +98,9 @@ The `Episode Key <https://docs.pmhc-mds.com/en/v1/data-specification/data-model-
 `Service Contact Key <https://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#service-contact-data-elements>`_,
 and `Outcome Collection Occasion Key <https://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#outcome-collection-occasion-data-elements>`_
 are the system `unique identification keys <https://docs.pmhc-mds.com/en/v1/data-specification/identifier-management.html#unique-keys>`_ that will need to
-be manually created and managed by your Provider Organisation.
+be manually created and managed by your provider organisation.
 
-Each record needs to be assigned a stable unique key within the Provider Organisation,
+Each record needs to be assigned a stable unique key within the provider organisation,
 in order to facilitate adding/updating/deleting each item when entering data.
 
 See data specifications for `Identifier management <http://docs.pmhc-mds.com/en/v1/data-specification/identifier-management.html>`_.
@@ -112,10 +110,10 @@ See data specifications for `Identifier management <http://docs.pmhc-mds.com/en/
 How do I find what my Practitioner Key is?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The Practitioner Key is one of the system `unique identification keys <https://docs.pmhc-mds.com/en/v1/data-specification/identifier-management.html#unique-keys>`_ that will
-need to be manually created and managed by your Provider Organisation.
+The practitioner key is one of the system `unique identification keys <https://docs.pmhc-mds.com/en/v1/data-specification/identifier-management.html#unique-keys>`_ that will
+need to be manually created and managed by your provider organisation.
 
-Data Entry users can add a Practitioner once they know their key. Refer to the
+Data entry users can add a practitioner once they know their key. Refer to the
 online User Guide :ref:`add-practitioner`.
 
 .. _enter-edit-key-faq:
@@ -123,7 +121,7 @@ online User Guide :ref:`add-practitioner`.
 How can I edit a record's identifying key?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Each record needs to be assigned a stable unique key within the Provider Organisation,
+Each record needs to be assigned a stable unique key within the provider organisation,
 in order to facilitate adding/updating/deleting each item when entering data.
 
 You can edit a record's identifying key you have entered within the data entry interface. There
@@ -148,7 +146,10 @@ How do I enter a referral?
 
 A referral can be entered as an `Episode <https://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#key-concepts-episode>`_.
 
-An Episode does not need to be concluded if the client requires as a new referral. If the treatment continues with a client, the service contacts can continue to be recorded to the original Episode until treatment is formally concluded either clinically or administratively.
+An episode does not need to be concluded if the client requires as a new
+referral. If the treatment continues with a client, the service contacts can
+continue to be recorded to the original episode until treatment is formally
+concluded either clinically or administratively.
 
 Refer to the online User Guide :ref:`episode-data`.
 
@@ -157,9 +158,10 @@ Refer to the online User Guide :ref:`episode-data`.
 How do I enter a K10+, or K5, or SDQ?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-These measures tools, K10+, K5 and SDQ, are entered as an `Outcome Collection Occasion <https://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#outcome-collection-occasion-data-elements>`_.
+These measures tools, K10+, K5 and SDQ, are entered as
+an `Outcome Collection Occasion <https://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#outcome-collection-occasion-data-elements>`_.
 
-Refer to the online User Guide :ref:`outcome-collection-occasion-data`.
+Refer to the online user guide :ref:`outcome-collection-occasion-data`.
 
 .. _enter-delete-data-faq:
 
@@ -193,7 +195,7 @@ Can I go back and enter information if I don’t have it at the time?
 Yes, the MDS allows you to go back and enter information at a later date.
 
 When data in the upload has the same identification key as recorded in the MDS,
-(eg Client, Practitioner, Episode, Service Contact, and Outcome Collection Keys)
+(e.g. client, practitioner, episode, service contact, and outcome collection keys)
 the data will automatically be updated for these files. The number of files present,
 created, and updated, are summarised on the successful upload notification email.
 
@@ -204,11 +206,11 @@ Refer to upload specification `File format <https://docs.pmhc-mds.com/en/v1/data
 Do I enter a Service Contact when a client doesn't show up for the session?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Yes. A Service Contact record has a 'No Show' field and selecting the value 'Yes'
+Yes. A service contact record has a 'No Show' field and selecting the value 'Yes'
 indicates that the intended participant(s) failed to attend the appointment.
 
-Some of the other Service Contact fields have a 'no show' option available
-to be selected. For any other Service Contact fields, please enter the response
+Some of the other service contact fields have a 'no show' option available
+to be selected. For any other service contact fields, please enter the response
 that would have been entered if the participant had attended the session.
 
 You can decide to enter as much information as possible within a no show form,
@@ -224,20 +226,20 @@ If the client is referred elsewhere (e.g. not suitable for this service) should 
 This decision depends upon your local guidelines.
 
 Under the new PMHC MDS, an episode does not formally commence until the client
-receives their first Service Contact. For referrals that do not lead to a
-Service Contact, and where the person is referred elsewhere, there is no need to
-open an Episode.
+receives their first service contact. For referrals that do not lead to a
+service contact, and where the person is referred elsewhere, there is no need to
+open an episode.
 
 However the Department understands that many PHNs are likely to want to do this
-as a means to track referrals that do not lead to Service Contacts, or to begin
-entering data prior to the first Service Contact. Therefore, there is scope in
-the system to set up an Episode even it does not lead to a Service Contact.
+as a means to track referrals that do not lead to service contacts, or to begin
+entering data prior to the first service contact. Therefore, an episode
+can be set up in the system, even if it does not lead to a service contact.
 Standard reports to be developed will build in capacity to monitor these and
 ensure that they are not counted in service delivery indicators.
 
-Where a referral is followed by an initial Service Contact, and the person is
+Where a referral is followed by an initial service contact, and the person is
 referred elsewhere due to being assessed as not suitable, or requires an alternative
-service, a new code for Episode- Completion Status has been added
+service, a new code for **Episode - Completion Status** has been added
 (‘Episode closed administratively - client referred elsewhere’).
 
 .. _data-entry-episode-uncommenced-faq:
@@ -258,7 +260,7 @@ Refer to `Episode <https://docs.pmhc-mds.com/en/v1/data-specification/data-model
 How can I close an episode?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-To close an episode, you can edit a Client’s Episode details and enter an
+To close an episode, you can edit a client’s episode details and enter an
 'Episode - End Date' and update the 'Episode - Completion Status' value.
 
 Refer to :ref:`edit-episode`.
@@ -268,14 +270,15 @@ Refer to :ref:`edit-episode`.
 What do I do if the GP / mental health provider has not given an answer to one or more questions in the minimum dataset?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Provider Organisations should make every effort to ensure that the data entered
+Provider organisations should make every effort to ensure that the data entered
 into the MDS is as complete as possible. However, most data items specify
 a 'Missing' response. Where information is unavailable, please use this
 response item. The aim is to minimise missing data as much as possible.
 
-Refer to `Record formats <https://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#record-formats>`_ for more information. By clicking on the field name
+Refer to `Record formats <https://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#record-formats>`_
+for more information. By clicking the field name
 this will take you to the field definition which outlines the associated notes that
-provide guidance on which response to use.
+provide guidance on the most suitable response.
 
 .. _data-does-not-fit-faq:
 
@@ -312,13 +315,14 @@ Refer to the Department's response to :ref:`MHNIP-data-faq`.
 I have an error message but no idea what it means or how to fix it. What should I do?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Refer to `Record formats <https://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#record-formats>`_ for more information. By clicking on the field
-name this will take you to the field definition which outlines the associated
-notes that provide guidance on which response to use. It will also inform you if
+Refer to `Record formats <https://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#record-formats>`_
+for more information. Clicking the field
+name will take you to the field definition, which outlines the associated
+notes that provide guidance on the response to use. It will also inform you if
 there are any interrelated field requirements that can cause data errors.
 
-If still unsure, please email the PMHC Helpdesk on support@pmhc-mds.com and provide
+If you are still unsure, please email the PMHC helpdesk on support@pmhc-mds.com and provide
 a description of where the error occurred, a screenshot if possible, and the
 error log number. The error log number is displayed at the end of the error message,
-eg [BVDS105Q], and is very important for the Helpdesk to quickly identifying the
-error and to provide you with a clear response on how to rectify the data issue.
+e.g. [BVDS105Q], and will assist for the helpdesk in quickly identifying the
+error and providing you with a clear response about how to rectify the issue.

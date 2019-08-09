@@ -3,15 +3,15 @@
 Reports
 =======
 
-You will only be able to see the Reports tab if you have been assigned
+You will only be able to see the **Reports** tab if you have been assigned
 the 'Reporting' :ref:`roles`, when logged into the PMHC MDS on https://pmhc-mds.net.
 
-If you don’t have access to the Reports tab and you believe you should, please
+If you don’t have access to the **Reports** tab and you believe you should, please
 contact someone in your provider organisation or provider organisation's PHN
 who has the 'User Management' role. If you are unsure who has the 'User Management'
 role please email the PMHC Helpdesk at support@pmhc-mds.com
 
-After navigating to the Reports tab, you will be able to view and export various
+After navigating to the **Reports** tab, you will be able to view and export various
 :ref:`system-report-types`.
 
 .. figure:: screen-shots/reports.png
@@ -22,25 +22,28 @@ After navigating to the Reports tab, you will be able to view and export various
 How to produce a report
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-You can produce a system report by completing the fields in the Reports tab by
+You can produce a system report by completing the fields in the **Reports** tab by
 following these steps:
 
-1. Navigate to the 'Reports' tab.
+1. Navigate to the **Reports** tab
 
 .. figure:: screen-shots/reports-system.png
    :alt: Reports tab View
 
-2. Select the type of report you would like to produce.
+2. Select the type of report you would like to produce
 3. If you are allowed to produce reports for more than one organisation you
-   will be asked to select an organisation name.
-4. Select the name of the organisation from the drop down list.
+   will be asked to select an organisation name
+4. Select the name of the organisation from the drop down list
 5. Click the first calendar icon to select the start date and then the second
-   calendar icon to select the end date.
-6. If you click the 'Include only records with Client Consent' tickbox, the data for clients that have not consented to their anonymised data being provided to the Department of Health will be excluded from your report. (See `Episode - Client Consent to Anonymised Data <http://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#dfn-client-consent>`_ )
-7. Click the blue ‘Request’ button.
-8. Your report will be displayed on screen and can be downloaded as a CSV.
+   calendar icon to select the end date
+6. If you click the **Include only records with Client Consent** tickbox, the
+   data for clients that have not consented to their anonymised data being
+   provided to the Department of Health will be excluded from your report. (See `Episode - Client Consent to Anonymised Data <http://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#dfn-client-consent>`_ )
+7. Click the blue **Request** button
+8. Your report will be displayed on screen and can be downloaded as a CSV
 
-Note: If you are not sure what data is displayed in a report, please click on the 'Counting Rules Explained' link.
+Note: If you are not sure what data is displayed in a report, please click
+on the **Counting Rules Explained** link.
 
 .. figure:: screen-shots/reports-sample-system.png
    :alt: Reports tab View
@@ -101,12 +104,12 @@ Key specifications:
 
 * To be counted, a client must have had one or more Service Contacts in the
   reporting period, defined for this report's purposes as 'Active Clients'.
-  Clients are counted uniquely regardless of number of episodes.
+  Clients are counted uniquely regardless of number of episodes
 * Episodes to be counted if one or more Service Contacts were recorded in the
-  period - defined for this report purpose as 'Active Episodes'.
+  period - defined for this report purpose as 'Active Episodes'
 * All Service Contacts in the period are reported except those that are flagged
-  as 'No Show'.
-* All dates refer to date of service not date of data upload or data entry.
+  as 'No Show'
+* All dates refer to date of service not date of data upload or data entry
 
 .. _category-a2:
 
@@ -120,12 +123,12 @@ Key specifications:
 
 * To be counted, a client must have had one or more Service Contacts in the
   reporting period, defined for this report purposes as ‘Active Clients’.
-  Clients are counted uniquely regardless of number of episodes.
+  Clients are counted uniquely regardless of number of episodes
 * Episodes to be counted if one or more Service Contacts was recorded in the
-  period – defined for this report purpose as ‘Active Episodes’.
+  period – defined for this report purpose as ‘Active Episodes’
 * All Service Contacts in the period are reported except those that are flagged
-  as ‘No Show’.
-* All dates refer to date of service not date of upload or data entry.
+  as ‘No Show’
+* All dates refer to date of service not date of upload or data entry
 
 .. _category-a3:
 
@@ -144,11 +147,11 @@ Key specifications:
 
 * Clients to be counted uniquely regardless of number of episodes. To be
   counted, a client must have had one or more Service Contacts in the
-  reporting period i.e. ‘Active Clients’.
-* Service Contacts flagged as ‘No Show’ are not included for this purpose.
+  reporting period i.e. ‘Active Clients’
+* Service Contacts flagged as ‘No Show’ are not included for this purpose
 * Missing/invalid data defined as: Data elements with null or invalid values, or
   where ‘system generated’ codes have been reported to denote ‘not stated’,
-  ‘inadequately defined’ or ‘missing’.
+  ‘inadequately defined’ or ‘missing’
 
 .. _category-a3-1:
 
@@ -216,11 +219,11 @@ blank values to be submitted (eg. Principal Focus of Treatment Plan):
 Key specifications:
 
 * Report counts only ‘active episodes’. An Episode is defined as ‘active’ if it
-  has one or more Service Contacts recorded in the period.
-* Service Contacts flagged as ‘No Show’ are not included for this purpose.
+  has one or more Service Contacts recorded in the period
+* Service Contacts flagged as ‘No Show’ are not included for this purpose
 * Missing/invalid data defined as: Episode data elements with null or invalid
   values, or where ‘system generated’ codes have been reported to denote
-  ‘not stated’, ‘inadequately defined’ or ‘missing’.
+  ‘not stated’, ‘inadequately defined’ or ‘missing’
 
 .. _category-a4-1:
 
@@ -341,8 +344,8 @@ Two formats of this report are offered to users:
 Key specifications:
 
 * Report is confined only to ‘active practitioners’. A Practitioner is defined as
-  ‘active’ if it they have recorded one or more Service Contacts in the period.
-* Service Contacts flagged as ‘No Show’ are not included for this purpose.
+  ‘active’ if it they have recorded one or more Service Contacts in the period
+* Service Contacts flagged as ‘No Show’ are not included for this purpose
 
 .. _category-a6-1:
 
@@ -392,8 +395,8 @@ episodes that may warrant review.
 Key specifications:
 
 * Open Episodes defined as those without an End Date or an End Date after the
-  end date of the report.
-* Service Contacts flagged as ‘No Show’ are not included for this purpose.
+  end date of the report
+* Service Contacts flagged as ‘No Show’ are not included for this purpose
 
 Note that if the period between start and end date specified in this report is
 less than 90 days the number of episodes with no service contact activity for
@@ -416,14 +419,14 @@ have both Episode Start and Episode End measures.
 Key specifications:
 
 * Open Episodes are defined as those without an End Date or an End Date after the
-  end date of the report.
-  less than or equal to the report end date.
+  end date of the report
+  less than or equal to the report end date
 * For this report, Episodes must also have an Episode Start Date equal to or greater than
-  the report start date.
+  the report start date
 * Only Episodes with one or more Service Contacts in the reporting period are
-  included in the analysis (referred to as 'active episodes').
-* Service Contacts flagged as ‘No Show’ are not included for this purpose.
-* Measures that have a total score of ‘99’ are invalid and counted as 'no measure'.
+  included in the analysis (referred to as 'active episodes')
+* Service Contacts flagged as ‘No Show’ are not included for this purpose
+* Measures that have a total score of ‘99’ are invalid and counted as 'no measure'
 
 .. _category-a9:
 
@@ -438,13 +441,13 @@ at Episode Start and Episode End.
 Key specifications:
 
 * Completed Episodes are defined as those Episodes with an Episode End Date
-  less than or equal to the report end date.
+  less than or equal to the report end date
 * For this report, Episodes must also have an Episode Start Date equal to or greater than
-  the report start date.
+  the report start date
 * Only Episodes with one or more Service Contacts in the reporting period are
-  included in the analysis (referred to as 'active episodes').
-* Service Contacts flagged as ‘No Show’ are not included for this purpose.
-* Measures that have a total score of ‘99’ are invalid and counted as 'no measure'.
+  included in the analysis (referred to as 'active episodes')
+* Service Contacts flagged as ‘No Show’ are not included for this purpose
+* Measures that have a total score of ‘99’ are invalid and counted as 'no measure'
 
 .. _category-b:
 
@@ -480,11 +483,11 @@ Key specifications:
 
 * Client to be counted uniquely regardless of number of episodes. To be
   counted, a client must have had one or more Service Contacts in the
-  reporting period.
+  reporting period
 * Counts of Episodes to be based only on 'active' Episodes, defined as those
-  that had one or more Service Contacts recorded in the period.
-* Service Contacts flagged as ‘No Show’ are not included for this purpose.
-* Age is calculated at start of episode.
+  that had one or more Service Contacts recorded in the period
+* Service Contacts flagged as ‘No Show’ are not included for this purpose
+* Age is calculated at start of episode
 
 .. _category-b2:
 
@@ -499,8 +502,8 @@ Key specifications:
 
 * An Episode is defined as 'active' and in-scope for inclusion in this report
   if it had one or more Service Contacts recorded in the period. No distinction
-  is made between Open and Completed Episodes.
-* Service Contacts flagged as ‘No Show’ are not included for this purpose.
+  is made between Open and Completed Episodes
+* Service Contacts flagged as ‘No Show’ are not included for this purpose
 
 .. _category-b3:
 
@@ -514,8 +517,8 @@ core Service Contact fields.
 Key specifications:
 
 * Reporting by ‘Service Contact No Show’ element counts all service contacts
-  by whether they are flagged as ‘No Show’.
-* Otherwise, Service Contacts flagged as ‘No Show’ are not included in this report.
+  by whether they are flagged as ‘No Show’
+* Otherwise, Service Contacts flagged as ‘No Show’ are not included in this report
 
 .. _category-b4:
 
@@ -530,8 +533,8 @@ Key specifications:
 
 * A Provider Organisation is defined as 'active' if it has recorded and in-scope
   for this report if there is one or more Service Contacts recorded for the
-  Provider Organisation in the period.
-* Service Contacts flagged as ‘No Show’ are not included for this purpose.
+  Provider Organisation in the period
+* Service Contacts flagged as ‘No Show’ are not included for this purpose
 
 .. _category-b5:
 
@@ -545,8 +548,8 @@ data fields.
 Key specifications:
 
 * A Practitioner is defined as 'active' and in-scope for this report if they
-  have recorded one or more Service Contacts in the period.
-* Service Contacts flagged as ‘No Show’ are not included for this purpose.
+  have recorded one or more Service Contacts in the period
+* Service Contacts flagged as ‘No Show’ are not included for this purpose
 
 .. _category-c:
 
@@ -583,11 +586,11 @@ Key specifications:
 * Only ‘active episodes’ are reported. An Episode is defined as ‘active’ and
   in scope for inclusion in this report if it had one or more Service Contacts
   recorded in the period. No distinction is made between Open and Completed
-  Episodes.
+  Episodes
 * Service Contacts flagged as ‘No Show’ are not included for this purpose.
 * Counts shown in the report refer to Episodes, and are displayed as numbers
-  or percent column based on user selection.
-* Age is calculated at start of episode.
+  or percent column based on user selection
+* Age is calculated at start of episode
 
 Client data elements that can be selected for the C1 report are:
 
@@ -629,10 +632,10 @@ Key specifications:
 * Only ‘active episodes’ are reported. An Episode is defined as ‘active’ and
   in scope for inclusion in this report if it had one or more Service Contacts
   recorded in the period. No distinction is made between Open and Completed
-  Episodes.
-* Service Contacts flagged as ‘No Show’ are not included for this purpose.
+  Episodes
+* Service Contacts flagged as ‘No Show’ are not included for this purpose
 * Counts shown in the report refer to Episodes, and are displayed as numbers
-  or percent rows based on user selection.
+  or percent rows based on user selection
 
 .. _category-c3:
 
@@ -647,12 +650,12 @@ Key specifications:
 * Only ‘active episodes’ are reported. An Episode is defined as ‘active’ and
   in scope for inclusion in this report if it had one or more Service Contacts
   recorded in the period. No distinction is made between Open and Completed
-  Episodes.
-* Service Contacts flagged as ‘No Show’ are not included for this purpose.
+  Episodes
+* Service Contacts flagged as ‘No Show’ are not included for this purpose
 * Counts shown in the report refer to Episodes, and are displayed as numbers
-  or percent rows based on user selection.
+  or percent rows based on user selection
 * Total Clients is a unique count of clients, not the sum of the individual rows.
-  Clients may be counted in more than one row.
+  Clients may be counted in more than one row
 
 .. _category-d:
 
@@ -719,10 +722,10 @@ Key specifications:
 * Only ‘active clients’ are reported. A Client is defined as ‘active’ and
   in scope for inclusion in this report if they had one or more Service Contacts
   recorded in the period. The episode must have a 'Principal Focus of Treatment
-  Plan' flagged as 'Low intensity psychological intervention'.
-* Service Contacts flagged as ‘No Show’ are not included for this purpose.
-* Population is calculated from Estimated Regional Population figures.
-* KPI is measured in clients per 100,000 population.
+  Plan' flagged as 'Low intensity psychological intervention'
+* Service Contacts flagged as ‘No Show’ are not included for this purpose
+* Population is calculated from Estimated Regional Population figures
+* KPI is measured in clients per 100,000 population
 
 .. _category-acc-2:
 
@@ -737,10 +740,10 @@ Key specifications:
 * Only ‘active clients’ are reported. A Client is defined as ‘active’ and
   in scope for inclusion in this report if they had one or more Service Contacts
   recorded in the period. The episode must have a 'Principal Focus of Treatment
-  Plan' flagged as 'Psychological therapy'.
-* Service Contacts flagged as ‘No Show’ are not included for this purpose.
-* Population is calculated from Estimated Regional Population figures.
-* KPI is measured in clients per 100,000 population.
+  Plan' flagged as 'Psychological therapy'
+* Service Contacts flagged as ‘No Show’ are not included for this purpose
+* Population is calculated from Estimated Regional Population figures
+* KPI is measured in clients per 100,000 population
 
 .. _category-acc-3:
 
@@ -755,10 +758,10 @@ Key specifications:
 * Only ‘active clients’ are reported. A Client is defined as ‘active’ and
   in scope for inclusion in this report if they had one or more Service Contacts
   recorded in the period. The episode must have a 'Principal Focus of Treatment
-  Plan' flagged as 'Clinical care coordination'.
-* Service Contacts flagged as ‘No Show’ are not included for this purpose.
-* Population is calculated from Estimated Regional Population figures.
-* KPI is measured in clients per 100,000 population.
+  Plan' flagged as 'Clinical care coordination'
+* Service Contacts flagged as ‘No Show’ are not included for this purpose
+* Population is calculated from Estimated Regional Population figures
+* KPI is measured in clients per 100,000 population
 
 .. _category-app-1:
 
@@ -774,12 +777,12 @@ Key specifications:
   in scope for inclusion in this report if they are aged between 12-24 and had
   one or more Service Contacts recorded in the period. The episode must have a
   'Principal Focus of Treatment Plan' flagged as 'Child and youth-specific mental
-  health services'.
-* Service Contacts flagged as ‘No Show’ are not included for this purpose.
+  health services'
+* Service Contacts flagged as ‘No Show’ are not included for this purpose
 * Population is calculated from Estimated Regional Population figures
-  for people aged 12-24.
-* KPI is measured in clients per 100,000 population.
-* Age is calculated at start of episode.
+  for people aged 12-24
+* KPI is measured in clients per 100,000 population
+* Age is calculated at start of episode
 
 .. _category-app-2:
 
@@ -794,14 +797,14 @@ services were culturally appropriate.
 Key specifications:
 
 * Service contacts are in scope for inclusion in this report if they
-  occurred within the reporting period and are not flagged as ‘No Show’.
+  occurred within the reporting period and are not flagged as ‘No Show’
 * KPI is measured as the percentage of service contacts which are
   culturally appropriate
 * A culturally appropriate service is defined as one that is delivered by
   a service provider that is recorded as of ATSI origin, or employed by an
   Aboriginal Community Controlled Health Service or has indicated that
   they have completed a recognised training programme in the delivery of
-  culturally safe services to ATSI peoples.
+  culturally safe services to ATSI peoples
 
 .. _category-app-3:
 
@@ -814,19 +817,19 @@ suicide, who are followed up within 7 days of referral.
 
 Key specifications:
 
-* Only episodes with a referral date within the reporting period are included.
-* Service contacts which are flagged as ‘No Show’ are not included.
-* Service contacts where the Client Participation Indicator flag is ‘No’ are not included.
+* Only episodes with a referral date within the reporting period are included
+* Service contacts which are flagged as ‘No Show’ are not included
+* Service contacts where the Client Participation Indicator flag is ‘No’ are not included
 * '% Episodes with Suicide Risk Flag %’ counts the proportion of all episodes
-  which are flagged as a suicide risk.
+  which are flagged as a suicide risk
 * Other than in the '% Episodes with Suicide Risk Flag' column, only episodes
-  flagged as suicide risk are counted.
+  flagged as suicide risk are counted
 * Episodes where the first service contact occurred within 7 days are
   tabulated as ‘7 days or less’
 * Episodes where no service contact occurred are tabulated as ‘No Service
-  Contact Occurred’.
+  Contact Occurred’
 * KPI is measured as percentage of episodes flagged as a suicide risk which
-  have a service contact within 7 days.
+  have a service contact within 7 days
 
 .. _category-out-3:
 
@@ -838,12 +841,12 @@ Purpose: Measure completion rates for clinical outcome measures.
 Key specifications:
 
 * Completed Episodes are defined as those Episodes with an Episode End Date
-  less than or equal to the report end date.
+  less than or equal to the report end date
 * For this report, Episodes must also have an Episode Start Date equal to or greater than
-  the report start date.
+  the report start date
 * Only Episodes with one or more Service Contacts in the reporting period are
-  included in the analysis (referred to as 'active episodes').
-* Service Contacts flagged as ‘No Show’ are not included for this purpose.
+  included in the analysis (referred to as 'active episodes')
+* Service Contacts flagged as ‘No Show’ are not included for this purpose
 * To be counted at 'Matched', both an initial and final measure of matching type
   must be recorded, each with a valid total score (not ‘99’). This rule is a little
   tighter than that used in the A9 report, so figures in the two reports may vary
@@ -873,10 +876,9 @@ They are based on a subset of Category A reports but differ in two important way
 * The reports are based on ‘raw data’, not filtered or trimmed by any data
   quality censoring. Comparable Category A reports restrict the reported data
   by specific edit criteria (e.g., Category A reports are only based on
-  ‘active clients’, ‘active episodes’ and ‘active providers’).
-
+  ‘active clients’, ‘active episodes’ and ‘active providers’)
 * All dates refer to date of upload. Comparable Category A reports are based on
-  date of service.
+  date of service
 
 Category E reports are specifically designed to enable PHN and Provider
 Organisation data managers to monitor upload and data supply to the MDS.
@@ -897,8 +899,8 @@ collection occasions and practitioners, without any filtering for business rules
 
 Key specifications:
 
-* All records to be counted with no filtering.
-* All dates refer to date of modification, not date of service.
+* All records to be counted with no filtering
+* All dates refer to date of modification, not date of service
 
 .. _category-e2:
 
@@ -910,9 +912,9 @@ contacts, collection occasions and practitioners.
 
 Key specifications:
 
-* All records to be counted with no filtering.
-* All dates refer to date of insertion, not date of service.
-* Results are cumulative.
+* All records to be counted with no filtering
+* All dates refer to date of insertion, not date of service
+* Results are cumulative
 
 .. _category-e3:
 
@@ -926,5 +928,5 @@ added or modified.
 
 Key specifications:
 
-* All records to be counted with no filtering.
-* All dates refer to date of modification, not date of service.
+* All records to be counted with no filtering
+* All dates refer to date of modification, not date of service

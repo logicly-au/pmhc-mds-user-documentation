@@ -3,6 +3,6 @@
 Getting Help
 ^^^^^^^^^^^^
 
-A dedicated **Helpdesk** is available to support Primary Health Networks and
-Provider Organisations implementing PMHC in relation to the minimum dataset
+A dedicated **helpdesk** is available to support Primary Health Networks and
+provider organisations implementing PMHC in relation to the minimum dataset
 system. All enquiries should be directed to: support@pmhc-mds.com.
