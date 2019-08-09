@@ -682,9 +682,8 @@ framework, bringing the total to 14.
 * :ref:`category-app-1`
 * :ref:`category-app-2`
 * :ref:`category-app-3`
-* Out-1 - Clinical outcomes - Low intensity psychological interventions
-* Out-2 - Clinical outcome - Psychological therapies delivered by mental
-  health professionals
+* :ref:`category-out-1`
+* :ref:`category-out-2`
 * :ref:`category-out-3`
 
 **Note:** Out-1 and Out-2 reports are still to be implemented.
@@ -827,6 +826,21 @@ Key specifications:
   Contact Occurred’.
 * KPI is measured as percentage of episodes flagged as a suicide risk which
   have a service contact within 7 days.
+
+
+.. _category-out-1:
+
+Out-1 - Clinical outcomes - Low intensity psychological interventions
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+To be discussed
+
+.. _category-out-2:
+
+Out-2 - Clinical outcomes - Psychological therapies delivered by mental health professionals
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+To be discussed
 
 .. _category-out-3:
 
