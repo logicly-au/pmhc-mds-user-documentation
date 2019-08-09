@@ -686,8 +686,6 @@ framework, bringing the total to 14.
 * :ref:`category-out-2`
 * :ref:`category-out-3`
 
-**Note:** Out-1 and Out-2 reports are still to be implemented.
-
 The following reports are not available via the PMHC MDS as they require
 information that is not derived from the PMHC MDS:
 
@@ -837,7 +835,15 @@ Purpose: Measure effectiveness of low intensity psychological interventions
 
 Key specifications:
 
-* Episodes are included using the same criteria as per :ref:`_category-out-3`.
+* Completed Episodes are defined as those Episodes with an Episode End Date
+  less than or equal to the report end date.
+* For this report, Episodes must also have an Episode Start Date equal to or greater than
+  the report start date.
+* Only Episodes with one or more Service Contacts in the reporting period are
+  included in the analysis (referred to as 'active episodes').
+* Service Contacts flagged as ‘No Show’ are not included for this purpose.
+* To be counted at 'Matched', both an initial and final measure of matching type
+  must be recorded.  See :ref:`matching_measure_types`
 * The episode must have a 'Principal Focus of Treatment Plan'
   flagged as 'Low intensity psychological intervention'.
 * Episodes are classified into 'Significant Improvement', 'No significant change'
@@ -854,7 +860,15 @@ Purpose: Measure effectiveness of psychological therapies delivered by mental he
 
 Key specifications:
 
-* Episodes are included using the same criteria as per :ref:`_category-out-3`.
+* Completed Episodes are defined as those Episodes with an Episode End Date
+  less than or equal to the report end date.
+* For this report, Episodes must also have an Episode Start Date equal to or greater than
+  the report start date.
+* Only Episodes with one or more Service Contacts in the reporting period are
+  included in the analysis (referred to as 'active episodes').
+* Service Contacts flagged as ‘No Show’ are not included for this purpose.
+* To be counted at 'Matched', both an initial and final measure of matching type
+  must be recorded.  See :ref:`matching_measure_types`
 * The episode must have a 'Principal Focus of Treatment Plan'
   flagged as 'Psychological therapies delivered by mental health professionals'
 * Episodes are classified into 'Significant Improvement', 'No significant change'
@@ -879,10 +893,18 @@ Key specifications:
   included in the analysis (referred to as 'active episodes').
 * Service Contacts flagged as ‘No Show’ are not included for this purpose.
 * To be counted at 'Matched', both an initial and final measure of matching type
-  must be recorded, each with a valid total score (not ‘99’). This rule is a little
+  must be recorded.  See :ref:`matching_measure_types`
   tighter than that used in the A9 report, so figures in the two reports may vary
+  between these reports.
 
-Matching measure types:
+.. _matching_measure_types:
+
+Matching measure types
+++++++++++++++++++++++
+
+Reports :ref:`category-out-1`, :ref:`category-out-2` and :ref:`category-out-3`
+require initial and final measures to have valid total score (not '99') and to
+be of matching type as per the following table:
 
 ========= =========
 Initial   Final
@@ -893,6 +915,9 @@ SDQ PC101 SDQ PC201
 SDQ PY101 SDQ PY201
 SDQ YR101 SDQ YR201
 ========= =========
+
+This rule is a little tighter than that used in :ref:`category-a9`, so
+figures may vary.
 
 .. _category-e:
 
