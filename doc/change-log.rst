@@ -3,6 +3,11 @@
 User Guide Change log
 =====================
 
+14/8/2019
+---------
+
+* Added reports OUT-1 and OUT-2 to :ref:`category-d`
+
 16/7/2019
 ---------
 

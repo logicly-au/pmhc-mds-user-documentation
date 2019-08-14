@@ -839,41 +839,41 @@ Purpose: Measure effectiveness of low intensity psychological interventions
 Key specifications:
 
 * Completed Episodes are defined as those Episodes with an Episode End Date
-  less than or equal to the report end date.
+  less than or equal to the report end date
 * Only Episodes with one or more Service Contacts in the reporting period are
-  included in the analysis (referred to as 'active episodes').
-* Service Contacts flagged as ‘No Show’ are not included for this purpose.
+  included in the analysis (referred to as 'active episodes')
+* Service Contacts flagged as ‘No Show’ are not included for this purpose
 * To be counted at 'Matched', both an initial and final measure of matching type
   must be recorded.  See :ref:`matching_measure_types`
 * The episode must have a 'Principal Focus of Treatment Plan'
-  flagged as 'Low intensity psychological intervention'.
+  flagged as 'Low intensity psychological intervention'
 * Episodes are classified into 'Significant Improvement', 'No significant change'
-  and 'Significant deterioration' using the effect size statistic.
+  and 'Significant deterioration' using the effect size statistic
 * The effect size statistic for an episode is one half of the standard deviation
-  of all initial measurements of the appropriate measurement type.
+  of all initial measurements of the appropriate measurement type
 
 .. _category-out-2:
 
 Out-2 - Clinical outcomes - Psychological therapies delivered by mental health professionals
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 Purpose: Measure effectiveness of psychological therapies delivered by mental health professionals
 
 Key specifications:
 
 * Completed Episodes are defined as those Episodes with an Episode End Date
-  less than or equal to the report end date.
+  less than or equal to the report end date
 * Only Episodes with one or more Service Contacts in the reporting period are
-  included in the analysis (referred to as 'active episodes').
-* Service Contacts flagged as ‘No Show’ are not included for this purpose.
+  included in the analysis (referred to as 'active episodes')
+* Service Contacts flagged as ‘No Show’ are not included for this purpose
 * To be counted at 'Matched', both an initial and final measure of matching type
   must be recorded.  See :ref:`matching_measure_types`
 * The episode must have a 'Principal Focus of Treatment Plan'
   flagged as 'Psychological therapies delivered by mental health professionals'
 * Episodes are classified into 'Significant Improvement', 'No significant change'
-  and 'Significant deterioration' using the effect size statistic.
+  and 'Significant deterioration' using the effect size statistic
 * The effect size statistic for an episode is one half of the standard deviation
-  of all initial measurements of the appropriate measurement type.
+  of all initial measurements of the appropriate measurement type
 
 .. _category-out-3:
 

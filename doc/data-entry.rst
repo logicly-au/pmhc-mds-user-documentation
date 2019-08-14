@@ -494,15 +494,15 @@ available on the **Data Entry** tab, by following these steps:
 2. From the client's **Episode Details** tab, click the **Service Contacts** tab.
    The heading for this tab displays in brackets the total number of service contacts recorded
    in the PMHC MDS for this episode
-4. A table will display all the Service Contacts linked to this client's Episode
+3. A table will display all the Service Contacts linked to this client's Episode
 
-.. figure:: screen-shots/client-service-contacts-view.png
-   :alt: Client Episode Service Contacts Table View
+   .. figure:: screen-shots/client-service-contacts-view.png
+     :alt: Client Episode Service Contacts Table View
 
-5. To view the Service Contact's details, click the blue **Service Contact Key**
+4. To view the Service Contact's details, click the blue **Service Contact Key**
 
-.. figure:: screen-shots/client-service-contacts-details.png
-   :alt: Client Episode Service Contacts Details View
+   .. figure:: screen-shots/client-service-contacts-details.png
+     :alt: Client Episode Service Contacts Details View
 
 A page will display the Service Contacts details as recorded via the `Service Contact Data Elements <http://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#service-contact-data-elements>`_.
 
@@ -610,10 +610,10 @@ available on the **Data Entry** tab, by following these steps:
 2. Click the **Duplicate this Service Contact** icon next to a record, or
    open the service contact record and click the **Duplicate** button
 3. Complete the mandatory fields marked with an * and review the pre-filled values
-  (Specification `Service Contact Data Elements <http://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#service-contact-data-elements>`_)
+   (Specification `Service Contact Data Elements <http://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#service-contact-data-elements>`_)
 
-.. figure:: screen-shots/client-service-contacts-duplicate.png
-   :alt: Client Data Add Service Contact
+   .. figure:: screen-shots/client-service-contacts-duplicate.png
+     :alt: Client Data Add Service Contact
 
 4. Click the blue **Save** button. (If you decide not to duplicate this
    client's service contact, you can simply navigate away from this screen)
