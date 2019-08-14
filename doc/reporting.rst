@@ -840,8 +840,6 @@ Key specifications:
 
 * Completed Episodes are defined as those Episodes with an Episode End Date
   less than or equal to the report end date.
-* For this report, Episodes must also have an Episode Start Date equal to or greater than
-  the report start date.
 * Only Episodes with one or more Service Contacts in the reporting period are
   included in the analysis (referred to as 'active episodes').
 * Service Contacts flagged as ‘No Show’ are not included for this purpose.
@@ -865,8 +863,6 @@ Key specifications:
 
 * Completed Episodes are defined as those Episodes with an Episode End Date
   less than or equal to the report end date.
-* For this report, Episodes must also have an Episode Start Date equal to or greater than
-  the report start date.
 * Only Episodes with one or more Service Contacts in the reporting period are
   included in the analysis (referred to as 'active episodes').
 * Service Contacts flagged as ‘No Show’ are not included for this purpose.
