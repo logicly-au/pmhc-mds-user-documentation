@@ -5,13 +5,13 @@ Home
 
 To use the PMHC MDS navigate to https://pmhc-mds.net.
 
-The first page you will see is the Home page. The home page shows you the
+The first page you will see is the **Home** page. The home page shows you the
 most recent announcements made via the :ref:`mailing-list-FAQs`.
 
 .. figure:: screen-shots/home-page.png
    :alt: PMHC MDS Home Page
 
-An announcements archive link is now available on the Home tab under the three
+An announcements archive link is now available on the **Home** tab under the three
 most recent announcements - Click `View Archive <https://www.pmhc-mds.com/communications/>`_
 to view all the PMHC MDS announcements.
 
@@ -28,43 +28,43 @@ will need to accept this invitation within 7 days, by following these steps:
    :alt: PMHC MDS Invitation Email
 
 1. Click on the link contained in the email. You will be shown a page where
-   you will need to input the SMS you have been sent.
+   you will need to input the SMS you have been sent
 
    .. figure:: screen-shots/account-verify-user.png
       :alt: PMHC MDS Verify User
 
-2. Input your verification code.
-3. Click 'Submit'.
-4. You will be shown a page where you need to choose a password.
+2. Input your verification code
+3. Click **Submit**
+4. You will be prompted to enter a new password
 
 *Please note: This is a single use token - please don't navigate away from this page until you have successfully set your password.*
 
    .. figure:: screen-shots/account-activate-password.png
       :alt: PMHC MDS Activate Account
 
-5. Enter your password.
-6. Confirm your password.
-7. Click 'Submit'.
-8. Your account will now be activated.
+5. Enter your password
+6. Confirm your password
+7. Click **Submit**
+8. Your account will be activated
 
    .. figure:: screen-shots/account-activated.png
       :alt: PMHC MDS Account Activated
 
 9. Navigate to https://pmhc-mds.net/ and follow the :ref:`logging-in`
-   instructions.
+   instructions
 
 .. _logging-in:
 
 Logging In
 ^^^^^^^^^^
 
-After navigating to https://pmhc-mds.net/ click the 'Sign in' button to login.
+After navigating to https://pmhc-mds.net/, click **Sign in**.
 
 .. figure:: screen-shots/account-sign-in.png
    :alt: PMHC MDS Sign In
 
-You will be presented with a login form. Enter your email address or username
-and then your password and click 'Sign in'.
+This will open a window to log in. Enter your email address or username
+and then your password and click **Sign in**.
 
 .. _setting-backup-email:
 
@@ -79,53 +79,53 @@ your password an email is sent to both your primary email address and your
 backup email address. This allows you to regain access to your account in the
 event that you no longer have access to your primary email address.
 
-1. Click 'Set a backup email now.'
-2. You will be shown the manage details page.
+1. Click **Set a backup email now**
+2. This will open the **Manage details** page
 
    .. figure:: screen-shots/backup-set-email.png
       :alt: PMHC MDS Setting Backup Email
 
-3. Under 'Manage Security Credentials' there will be an 'Email address' field.
-4. Type in your backup email.
-5. Click 'Submit'
+3. Under **Manage Security Credentials** there is an 'Email address' field
+4. Enter your backup email, in the email address field, under **Manage Security
+   Credentials**
+5. Click **Submit**
 
    .. figure:: screen-shots/backup-email-success.png
       :alt: PMHC MDS Backup Email Success message
 
-6. You now need to confirm the email address. You will have been sent an email
-   to the address you specified and an SMS to the mobile phone number we have on
+6. You now need to confirm your email address. You will be sent an email
+   to the address you specified and an SMS to the mobile phone number on
    record. Please follow the link in the email and enter the code that
-   has been sent to your mobile.
+   was sent to your mobile
 
    .. figure:: screen-shots/account-verify-user.png
       :alt: PMHC MDS User Verification
 
-7. Click 'Submit'
-8. Your backup email is now confirmed.
+7. Click **Submit**
+8. Your backup email is now confirmed
 
    .. figure:: screen-shots/backup-email-confirm-update.png
       :alt: PMHC MDS Confirm Update Email
 
-9. Navigate back to https://pmhc-mds.net/ and sign in.
-10. What you see once you login will depend upon what :ref:`roles` you have been
-    assigned.
+9. Navigate back to https://pmhc-mds.net/ and sign in
+10. The interface you will be able to access after login will depend upon the
+    :ref:`roles` you have been assigned
 
 .. _logging-out:
 
 Logging Out
 ^^^^^^^^^^^
 
-Once logged in, logout by:
+Logout by:
 
-1. Clicking on the button to the right of the menubar that says 'Logged in as [Name]'.
-2. A drop down menu will appear.
-3. Click 'Logout'.
+1. Clicking on the button to the right of the menubar that says **Logged in as [Name]**
+2. Click **Logout** from the options that open
 
-We highly encourage users to logout once they have completed their tasks.
+We strongly encourage users to logout when they have completed their tasks.
 
-*Please note - the PMHC MDS will automatically log out users after 15
-minutes of inactivity.  You will see a pop up box that will provide a count
-down feature prior to automatically logging out the idle user.*
+*Please note - the PMHC MDS will automatically log users out after 15
+minutes of inactivity.  You will see a pop up box that provides a countdown
+feature prior to automatically logging out the idle user.*
 
 .. figure:: screen-shots/account-logout-count-down.png
    :alt: PMHC MDS Auto Log Out
@@ -135,28 +135,27 @@ down feature prior to automatically logging out the idle user.*
 Updating your details
 ^^^^^^^^^^^^^^^^^^^^^
 
-Once signed in, to edit your details:
+To edit your details:
 
-1. Click on the button to the right of the menubar that says 'Logged in as [Name]'.
-2. A drop down menu will appear.
-3. Click 'Profile'.
-4. You will be taken to the Profile Management system.
-5. Login using your PMHC MDS email/username and password.
+1. Click the button to the right of the menubar that says **Logged in as [Name]**
+2. From the menu that opens, click **Profile**
+3. You will be taken to the Profile Management page
+4. Login using your PMHC MDS email / username and password
 
 .. figure:: screen-shots/account-manage-profile-login.png
    :alt: PMHC MDS Manage Details
 
-6. You will see the 'Manage Details' page.
+5. You will see the **Manage Details** page
 
    .. figure:: screen-shots/account-manage-details.png
       :alt: PMHC MDS Manage Details
 
-7. To update your name, click the 'Change personal details' link.
-8. To update your primary email address, click the 'Change email address' link.
-9. To update your backup email address, click the 'Change backup email address
-   link.
-10. To update your mobile phone number, click the 'Change mobile phone number'
-    link.
-11. The last section on the page 'Password lifetime', tells you when
-    you last changed your password and when it will expire. Passwords have
-    to be changed every 3 months.
+6. To update your name, click the **Change personal details** link
+7. To update your primary email address, click the **Change email address** link
+8. To update your backup email address, click the **Change backup email address**
+   link
+9. To update your mobile phone number, click the **Change mobile phone number**
+    link
+10. The last section on the page, **Password lifetime**, tells you when
+    you last changed your password and when it will expire. Passwords must
+    be changed every three months

@@ -14,7 +14,7 @@ Upload templates are available from `Upload specification <https://docs.pmhc-mds
 What do I do if I have collected the data in Excel or Access?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Visit the online MDS documentation regarding uploads were a detailed User Guide for data uploads is available.
+Visit the online MDS documentation regarding uploads were a detailed user guide for data uploads is available.
 
 See `Upload specification <https://docs.pmhc-mds.com/en/v1/data-specification/upload-specification.html#upload-specification>`_.
 
@@ -27,9 +27,9 @@ All data should be uploaded for the first upload, but subsequently only new or
 changed data should be uploaded. However, parent records of new or changed data
 also need to be uploaded in order to keep the file internally consistent.
 
-As example of what this means is that if a service contact record is added
-or changed, there msut be a corresponding episode record in the episode file
-and a client record in the clients file, even if the episode and client data
+An example of what this means is that if a service contact record is added
+or changed, there must be a corresponding episode record in the episode file
+and a client record in the client file, even if the episode and client data
 hasn't changed. Also, as service contacts refer to practitioners, there must
 also be a practitioner record in the practitioner file.
 
@@ -40,10 +40,10 @@ How can I edit a record I have previously uploaded?
 
 There is a unique identifying key associated with every record in the PMHC MDS.
 When you upload a record with the same unique identifying key with updated data,
-then the MDS will recognise this record's key and update the data already recorded
+the MDS will recognise the record's key and update the data already recorded
 in the system.
 
-When an upload is completed successfully, you will see a summary of the updated
+When the upload has completed successfully, you will see a summary of the updated
 records shown in the 'Upload Change Summary' table displayed in the View Upload
 Details for complete uploads. See :ref:`viewing-complete-uploads`.
 
@@ -71,10 +71,10 @@ Refer to :ref:`upload-error-messages`.
 How can I view my uploaded data?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-When an upload is completed successfully, you will see a summary of the updated
+When the upload has completed successfully, you will see a summary of the updated
 records shown in the 'Upload Change Summary' table. See :ref:`viewing-complete-uploads`.
 
-If you have the Reporting role, you can produce system reports or extract recorded data.
+If you have the reporting role, you can produce system reports or extract recorded data.
 See :ref:`reports`.
 
 .. _upload-csv-files-faq:
@@ -106,7 +106,7 @@ Refer to `Record formats <https://docs.pmhc-mds.com/en/v1/data-specification/dat
 on the field name this will take you to the field definition which outlines the
 associated notes that provide guidance on which response to use.
 
-If still unsure, please email the PMHC Helpdesk on support@pmhc-mds.com and provide
+If still unsure, please email the PMHC helpdesk on support@pmhc-mds.com and provide
 a copy of the error email, and/or a screenshot if possible. The error email is
 very important for the Helpdesk to quickly identifying the error and to provide
 you with a clear response on how to rectify the data issue.
@@ -170,9 +170,9 @@ I am receiving an unknown error in my records. How can I fix this?
 
 If you receive an 'unknown error' message, please email the PMHC Helpdesk on
 support@pmhc-mds.com and provide a copy of the error email, and/or a screenshot
-if possible. The error email is very important for the Helpdesk to quickly
-identifying the error and to provide you with a clear response on how to rectify
-the data issue.
+if possible. The error email is important, and will assist the helpdesk to quickly
+identify the error, and provide you with a clear response on how to rectify
+the issue.
 
 .. _upload_organisation_role_error:
 
@@ -183,8 +183,8 @@ If you receive an error message stating 'Upload file contains organisations data
 but user doesn't have Organisation Management role' you do not have permission
 to upload organisation data. (The Organisation Management role is only available for PHN users - see :ref:`roles`)
 
-The 'Organisations' data is optional and does not need to be included in an
-upload file. Please delete the 'Organisations' worksheet/file from your upload.
+The 'Organisations' data is optional and does not need to be included in the
+uploaded file. Please delete the 'Organisations' worksheet/file from your upload.
 
 .. _upload_missing_worksheet_error:
 
@@ -232,10 +232,13 @@ doesn't match identically you will receive the error above.
 Why am I receiving an error saying 'Invalid version number on row 1'?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-You need to record a valid version number on row 1, in column 2. Column one will
-include the word Version, Column two should inclue a number.We are currently
+If you are uploading using the version 1 specification, you need to record a
+valid version number on row one, column two. Column one will
+include the word 'Version', Column two should include a number. We are currently
 only accepting Version 1, or Version 1.X eg 1.0 or 1.1 . If the version number
 doesn't match identically you will receive the error above.
+
+Uploads using version 2 and above should use a metadata file or worksheet.
 
 .. _upload_invalid_column_name_error:
 
