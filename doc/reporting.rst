@@ -834,33 +834,50 @@ Out series reports (Out-1 to Out-3)
 +++++++++++++++++++++++++++++++++++
 
 .. note::
-   The Out series reports were released but not widely advertised in August 2019 with different specifications. The revised (current) specifications were released September 2019.
+   The Out series reports were released but not widely advertised in August
+   2019 with different specifications. The revised (current) specifications
+   were released September 2019.
 
 Key specifications applying to all Out series reports:
 
-* Based on all episodes with and Episode End Date falling within the reporting period
+* Based on all episodes with an Episode End Date falling within the reporting period
 * There must be at least one `attended contact <https://docs.pmhc-mds.com/projects/data-specification/en/v2/data-model-and-specifications.html#attended-contact>`_ associated with the episode but it need not be in the reporting period
-* To be counted at 'Matched', both an initial and final measure of matching type must be recorded. See :ref:`matching_measure_types` tighter than that used in the A9 report, so figures in the two reports may vary between these reports.
+* To be counted as 'Matched', both an initial and final measure of matching
+  type must be recorded. See :ref:`matching_measure_types`. Matching of
+  measures in the Out series is tighter than that used in the A9 report, so
+  figures in the two reports may vary between these reports.
 
 .. _category-out-1-2:
 
 Out-1 and Out-2 - Clinical outcomes
 +++++++++++++++++++++++++++++++++++
 
-* These indicators group the matched pairs for all episodes reported in Out-3 to indicate significant clinical changes between episode start and finish
-* The change for an episode is based on the effect size statistic which is defined as (score at episode end - score at episode start) / episode start scores for all episodes
-* Effect sizes of 1.5 or more constitute Significant improvement, -1.5 or less constitute Significant deterioration. Effect sizes between -1.5 and 1.5 indicate No significant change
-* Out-1 includes only episodes identified as "Low intensity psychological interventions", Out-2 only those identified as "Psychological therapies delivered by mental health professionals"
+* These indicators group the matched pairs for all episodes reported in Out-3
+  to indicate significant clinical changes between episode start and finish
+* The change for an episode is based on the effect size statistic which is
+  defined as (score at episode end - score at episode start) / episode start
+  scores for all episodes
+* Effect sizes of 1.5 or more constitute Significant improvement, -1.5 or less
+  constitute Significant deterioration. Effect sizes between -1.5 and 1.5
+  indicate No significant change
+* Out-1 includes only episodes identified as "Low intensity psychological
+  interventions", Out-2 only those identified as "Psychological therapies
+  delivered by mental health professionals"
 
 .. _category-out-3:
 
 Out-3 - Completion rates for clinical outcome measures
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-* Reports the percentage of episodes completed in the reporting period that have outcome measures collected at both episode start and episode finish
-* The All Episodes columns count episodes regardless of their :ref:'Episode Completion Status'
-* The Treatment Concluded columns only include episodes that have an Episode Completion Status of 'Treatment Concluded'; administratively closed episodes are excluded
-* The KPI % is defined as the number of Treatment Concluded episodes with a matched pair divided by the total number of Treatment Concluded episodes
+* Reports the percentage of episodes completed in the reporting period that
+  have outcome measures collected at both episode start and episode finish
+* The All Episodes columns count episodes regardless of
+  their `Episode Completion Status <https://docs.pmhc-mds.com/projects/data-specification/en/v2/data-model-and-specifications.html#episode-completion-status>`_
+* The Treatment Concluded columns only include episodes that have an Episode
+  Completion Status of 'Treatment Concluded'; administratively closed episodes
+  are excluded
+* The KPI % is defined as the number of Treatment Concluded episodes with a
+  matched pair divided by the total number of Treatment Concluded episodes
 
 
 .. _matching_measure_types:
@@ -885,9 +902,12 @@ SDQ YR101 SDQ YR201
 This rule is a little tighter than that used in :ref:`category-a9`, so
 figures may vary.
 
-If an episode has more than one measure of the same type at the same collection occasion (e.g. there are two SDQ-PC values identified as 'Episode start') the mean score is used.
+If an episode has more than one measure of the same type at the same collection
+occasion (e.g. there are two SDQ-PC values identified as 'Episode start') the
+mean score is used.
 
-If an episode has a matched pair for more than one measure type only one is taken, according to the hierarchy K10+, K5, SDQ_YR, SDQ_PY, SDQ_PC.
+If an episode has a matched pair for more than one measure type only one is
+taken, according to the hierarchy K10+, K5, SDQ_YR, SDQ_PY, SDQ_PC.
 
 
 .. _category-e:
