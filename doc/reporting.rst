@@ -685,8 +685,8 @@ framework, bringing the total to 14.
 * :ref:`category-app-1`
 * :ref:`category-app-2`
 * :ref:`category-app-3`
-* :ref:`category-out-1`
-* :ref:`category-out-2`
+* :ref:`Out-1 - Clinical outcomes for Low Intensity Psychological Interventions <category-out-1-2>`
+* :ref:`Out-2 - Clinical outcomes for Psychological Therapies delivered by mental health professionals <category-out-1-2>`
 * :ref:`category-out-3`
 
 The following reports are not available via the PMHC MDS as they require
@@ -828,80 +828,47 @@ Key specifications:
 * KPI is measured as percentage of episodes flagged as a suicide risk which
   have a service contact within 7 days
 
+.. _category-out:
 
-.. _category-out-1:
+Out series reports (Out-1 to Out-3)
++++++++++++++++++++++++++++++++++++
 
-Out-1 - Clinical outcomes - Low intensity psychological interventions
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+.. note::
+   The Out series reports were released but not widely advertised in August 2019 with different specifications. The revised (current) specifications were released September 2019.
 
-Purpose: Measure effectiveness of low intensity psychological interventions
+Key specifications applying to all Out series reports:
 
-Key specifications:
+* Based on all episodes with and Episode End Date falling within the reporting period
+* There must be at least one `attended contact <https://docs.pmhc-mds.com/projects/data-specification/en/v2/data-model-and-specifications.html#attended-contact>`_ associated with the episode but it need not be in the reporting period
+* To be counted at 'Matched', both an initial and final measure of matching type must be recorded. See :ref:`matching_measure_types` tighter than that used in the A9 report, so figures in the two reports may vary between these reports.
 
-* Completed Episodes are defined as those Episodes with an Episode End Date
-  less than or equal to the report end date
-* Only Episodes with one or more Service Contacts in the reporting period are
-  included in the analysis (referred to as 'active episodes')
-* Service Contacts flagged as ‘No Show’ are not included for this purpose
-* To be counted at 'Matched', both an initial and final measure of matching type
-  must be recorded.  See :ref:`matching_measure_types`
-* The episode must have a 'Principal Focus of Treatment Plan'
-  flagged as 'Low intensity psychological intervention'
-* Episodes are classified into 'Significant Improvement', 'No significant change'
-  and 'Significant deterioration' using the effect size statistic
-* The effect size statistic for an episode is one half of the standard deviation
-  of all initial measurements of the appropriate measurement type
+.. _category-out-1-2:
 
-.. _category-out-2:
+Out-1 and Out-2 - Clinical outcomes
++++++++++++++++++++++++++++++++++++
 
-Out-2 - Clinical outcomes - Psychological therapies delivered by mental health professionals
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-Purpose: Measure effectiveness of psychological therapies delivered by mental health professionals
-
-Key specifications:
-
-* Completed Episodes are defined as those Episodes with an Episode End Date
-  less than or equal to the report end date
-* Only Episodes with one or more Service Contacts in the reporting period are
-  included in the analysis (referred to as 'active episodes')
-* Service Contacts flagged as ‘No Show’ are not included for this purpose
-* To be counted at 'Matched', both an initial and final measure of matching type
-  must be recorded.  See :ref:`matching_measure_types`
-* The episode must have a 'Principal Focus of Treatment Plan'
-  flagged as 'Psychological therapies delivered by mental health professionals'
-* Episodes are classified into 'Significant Improvement', 'No significant change'
-  and 'Significant deterioration' using the effect size statistic
-* The effect size statistic for an episode is one half of the standard deviation
-  of all initial measurements of the appropriate measurement type
+* These indicators group the matched pairs for all episodes reported in Out-3 to indicate significant clinical changes between episode start and finish
+* The change for an episode is based on the effect size statistic which is defined as (score at episode end - score at episode start) / episode start scores for all episodes
+* Effect sizes of 1.5 or more constitute Significant improvement, -1.5 or less constitute Significant deterioration. Effect sizes between -1.5 and 1.5 indicate No significant change
+* Out-1 includes only episodes identified as "Low intensity psychological interventions", Out-2 only those identified as "Psychological therapies delivered by mental health professionals"
 
 .. _category-out-3:
 
 Out-3 - Completion rates for clinical outcome measures
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-Purpose: Measure completion rates for clinical outcome measures.
+* Reports the percentage of episodes completed in the reporting period that have outcome measures collected at both episode start and episode finish
+* The All Episodes columns count episodes regardless of their :ref:'Episode Completion Status'
+* The Treatment Concluded columns only include episodes that have an Episode Completion Status of 'Treatment Concluded'; administratively closed episodes are excluded
+* The KPI % is defined as the number of Treatment Concluded episodes with a matched pair divided by the total number of Treatment Concluded episodes
 
-Key specifications:
-
-* Completed Episodes are defined as those Episodes with an Episode End Date
-  less than or equal to the report end date
-* For this report, Episodes must also have an Episode Start Date equal to or greater than
-  the report start date
-* Only Episodes with one or more Service Contacts in the reporting period are
-  included in the analysis (referred to as 'active episodes')
-* Service Contacts flagged as ‘No Show’ are not included for this purpose
-* To be counted at 'Matched', both an initial and final measure of matching type
-  must be recorded.  See :ref:`matching_measure_types`
-  tighter than that used in the A9 report, so figures in the two reports may vary
-  between these reports.
 
 .. _matching_measure_types:
 
 Matching measure types
 ++++++++++++++++++++++
 
-Reports :ref:`category-out-1`, :ref:`category-out-2` and :ref:`category-out-3`
+Reports :ref:`category-out`
 require initial and final measures to have valid total score (not '99') and to
 be of matching type as per the following table:
 
@@ -917,6 +884,11 @@ SDQ YR101 SDQ YR201
 
 This rule is a little tighter than that used in :ref:`category-a9`, so
 figures may vary.
+
+If an episode has more than one measure of the same type at the same collection occasion (e.g. there are two SDQ-PC values identified as 'Episode start') the mean score is used.
+
+If an episode has a matched pair for more than one measure type only one is taken, according to the hierarchy K10+, K5, SDQ_YR, SDQ_PY, SDQ_PC.
+
 
 .. _category-e:
 
