@@ -850,7 +850,7 @@ Key specifications applying to all Out series reports:
 .. _category-out-1-2:
 
 Out-1 and Out-2 - Clinical outcomes
-+++++++++++++++++++++++++++++++++++
+'''''''''''''''''''''''''''''''''''
 
 * These indicators group the matched pairs for all episodes reported in Out-3
   to indicate significant clinical changes between episode start and finish
@@ -867,7 +867,7 @@ Out-1 and Out-2 - Clinical outcomes
 .. _category-out-3:
 
 Out-3 - Completion rates for clinical outcome measures
-++++++++++++++++++++++++++++++++++++++++++++++++++++++
+''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
 * Reports the percentage of episodes completed in the reporting period that
   have outcome measures collected at both episode start and episode finish
@@ -883,7 +883,7 @@ Out-3 - Completion rates for clinical outcome measures
 .. _matching_measure_types:
 
 Matching measure types
-++++++++++++++++++++++
+''''''''''''''''''''''
 
 Reports :ref:`category-out`
 require initial and final measures to have valid total score (not '99') and to
