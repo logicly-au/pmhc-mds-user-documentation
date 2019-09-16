@@ -426,12 +426,16 @@ Key specifications:
 * Only Episodes with one or more Service Contacts in the reporting period are
   included in the analysis (referred to as 'active episodes')
 * Service Contacts flagged as ‘No Show’ are not included for this purpose
-* Measures that have a total score of ‘99’ are invalid and counted as 'no measure'
+* Measures that have a total score of ‘99’ are invalid and counted as ‘no measure’
 
 .. _category-a9:
 
 A9 - Data quality report - Recording of outcome measures for completed episodes
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+.. note::
+   The criteria used for episode inclusion in this report have changed significantly
+   in September 2019 to bring them into line with the :ref:`category-out`.
 
 The A9 report is designed to show the percentage of completed episodes that have
 outcome measures recorded. Its purpose is to allow monitoring of adherence to
@@ -440,14 +444,9 @@ at Episode Start and Episode End.
 
 Key specifications:
 
-* Completed Episodes are defined as those Episodes with an Episode End Date
-  less than or equal to the report end date
-* For this report, Episodes must also have an Episode Start Date equal to or greater than
-  the report start date
-* Only Episodes with one or more Service Contacts in the reporting period are
-  included in the analysis (referred to as 'active episodes')
-* Service Contacts flagged as ‘No Show’ are not included for this purpose
-* Measures that have a total score of ‘99’ are invalid and counted as 'no measure'
+* Episodes must have an Episode End Date within the reporting period.
+* Episodes must have had one or more Service Contacts not flagged as ‘No Show’
+* Measures that have a total score of ‘99’ are invalid and counted as ‘no measure’
 
 .. _category-b:
 
