@@ -844,8 +844,8 @@ Key specifications applying to all Out series reports:
 * There must be at least one `attended contact <https://docs.pmhc-mds.com/projects/data-specification/en/v2/data-model-and-specifications.html#attended-contact>`_ associated with the episode but it need not be in the reporting period
 * To be counted as 'Matched', both an initial and final measure of matching
   type must be recorded. See :ref:`matching_measure_types`. Matching of
-  measures in the Out series is tighter than that used in the A9 report, so
-  figures in the two reports may vary between these reports.
+  measures in the Out series is tighter than that used in :ref:`category-a9`, so
+  figures may vary between these reports.
 
 .. _category-out-1-2:
 
