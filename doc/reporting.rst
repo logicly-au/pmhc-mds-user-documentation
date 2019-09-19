@@ -398,9 +398,7 @@ Key specifications:
   end date of the report
 * Service Contacts flagged as ‘No Show’ are not included for this purpose
 
-Note that if the period between start and end date specified in this report is
-less than 90 days the number of episodes with no service contact activity for
-90+ days will always be zero.
+Unlike the A8 report, this report has no requirement to start during the reporting period.
 
 .. _category-a8:
 
@@ -445,7 +443,8 @@ at Episode Start and Episode End.
 Key specifications:
 
 * Episodes must have an Episode End Date within the reporting period.
-* Episodes must have had one or more Service Contacts not flagged as ‘No Show’
+* Episodes must have had one or more Service Contacts not flagged as ‘No Show’,
+  but not necessarily during the reporting period
 * Measures that have a total score of ‘99’ are invalid and counted as ‘no measure’
 
 .. _category-b:
@@ -854,11 +853,11 @@ Out-1 and Out-2 - Clinical outcomes
 * These indicators group the matched pairs for all episodes reported in Out-3
   to indicate significant clinical changes between episode start and finish
 * The change for an episode is based on the effect size statistic which is
-  defined as (score at episode end - score at episode start) / episode start
-  scores for all episodes
-* Effect sizes of 1.5 or more constitute Significant improvement, -1.5 or less
-  constitute Significant deterioration. Effect sizes between -1.5 and 1.5
-  indicate No significant change
+  defined as (score at episode end - score at episode start) / standard 
+  deviation of episode start scores for all episodes
+* Effect sizes of +0.5 or more constitute Significant improvement,
+  -0.5 or less constitute Significant deterioration.
+  Effect sizes between -0.5 and 0.5 indicate No significant change
 * Out-1 includes only episodes identified as "Low intensity psychological
   interventions", Out-2 only those identified as "Psychological therapies
   delivered by mental health professionals"
