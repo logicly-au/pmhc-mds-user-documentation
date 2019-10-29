@@ -78,8 +78,8 @@ find an example paper that Brisbane North produced that you can use as a best
 practice sample - `Brisbane North PHN Example Paper </_static/SUB_BrisbaneNorthPHN_PMHC-MDS.pdf>`_.
 
 Strategic Data are happy to provide comment on your paper before you formally
-submit it. To request this, please contact the PMHC Helpdesk on support@pmhc-mds.com.
+submit it. To request this, please contact the PMHC Helpdesk at support@pmhc-mds.com.
 
-Final papers should be submitted directly to the Department of Health on
+Final papers should be submitted directly to the Department of Health at
 MentalHealthData@health.gov.au. However, we would appreciate it if you could
 copy in the PMHC Helpdesk whenever possible. 
