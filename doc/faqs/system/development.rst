@@ -75,7 +75,7 @@ suggestions to be formalised and to now go through PMHCDRG.
 
 To assist you with the process of explaining your issue to the Department, please
 find an example paper that Brisbane North produced that you can use as a best
-practice sample - `Brisbane North PHN Example Paper </_static/SUB_BrisbaneNorthPHN_PMHC-MDS.pdf>`_.
+practice sample - `Brisbane North PHN Example Paper <../../_static/SUB_BrisbaneNorthPHN_PMHC-MDS.pdf>`_.
 
 Strategic Data are happy to provide comment on your paper before you formally
 submit it. To request this, please contact the PMHC Helpdesk at support@pmhc-mds.com.
