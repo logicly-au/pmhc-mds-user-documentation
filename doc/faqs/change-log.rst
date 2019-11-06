@@ -3,6 +3,14 @@
 Frequently Asked Questions Change log
 =====================================
 
+28/10/2019
+----------
+
+System - Development FAQs
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+* Added a section :ref:`dev-suggestion-faq`
+
 21/06/2019
 ----------
 

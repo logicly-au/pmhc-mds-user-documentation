@@ -59,3 +59,27 @@ Master Client Index
 Current development for the master client index is on hold.
 
 Refer to the recent Department announcement on the `INFORMATION and ACTION: PHN CEO - Primary Mental Health Care Minimum Data Set Update | June 21, 2017 <https://www.pmhc-mds.com/communications/#/2017/06/21/FOR-INFORMATION-and-ACTION-PHN-CEO-Primary-Mental-Health-Care-Minimum-Data-Set-Update/>`_.
+
+.. _dev-suggestion-faq:
+
+Suggesting changes
+^^^^^^^^^^^^^^^^^^
+
+In late 2018, the Department of Health reinstated the Primary Mental Health Care
+Data Reference Group (PMHCDRG) to assist them with reviewing and prioritising
+future PMHC MDS changes.
+
+The PMHC Helpdesk often receives suggestions for changes to the current PMHC MDS
+specifications and/or functionality, however, the Department would like all
+suggestions to be formalised and to now go through PMHCDRG.
+
+To assist you with the process of explaining your issue to the Department, please
+find an example paper that Brisbane North produced that you can use as a best
+practice sample - `Brisbane North PHN Example Paper <../../_static/SUB_BrisbaneNorthPHN_PMHC-MDS.pdf>`_.
+
+Strategic Data are happy to provide comment on your paper before you formally
+submit it. To request this, please contact the PMHC Helpdesk at support@pmhc-mds.com.
+
+Final papers should be submitted directly to the Department of Health at
+MentalHealthData@health.gov.au. However, we would appreciate it if you could
+copy in the PMHC Helpdesk whenever possible. 
