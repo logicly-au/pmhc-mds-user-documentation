@@ -28,10 +28,8 @@ import imp
 #if on_rtd:
     # stuff
 
-f = open('./version.conf')
 global ddict_conf
-ddict_conf = imp.load_source('ddict_conf', '', f)
-f.close()
+ddict_conf = imp.load_source('ddict_conf', './version.conf')
 
 doc_name = ddict_conf.NAME
 version   = ddict_conf.VERSION
