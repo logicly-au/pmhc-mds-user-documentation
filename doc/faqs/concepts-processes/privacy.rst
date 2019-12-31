@@ -4,6 +4,11 @@
 Questions about privacy protections and patient consent
 -------------------------------------------------------
 
+A number of questions relating to the supplementary Privacy Impact Assessment (PIA)
+were asked at the PMHC MDS workshop in November 2018. The Department agreed to
+consider feedback from the discussion and provide advice to PHN CEOs on the
+implications of the PIA. This advice will be provided in the near future.
+
 Privacy and patient consent
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 

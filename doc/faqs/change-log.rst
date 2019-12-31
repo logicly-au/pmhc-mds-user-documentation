@@ -3,6 +3,14 @@
 Frequently Asked Questions Change log
 =====================================
 
+31/12/2019
+----------
+
+Concepts Processes - FAQs
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+* Made the Department response to PHNs 'Questions from the PMHC MDS Workshop, November 2018' document available in the online :ref:`concepts_processes_faqs` subsection of Frequently Asked Questions
+
 28/10/2019
 ----------
 

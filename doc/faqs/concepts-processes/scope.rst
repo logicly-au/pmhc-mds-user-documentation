@@ -106,36 +106,19 @@ practitioners independent of the PHN.
 
 It should be noted however that the PMHC MDS differs from the previous ATAPS collection
 in allowing a range of services delivered ‘on behalf’ of the client to be recorded.
-Section 4.4 of the `Overview paper <https://www.pmhc-mds.com/doc/pmhc-mds-overview.pdf>`_ (‘Determining what activities are in scope for
-reporting as service contacts”) provides the relevant details.
+Section 4.4 of the `Overview paper <https://www.pmhc-mds.com/doc/pmhc-mds-overview.pdf>`_
+(‘Determining what activities are in scope for reporting as service contacts”)
+provides the relevant details.
 
+Interdependencies with the National Mental Health Service Planning Tool
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Are headspace services covered by the requirements?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+What, if any, are the intended interdependencies with the National MH Service Planning Tool?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Are services funded through headspace expected to collect the PHMC MDS?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-First-stage development of the MDS will not include existing youth-specific services
-(headspace, Early Psychosis Youth Services) that currently collect and report
-a standardised dataset to headspace National Office.  Pending the future of these
-arrangements, and access to data by PHNs, the PHMC MDS can be expanded at a
-future stage to allow incorporation of headspace and Early Psychosis Youth Services
-should this be required.
-
-
-Are EPYS centres covered?
-^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Are services funded as Early Psychosis Centres expected to collect the PHMC MDS?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-First-stage development of the MDS will not include existing youth-specific services
-(headspace, Early Psychosis Youth Services) that currently collect and report
-a standardised dataset to headspace National Office.  Pending the future of these
-arrangements, and access to data by PHNs, the PHMC MDS can be expanded at a
-future stage to allow incorporation of headspace and Early Psychosis Youth Services
-should this be required.
+There are no interdependencies with the National Mental Health Service Planning
+Framework however, the PMHC MDS as a reporting tool provides an important
+contribution to understanding current service delivery.
 
 .. _Mental-Health-Nursing-services:
 
@@ -158,3 +141,112 @@ The PMHC MDS has been developed to capture the broader range of mental health
 services now being commissioned by PHNs, including services previously delivered
 under MHNIP. However, principal responsibility for establishing regional arrangements
 for data collection and reporting rests with PHNs.
+
+
+Coverage of Psychosocial and Continuity of Service
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+The NPS and COS (Continuity of service) in creating confusion as there are overlaps including how we capture MDS data for Severe and Complex priority area. Essentially these are services that are supposed to support people who do not fit into NDIS.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The Department issued a circular in late December 2018 on the revised data collection arrangements to accommodate the National Psychosocial Support and Continuity of Support measures. It can be accessed at https://healthgov.sharepoint.com/sites/secretariatcommittee/phn/SitePages/Home.aspx.
+
+Coverage of Indigenous Services
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Major issues in remote around Indigenous providers - crucial the Department meets with Indigenous health peak bodies to discuss and promote reasons for collecting MDS data - they see no reason for it.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The Department recognises that in some areas there has been significant concerns
+raised around the PMHC MDS by Aboriginal Controlled Community Health Organisations.
+The Department will meet with the relevant peak organisations to work through the issues.
+
+Coverage of Suicide Prevention
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Is there a go live date for the National Suicide Prevention Trial Data collection?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The National Suicide Prevention Trial (NSPT) specific module is now live for
+relevant PHNs and attached to run alongside as a parallel (but separate)
+collection to their PMHC MDS. This module collects data on individual services
+delivered as part of the trial. The NSPT evaluation team at the University of
+Melbourne is currently working with PHNs with trial sites to support them to
+access the module and enter/upload data, including retrospective data where
+possible. Training is also available from Strategic Data. It is expected that
+regular data entry through the module will commence from 1 March 2019.
+
+Need a clearer definition to assist providers interpretation of when the suicide flag is selected.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+This has been noted and has been put on the agenda for discussion with the
+Reference Group.
+
+How do we define suicide referral flag? Ideation? Making a plan? An attempt? Providers are interpreting this field differently because we lack a precise definition. Which means we can't interpret the results.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The definition currently provided in the Data model and specifications guide for
+Suicide states that the Suicide Referral Flag “Identifies those individuals where
+a recent history of suicide attempt, or suicide risk, was a factor noted in the
+referral that underpinned the person’s needs for assistance at entry to the episode,
+as represented by a code.” The Department will work with the Reference Group and
+PHNs to improve the definition. Refer to the Data model and specifications,
+section 2.3.4.38. Episode – Suicide Referral Flag, available at https://docs.pmhc-mds.com/data-specification/data-model-and-specifications.html#episode-suicide-referral-flag
+
+Are headspace services covered by the requirements?
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Are services funded through headspace expected to collect the PHMC MDS?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+First-stage development of the MDS will not include existing youth-specific services
+(headspace, Early Psychosis Youth Services) that currently collect and report
+a standardised dataset to headspace National Office.  Pending the future of these
+arrangements, and access to data by PHNs, the PHMC MDS can be expanded at a
+future stage to allow incorporation of headspace and Early Psychosis Youth Services
+should this be required.
+
+Are EPYS centres covered?
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Are services funded as Early Psychosis Centres expected to collect the PHMC MDS?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+First-stage development of the MDS will not include existing youth-specific services
+(headspace, Early Psychosis Youth Services) that currently collect and report
+a standardised dataset to headspace National Office.  Pending the future of these
+arrangements, and access to data by PHNs, the PHMC MDS can be expanded at a
+future stage to allow incorporation of headspace and Early Psychosis Youth Services
+should this be required.
+
+The Department is continuing to work with both headspace and Strategic Data to
+identify a solution which meets the requirements of the PMHC MDS as well as
+privacy and consent concerns of headspace. Once this has been finalised, advice
+will be provided to all PHNs and headspace in a circular.
+
+Will the headspace Youth Early Psychosis Program MDS also be mapped to the PMHC MDS?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+A decision about incorporating the Youth Early Psychosis Program into the PMHC MDS
+will be made when the future of this program is determined by the Government.
+
+
+Technology and changes to reporting requirements
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+PHNs don't have sufficient resources (financial) to keep up to date with technology and constant changes and additional requirements in MDS reporting.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Funding schedules developed to provide mental health funding to PHNs stipulate
+the reciprocal obligations of the Department and PHN organisations in the
+development and reporting of the PMHC MDS. It is a requirement of the PMHC MDS
+that reporting is completed. The PMHC MDS does have significant technological
+implications for resourcing and the Department is aware of this and will seek
+to minimise any significant changes. Any changes to the PMHC MDS and subsequent
+reporting requirements will only be made in consultation with the Reference Group
+and PHNs.
+
+What is the process for update and review of the PMHC MDS?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The process for reviewing the PMHC MDS will be completed through the Reference Group.

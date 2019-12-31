@@ -10,8 +10,7 @@ Will the Department be providing further support to system developers to ensure 
 System developers will have access to the following resources:
 
 * API documentation online
-* Test accounts on both staging and production systems
-* Offline data validation for ease of testing extracted datasets
+* Test accounts on developers instance
 * Access to help desk via e-mail. Telephone support will be provided where the issue can’t be resolved via email
 * Developer announcement mailing list to notify developers of pending changes and issues
 
@@ -53,7 +52,8 @@ Support to PHNs to engage providers
 Can the Department offer assistance to PHNs in terms of creation of a spreadsheet suitable for storing and uploading collected data
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Yes – Excel data entry templates for submission are provided on the PMHC MDS website. Visit Upload Specifications `File format <https://docs.pmhc-mds.com/en/v1/data-specification/upload-specification.html#file-format>`_.
+Yes – Excel data entry templates for submission are provided on the PMHC MDS website.
+Visit Upload Specifications `File format <https://docs.pmhc-mds.com/en/v1/data-specification/upload-specification.html#file-format>`_.
 
 Will there be further clarification on how PHNs will be expected to report on provider performance to allow engagement on how best to undertake the change process?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -84,3 +84,17 @@ may be uploaded in either Excel or CSV format.
 
 During phase 2 a full data entry capacity will be added. This is expected to be
 ready for the 2017-18 financial year.
+
+
+Technical Assistance
+^^^^^^^^^^^^^^^^^^^^
+
+Additional technical questions referred to Strategic Data.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+A number of questions regarding technical enhancements of the PMHCS MDS were
+received. The Department will consider these questions and in conjunction with
+Strategic Data, will seek further advice on user requirements from the
+Reference Group.
+
+See:

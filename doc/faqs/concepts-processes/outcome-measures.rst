@@ -34,15 +34,16 @@ The K10 has been selected as the outcome tool across all populations. Is there s
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The issues entailed in the specification of mandatory outcome measures are
-covered in section 4.7 of the `Overview paper <https://www.pmhc-mds.com/doc/pmhc-mds-overview.pdf>`_.  Key selection criteria include
-that the core measures should be meaningful and applicable across all client groups,
-be capable of being used by all service providers, and reflect the client’s
-perspective – that is, be based on self-report.  The K10 is regarded as meeting
-all these essential elements.  An important note is that the K10 is the mandatory
-measure used by four state and territory jurisdictions’ specialised mental health
-services which predominantly focus on consumers with severe mental illness.
-Nationally, the K10+ is the consumer selfreport outcome measure that has the
-highest level of consumer uptake across state and territory mental health services.
+covered in section 4.7 of the `Overview paper <https://www.pmhc-mds.com/doc/pmhc-mds-overview.pdf>`_.
+Key selection criteria include that the core measures should be meaningful and
+applicable across all client groups, be capable of being used by all service providers,
+and reflect the client’s perspective – that is, be based on self-report.  The K10
+is regarded as meeting all these essential elements.  An important note is that
+the K10 is the mandatory measure used by four state and territory jurisdictions’
+specialised mental health services which predominantly focus on consumers with
+severe mental illness. Nationally, the K10+ is the consumer selfreport outcome
+measure that has the highest level of consumer uptake across state and territory
+mental health services.
 
 Each PHN has the capacity to add additional outcome measures to their own regional
 data collection systems to meet local requirements but these are not necessary for
@@ -54,9 +55,10 @@ Alternative measures – additional measures set by PHNS
 Can the measures be extended to include the Depression, Anxiety Stress Scale (DASS) and Modified Scale Suicide Ideation (MSSI)?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-As per :ref:`additional-data-FAQs`, each PHN has the capacity to add additional outcome measures to
-their own regional data collection systems to meet local requirements but these
-are not necessary for reporting the national data PMHC minimum data set.
+As per :ref:`additional-data-FAQs`, each PHN has the capacity to add additional
+outcome measures to their own regional data collection systems to meet local
+requirements but these are not necessary for reporting the national data PMHC
+minimum data set.
 
 Mandatory measures – applicable to all priority areas?
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -105,12 +107,19 @@ these are not included in the PMH MDS.
 
 Multiple collection occasions
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 It is essential that the PMHC MDS have capacity for numerous outcome measure scores to be recorded against a single episode.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The new arrangements will allow this.  Collection Occasions between Episode Start
 and Episode End are termed ‘Review’.  There is no limit in the number of Review
 Collection Occasions.
+
+Some services have long durations for episodes of care. Is there a suggested frequency for review outcome measures to be taken. Eg, 3 monthly.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+At a minimum, collection of outcome data is required at both Episode Start and
+Episode End, but may be more frequent if clinically indicated and agreed by the client.
 
 Outcome measure date
 ^^^^^^^^^^^^^^^^^^^^
@@ -180,3 +189,15 @@ meet local needs, however this data will not be submitted to the MDS. Therefore,
 a PHN can of course continue to collect additional outcome measures such as the
 HoNOS in relation to specific service/episode types but this is at their discretion
 and will not form part of the MDS at this time.
+
+
+Matched pairs
+^^^^^^^^^^^^^
+
+Outcomes measure pair based on successfully completed episodes may be a better measure to achieve the 70% KPI, as episodes closed administratively are unlikely to have a matched measure. Can this be considered?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The Category D reports for Outcome3, reports on the completion rates for clinical
+outcomes measures and calculates matched pairs for clinically closed episodes.
+
+See :ref:`category-out`.
