@@ -26,8 +26,8 @@ or recognition as a mental health professional”. The deployment of low intensi
 workers is at the discretion of PHNs, but of course depends on suitable clinical
 supervisory arrangements being in place.
 
-Referrer postcode
-^^^^^^^^^^^^^^^^^
+Additional data items
+^^^^^^^^^^^^^^^^^^^^^
 
 It would also be useful to collect the postcode of the referrer to understand referral patterns across and within regions.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -35,9 +35,6 @@ It would also be useful to collect the postcode of the referrer to understand re
 Referrer postcode is not regarded as essential for the national data and thus not
 included in the PMHC MDS. However, PHNs have the discretion to add this as additional
 information collected at regional level.
-
-Suburb (SA3)
-^^^^^^^^^^^^
 
 Can you add suburb, SA3 level drill down to enrich the dataset?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

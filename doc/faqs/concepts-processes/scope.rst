@@ -88,7 +88,6 @@ Where activities are outside the scope of the PMHC MDS, PHNS are expected to
 set up their own arrangements to collect data suitable for reporting purposes.
 See also the response above regarding :ref:`community-based-suicide-prevention-activities`.
 
-
 .. _Exclusion-of-non-clinical-time:
 
 Exclusion of ‘non clinical’ time
@@ -120,6 +119,15 @@ There are no interdependencies with the National Mental Health Service Planning
 Framework however, the PMHC MDS as a reporting tool provides an important
 contribution to understanding current service delivery.
 
+Coverage of multi-morbidity measures
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Possibility of including multi-morbidity measures into the PMHC MDS for case mix adjustment etc?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Any new data items, including multi-morbidity measures, will be considered as part
+of a broader review of the PMHC MDS.
+
 .. _Mental-Health-Nursing-services:
 
 Coverage of Mental Health Nursing services
@@ -146,8 +154,8 @@ for data collection and reporting rests with PHNs.
 Coverage of Psychosocial and Continuity of Service
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The NPS and COS (Continuity of service) in creating confusion as there are overlaps including how we capture MDS data for Severe and Complex priority area. Essentially these are services that are supposed to support people who do not fit into NDIS.
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The NPS and COS (Continuity of service) are creating confusion as there are overlaps including how we capture MDS data for Severe and Complex priority area. Essentially these are services that are supposed to support people who do not fit into NDIS.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The Department issued a circular in late December 2018 on the revised data collection arrangements to accommodate the National Psychosocial Support and Continuity of Support measures. It can be accessed at https://healthgov.sharepoint.com/sites/secretariatcommittee/phn/SitePages/Home.aspx.
 
@@ -230,6 +238,17 @@ Will the headspace Youth Early Psychosis Program MDS also be mapped to the PMHC 
 A decision about incorporating the Youth Early Psychosis Program into the PMHC MDS
 will be made when the future of this program is determined by the Government.
 
+Are Empowering Communities Schedule services covered?
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Is there any PMHC MDS requirement for 'Empowering Communities' Schedule?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+There are currently only a small number of PHNs that have received the
+Empowering Communities Schedule. There is no specific item in the PMHC MDS for
+the Empowering Communities Schedule. Where a PHN receives funding under this
+Schedule for Drought relief and uses the funding to provide individual services
+to individuals, then these services are recordable under the PMHC MDS.
 
 Technology and changes to reporting requirements
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -250,3 +269,5 @@ What is the process for update and review of the PMHC MDS?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The process for reviewing the PMHC MDS will be completed through the Reference Group.
+
+See :ref:`dev-suggestion-faq`
