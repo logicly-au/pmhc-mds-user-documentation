@@ -152,10 +152,8 @@ To edit your details:
 
 6. To update your name, click the **Change personal details** link
 7. To update your primary email address, click the **Change email address** link
-8. To update your backup email address, click the **Change backup email address**
-   link
-9. To update your mobile phone number, click the **Change mobile phone number**
-    link
+8. To update your backup email address, click the **Change backup email address** link
+9. To update your mobile phone number, click the **Change mobile phone number** link
 10. The last section on the page, **Password lifetime**, tells you when
     you last changed your password and when it will expire. Passwords must
     be changed every three months

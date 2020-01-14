@@ -19,7 +19,7 @@ to request and download a data extract.
 
 .. _view-data-extract:
 
-How to download an organsiation's data
+How to download an organisation's data
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 You can extract a PHN's or provider organisation's PMHC MDS data by completing
