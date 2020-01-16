@@ -3,6 +3,10 @@
 Reports
 =======
 
+.. contents::
+   :local:
+   :depth: 2
+
 You will only be able to see the **Reports** tab if you have been assigned
 the 'Reporting' :ref:`roles`, when logged into the PMHC MDS on https://pmhc-mds.net.
 
@@ -50,17 +54,15 @@ on the **Counting Rules Explained** link.
 
 .. _system-report-types:
 
-Types of System Reports
-^^^^^^^^^^^^^^^^^^^^^^^
+Types of reports
+^^^^^^^^^^^^^^^^
 
 The reports are grouped into five categories, each designed to serve different
-purposes:
+purposes.
 
-* :ref:`category-a`
-* :ref:`category-b`
-* :ref:`category-c`
-* :ref:`category-d`
-* :ref:`category-e`
+.. contents::
+   :local:
+   :depth: 1
 
 .. _category-a:
 
@@ -75,17 +77,9 @@ The reports provide summary data on:
 * Volumes ('active clients'/'active episodes'/contacts)
 * Data quality in terms of compliance with key business rules
 
-Available A category reports are:
-
-* :ref:`category-a1`
-* :ref:`category-a2`
-* :ref:`category-a3`
-* :ref:`category-a4`
-* :ref:`category-a5`
-* :ref:`category-a6`
-* :ref:`category-a7`
-* :ref:`category-a8`
-* :ref:`category-a9`
+.. contents:: Available category A reports
+   :local:
+   :depth: 1
 
 **Note:** A subset of these reports is included in :ref:`category-e` without
 any filtering for active clients or episodes to enable organisational data
@@ -140,8 +134,9 @@ amounts of missing or invalid data.
 
 Two formats of this report are offered to users:
 
-* :ref:`category-a3-1`
-* :ref:`category-a3-2`
+.. contents::
+   :local:
+   :depth: 1
 
 Key specifications:
 
@@ -197,8 +192,9 @@ amounts of missing or invalid data.
 
 Two formats of this report are offered to users:
 
-* :ref:`category-a4-1`
-* :ref:`category-a4-2`
+.. contents::
+   :local:
+   :depth: 1
 
 Some Episode data elements are not included in the options list as they are
 allowed to have a blank value (eg. Episode End Date) or there
@@ -278,8 +274,9 @@ significant amounts of missing or invalid data.
 
 Two formats of this report are offered to users:
 
-* :ref:`category-a5-1`
-* :ref:`category-a5-2`
+.. contents::
+   :local:
+   :depth: 1
 
 Service Contacts flagged as ‘No Show’ are not included in this report.
 
@@ -338,8 +335,9 @@ significant amounts of missing data.
 
 Two formats of this report are offered to users:
 
-* :ref:`category-a6-1`
-* :ref:`category-a6-2`
+.. contents::
+   :local:
+   :depth: 1
 
 Key specifications:
 
@@ -438,11 +436,7 @@ A9 - Data quality report - Recording of outcome measures for completed episodes
 The A9 report is designed to show the percentage of completed episodes that have
 outcome measures recorded. Its purpose is to allow monitoring of adherence to
 the minimum requirements for outcome recording - i.e. measures to be recorded
-at Episode Start and Episode End. Note that unlike the requirements set out in
-:ref:`category-out-3` for the Out series reports where the same measure must be
-collected at start and finish, the A9 will accept any combination of measures
-provided there is at least one at the start of the episode and one at the end
-of the episode.
+at Episode Start and Episode End.
 
 Key specifications:
 
@@ -464,14 +458,9 @@ various ways that depend on the data being sourced.
 There are five reports in this series, each covering a specific data category
 (Clients, Episode, Service Contacts, Provider Organisations, and Practitioners).
 
-Available B category reports are:
-
-* :ref:`category-b1`
-* :ref:`category-b2`
-* :ref:`category-b3`
-* :ref:`category-b4`
-* :ref:`category-b5`
-* :ref:`category-b6`
+.. contents:: Available category B reports
+   :local:
+   :depth: 1
 
 .. _category-b1:
 
@@ -554,28 +543,6 @@ Key specifications:
   have recorded one or more Service Contacts in the period
 * Service Contacts flagged as ‘No Show’ are not included for this purpose
 
-.. _category-b6:
-
-B6 - Clinical Outcomes
-+++++++++++++++++++++++++++++++++++++++++++++++++++
-
-The B6 report is an extension of the outcome indicators that note significant
-clinical changes between episode start and finish. Out-1 and Out-2
-(:ref:`category-out-1-2`) are restricted to episodes with a principal focus of
-treatment classified as "Low intensity psychological interventions" and
-"Psychological therapies delivered by mental health professionals"
-respectively. The B6 extends this to any type of focus.
-  
-* The change for an episode is based on the effect size statistic which is
-  defined as (score at episode start - score at episode end) / standard 
-  deviation of episode start scores for all episodes
-* Effect sizes of -0.5 or more constitute 'Significant improvement',
-  +0.5 or less constitute 'Significant deterioration'.
-  Effect sizes between -0.5 and 0.5 indicate 'No significant change'
-* Out-1 includes only episodes identified as "Low intensity psychological
-  interventions", Out-2 only those identified as "Psychological therapies
-  delivered by mental health professionals"
-
 .. _category-c:
 
 Category C: Monitoring implementation of stepped care
@@ -591,10 +558,9 @@ of the stepped care model.
 The stepped care reports represent work in progress and will be subject to ongoing
 improvement with PHN feedback on their utility.
 
-Available C category reports are:
-
-* :ref:`category-c1`
-* :ref:`category-c2`
+.. contents:: Available category C reports
+   :local:
+   :depth: 1
 
 .. _category-c1:
 
@@ -702,17 +668,11 @@ Performance and Quality Framework (September 2018) and need to be positioned wit
 framework. One additional indicator was added to the mental health KPIs as a result of the new
 framework, bringing the total to 14.
 
-9 of the 14 KPI reports will ultimately be available via the PMHC MDS. 7 are currently available:
+9 of the 14 KPI reports will ultimately be available via the PMHC MDS. 7 are currently available.
 
-* :ref:`category-acc-1`
-* :ref:`category-acc-2`
-* :ref:`category-acc-3`
-* :ref:`category-app-1`
-* :ref:`category-app-2`
-* :ref:`category-app-3`
-* :ref:`Out-1 - Clinical outcomes for Low Intensity Psychological Interventions <category-out-1-2>`
-* :ref:`Out-2 - Clinical outcomes for Psychological Therapies delivered by mental health professionals <category-out-1-2>`
-* :ref:`category-out-3`
+.. contents:: Available category D reports
+   :local:
+   :depth: 2
 
 The following reports are not available via the PMHC MDS as they require
 information that is not derived from the PMHC MDS:
