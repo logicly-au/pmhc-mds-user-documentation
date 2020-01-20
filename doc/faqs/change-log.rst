@@ -3,6 +3,14 @@
 Frequently Asked Questions Change log
 =====================================
 
+20/1/2020
+---------
+
+System - Data Entry FAQs
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+* Added the question :ref:`enter-br20-data-faq`..
+
 28/10/2019
 ----------
 

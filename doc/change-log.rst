@@ -3,6 +3,13 @@
 User Guide Change log
 =====================
 
+20/1/2020
+---------
+
+* Updated :ref:`add-episode` to include `!br20` note.
+
+* Updated :ref:`edit-episode` to include `!br20` note.
+
 6/9/2019
 --------
 

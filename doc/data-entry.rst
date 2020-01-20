@@ -326,6 +326,13 @@ available on the **Data Entry** tab, by following these steps:
 .. figure:: screen-shots/client-episodes-edit.png
    :alt: Client Episodes Edit Details
 
+.. note::
+   The Department has recently funded a "Bushfire Recovery Access Program".
+   From January 2020, there is now a `!br20` tag that can be easily selected
+   or added to a client's `Episode Tag <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#episode-tags>`__,
+   field if they receive any services under this funding criteria.
+   Please see the announcement at https://pmhc-mds.com/communications/.
+
 6. Click the blue **Save** button. (If you decide not to save changes, you can
    simply navigate away from this screen)
 
@@ -382,6 +389,13 @@ available on the **Data Entry** tab, by following these steps:
 
 .. figure:: screen-shots/client-episodes-add.png
    :alt: Client Data Add Episode
+
+.. note::
+   The Department has recently funded a "Bushfire Recovery Access Program".
+   From January 2020, there is now a `!br20` tag that can be easily selected
+   or added to a client's `Episode Tag <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#episode-tags>`__,
+   field if they receive any services under this funding criteria.
+   Please see the announcement at https://pmhc-mds.com/communications/.
 
 5. Click the blue **Save** button. (If you decide not to add this client's
    episode, you can simply navigate away from this screen)
