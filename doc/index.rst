@@ -23,6 +23,7 @@ system. All enquiries should be directed to: support@pmhc-mds.com.
    :caption: Table of Contents
    :maxdepth: 1
 
+   passwords
    home
    organisations
    users
