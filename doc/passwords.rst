@@ -1,7 +1,7 @@
 .. _passwords:
 
-Passwords
-=========
+Passwords Requirements
+======================
 
 As required by the Australian Government's Protective Security Policy Framework
 passwords must be changed every three months. If you do not change your password
