@@ -313,16 +313,16 @@ Refer to the Department's response to :ref:`MHNIP-data-faq`.
 
 .. _enter-br20-data-faq:
 
-How can I capture client services under the 2020 Bushfire Recovery Access Program?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+How can I capture client services under the 2020 Australian Government Mental Health Response to Bushfire Trauma?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The Department has recently funded a "Bushfire Recovery Access Program".
-From January 2020, there is now a `!br20`  tag that can be easily selected or
-added to a client's Episode Tag <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#episode-tags>`__,
-field if they receive any services under this funding criteria.
-Please see the Department announcement at https://pmhc-mds.com/communications/.
+The Department has funded services for the *Australian Government Mental Health Response to Bushfire Trauma*.
 
-Refer to :ref:`edit-episode`.
+From January 2020, there is now a ``!br20`` tag that can be easily selected or
+added to a client's `Episode Tag <https://docs.pmhc-mds.com/projects/data-specification/en/V2/data-model-and-specifications.html#episode-tags>`_
+field when a new and existing client receives any services under this funding criteria.
+
+Refer to `Reserved Tags - !br20 <https://docs.pmhc-mds.com/projects/data-specification/en/v2/reserved-tags.html#br20>`_.
 
 
 .. _enter-error-data-faq:

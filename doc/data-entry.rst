@@ -323,15 +323,13 @@ available on the **Data Entry** tab, by following these steps:
    (Specification `Episode Data Elements <https://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#episode-data-elements>`__)
 5. **Please note:** You can edit the **Episode Key** from this screen. See :ref:`edit-episode-key`
 
+.. note::
+   The Department has recently funded the "*Australian Government Mental Health Response to Bushfire Trauma*".
+   From January 2020, there is now a reserved **Episode Tag** ``!br20`` that can be easily selected or added to an Episode record if a new or existing client receives any services under this funding criteria.
+   For more information please see `Reserved Tags - !br20 <https://docs.pmhc-mds.com/projects/data-specification/en/v2/reserved-tags.html#br20>`_.
+
 .. figure:: screen-shots/client-episodes-edit.png
    :alt: Client Episodes Edit Details
-
-.. note::
-   The Department has recently funded a "Bushfire Recovery Access Program".
-   From January 2020, there is now a `!br20` tag that can be easily selected
-   or added to a client's `Episode Tag <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#episode-tags>`__,
-   field if they receive any services under this funding criteria.
-   Please see the announcement at https://pmhc-mds.com/communications/.
 
 6. Click the blue **Save** button. (If you decide not to save changes, you can
    simply navigate away from this screen)
@@ -387,15 +385,13 @@ available on the **Data Entry** tab, by following these steps:
 4. Enter the client's episode details. Mandatory fields are marked with an *
    (Specification `Episode Data Elements <https://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#episode-data-elements>`__)
 
+.. note::
+   The Department has recently funded the "*Australian Government Mental Health Response to Bushfire Trauma*".
+   From January 2020, there is now a reserved **Episode Tag** ``!br20`` that can be easily selected or added to an Episode record if a new or existing client receives any services under this funding criteria.
+   For more information please see `Reserved Tags - !br20 <https://docs.pmhc-mds.com/projects/data-specification/en/v2/reserved-tags.html#br20>`_.
+
 .. figure:: screen-shots/client-episodes-add.png
    :alt: Client Data Add Episode
-
-.. note::
-   The Department has recently funded a "Bushfire Recovery Access Program".
-   From January 2020, there is now a `!br20` tag that can be easily selected
-   or added to a client's `Episode Tag <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#episode-tags>`__,
-   field if they receive any services under this funding criteria.
-   Please see the announcement at https://pmhc-mds.com/communications/.
 
 5. Click the blue **Save** button. (If you decide not to add this client's
    episode, you can simply navigate away from this screen)
