@@ -326,6 +326,7 @@ available on the **Data Entry** tab, by following these steps:
 .. note::
    The Department has recently funded the "*Australian Government Mental Health Response to Bushfire Trauma*".
    From January 2020, there is now a reserved **Episode Tag** ``!br20`` that can be easily selected or added to an Episode record if a new or existing client receives any services under this funding criteria.
+   While services funded under the response must report in-scope activity using this tag, all PHNs may use this tag.
    For more information please see `Reserved Tags - !br20 <https://docs.pmhc-mds.com/projects/data-specification/en/v2/reserved-tags.html#br20>`_.
 
 .. figure:: screen-shots/client-episodes-edit.png
@@ -388,6 +389,7 @@ available on the **Data Entry** tab, by following these steps:
 .. note::
    The Department has recently funded the "*Australian Government Mental Health Response to Bushfire Trauma*".
    From January 2020, there is now a reserved **Episode Tag** ``!br20`` that can be easily selected or added to an Episode record if a new or existing client receives any services under this funding criteria.
+   While services funded under the response must report in-scope activity using this tag, all PHNs may use this tag.
    For more information please see `Reserved Tags - !br20 <https://docs.pmhc-mds.com/projects/data-specification/en/v2/reserved-tags.html#br20>`_.
 
 .. figure:: screen-shots/client-episodes-add.png
