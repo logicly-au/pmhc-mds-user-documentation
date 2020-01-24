@@ -3,12 +3,18 @@
 User Guide Change log
 =====================
 
-20/1/2020
+23/1/2020
 ---------
 
-* Updated :ref:`add-episode` to include `!br20` note.
+* Updated :ref:`add-episode` to include `!br20` tag note.
 
-* Updated :ref:`edit-episode` to include `!br20` note.
+* Updated :ref:`edit-episode` to include `!br20` tag note.
+
+* Updated screenshots for :ref:`Data Entry - Episodes <episode-data>`
+
+* Added report:ref:`category-b5`
+
+* Added report:ref:`category-a10`
 
 6/9/2019
 --------
