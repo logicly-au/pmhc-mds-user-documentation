@@ -12,9 +12,9 @@ User Guide Change log
 
 * Updated screenshots for :ref:`Data Entry - Episodes <episode-data>`
 
-* Added report:ref:`category-b6`
+* Added report :ref:`category-b6`
 
-* Added report:ref:`category-a10`
+* Added report :ref:`category-a10`
 
 6/9/2019
 --------
