@@ -323,6 +323,12 @@ available on the **Data Entry** tab, by following these steps:
    (Specification `Episode Data Elements <https://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#episode-data-elements>`__)
 5. **Please note:** You can edit the **Episode Key** from this screen. See :ref:`edit-episode-key`
 
+.. note::
+   The Department has recently announced the "*Australian Government Mental Health Response to Bushfire Trauma*".
+   From January 2020, there is now a reserved **Episode Tag** ``!br20`` that can be easily selected or added to an Episode record if a new or existing client receives any services that meet the reporting requirements.
+   While services funded under the response must report in-scope activity using this tag, all PHNs may use this tag.
+   For more information please see `Reserved Tags - !br20 <https://docs.pmhc-mds.com/projects/data-specification/en/v2/reserved-tags.html#br20>`_.
+
 .. figure:: screen-shots/client-episodes-edit.png
    :alt: Client Episodes Edit Details
 
@@ -379,6 +385,12 @@ available on the **Data Entry** tab, by following these steps:
 3. Click the **Add Episode** tab
 4. Enter the client's episode details. Mandatory fields are marked with an *
    (Specification `Episode Data Elements <https://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#episode-data-elements>`__)
+
+.. note::
+   The Department has recently announced the "*Australian Government Mental Health Response to Bushfire Trauma*".
+   From January 2020, there is now a reserved **Episode Tag** ``!br20`` that can be easily selected or added to an Episode record if a new or existing client receives any services that meet the reporting requirements.
+   While services funded under the response must report in-scope activity using this tag, all PHNs may use this tag.
+   For more information please see `Reserved Tags - !br20 <https://docs.pmhc-mds.com/projects/data-specification/en/v2/reserved-tags.html#br20>`_.
 
 .. figure:: screen-shots/client-episodes-add.png
    :alt: Client Data Add Episode

@@ -310,6 +310,20 @@ data from July 2016 to be entered into the PMHC MDS.
 
 Refer to the Department's response to :ref:`MHNIP-data-faq`.
 
+
+.. _enter-br20-data-faq:
+
+How can I capture client services under the 2020 Australian Government Mental Health Response to Bushfire Trauma?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The Department has recently announced the "*Australian Government Mental Health Response to Bushfire Trauma*".
+From January 2020, there is now a reserved **Episode Tag** ``!br20`` that can be easily selected or added to an Episode record if a new or existing client receives any services that meet the reporting requirements.
+
+While services funded under the response must report in-scope activity using this tag, all PHNs may use this tag.
+
+Refer to `Reserved Tags - !br20 <https://docs.pmhc-mds.com/projects/data-specification/en/v2/reserved-tags.html#br20>`_.
+
+
 .. _enter-error-data-faq:
 
 I have an error message but no idea what it means or how to fix it. What should I do?
