@@ -316,12 +316,10 @@ Refer to the Department's response to :ref:`MHNIP-data-faq`.
 How can I capture client services under the 2020 Australian Government Mental Health Response to Bushfire Trauma?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The Department has funded services for the *Australian Government Mental Health Response to Bushfire Trauma*.
+The Department has recently announced the "*Australian Government Mental Health Response to Bushfire Trauma*".
+From January 2020, there is now a reserved **Episode Tag** ``!br20`` that can be easily selected or added to an Episode record if a new or existing client receives any services that meet the reporting requirements.
 
-From January 2020, there is now a ``!br20`` tag that can be easily selected or
-added to a client's `Episode Tag <https://docs.pmhc-mds.com/projects/data-specification/en/V2/data-model-and-specifications.html#episode-tags>`_
-field when a new and existing client receives any services under this funding criteria.
-
+While services funded under the response must report in-scope activity using this tag, all PHNs may use this tag.
 
 Refer to `Reserved Tags - !br20 <https://docs.pmhc-mds.com/projects/data-specification/en/v2/reserved-tags.html#br20>`_.
 
