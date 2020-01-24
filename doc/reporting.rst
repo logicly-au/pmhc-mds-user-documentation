@@ -414,9 +414,8 @@ have both Episode Start and Episode End measures.
 
 Key specifications:
 
-* Open Episodes are defined as those without an End Date or an End Date after the
+* Open Episodes defined as those without an End Date or an End Date after the
   end date of the report
-  less than or equal to the report end date
 * For this report, Episodes must also have an Episode Start Date equal to or greater than
   the report start date
 * Only Episodes with one or more Service Contacts in the reporting period are
