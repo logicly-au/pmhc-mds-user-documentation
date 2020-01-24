@@ -437,6 +437,12 @@ outcome measures recorded. Its purpose is to allow monitoring of adherence to
 the minimum requirements for outcome recording - i.e. measures to be recorded
 at Episode Start and Episode End.
 
+*Please note: that unlike the requirements set out in	at Episode Start and Episode End.
+:ref:`category-out-3` for the Out series reports where the same measure must be
+collected at start and finish, the A9 will accept any combination of measures
+provided there is at least one at the start of the episode and one at the end
+of the episode.*
+
 Key specifications:
 
 * Episodes must have an Episode End Date within the reporting period.
@@ -541,6 +547,29 @@ Key specifications:
 * A Practitioner is defined as 'active' and in-scope for this report if they
   have recorded one or more Service Contacts in the period
 * Service Contacts flagged as ‘No Show’ are not included for this purpose
+
+.. _category-b6:
+
+B6 - Client Outcomes
+++++++++++++++++++++
+
+The B6 report is an extension of the outcome indicators that note significant
+clinical changes between episode start and finish. Out-1 and Out-2
+(:ref:`category-out-1-2`) are restricted to episodes with a principal focus of
+treatment classified as "Low intensity psychological interventions" and
+"Psychological therapies delivered by mental health professionals"
+respectively. The B6 extends this to any type of focus.
+
+* The change for an episode is based on the effect size statistic which is
+  defined as (score at episode start - score at episode end) / standard
+  deviation of episode start scores for all episodes
+* Effect sizes of -0.5 or more constitute 'Significant improvement',
+  +0.5 or less constitute 'Significant deterioration'.
+  Effect sizes between -0.5 and 0.5 indicate 'No significant change'
+* Out-1 includes only episodes identified as "Low intensity psychological
+  interventions", Out-2 only those identified as "Psychological therapies
+  delivered by mental health professionals"
+
 
 .. _category-c:
 
