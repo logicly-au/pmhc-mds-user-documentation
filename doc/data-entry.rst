@@ -3,6 +3,10 @@
 Data Entry
 ===========
 
+.. contents::
+   :local:
+   :depth: 2
+
 You will only be able to see the **Data Entry** tab if you have been assigned
 the 'Data Entry' :ref:`roles`, when logged into the PMHC MDS on https://pmhc-mds.net.
 
@@ -22,6 +26,10 @@ organisations you have permission to access.
 
 Client Data
 ^^^^^^^^^^^
+
+.. contents::
+   :local:
+   :depth: 2
 
 .. _find-client:
 
@@ -268,6 +276,10 @@ See :ref:`delete-episode`.
 Episodes
 ^^^^^^^^
 
+.. contents::
+   :local:
+   :depth: 2
+
 .. _view-episodes:
 
 Viewing a Client's Episodes
@@ -482,6 +494,10 @@ See :ref:`delete-service-contact` and :ref:`delete-collection-occasion`.
 Service Contacts
 ^^^^^^^^^^^^^^^^
 
+.. contents::
+   :local:
+   :depth: 2
+
 .. _view-service-contact:
 
 Viewing a Client's Service Contacts for an Episode
@@ -665,6 +681,10 @@ service contact will no longer be displayed.
 Outcome Collection Occasions
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+.. contents::
+   :local:
+   :depth: 2
+
 .. _view-collection-occasion:
 
 Viewing a Client's Outcome Collection Occasions for an Episode
@@ -833,6 +853,10 @@ collection occasion will no longer be displayed.
 
 Practitioners
 ^^^^^^^^^^^^^
+
+.. contents::
+   :local:
+   :depth: 2
 
 .. _find-practitioner:
 
