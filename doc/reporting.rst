@@ -561,11 +561,11 @@ treatment classified as "Low intensity psychological interventions" and
 respectively. The B6 extends this to any type of focus.
 
 * The change for an episode is based on the effect size statistic which is
-  defined as (score at episode start - score at episode end) / standard
+  defined as (score at episode start − score at episode end) / standard
   deviation of episode start scores for all episodes
-* Effect sizes of -0.5 or more constitute 'Significant improvement',
-  +0.5 or less constitute 'Significant deterioration'.
-  Effect sizes between -0.5 and 0.5 indicate 'No significant change'
+* Effect sizes of +0.5 or more constitute 'Significant improvement',
+  −0.5 or less constitute 'Significant deterioration'.
+  Effect sizes between −0.5 and 0.5 indicate 'No significant change'
 * Out-1 includes only episodes identified as "Low intensity psychological
   interventions", Out-2 only those identified as "Psychological therapies
   delivered by mental health professionals"
