@@ -1,6 +1,10 @@
 Accessing the PMHC Minimum Data Set
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+.. contents::
+   :local:
+   :depth: 2
+
 .. _internet-browser:
 
 What internet browser should I use?

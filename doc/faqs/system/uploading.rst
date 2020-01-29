@@ -3,6 +3,10 @@
 Uploading data
 ^^^^^^^^^^^^^^
 
+.. contents::
+   :local:
+   :depth: 2
+
 .. _data-template-faq:
 
 How do I obtain a template to upload my data to the MDS?
