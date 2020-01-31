@@ -3,6 +3,10 @@
 Capturing additional data
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
+.. contents::
+   :local:
+   :depth: 2
+
 .. _limited-data-faq:
 
 It seems that the data being collected is quite limited, would it not be useful to collect more detailed information?

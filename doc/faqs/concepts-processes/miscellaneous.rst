@@ -1,6 +1,10 @@
 Miscellaneous Questions
 -----------------------
 
+.. contents::
+   :local:
+   :depth: 2
+
 Clients/consumer terminology
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 

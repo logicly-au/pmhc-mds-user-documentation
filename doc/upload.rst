@@ -3,6 +3,10 @@
 Upload
 ======
 
+.. contents::
+   :local:
+   :depth: 2
+
 You will only be able to see the **Upload** tab if you have been assigned
 the 'Upload' role, when logged into the PMHC MDS on https://pmhc-mds.net.
 

@@ -1,6 +1,10 @@
 Questions about the scope of the MDS
 ------------------------------------
 
+.. contents::
+   :local:
+   :depth: 2
+
 PHNs raised a number of questions regarding the scope of the MDS and whether specific
 areas of commissioned activity were intended to be covered.
 The `Overview paper <https://www.pmhc-mds.com/doc/pmhc-mds-overview.pdf>`_
