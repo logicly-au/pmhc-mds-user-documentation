@@ -3,6 +3,10 @@
 Organisations
 =============
 
+.. contents::
+   :local:
+   :depth: 2
+
 You will be able to see the **Organisations** tab if you have been assigned
 the 'Organisation Management', or the 'User Management' role, when logged
 into the PMHC MDS on https://pmhc-mds.net.

@@ -5,6 +5,10 @@
 PMHC mailing list
 ^^^^^^^^^^^^^^^^^
 
+.. contents::
+   :local:
+   :depth: 2
+
 .. _news-subscribe-faq:
 
 How can I be advised of any changes to the MDS?
