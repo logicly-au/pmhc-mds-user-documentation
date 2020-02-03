@@ -437,11 +437,11 @@ outcome measures recorded. Its purpose is to allow monitoring of adherence to
 the minimum requirements for outcome recording - i.e. measures to be recorded
 at Episode Start and Episode End.
 
-*Please note: that unlike the requirements set out in	at Episode Start and Episode End.
+*Please note:* that unlike the requirements set out in	at Episode Start and Episode End.
 :ref:`category-out-3` for the Out series reports where the same measure must be
 collected at start and finish, the A9 will accept any combination of measures
 provided there is at least one at the start of the episode and one at the end
-of the episode.*
+of the episode.
 
 Key specifications:
 

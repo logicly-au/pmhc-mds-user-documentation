@@ -14,8 +14,6 @@ User Guide Change log
 
 * Added report :ref:`category-b6`
 
-* Added report :ref:`category-a10`
-
 6/9/2019
 --------
 
