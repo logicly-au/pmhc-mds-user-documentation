@@ -450,6 +450,15 @@ Key specifications:
   but not necessarily during the reporting period
 * Measures that have a total score of ‘99’ are invalid and counted as ‘no measure’
 
+A11 — Data quality report — Episodes with no service contact
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+The A11 report is designed to show the number of episodes with no service
+contact.
+
+Key specification: Episodes that have a Service Contact not flagged as ‘No Show’
+are excluded in this report
+
 .. _category-b:
 
 Category B: Monitoring overall service delivery
