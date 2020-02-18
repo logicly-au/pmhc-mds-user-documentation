@@ -450,6 +450,8 @@ Key specifications:
   but not necessarily during the reporting period
 * Measures that have a total score of ‘99’ are invalid and counted as ‘no measure’
 
+.. _category-a11:
+
 A11 — Data quality report — Episodes with no service contact
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
