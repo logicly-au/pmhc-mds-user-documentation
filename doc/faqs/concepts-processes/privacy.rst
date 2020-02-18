@@ -4,6 +4,10 @@
 Questions about privacy protections and patient consent
 -------------------------------------------------------
 
+.. contents::
+   :local:
+   :depth: 2
+
 Privacy and patient consent
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 

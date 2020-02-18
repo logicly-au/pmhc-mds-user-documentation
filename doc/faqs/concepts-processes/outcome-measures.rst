@@ -1,6 +1,10 @@
 Questions about Standard Outcome Measures
 -----------------------------------------
 
+.. contents::
+   :local:
+   :depth: 2
+
 Consumer experience measures
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 

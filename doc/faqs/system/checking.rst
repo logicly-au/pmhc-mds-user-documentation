@@ -3,6 +3,10 @@
 Checking data
 ^^^^^^^^^^^^^
 
+.. contents::
+   :local:
+   :depth: 2
+
 .. _who-checks-data-faq:
 
 Who should be checking data?

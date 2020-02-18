@@ -3,6 +3,10 @@
 Entering data in the PMHC Minimum Data Set
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+.. contents::
+   :local:
+   :depth: 2
+
 .. _manage-client-key-faq:
 
 What is the best way to manage the client key?
