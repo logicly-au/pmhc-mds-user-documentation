@@ -450,6 +450,24 @@ Key specifications:
   but not necessarily during the reporting period
 * Measures that have a total score of ‘99’ are invalid and counted as ‘no measure’
 
+.. _category-a10:
+
+A10 — Data quality report — Missing and invalid Referral Dates
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+The A10 report is designed to show the counts of episodes with missing and
+invalid Referral Dates. Its purpose is to allow monitoring of adherence to the
+minimum requirements for outcome recording — i.e. measures to be recorded at
+Episode Start and Episode End.
+
+Key specifications:
+
+* Service Contacts flagged as ‘No Show’ are not included for this purpose
+* The Service Contact used in Episodes with Referral date is the one with the
+  earliest date (and not indicated as ‘No Show’)
+* For Episodes with Referral Date, 1 year is 365 days regardless whether the
+  referral date falls within a leap year
+
 .. _category-b:
 
 Category B: Monitoring overall service delivery
