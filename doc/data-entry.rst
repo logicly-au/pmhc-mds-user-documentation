@@ -810,8 +810,8 @@ services commissioned by Primary Health Networks (PHNs) to complete the
 standardised outcome measures mandated in the PMHC MDS and have the results
 reported back to their service providers. See more at http://docs.omsss.online/.
 
-You can now generate a self service link for the client to complete either of the
-Outcome Collection Occasion on a preferred device through the PMHC MDS :ref:`view-collection-occasion`
+You can now generate a self service link through the PMHC MDS for a
+Outcome Collection Occasion through :ref:`view-collection-occasion`
 available on the **Data Entry** tab, by following these steps:
 
 1. Navigate to :ref:`view-collection-occasion`
@@ -843,10 +843,10 @@ invitation section.
 
 7. Click the blue **Back to start** button.
 
-You will receive confirmation when the client's collection occasion measure has
-been completed, if you selected the Practitioner email or Organisation email.
-Once completed the client's collection occasion measure will be automatically added
-to the PMHC MDS.
+When the client has completed the collection occasion measure, a confirmation
+email will be sent to the Practitioner email and/or Organisation email when
+selected. The client's collection occasion measure will be automatically added
+to the PMHC MDS when completed.
 
 .. .. .. figure:: screen-shots/client-collection-occasions-OMSSS-complete.png
    :alt: Client Data Saved Successfully
