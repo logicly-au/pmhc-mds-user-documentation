@@ -805,7 +805,7 @@ Generate a Client's Outcome Collection Occasion Self Service Link through the On
 
 The Online Measures Self Service System (OMSSS) is a service funded by
 the Australian Government Department of Health as part of the Primary Mental
-Healthcare Minimum Data Set (PMHC MDS). It allows clients of mental health
+Health Care Minimum Data Set (PMHC MDS). It allows clients of mental health
 services commissioned by Primary Health Networks (PHNs) to complete the
 standardised outcome measures mandated in the PMHC MDS and have the results
 reported back to their service providers. See more at http://docs.omsss.online/.
