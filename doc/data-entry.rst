@@ -810,7 +810,7 @@ services commissioned by Primary Health Networks (PHNs) to complete the
 standardised outcome measures mandated in the PMHC MDS and have the results
 reported back to their service providers. See more at http://docs.omsss.online/.
 
-You can now generate a self service link through the PMHC MDS for a
+You can now generate a self service link on the PMHC MDS for a
 Outcome Collection Occasion through :ref:`view-collection-occasion`
 available on the **Data Entry** tab, by following these steps:
 
