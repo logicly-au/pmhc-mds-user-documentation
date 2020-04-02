@@ -820,36 +820,46 @@ available on the **Data Entry** tab, by following these steps:
 4. Complete Screen One; about the collection occasion measure and click the blue
    **Next** button
 
-.. .. figure:: screen-shots/client-collection-occasions-generate-pg1.png
-   :alt: Client Data Generate Collection Occasion Self Service Link
+.. figure:: screen-shots/client-collection-occasions-generate-pg1.png
+   :alt: Client Data Generate Collection Occasion Self Service Link - screen 1
 
 5. Complete Screen Two; review the measure details just entered and complete the
    'Invitation' and 'Results' fields, and click the blue **Next** button
 
-.. .. figure:: screen-shots/client-collection-occasions-generate-pg2.png
-   :alt: Client Data Generate Collection Occasion Self Service Link
+   The client will be sent an SMS and/or email if you entered their details in the invitation section.
 
-The client will be sent an SMS and/or email if you entered their details in the
-invitation section.
+   The Practitioner and/or Organisation will receive the results of the completed measure if you have entered their details and selected these options
 
-..    .. figure:: screen-shots/client-collection-occasions-OMSSS-SMS&Email.png
-      :alt: Client Data Generate Collection Occasion Self Service SMS/Email text
+.. figure:: screen-shots/client-collection-occasions-generate-pg2.png
+   :alt: Client Data Generate Collection Occasion Self Service Link - screen 2
 
 6. Final screen three; will display the QR code and the unique OMSSS collection
    code for your records.
 
-.. .. figure:: screen-shots/client-collection-occasions-generate-pg3.png
-   :alt: Client Data Generate Collection Occasion Self Service Link
+.. figure:: screen-shots/client-collection-occasions-generate-pg3.png
+   :alt: Client Data Generate Collection Occasion Self Service Link - screen 3
 
 7. Click the blue **Back to start** button.
 
-When the client has completed the collection occasion measure, a confirmation
-email will be sent to the Practitioner email and/or Organisation email when
-selected. The client's collection occasion measure will be automatically added
-to the PMHC MDS when completed.
+*Example Self Service Link Screens*
 
-.. .. .. figure:: screen-shots/client-collection-occasions-OMSSS-complete.png
-   :alt: Client Data Saved Successfully
+.. figure:: screen-shots/client-collection-occasions-OMSSS-SMS-Email.png
+   :alt: Example Client Data Generate Collection Occasion Self Service SMS/Email text
+
+*Example Measure Screens*
+
+.. figure:: screen-shots/client-collection-occasions-OMSSS-Screens.png
+   :alt: Example Client Data Generate Collection Occasion Self Service Measure screen
+
+*Example confirmation email for complete measure*
+
+.. figure:: screen-shots/client-collection-occasions-OMSSS-Email-complete.png
+   :alt: Example Client Data Generate Collection Occasion Self Service SMS/Email text
+
+*Example complete measure 'CL0001-E01-CO03' in the PMHC MDS*
+
+.. figure:: screen-shots/client-collection-occasions-OMSSS-complete.png
+   :alt: Example Client Data Generate Collection Occasion Self Service measure in MDS
 
 
 .. _delete-collection-occasion:
