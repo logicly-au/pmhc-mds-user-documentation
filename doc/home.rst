@@ -132,7 +132,12 @@ minutes of inactivity.  You will see a pop up box that provides a countdown
 feature prior to automatically logging out the idle user.*
 
 .. figure:: screen-shots/account-logout-count-down.png
-   :alt: PMHC MDS Auto Log Out
+   :alt: PMHC MDS Auto Log Out Count Down
+
+The login screen will confirm when an auto-logout has occurred to an idle user.
+
+.. figure:: screen-shots/account-auto-logout-confirmation.png
+   :alt: PMHC MDS Auto Log Out Confirmation
 
 .. _updating-your-details:
 
@@ -151,8 +156,8 @@ To edit your details:
 
 5. You will see the **Manage Details** page
 
-   .. figure:: screen-shots/account-manage-details.png
-      :alt: PMHC MDS Manage Details
+ .. figure:: screen-shots/account-manage-details.png
+    :alt: PMHC MDS Manage Details
 
 6. To update your name, click the **Change personal details** link
 7. To update your primary email address, click the **Change email address** link
