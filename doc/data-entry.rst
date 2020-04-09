@@ -860,7 +860,6 @@ collection occasion will no longer be displayed.
     .. figure:: screen-shots/client-collection-occasions-delete-successful.png
        :alt: Client Collection Occasion Data Delete Successful
 
-
 .. _practitioner:
 
 Practitioners

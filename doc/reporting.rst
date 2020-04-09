@@ -42,7 +42,7 @@ following these steps:
    calendar icon to select the end date
 6. If you click the **Include only records with Client Consent** tickbox, the
    data for clients that have not consented to their anonymised data being
-   provided to the Department of Health will be excluded from your report. (See `Episode - Client Consent to Anonymised Data <http://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#dfn-client-consent>`_ )
+   provided to the Department of Health will be excluded from your report. (See `Episode — Client Consent to Anonymised Data <http://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#dfn-client-consent>`_ )
 7. Click the blue **Request** button
 8. Your report will be displayed on screen and can be downloaded as a CSV
 
@@ -87,7 +87,7 @@ managers to monitor 'raw' upload and data supply to the MDS.
 
 .. _category-a1:
 
-A1 - High level summary of overall volumes by entity
+A1 — High level summary of overall volumes by entity
 ++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 This report is designed to provide a 'one page' view, with data aggregated for
@@ -100,14 +100,14 @@ Key specifications:
   reporting period, defined for this report's purposes as 'Active Clients'.
   Clients are counted uniquely regardless of number of episodes
 * Episodes to be counted if one or more Service Contacts were recorded in the
-  period - defined for this report purpose as 'Active Episodes'
+  period — defined for this report purpose as 'Active Episodes'
 * All Service Contacts in the period are reported except those that are flagged
   as 'No Show'
 * All dates refer to date of service not date of data upload or data entry
 
 .. _category-a2:
 
-A2 - Monthly volume trends
+A2 — Monthly volume trends
 ++++++++++++++++++++++++++
 
 This report is designed to show volume trends in clients, episodes and service
@@ -126,7 +126,7 @@ Key specifications:
 
 .. _category-a3:
 
-A3 - Data quality report - Missing and invalid client data
+A3 — Data quality report — Missing and invalid client data
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 The A3 reports are designed to identify Client data elements with significant
@@ -150,7 +150,7 @@ Key specifications:
 
 .. _category-a3-1:
 
-A3-1 - Data quality report - Missing and invalid client data - Summary
+A3-1 — Data quality report — Missing and invalid client data — Summary
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
 Summary format provides a simple listing of missing/invalid data rates for
@@ -159,7 +159,7 @@ nationally.
 
 .. _category-a3-2:
 
-A3-2 - Data quality report - Missing and invalid client data - Detail
+A3-2 — Data quality report — Missing and invalid client data — Detail
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
 Detailed format presents missing/invalid data rates at the entity level (PHN
@@ -184,7 +184,7 @@ not made available to these users.
 
 .. _category-a4:
 
-A4- Data quality report - Missing and invalid episode data
+A4- Data quality report — Missing and invalid episode data
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 The A4 reports are designed to identify data Episode elements with significant
@@ -223,7 +223,7 @@ Key specifications:
 
 .. _category-a4-1:
 
-A4-1 - Data quality report - Missing and invalid episode data - Summary
+A4-1 — Data quality report — Missing and invalid episode data — Summary
 '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
 Summary format provides a simple listing of missing/invalid data rates
@@ -232,7 +232,7 @@ region or nationally.
 
 .. _category-a4-2:
 
-A4-2 - Data quality report - Missing and invalid episode data - Detail
+A4-2 — Data quality report — Missing and invalid episode data — Detail
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
 Detailed format presents missing/invalid Episode data rates at the
@@ -266,7 +266,7 @@ not made available to these users.
 
 .. _category-a5:
 
-A5 - Data quality report - Missing and invalid service contact data
+A5 — Data quality report — Missing and invalid service contact data
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 The A5 reports are designed to identify Service Contact data elements with
@@ -295,7 +295,7 @@ blank values to be submitted:
 
 .. _category-a5-1:
 
-A5-1 - Data quality report - Missing and invalid service contact data - Summary
+A5-1 — Data quality report — Missing and invalid service contact data — Summary
 '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
 Summary format provides a simple listing of missing/invalid data rates
@@ -304,7 +304,7 @@ organisation, region or nationally.
 
 .. _category-a5-2:
 
-A5-2 - Data quality report - Missing and invalid service contact data - Detail
+A5-2 — Data quality report — Missing and invalid service contact data — Detail
 '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
 Detailed format presents missing/invalid Service Contact data rates at
@@ -327,7 +327,7 @@ not made available to these users.
 
 .. _category-a6:
 
-A6 - Data quality report - Missing and invalid practitioner data
+A6 — Data quality report — Missing and invalid practitioner data
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 The A6 reports are designed to identify Practitioner data elements with
@@ -347,7 +347,7 @@ Key specifications:
 
 .. _category-a6-1:
 
-A6-1 - Data quality report - Missing and invalid practitioner data - Summary
+A6-1 — Data quality report — Missing and invalid practitioner data — Summary
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
 Summary format provides a simple listing of missing/invalid data rates
@@ -356,7 +356,7 @@ nationally.
 
 .. _category-a6-2:
 
-A6-2 - Data quality report - Missing and invalid practitioner data - Detail
+A6-2 — Data quality report — Missing and invalid practitioner data — Detail
 '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
 Detailed format presents missing/invalid data rates at the entity level
@@ -380,7 +380,7 @@ not made available to these users.
 
 .. _category-a7:
 
-A7 - Open episodes with no service contact activity for 90+ days
+A7 — Open episodes with no service contact activity for 90+ days
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 The A7 report is designed to allow monitoring of adherence to the requirement
@@ -400,16 +400,16 @@ Unlike the A8 report, this report has no requirement to start during the reporti
 
 .. _category-a8:
 
-A8 - Data quality report - Recording of outcome measures for open episodes
+A8 — Data quality report — Recording of outcome measures for open episodes
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 The A8 report is designed to show the percentage of open (not yet completed)
 episodes that have an outcome measure recorded at the Episode Start collection
 occasion. Its purpose is to allow monitoring of adherence to the minimum
-requirements for outcome recording - i.e. measures to be recorded at Episode
+requirements for outcome recording — i.e. measures to be recorded at Episode
 Start and Episode End.
 
-Report A9 examines a related aspect - the extent to which Completed Episodes
+Report A9 examines a related aspect — the extent to which Completed Episodes
 have both Episode Start and Episode End measures.
 
 Key specifications:
@@ -425,7 +425,7 @@ Key specifications:
 
 .. _category-a9:
 
-A9 - Data quality report - Recording of outcome measures for completed episodes
+A9 — Data quality report — Recording of outcome measures for completed episodes
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 .. note::
@@ -434,7 +434,7 @@ A9 - Data quality report - Recording of outcome measures for completed episodes
 
 The A9 report is designed to show the percentage of completed episodes that have
 outcome measures recorded. Its purpose is to allow monitoring of adherence to
-the minimum requirements for outcome recording - i.e. measures to be recorded
+the minimum requirements for outcome recording — i.e. measures to be recorded
 at Episode Start and Episode End.
 
 *Please note:* that unlike the requirements set out in	at Episode Start and Episode End.
@@ -450,6 +450,24 @@ Key specifications:
   but not necessarily during the reporting period
 * Measures that have a total score of ‘99’ are invalid and counted as ‘no measure’
 
+.. _category-a10:
+
+A10 — Data quality report — Missing and invalid Referral Dates
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+The A10 report is designed to show the counts of episodes with missing and
+invalid Referral Dates. Its purpose is to allow monitoring of adherence to the
+minimum requirements for outcome recording — i.e. measures to be recorded at
+Episode Start and Episode End. For this report there are no date selections.
+
+Key specifications:
+
+* The three columns relating to Service Contacts ignore contacts flagged as ‘No Show’
+* The Service Contact used in Episodes with Referral date is the one with the
+  earliest date that is also not marked as ‘No Show’
+* Referral > Date 1 year before Service Contact is defined as a Referral Date
+  more than 365 days prior to the earliest (non no-show) Service Contact
+  
 .. _category-a11:
 
 A11 — Data quality report — Episodes with no service contact
@@ -480,7 +498,7 @@ There are five reports in this series, each covering a specific data category
 
 .. _category-b1:
 
-B1 - Activity report - Client characteristics
+B1 — Activity report — Client characteristics
 +++++++++++++++++++++++++++++++++++++++++++++
 
 The B1 report is designed to allow selection of a Client
@@ -499,7 +517,7 @@ Key specifications:
 
 .. _category-b2:
 
-B2 - Activity report - Episode characteristics
+B2 — Activity report — Episode characteristics
 ++++++++++++++++++++++++++++++++++++++++++++++
 
 The B2 report is designed to allow selection of an Episode stratification
@@ -515,7 +533,7 @@ Key specifications:
 
 .. _category-b3:
 
-B3 - Activity report - Service Contact characteristics
+B3 — Activity report — Service Contact characteristics
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 The B3 report is designed to allow selection of a Service Contact
@@ -530,7 +548,7 @@ Key specifications:
 
 .. _category-b4:
 
-B4 - Activity report - Provider Organisation characteristics
+B4 — Activity report — Provider Organisation characteristics
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 The B4 report is designed to allow selection of a Provider Organisation
@@ -546,7 +564,7 @@ Key specifications:
 
 .. _category-b5:
 
-B5 - Activity report - Practitioner characteristics
+B5 — Activity report — Practitioner characteristics
 +++++++++++++++++++++++++++++++++++++++++++++++++++
 
 The B5 report is designed to allow selection of a Practitioner stratification
@@ -561,7 +579,7 @@ Key specifications:
 
 .. _category-b6:
 
-B6 - Client Outcomes
+B6 — Client Outcomes
 ++++++++++++++++++++
 
 The B6 report is an extension of the outcome indicators that note significant
@@ -603,7 +621,7 @@ improvement with PHN feedback on their utility.
 
 .. _category-c1:
 
-C1 - Stepped care report - Episode type by Client characteristics
+C1 — Stepped care report — Episode type by Client characteristics
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 Purpose: To provide summary information on the characteristics of clients who
@@ -635,7 +653,7 @@ Client data elements that can be selected for the C1 report are:
   * Grouped by Remoteness Classification (Major Cities, Outer Regional,
     Inner Regional, Remote, Very Remote)
 
-* Principal diagnosis - High level grouping
+* Principal diagnosis — High level grouping
 
   * Anxiety disorders
   * Affective (Mood) disorders
@@ -651,7 +669,7 @@ Client data elements that can be selected for the C1 report are:
 
 .. _category-c2:
 
-C2 - Stepped care report – Episode Type by Service Contacts Type
+C2 — Stepped care report – Episode Type by Service Contacts Type
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 Purpose: To provide summary information on the types of service contacts delivered
@@ -669,7 +687,7 @@ Key specifications:
 
 .. _category-c3:
 
-C3 - Stepped care report – Episode Type by Service Contact Intensity
+C3 — Stepped care report – Episode Type by Service Contact Intensity
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 Purpose: To provide summary information on the volumes of service delivered
@@ -716,23 +734,23 @@ framework, bringing the total to 14.
 The following reports are not available via the PMHC MDS as they require
 information that is not derived from the PMHC MDS:
 
-* Eff-1 - Average cost of PHN-commissioned low intensity psychological
+* Eff-1 — Average cost of PHN-commissioned low intensity psychological
   intervention services
-* Eff-2 - Average cost of PHN-commissioned psychological therapies delivered by
+* Eff-2 — Average cost of PHN-commissioned psychological therapies delivered by
   mental health professionals
-* Eff-3 - Average cost of PHN-commissioned clinical care coordination for people
+* Eff-3 — Average cost of PHN-commissioned clinical care coordination for people
   with severe and complex mental illness
-* Prog-1 - Proportion of PHN annual flexible funding allocated to low intensity
+* Prog-1 — Proportion of PHN annual flexible funding allocated to low intensity
   services, psychological therapies and services for people with severe and
   complex mental illness
-* Prog-2 - Formalised partnerships with other regional service providers to
+* Prog-2 — Formalised partnerships with other regional service providers to
   support integrated regional planning and service delivery
 
 
 
 .. _category-acc-1:
 
-Acc-1 - Access to Low Intensity Services
+Acc-1 — Access to Low Intensity Services
 ++++++++++++++++++++++++++++++++++++++++
 
 Purpose: Measure the proportion of regional population receiving PHN-commissioned
@@ -750,7 +768,7 @@ Key specifications:
 
 .. _category-acc-2:
 
-Acc-2 - Access to Psychological Services
+Acc-2 — Access to Psychological Services
 ++++++++++++++++++++++++++++++++++++++++
 
 Purpose: Measure the proportion of regional population receiving PHN-commissioned
@@ -768,7 +786,7 @@ Key specifications:
 
 .. _category-acc-3:
 
-Acc-3 - Access to Clinical Care Coordination
+Acc-3 — Access to Clinical Care Coordination
 ++++++++++++++++++++++++++++++++++++++++++++
 
 Purpose: Measure the proportion of regional population receiving PHN-commissioned
@@ -786,7 +804,7 @@ Key specifications:
 
 .. _category-app-1:
 
-App-1 - Youth receiving youth-specific services
+App-1 — Youth receiving youth-specific services
 +++++++++++++++++++++++++++++++++++++++++++++++
 
 Purpose: Measure the proportion of regional youth population receiving
@@ -807,7 +825,7 @@ Key specifications:
 
 .. _category-app-2:
 
-App-2 - Indigenous Population receiving culturally appropriate services
+App-2 — Indigenous Population receiving culturally appropriate services
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 Purpose: Measure the proportion of PHN-commissioned mental health
@@ -829,7 +847,7 @@ Key specifications:
 
 .. _category-app-3:
 
-App-3 - Suicide Risk Followup
+App-3 — Suicide Risk Followup
 +++++++++++++++++++++++++++++
 
 Purpose: Measure the proportion of people referred to PHN-commissioned
@@ -873,13 +891,13 @@ Key specifications applying to all Out series reports:
 
 .. _category-out-1-2:
 
-Out-1 and Out-2 - Clinical outcomes
+Out-1 and Out-2 — Clinical outcomes
 '''''''''''''''''''''''''''''''''''
 
 * These indicators group the matched pairs for all episodes reported in Out-3
   to indicate significant clinical changes between episode start and finish
 * The change for an episode is based on the effect size statistic which is
-  defined as (score at episode start - score at episode end) / standard
+  defined as (score at episode start — score at episode end) / standard
   deviation of episode start scores for all episodes
 * Effect sizes of +0.5 or more constitute 'Significant improvement',
   -0.5 or less constitute 'Significant deterioration'.
@@ -890,7 +908,7 @@ Out-1 and Out-2 - Clinical outcomes
 
 .. _category-out-3:
 
-Out-3 - Completion rates for clinical outcome measures
+Out-3 — Completion rates for clinical outcome measures
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
 * Reports the percentage of episodes completed in the reporting period that
@@ -961,7 +979,7 @@ The reports provide summary data on:
 
 .. _category-e1:
 
-E1 - High level summary of overall volumes by entity
+E1 — High level summary of overall volumes by entity
 ++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 This report is designed to provide a ‘one page’ view, with data aggregated for the
@@ -975,7 +993,7 @@ Key specifications:
 
 .. _category-e2:
 
-E2 - Volume trends
+E2 — Volume trends
 ++++++++++++++++++
 
 This report is designed to show volume trends in clients, episodes, service
@@ -989,7 +1007,7 @@ Key specifications:
 
 .. _category-e3:
 
-E3 - Activity per day
+E3 — Activity per day
 +++++++++++++++++++++
 
 This report will show a summary of the number of clients, episodes, service
