@@ -467,6 +467,17 @@ Key specifications:
   earliest date that is also not marked as ‘No Show’
 * Referral > Date 1 year before Service Contact is defined as a Referral Date
   more than 365 days prior to the earliest (non no-show) Service Contact
+  
+.. _category-a11:
+
+A11 — Data quality report — Episodes with no service contact
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+The A11 report is designed to show the number of episodes with no service
+contact.
+
+Key specification: Episodes that have a Service Contact not flagged as ‘No Show’
+are excluded in this report
 
 .. _category-b:
 
