@@ -474,7 +474,9 @@ A11 — Data quality report — Episodes with no service contact
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 The A11 report is designed to show the number of episodes with no service
-contact.
+contact. Episodes with and without referral dates are reported separately.
+Note that there are no date selectors on this report - it shows every recorded
+episode that has no (non no-show) Service Contact.
 
 Key specification: Episodes that have a Service Contact not flagged as ‘No Show’
 are excluded in this report
