@@ -3,6 +3,11 @@
 User Guide Change log
 =====================
 
+16/4/2020
+---------
+
+* Added reports A10 and A11 to :ref:`category-a`
+
 23/1/2020
 ---------
 
