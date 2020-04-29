@@ -3,6 +3,19 @@
 User Guide Change log
 =====================
 
+29/04/2020
+----------
+
+* Updated :ref:`delete-invite`
+
+* Added :ref:`view-invite`
+
+* Added :ref:`view-invite-details`
+
+* Added :ref:`reissue-invite`
+
+* Added :ref:`delete-invite`
+
 16/4/2020
 ---------
 
@@ -13,7 +26,7 @@ User Guide Change log
 
 * Updated :ref:`add-episode` to include `!br20` tag note.
 
-* Updated :ref:`edit-episode` to include `!br20` tag note.
+* c :ref:`edit-episode` to include `!br20` tag note.
 
 * Updated screenshots for :ref:`Data Entry - Episodes <episode-data>`
 
@@ -67,7 +80,7 @@ User Guide Change log
 
 * Edited :ref:`inactivate-provider-organisation`
 
-* Added :ref:`deleting-a-user-invition`
+* Added :ref:`delete-invite`
 
 * Edited :ref:`edit-role`
 

@@ -168,24 +168,15 @@ by following these steps:
 7. You will receive confirmation that the user has been sent an email to invite
    them to the PMHC MDS. They will also be sent an SMS containing a
    verification code. The user will need to follow the instructions in the
-   email before they can gain access to the system. This invitation will be valid for 7 days
+   email before they can gain access to the system. See :ref:`accepting-invitation`
+   This invitation will be valid for 7 days. Invitations are listed in the **View Users** table until accepted.
 8. When the user has accepted the invitation you will be sent an email to let you know.
-   This user will now be listed in the **View Users** table
+   This user will then be listed in the **View Users** table
 
    .. figure:: screen-shots/user-invite-accepted-email.png
       :alt: PMHC MDS Invite Accepted
 
-*Please note: An invitation for a new user is valid for 7 days. You can not re-invite
-this user within this time, unless the verification code has expired, or they
-have accepted the invitation.*
-
-.. _deleting-a-user-invition:
-
-Deleting an invitation
-^^^^^^^^^^^^^^^^^^^^^^
-
-You cannot delete a new users invitation after it is sent. If you believe an
-invitation should be deleted please email support@pmhc-mds.com.
+*Please note: An invitation for a new user is valid for **7 days**. If you receive an error that a previous invitation already exists for a user, you can either reissue or remove the invitation. See :ref:`view-invite-details`.
 
 .. _adding-an-exsisting-user:
 
@@ -211,9 +202,79 @@ You can invite an existing user through the **Users** tab, by following these st
 
 5. Click the blue **Invite** button
 6. You will receive confirmation that the roles have been added to the existing user
-7. **Please note:** You will need to notify the user that they have been added to the organisation and confirm their authorised roles. The system will not automatically do this
 
-.. 6. The user will receive notification that they have been granted these additional roles at the relevant organisation.
+*Please note: The user will receive notification that they have been granted these additional roles at the relevant organisation.*
+
+.. _view-invite:
+
+Viewing Invitations
+^^^^^^^^^^^^^^^^^^^
+
+You can view user invitation details through the **Users** tab, by following these steps:
+
+#. Navigate to the **Users** tab
+#. Click on the **Invites** tab
+
+A table will display all the users that have been sent an invitation which have not been accepted yet.
+See :ref:`view-invite-details`.
+
+ * **Pending** invitations will show the organisation and invitee
+ * **Expired** invitations will not show the organisation and invitee
+ * **Accepted** invitations are removed and the user will be listed in the **Users** tab. See :ref:`view-users-details`
+
+.. _view-invite-details:
+
+Viewing a user's invitation details
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+You can view a user's invitation details through the **Users** tab, by following these steps:
+
+#. Navigate to the **Users** tab
+#. Click on the **Invites** tab
+#. Click on the user's email in blue displayed within the table
+
+A page will display the user's invitation details, as entered on the invitation form.
+
+*Please note: For privacy reasons, only the user who issued the invitation will be able to see the invitee's mobile number.*
+
+On the page you can:
+
+ * :ref:`reissue-invite`
+ * :ref:`delete-invite`
+
+.. _reissue-invite:
+
+Reissue an invitation
+^^^^^^^^^^^^^^^^^^^^^
+
+You can reissue a user's invitation through the **Users** tab, by following these steps:
+
+#. Navigate to the **Users** tab
+#. Click on the **Invites** tab
+#. Click on the user's email in blue displayed within the table
+#. Review all details are correct
+#. Click the 'Reissue Invitation' button to resend the invitation using the same details
+#. Click the Reissue' button to resend the email and SMS inviation details. (or click the **Cancel** button if you decide not to reissue this invite)
+
+
+*Please note: If any of the details are incorrect on the previous invite, you will need to delete the invitation.* See: :ref:`delete-invite`.
+
+.. _delete-invite:
+
+Remove an invitation
+^^^^^^^^^^^^^^^^^^^^
+
+You can delete a user's invitation through the **Users** tab, by following these steps:
+
+#. Navigate to the **Users** tab
+#. Click on the **Invites** tab
+#. Click on the user's email in blue displayed within the table
+#. Depending on the status of the previous invitation:
+
+   * For **Pending** invitations you will need to 'Revoke Invitation'. Click 'Revoke' to confirm that you are sure you want to delete this active invite. (or click the **Cancel** button if you decide not to revoke this invite)
+   * For **Expired** invitations you will need to 'Delete Invitation'. Click 'Delete' to confirm that you are sure you want to delete this expired invite. (or click the **Cancel** button if you decide not to delete this invite)
+
+*Please note: Once a previous invitation has been deleted, you can then send a new invitation to the user.* See: :ref:`delete-invite`.
 
 .. _view-role:
 
@@ -242,7 +303,7 @@ Editing a user's roles
 A user can have more than one role. Each role is granted for a user against the
 appropriate organisation.
 
-You can edit and assign extra roles to an existing user by following these steps:
+You can edit and assign extra :ref:`roles <roles>`  to an existing user by following these steps:
 
 1. Navigate to the **Users** tab
 2. Click the user's name in blue displayed within the table
