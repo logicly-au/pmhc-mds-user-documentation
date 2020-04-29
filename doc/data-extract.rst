@@ -35,7 +35,7 @@ the Download Data fields in the Data Extraction tab, by following these steps:
 3. Select the name of the organisation from the drop down list
 4. Click the first calendar icon to select the start date and then the second
    calendar icon to select the end date
-5. If required, click the checkbox labelled **Include data without associated dates**. See :ref:`data-extract-dates` for more information on this selector
+5. If required, click the checkbox labelled **Include data without associated dates**. See :ref:`data-extract-dates` for more information on this checkbox
 6. Select the appropriate file type to be downloaded
 
    .. figure:: screen-shots/data-extract-view-form.png
@@ -78,6 +78,6 @@ default, not be included in the extract:
      in the data extract
 
 If you would like to include these episodes, clients and practitioners check the
-checkbox labelled **Include data without associated dates**
+checkbox labelled **Include data without associated dates**.
 
 See :ref:`view-data-extract`.
