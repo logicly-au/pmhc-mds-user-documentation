@@ -26,7 +26,7 @@ User Guide Change log
 
 * Updated :ref:`add-episode` to include `!br20` tag note.
 
-* c :ref:`edit-episode` to include `!br20` tag note.
+* Updated :ref:`edit-episode` to include `!br20` tag note.
 
 * Updated screenshots for :ref:`Data Entry - Episodes <episode-data>`
 

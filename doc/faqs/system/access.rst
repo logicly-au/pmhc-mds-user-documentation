@@ -181,7 +181,7 @@ What should I do if a user didn't receive the invitation SMS token?
 Firstly confirm that you have their correct mobile phone number.  See :ref:`view-invite-details`.
 
 * If the mobile is incorrect, you will be able to :ref:`delete-invite` and then send a new invitation.
-* If the mobile is correct, ask the user to power off your mobile as this does often
+* If the mobile is correct, ask the user to power off their mobile and turn it back on again as this does often
   help when an SMS hasn't arrived.
 
 You can :ref:`reissue-invite`. When you reissue an invitation, both the email and SMS are sent again to the invitee.

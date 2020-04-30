@@ -169,7 +169,7 @@ by following these steps:
    them to the PMHC MDS. They will also be sent an SMS containing a
    verification code. The user will need to follow the instructions in the
    email before they can gain access to the system. See :ref:`accepting-invitation`
-   This invitation will be valid for 7 days. Invitations are listed in the **View Users** table until accepted.
+   This invitation will be valid for 7 days. Invitations are listed in the **View Invitations** table.
 8. When the user has accepted the invitation you will be sent an email to let you know.
    This user will then be listed in the **View Users** table
 
