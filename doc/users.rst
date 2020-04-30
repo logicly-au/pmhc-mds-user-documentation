@@ -215,12 +215,23 @@ You can view user invitation details through the **Users** tab, by following the
 #. Navigate to the **Users** tab
 #. Click on the **Invites** tab
 
-A table will display all the users that have been sent an invitation which have not been accepted yet.
-See :ref:`view-invite-details`.
+A table will display all the users that have been sent a recent invitation. These are either:
+
+   * **Pending** - these are active invitations which have not been accepted yet
+   * **Expired** - these are inactive invitations which were not accepted within 7 days
+   * **Accepted** - these are invitations that have been successfully accepted and the user will be listed in the **Users** tab.
+
+*Please note: Invitations sent prior to this feature launch on 29 April 2020 will not display the Organisation and Inviters details.*
+
+.. Note for future change...
+
+.. A table will display all the users that have been sent an invitation which have not been accepted yet. These are either
+.. See :ref:`view-invite-details`.
 
  * **Pending** invitations will show the organisation and invitee
  * **Expired** invitations will not show the organisation and invitee
- * **Accepted** invitations are removed and the user will be listed in the **Users** tab. See :ref:`view-users-details`
+
+.. *Please note: Accepted invitations are removed and the user will be listed in the 'Users' tab.* See :ref:`view-users-details`.
 
 .. _view-invite-details:
 
@@ -239,25 +250,24 @@ A page will display the user's invitation details, as entered on the invitation 
 
 On the page you can:
 
- * :ref:`reissue-invite`
- * :ref:`delete-invite`
+   * :ref:`reissue-invite`
+   * :ref:`delete-invite`
 
 .. _reissue-invite:
 
 Reissue an invitation
 ^^^^^^^^^^^^^^^^^^^^^
 
-You can reissue a user's invitation through the **Users** tab, by following these steps:
+You can reissue a pending or expired invitation through the **Users** tab, by following these steps:
 
 #. Navigate to the **Users** tab
 #. Click on the **Invites** tab
 #. Click on the user's email in blue displayed within the table
 #. Review all details are correct
 #. Click the 'Reissue Invitation' button to resend the invitation using the same details
-#. Click the Reissue' button to resend the email and SMS inviation details. (or click the **Cancel** button if you decide not to reissue this invite)
+#. Click the Reissue' button to resend the email and SMS invitation details. (or click the 'Cancel' button if you decide not to reissue this invite)
 
-
-*Please note: If any of the details are incorrect on the previous invite, you will need to delete the invitation.* See: :ref:`delete-invite`.
+*Please note: If any of the details are incorrect on the previous invite, you will need to remove the invitation beforeing being able to send a new invite..* See: :ref:`delete-invite`.
 
 .. _delete-invite:
 
@@ -269,12 +279,13 @@ You can delete a user's invitation through the **Users** tab, by following these
 #. Navigate to the **Users** tab
 #. Click on the **Invites** tab
 #. Click on the user's email in blue displayed within the table
-#. Depending on the status of the previous invitation:
+#. Depending on the status of the previous invitation, you can:
 
-   * For **Pending** invitations you will need to 'Revoke Invitation'. Click 'Revoke' to confirm that you are sure you want to delete this active invite. (or click the **Cancel** button if you decide not to revoke this invite)
-   * For **Expired** invitations you will need to 'Delete Invitation'. Click 'Delete' to confirm that you are sure you want to delete this expired invite. (or click the **Cancel** button if you decide not to delete this invite)
+   * **Pending** - click **Revoke Invitation** to inactivate the pending invite. Click 'Revoke' to confirm that you are sure. (or click the 'Cancel' button if you decide not to revoke this invite)
+   * **Expired** - click **Delete Invitation** to delete the expired invite. Click 'Delete' to confirm that you are sure. (or click the 'Cancel' button if you decide not to delete this invite)
+   * **Accepted** - click **Delete Invitation'** to manually remove the accepted invite from this list. Click 'Delete' to confirm that you are sure. (or click the 'Cancel' button if you decide not to delete this invite)
 
-*Please note: Once a previous invitation has been deleted, you can then send a new invitation to the user.* See: :ref:`delete-invite`.
+*Please note: Once a previous pending invitation has been revoked, you can then send a new invitation to the user.*
 
 .. _view-role:
 
@@ -316,8 +327,8 @@ You can edit and assign extra :ref:`roles <roles>`  to an existing user by follo
 6. A tick indicates the user currently has this role assigned at the relevant organisation.
    Multiple roles can be assigned and these roles are shown as blue ticks
 
-  - **Add** a role by clicking the empty checkbox
-  - **Remove** a role by clicking the selected checkbox
+   * **Add** a role by clicking the empty checkbox
+   * **Remove** a role by clicking the selected checkbox
 
 7. All changes are automatically saved
 8. You will need to notify the user of these role changes. The system will not automatically do this
