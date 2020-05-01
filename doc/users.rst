@@ -176,7 +176,7 @@ by following these steps:
    .. figure:: screen-shots/user-invite-accepted-email.png
       :alt: PMHC MDS Invite Accepted
 
-*Please note: An invitation for a new user is valid for **7 days**. If you receive an error that a previous invitation already exists for a user, you can either reissue or remove the invitation. See :ref:`view-invite-details`.
+*Please note: An invitation for a new user is valid for **7 days**. If you receive an error that a previous invitation already exists for a user, you can either reissue or revoke the invitation. See :ref:`view-invite-details`.
 
 .. _adding-an-exsisting-user:
 
@@ -267,7 +267,7 @@ You can reissue a pending or expired invitation through the **Users** tab, by fo
 #. Click the 'Reissue Invitation' button to resend the invitation using the same details
 #. Click the Reissue' button to resend the email and SMS invitation details. (or click the 'Cancel' button if you decide not to reissue this invite)
 
-*Please note: If any of the details are incorrect on the previous invite, you will need to remove the invitation beforeing being able to send a new invite..* See: :ref:`delete-invite`.
+*Please note: If any of the details are incorrect on the previous invite, you will need to remove the invitation before being able to send a new invite.* See: :ref:`delete-invite`.
 
 .. _delete-invite:
 
