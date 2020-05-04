@@ -178,7 +178,7 @@ by following these steps:
 
 *Please note: An invitation for a new user is valid for **7 days**. If you receive an error that a previous invitation already exists for a user, you can either reissue or revoke the invitation. See :ref:`view-invite-details`.
 
-.. _adding-an-exsisting-user:
+.. _adding-an-existing-user:
 
 Adding an existing user
 ^^^^^^^^^^^^^^^^^^^^^^^
@@ -269,23 +269,54 @@ You can reissue a pending or expired invitation through the **Users** tab, by fo
 
 *Please note: If any of the details are incorrect on the previous invite, you will need to remove the invitation before being able to send a new invite.* See: :ref:`delete-invite`.
 
+.. _revoke-invite:
+
+Revoke a pending invitation
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+A pending invitation is an active invitation which has not been accepted yet.
+
+The user has seven days to accept an invitation.
+
+When a pending invitation is revoked, this will inactivate the invite so that
+the user will no longer be able to accept the invite. You may need to inactivate
+an invitation if the invitee's details have been incorrectly entered, or if the
+single-use verification token has already been used once (is expired), or if the
+user should no longer be granted access.
+
+You can revoke a user's invitation through the **Users** tab, by following these steps:
+
+#. Navigate to the **Users** tab
+#. Click on the **Invites** tab
+#. Click on the user's email in blue displayed within the table
+#. Click **Revoke Invitation** to inactivate the pending invite.
+#. Click 'Revoke' to confirm that you are sure. (or click the 'Cancel' button
+   if you decide not to revoke this invite)
+
+*Please note: Once a previous pending invitation has been revoked, you will
+then be able to send a new invitation to the user.*
+
 .. _delete-invite:
 
-Remove an invitation
+Delete an invitation
 ^^^^^^^^^^^^^^^^^^^^
+
+An expired invitation is an inactive invitation which was not accepted within
+seven days of being issued. If you don't intend to reissue the expired
+invitation, you can delete an expired invitation to remove this invitation from the list.
+
+Accepted invitations will also be shown in the 'invitation' tab. You can also
+delete an accepted invitation to manually remove the accepted invite from this list.
 
 You can delete a user's invitation through the **Users** tab, by following these steps:
 
 #. Navigate to the **Users** tab
 #. Click on the **Invites** tab
 #. Click on the user's email in blue displayed within the table
-#. Depending on the status of the previous invitation, you can:
+#. Click **Delete Invitation** to inactivate the pending invite.
+#. Click 'Revoke' to confirm that you are sure. (or click the 'Cancel' button if you decide not to revoke this invite)
 
-   * **Pending** - click **Revoke Invitation** to inactivate the pending invite. Click 'Revoke' to confirm that you are sure. (or click the 'Cancel' button if you decide not to revoke this invite)
-   * **Expired** - click **Delete Invitation** to delete the expired invite. Click 'Delete' to confirm that you are sure. (or click the 'Cancel' button if you decide not to delete this invite)
-   * **Accepted** - click **Delete Invitation'** to manually remove the accepted invite from this list. Click 'Delete' to confirm that you are sure. (or click the 'Cancel' button if you decide not to delete this invite)
-
-*Please note: Once a previous pending invitation has been revoked, you can then send a new invitation to the user.*
+*Please note: A pending invitation can not be deleted.* See :ref:`revoke-invite`.
 
 .. _view-role:
 

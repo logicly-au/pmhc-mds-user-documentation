@@ -146,7 +146,7 @@ Can I add an existing user to another PHN or Provider Organisation?
 Yes, a user can have roles at more than one organisation.
 
 By ensuring you enter the same email and mobile number when completing the invitation
-steps in :ref:`adding-an-exsisting-user`, the system will automatically pick up if a user
+steps in :ref:`adding-an-existing-user`, the system will automatically pick up if a user
 already exists in the PMHC MDS and will grant them access to the additional organisation.
 
 .. _outstanding-invite-exists-faq:
