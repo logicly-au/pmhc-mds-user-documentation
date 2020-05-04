@@ -3,6 +3,19 @@
 User Guide Change log
 =====================
 
+29/04/2020
+----------
+
+* Added :ref:`view-invite`
+
+* Added :ref:`view-invite-details`
+
+* Added :ref:`reissue-invite`
+
+* Added :ref:`revoke-invite`
+
+* Added :ref:`delete-invite`
+
 16/4/2020
 ---------
 
@@ -67,7 +80,7 @@ User Guide Change log
 
 * Edited :ref:`inactivate-provider-organisation`
 
-* Added :ref:`deleting-a-user-invition`
+* Added :ref:`delete-invite`
 
 * Edited :ref:`edit-role`
 
@@ -314,7 +327,7 @@ User Guide Change log
 10/3/2017
 ---------
 
-* Added :ref:`adding-an-exsisting-user` documentation
+* Added :ref:`adding-an-existing-user` documentation
 
 * Updated screenshots for :ref:`accepting-invitation` to include the Reporting role
 
