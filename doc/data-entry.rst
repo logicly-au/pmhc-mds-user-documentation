@@ -844,7 +844,7 @@ collection occasion will no longer be displayed.
        :alt: Client Collection Occasion Data Delete Successful
 
 
-.. _collection-occasion-measure-data:
+.. _measure-data:
 
 Collection Occasion Measures
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -918,10 +918,7 @@ and it will now be displaying these new details in the View Measure tab.
 
 If you receive an error message, the data will need to be corrected before the
 record is saved and added to the PMHC MDS.
-
-       * `K10+ <http://docs.pmhc-mds.com/en/v1/data-specification/validation-rules.html#k10p-current-validations>`_
-       * `K5 <http://docs.pmhc-mds.com/en/v1/data-specification/validation-rules.html#k5-current-validations>`_
-       * `SDQ <http://docs.pmhc-mds.com/en/v1/data-specification/validation-rules.html#sdq-current-validations>`_
+See Validation Rules for: `K10+ <http://docs.pmhc-mds.com/en/v1/data-specification/validation-rules.html#k10p-current-validations>`_ `K5 <http://docs.pmhc-mds.com/en/v1/data-specification/validation-rules.html#k5-current-validations>`_ `SDQ <http://docs.pmhc-mds.com/en/v1/data-specification/validation-rules.html#sdq-current-validations>`_.
 
 .. _edit-collection-occasion-measure:
 
@@ -952,6 +949,7 @@ and it will now be displaying these new details in the View Collection Occasion 
 
 If you receive an error message, the data will need to be corrected before the
 record is saved and added to the PMHC MDS.
+See Validation Rules for: `K10+ <http://docs.pmhc-mds.com/en/v1/data-specification/validation-rules.html#k10p-current-validations>`_ `K5 <http://docs.pmhc-mds.com/en/v1/data-specification/validation-rules.html#k5-current-validations>`_ `SDQ <http://docs.pmhc-mds.com/en/v1/data-specification/validation-rules.html#sdq-current-validations>`_.
 
 .. _edit-collection-occasion-measure-key:
 
