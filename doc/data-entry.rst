@@ -866,19 +866,19 @@ available on the Data Entry tab, by following these steps:
 
 A table will display all the Measures linked to this Client's Episode Collection Occasion.
 
-.. figure:: screen-shots/client-collection-occasions-details.png
-   :alt: Client Episode Collection Occasions Table View
+.. figure:: screen-shots/client-collection-occasions-measures-view.png
+   :alt: Client Episode Collection Occasions Details Measure View
 
 3. To view the Measure details, click the Blue Measure Key.
-
-.. figure:: screen-shots/client-collection-occasions-measures-view.png
-   :alt: Client Episode Collection Occasions Details View
-
-A page will display the Collection Occasion details as recorded via the `Outcome Collection Occasion Data Elements <http://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#outcome-collection-occasion-data-elements>`_.
 
 .. figure:: screen-shots/client-collection-occasions-measures-details.png
    :alt: Client Episode Collection Occasions Details View
 
+A page will display the Collection Occasion details as recorded via the `Outcome Collection Occasion Data Elements <http://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#outcome-collection-occasion-data-elements>`_.
+
+  * See `K10+ Measure data specifications <https://docs.pmhc-mds.com/projects/data-specification/en/v2/data-model-and-specifications.html#k10>`_.
+  * See `K5 Measure data specifications <https://docs.pmhc-mds.com/projects/data-specification/en/v2/data-model-and-specifications.html#k5>`_.
+  * See `SDQ Measure data specifications <https://docs.pmhc-mds.com/projects/data-specification/en/v2/data-model-and-specifications.html#sdq>`_.
 
 .. _add-collection-occasion-measure:
 
@@ -960,16 +960,16 @@ You can edit an measure's identification key through :ref:`view-collection-occas
 available on the Data Entry tab, by following these steps:
 
 1. In step four when :ref:`edit-collection-occasion-measure`.
-2. From the Collection Occasion Edit Details tab, click the **Edit Key** button.
+2. From the Edit Measure details tab, click the **Edit Key** button.
 
        .. figure:: screen-shots/client-collection-occasions-measures-edit-key.png
-          :alt: Client Data Edit Collection Occasion Key
+          :alt: Client Data Edit Collection Occasion Measure Key
 
-3. Type in the new collection occasion key and click 'Next'.
+3. Type in the new measure key and click 'Next'.
 4. Double check the new key is correct and click save. (If it is incorrect, click back to re-enter the key or click the 'cross' in the top right to cancel this key change request)
 
-You will receive confirmation that the Collection Occasion's key has been saved, and the screen
-will now be displaying the updated collection occasion key details in the Collection Occasion View Details tab.
+You will receive confirmation that the Measure's key has been saved, and the screen
+will now be displaying the updated measure key details in the View Measure details tab.
 
        .. figure:: screen-shots/client-collection-occasions-measures-edit-key-saved.png
           :alt: Collection Occasion Key Saved Successfully
