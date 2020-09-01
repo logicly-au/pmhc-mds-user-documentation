@@ -874,7 +874,7 @@ A table will display all the Measures linked to this Client's Episode Collection
 .. figure:: screen-shots/client-collection-occasions-measures-details.png
    :alt: Client Episode Collection Occasions Details View
 
-A page will display the Collection Occasion details as recorded via the `Outcome Collection Occasion Data Elements <http://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#outcome-collection-occasion-data-elements>`_.
+A page will display the Measure details as recorded via the `Outcome Collection Occasion Data Elements <http://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#outcome-collection-occasion-data-elements>`_.
 
   * See `K10+ Measure data specifications <https://docs.pmhc-mds.com/projects/data-specification/en/v2/data-model-and-specifications.html#k10>`_.
   * See `K5 Measure data specifications <https://docs.pmhc-mds.com/projects/data-specification/en/v2/data-model-and-specifications.html#k5>`_.
