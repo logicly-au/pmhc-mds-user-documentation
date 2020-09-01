@@ -855,8 +855,8 @@ Collection Occasion Measures
 
 .. _view-collection-occasion-measure:
 
-Viewing a Client's Collection Occasion Measures for an Episode
---------------------------------------------------------------
+Viewing a Client's Measures for a Collection Occasion
+-----------------------------------------------------
 
 You can view a Client's Measures added to a Collection Occasion through :ref:`view-collection-occasion`
 available on the Data Entry tab, by following these steps:
@@ -882,10 +882,11 @@ A page will display the Measure details as recorded via the `Outcome Collection 
 
 .. _add-collection-occasion-measure:
 
-Adding an Client's Collection Occasion Measures data
-----------------------------------------------------
+Adding an Client's Measures for a Collection Occasion
+-----------------------------------------------------
 
-You can add a Client's Measure for a Collection Occasion through :ref:`view-collection-occasion`
+Single or multiple measures can be added to a collection occasion. You can add a
+Client's Measure for a Collection Occasion. Multiple  through :ref:`view-collection-occasion`
 available on the Data Entry tab, by following these steps:
 
 1. Once :ref:`view-collection-occasion`.
