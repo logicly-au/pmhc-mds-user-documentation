@@ -34,6 +34,12 @@ following these steps:
 .. figure:: screen-shots/reports-system.png
    :alt: Reports tab View
 
+2. Select the source of the data you would like to produce in your reports, if it is not pre-filled
+
+Please note:
+* **PMHC**: is the standard Primary Mental Health Care flexible funding pool services
+* **hAPI**: is data that headspace head-office has upload from their internal hAPI client information management system
+
 2. Select the type of report you would like to produce
 3. If you are allowed to produce reports for more than one organisation you
    will be asked to select an organisation name
@@ -467,7 +473,7 @@ Key specifications:
   earliest date that is also not marked as ‘No Show’
 * Referral > Date 1 year before Service Contact is defined as a Referral Date
   more than 365 days prior to the earliest (non no-show) Service Contact
-  
+
 .. _category-a11:
 
 A11 — Data quality report — Episodes with no service contact
