@@ -607,9 +607,9 @@ B7 — Activity Report — hAPI Funding Source
 +++++++++++++++++++++++++++++++++++++++++++++
 
 The B7 report provides detailed identification of the funding source under
-which service contacts were delivered. It also aggregates those contacts into
-counts of episodes and clients, although episodes and clients can be counted
-in more than one category.
+which service contacts were delivered during the reporting period.
+It also aggregates those contacts into counts of episodes and clients. Note
+that episodes and clients can be counted within more than one category.
 
 It applies to hAPI (headspace) data only.
 
