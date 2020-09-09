@@ -601,6 +601,21 @@ respectively. The B6 extends this to any type of focus.
   interventions", Out-2 only those identified as "Psychological therapies
   delivered by mental health professionals"
 
+.. _category-b7:
+
+B7 — Activity Report — hAPI Funding Source
++++++++++++++++++++++++++++++++++++++++++++++
+
+The B7 report provides detailed identification of the funding source under
+which service contacts were delivered. It also aggregates those contacts into
+counts of episodes and clients, although episodes and clients can be counted
+in more than one category.
+
+It applies to hAPI (headspace) data only.
+
+Key specifications:
+
+* Service Contacts flagged as ‘No Show’ are not included for this purpose
 
 .. _category-c:
 
