@@ -3,6 +3,25 @@
 User Guide Change log
 =====================
 
+27/08/2020
+----------
+
+* Updated :ref:`view-collection-occasion`
+
+* Updated :ref:`edit-collection-occasion`
+
+* Updated :ref:`add-collection-occasion`
+
+* Updated :ref:`delete-collection-occasion`
+
+* Added :ref:`view-collection-occasion-measure`
+
+* Added :ref:`add-collection-occasion-measure`
+
+* Added :ref:`edit-collection-occasion-measure`
+
+* Added :ref:`delete-collection-occasion-measure`
+
 29/04/2020
 ----------
 
