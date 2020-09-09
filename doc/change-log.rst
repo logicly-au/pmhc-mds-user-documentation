@@ -3,6 +3,13 @@
 User Guide Change log
 =====================
 
+XX/09/2020
+----------
+
+* Added :ref:`system-report-data-sources`
+
+* Updated screenshots for :ref:`reports`
+
 29/04/2020
 ----------
 
