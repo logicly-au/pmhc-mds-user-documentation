@@ -37,11 +37,13 @@ the roles that currently exist within the PMHC MDS:
 +============================+====================================================================================================================================+
 | Organisation Management    | A user with the Organisation Management role for a PHN can manage provider organisations for that PHN.                             |
 +----------------------------+------------------------------------------------------------------------------------------------------------------------------------+
-| User Management            | A user with the User Management role for an organisation can manage user accounts for that organisation.                           |
+| User Management            | A user with the User Management role for an organisation can manage user accounts for that  associated organisation.               |
 +----------------------------+------------------------------------------------------------------------------------------------------------------------------------+
 | Upload                     | A user with the Upload role can upload data to the associated organisation.                                                        |
 +----------------------------+------------------------------------------------------------------------------------------------------------------------------------+
-| Reporting                  | A user with the Reporting role can run reports and download data from the associated organisation.                                 |
+| Reporting                  | A user with the Reporting role can run reports and also download data from the associated organisation.                            |
++----------------------------+------------------------------------------------------------------------------------------------------------------------------------+
+| Aggregate Reporting        | A user with the Aggregate Reporting role can run reports from the associated organisation.                                         |
 +----------------------------+------------------------------------------------------------------------------------------------------------------------------------+
 | Data Entry                 | A user with the Data Entry role can enter client data and practitioners from the associated organisation.                          |
 +----------------------------+------------------------------------------------------------------------------------------------------------------------------------+
@@ -66,6 +68,8 @@ assigned. The table below lists the tabs that will be shown for each role:
 | Upload                  | Upload                       |
 +-------------------------+------------------------------+
 | Reporting               | Reports, Data Extract        |
++-------------------------+------------------------------+
+| Aggregate Reporting     | Reports                      |
 +-------------------------+------------------------------+
 | Data Entry              | Data Entry                   |
 +-------------------------+------------------------------+

@@ -3,6 +3,11 @@
 User Guide Change log
 =====================
 
+20/9/2020
+---------
+
+* Updated :ref:`roles` to add the Aggregate Reporting role
+
 27/08/2020
 ----------
 
