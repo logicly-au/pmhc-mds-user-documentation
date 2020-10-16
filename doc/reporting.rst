@@ -1039,8 +1039,8 @@ Key specifications:
 
 .. _produce-twb-report:
 
-How to produce a Wayback report
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Wayback report
+^^^^^^^^^^^^^^
 
 The Way Back (TWB) Support Service Minimum Data Set is an extension of the
 Primary Mental Health Care Minimum Data Set (PMHC MDS).

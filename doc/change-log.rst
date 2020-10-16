@@ -3,6 +3,13 @@
 User Guide Change log
 =====================
 
+16/10/2020
+---------
+
+* Added :ref:`produce-twb-report`
+
+* Updated screenshots for :ref:`produce-system-report`
+
 20/9/2020
 ---------
 
