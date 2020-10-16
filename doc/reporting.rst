@@ -23,11 +23,11 @@ After navigating to the **Reports** tab, you will be able to view and export var
 
 .. _produce-system-report:
 
-How to produce a report
-^^^^^^^^^^^^^^^^^^^^^^^
+How to produce a Standard report
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-You can produce a system report by completing the fields in the **Reports** tab by
-following these steps:
+You can produce a standard system report by completing the fields in the **Reports**
+tab by following these steps:
 
 1. Navigate to the **Reports** tab
 
@@ -54,8 +54,8 @@ on the **Counting Rules Explained** link.
 
 .. _system-report-types:
 
-Types of reports
-^^^^^^^^^^^^^^^^
+Types of Standard reports
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The reports are grouped into five categories, each designed to serve different
 purposes.
@@ -467,7 +467,7 @@ Key specifications:
   earliest date that is also not marked as ‘No Show’
 * Referral > Date 1 year before Service Contact is defined as a Referral Date
   more than 365 days prior to the earliest (non no-show) Service Contact
-  
+
 .. _category-a11:
 
 A11 — Data quality report — Episodes with no service contact
@@ -1036,3 +1036,15 @@ Key specifications:
 
 * All records to be counted with no filtering
 * All dates refer to date of modification, not date of service
+
+.. _produce-twb-report:
+
+How to produce a Wayback report
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+The Way Back (TWB) Support Service Minimum Data Set is an extension of the
+Primary Mental Health Care Minimum Data Set (PMHC MDS).
+
+The Way Back Quarterly reporting function allows users to automatically populate
+The Way Back Quarterly Report using data contained in the PMHC MDS. See more at
+https://docs.pmhc-mds.com/projects/data-specification-wayback/en/v3/user-documentation/reports-user-guide.html
