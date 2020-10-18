@@ -3,6 +3,43 @@
 User Guide Change log
 =====================
 
+20/9/2020
+---------
+
+* Updated :ref:`roles` to add the Aggregate Reporting role
+
+27/08/2020
+----------
+
+* Updated :ref:`view-collection-occasion`
+
+* Updated :ref:`edit-collection-occasion`
+
+* Updated :ref:`add-collection-occasion`
+
+* Updated :ref:`delete-collection-occasion`
+
+* Added :ref:`view-collection-occasion-measure`
+
+* Added :ref:`add-collection-occasion-measure`
+
+* Added :ref:`edit-collection-occasion-measure`
+
+* Added :ref:`delete-collection-occasion-measure`
+
+29/04/2020
+----------
+
+* Added :ref:`view-invite`
+
+* Added :ref:`view-invite-details`
+
+* Added :ref:`reissue-invite`
+
+* Added :ref:`revoke-invite`
+
+* Added :ref:`delete-invite`
+
 16/4/2020
 ---------
 
@@ -67,7 +104,7 @@ User Guide Change log
 
 * Edited :ref:`inactivate-provider-organisation`
 
-* Added :ref:`deleting-a-user-invition`
+* Added :ref:`delete-invite`
 
 * Edited :ref:`edit-role`
 
@@ -314,7 +351,7 @@ User Guide Change log
 10/3/2017
 ---------
 
-* Added :ref:`adding-an-exsisting-user` documentation
+* Added :ref:`adding-an-existing-user` documentation
 
 * Updated screenshots for :ref:`accepting-invitation` to include the Reporting role
 

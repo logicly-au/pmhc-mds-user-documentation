@@ -37,11 +37,13 @@ the roles that currently exist within the PMHC MDS:
 +============================+====================================================================================================================================+
 | Organisation Management    | A user with the Organisation Management role for a PHN can manage provider organisations for that PHN.                             |
 +----------------------------+------------------------------------------------------------------------------------------------------------------------------------+
-| User Management            | A user with the User Management role for an organisation can manage user accounts for that organisation.                           |
+| User Management            | A user with the User Management role for an organisation can manage user accounts for that  associated organisation.               |
 +----------------------------+------------------------------------------------------------------------------------------------------------------------------------+
 | Upload                     | A user with the Upload role can upload data to the associated organisation.                                                        |
 +----------------------------+------------------------------------------------------------------------------------------------------------------------------------+
-| Reporting                  | A user with the Reporting role can run reports and download data from the associated organisation.                                 |
+| Reporting                  | A user with the Reporting role can run reports and also download data from the associated organisation.                            |
++----------------------------+------------------------------------------------------------------------------------------------------------------------------------+
+| Aggregate Reporting        | A user with the Aggregate Reporting role can run reports from the associated organisation.                                         |
 +----------------------------+------------------------------------------------------------------------------------------------------------------------------------+
 | Data Entry                 | A user with the Data Entry role can enter client data and practitioners from the associated organisation.                          |
 +----------------------------+------------------------------------------------------------------------------------------------------------------------------------+
@@ -66,6 +68,8 @@ assigned. The table below lists the tabs that will be shown for each role:
 | Upload                  | Upload                       |
 +-------------------------+------------------------------+
 | Reporting               | Reports, Data Extract        |
++-------------------------+------------------------------+
+| Aggregate Reporting     | Reports                      |
 +-------------------------+------------------------------+
 | Data Entry              | Data Entry                   |
 +-------------------------+------------------------------+
@@ -168,26 +172,17 @@ by following these steps:
 7. You will receive confirmation that the user has been sent an email to invite
    them to the PMHC MDS. They will also be sent an SMS containing a
    verification code. The user will need to follow the instructions in the
-   email before they can gain access to the system. This invitation will be valid for 7 days
+   email before they can gain access to the system. See :ref:`accepting-invitation`
+   This invitation will be valid for 7 days. Invitations are listed in the **View Invitations** table.
 8. When the user has accepted the invitation you will be sent an email to let you know.
-   This user will now be listed in the **View Users** table
+   This user will then be listed in the **View Users** table
 
    .. figure:: screen-shots/user-invite-accepted-email.png
       :alt: PMHC MDS Invite Accepted
 
-*Please note: An invitation for a new user is valid for 7 days. You can not re-invite
-this user within this time, unless the verification code has expired, or they
-have accepted the invitation.*
+*Please note: An invitation for a new user is valid for **7 days**. If you receive an error that a previous invitation already exists for a user, you can either reissue or revoke the invitation. See :ref:`view-invite-details`.
 
-.. _deleting-a-user-invition:
-
-Deleting an invitation
-^^^^^^^^^^^^^^^^^^^^^^
-
-You cannot delete a new users invitation after it is sent. If you believe an
-invitation should be deleted please email support@pmhc-mds.com.
-
-.. _adding-an-exsisting-user:
+.. _adding-an-existing-user:
 
 Adding an existing user
 ^^^^^^^^^^^^^^^^^^^^^^^
@@ -211,9 +206,122 @@ You can invite an existing user through the **Users** tab, by following these st
 
 5. Click the blue **Invite** button
 6. You will receive confirmation that the roles have been added to the existing user
-7. **Please note:** You will need to notify the user that they have been added to the organisation and confirm their authorised roles. The system will not automatically do this
 
-.. 6. The user will receive notification that they have been granted these additional roles at the relevant organisation.
+*Please note: The user will receive notification that they have been granted these additional roles at the relevant organisation.*
+
+.. _view-invite:
+
+Viewing Invitations
+^^^^^^^^^^^^^^^^^^^
+
+You can view user invitation details through the **Users** tab, by following these steps:
+
+#. Navigate to the **Users** tab
+#. Click on the **Invites** tab
+
+A table will display all the users that have been sent a recent invitation. These are either:
+
+   * **Pending** - these are active invitations which have not been accepted yet
+   * **Expired** - these are inactive invitations which were not accepted within 7 days
+   * **Accepted** - these are invitations that have been successfully accepted and the user will be listed in the **Users** tab.
+
+*Please note: Invitations sent prior to this feature launch on 29 April 2020 will not display the Organisation and Inviters details.*
+
+.. Note for future change...
+
+.. A table will display all the users that have been sent an invitation which have not been accepted yet. These are either
+.. See :ref:`view-invite-details`.
+
+ * **Pending** invitations will show the organisation and invitee
+ * **Expired** invitations will not show the organisation and invitee
+
+.. *Please note: Accepted invitations are removed and the user will be listed in the 'Users' tab.* See :ref:`view-users-details`.
+
+.. _view-invite-details:
+
+Viewing a user's invitation details
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+You can view a user's invitation details through the **Users** tab, by following these steps:
+
+#. Navigate to the **Users** tab
+#. Click on the **Invites** tab
+#. Click on the user's email in blue displayed within the table
+
+A page will display the user's invitation details, as entered on the invitation form.
+
+*Please note: For privacy reasons, only the user who issued the invitation will be able to see the invitee's mobile number.*
+
+On the page you can:
+
+   * :ref:`reissue-invite`
+   * :ref:`delete-invite`
+
+.. _reissue-invite:
+
+Reissue an invitation
+^^^^^^^^^^^^^^^^^^^^^
+
+You can reissue a pending or expired invitation through the **Users** tab, by following these steps:
+
+#. Navigate to the **Users** tab
+#. Click on the **Invites** tab
+#. Click on the user's email in blue displayed within the table
+#. Review all details are correct
+#. Click the 'Reissue Invitation' button to resend the invitation using the same details
+#. Click the Reissue' button to resend the email and SMS invitation details. (or click the 'Cancel' button if you decide not to reissue this invite)
+
+*Please note: If any of the details are incorrect on the previous invite,
+you will need to remove the invitation before being able to send a new invite.* See: :ref:`revoke-invite`.
+
+.. _revoke-invite:
+
+Revoke a pending invitation
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+A pending invitation is an active invitation which has not been accepted yet.
+
+The user has seven days to accept an invitation.
+
+When a pending invitation is revoked, this will inactivate the invite so that
+the user will no longer be able to accept the invite. You may need to inactivate
+an invitation if the invitee's details have been incorrectly entered, or if the
+single-use verification token has already been used once (is expired), or if the
+user should no longer be granted access.
+
+You can revoke a user's invitation through the **Users** tab, by following these steps:
+
+#. Navigate to the **Users** tab
+#. Click on the **Invites** tab
+#. Click on the user's email in blue displayed within the table
+#. Click **Revoke Invitation** to inactivate the pending invite.
+#. Click 'Revoke' to confirm that you are sure. (or click the 'Cancel' button
+   if you decide not to revoke this invite)
+
+*Please note: Once a previous pending invitation has been revoked, you will
+then be able to send a new invitation to the user.*
+
+.. _delete-invite:
+
+Delete an invitation
+^^^^^^^^^^^^^^^^^^^^
+
+An expired invitation is an inactive invitation which was not accepted within
+seven days of being issued. If you don't intend to reissue the expired
+invitation, you can delete an expired invitation to remove this invitation from the list.
+
+Accepted invitations will also be shown in the 'invitation' tab. You can also
+delete an accepted invitation to manually remove the accepted invite from this list.
+
+You can delete a user's invitation through the **Users** tab, by following these steps:
+
+#. Navigate to the **Users** tab
+#. Click on the **Invites** tab
+#. Click on the user's email in blue displayed within the table
+#. Click **Delete Invitation** to inactivate the pending invite.
+#. Click 'Revoke' to confirm that you are sure. (or click the 'Cancel' button if you decide not to revoke this invite)
+
+*Please note: A pending invitation can not be deleted.* See :ref:`revoke-invite`.
 
 .. _view-role:
 
@@ -242,7 +350,7 @@ Editing a user's roles
 A user can have more than one role. Each role is granted for a user against the
 appropriate organisation.
 
-You can edit and assign extra roles to an existing user by following these steps:
+You can edit and assign extra :ref:`roles <roles>`  to an existing user by following these steps:
 
 1. Navigate to the **Users** tab
 2. Click the user's name in blue displayed within the table
@@ -255,8 +363,8 @@ You can edit and assign extra roles to an existing user by following these steps
 6. A tick indicates the user currently has this role assigned at the relevant organisation.
    Multiple roles can be assigned and these roles are shown as blue ticks
 
-  - **Add** a role by clicking the empty checkbox
-  - **Remove** a role by clicking the selected checkbox
+   * **Add** a role by clicking the empty checkbox
+   * **Remove** a role by clicking the selected checkbox
 
 7. All changes are automatically saved
 8. You will need to notify the user of these role changes. The system will not automatically do this

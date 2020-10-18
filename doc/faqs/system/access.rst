@@ -146,61 +146,56 @@ Can I add an existing user to another PHN or Provider Organisation?
 Yes, a user can have roles at more than one organisation.
 
 By ensuring you enter the same email and mobile number when completing the invitation
-steps in :ref:`adding-an-exsisting-user`, the system will automatically pick up if a user
+steps in :ref:`adding-an-existing-user`, the system will automatically pick up if a user
 already exists in the PMHC MDS and will grant them access to the additional organisation.
 
 .. _outstanding-invite-exists-faq:
 
-Why did I get this message when inviting a user - '500 Internal Server Error: Inviting user failed: An outstanding PMHC MDS invite exists'?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Why did I get this message when inviting a user - 'An error occurred: Inviting user failed: An outstanding PMHC MDS invite exists'?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-This user has previously been invited and has not yet completed the required
-steps for :ref:`accepting-invitation`. An invitation will be valid for 7 days
-and you can not resend an invitation within this time whilst a token is still valid.
+An invitation will be valid for 7 days. This user has previously been invited and has not yet completed the required
+steps for :ref:`accepting-invitation`.
 
-Why are you trying to re-invite this user? For further assistance refer to:
-
-- :ref:`did-not-receive-email-invitation-faq`
-- :ref:`did-not-receive-sms-invitation-faq`
-- :ref:`deleted-email-sms-invitation-faq`
-- How can I change the users roles? When the user has accepted the invitation you will be sent an email and after this you can then :ref:`edit-role`.
+See :ref:`view-invite-details`.
 
 .. _did-not-receive-email-invitation-faq:
 
 What should I do if a user didn't receive the email invitation?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-You will not be able to re-invite this user using the same email within 7 days, as an :ref:`outstanding PMHC MDS invite exists <outstanding-invite-exists-faq>`.
+First confirm that you have the users correct email address.  See :ref:`view-invite-details`.
 
-First confirm that you have their correct email address.  Ask the user to
-double check their junk mail folder and search for an email sent from
-noreply@strategicdata.com.au. Otherwise, please contact the Helpdesk on support@pmhc-mds.com.
+* If the email is incorrect, you will be able to :ref:`delete-invite` and then send a new invitation.
+* If the email is correct, ask the user to double check their junk mail folder and search for an email sent from noreply@strategicdata.com.au.
 
-If an incorrect email was entered, you will be able to re-invite the user using the correct email.
+You can :ref:`reissue-invite`. When you reissue an invitation, both the email and SMS are sent again to the invitee.
+
+If the email still doesn't arrive, please contact the Helpdesk on support@pmhc-mds.com
 
 .. _did-not-receive-sms-invitation-faq:
 
 What should I do if a user didn't receive the invitation SMS token?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-You will not be able to re-invite this user within 7 days, as an :ref:`outstanding PMHC MDS invite exists <outstanding-invite-exists-faq>`.
+Firstly confirm that you have their correct mobile phone number.  See :ref:`view-invite-details`.
 
-Firstly confirm that you have their correct mobile phone number.  If an incorrect
-number was entered, please contact the Helpdesk on support@pmhc-mds.com as we can
-reissue it to the preferred number. When contacting please inform the Helpdesk of
-both the incorrect number, along with the correct number where possible.
+* If the mobile is incorrect, you will be able to :ref:`delete-invite` and then send a new invitation.
+* If the mobile is correct, ask the user to power off their mobile and turn it back on again as this does often
+  help when an SMS hasn't arrived.
 
-See :ref:`deleted-email-sms-invitation-faq`
+You can :ref:`reissue-invite`. When you reissue an invitation, both the email and SMS are sent again to the invitee.
+
+If the SMS still doesn't arrive, please contact the Helpdesk on support@pmhc-mds.com
 
 .. _deleted-email-sms-invitation-faq:
 
 What should I do if a user deleted the email invitation or the SMS token?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-You will not be able to re-invite this user within 7 days, as an :ref:`outstanding PMHC MDS invite exists <outstanding-invite-exists-faq>`.
+You can reissue an invitation which will send the invitee with a copy of their invitation email and SMS.
 
-If a user deleted the email invitation or the SMS token please contact the Helpdesk
-on support@pmhc-mds.com as we can reissue it.
+See :ref:`reissue-invite`.
 
 .. _GP-provider-access-faq:
 

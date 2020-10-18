@@ -3,13 +3,27 @@
 Frequently Asked Questions Change log
 =====================================
 
+29/04/2020
+----------
+
+System - Access FAQs
+~~~~~~~~~~~~~~~~~~~~
+
+* Updated :ref:`outstanding-invite-exists-faq`
+
+* Updated :ref:`did-not-receive-email-invitation-faq`
+
+* Updated :ref:`did-not-receive-sms-invitation-faq`
+
+* Updated :ref:`deleted-email-sms-invitation-faq`
+
 20/1/2020
 ---------
 
 System - Data Entry FAQs
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-* Added the question :ref:`enter-br20-data-faq`..
+* Added the question :ref:`enter-br20-data-faq`
 
 28/10/2019
 ----------
