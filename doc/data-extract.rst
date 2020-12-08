@@ -50,9 +50,10 @@ the Download Data fields in the Data Extraction tab, by following these steps:
    the checkbox labelled **Include data without associated dates**
 6. Click the checkbox labelled **Include data from all specifications**, if required.
    **Please note:** As the query is based on the PMHC MDS, additional extension
-   data will not by default be included in the extract. If this box is ticked,
-   please note that the file format will be available for download, but will not
-   meet the upload specifications file format
+   data will not by default be included in the extract. (Extensions are listed at
+   https://docs.pmhc-mds.com/) If this box is ticked, please note that the
+   file format will be available for download, but will not meet the upload
+   specification file format
 7. Select the appropriate file type to be downloaded
 
    .. figure:: screen-shots/data-extract-view-form.png
