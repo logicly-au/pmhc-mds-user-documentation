@@ -3,10 +3,19 @@
 User Guide Change log
 =====================
 
+<<<<<<< HEAD
 7/12/2020
 ---------
 
 * Updated :ref:`data-extraction` to include the checkbox labelled **Include data from all specifications**
+=======
+16/10/2020
+---------
+
+* Added :ref:`produce-twb-report`
+
+* Updated screenshots for :ref:`produce-system-report`
+>>>>>>> master
 
 20/9/2020
 ---------

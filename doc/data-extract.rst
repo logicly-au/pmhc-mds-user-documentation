@@ -61,13 +61,13 @@ the Download Data fields in the Data Extraction tab, by following these steps:
 8. Click the blue **Request** button
 9. A dialogue box will be displayed, showing that the file is being requested from the server
 
-.. figure:: screen-shots/data-extract-message-requesting.png
-   :alt: PMHC MDS File Selected
+   .. figure:: screen-shots/data-extract-message-requesting.png
+      :alt: PMHC MDS File Selected
 
 10. When the file is ready, a 'File ready for download' message will be displayed
 
-.. figure:: screen-shots/data-extract-message-download.png
-   :alt: PMHC MDS File Selected
+   .. figure:: screen-shots/data-extract-message-download.png
+      :alt: PMHC MDS File Selected
 
 11. Click the blue **Download** button
 12. The data extract will be downloaded to your computer
@@ -78,6 +78,10 @@ Dates explained for Data Extract
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The Data Extract dates are based on the Client's Service Contact dates.
+
+The data extract file will include all service contacts that have been recorded
+within the date range of the request, the associated client and episode records.
+It will also include ALL measures for any listed episode records.
 
 **Please note:** As the query is date based, the following data will by
 default, not be included in the extract:
@@ -91,6 +95,6 @@ default, not be included in the extract:
      in the data extract
 
 If you would like to include these episodes, clients and practitioners check the
-checkbox labelled **Include data without associated dates**
+checkbox labelled **Include data without associated dates**.
 
 See :ref:`view-data-extract`.
