@@ -35,25 +35,42 @@ the Download Data fields in the Data Extraction tab, by following these steps:
 3. Select the name of the organisation from the drop down list
 4. Click the first calendar icon to select the start date and then the second
    calendar icon to select the end date
-5. If required, click the checkbox labelled **Include data without associated dates**. See :ref:`data-extract-dates` for more information on this checkbox
-6. Select the appropriate file type to be downloaded
+5. Click the checkbox labelled **Include data without associated dates**, if required.
+   **Please note:** As the query is date based the following data will not by
+   default be included in the extract:
+
+   * The start date of an episode is derived from the date of the first service contact.
+     Therefore, if an episode doesn't have any associated service contacts, there will be
+     no start date for the episode and they will not by default be included in the data extract
+   * Clients that don't have any associated episodes, or who are associated
+     with an episode with no service contacts will by default, not be included in the data extract
+   * Practitioners who are not associated with a service contact will by default, not be included
+     in the data extract
+   If you would like to include these episodes, clients and practitioners check
+   the checkbox labelled **Include data without associated dates**
+6. Click the checkbox labelled **Include data from all specifications**, if required.
+   **Please note:** This downloads a file that is a combination of all of the
+   extensions listed at https://docs.pmhc-mds.com/. The resulting file cannot
+   be uploaded. This is a download only format. It is based on the most recent
+   version used by either the core specification or an extension.
+7. Select the appropriate file type to be downloaded
 
    .. figure:: screen-shots/data-extract-view-form.png
       :alt: PMHC MDS File Selected
 
-7. Click the blue **Request** button
-8. A dialogue box will be displayed, showing that the file is being requested from the server
+8. Click the blue **Request** button
+9. A dialogue box will be displayed, showing that the file is being requested from the server
 
    .. figure:: screen-shots/data-extract-message-requesting.png
       :alt: PMHC MDS File Selected
 
-9. When the file is ready, a 'File ready for download' message will be displayed
+10. When the file is ready, a 'File ready for download' message will be displayed
 
    .. figure:: screen-shots/data-extract-message-download.png
       :alt: PMHC MDS File Selected
 
-10. Click the blue **Download** button
-11. The data extract will be downloaded to your computer
+11. Click the blue **Download** button
+12. The data extract will be downloaded to your computer
 
 .. _data-extract-dates:
 
