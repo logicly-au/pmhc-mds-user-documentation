@@ -77,7 +77,7 @@ the Download Data fields in the Data Extraction tab, by following these steps:
 Dates explained for Data Extract
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The Data Extract dates are based on the Client's Service Contact dates.
+The Data Extract dates are based on the Client's Service Contact dates for the PMHC MDS.
 
 The data extract file will include all service contacts that have been recorded
 within the date range of the request, the associated client and episode records.
@@ -94,7 +94,19 @@ default, not be included in the extract:
    * Practitioners who are not associated with a service contact will not be included
      in the data extract
 
-If you would like to include these episodes, clients and practitioners check the
-checkbox labelled **Include data without associated dates**.
+If you would like to include these inactive episodes, inactive clients and
+inactive practitioners check the checkbox labelled **Include data without associated dates**.
+
+If you would like to include all the associated data for an active episodes
+within the data extract date range, check the checkbox labelled
+**Include all data associated with matched episodes**. The data extract will
+then also include ALL service contact and ALL measures that are outside the
+data extract date range.
+
+If you would like to include data from all other PMHC MDS extensions, check the
+checkbox labelled **Include data from all specifications**. This downloads a file
+that is a combination of all of the extensions listed at https://docs.pmhc-mds.com/.
+The resulting file cannot be uploaded. This is a download only format. It is based
+on the most recent version used by either the core specification or an extension.
 
 See :ref:`view-data-extract`.
