@@ -66,20 +66,28 @@ Dates explained for Data Extract
 
 The Data Extract dates are based on the Client's Service Contact dates for the PMHC MDS.
 
-The data extract file will include all service contacts that have been recorded
+The default data extract file will include all service contacts that have been recorded
 within the date range of the request, the associated client and episode records.
 It will also include ALL measures for any listed episode records.
+
+It will not include any of these records that are outside the date range of the
+request.
+
+.. _data-extract-options:
+
+Data extract options
+^^^^^^^^^^^^^^^^^^^^
 
 .. _data-extract-all-epsiode-data:
 
 Include all data associated with matched episodes
 -------------------------------------------------
 
-If you would like to include all the associated data for an active episodes
+If you would like to include all the associated data for active episodes
 within the data extract date range, check the checkbox labelled
 **Include all data associated with matched episodes**. The data extract will
-then also include ALL service contact and ALL measures that are outside the
-data extract date range.
+then also include ALL service contact and ALL measures including those that are
+outside the data extract date range.
 
 .. _data-extract-data-without-dates:
 

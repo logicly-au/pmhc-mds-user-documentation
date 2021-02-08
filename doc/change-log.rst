@@ -3,8 +3,10 @@
 User Guide Change log
 =====================
 
-20/01/2021
-----------
+9/2/2021
+--------
+
+* Added :ref:`data-extract-options`
 
 * Updated :ref:`data-extraction` to include the checkbox labelled **Include data from all specifications**
 
