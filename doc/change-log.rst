@@ -20,7 +20,7 @@ User Guide Change log
 
 * Updated screenshots for :ref:`users`
 
-* Updated screenshots for :ref:`slk`
+* Updated screenshots for :ref:`slk-generator`
 
 7/12/2020
 ---------
@@ -28,7 +28,7 @@ User Guide Change log
 * Updated :ref:`data-extraction` to include the checkbox labelled **Include data from all specifications**
 
 21/10/2020
----------
+----------
 
 * Added :ref:`produce-twb-report`
 
