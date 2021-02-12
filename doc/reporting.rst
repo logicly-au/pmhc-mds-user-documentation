@@ -23,11 +23,11 @@ After navigating to the **Reports** tab, you will be able to view and export var
 
 .. _produce-system-report:
 
-How to produce a report
-^^^^^^^^^^^^^^^^^^^^^^^
+How to produce a Standard report
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-You can produce a system report by completing the fields in the **Reports** tab by
-following these steps:
+You can produce a standard system report by completing the fields in the **Reports**
+tab by following these steps:
 
 1. Navigate to the **Reports** tab
 
@@ -60,20 +60,19 @@ on the **Counting Rules Explained** link.
 Data Sources for reports
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-The reports have different data source items based on the data specification source.
-The data source selector will enable users to also run reports on extension data
-specifications when available.
-
 The following data sources are currently available for reports:
 
-   * **PMHC**: is the standard Primary Mental Health Care flexible funding pool services (See `PMHC MDS Data Specification <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html`_)
-   * **hAPI**: is data that headspace head-office has uploaded from their internal hAPI client information management system (See `headspace Data Specification <https://docs.pmhc-mds.com/projects/data-specification-headspace/en/v2/data-specification/data-model-and-specifications.html`_)
+   * **PMHC**: is the standard Primary Mental Health Care flexible funding
+     pool services (See `PMHC MDS Data Specification <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html`_)
+   * **hAPI**: is data that headspace head-office has uploaded from their
+     internal hAPI client information management system (See `headspace Data Specification <https://docs.pmhc-mds.com/projects/data-specification-headspace/en/v2/data-specification/data-model-and-specifications.html`_)
 
 
 .. _system-report-types:
 
-Types of reports
-^^^^^^^^^^^^^^^^
+Types of Standard reports
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
 The reports are grouped into five categories, each designed to serve different
 purposes.
 
@@ -618,6 +617,21 @@ respectively. The B6 extends this to any type of focus.
   interventions", Out-2 only those identified as "Psychological therapies
   delivered by mental health professionals"
 
+.. _category-b7:
+
+B7 — Activity Report — hAPI Funding Source
++++++++++++++++++++++++++++++++++++++++++++++
+
+The B7 report provides detailed identification of the funding source under
+which service contacts were delivered during the reporting period.
+It also aggregates those contacts into counts of episodes and clients. Note
+that episodes and clients can be counted within more than one category.
+
+It applies to hAPI (headspace) data only.
+
+Key specifications:
+
+* Service Contacts flagged as ‘No Show’ are not included for this purpose
 
 .. _category-c:
 
@@ -1038,3 +1052,15 @@ Key specifications:
 
 * All records to be counted with no filtering
 * All dates refer to date of modification, not date of service
+
+.. _produce-twb-report:
+
+Wayback report
+^^^^^^^^^^^^^^
+
+The Way Back (TWB) Support Service Minimum Data Set is an extension of the
+Primary Mental Health Care Minimum Data Set (PMHC MDS).
+
+The Way Back Quarterly reporting function allows users to automatically populate
+The Way Back Quarterly Report using data contained in the PMHC MDS. See more at
+https://docs.pmhc-mds.com/projects/data-specification-wayback/en/v3/user-documentation/reports-user-guide.html

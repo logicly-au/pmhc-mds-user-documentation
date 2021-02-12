@@ -3,12 +3,69 @@
 User Guide Change log
 =====================
 
-XX/09/2020
+12/02/2021
 ----------
 
 * Added :ref:`system-report-data-sources`
 
 * Updated screenshots for :ref:`reports`
+
+9/2/2021
+--------
+
+* Added :ref:`data-extract-options`
+
+* Updated :ref:`data-extraction` to include the checkbox labelled **Include data from all specifications**
+
+* Updated screenshots for :ref:`data-entry`
+
+* Updated screenshots for :ref:`data-extraction`
+
+* Updated screenshots for :ref:`organisations`
+
+* Updated screenshots for :ref:`reports`
+
+* Updated screenshots for :ref:`upload`
+
+* Updated screenshots for :ref:`users`
+
+* Updated screenshots for :ref:`slk-generator`
+
+7/12/2020
+---------
+
+* Updated :ref:`data-extraction` to include the checkbox labelled **Include data from all specifications**
+
+21/10/2020
+----------
+
+* Added :ref:`produce-twb-report`
+
+* Updated screenshots for :ref:`produce-system-report`
+
+20/9/2020
+---------
+
+* Updated :ref:`roles` to add the Aggregate Reporting role
+
+27/08/2020
+----------
+
+* Updated :ref:`view-collection-occasion`
+
+* Updated :ref:`edit-collection-occasion`
+
+* Updated :ref:`add-collection-occasion`
+
+* Updated :ref:`delete-collection-occasion`
+
+* Added :ref:`view-collection-occasion-measure`
+
+* Added :ref:`add-collection-occasion-measure`
+
+* Added :ref:`edit-collection-occasion-measure`
+
+* Added :ref:`delete-collection-occasion-measure`
 
 29/04/2020
 ----------

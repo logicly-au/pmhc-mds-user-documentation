@@ -753,11 +753,8 @@ and it will now be displaying these new details in the **View Collection Occasio
 
 If you receive an error message, the data will need to be corrected before the
 record is saved and added to the PMHC MDS.
-See Validation Rules for:
+See Validation Rules for: `Outcome Collection Occasion Validations <https://docs.pmhc-mds.com/projects/data-specification/en/v2/validation-rules.html#current-validations>`_
 
-* `K10+ <http://docs.pmhc-mds.com/en/v1/data-specification/validation-rules.html#k10p-current-validations>`_
-* `K5 <http://docs.pmhc-mds.com/en/v1/data-specification/validation-rules.html#k5-current-validations>`_
-* `SDQ <http://docs.pmhc-mds.com/en/v1/data-specification/validation-rules.html#sdq-current-validations>`_
 
 .. _edit-collection-occasion-key:
 
@@ -796,24 +793,13 @@ available on the **Data Entry** tab, by following these steps:
 1. Navigate to :ref:`view-collection-occasion`
 2. Check that the collection occasion is not already showing
 3. Click the **Add New Collection Occasion** tab
-4. Select the collection occasion measure, either K10+, K5 or SDQ
-
-.. figure:: screen-shots/client-collection-occasions-measure.png
-   :alt: Client Data Add Collection Occasions
-
-5. Select to enter the item scores or the total score. (Individual item scores
-   will eventually be required and should be entered when available)
-
-.. figure:: screen-shots/client-collection-occasions-score.png
-   :alt: Client Data Add Collection Occasions
-
-6. Enter the client's collection occasion details for that episode.
+4. Enter the client's collection occasion details for that episode.
    Mandatory fields are marked with an * (Specification `Outcome Collection Occasion Data Elements <http://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#outcome-collection-occasion-data-elements>`_)
 
 .. figure:: screen-shots/client-collection-occasions-add.png
    :alt: Client Data Add Collection Occasions
 
-7. Click the blue **Save** button. (If you decide not to add this collection
+5. Click the blue **Save** button. (If you decide not to add this collection
    occasion, you can navigate away from this screen)
 
 You will receive confirmation that the client's collection occasion's details have been added,
@@ -824,11 +810,8 @@ and it will now be displaying these new details in the **View Collection Occasio
 
 If you receive an error message, the data will need to be corrected before the
 record is saved and added to the PMHC MDS.
-See Validation Rules for:
+See Validation Rules for: `Outcome Collection Occasion Validations <https://docs.pmhc-mds.com/projects/data-specification/en/v2/validation-rules.html#current-validations>`_
 
-* `K10+ <http://docs.pmhc-mds.com/en/v1/data-specification/validation-rules.html#k10p-current-validations>`_
-* `K5 <http://docs.pmhc-mds.com/en/v1/data-specification/validation-rules.html#k5-current-validations>`_
-* `SDQ <http://docs.pmhc-mds.com/en/v1/data-specification/validation-rules.html#sdq-current-validations>`_
 
 .. _delete-collection-occasion:
 
@@ -859,6 +842,165 @@ collection occasion will no longer be displayed.
 
     .. figure:: screen-shots/client-collection-occasions-delete-successful.png
        :alt: Client Collection Occasion Data Delete Successful
+
+
+.. _measure-data:
+
+Collection Occasion Measures
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. contents::
+   :local:
+   :depth: 2
+
+.. _view-collection-occasion-measure:
+
+Viewing a Client's Measures for a Collection Occasion
+-----------------------------------------------------
+
+You can view a Client's Measures added to a Collection Occasion through :ref:`view-collection-occasion`
+available on the Data Entry tab, by following these steps:
+
+1. Once :ref:`Viewing the Collection Occasion <view-collection-occasion>`.
+2. Scroll down to the Measures
+
+A table will display all the Measures linked to this Client's Episode Collection Occasion.
+
+.. figure:: screen-shots/client-collection-occasions-measures-view.png
+   :alt: Client Episode Collection Occasions Details Measure View
+
+3. To view the Measure details, click the Blue Measure Key.
+
+.. figure:: screen-shots/client-collection-occasions-measures-details.png
+   :alt: Client Episode Collection Occasions Details View
+
+A page will display the Measure details as recorded via the `Outcome Collection Occasion Data Elements <http://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#outcome-collection-occasion-data-elements>`_.
+
+  * See `K10+ Measure data specifications <https://docs.pmhc-mds.com/projects/data-specification/en/v2/data-model-and-specifications.html#k10>`_.
+  * See `K5 Measure data specifications <https://docs.pmhc-mds.com/projects/data-specification/en/v2/data-model-and-specifications.html#k5>`_.
+  * See `SDQ Measure data specifications <https://docs.pmhc-mds.com/projects/data-specification/en/v2/data-model-and-specifications.html#sdq>`_.
+
+.. _add-collection-occasion-measure:
+
+Adding an Client's Measures for a Collection Occasion
+-----------------------------------------------------
+
+Single or multiple measures can be added to a collection occasion. You can add a
+Client's Measure for a Collection Occasion. Multiple  through :ref:`view-collection-occasion`
+available on the Data Entry tab, by following these steps:
+
+1. Once :ref:`view-collection-occasion`.
+2. Firstly double check the measure is not already showing.
+3. Click the Add New Measure tab.
+
+.. figure:: screen-shots/client-collection-occasions-measures-add.png
+   :alt: Client Data Add Collection Occasions
+
+4. Select the Collection Occasion Measure type.
+
+.. figure:: screen-shots/client-collection-occasions-measures-select.png
+   :alt: Client Data Add Collection Occasions Measure Select
+
+5. Choose the Score Type, if it isn't already pre-filled.
+6. Click the blue **Next** button.
+7. Enter the Client's Measure details for the Collection Occasion. Mandatory fields are marked with an * .
+
+  * See `K10+ Measure data specifications <https://docs.pmhc-mds.com/projects/data-specification/en/v2/data-model-and-specifications.html#k10>`_.
+  * See `K5 Measure data specifications <https://docs.pmhc-mds.com/projects/data-specification/en/v2/data-model-and-specifications.html#k5>`_.
+  * See `SDQ Measure data specifications <https://docs.pmhc-mds.com/projects/data-specification/en/v2/data-model-and-specifications.html#sdq>`_.
+
+6. Click the blue **Save** button. (If you decide not to add this client's measure, you can simply navigate away from this screen)
+
+You will receive confirmation that the Client's Measure details have been added,
+and it will now be displaying these new details in the View Measure tab.
+
+        .. figure:: screen-shots/client-collection-occasions-measures-saved-add.png
+           :alt: Client Data Saved Successfully
+
+If you receive an error message, the data will need to be corrected before the
+record is saved and added to the PMHC MDS.
+See Validation Rules for: `K10+ <http://docs.pmhc-mds.com/en/v1/data-specification/validation-rules.html#k10p-current-validations>`_ `K5 <http://docs.pmhc-mds.com/en/v1/data-specification/validation-rules.html#k5-current-validations>`_ `SDQ <http://docs.pmhc-mds.com/en/v1/data-specification/validation-rules.html#sdq-current-validations>`_.
+
+.. _edit-collection-occasion-measure:
+
+Editing a Client's Measures for a Collection Occasion
+-----------------------------------------------------
+
+You can edit a Client's Measure for a Collection Occasion through :ref:`view-collection-occasion`
+available on the Data Entry tab, by following these steps:
+
+1. Once :ref:`view-collection-occasion`.
+2. Scroll down to the Measures
+3. Click the Blue Measure Key.
+4. Click Edit Measure
+5. Update the Client's Measure details. Mandatory fields are marked with an * .
+
+  *Please note: You can edit the Measure Key from this screen. See* :ref:`edit-collection-occasion-measure-key`.
+
+    .. figure:: screen-shots/client-collection-occasions-measures-edit.png
+       :alt: Client Collection Occasions Edit Details
+
+6. Click the blue **Save** button. (If you decide not to save changes, you can simply navigate away from this screen)
+
+You will receive confirmation that the Client's Collection Occasions details have been saved,
+and it will now be displaying these new details in the View Collection Occasion Details tab.
+
+        .. figure:: screen-shots/client-collection-occasions-measures-saved-edit.png
+           :alt: Client Data Saved Successfully
+
+If you receive an error message, the data will need to be corrected before the
+record is saved and added to the PMHC MDS.
+See Validation Rules for: `K10+ <http://docs.pmhc-mds.com/en/v1/data-specification/validation-rules.html#k10p-current-validations>`_ `K5 <http://docs.pmhc-mds.com/en/v1/data-specification/validation-rules.html#k5-current-validations>`_ `SDQ <http://docs.pmhc-mds.com/en/v1/data-specification/validation-rules.html#sdq-current-validations>`_.
+
+.. _edit-collection-occasion-measure-key:
+
+Editing a Measure Key
+~~~~~~~~~~~~~~~~~~~~~
+
+You can edit an measure's identification key through :ref:`view-collection-occasion`
+available on the Data Entry tab, by following these steps:
+
+1. In step four when :ref:`edit-collection-occasion-measure`.
+2. From the Edit Measure details tab, click the **Edit Key** button.
+
+       .. figure:: screen-shots/client-collection-occasions-measures-edit-key.png
+          :alt: Client Data Edit Collection Occasion Measure Key
+
+3. Type in the new measure key and click 'Next'.
+4. Double check the new key is correct and click save. (If it is incorrect, click back to re-enter the key or click the 'cross' in the top right to cancel this key change request)
+
+You will receive confirmation that the Measure's key has been saved, and the screen
+will now be displaying the updated measure key details in the View Measure details tab.
+
+       .. figure:: screen-shots/client-collection-occasions-measures-edit-key-saved.png
+          :alt: Collection Occasion Key Saved Successfully
+
+.. _delete-collection-occasion-measure:
+
+Deleting a Measure from a Collection Occasion
+---------------------------------------------
+
+You can delete a Client's Measure from a Collection Occasion through ':ref:`view-collection-occasion-measure`'
+available on the Data Entry tab, by following these steps:
+
+1. Once :ref:`view-collection-occasion`.
+2. Scroll down to the Measures
+3. Click the Blue Measure Key.
+4. Click Edit Measure
+5. Click the red **Delete** button.
+6. You will be displayed a 'Confirm Deletion' screen.
+
+  **Please note: Once the measure is deleted, you will not be able to recover this measure data.**
+
+7. Click the blue **Confirm** button to delete this measure. (or click the orange **Cancel** button if you decide not to delete this measure data)
+
+  .. figure:: screen-shots/client-collection-occasions-measures-delete-confirm.png
+     :alt: Client Measure Data Confirm Delete
+
+After you click 'Confirm', you will receive confirmation that the measure has
+been deleted, and you will be redirected to the :ref:`View Measures <view-collection-occasion-measure>` where the
+measure will no longer be displayed.
+
 
 .. _practitioner:
 
