@@ -305,7 +305,7 @@ Two formats of this report are offered to users:
    :local:
    :depth: 1
 
-Service Contacts flagged as ‘No Show’ are not included in this report.
+Episodes that only have contacts marked "no show" are included in this report.
 
 Some service contact data elements are not included in the options list as there
 is no missing value provided in the specification and the system doesn't allow
@@ -511,8 +511,9 @@ contact. Episodes with and without referral dates are reported separately.
 Note that there are no date selectors on this report - it shows every recorded
 episode that has no (non no-show) Service Contact.
 
-Key specification: Episodes that have a Service Contact not flagged as ‘No Show’
-are excluded in this report
+Key specification:
+
+* Episodes that only have contacts marked "no show" are included in this report.
 
 .. _category-a12:
 
