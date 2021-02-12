@@ -34,23 +34,50 @@ tab by following these steps:
 .. figure:: screen-shots/reports-system.png
    :alt: Reports tab View
 
-2. Select the type of report you would like to produce
-3. If you are allowed to produce reports for more than one organisation you
+2. If you are allowed to produce reports for more than one data source you
+   will be asked to select a data source
+3. Select the type of report you would like to produce
+4. If you are allowed to produce reports for more than one organisation you
    will be asked to select an organisation name
-4. Select the name of the organisation from the drop down list
-5. Click the first calendar icon to select the start date and then the second
+5. Select the name of the organisation from the drop down list
+6. Click the first calendar icon to select the start date and then the second
    calendar icon to select the end date
-6. If you click the **Include only records with Client Consent** tickbox, the
+7. If you click the **Include only records with Client Consent** tickbox, the
    data for clients that have not consented to their anonymised data being
    provided to the Department of Health will be excluded from your report. (See `Episode — Client Consent to Anonymised Data <http://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#dfn-client-consent>`_ )
-7. Click the blue **Request** button
-8. Your report will be displayed on screen and can be downloaded as a CSV
+8. Click the blue **Request** button
+9. Your report will be displayed on screen and can be downloaded as a CSV
 
 Note: If you are not sure what data is displayed in a report, please click
 on the **Counting Rules Explained** link.
 
 .. figure:: screen-shots/reports-sample-system.png
    :alt: Reports tab View
+
+
+.. _system-report-data-sources:
+
+Data Sources for reports
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+The following data sources are currently available for reports:
+
+PMHC
+----
+
+PMHC is the standard Primary Mental Health Care flexible funding pool services
+(See `PMHC MDS Data Specification <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html>`_).
+
+hAPI
+----
+
+hAPI is data that headspace National Office upload from their internal hAPI
+client information management system (See `headspace Data Specification <https://docs.pmhc-mds.com/projects/data-specification-headspace/en/v2/data-specification/data-model-and-specifications.html>`_).
+
+Some of the standard reports, namely the :ref:`category-d` and :ref:`category-e` series are not
+pertinent for headspace. However there are two headspace only
+reports - the :ref:`category-a12` and the :ref:`category-b7` - and
+contact-based reports are enhanced to allow breakdowns by funding source.
 
 .. _system-report-types:
 
@@ -278,7 +305,7 @@ Two formats of this report are offered to users:
    :local:
    :depth: 1
 
-Service Contacts flagged as ‘No Show’ are not included in this report.
+Episodes that only have contacts marked "no show" are included in this report.
 
 Some service contact data elements are not included in the options list as there
 is no missing value provided in the specification and the system doesn't allow
@@ -292,6 +319,12 @@ blank values to be submitted:
 * Service Contact Copayment
 * Service Contact Client Participation Indicator
 * Service Contact No Show
+
+.. note::
+   When the **hAPI** Data Source is selected an extra **Funding Source** selector
+   is provided for all A5 reports. Unlike the :ref:`category-b7`, which has 8
+   funding categories (including Missing), the filters on the A5 are less
+   fine grained and include only 5 funding categories (including 'Missing').
 
 .. _category-a5-1:
 
@@ -478,8 +511,36 @@ contact. Episodes with and without referral dates are reported separately.
 Note that there are no date selectors on this report - it shows every recorded
 episode that has no (non no-show) Service Contact.
 
-Key specification: Episodes that have a Service Contact not flagged as ‘No Show’
-are excluded in this report
+Key specification:
+
+* Episodes that only have contacts marked "no show" are included in this report.
+
+.. _category-a12:
+
+A12 - Episodes shared across multiple organisations
++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+This report applies to hAPI (headspace) data only.
+
+The PMHC model specifies that all activity (service contacts and collection
+occasions) for an episode must occur at the same organisation. The headspace
+model allows an episode of care to be delivered by multiple organisations.
+For compatibility with the PMHC, reports based on hAPI data exclude episodes
+(and corresponding service contacts, collection occasions and potentially
+clients) that involve more than one organisation.
+
+The A12 tallies the number of contacts/episodes/contacts/collections occasions
+that are delivered by multiple organisations. It is based on
+`Active Episodes <https://docs.pmhc-mds.com/projects/data-specification/en/v2/data-model-and-specifications.html#active-episode>`_,
+and the number of episodes delivered at multiple organisations is what is reported in the 'Active Episodes' column.
+
+The 'Service Contacts' column counts all the non no-show contacts in the
+reporting period that are associated with the `Active Episodes <https://docs.pmhc-mds.com/projects/data-specification/en/v2/data-model-and-specifications.html#active-episode>`_.
+Similarly the `Active Clients <https://docs.pmhc-mds.com/projects/data-specification/en/v2/data-model-and-specifications.html#active-client>`_
+is the enumeration of all clients for whom ALL episodes
+active during the reporting period were delivered at multiple organisations.
+A single episode during the reporting period delivered at only one
+organisation excludes client from this count.
 
 .. _category-b:
 
@@ -541,6 +602,12 @@ B3 — Activity report — Service Contact characteristics
 The B3 report is designed to allow selection of a Service Contact
 stratification variable of interest, with a menu of options covering all
 core Service Contact fields.
+
+.. note::
+   When the **hAPI** Data Source is selected an extra **Funding Source** selector
+   is provided for the B3 report. Unlike the :ref:`category-b7`, which has 8
+   funding categories (including Missing), the filters on the B3 are less
+   fine grained and include only 5 funding categories (including 'Missing').
 
 Key specifications:
 
@@ -606,12 +673,20 @@ respectively. The B6 extends this to any type of focus.
 B7 — Activity Report — hAPI Funding Source
 +++++++++++++++++++++++++++++++++++++++++++++
 
-The B7 report provides detailed identification of the funding source under
-which service contacts were delivered during the reporting period.
-It also aggregates those contacts into counts of episodes and clients. Note
-that episodes and clients can be counted within more than one category.
+This report applies to hAPI (headspace) data only.
 
-It applies to hAPI (headspace) data only.
+Unlike data reported by PHNs, which is funded exclusively by the PHNs, data
+reported to hAPI is funded by many different sources. The B7 report provides
+a detailed breakdown of the funding source under which service contacts where
+delivered. Only non no-show contacts during the reporting period are included.
+
+In addition, the B7 aggregates the contacts into episode and client counts.
+An episode may have activity with more than one funding source, in which case
+it will be counted in every row for which it has a contact funded by the
+pertinent source. Unless all contacts for all episodes are funded by the
+same source, the total number of episodes reported will be lower than the
+sum of the number of episodes in all funding sources. The same principle
+applies to Client counts.
 
 Key specifications:
 

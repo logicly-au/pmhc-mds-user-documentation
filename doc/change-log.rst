@@ -3,6 +3,15 @@
 User Guide Change log
 =====================
 
+12/02/2021
+----------
+
+* Update :ref:`reports` to include information about headspace (hAPI) reports
+
+* Added :ref:`system-report-data-sources`
+
+* Updated screenshots for :ref:`reports`
+
 9/2/2021
 --------
 
