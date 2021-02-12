@@ -34,23 +34,39 @@ tab by following these steps:
 .. figure:: screen-shots/reports-system.png
    :alt: Reports tab View
 
-2. Select the type of report you would like to produce
-3. If you are allowed to produce reports for more than one organisation you
+2. If you are allowed to produce reports for more than one data source you
+   will be asked to select a data source
+3. Select the type of report you would like to produce
+4. If you are allowed to produce reports for more than one organisation you
    will be asked to select an organisation name
-4. Select the name of the organisation from the drop down list
-5. Click the first calendar icon to select the start date and then the second
+5. Select the name of the organisation from the drop down list
+6. Click the first calendar icon to select the start date and then the second
    calendar icon to select the end date
-6. If you click the **Include only records with Client Consent** tickbox, the
+7. If you click the **Include only records with Client Consent** tickbox, the
    data for clients that have not consented to their anonymised data being
    provided to the Department of Health will be excluded from your report. (See `Episode — Client Consent to Anonymised Data <http://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#dfn-client-consent>`_ )
-7. Click the blue **Request** button
-8. Your report will be displayed on screen and can be downloaded as a CSV
+8. Click the blue **Request** button
+9. Your report will be displayed on screen and can be downloaded as a CSV
 
 Note: If you are not sure what data is displayed in a report, please click
 on the **Counting Rules Explained** link.
 
 .. figure:: screen-shots/reports-sample-system.png
    :alt: Reports tab View
+
+
+.. _system-report-data-sources:
+
+Data Sources for reports
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+The following data sources are currently available for reports:
+
+   * **PMHC**: is the standard Primary Mental Health Care flexible funding
+     pool services (See `PMHC MDS Data Specification <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html`_)
+   * **hAPI**: is data that headspace head-office has uploaded from their
+     internal hAPI client information management system (See `headspace Data Specification <https://docs.pmhc-mds.com/projects/data-specification-headspace/en/v2/data-specification/data-model-and-specifications.html`_)
+
 
 .. _system-report-types:
 
