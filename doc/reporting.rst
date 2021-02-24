@@ -211,8 +211,8 @@ not made available to these users.
 
 .. _category-a4:
 
-A4- Data quality report — Missing and invalid episode data
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+A4 — Data quality report — Missing and invalid episode data
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 The A4 reports are designed to identify data Episode elements with significant
 amounts of missing or invalid data.
@@ -517,7 +517,7 @@ Key specification:
 
 .. _category-a12:
 
-A12 - Episodes shared across multiple organisations
+A12 — Episodes shared across multiple organisations
 +++++++++++++++++++++++++++++++++++++++++++++++++++
 
 This report applies to hAPI (headspace) data only.
@@ -528,6 +528,31 @@ model allows an episode of care to be delivered by multiple organisations.
 For compatibility with the PMHC, reports based on hAPI data exclude episodes
 (and corresponding service contacts, collection occasions and potentially
 clients) that involve more than one organisation.
+
+For each entity (headspace centre or PHN) the A12 reports 2 lines:
+
+* "As lead organisation"
+* "As delivery organisation"
+
+The headspace enhancement of the PMHC MDS model adds a "delivery organisation"
+to both the service contact record and the collection occasion records. This
+can be different to the organisation that initiated the episode (the
+"lead organisation"). The A12 reports any episode that has at least one
+collection occasion or service contact delivered by an organisation that
+is not the lead organisation. Thus any particular organisation can operate
+in lead and/or delivery context.
+
+The "As lead organisation" means the entity initiated the episode but at
+least one collection occasion or service contact was delivered away from
+that entity. All activity pertaining to such episodes is reported in this row.
+
+"As delivery organisation" reports all activity for all episodes the entity
+was not the lead organisation for, but delivered at least one collection
+occasion or service contact for. This second view is a better indicator of
+work that an organisation was involved with but is not included in the bulk
+of the headspace reports. Note that a single episode can appear more than
+once in the "As delivery organisation" line but only ever once in the "As
+lead organisation" line.
 
 The A12 tallies the number of contacts/episodes/contacts/collections occasions
 that are delivered by multiple organisations. It is based on
