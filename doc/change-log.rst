@@ -3,10 +3,15 @@
 User Guide Change log
 =====================
 
+24/02/2021
+----------
+
+* Updated :ref:`category-a12` to include "lead" and "delivery" organisation information
+
 12/02/2021
 ----------
 
-* Update :ref:`reports` to include information about headspace (hAPI) reports
+* Updated :ref:`reports` to include information about headspace (hAPI) reports
 
 * Added :ref:`system-report-data-sources`
 
