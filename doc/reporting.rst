@@ -535,7 +535,7 @@ For each entity (headspace centre or PHN) the A12 reports 2 lines:
 * "As delivery organisation"
 
 The headspace enhancement of the PMHC MDS model adds a "delivery organisation"
-to both the service contact record and the collection occasion records. This
+to both the service contact records and the collection occasion records. This
 can be different to the organisation that initiated the episode (the
 "lead organisation"). The A12 reports any episode that has at least one
 collection occasion or service contact delivered by an organisation that
@@ -549,7 +549,7 @@ that entity. All activity pertaining to such episodes is reported in this row.
 "As delivery organisation" reports all activity for all episodes the entity
 was not the lead organisation for, but delivered at least one collection
 occasion or service contact for. This second view is a better indicator of
-work that an organisation was involved with but is not included in the bulk
+work that an organisation was involved with but does not get included in the bulk
 of the headspace reports. Note that a single episode can appear more than
 once in the "As delivery organisation" line but only ever once in the "As
 lead organisation" line.
