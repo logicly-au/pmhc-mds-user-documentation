@@ -48,7 +48,7 @@ You can scroll through the results by using the page arrows to view the data.
 Finding a Client
 ----------------
 
-You can choose any of the  to search for a client, depending on the client
+You can choose any of the filters to search for a client, depending on the client
 information that is available.
 
 To filter the listed clients:
@@ -89,7 +89,7 @@ Viewing a Client's details
 You can view a client's details through the :ref:`search-client`
 available on the **Data Entry** tab, by following these steps:
 
-1. :ref:`find the client<find-client>`
+1. :ref:`Find the client<find-client>`
 2. Click the **Client Key** in blue displayed within the table
 3. This is the **Client's Summary** view, with summary details along with a
    snapshot of the five most recent episodes
@@ -112,7 +112,7 @@ Editing a Client
 You can edit a client's details through the :ref:`search-client`
 available on the **Data Entry** tab, by following these steps:
 
-1. :ref:`find the client<find-client>`
+1. :ref:`Find the client<find-client>`
 2. From the **Client Search Table**, click the **Client Key**
 3. Click the **Details** tab, to view client's details
 4. Click the **Edit Details** tab
@@ -178,7 +178,7 @@ Adding a New Client
 You can add a client through the :ref:`search-client`
 available on the **Data Entry** tab, by following these steps:
 
-1. :ref:`find the client<find-client>`
+1. :ref:`Find the client<find-client>`
 2. Firstly double check the client is not already added
 3. Click the blue **Add New Client** button
 4. Choose the **Provider Organisation** from the drop down list
@@ -215,7 +215,7 @@ Deleting a Client
 You can delete a client through :ref:`view-client-details`
 available on the **Data Entry** tab, by following these steps:
 
-1. :ref:`find the client<find-client>`
+1. :ref:`Find the client<find-client>`
 2. From the :ref:`search-client` table, click the **Client Key**
 3. Click the **Details** tab, to :ref:`view Client's details<view-client-details>`
 4. Click the red **Delete** button
