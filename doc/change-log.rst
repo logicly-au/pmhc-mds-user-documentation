@@ -3,6 +3,11 @@
 User Guide Change log
 =====================
 
+18/3/2021
+---------
+
+* Updated :ref:`client-data` to remove the initial client search
+
 24/02/2021
 ----------
 

@@ -19,7 +19,7 @@ After navigating to the **Data Entry** tab, you will be presented with three sea
 boxes, which will allow you to easily find and view the client data for the
 organisations you have permission to access.
 
-.. figure:: screen-shots/client-data-entry.png
+.. figure:: screen-shots/clients.png
    :alt: Data Entry tab View
 
 .. _client-data:
@@ -31,69 +31,55 @@ Client Data
    :local:
    :depth: 2
 
+.. _search-client:
+
+Clients
+-------
+
+A display of the client data will be listed within the table.
+
+.. figure:: screen-shots/client-list.png
+   :alt: Client Data Table List
+
+You can scroll through the results by using the page arrows to view the data.
+
 .. _find-client:
 
 Finding a Client
 ----------------
 
-There are three :ref:`search-fields` options available.
+You can choose any of the filters to search for a client, depending on the client
+information that is available.
 
-.. _search-fields:
+To filter the listed clients:
 
-Search Fields
-~~~~~~~~~~~~~
+  1. Click the grey **Filters** button. This will open a field in which to enter
+     text
 
-You can choose any one of three search options to search for a client, depending
-on the client information that is available.
+     .. figure:: screen-shots/client-filter-fields.png
+        :alt: Client Data Search Results Filtered
 
-- **Client Key** - Use this field to enter the first characters of, or the entire `Client Key <https://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#dfn-client-key>`_
+  2. Type an appropriate filter into any of the fields
+  3. Click the blue **Apply** button
+     (or click the **Cancel** button if you decide not to filter the client data)
 
-- **SLK** - Use this field to type in a client's `Statistical Linkage Key <https://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#dfn-slk>`_
+You can view the applied filters at the top of the filtered client data table.
 
-- **DOB** - Use this field to type in a client's `Date of Birth <https://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#dfn-date-of-birth>`_
+.. figure:: screen-shots/client-filter-results.png
+   :alt: Client Data Results Filtered
 
-.. figure:: screen-shots/client-search-fields.png
-   :alt: Client Data Search Fields
+To remove the filter, click the grey cross (**X**) listed before the filter name
+or click the blue **Clear all** button.
 
-After entering information into one of these :ref:`search-fields`, simply click
-the blue **Search** button to see :ref:`search-client`
-
-Use the grey **Clear Search** button to removed any previously entered text.
-
-.. _search-client:
-
-Client Search Results
----------------------
-
-A display of the details used within the :ref:`search-fields` used in :ref:`find-client`
-will be visible above the search results table, when results are available.
-
-You can sort the listed client search results through either of the
-above three search features for :ref:`search-fields`.
-
-Sort the listed clients by simply clicking the column header. Alternately
-you can click the arrow beside a column header for more sort options, as follows:
+You can sort the listed client search results by simply clicking the column header.
+Alternately you can click the arrow beside a column header for more sort options,
+as follows:
 
 - **Sort Ascending**
 - **Sort Descending**
 - **Remove Sort**
 - **Hide Column**
 
-.. figure:: screen-shots/client-search-results.png
-   :alt: Client Data Search Results
-
-To filter the listed clients:
-
-  1. Click the grey **Filters** button. This will open a field in which to enter
-     text
-  2. Type an appropriate filter into the field that opened
-  3. To remove the filter, click the grey cross within the edit box beside any entered text or click the grey **Filters** button
-
-.. figure:: screen-shots/client-search-results-filter.png
-   :alt: Client Data Search Results Filtered
-
-You can clear the search results and start a new search by clicking on the blue
-**Edit Search** button.
 
 .. _view-client-details:
 
@@ -103,7 +89,7 @@ Viewing a Client's details
 You can view a client's details through the :ref:`search-client`
 available on the **Data Entry** tab, by following these steps:
 
-1. Create :ref:`search-client`
+1. :ref:`Find the client<find-client>`
 2. Click the **Client Key** in blue displayed within the table
 3. This is the **Client's Summary** view, with summary details along with a
    snapshot of the five most recent episodes
@@ -126,7 +112,7 @@ Editing a Client
 You can edit a client's details through the :ref:`search-client`
 available on the **Data Entry** tab, by following these steps:
 
-1. Create :ref:`search-client`
+1. :ref:`Find the client<find-client>`
 2. From the **Client Search Table**, click the **Client Key**
 3. Click the **Details** tab, to view client's details
 4. Click the **Edit Details** tab
@@ -192,7 +178,7 @@ Adding a New Client
 You can add a client through the :ref:`search-client`
 available on the **Data Entry** tab, by following these steps:
 
-1. Create :ref:`search-client`
+1. :ref:`Find the client<find-client>`
 2. Firstly double check the client is not already added
 3. Click the blue **Add New Client** button
 4. Choose the **Provider Organisation** from the drop down list
@@ -229,7 +215,7 @@ Deleting a Client
 You can delete a client through :ref:`view-client-details`
 available on the **Data Entry** tab, by following these steps:
 
-1. :ref:`Search<find-client>` for the client
+1. :ref:`Find the client<find-client>`
 2. From the :ref:`search-client` table, click the **Client Key**
 3. Click the **Details** tab, to :ref:`view Client's details<view-client-details>`
 4. Click the red **Delete** button
