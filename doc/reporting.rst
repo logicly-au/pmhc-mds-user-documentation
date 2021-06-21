@@ -1144,8 +1144,9 @@ This report is intended to provide insight into Residential Aged Care Facilities
 It is basically a combination of the A1 - episodes/clients/contacts columns -
 and the B6 report - improvement and (pertinent) episode count columns - for RACF activity. 
 The inclusion criteria is slightly oblique because episode activity is not directly 
-attributable to RACFs. Instead, the G1 counts attended that took place at an RACF.
-Episodes are included if they contain have at least one such contact. 
+attributable to RACFs. Instead, the G1 counts attended contacts that took place at an RACF.
+Episodes are included if they contain have at least one attended contact that took place at
+an RACF.
 
 Key specifications:
 
