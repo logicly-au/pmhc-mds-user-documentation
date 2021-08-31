@@ -1000,16 +1000,25 @@ Out series reports (Out-1 to Out-3)
 Key specifications applying to all Out series reports:
 
 * Based on all episodes with an Episode End Date falling within the reporting period
-* There must be at least one `attended contact <https://docs.pmhc-mds.com/projects/data-specification/en/v2/data-model-and-specifications.html#attended-contact>`_ associated with the episode but it need not be in the reporting period
-* To be counted as 'Matched', both an initial and final measure of matching
-  type must be recorded. See :ref:`matching_measure_types`. Matching of
-  measures in the Out series is tighter than that used in :ref:`category-a9`, so
-  figures may vary between these reports.
+* There must be at least one `attended contact <https://docs.pmhc-mds.com/projects/data-specification/en/v2/data-model-and-specifications.html#attended-contact>`_
+  associated with the episode but it need not be in the reporting period
+* To be counted as 'Matched', both an initial (episode start) and final (episode end)
+  measure of matching type must be recorded. See :ref:`matching_measure_types`.
+  Matching of measures in the Out series is tighter than that used in :ref:`category-a9`,
+  so figures may vary between these reports.
+
+And key specifications for:
+
+.. contents::
+   :local:
+   :depth: 1
 
 .. _category-out-1-2:
 
 Out-1 and Out-2 — Clinical outcomes
 '''''''''''''''''''''''''''''''''''
+
+See :ref:`key specifications for all Out series reports <category-out>`, plus:
 
 * These indicators group the matched pairs for all episodes reported in Out-3
   to indicate significant clinical changes between episode start and finish
@@ -1028,6 +1037,8 @@ Out-1 and Out-2 — Clinical outcomes
 Out-3 — Completion rates for clinical outcome measures
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
+See :ref:`key specifications for all Out series reports <category-out>`, plus:
+
 * Reports the percentage of episodes completed in the reporting period that
   have outcome measures collected at both episode start and episode finish
 * The All Episodes columns count episodes regardless of
@@ -1036,17 +1047,17 @@ Out-3 — Completion rates for clinical outcome measures
   Completion Status of 'Treatment Concluded'; administratively closed episodes
   are excluded
 * The KPI % is defined as the number of Treatment Concluded episodes with a
-  matched pair divided by the total number of Treatment Concluded episodes
-
+  :ref:`matched pair <matching_measure_types>` divided by the total number of
+  Treatment Concluded episodes
 
 .. _matching_measure_types:
 
 Matching measure types
 ''''''''''''''''''''''
 
-Reports :ref:`category-out`
-require initial and final measures to have valid total score (not '99') and to
-be of matching type as per the following table:
+Reports :ref:`Out-1 and Out-2 <category-out>` require initial (episode start)
+and final (episode end) measures to have valid total score (not '99') and to be
+of matching type as per the following table:
 
 ========= =========
 Initial   Final
@@ -1148,3 +1159,5 @@ Primary Mental Health Care Minimum Data Set (PMHC MDS).
 The Way Back Quarterly reporting function allows users to automatically populate
 The Way Back Quarterly Report using data contained in the PMHC MDS. See more at
 https://docs.pmhc-mds.com/projects/data-specification-wayback/en/v3/user-documentation/reports-user-guide.html
+
+(NOTE: this tab will only be displayed when TWB data has been added to the PMHC MDS)

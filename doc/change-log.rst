@@ -3,6 +3,11 @@
 User Guide Change log
 =====================
 
+31/08/2021
+----------
+
+* Updated reports OUT-1 and OUT-2 and OUT-3 to :ref:`category-out`
+
 18/3/2021
 ---------
 
