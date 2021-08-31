@@ -3,6 +3,11 @@
 User Guide Change log
 =====================
 
+25/06/2021
+----------
+
+* Added :ref:`video-training-module-SLK`
+
 18/3/2021
 ---------
 
