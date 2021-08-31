@@ -3,6 +3,11 @@
 User Guide Change log
 =====================
 
+31/08/2021
+----------
+
+* Updated :ref:`data-extract-dates`
+
 18/3/2021
 ---------
 
