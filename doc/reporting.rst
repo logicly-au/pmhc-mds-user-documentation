@@ -1022,8 +1022,9 @@ Out-1 and Out-2 — Clinical outcomes
 
 See :ref:`key specifications for all Out series reports <category-out>`, plus:
 
-* These indicators group the matched pairs for all episodes reported in Out-3
-  to indicate significant clinical changes between episode start and finish
+* These indicators group the :ref:`matched pair <matching_measure_types>` for
+  all episodes reported in Out-3 to indicate significant clinical changes between
+  episode start and end
 * The change for an episode is based on the effect size statistic which is
   defined as (score at episode start — score at episode end) / standard
   deviation of episode start scores for all episodes
