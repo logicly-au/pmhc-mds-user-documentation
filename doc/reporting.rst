@@ -1059,15 +1059,15 @@ Reports :ref:`Out-1 and Out-2 <category-out>` require initial (episode start)
 and final (episode end) measures to have valid total score (not '99') and to be
 of matching type as per the following table:
 
-========= =========
+========= ==========
 Initial   Final
-========= =========
+========= ==========
 K5        K5
 K10+      K10+
 SDQ PC101 SDQ PC201
 SDQ PY101 SDQ PY201
 SDQ YR101 SDQ YR201
-========= =========
+========= ==========
 
 This rule is a little tighter than that used in :ref:`category-a9`, so
 figures may vary.
@@ -1148,31 +1148,35 @@ Key specifications:
 * All records to be counted with no filtering
 * All dates refer to date of modification, not date of service
 
+.. _category-g:
+
+Category G: Cohorts of interest
+-------------------------------
 
 .. _category-g1:
 
 G1 — Residential Aged Care Facility Client Outcomes
-+++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 This report is intended to provide insight into Residential Aged Care Facilities.
 It is basically a combination of the A1 - episodes/clients/contacts columns -
-and the B6 report - improvement and (pertinent) episode count columns - for RACF activity. 
-The inclusion criteria is slightly oblique because episode activity is not directly 
+and the B6 report - improvement and (pertinent) episode count columns - for RACF activity.
+The inclusion criteria is slightly oblique because episode activity is not directly
 attributable to RACFs. Instead, the G1 counts attended contacts that took place at an RACF.
 Episodes are included if they contain have at least one attended contact that took place at
 an RACF.
 
 Key specifications:
 
-* All Service Contacts in the period that have a Service Contact - Venue of
- '8: Residential aged care facility' except those that are flagged
+* All Service Contacts in the period that have a Service Contact - Venue
+  of '8: Residential aged care facility' except those that are flagged
   as 'No Show'
 * Episodes to be counted if one or more Service Contacts as defined immediately
   above were recorded in the period
 * Clients comprise the clients who were the subject of the episodes defined
   immediately above, and are counted uniquely regardless of number of episodes
 * The episode count on the far right is the subset of the 'Episodes N' for which
-  there are inital and final measures from the same outcome instrument.  
+  there are inital and final measures from the same outcome instrument.
 * The change for an episode is based on the effect size statistic which is
   defined as (score at episode start − score at episode end) / standard
   deviation of episode start scores for all episodes
