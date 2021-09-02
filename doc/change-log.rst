@@ -9,6 +9,11 @@ User Guide Change log
 * Updated reports OUT-1 and OUT-2 and OUT-3 to :ref:`category-out`
 * Updated :ref:`data-extract-dates`
 
+25/06/2021
+----------
+
+* Added :ref:`video-training-module-SLK`
+
 18/3/2021
 ---------
 
