@@ -689,9 +689,6 @@ respectively. The B6 extends this to any type of focus.
 * Effect sizes of +0.5 or more constitute 'Significant improvement',
   −0.5 or less constitute 'Significant deterioration'.
   Effect sizes between −0.5 and 0.5 indicate 'No significant change'
-* Out-1 includes only episodes identified as "Low intensity psychological
-  interventions", Out-2 only those identified as "Psychological therapies
-  delivered by mental health professionals"
 
 .. _category-b7:
 
@@ -1150,6 +1147,39 @@ Key specifications:
 
 * All records to be counted with no filtering
 * All dates refer to date of modification, not date of service
+
+
+.. _category-g1:
+
+G1 — Residential Aged Care Facility Client Outcomes
++++++++++++++++++++++
+
+This report is intended to provide insight into Residential Aged Care Facilities.
+It is basically a combination of the A1 - episodes/clients/contacts columns -
+and the B6 report - improvement and (pertinent) episode count columns - for RACF activity. 
+The inclusion criteria is slightly oblique because episode activity is not directly 
+attributable to RACFs. Instead, the G1 counts attended contacts that took place at an RACF.
+Episodes are included if they contain have at least one attended contact that took place at
+an RACF.
+
+Key specifications:
+
+* All Service Contacts in the period that have a Service Contact - Venue of
+ '8: Residential aged care facility' except those that are flagged
+  as 'No Show'
+* Episodes to be counted if one or more Service Contacts as defined immediately
+  above were recorded in the period
+* Clients comprise the clients who were the subject of the episodes defined
+  immediately above, and are counted uniquely regardless of number of episodes
+* The episode count on the far right is the subset of the 'Episodes N' for which
+  there are inital and final measures from the same outcome instrument.  
+* The change for an episode is based on the effect size statistic which is
+  defined as (score at episode start − score at episode end) / standard
+  deviation of episode start scores for all episodes
+* Effect sizes of +0.5 or more constitute 'Significant improvement',
+  −0.5 or less constitute 'Significant deterioration'.
+  Effect sizes between −0.5 and 0.5 indicate 'No significant change'
+
 
 .. _produce-twb-report:
 
