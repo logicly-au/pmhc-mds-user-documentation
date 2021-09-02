@@ -14,6 +14,8 @@ User Guide Change log
 
 * Updated :ref:`client-data` to remove the initial client search
 
+* Added :ref:`view-practitioner-clients`
+
 24/02/2021
 ----------
 
