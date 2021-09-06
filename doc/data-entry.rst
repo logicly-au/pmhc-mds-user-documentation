@@ -1027,28 +1027,6 @@ on the **Data Entry** tab, by following these steps:
 **Please note:** You can also view a practitioner's details through the **Client Data** tab.
 See :ref:`view-practitioner-details`
 
-
-.. _view-practitioner-details:
-
-Viewing a Practitioner Providing Client Services
-------------------------------------------------
-
-You can view a practitioner's details through :ref:`view-service-contact`
-on the **Data Entry** tab, by following these steps:
-
-1. Navigate to :ref:`view-service-contact`
-2. From the **View Details** tab, click the **Practitioner Key**
-
-.. figure:: screen-shots/client-service-contacts-practitioner-key.png
-   :alt: Practitioner Key on Outcome Collection Occasions Details
-
-A page will display the practitioner's details as recorded via
-the `Practitioner Data Elements <http://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#practitioner-data-elements>`_.
-
-.. figure:: screen-shots/practitioner-details.png
-   :alt: Practitioner Details View
-
-
 .. _edit-practitioner:
 
 Editing a Practitioner
@@ -1183,7 +1161,6 @@ been edited or deleted.
 
 See :ref:`edit-service-contact` or :ref:`delete-service-contact`.
 
-
 .. _inactive-practitioner:
 
 Inactive Practitioners
@@ -1196,3 +1173,40 @@ By doing this, the inactive practitioner keys will no longer be displayed in the
 **Practitioner Key** drop down list displayed on the **Service Contact** forms.
 
 See :ref:`edit-practitioner`.
+
+.. _view-practitioner-clients:
+
+Viewing a Practitioner's Clients
+--------------------------------
+
+You can view a practitioner's clients through :ref:`view-practitioner`
+on the **Data Entry** tab, by following these steps:
+
+1. Click the :ref:`Practitioners <find-practitioner>` tab
+2. Click the practitioner's key in blue displayed within the table
+3. Navigate to **View Clients** tab
+
+.. figure:: screen-shots/practitioner-view-clients.png
+   :alt: Practitioner's Clients list
+
+Click the client's key to view the client's details. See :ref:`client-data`.
+
+.. _view-practitioner-details:
+
+Viewing a Practitioner Providing Client Services
+------------------------------------------------
+
+You can view a practitioner's details through :ref:`view-service-contact`
+on the **Data Entry** tab, by following these steps:
+
+1. Navigate to :ref:`view-service-contact`
+2. From the **View Details** tab, click the **Practitioner Key**
+
+.. figure:: screen-shots/client-service-contacts-practitioner-key.png
+   :alt: Practitioner Key on Outcome Collection Occasions Details
+
+A page will display the practitioner's details as recorded via
+the `Practitioner Data Elements <http://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#practitioner-data-elements>`_.
+
+.. figure:: screen-shots/practitioner-details.png
+   :alt: Practitioner Details View
