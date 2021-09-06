@@ -454,7 +454,7 @@ Key specifications:
 * Only Episodes with one or more Service Contacts in the reporting period are
   included in the analysis (referred to as 'active episodes')
 * Service Contacts flagged as ‘No Show’ are not included for this purpose
-* Measures that have a total score of ‘99’ are invalid and counted as ‘no measure’
+* Measures that have a total score of ‘99 = Not stated / Missing’ are invalid and counted as ‘no measure’
 
 .. _category-a9:
 
@@ -481,7 +481,7 @@ Key specifications:
 * Episodes must have an Episode End Date within the reporting period.
 * Episodes must have had one or more Service Contacts not flagged as ‘No Show’,
   but not necessarily during the reporting period
-* Measures that have a total score of ‘99’ are invalid and counted as ‘no measure’
+* Measures that have a total score of ‘99 = Not stated / Missing’ are invalid and counted as ‘no measure’
 
 .. _category-a10:
 
@@ -557,9 +557,9 @@ lead organisation" line.
 The A12 tallies the number of contacts/episodes/contacts/collections occasions
 that are delivered by multiple organisations. It is based on
 `Active Episodes <https://docs.pmhc-mds.com/projects/data-specification/en/v2/data-model-and-specifications.html#active-episode>`_,
-and the number of episodes delivered at multiple organisations is what is reported in the 'Active Episodes' column.
+and the number of episodes delivered at multiple organisations is what is reported in the "Active Episodes" column.
 
-The 'Service Contacts' column counts all the non no-show contacts in the
+The "Service Contacts" column counts all the non no-show contacts in the
 reporting period that are associated with the `Active Episodes <https://docs.pmhc-mds.com/projects/data-specification/en/v2/data-model-and-specifications.html#active-episode>`_.
 Similarly the `Active Clients <https://docs.pmhc-mds.com/projects/data-specification/en/v2/data-model-and-specifications.html#active-client>`_
 is the enumeration of all clients for whom ALL episodes
@@ -975,7 +975,7 @@ Key specifications:
 * Service contacts where the Client Participation Indicator flag is ‘No’ are not included
 * '% Episodes with Suicide Risk Flag %’ counts the proportion of all episodes
   which are flagged as a suicide risk
-* Other than in the '% Episodes with Suicide Risk Flag' column, only episodes
+* Other than in the "% Episodes with Suicide Risk Flag" column, only episodes
   flagged as suicide risk are counted
 * Episodes where the first service contact occurred within 7 days are
   tabulated as ‘7 days or less’
@@ -999,9 +999,8 @@ Key specifications applying to all Out series reports:
 * Based on all episodes with an Episode End Date falling within the reporting period
 * There must be at least one `attended contact <https://docs.pmhc-mds.com/projects/data-specification/en/v2/data-model-and-specifications.html#attended-contact>`_
   associated with the episode but it need not be in the reporting period
-* Measures that have a total score of ‘99’ are excluded
-* To be counted as 'Matched', both an initial (episode start) and final (episode end)
-  measure of matching type must be recorded. See :ref:`matching_measure_types`.
+* Measures that have an invalid total score of ‘99 = Not stated / Missing’ are excluded
+* To be counted as 'Matched', both an initial and final measure of matching type must be recorded. See :ref:`matching_measure_types`.
 
 *Note:* Matching of measures in the Out series is tighter than that used in :ref:`category-a9`,
 so figures may vary between these reports.
@@ -1041,9 +1040,9 @@ See :ref:`key specifications for all Out series reports <category-out>`, plus:
 
 * Reports the percentage of episodes completed in the reporting period that
   have outcome measures collected at both episode start and episode finish
-* The All Episodes columns count episodes regardless of
-  their `Episode Completion Status <https://docs.pmhc-mds.com/projects/data-specification/en/v2/data-model-and-specifications.html#episode-completion-status>`_
-* The Treatment Concluded columns only include episodes that have an Episode
+* The "All Episodes" columns count episodes regardless of
+  their Episode Completion Status
+* The "Treatment Concluded" columns only include episodes that have an Episode
   Completion Status of 'Treatment Concluded'; administratively closed episodes
   are excluded
 * The KPI % is defined as the number of Treatment Concluded episodes with a
@@ -1055,9 +1054,10 @@ See :ref:`key specifications for all Out series reports <category-out>`, plus:
 Matching measure types
 ''''''''''''''''''''''
 
-Reports :ref:`Out-1 and Out-2 <category-out>` require initial (episode start)
-and final (episode end) measures to have valid total score (not '99') and to be
-of matching type as per the following table:
+:ref:`Out series reports <category-out>` require initial and final measures
+(Collection Occasion Reason 'Episode Start' and 'Episode End') to have valid
+total score (not '99 = Not stated / Missing') and to be of matching measure type
+as per the following table:
 
 ========= ==========
 Initial   Final
