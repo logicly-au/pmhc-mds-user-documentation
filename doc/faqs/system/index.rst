@@ -11,6 +11,7 @@ System Frequently Asked Questions
    additional-data
    checking
    storing
+   yes-phn
    development
    mailing-list
    help-desk

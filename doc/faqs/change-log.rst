@@ -3,6 +3,25 @@
 Frequently Asked Questions Change log
 =====================================
 
+1/11/2021
+---------
+
+System - Data Entry FAQs
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+* Updates :ref:`enter-slk-faq`
+
+System - Uploading data
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+* Updated the question :ref:`upload_invalid_version_number_error`
+
+System - YES-PHN FAQs
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+* Added a section :ref:`yes-phn-FAQs`
+
+
 29/04/2020
 ----------
 

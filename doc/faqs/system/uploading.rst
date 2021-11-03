@@ -200,17 +200,6 @@ names need to exactly match the name in the 'Excel worksheet name' column
 of the 'Summary of files to upload' table at `Files or worksheets to upload <https://docs.pmhc-mds.com/en/v1/data-specification/upload-specification.html#files-to-upload>`_. If all the
 required worksheets are not present you will receive the error above.
 
-.. _upload_invalid_version_line_error:
-
-Why am I receiving an error saying 'Invalid version line in worksheet [Name]'?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-The top line of the worksheet must include the following columns:
-
-+------------+---------------+
-| Version    | 1.0           |
-+------------+---------------+
-
 .. _upload_invalid_column_error:
 
 Why am I receiving an error saying 'Column [Name] is not valid'?
@@ -233,16 +222,14 @@ doesn't match identically you will receive the error above.
 
 .. _upload_invalid_version_number_error:
 
-Why am I receiving an error saying 'Invalid version number on row 1'?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Why am I receiving an error saying 'PMHC MDS does not support version 1'?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-If you are uploading using the version 1 specification, you need to record a
-valid version number on row one, column two. Column one will
-include the word 'Version', Column two should include a number. We are currently
-only accepting Version 1, or Version 1.X eg 1.0 or 1.1 . If the version number
-doesn't match identically you will receive the error above.
+As of 1st July 2020, the PMHC MDS does not support version 1 of the PMHC specification.
 
-Uploads using version 2 and above should use a metadata file or worksheet.
+Uploads using version 2 and above should use a metadata file or worksheet. The
+metadata information is documented in the upload specifications on either the
+core specification or an extension. See `Data Specifications <https://docs.pmhc-mds.com/#data-specifications>`_.
 
 .. _upload_invalid_column_name_error:
 

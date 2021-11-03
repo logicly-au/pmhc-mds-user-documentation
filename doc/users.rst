@@ -47,6 +47,8 @@ the roles that currently exist within the PMHC MDS:
 +----------------------------+------------------------------------------------------------------------------------------------------------------------------------+
 | Data Entry                 | A user with the Data Entry role can enter client data and practitioners from the associated organisation.                          |
 +----------------------------+------------------------------------------------------------------------------------------------------------------------------------+
+| Service Feedback           | A user with the Service Feedback role can run completed episodes report and generate invitations for YES-PHN survey.               |
++----------------------------+------------------------------------------------------------------------------------------------------------------------------------+
 
 Each role allows a user to perform specific tasks. A user can have more than one role.
 Each role is granted for a user against an organisation. An organisation can
@@ -73,7 +75,9 @@ assigned. The table below lists the tabs that will be shown for each role:
 +-------------------------+------------------------------+
 | Data Entry              | Data Entry                   |
 +-------------------------+------------------------------+
-| All users               | SLK                          |
+| Service Feedback        | Tools: YES-PHN               |
++-------------------------+------------------------------+
+| All users               | Tools: SLK                   |
 +-------------------------+------------------------------+
 
 .. _finding-a-user:

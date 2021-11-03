@@ -91,7 +91,7 @@ an SLK generator is available within the client data entry forms. Refer to the
 online User Guide :ref:`add-client`.
 
 There is also a manual statistical linkage key generator available on the PMHC MDS
-website, under the SLK tab - https://pmhc-mds.net/#/slk. See :ref:`slk-generator`.
+website, under the Tools tab - https://pmhc-mds.net/#/slk. See :ref:`slk-generator`.
 
 .. _enter-unique-key-faq:
 

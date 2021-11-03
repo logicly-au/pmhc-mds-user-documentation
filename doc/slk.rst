@@ -19,7 +19,7 @@ Statistical Linkage Key (SLK) to enter into upload files.
 Generate a Client's SLK
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-1. Navigate to the **SLK** tab. This will open up the SLK generator
+1. Navigate to the **Tools** tab and select **SLK**. This will open up the SLK generator
 2. Enter the following client details: **Given Name**, **Family Name**, **Date of Birth** and
    **Gender**
 3. Click on the blue **Generate Key** button
