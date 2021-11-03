@@ -9,24 +9,14 @@ YES-PHN survey
 
 .. _yes-phn-data-template-faq:
 
-How do I obtain a template to upload my data to the MDS?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+How do I obtain a template to upload YES-PHN invitations via the MDS?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-A user with the Service Feedback role can run completed episodes report from the
-PMHC MDS. This report will be in the YES-PHN invitations format.
+A user with the Service Feedback role can request a report of clients who have
+completed episodes in a specified period. This report will be in the YES-PHN
+invitations format.
+
 See :ref:`yes-phn-download-complete-episodes`
-
-Additionally, there is an upload template is available from `Upload specification <https://docs.pmhc-mds.com/en/v1/data-specification/xxxx>`_.
-
-.. _yes-phn-data-excel-faq:
-
-What do I do if I have collected the data in Excel?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Visit the online MDS documentation regarding uploads were a detailed description
-of the format requirements for ab Excel file. Upload specification <https://docs.pmhc-mds.com/en/v1/data-specification/xxxx>`_.
-
-A user guide for YES-PHN is available. See :ref:`yes-phn`.
 
 .. _yes-phn-upload-csv-files-faq:
 
@@ -42,21 +32,28 @@ See `Upload specification <https://docs.pmhc-mds.com/en/v1/data-specification/xx
 
 .. _yes-phn-which_data:
 
-Should an upload file only contain new or changed data or should it contain all cumulative data from the start of service delivery?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+What data should be in a YES-PHN invitations upload file only?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The upload file should only include the episode data and contact details for those
-client's that have a closed Episode of Care in the relevant reporting period.
+A report of clients who have completed episodes in a specified period will include the
+organisation_path, client_key, episode_key, episode_end_date, and episode_completion_status,
+this data will enable an organisation to complete the remaining columns. Either
+a client's mobile or email should be completed, not both. Any clients that should
+not be sent an invites should be removed from the file.
 
 .. _yes-phn-upload-edit-data-faq:
 
-How can I edit an incorrect episode record?
+How can I edit an incorrect episode records?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Manual changes to columns A-E of the YES-PHN download file should not occur within
-this document. If this data is incorrect in the download file, it will need to be
-modified in the PMHC MDS dataset first through you organisation usual method of
-recording the PMCH MDS data.
+the YES-PHN file. If this data is incorrect in the download
+file, it should be modified in the PMHC MDS dataset through the organisations
+usual method of recording the PMCH MDS data.
+
+If manual changes are made to the episode end date or episode completion status
+within the YES-PHN upload file, these will be ignored when submitted through the
+YES-PHN invitation validation process.
 
 .. _yes-phn-upload-organisation-faq:
 
@@ -75,7 +72,8 @@ If no organisation is available, you will need to request the 'upload' :ref:`rol
 How can I delete a record I have previously uploaded?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-You can not delete an invitation once is has been successfully uploaded (IE not in test mode).
+You can not delete an YES-PHN invitation once is has been successfully uploaded
+(IE not in test mode).
 
 .. _yes-phn-upload-error-faq:
 

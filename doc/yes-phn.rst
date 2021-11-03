@@ -10,15 +10,15 @@ YES-PHN
 You will only be able to see the **Tools: YES-PHN** tab if you have been assigned
 the 'Service Feedback' :ref:`roles`, when logged into the PMHC MDS on https://pmhc-mds.net.
 
-If you don’t have access to the **Tools: YES-PHN** tab and you believe you should, please
-contact someone in your provider organisation or provider organisation's PHN
-who has the 'User Management' role. If you are unsure who has the 'User Management'
-role please email the PMHC Helpdesk at support@pmhc-mds.com
-
 After navigating to the **Data Extract** tab, you will see a tab to request a report of
 clients who have completed episodes in a specified period and a tab to re-upload the
 report to generate invitations for the specified clients to complete a
 Your Experience of Service Primary Health Network (YES PHN) Survey.
+
+If you don’t have access to the **Tools: YES-PHN** tab and you believe you should, please
+contact someone in your provider organisation or provider organisation's PHN
+who has the 'User Management' role. If you are unsure who has the 'User Management'
+role please email the PMHC Helpdesk at support@pmhc-mds.com
 
 .. figure:: screen-shots/yes-phn.png
    :alt: PMHC MDS SLK Generator
@@ -84,11 +84,12 @@ YES-PHN invitations for the organisations for which you have the
       :alt: PMHC MDS Organisation Selected
 
 The YES-PHN invitations file can either be auto generated through an internal system,
-or a :ref:`yes-phn-download-complete-episodes` can be manually completed by adding the client's
-`mobile_number <https://docs.pmhc-mds.com/projects/XXXX>`_,
+or a :ref:`yes-phn-download-complete-episodes` can be manually completed by adding
+one of the the client's details, either the
+`mobile_number <https://docs.pmhc-mds.com/projects/XXXX>`_, or
 `email <https://docs.pmhc-mds.com/projects/XXXX>`_, and
-`reminders <https://docs.pmhc-mds.com/projects/data-specification/en/XXXX>`_ fields
-as documented in the YES_PHN specifications.
+`reminders <https://docs.pmhc-mds.com/projects/data-specification/en/XXXX>`_
+fields as documented in the YES_PHN specifications.
 (Please note: manual changes to columns A-E should not occur. See :ref:`Incorrect data <yes-phn-upload-edit-data-faq>`)
 
 You can upload YES-PHN invitations files through the upload tab, by following these steps:
