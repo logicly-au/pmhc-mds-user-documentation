@@ -7,13 +7,18 @@ YES-PHN
    :local:
    :depth: 2
 
-You will only be able to see the **Tools: YES-PHN** tab if you have been assigned
-the 'Service Feedback' :ref:`roles`, when logged into the PMHC MDS on https://pmhc-mds.net.
+The Tools: YES-PHN tab allows invitations to be sent to clients to complete a
+Your Experience of Service Primary Heath Network (YES-PHN) Survey. The YES-PHN
+survey is designed to gather information from mental health consumers about their
+experiences of care.
 
-After navigating to the **Data Extract** tab, you will see a tab to request a report of
+After navigating to the **Tools: YES-PHN** tab, you will see a tab to request a report of
 clients who have completed episodes in a specified period and a tab to re-upload the
 report to generate invitations for the specified clients to complete a
 Your Experience of Service Primary Health Network (YES PHN) Survey.
+
+You will only be able to see the **Tools: YES-PHN** tab if you have been assigned
+the 'Service Feedback' :ref:`roles`, when logged into the PMHC MDS on https://pmhc-mds.net.
 
 If you don’t have access to the **Tools: YES-PHN** tab and you believe you should, please
 contact someone in your provider organisation or provider organisation's PHN
@@ -76,9 +81,13 @@ within the date range of the request.
 Uploading an invitations file
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+The YES-PHN survey is designed to gather information from mental health consumers
+about their experiences of care. See :ref: `yes-phn-what-is-faq`.
+
 After navigating to the **Tools: YES-PHN** tab, you will be able to upload client
-YES-PHN invitations for the organisations for which you have the
-'Service Feedback' role and 'Upload' role.
+details for the organisations for which you have the 'Service Feedback' role and
+'Upload' role. The upload process will send YES-PHN invitations to these clients
+via email or SMS.
 
    .. figure:: screen-shots/yes-phn-upload.png
       :alt: PMHC MDS Organisation Selected

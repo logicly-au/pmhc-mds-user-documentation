@@ -7,6 +7,18 @@ YES-PHN survey
    :local:
    :depth: 2
 
+.. _yes-phn-what-is-faq:
+
+What is the YES-PHN survey?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The YES survey is designed to gather information from mental health consumers
+about their experiences of care. By helping to identify specific areas where
+quality improvements can be made, the YES can support collaboration between
+mental health services and consumers to build better services.
+
+See `Yes-PHN specification <https://docs.pmhc-mds.com/en/v1/data-specification/xxxx>`_.
+
 .. _yes-phn-data-template-faq:
 
 How do I obtain a template to upload YES-PHN invitations via the MDS?
