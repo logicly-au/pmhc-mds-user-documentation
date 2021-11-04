@@ -839,7 +839,7 @@ Performance and Quality Framework (September 2018) and need to be positioned wit
 framework. One additional indicator was added to the mental health KPIs as a result of the new
 framework, bringing the total to 14.
 
-9 of the 14 KPI reports will ultimately be available via the PMHC MDS. 7 are currently available.
+9 of the 14 KPI reports will ultimately be available via the PMHC MDS.
 
 .. contents:: Available category D reports
    :local:
@@ -1104,6 +1104,10 @@ The reports provide summary data on:
 
 * Raw volumes (clients/episodes/service contacts/collection occasions/practitioners) over time periods
 * Raw volumes per day (clients/episodes/service contacts/collection occasions/practitioners)
+
+.. contents:: Available category E reports
+   :local:
+   :depth: 1
 
 .. _category-e1:
 
