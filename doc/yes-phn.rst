@@ -65,7 +65,7 @@ the Download fields in the **Tools: YES-PHN** tab, by following these steps:
    scientific notation, like 1.23E+15, in order to allow formulas and math
    operations to work on them. See :ref:`Excel file issues <yes-phn-upload-key-error-support-faq>`
 
-An example download file is available in the YES-PHN specification documentation at `YES-PHN Download Completed Episodes <https://docs.pmhc-mds.com/projects/data-specification/en/XXXX>`_
+An example download file is available in the YES-PHN specification documentation at `YES-PHN Download Completed Episodes <https://docs.pmhc-mds.com/projects/data-specification-yes-invitation/en/v1/upload-specification.html#file-format>`_
 
 .. _yes-phn-complete-episodes-dates:
 
@@ -95,9 +95,9 @@ via email or SMS.
 The YES-PHN invitations file can either be auto generated through an internal system,
 or a :ref:`yes-phn-download-complete-episodes` can be manually completed by adding
 one of the the client's details, either the
-`mobile_number <https://docs.pmhc-mds.com/projects/XXXX>`_, or
-`email <https://docs.pmhc-mds.com/projects/XXXX>`_, and
-`reminders <https://docs.pmhc-mds.com/projects/data-specification/en/XXXX>`_
+`mobile_number <https://docs.pmhc-mds.com/projects/data-specification-yes-invitation/en/v1/specifications.html#mobile-number>`_, or
+`email <https://docs.pmhc-mds.com/projects/data-specification-yes-invitation/en/v1/specifications.html#email>`_, and
+`reminders <https://docs.pmhc-mds.com/projects/data-specification-yes-invitation/en/v1/specifications.html#reminders>`_
 fields as documented in the YES_PHN specifications.
 (Please note: manual changes to columns A-E should not occur. See :ref:`Incorrect data <yes-phn-upload-edit-data-faq>`)
 
@@ -215,8 +215,6 @@ Complete uploads
 information by listing the number of data records present and if those records
 are added, updated, or deleted, within the MDS records.
 
-YES-PHN uploads will show as 'omsss-invitations'.
-
 .. figure:: screen-shots/yes-phn-upload-details.png
    :alt: PMHC MDS Upload Details page
 
@@ -242,7 +240,7 @@ can edit the data records directly on the file.
 
 The definition of each data item has associated notes that will provide guidance
 on why an error is returned. By visiting the data specifications documentation
-and clicking on the `Record formats <http://docs.pmhc-mds.com/en/v1/data-specification/xxxx>`_ field name this will take you to the
+and clicking on the `Record formats <https://docs.pmhc-mds.com/projects/data-specification-yes-invitation/en/v1/specifications.html#record-formats>`_ field name this will take you to the
 field definition which outlines the associated notes.
 
 In the Frequently Asked Questions guide there are questions about some of the
