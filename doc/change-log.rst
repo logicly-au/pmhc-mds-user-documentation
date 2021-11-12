@@ -6,9 +6,9 @@ User Guide Change log
 1/11/2021
 ----------
 
+* Updated :ref:`roles` to add 'Service Feedback' role
 * Updated :ref:`SLK-generate` move to Tools menu
-* Updated :ref:`roles` to add  Service Feedback role
-* Added :ref:`yes-phn`
+* Added :ref:`yes-phn` to Tools menu
 
 31/08/2021
 ----------

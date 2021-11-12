@@ -30,8 +30,7 @@ system. All enquiries should be directed to: support@pmhc-mds.com.
    data-entry
    reporting
    data-extract
-   slk
-   yes-phn
+   tools
    faqs/index
    change-log
 

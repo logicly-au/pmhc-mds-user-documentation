@@ -53,7 +53,7 @@ this data will enable an organisation to complete the remaining columns. Either
 a client's mobile or email should be completed, not both. Any clients that should
 not be sent an invites should be removed from the file.
 
-.. _yes-phn-upload-csv-files-faq:
+.. _yes-phn-example-files-faq:
 
 Is there an example YES-PHN invitations upload file?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -66,7 +66,7 @@ See `Upload specification <https://docs.pmhc-mds.com/projects/data-specification
 .. _yes-phn-upload-edit-data-faq:
 
 How can I edit an incorrect episode records?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Manual changes to columns A-E of the YES-PHN download file should not occur within
 the YES-PHN file. If this data is incorrect in the download
