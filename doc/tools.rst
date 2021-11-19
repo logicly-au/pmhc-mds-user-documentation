@@ -3,7 +3,7 @@
 Tools
 =======
 
-The follwing tools are available in the PMHC MDS.
+The following tools are available in the PMHC MDS.
 
 .. contents::
    :local:
@@ -144,7 +144,7 @@ Uploading an invitations file
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The YES-PHN survey is designed to gather information from mental health consumers
-about their experiences of care. See :ref: `yes-phn-what-is-faq`.
+about their experiences of care. See :ref:`yes-phn-what-is-faq`.
 
 After navigating to the **Tools: YES-PHN** tab, you will be able to upload client
 details for the organisations for which you have the 'Service Feedback' role and
