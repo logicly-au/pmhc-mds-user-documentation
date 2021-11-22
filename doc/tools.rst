@@ -298,7 +298,7 @@ Correcting upload errors
 
 Any upload validation errors will need to be corrected in your internal system and
 a new upload file created. Or if you manually record data on the upload file, you
-can edit the data records directly on the file.
+can edit the data records directly on the file. See - `https://docs.pmhc-mds.com/projects/data-specification-yes-invitation/en/v1/validation-rules.html#validation-rules`_.
 
 The definition of each data item has associated notes that will provide guidance
 on why an error is returned. By visiting the data specifications documentation

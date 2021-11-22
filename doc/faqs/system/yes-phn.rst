@@ -94,7 +94,7 @@ If no organisation is available, you will need to request the 'upload' :ref:`rol
 How can I delete a record I have previously uploaded?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-You can not delete an YES-PHN invitation once is has been successfully uploaded
+You can not delete a YES-PHN invitation once is has been successfully uploaded
 (IE not in test mode).
 
 .. _yes-phn-upload-error-faq:
@@ -126,6 +126,8 @@ Refer to :ref:`yes-phn-upload-fixing-errors`.
 
 How do I fix data errors in an upload?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The data must pass all YES-PHN invitation `https://docs.pmhc-mds.com/projects/data-specification-yes-invitation/en/v1/validation-rules.html#validation-rules`_.
 
 Refer to `Record formats <https://docs.pmhc-mds.com/projects/data-specification-yes-invitation/en/v1/specifications.html#record-formats>`_
 related to column name for each error. By clicking on the field name this will
