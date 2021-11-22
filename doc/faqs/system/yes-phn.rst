@@ -127,7 +127,7 @@ Refer to :ref:`yes-phn-upload-fixing-errors`.
 How do I fix data errors in an upload?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The data must pass all YES-PHN invitation `https://docs.pmhc-mds.com/projects/data-specification-yes-invitation/en/v1/validation-rules.html#validation-rules`_.
+The data must pass all YES-PHN invitation `validation rules <https://docs.pmhc-mds.com/projects/data-specification-yes-invitation/en/v1/validation-rules.html#validation-rules>`_.
 
 Refer to `Record formats <https://docs.pmhc-mds.com/projects/data-specification-yes-invitation/en/v1/specifications.html#record-formats>`_
 related to column name for each error. By clicking on the field name this will
@@ -212,7 +212,7 @@ Why am I receiving an error saying 'Could not find worksheet [Name]'?
 
 This error occurs when you are uploading and Excel spreadsheet. The worksheet
 names need to exactly match the name in the 'Excel worksheet name' column
-of the 'Summary of files to upload' table at `Files or worksheets to upload <https://docs.pmhc-mds.com/projects/data-specification-yes-invitation/en/v1/upload-specification.html#files-or-worksheets-to-upload>`_.
+of the 'Summary of files to upload' table at `YES-PHN files or worksheets to upload <https://docs.pmhc-mds.com/projects/data-specification-yes-invitation/en/v1/upload-specification.html#files-or-worksheets-to-upload>`_.
 If all the required worksheets are not present you will receive the error above.
 
 .. _yes-phn-upload_invalid_column_error:
