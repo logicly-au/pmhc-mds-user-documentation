@@ -70,7 +70,7 @@ YES-PHN
    :depth: 2
 
 The Tools: YES-PHN tab allows invitations to be sent to clients to complete a
-Your Experience of Service Primary Heath Network (YES-PHN) Survey. The YES-PHN
+`Your Experience of Service Primary Health Network (YES-PHN) Survey <https://www.amhocn.org/publications/your-experience-service-primary-health-network-yes-phn-survey>`_. The YES-PHN
 survey is designed to gather information from mental health consumers about their
 experiences of care.
 
