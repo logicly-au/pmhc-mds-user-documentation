@@ -736,7 +736,6 @@ included.
 
 Key specifications:
 
-* Client completed YES-PHN surveys are not included for this purpose
 * The collection date must be within the reporting period
 * Any YES-PHN surveys with more than half of the items missing is excluded
 
