@@ -716,7 +716,7 @@ Key specifications:
 
 .. _category-b8:
 
-B8 — Activity Report — YES PHN index
+B8 — YES PHN index
 ++++++++++++++++++++++++++++++++++++
 
 This report applies to YES-PHN data only.
