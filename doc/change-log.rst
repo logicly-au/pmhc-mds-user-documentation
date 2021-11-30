@@ -3,6 +3,11 @@
 User Guide Change log
 =====================
 
+25/11/2021
+----------
+
+* Added reports B8 to :ref:`category-b8`
+
 1/11/2021
 ----------
 
