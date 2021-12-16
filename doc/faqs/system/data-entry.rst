@@ -54,9 +54,10 @@ manage client information across the PHN region. This requirement proved
 problematic for PHNs and was worked through by the PMHC MDS working group.
 
 To determine what issues existed with managing the client key and possible solutions,
-nine PHNs worked with Strategic Data to describe their models for triaging patients,
-the information systems being used by PHNs and Provider Organisations, the ease of
-updating information systems and resources available for manual reconciliation of clients.
+nine PHNs worked with Logicly (then Strategic Data) to describe their models
+for triaging patients, the information systems being used by PHNs and
+Provider Organisations, the ease of updating information systems and
+resources available for manual reconciliation of clients.
 
 As a result of this work, a master client index is not possible at this time,
 and as such, will not be a requirement for full compliance from 1 July 2017.

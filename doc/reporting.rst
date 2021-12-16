@@ -714,6 +714,31 @@ Key specifications:
 
 * Service Contacts flagged as ‘No Show’ are not included for this purpose
 
+.. _category-b8:
+
+B8 — YES PHN index
+++++++++++++++++++++++++++++++++++++
+
+This report applies to YES-PHN data only.
+
+Your Experience of Service Primary Health Network (YES-PHN) Survey aims to help
+providers and consumers to work together to build better services. Completion of
+the survey is voluntary. All information collected in this survey is anonymous.
+
+Detailed description and explanation about using and interpreting the YES-PHN
+is available at https://www.amhocn.org/sites/default/files/publication_files/yes_phn_guidance_v1.0_20200408.pdf.
+The YES PHN index in the B8 report reflects the definition in this document and
+reports the proportion of respondents with an experience of service score over 80.
+
+The B8 report provides a summary average experience score, outcome score and
+YES-PHN index. Only completed YES-PHN surveys during the reporting period are
+included.
+
+Key specifications:
+
+* The collection date must be within the reporting period
+* Any YES-PHN surveys with more than half of the items missing is excluded
+
 .. _category-c:
 
 Category C: Monitoring implementation of stepped care

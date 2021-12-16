@@ -379,6 +379,11 @@ You can edit and assign extra :ref:`roles <roles>`  to an existing user by follo
 
    * **Add** a role by clicking the empty checkbox
    * **Remove** a role by clicking the selected checkbox
+   * In the Actions column, clicking the |remove-all| button will remove all the user's
+     roles at that organisation. If the user then has no roles left for any
+     organisation they will be prevented from logging into the PMHC MDS system.
+
+.. |remove-all| image:: screen-shots/remove-all-button.png
 
 7. All changes are automatically saved
 8. You will need to notify the user of these role changes. The system will not automatically do this

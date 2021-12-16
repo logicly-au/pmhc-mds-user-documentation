@@ -26,6 +26,8 @@ System - Access FAQs
 
 * Updated :ref:`letter-of-authority-faq`
 * Added :ref:`why-letter-of-authority-faq`
+* Updated :ref:`internet-browser`
+
 
 29/04/2020
 ----------

@@ -17,7 +17,7 @@ about their experiences of care. By helping to identify specific areas where
 quality improvements can be made, the YES can support collaboration between
 mental health services and consumers to build better services.
 
-See `Yes-PHN specification <https://docs.pmhc-mds.com/en/v1/data-specification/xxxx>`_.
+See `Yes-PHN specification <https://docs.pmhc-mds.com/projects/data-specification-yes-invitation/en/v1/specifications.html#>`_.
 
 .. _yes-phn-data-template-faq:
 
@@ -40,7 +40,7 @@ The filename of the zip file doesn’t matter as long as it has the file extensi
 All the required CSV files must be included for each YES-PHN upload and must be
 named as per the specifications.
 
-See `Upload specification <https://docs.pmhc-mds.com/en/v1/data-specification/xxxx>`_.
+See `Upload specification <https://docs.pmhc-mds.com/projects/data-specification-yes-invitation/en/v1/upload-specification.html>`_.
 
 .. _yes-phn-which_data:
 
@@ -53,10 +53,20 @@ this data will enable an organisation to complete the remaining columns. Either
 a client's mobile or email should be completed, not both. Any clients that should
 not be sent an invites should be removed from the file.
 
+.. _yes-phn-example-files-faq:
+
+Is there an example YES-PHN invitations upload file?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Is there an example YES-PHN invitations upload file in both formats - Excel and CSV.
+You can download the example upload file from the specification documentation.
+
+See `Upload specification <https://docs.pmhc-mds.com/projects/data-specification-yes-invitation/en/v1/upload-specification.html>`_.
+
 .. _yes-phn-upload-edit-data-faq:
 
 How can I edit an incorrect episode records?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Manual changes to columns A-E of the YES-PHN download file should not occur within
 the YES-PHN file. If this data is incorrect in the download
@@ -84,7 +94,7 @@ If no organisation is available, you will need to request the 'upload' :ref:`rol
 How can I delete a record I have previously uploaded?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-You can not delete an YES-PHN invitation once is has been successfully uploaded
+You can not delete a YES-PHN invitation once is has been successfully uploaded
 (IE not in test mode).
 
 .. _yes-phn-upload-error-faq:
@@ -117,7 +127,9 @@ Refer to :ref:`yes-phn-upload-fixing-errors`.
 How do I fix data errors in an upload?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Refer to `Record formats <https://docs.pmhc-mds.com/en/v1/data-specification/xxxx>`_
+The data must pass all YES-PHN invitation `validation rules <https://docs.pmhc-mds.com/projects/data-specification-yes-invitation/en/v1/validation-rules.html#validation-rules>`_.
+
+Refer to `Record formats <https://docs.pmhc-mds.com/projects/data-specification-yes-invitation/en/v1/specifications.html#record-formats>`_
 related to column name for each error. By clicking on the field name this will
 take you to the field definition which outlines the associated notes that provide
 guidance on which response to use.
@@ -200,7 +212,7 @@ Why am I receiving an error saying 'Could not find worksheet [Name]'?
 
 This error occurs when you are uploading and Excel spreadsheet. The worksheet
 names need to exactly match the name in the 'Excel worksheet name' column
-of the 'Summary of files to upload' table at `Files or worksheets to upload <https://docs.pmhc-mds.com/en/v1/data-specification/xxx>`_.
+of the 'Summary of files to upload' table at `YES-PHN files or worksheets to upload <https://docs.pmhc-mds.com/projects/data-specification-yes-invitation/en/v1/upload-specification.html#files-or-worksheets-to-upload>`_.
 If all the required worksheets are not present you will receive the error above.
 
 .. _yes-phn-upload_invalid_column_error:
@@ -209,8 +221,8 @@ Why am I receiving an error saying 'Column [Name] is not valid'?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Each item is a column in the file/worksheet. The 'Field Name' should be used for
-the column headings. These values can be found at `File format <https://docs.pmhc-mds.com/en/v1/data-specification/xxxx>`_, or
-listed on the provided example file at `Files or worksheets to upload <https://docs.pmhc-mds.com/en/v1/data-specification/xxxx>`_.
+the column headings. These values can be found at `Record formats <https://docs.pmhc-mds.com/projects/data-specification-yes-invitation/en/v1/specifications.html#record-formats>`_, or
+listed on the provided example file at `Files or worksheets to upload <https://docs.pmhc-mds.com/projects/data-specification-yes-invitation/en/v1/upload-specification.html#file-format>`_.
 If the Column [Name] doesn't match identically you will receive the error above.
 
 .. _yes-phn-upload_invalid_column_name_error:
@@ -219,7 +231,7 @@ Why am I receiving an error saying 'Column [Name] is required on row ...'?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 There is a required field that has not been entered. If not supplied, insert the
-default 'Missing' or 'Not recorded' value. These values can be found at `Record formats <https://docs.pmhc-mds.com/en/v1/data-specification/xxxx>`_.
+default 'Missing' or 'Not recorded' value. These values can be found at `Record formats <https://docs.pmhc-mds.com/projects/data-specification-yes-invitation/en/v1/specifications.html#record-formats>`_.
 If the Column [Name] is blank in a mandatory field you will receive the error above.
 
 .. _yes-phn-upload_invalid_file_error:

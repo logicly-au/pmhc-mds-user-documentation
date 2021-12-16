@@ -3,12 +3,29 @@
 User Guide Change log
 =====================
 
+16/12/2021
+----------
+
+* Added :ref:`user-auditing` to Tools menu
+* Updated :ref:`edit-role` to explain how to remove all roles from a user
+
+3/12/2021
+---------
+
+* Strategic Data rebranded to `Logicly <https://logicly.com.au>`_. Updated
+  Strategic Data references to `Logicly <https://logicly.com.au>`_.
+
+25/11/2021
+----------
+
+* Added reports B8 to :ref:`category-b8`
+
 1/11/2021
 ----------
 
+* Updated :ref:`roles` to add 'Service Feedback' role
 * Updated :ref:`SLK-generate` move to Tools menu
-* Updated :ref:`roles` to add  Service Feedback role
-* Added :ref:`yes-phn`
+* Added :ref:`yes-phn` to Tools menu
 
 31/08/2021
 ----------
