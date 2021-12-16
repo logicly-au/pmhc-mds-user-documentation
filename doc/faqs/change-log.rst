@@ -21,6 +21,10 @@ System - YES-PHN FAQs
 
 * Added a section :ref:`yes-phn-FAQs`
 
+System - Access FAQs
+~~~~~~~~~~~~~~~~~~~~
+
+* Updated :ref:`internet-browser`
 
 29/04/2020
 ----------

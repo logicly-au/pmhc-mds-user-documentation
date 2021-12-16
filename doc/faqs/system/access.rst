@@ -10,12 +10,14 @@ Accessing the PMHC Minimum Data Set
 What internet browser should I use?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-You can access the PMHC MDS using the following browsers:
+You can access the PMHC MDS using any up-to-date evergreen browser, like the following:
 
-* Chrome (version 30+)
-* Firefox (version 38+)
-* Internet Explorer 11
-* Safari 8 +
+* Chrome (version 78+)
+* Microsoft Edge (version 78+)
+* Firefox (version 68+)
+* Safari (version 13+)
+
+Please note: Internet Explorer is no longer supported.
 
 .. _getting-started-faq:
 
