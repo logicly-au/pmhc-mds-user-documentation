@@ -9,12 +9,12 @@ Frequently Asked Questions Change log
 System - Data Entry FAQs
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-* Updates :ref:`enter-slk-faq`
+* Updated :ref:`enter-slk-faq`
 
 System - Uploading data
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-* Updated the question :ref:`upload_invalid_version_number_error`
+* Updated :ref:`upload_invalid_version_number_error`
 
 System - YES-PHN FAQs
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -24,7 +24,10 @@ System - YES-PHN FAQs
 System - Access FAQs
 ~~~~~~~~~~~~~~~~~~~~
 
+* Updated :ref:`letter-of-authority-faq`
+* Added :ref:`why-letter-of-authority-faq`
 * Updated :ref:`internet-browser`
+
 
 29/04/2020
 ----------

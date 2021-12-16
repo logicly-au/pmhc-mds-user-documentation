@@ -27,9 +27,9 @@ How do I get started using the MDS?
 Each individual staff member should be set up with their own unique login access.
 It is inadvisable to set up and use generic login accounts within the PMHC MDS,
 and usernames / passwords should not be shared with other individuals. This
-ensures that when a staff member leaves, their access can be easily disabled without affecting
-other users or data security. A user’s
-account should not be passed from one staff member to the next.
+ensures that when a staff member leaves, their access can be easily disabled
+without affecting other users or data security. A user’s account should not be
+passed from one staff member to the next.
 
 Refer to :ref:`how-do-i-obtain-access-to-the-mds` for information on
 getting an account on the MDS.
@@ -65,15 +65,14 @@ access can be gained by producing a :ref:`letter of authority <letter-of-authori
 What is required for the Letter of Authority?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The protocol for setting up a new account to access the MDS requires a written
-letter of authority. A **letter of authority** is a request made on your
+A **letter of authority** is a written request made on your
 Primary Health Network or Provider Organisation's letterhead which must be
 signed by an authority at the Primary Health Network or Provider Organisation
 who holds a position that is higher than the person for whom the account is
 being created (i.e., the person's manager or the CEO).
 
 This letter must contain the following details (for the person for whom
-the MDS access is being requested):
+the MDS access is being requested/changed):
 
 #. Name
 #. Email address
@@ -81,23 +80,34 @@ the MDS access is being requested):
 #. Mobile phone number
 #. The exact Primary Health Network or Provider Organisation's name in the MDS
    you are seeking to access
-#. The roles required for the user. The user can have any combination of these roles.
-   (See :ref:`roles` for a summary of each of the roles that currently exist within the PMHC MDS.)
+#. For new profiles, the roles required for the user. (See :ref:`roles` for a summary of each of the roles that currently exist within the PMHC MDS.)
+#. For existing profile updates, list the item being changed (email or mobile), what is was and what it should be changed to
 
 This letter must be faxed to (03) 9340 9090, or scanned and then emailed to support@pmhc-mds.com.
 
-The same protocol applies if an MDS user no longer requires MDS access and
-needs to hand over their MDS access to another person. However, in this case
-it is advised that the new MDS user has a new username and password issued to
-protect the privacy and security of the organisation's data.
+Refer to :ref:`why-letter-of-authority-faq`
 
-This process will also apply where a user is requesting a password reset.
-However, the auto :ref:`password recovery <password-recovery-faq>` process available
-to you via the MDS login screen is the preferred method of password retrieval.
+.. _why-letter-of-authority-faq:
 
-This process will also apply where a user is requesting an update to their details.
-However, the :ref:`updating-your-details` process available to you via the
+When is a Letter of Authority required?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The protocol for the PMHC MDS Helpdesk to set up a new account or change an
+existing account requires a formal :ref:`letter of authority <letter-of-authority-faq>`.
+
+When there are no existing users with the 'User Management' role at a PHN, the
+protocol for setting up a new account to access this role, or granting this role
+to an existing user, requires a written letter of authority by that PHN. Refer
+to :ref:`how-do-i-obtain-access-to-the-mds`.
+
+This protocol will also apply when a user is requesting an update to their profile 
+details when they are unable to log in. The :ref:`updating-your-details` process via the
 MDS login screen is the preferred method for a user to update their own details.
+
+The same protocol applies if a new MDS user requires MDS access using a past
+users MDS access or email address. However, in this case it is advised that the
+new MDS user has a new username and password issued to protect the privacy and
+security of the organisation's data. Refer to :ref:`getting-started-faq`.
 
 .. _what-can-a-user-see-faq:
 
