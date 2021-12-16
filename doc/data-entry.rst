@@ -15,9 +15,7 @@ contact someone in your provider organisation or provider organisation's PHN
 who has the 'User Management' role. If you are unsure who has the 'User Management'
 role please email the PMHC Helpdesk at support@pmhc-mds.com.
 
-After navigating to the **Data Entry** tab, you will be presented with three search
-boxes, which will allow you to easily find and view the client data for the
-organisations you have permission to access.
+After navigating to the **Data Entry** tab, you will be presented a table of clients.
 
 .. figure:: screen-shots/clients.png
    :alt: Data Entry tab View

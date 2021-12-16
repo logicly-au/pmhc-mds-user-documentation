@@ -310,3 +310,79 @@ common and unusual upload error messages. These answers contain information on
 what you can do to fix the error. See - :ref:`YES-PHN FAQs <yes-phn-FAQs>`.
 
 If you require assistance in understanding an error message, please email support@pmhc-mds.com.
+
+.. _user-auditing:
+
+User Auditing
+-------------
+
+.. contents::
+   :local:
+   :depth: 2
+
+The Tools: User Auditing tab allows users with the User Management role to
+review users who have not recently logged in to the PMHC MDS.
+
+You will only be able to see the **Tools: User Auditing** tab if you have been
+assigned the 'User Management' :ref:`roles`, when logged into the PMHC MDS on https://pmhc-mds.net.
+
+If you don’t have access to the **Tools: User Auditing** tab and you believe you should, please
+contact someone in your provider organisation or provider organisation's PHN
+who has the 'User Management' role. If you are unsure who has the 'User Management'
+role please email the PMHC Helpdesk at support@pmhc-mds.com.
+
+After navigating to the **Tools: User Auditing** tab, you will be presented with
+a table of users whose access you manage. By default, the table is sorted by
+the 'Last Logged In' column sorted so that users who have not logged in for the
+longest are displayed at the top.
+
+User managers should periodically check this table and :ref:`remove all roles <delete_user>`
+from any user who no longer requires access.
+
+.. figure:: screen-shots/user-auditing.png
+   :alt: User Auditing table
+
+You can scroll through the results by using the page arrows to view the data.
+
+.. _find-user:
+
+Finding a User
+^^^^^^^^^^^^^^
+
+You can choose any of the filters to search for a user, depending on the user
+information that is available.
+
+To filter the listed users:
+
+  1. Click the grey **Filters** button. This will open a field in which to enter
+     text
+
+     .. figure:: screen-shots/user-filter-fields.png
+        :alt: User Data Search Results Filtered
+
+  2. Type an appropriate filter into any of the fields
+  3. Click the blue **Apply** button
+     (or click the **Cancel** button if you decide not to filter the user data)
+
+You can view the applied filters at the top of the filtered user data table.
+
+.. figure:: screen-shots/user-filter-results.png
+   :alt: User Data Results Filtered
+
+To remove the filter, click the grey cross (**X**) listed before the filter name
+or click the blue **Clear all** button.
+
+You can sort the listed user search results by simply clicking the column header.
+Alternately you can click the arrow beside a column header for more sort options,
+as follows:
+
+- **Sort Ascending**
+- **Sort Descending**
+
+.. _removing-access:
+
+Changing a users roles or removing access
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Clicking on the user's name will take you to :ref:`edit-role`. From there you
+can edit there roles, or fully remove their access to the PMHC MDS.

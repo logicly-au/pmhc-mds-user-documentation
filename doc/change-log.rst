@@ -3,10 +3,17 @@
 User Guide Change log
 =====================
 
+16/12/2021
+----------
+
+* Added :ref:`user-auditing` to Tools menu
+* Updated :ref:`edit-role` to explain how to remove all roles from a user
+
 3/12/2021
 ---------
 
-* Strategic Data rebranded to `Logicly <https://logicly.com.au>`_. Updated Strategic Data references to `Logicly <https://logicly.com.au>`_.
+* Strategic Data rebranded to `Logicly <https://logicly.com.au>`_. Updated
+  Strategic Data references to `Logicly <https://logicly.com.au>`_.
 
 25/11/2021
 ----------
