@@ -243,7 +243,7 @@ User Guide Change log
 
 * Edited the Reporting :ref:`roles`
 
-* Edited :ref:`passwords` to state the password email will be received from noreply@strategicdata.com.au
+* Edited :ref:`passwords` to state the password email will be received from noreply@logicly.com.au
 
 22/12/2017
 ----------

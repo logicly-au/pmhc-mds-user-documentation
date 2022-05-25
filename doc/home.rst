@@ -193,7 +193,7 @@ Passwords must be:
 * changed by users no more than once a day; and
 * not reused from any of the preceding eight changes.
 
-Please note: Users will be reminded via an email sent from support@strategicdata.com.au
+Please note: Users will be reminded via an email sent from noreply@logicly.com.au
 14 days prior to their password expiry date, and on PMHC MDS login 7 days prior
 to their password expiry - See see :ref:`soon-to-expire-password`.
 
@@ -208,12 +208,12 @@ Password Expiry Notifications
 As required by the Australian Government's Protective Security Policy Framework
 passwords must be changed every three months.
 
-Users will be reminded via an email sent from noreply@strategicdata.com.au each
+Users will be reminded via an email sent from noreply@logicly.com.au each
 day for 14 days prior to their password expiry date, and will also be
 reminded on PMHC MDS login 7 days prior to their password expiry.
 
 It is quicker to reset your password before it expires. Passwords can be reset
-by clicking the password reset link, which will open https://auth.strategicdata.com.au/.
+by clicking the password reset link, which will open https://auth.logicly.com.au/.
 This link can be accessed in one of two ways:
 
 1. Either on the password reminder email; or
@@ -271,7 +271,7 @@ If you have forgotten your password or it has expired:
 4. Click the **I'm not a robot** checkbox
 5. Click **Submit**
 6. An email with further instructions will be sent from
-   noreply@strategicdata.com.au to the email address the PMHC MDS has on file
+   noreply@logicly.com.au to the email address the PMHC MDS has on file
    for the user. Additionally, if you have set a backup email, then
    an email will also be sent there. An SMS with a verification code
    will also be sent to the mobile phone number  on record
@@ -279,7 +279,7 @@ If you have forgotten your password or it has expired:
    .. figure:: screen-shots/account-password-reset-request.png
       :alt: PMHC MDS Reset Password Request
 
-7. Open the email sent from noreply@strategicdata.com.au and open the link in the email
+7. Open the email sent from noreply@logicly.com.au and open the link in the email
 
    .. figure:: screen-shots/account-password-reset-email.png
       :alt: PMHC MDS Reset Password Email
