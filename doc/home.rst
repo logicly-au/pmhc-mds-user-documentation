@@ -159,15 +159,39 @@ To edit your details:
  .. figure:: screen-shots/account-manage-details.png
     :alt: PMHC MDS Manage Details
 
-6. To update your name, click the **Change personal details** link
-7. To update your primary email address, click the **Change email address** link
-8. To update your backup email address, click the **Change backup email address**
+  * To update your name, click the **Change personal details** link
+  * To update your primary email address, click the **Change email address** link
+  * To update your backup email address, click the **Change backup email address**
    link
-9. To update your mobile phone number, click the **Change mobile phone number**
+  * To update your mobile phone number, click the **Change mobile phone number**
     link
-10. The last section on the page, **Password lifetime**, tells you when
+  * Please note: The last section on the page, **Password lifetime**, tells you when
     you last changed your password and when it will expire. Passwords must
-    be changed every three months
+    be changed every 90 days. See ::ref:`passwords`
+
+6. Once you have entered your changed details, click **Submit** (Please note: you can only chane one contact detail at a time)
+
+
+7. An email with further instructions will be sent from
+   noreply@logicly.com.au to the email address the PMHC MDS has on file
+   for the user. An SMS with a verification code
+   will also be sent to the mobile phone number on record.
+   (Please note: This infromation will be sent to both the old and the new details to confirm the change)
+
+   .. figure:: screen-shots/profile-update-details-request.png
+      :alt: PMHC MDS Reset Password Request
+
+7. Open the email sent from noreply@logicly.com.au and open the link in the email
+
+   .. figure:: screen-shots/profile-update-details-email.png
+      :alt: PMHC MDS Reset Password Email
+
+8. Enter the verification code you were sent via SMS
+
+   .. figure:: screen-shots/account-verify-user.png
+      :alt: PMHC MDS User Verification
+
+9. Click **Submit**
 
 .. _passwords:
 

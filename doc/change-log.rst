@@ -3,6 +3,11 @@
 User Guide Change log
 =====================
 
+27/05/2022
+----------
+
+* Updated ::ref:`updating-your-details`
+
 16/12/2021
 ----------
 
@@ -14,6 +19,8 @@ User Guide Change log
 
 * Strategic Data rebranded to `Logicly <https://logicly.com.au>`_. Updated
   Strategic Data references to `Logicly <https://logicly.com.au>`_.
+* Updated noreply@strategicdata.com.au references to noreply@logicly.com.au
+* Updated screenshots
 
 25/11/2021
 ----------
