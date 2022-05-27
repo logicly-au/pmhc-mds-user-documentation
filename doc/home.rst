@@ -178,12 +178,12 @@ To edit your details:
    will also be sent to the mobile phone number on record.
    (Please note: This infromation will be sent to both the old and the new details to confirm the change)
 
-   .. figure:: screen-shots/profile-update-details-request.png
+   .. figure:: screen-shots/account-update-details-request.png
       :alt: PMHC MDS Reset Password Request
 
 7. Open the email sent from noreply@logicly.com.au and open the link in the email
 
-   .. figure:: screen-shots/profile-update-details-email.png
+   .. figure:: screen-shots/account-update-details-email.png
       :alt: PMHC MDS Reset Password Email
 
 8. Enter the verification code you were sent via SMS
