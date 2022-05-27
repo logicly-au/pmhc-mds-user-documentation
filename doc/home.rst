@@ -181,17 +181,17 @@ To edit your details:
    .. figure:: screen-shots/account-update-details-request.png
       :alt: PMHC MDS Reset Password Request
 
-7. Open the email sent from noreply@logicly.com.au and open the link in the email
+8. Open the email sent from noreply@logicly.com.au and open the link in the email
 
    .. figure:: screen-shots/account-update-details-email.png
       :alt: PMHC MDS Reset Password Email
 
-8. Enter the verification code you were sent via SMS
+9. Enter the verification code you were sent via SMS
 
    .. figure:: screen-shots/account-verify-user.png
       :alt: PMHC MDS User Verification
 
-9. Click **Submit**
+10. Click **Submit**
 
 .. _passwords:
 
