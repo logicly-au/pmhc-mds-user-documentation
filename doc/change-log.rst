@@ -3,7 +3,7 @@
 User Guide Change log
 =====================
 
-??/06/2022
+31/05/2022
 ----------
 
 * Added :ref:`generate-collection-occasion-link`
