@@ -100,7 +100,7 @@ protocol for setting up a new account to access this role, or granting this role
 to an existing user, requires a written letter of authority by that PHN. Refer
 to :ref:`how-do-i-obtain-access-to-the-mds`.
 
-This protocol will also apply when a user is requesting an update to their profile 
+This protocol will also apply when a user is requesting an update to their profile
 details when they are unable to log in. The :ref:`updating-your-details` process via the
 MDS login screen is the preferred method for a user to update their own details.
 
@@ -179,7 +179,7 @@ What should I do if a user didn't receive the email invitation?
 First confirm that you have the users correct email address.  See :ref:`view-invite-details`.
 
 * If the email is incorrect, you will be able to :ref:`delete-invite` and then send a new invitation.
-* If the email is correct, ask the user to double check their junk mail folder and search for an email sent from noreply@strategicdata.com.au.
+* If the email is correct, ask the user to double check their junk mail folder and search for an email sent from noreply@logicly.com.au.
 
 You can :ref:`reissue-invite`. When you reissue an invitation, both the email and SMS are sent again to the invitee.
 
