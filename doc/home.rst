@@ -156,20 +156,20 @@ To edit your details:
 
 5. You will see the **Manage Details** page
 
- .. figure:: screen-shots/account-manage-details.png
-    :alt: PMHC MDS Manage Details
+   .. figure:: screen-shots/account-manage-details.png
+      :alt: PMHC MDS Manage Details
 
   * To update your name, click the **Change personal details** link
   * To update your primary email address, click the **Change email address** link
   * To update your backup email address, click the **Change backup email address**
-   link
+    link
   * To update your mobile phone number, click the **Change mobile phone number**
     link
   * Please note: The last section on the page, **Password lifetime**, tells you when
     you last changed your password and when it will expire. Passwords must
     be changed every 90 days. See ::ref:`passwords`
 
-6. Once you have entered your changed details, click **Submit** (Please note: you can only chane one contact detail at a time)
+6. Once you have entered your changed details, click **Submit** (Please note: you can only change one contact detail at a time)
 
 
 7. An email with further instructions will be sent from
@@ -298,7 +298,7 @@ If you have forgotten your password or it has expired:
    noreply@logicly.com.au to the email address the PMHC MDS has on file
    for the user. Additionally, if you have set a backup email, then
    an email will also be sent there. An SMS with a verification code
-   will also be sent to the mobile phone number  on record
+   will also be sent to the mobile phone number on record
 
    .. figure:: screen-shots/account-password-reset-request.png
       :alt: PMHC MDS Reset Password Request

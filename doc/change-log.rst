@@ -6,7 +6,7 @@ User Guide Change log
 27/05/2022
 ----------
 
-* Updated ::ref:`updating-your-details`
+* Updated :ref:`updating-your-details`
 
 16/12/2021
 ----------
