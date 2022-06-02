@@ -841,6 +841,10 @@ available on the **Data Entry** tab, by following these steps:
 
 7. Click the blue **Back to start** button.
 
+Questionnaires are valid for 7 days. The following reminder emails will be sent:
+ * 2 days after the invitation - Reminding the client to fill in the questionnaire. Also reminding them of the date on which it will expire.
+ * 6 days after the invitation - Reminding the client to fill in the questionnaire. Reminding them that it will expire tomorrow.
+
 *Example Self Service Link Screens*
 
 .. figure:: screen-shots/client-collection-occasions-OMSSS-SMS-Email.png
