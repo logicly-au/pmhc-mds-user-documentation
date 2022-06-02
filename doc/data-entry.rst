@@ -797,6 +797,75 @@ record is saved and added to the PMHC MDS.
 See Validation Rules for: `Outcome Collection Occasion Validations <https://docs.pmhc-mds.com/projects/data-specification/en/v2/validation-rules.html#current-validations>`_
 
 
+
+.. _generate-collection-occasion-link:
+
+Generate a Client's Outcome Collection Occasion Self Service Link through the Online Measures Self Service System (OMSSS)
+----------------------------------------------------------------------------------------------------------------------------
+
+The Online Measures Self Service System (OMSSS) is a service funded by
+the Australian Government Department of Health as part of the Primary Mental
+Health Care Minimum Data Set (PMHC MDS). It allows clients of mental health
+services commissioned by Primary Health Networks (PHNs) to complete the
+standardised outcome measures mandated in the PMHC MDS and have the results
+reported back to their service providers. See more at http://docs.omsss.online/.
+
+You can now generate a self service link on the PMHC MDS for a
+Outcome Collection Occasion through :ref:`view-collection-occasion`
+available on the **Data Entry** tab, by following these steps:
+
+1. Navigate to :ref:`view-collection-occasion`
+2. Check that the collection occasion is not already showing
+3. Click the **Generate Self Service Link** tab
+4. Complete Screen One; about the collection occasion measure and click the blue
+   **Next** button
+
+.. figure:: screen-shots/client-collection-occasions-generate-pg1.png
+   :alt: Client Data Generate Collection Occasion Self Service Link - screen 1
+
+5. Complete Screen Two; review the measure details just entered and complete the
+   'Invitation' and 'Results' fields, and click the blue **Next** button
+
+   The client will be sent an SMS and/or email if you entered their details in the invitation section.
+
+   The Practitioner and/or Organisation will receive the results of the completed measure if you have entered their details and selected these options
+
+.. figure:: screen-shots/client-collection-occasions-generate-pg2.png
+   :alt: Client Data Generate Collection Occasion Self Service Link - screen 2
+
+6. Final screen three; will display the QR code and the unique OMSSS collection
+   code for your records.
+
+.. figure:: screen-shots/client-collection-occasions-generate-pg3.png
+   :alt: Client Data Generate Collection Occasion Self Service Link - screen 3
+
+7. Click the blue **Back to start** button.
+
+Questionnaires are valid for 7 days. The following reminder emails will be sent:
+ * 2 days after the invitation - Reminding the client to fill in the questionnaire. Also reminding them of the date on which it will expire.
+ * 6 days after the invitation - Reminding the client to fill in the questionnaire. Reminding them that it will expire tomorrow.
+
+*Example Self Service Link Screens*
+
+.. figure:: screen-shots/client-collection-occasions-OMSSS-SMS-Email.png
+   :alt: Example Client Data Generate Collection Occasion Self Service SMS/Email text
+
+*Example Measure Screens*
+
+.. figure:: screen-shots/client-collection-occasions-OMSSS-Screens.png
+   :alt: Example Client Data Generate Collection Occasion Self Service Measure screen
+
+*Example confirmation email for complete measure*
+
+.. figure:: screen-shots/client-collection-occasions-OMSSS-Email-complete.png
+   :alt: Example Client Data Generate Collection Occasion Self Service SMS/Email text
+
+*Example complete measure 'CL0001-E01-CO03' in the PMHC MDS*
+
+.. figure:: screen-shots/client-collection-occasions-OMSSS-complete.png
+   :alt: Example Client Data Generate Collection Occasion Self Service measure in MDS
+
+
 .. _delete-collection-occasion:
 
 Deleting an Outcome Collection Occasion
