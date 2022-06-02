@@ -152,7 +152,7 @@ it doesn't affect other users or the security of the organisation's data. A user
 account, should not be passed from one staff member to the next.
 
 Before inviting a user, it is always best to inform them that they will receive a
-PMHC MDS invitation by email from noreply@strategicdata.com and a verification code via SMS.
+PMHC MDS invitation by email from noreply@logicly.com.au and a verification code via SMS.
 You can also provide them with the link to the online :ref:`user-docs` to read
 the steps they will need to complete the steps outlined in :ref:`accepting-invitation`.
 

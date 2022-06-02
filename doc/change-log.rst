@@ -8,6 +8,11 @@ User Guide Change log
 
 * Added :ref:`generate-collection-occasion-link`
 
+27/05/2022
+----------
+
+* Updated :ref:`updating-your-details`
+
 16/12/2021
 ----------
 
@@ -19,6 +24,8 @@ User Guide Change log
 
 * Strategic Data rebranded to `Logicly <https://logicly.com.au>`_. Updated
   Strategic Data references to `Logicly <https://logicly.com.au>`_.
+* Updated noreply@strategicdata.com.au references to noreply@logicly.com.au
+* Updated screenshots
 
 25/11/2021
 ----------
@@ -248,7 +255,7 @@ User Guide Change log
 
 * Edited the Reporting :ref:`roles`
 
-* Edited :ref:`passwords` to state the password email will be received from noreply@strategicdata.com.au
+* Edited :ref:`passwords` to state the password email will be received from noreply@logicly.com.au
 
 22/12/2017
 ----------
