@@ -824,7 +824,7 @@ available on the **Data Entry** tab, by following these steps:
    :alt: Client Data Generate Collection Occasion Self Service Link - screen 1
 
 5. Complete Screen Two; review the measure details just entered and complete the
-   'Invitation' and 'Results' fields, and click the blue **Next** button
+   'Invitation' and 'Results' fields, and click the blue **Generate Measure Link** button
 
    The client will be sent an SMS and/or email if you entered their details in the invitation section.
 
@@ -842,6 +842,7 @@ available on the **Data Entry** tab, by following these steps:
 7. Click the blue **Back to start** button.
 
 Questionnaires are valid for 7 days. The following reminder emails will be sent:
+
  * 2 days after the invitation - Reminding the client to fill in the questionnaire. Also reminding them of the date on which it will expire.
  * 6 days after the invitation - Reminding the client to fill in the questionnaire. Reminding them that it will expire tomorrow.
 
