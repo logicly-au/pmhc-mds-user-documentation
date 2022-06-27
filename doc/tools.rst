@@ -357,7 +357,7 @@ with the User Management role to prompt this process:
 .. figure:: screen-shots/user-audit-reminder-email.png
    :alt: PMHC-MDS User Audit Reminder Notification
 
-You can scroll through the results by using the page arrows to view the data. See ::ref:`find-user`
+You can scroll through the results by using the page arrows to view the data. See :ref:`find-user`
 
 .. _find-user:
 

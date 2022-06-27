@@ -3,6 +3,12 @@
 User Guide Change log
 =====================
 
+27/6/2022
+---------
+
+* Added :ref:`user-auditing-tool`
+* Added :ref:`auditing-users`
+
 31/05/2022
 ----------
 
