@@ -313,8 +313,8 @@ If you require assistance in understanding an error message, please email suppor
 
 .. _user-auditing:
 
-User Auditing
--------------
+User Auditing Tool
+------------------
 
 .. contents::
    :local:
@@ -336,13 +336,28 @@ a table of users whose access you manage. By default, the table is sorted by
 the 'Last Logged In' column sorted so that users who have not logged in for the
 longest are displayed at the top.
 
-User managers should periodically check this table and :ref:`remove all roles <delete_user>`
-from any user who no longer requires access.
-
 .. figure:: screen-shots/user-auditing.png
    :alt: User Auditing table
 
-You can scroll through the results by using the page arrows to view the data.
+
+.. _auditing-users:
+
+Auditing Users
+^^^^^^^^^^^^^^
+
+User managers should periodically check this table and :ref:`remove all roles <delete_user>`
+from any user who no longer requires access.
+
+A monthly 'PMHC-MDS User Audit Reminder Notification' email will be sent to users
+with the User Management role to prompt this process:
+
+* PMHC MDS Production users will receive the audit reminder email on the first Monday of each month
+* PMHC MDS Development users will receive the audit reminder email on the fourth Monday of each month
+
+.. figure:: screen-shots/user-audit-reminder-email.png
+   :alt: PMHC-MDS User Audit Reminder Notification
+
+You can scroll through the results by using the page arrows to view the data. See ::ref:`find-user`
 
 .. _find-user:
 
