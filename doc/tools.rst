@@ -352,7 +352,7 @@ A monthly 'PMHC-MDS User Audit Reminder Notification' email will be sent to user
 with the User Management role to prompt this process:
 
 * PMHC MDS Production users will receive the audit reminder email on the first Monday of each month
-* PMHC MDS Development users will receive the audit reminder email on the fourth Monday of each month
+* PMHC MDS Developers users will receive the audit reminder email on the fourth Monday of each month
 
 .. figure:: screen-shots/user-audit-reminder-email.png
    :alt: PMHC-MDS User Audit Reminder Notification
