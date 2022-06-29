@@ -399,6 +399,18 @@ A user can be deleted from an organisation by removing all the roles the user ha
 
 See :ref:`edit-role`.
 
+.. _user-auditing-tool:
+
+User Auditing Tool
+^^^^^^^^^^^^^^^^^^
+
+The User Auditing Tool allows users with the User Management role to
+review users who have not recently logged in to the PMHC MDS. User managers
+should periodically check this table and remove all roles from any user who no
+longer requires access.
+
+See :ref:`user-auditing`
+
 .. _viewing-organisational-users:
 
 Viewing all Organisational Users
