@@ -311,6 +311,28 @@ what you can do to fix the error. See - :ref:`YES-PHN FAQs <yes-phn-FAQs>`.
 
 If you require assistance in understanding an error message, please email support@pmhc-mds.com.
 
+.. _yes-phn-example-OMSSS-screen:
+
+Example Self Service Link Screens
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+*Example YES-PHN Invitation OMSSS Screens*
+
+.. figure:: screen-shots/yes-phn-screen-invitation-OMSSS-SMS-Email.png
+   :alt: Example Client YES-PHN Invitation OMSSS SMS/Email text
+
+*Example YES-PHN Survey OMSSS Screens*
+
+.. figure:: screen-shots/yes-phn-screen-survey-OMSSS.png
+   :alt: Example Client YES-PHN Survey OMSSS screen
+
+*Anonymised PMHC MDS Report 'B8 - YES PHN Index'*
+
+.. figure:: screen-shots/yes-phn-B8-report.png
+   :alt: Example Client Data anonymised Report B8 - YES PHN Index
+
+   More information available in the online user documentation for `B8 - YES PHN Index <https://docs.pmhc-mds.com/projects/user-documentation/en/latest/reporting.html#category-b8>`_ report.
+
 .. _user-auditing:
 
 User Auditing Tool

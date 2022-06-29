@@ -13,6 +13,7 @@ User Guide Change log
 ----------
 
 * Added :ref:`generate-collection-occasion-link`
+* Added :ref:`yes-phn-example-OMSSS-screen`
 
 27/05/2022
 ----------
