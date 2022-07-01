@@ -70,6 +70,14 @@ After navigating to https://pmhc-mds.net/, click **Sign in**.
 This will open a window to log in. Enter your email address or username
 and then your password and click **Sign in**.
 
+Please note: The PMHC MDS is in the process of being upgraded to support Multi
+Factor Authentication (MFA). In preparation for MFA the PMHC MDS login screen
+will shortly change. It will be Logicly branded and served from the domain
+login.logicly.com.au.
+
+.. figure:: screen-shots/LogiclySignin.png
+   :alt: PMHC MDS Logicly Sign In
+
 .. _setting-backup-email:
 
 If it is your first time logging in, you will be asked to set a backup email
