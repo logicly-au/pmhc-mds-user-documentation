@@ -3,6 +3,11 @@
 User Guide Change log
 =====================
 
+1/7/2022
+--------
+
+* Added sign in changes in preparation for Mulit Factor Authentication to :ref:`logging-in`
+
 27/6/2022
 ---------
 

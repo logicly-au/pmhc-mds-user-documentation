@@ -75,7 +75,7 @@ Factor Authentication (MFA). In preparation for MFA the PMHC MDS login screen
 will shortly change. It will be Logicly branded and served from the domain
 login.logicly.com.au.
 
-.. figure:: screen-shots/LogiclySignin.png
+.. figure:: screen-shots/logicly-sign-in.png
    :alt: PMHC MDS Logicly Sign In
 
 .. _setting-backup-email:
