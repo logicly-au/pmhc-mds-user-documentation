@@ -304,7 +304,7 @@ A page will display the client's intakes details as recorded via the `Intake Dat
 Editing a Client's Intakes data
 -------------------------------
 
-You can edit a client's episode details through :ref:`view-client-details`
+You can edit a client's intake details through :ref:`view-client-details`
 available on the **Data Entry** tab, by following these steps:
 
 1. Once :ref:`view-intake`
@@ -312,7 +312,7 @@ available on the **Data Entry** tab, by following these steps:
 3. Click the **Edit Details** tab
 4. Update the client's **Intakes** details. Mandatory fields are marked with an *
    (Specification `Intake Data Elements <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html#intake-data-elements>`__)
-5. **Please note:** You can edit the **Intake Key** from this screen. See :ref:`edit-episode-key`
+5. **Please note:** You can edit the **Intake Key** from this screen. See :ref:`edit-intake-key`
 
 .. figure:: screen-shots/client-intakes-edit.png
    :alt: Client Intakes Edit Details
@@ -320,8 +320,8 @@ available on the **Data Entry** tab, by following these steps:
 6. Click the blue **Save** button. (If you decide not to save changes, you can
    simply navigate away from this screen)
 
-You will receive confirmation that the client's episode details have been saved,
-and it will now be displaying these new details in the episode **View Details** tab.
+You will receive confirmation that the client's intake details have been saved,
+and it will now be displaying these new details in the intake **View Details** tab.
 
         .. figure:: screen-shots/client-data-saved.png
            :alt: Client Intake Data Saved Successfully
@@ -349,8 +349,8 @@ available on the **Data Entry** tab, by following these steps:
    click back to re-enter the key or click the 'cross' in the top right to cancel
    this key change request)
 
-You will receive confirmation that the Episode's key has been saved, and the screen
-will now be displaying the updated episode key details in the Episode **View Details** tab.
+You will receive confirmation that the Intake's key has been saved, and the screen
+will now be displaying the updated intake key details in the Intake **View Details** tab.
 
        .. figure:: screen-shots/client-intakes-edit-key-saved.png
           :alt: Episode Key Saved Successfully
@@ -404,7 +404,7 @@ available on the **Data Entry** tab, by following these steps:
 1. Once :ref:`view-intake`
 2. From the client's **Intake** table, click the **Intake Key** of the open intake
 3. Click the **Edit Details** tab
-4. Update the client's intake details, by entering an **End Date** and **Completion Status** (Specification `Intake Data Elements <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html#intake-data-elements>`__)
+4. Update the client's intake details, by entering an **Date referred to other service at Intake** and **Referred to Organisation Path** and **Organisation type referred to at Intake conclusion** (Specification `Intake Data Elements <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html#intake-data-elements>`__)
 
 .. figure:: screen-shots/client-intakes-edit.png
    :alt: Client Intakes Edit Details
@@ -466,8 +466,8 @@ If the intake you are trying to delete has any dependant records, you will not
 be able to proceed with deleting this intake until all the related records have
 been deleted.
 
-1. You can click on the link provided to view the client's service contacts
-   and collection occasions, or click the orange **Dismiss** button
+1. You can click on the link provided to view the client's intake measure,
+   or click the orange **Dismiss** button
 
   .. figure:: screen-shots/client-intakes-delete-cannot.png
      :alt: Client Intake Data Cannot Delete
@@ -477,8 +477,8 @@ See :ref:`delete-intake-measure`.
 
 .. _intake-measure-data:
 
-Intake Measure
-^^^^^^^^^^^^^^
+Intake IAR-DST Measure
+^^^^^^^^^^^^^^^^^^^^^^
 
 .. contents::
    :local:
@@ -495,7 +495,7 @@ You can view a Client's Measure added to an Intake through :ref:`view-intake`
 available on the Data Entry tab, by following these steps:
 
 1. Once :ref:`Viewing the Intake <view-intake>`.
-2. Scroll down to the Measures
+2. Scroll down to the IAR-DST Measures
 
 A table will display all the Measures linked to this Client's Intake.
 
@@ -525,7 +525,7 @@ available on the Data Entry tab, by following these steps:
 
 1. Once :ref:`view-intake`.
 2. Firstly double check the measure is not already showing.
-3. Click the Add New IAR-DST tab.
+3. Click the Add New IAR-DST** tab.
 
 .. figure:: screen-shots/client-intake-measures-add.png
    :alt: Client Data Add Collection Occasions
@@ -555,9 +555,9 @@ You can edit a Client's Measure for a Intake through :ref:`view-collection-occas
 available on the Data Entry tab, by following these steps:
 
 1. Once :ref:`view-collection-occasion`.
-2. Scroll down to the Measures
+2. Scroll down to the IAR-DST measures.
 3. Click the Blue Measure Key.
-4. Click Edit Measure
+4. Click Edit IAR-DST.
 5. Update the Client's Measure details. Mandatory fields are marked with an * .
 
   *Please note: You can edit the Measure Key from this screen. See* :ref:`edit-intake-measure-key`.
@@ -586,7 +586,7 @@ You can edit an measure's identification key through :ref:`view-collection-occas
 available on the Data Entry tab, by following these steps:
 
 1. In step four when :ref:`edit-collection-occasion-measure`.
-2. From the Edit Measure details tab, click the **Edit Key** button.
+2. From the Edit IAR-DST measure details tab, click the **Edit Key** button.
 
        .. figure:: screen-shots/client-intake-measures-edit-key.png
           :alt: Client Data Edit Intake Measure Key
@@ -609,9 +609,9 @@ You can delete a Client's Measure from a Intake through ':ref:`view-collection-o
 available on the Data Entry tab, by following these steps:
 
 1. Once :ref:`view-collection-occasion`.
-2. Scroll down to the Measures
+2. Scroll down to the IAR-DST Measures
 3. Click the Blue Measure Key.
-4. Click Edit Measure
+4. Click Edit IAR-DST.
 5. Click the red **Delete** button.
 6. You will be displayed a 'Confirm Deletion' screen.
 
