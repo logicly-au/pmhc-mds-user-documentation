@@ -797,7 +797,7 @@ available on the **Data Entry** tab, by following these steps:
 1. Once :ref:`view-episodes`
 2. From the client's **Episode** table, click the **Episode Key** of the open episode
 3. Click the **Edit Details** tab
-4. Update the client's episode details, by entering an **End Date** and **Completion Status** (Specification `Episode Data Elements <https://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#episode-data-elements>`__)
+4. Update the client's episode details, by entering an **End Date** and **Completion Status** and **Organisation type referred to at Episode Conclusion** (Specification `Episode Data Elements <https://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#episode-data-elements>`__)
 
 .. figure:: screen-shots/client-episodes-edit.png
    :alt: Client Episodes Edit Details
@@ -913,8 +913,9 @@ Adding a Client's Intake Episode data
 Where the client has been referred via an intake process, an additional Intake
 Episode record is available on the Episode record.
 
-The Intake Episode record links an Intake record and an Episode record. The data must
-be entered by the organisation that delivers the treatment to the client.
+The Intake Episode record links an Intake record and an Episode record. The
+intake episode data must be entered by the organisation that delivers the
+treatment to the client.
 (Specification `Intake Episode Data Elements <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html#intake-episode-data-elements>`__)
 
 .. figure:: screen-shots/client-intake-episodes-add.png
