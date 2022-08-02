@@ -1213,6 +1213,66 @@ Key specifications:
   −0.5 or less constitute 'Significant deterioration'.
   Effect sizes between −0.5 and 0.5 indicate 'No significant change'
 
+.. _category-i:
+
+Category I: Intakes
+-------------------
+
+  .. general introduction to the I reports
+
+.. contents:: Available category I reports
+   :local:
+   :depth: 1
+
+.. _category-i1:
+
+I1 — Recommended vs practitioner level of care
+++++++++++++++++++++++++++++++++++++++++++++++
+
+  .. general introduction to the I1 report
+
+Key specifications:
+
+*
+  .. listed specifications for the I1 report
+
+.. _category-i2:
+
+I2 — IAR-DST by K10+
+++++++++++++++++++++
+
+  .. general introduction to the I2 report
+
+Key specifications:
+
+*
+  .. listed specifications for the I2 report
+
+.. _category-i3:
+
+I3 — IAR-DST by Referral In
++++++++++++++++++++++++++++
+
+  .. general introduction to the I3 report
+
+Key specifications:
+
+*
+  .. listed specifications for the I3 report
+
+.. _category-i4:
+
+I4 — IAR-DST by Referral Out
+++++++++++++++++++++++++++++
+
+  .. general introduction to the I4 report
+
+Key specifications:
+
+*
+  .. listed specifications for the I4 report
+
+
 
 .. _produce-twb-report:
 
