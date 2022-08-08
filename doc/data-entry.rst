@@ -626,7 +626,7 @@ After you click 'Confirm', you will receive confirmation that the measure has
 been deleted, and you will be redirected to the :ref:`View Measures <view-collection-occasion-measure>` where the
 measure will no longer be displayed.
 
-    .. figure:: screen-shots/client-intake-measure-delete-successful.png
+    .. figure:: screen-shots/client-intake-measures-delete-successful.png
        :alt: Client Intake Measure Data Delete Successful
 
 
