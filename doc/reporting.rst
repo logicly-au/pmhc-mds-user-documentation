@@ -1215,10 +1215,12 @@ Key specifications:
 
 .. _category-i:
 
-Category I: Intakes
+Category I: IAR-DST
 -------------------
 
-  .. general introduction to the I reports
+These reports summarise the results of the Initial Assessment and Referral
+Decision Support Tool (`IAR-DST <https://docs.iar-dst.online/en/latest/>`_) and
+the clinical assessments based thereon.
 
 .. contents:: Available category I reports
    :local:
@@ -1229,49 +1231,86 @@ Category I: Intakes
 I1 — Recommended vs practitioner level of care
 ++++++++++++++++++++++++++++++++++++++++++++++
 
-  .. general introduction to the I1 report
+The `IAR-DST <https://docs.iar-dst.online/en/latest/>`_ combines ratings on eight
+domains describing clinical severity and service needs to suggest a Level of Care.
+Levels are best thought of as combinations of interventions that form potential
+‘packages’ for people requiring that level of care. There are 5 levels of care,
+however in some situations the IAR-DST will recommend a particular level of care
+“or higher” - for example ‘3+’. Regardless of the suggestion made by the IAR-DST,
+the final decision about the appropriate level is made by a clinician. The I1
+cross-tabulates the suggestion made by the tool (Recommended Level of  Care)
+against the clinician’s final decision (Practitioner Level of Care)
 
 Key specifications:
 
-*
-  .. listed specifications for the I1 report
+* The report counts intakes where the client first contacted the service during
+  the reporting period for which there is an IAR-DST administration (the date
+  the IAR-DST was collected is not relevant)
+* Counts in the “Not stated” column indicate that no practitioner rating was recorded
+
 
 .. _category-i2:
 
 I2 — IAR-DST by K10+
 ++++++++++++++++++++
 
-  .. general introduction to the I2 report
+This report cross-tabulates the Practitioner Level of Care with the K10+ Score
+collected at episode start. It shows the relationship between the level of
+psychological distress and the suggested level of care. These variables should
+correlate highly.
 
 Key specifications:
 
-*
-  .. listed specifications for the I2 report
+* The report counts intakes where the client first contacted the service during
+  the reporting period for which there is an IAR-DST administration, and a linked
+  episode with a valid K10+ score taken during a collection occasion that is
+  marked as having a Collection Occasion Reason of “Episode start”
+* Intakes where the client first contacted the service during the reporting
+  period are included (the date the IAR-DST was collected is not relevant).
+* The intake must be associated with a valid K10+ score taken during a collection
+  occasion that is marked as having a Collection Occasion Reason of “Episode start”
+* Counts in the “Not stated” column indicate that no practitioner rating was recorded
+
 
 .. _category-i3:
 
 I3 — IAR-DST by Referral In
 +++++++++++++++++++++++++++
 
-  .. general introduction to the I3 report
+The I3 reports the Practitioner Level of Care broken down by the type of
+referring organisation. It helps describe where clients present as a function of
+their required treatment complexity.
 
 Key specifications:
 
-*
-  .. listed specifications for the I3 report
+* The report counts intakes where the client first contacted the service during
+  the reporting period for which there is an IAR-DST administration (the date
+  the IAR-DST was collected is not relevant)
+* The Referrer Organisation Type is a mandatory field so the total intakes is
+  the same as for the I1
+* Counts in the “Not stated” column indicate that no practitioner rating was
+  recorded
+
 
 .. _category-i4:
 
 I4 — IAR-DST by Referral Out
 ++++++++++++++++++++++++++++
 
-  .. general introduction to the I4 report
+The I4 reports the Practitioner Level of Care broken down by the type of
+organisation to which the intake service refers the client at the end of the
+intake process. It helps describe where clients are sent as a function of their
+required treatment complexity.
 
 Key specifications:
 
-*
-  .. listed specifications for the I4 report
-
+* The report counts intakes where the client first contacted the service during
+  the reporting period for which there is an IAR-DST administration (the date
+  the IAR-DST was collected is not relevant)
+* The Organisation Type referred to at Intake conclusion is NOT a mandatory
+  field so the total intakes may be fewer than the total reported on I1
+* Counts in the “Not stated” column indicate that no practitioner rating was
+  recorded
 
 
 .. _produce-twb-report:
