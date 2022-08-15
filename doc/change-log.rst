@@ -3,6 +3,14 @@
 User Guide Change log
 =====================
 
+15/8/2022
+---------
+
+* Added :ref:`intake-data`
+* Added :ref:`intake-measure-data`
+* Added :ref:`intake-episode-data`
+* Added :ref:`category-i`
+
 27/6/2022
 ---------
 
