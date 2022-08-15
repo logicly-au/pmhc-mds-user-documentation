@@ -255,6 +255,381 @@ been deleted.
 
 See :ref:`delete-episode`.
 
+
+.. _intake-data:
+
+Intake
+^^^^^^
+
+.. contents::
+   :local:
+   :depth: 2
+
+.. _view-intake:
+
+Viewing a Client's Intakes
+--------------------------
+
+You can view a client's intakes through :ref:`view-client-details`
+available on the **Data Entry** tab, by following these steps:
+
+1. Once :ref:`view-client-details`
+2. From the client's tab, you can view all intakes by clicking on the
+   **Intakes** tab. The heading for this tab displays in brackets the total number of intakes recorded
+   in the PMHC MDS for this client at the Intake Provider Organisations for which you have access.
+
+A table will display all the Client's Intakes at Provider Organisations for which you have access.
+
+.. figure:: screen-shots/client-intakes-summary.png
+   :alt: Client Data Summary View
+
+A drop down list is available to view:
+
+* **All Intakes**
+* **Currently Open Intakes**
+* **Closed Intakes**
+
+.. figure:: screen-shots/client-intakes-summary-sort.png
+   :alt: Client Intakes Sort View
+
+4. To view the client's intake details, click the blue **Intake Key**
+
+.. figure:: screen-shots/client-intakes-details.png
+   :alt: Client Intakes Details View
+
+A page will display the client's intakes details as recorded via the `Intake Data Elements <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html#intake-data-elements>`__.
+
+.. _edit-intake:
+
+Editing a Client's Intakes data
+-------------------------------
+
+You can edit a client's intake details through :ref:`view-client-details`
+available on the **Data Entry** tab, by following these steps:
+
+1. Once :ref:`view-intake`
+2. From the client's **Intakes** table, click the **Intake Key**
+3. Click the **Edit Details** tab
+4. Update the client's **Intakes** details. Mandatory fields are marked with an *
+   (Specification `Intake Data Elements <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html#intake-data-elements>`__)
+5. **Please note:** You can edit the **Intake Key** from this screen. See :ref:`edit-intake-key`
+
+.. figure:: screen-shots/client-intakes-edit.png
+   :alt: Client Intakes Edit Details
+
+6. Click the blue **Save** button. (If you decide not to save changes, you can
+   simply navigate away from this screen)
+
+You will receive confirmation that the client's intake details have been saved,
+and it will now be displaying these new details in the intake **View Details** tab.
+
+        .. figure:: screen-shots/client-data-saved.png
+           :alt: Client Intake Data Saved Successfully
+
+If you receive an error message, the data will need to be corrected before the
+record is saved and added to the PMHC MDS.
+See Validation Rules - `Intake <https://docs.pmhc-mds.com/projects/data-specification/en/v4/validation-rules.html#intake>`__.
+
+.. _edit-intake-key:
+
+Editing an Intake Key
+~~~~~~~~~~~~~~~~~~~~~
+
+You can edit an episode's identification key through :ref:`view-intake`
+available on the **Data Entry** tab, by following these steps:
+
+1. Return to step five when :ref:`edit-intake`
+2. From the Episode **Edit Details** tab, click the **Edit Key** button
+
+       .. figure:: screen-shots/client-intakes-edit-key.png
+          :alt: Episode Data Edit Episode Key
+
+3. Type in the new episode key and click **Next**
+4. Double check the new key is correct and click **Save**. (If it is incorrect,
+   click back to re-enter the key or click the 'cross' in the top right to cancel
+   this key change request)
+
+You will receive confirmation that the Intake's key has been saved, and the screen
+will now be displaying the updated intake key details in the Intake **View Details** tab.
+
+       .. figure:: screen-shots/client-intakes-edit-key-saved.png
+          :alt: Episode Key Saved Successfully
+
+
+.. _add-intake:
+
+Adding a Client's Intake data
+-----------------------------
+
+You can add a client's intake data through :ref:`view-client-details`
+available on the **Data Entry** tab, by following these steps:
+
+1. Once :ref:`view-intake`
+2. Check to ensure the client does not have any open intakes already showing.
+3. Click the **Add Intake** tab
+   (If a client already has an open intake, the following warning message will be displayed at the top off the Add Intake form)
+
+  .. figure:: screen-shots/client-intakes-add-existing-open.png
+     :alt: Client Data Add Intake - Existing Open Intake Warning
+
+4. Enter the client's intake details. Mandatory fields are marked with an *
+   (Specification `Intake Data Elements <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html#intake-data-elements>`__)
+
+  .. figure:: screen-shots/client-intakes-add.png
+     :alt: Client Data Add Intake
+
+For more information on the Intake data section see: `Intake Key Concept <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html#intake>`__
+
+5. Click the blue **Save** button. (If you decide not to add this client's
+   intake, you can simply navigate away from this screen)
+
+You will receive confirmation that the client's intake details have been added,
+and it will now be displaying these new details in the intake **View Details** tab.
+
+        .. figure:: screen-shots/client-data-saved.png
+           :alt: Client Intake Data Saved Successfully
+
+If you receive an error message, the data will need to be corrected before the
+record is saved and added to the PMHC MDS.
+See Validation Rules - `Intake <https://docs.pmhc-mds.com/projects/data-specification/en/v4/validation-rules.html#intake>`__.
+
+.. _closing-intake:
+
+Closing a Client's Intake
+-------------------------
+
+You can close a client's intake details through :ref:`view-client-details`
+available on the **Data Entry** tab, by following these steps:
+
+1. Once :ref:`view-intake`
+2. From the client's **Intake** table, click the **Intake Key** of the open intake
+3. Click the **Edit Details** tab
+4. Update the client's intake details, by entering an **Date referred to other service at Intake** and **Referred to Organisation Path** and **Organisation type referred to at Intake conclusion** (Specification `Intake Data Elements <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html#intake-data-elements>`__)
+
+.. figure:: screen-shots/client-intakes-edit.png
+   :alt: Client Intakes Edit Details
+
+5. Click the blue **Save** button. (If you decide not to save changes, you can
+   simply navigate away from this screen)
+
+You will receive confirmation that the client's intake details have been saved,
+and it will now be displaying these new details in the intake **View Details** tab.
+
+        .. figure:: screen-shots/client-data-saved.png
+           :alt: Client Intakes Data Saved Successfully
+
+If you receive an error message, the data will need to be corrected before the
+record is saved and added to the PMHC MDS.
+See Validation Rules - `Intake <https://docs.pmhc-mds.com/projects/data-specification/en/v4/validation-rules.html#intake>`__.
+
+.. _delete-intake:
+
+Deleting an Intake
+------------------
+
+You can delete a client's intake through :ref:`view-intake`
+available on the **Data Entry** tab, by following these steps:
+
+1. :ref:`Search<find-client>` for the client
+2. From the :ref:`search-client` table, click the **Client Key**
+3. Click **Intakes** tab, to :ref:`view Client's Intakes <view-intake>`
+4. From the :ref:`View Intakes <view-intake>` table, click the **Intake Key**
+5. Click the red **Delete** button
+6. You will either be displayed a :ref:`confirm-delete-intake` screen or a :ref:`cannot-delete-intake` screen
+
+.. _confirm-delete-intake:
+
+Confirm Delete
+~~~~~~~~~~~~~~
+
+**Please note: Once the intake is deleted, you will not be able to recover this intake data.**
+
+1. Click the blue **Confirm** button to delete this intake. (or click the
+   orange **Cancel** button if you decide not to delete this intake data)
+
+  .. figure:: screen-shots/client-intakes-delete-confirm.png
+     :alt: Client Intake Data Confirm Delete
+
+After you click **Confirm**, you will receive confirmation that the intake has
+been deleted, and you will be redirected to :ref:`View Intakes <view-intake>` where the
+intake will no longer be displayed.
+
+    .. figure:: screen-shots/client-intakes-delete-successful.png
+       :alt: Client Intake Data Delete Successful
+
+.. _cannot-delete-intake:
+
+Cannot Delete
+~~~~~~~~~~~~~
+
+If the intake you are trying to delete has any dependant records, you will not
+be able to proceed with deleting this intake until all the related records have
+been deleted.
+
+1. You can click on the link provided to view the client's intake measure,
+   or click the orange **Dismiss** button
+
+  .. figure:: screen-shots/client-intakes-delete-cannot.png
+     :alt: Client Intake Data Cannot Delete
+
+See :ref:`delete-intake-measure`.
+
+
+.. _intake-measure-data:
+
+Intake IAR-DST Measure
+^^^^^^^^^^^^^^^^^^^^^^
+
+.. contents::
+   :local:
+   :depth: 2
+
+.. _view-intake-measure:
+
+Viewing a Client's Measure for an Intake
+----------------------------------------
+
+PMHC MDS requires the use of the IAR-DST at intake.
+
+You can view a Client's Measure added to an Intake through :ref:`view-intake`
+available on the Data Entry tab, by following these steps:
+
+1. Once :ref:`Viewing the Intake <view-intake>`.
+2. Scroll down to the IAR-DST Measures
+
+A table will display all the Measures linked to this Client's Intake.
+
+.. figure:: screen-shots/client-intake-measures-view.png
+   :alt: Client Intake Details Measure View
+
+3. To view the Measure details, click the Blue Measure Key.
+
+.. figure:: screen-shots/client-intake-measures-details.png
+   :alt: Client Intake Measure Details View
+
+A page will display the Measure details as recorded via the `Measures at Intake <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html?highlight=iar#measures-at-intake>`_.
+
+  * See `IAR-DST Measure data specifications <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html?highlight=iar#iar-dst>`_
+
+.. _add-intake-measure:
+
+Adding an Client's Measures for a Intake
+----------------------------------------
+
+PMHC MDS requires the use of the IAR-DST at intake.
+
+Single or multiple measures can be added to an Intake.
+
+You can add a Client's Measure for a Intake through :ref:`view-intake`
+available on the Data Entry tab, by following these steps:
+
+1. Once :ref:`view-intake`.
+2. Firstly double check the measure is not already showing.
+3. Click the Add New IAR-DST** tab.
+
+.. figure:: screen-shots/client-intake-measures-add.png
+   :alt: Client Data Add Collection Occasions
+
+4. Enter the Client's Measure details for the Intake. Mandatory fields are marked with an * .
+
+  * See `IAR-DST Measure data specifications <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html?highlight=iar#iar-dst>`_
+
+5. Click the blue **Save** button. (If you decide not to add this client's measure, you can simply navigate away from this screen)
+
+You will receive confirmation that the Client's Measure details have been added,
+and it will now be displaying these new details in the View Measure tab.
+
+        .. figure:: screen-shots/client-data-saved.png
+           :alt: Client Data Saved Successfully
+
+If you receive an error message, the data will need to be corrected before the
+record is saved and added to the PMHC MDS.
+See Validation Rules for: `IAR-DST <https://docs.pmhc-mds.com/projects/data-specification/en/v4/validation-rules.html#iar-dst>`_.
+
+.. _edit-intake-measure:
+
+Editing a Client's Measures for a Intake
+----------------------------------------
+
+You can edit a Client's Measure for a Intake through :ref:`view-collection-occasion`
+available on the Data Entry tab, by following these steps:
+
+1. Once :ref:`view-collection-occasion`.
+2. Scroll down to the IAR-DST measures.
+3. Click the Blue Measure Key.
+4. Click Edit IAR-DST.
+5. Update the Client's Measure details. Mandatory fields are marked with an * .
+
+  *Please note: You can edit the Measure Key from this screen. See* :ref:`edit-intake-measure-key`.
+
+    .. figure:: screen-shots/client-intake-measures-edit.png
+       :alt: Client Intakes Edit Details
+
+6. Click the blue **Save** button. (If you decide not to save changes, you can simply navigate away from this screen)
+
+You will receive confirmation that the Client's Intakes details have been saved,
+and it will now be displaying these new details in the View Intake Details tab.
+
+        .. figure:: screen-shots/client-data-saved.png
+           :alt: Client Data Saved Successfully
+
+If you receive an error message, the data will need to be corrected before the
+record is saved and added to the PMHC MDS.
+See Validation Rules for: `IAR-DST <https://docs.pmhc-mds.com/projects/data-specification/en/v4/validation-rules.html#iar-dst>`_.
+
+.. _edit-intake-measure-key:
+
+Editing a Measure Key
+~~~~~~~~~~~~~~~~~~~~~
+
+You can edit an measure's identification key through :ref:`view-collection-occasion`
+available on the Data Entry tab, by following these steps:
+
+1. In step four when :ref:`edit-collection-occasion-measure`.
+2. From the Edit IAR-DST measure details tab, click the **Edit Key** button.
+
+       .. figure:: screen-shots/client-intake-measures-edit-key.png
+          :alt: Client Data Edit Intake Measure Key
+
+3. Type in the new measure key and click 'Next'.
+4. Double check the new key is correct and click save. (If it is incorrect, click back to re-enter the key or click the 'cross' in the top right to cancel this key change request)
+
+You will receive confirmation that the Measure's key has been saved, and the screen
+will now be displaying the updated measure key details in the View Measure details tab.
+
+       .. figure:: screen-shots/client-intake-measures-edit-key-saved.png
+          :alt: Intake Key Saved Successfully
+
+.. _delete-intake-measure:
+
+Deleting a Measure from a Intake
+--------------------------------
+
+You can delete a Client's Measure from a Intake through ':ref:`view-collection-occasion-measure`'
+available on the Data Entry tab, by following these steps:
+
+1. Once :ref:`view-collection-occasion`.
+2. Scroll down to the IAR-DST Measures
+3. Click the Blue Measure Key.
+4. Click Edit IAR-DST.
+5. Click the red **Delete** button.
+6. You will be displayed a 'Confirm Deletion' screen.
+
+  **Please note: Once the measure is deleted, you will not be able to recover this measure data.**
+
+7. Click the blue **Confirm** button to delete this measure. (or click the orange **Cancel** button if you decide not to delete this measure data)
+
+  .. figure:: screen-shots/client-intake-measures-delete-confirm.png
+     :alt: Client Intake Measure Data Confirm Delete
+
+After you click 'Confirm', you will receive confirmation that the measure has
+been deleted, and you will be redirected to the :ref:`View Measures <view-collection-occasion-measure>` where the
+measure will no longer be displayed.
+
+    .. figure:: screen-shots/client-intake-measures-delete-successful.png
+       :alt: Client Intake Measure Data Delete Successful
+
+
 .. _episode-data:
 
 Episodes
@@ -377,8 +752,13 @@ available on the **Data Entry** tab, by following these steps:
 
 1. Once :ref:`view-episodes`
 2. Check to ensure the client does not have any open episodes already showing.
-   (A client can only have one open episode at a provider organisation. `Episode <https://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#key-concepts-episode>`__)
+   (A client can only have `one open episode <https://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#key-concepts-episode>`__ at a provider organisation)
 3. Click the **Add Episode** tab
+   (If a client already has an open episode, the following warning message will be displayed at the top off the Add Episode form)
+
+  .. figure:: screen-shots/client-episodes-add-existing-open.png
+     :alt: Client Data Add Episode Existing Open Episode Warning
+
 4. Enter the client's episode details. Mandatory fields are marked with an *
    (Specification `Episode Data Elements <https://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#episode-data-elements>`__)
 
@@ -390,6 +770,8 @@ available on the **Data Entry** tab, by following these steps:
 
 .. figure:: screen-shots/client-episodes-add.png
    :alt: Client Data Add Episode
+
+   For more information on the Intake Episode data section see: :ref:`add-intake-episode`
 
 5. Click the blue **Save** button. (If you decide not to add this client's
    episode, you can simply navigate away from this screen)
@@ -415,7 +797,7 @@ available on the **Data Entry** tab, by following these steps:
 1. Once :ref:`view-episodes`
 2. From the client's **Episode** table, click the **Episode Key** of the open episode
 3. Click the **Edit Details** tab
-4. Update the client's episode details, by entering an **End Date** and **Completion Status** (Specification `Episode Data Elements <https://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#episode-data-elements>`__)
+4. Update the client's episode details, by entering an **End Date** and **Completion Status** and **Organisation type referred to at Episode Conclusion** (Specification `Episode Data Elements <https://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#episode-data-elements>`__)
 
 .. figure:: screen-shots/client-episodes-edit.png
    :alt: Client Episodes Edit Details
@@ -484,6 +866,82 @@ been deleted.
      :alt: Client Episode Data Cannot Delete
 
 See :ref:`delete-service-contact` and :ref:`delete-collection-occasion`.
+
+
+.. _intake-episode-data:
+
+Intake Episodes
+^^^^^^^^^^^^^^^
+
+.. contents::
+   :local:
+   :depth: 2
+
+.. _view-intake-episodes:
+
+Viewing a Client's Intake Episode
+---------------------------------
+
+Where the client has been referred via an intake process, an additional Intake
+Episode record is available on the Episode record.
+
+You can view a client's intake episode data by follow the steps at :ref:`view-episodes`
+and scroll to the bottom of the episode form.
+
+.. figure:: screen-shots/client-intake-episodes-add.png
+   :alt: Client Data View Intake Episode
+
+.. _edit-intake-episode:
+
+Editing a Client's Intake Episode data
+--------------------------------------
+
+Where the client has been referred via an intake process, an additional Intake
+Episode record is available on the Episode record.
+
+You can edit a client's intake episode data by follow the steps at :ref:`edit-episode`
+and scroll to the bottom of the episode form.
+
+.. figure:: screen-shots/client-intake-episodes-add.png
+   :alt: Client Data Edit Intake Episode
+
+.. _add-intake-episode:
+
+Adding a Client's Intake Episode data
+-------------------------------------
+
+Where the client has been referred via an intake process, an additional Intake
+Episode record is available on the Episode record.
+
+The Intake Episode record links an Intake record and an Episode record. The
+intake episode data must be entered by the organisation that delivers the
+treatment to the client.
+(Specification `Intake Episode Data Elements <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html#intake-episode-data-elements>`__)
+
+.. figure:: screen-shots/client-intake-episodes-add.png
+   :alt: Client Data Add Intake Episode
+
+You can add a client's intake episode when you add the episode data. Follow
+the steps at :ref:`add-episode` and complete the additional Intake Episode section
+at the bottom of the form before clicking save.
+
+If you didn't have the intake data available when the episode data was entered,
+follow the steps at :ref:`edit-episode` and complete the additional Intake Episode
+section at the bottom of the form before clicking save.
+
+.. _delete-intake-episode:
+
+Deleting an Intake Episode
+--------------------------
+
+You can delete a client's intake episode data without deleting the entire episode
+record.
+
+Simply remove the data in the client's intake episode fields on the episode record,
+follow the steps at :ref:`edit-episode` and scroll to the bottom of the episode form.
+
+.. figure:: screen-shots/client-intake-episodes-add.png
+   :alt: Client Data Delete Intake Episode
 
 .. _service-contact-data:
 
