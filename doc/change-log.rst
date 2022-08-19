@@ -10,6 +10,7 @@ User Guide Change log
 * Added :ref:`intake-measure-data`
 * Added :ref:`intake-episode-data`
 * Added :ref:`category-i`
+* Edited :ref:`data-extract-all-specifications`
 
 27/6/2022
 ---------
