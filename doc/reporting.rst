@@ -60,13 +60,46 @@ on the **Counting Rules Explained** link.
 Data Sources for reports
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-The following data sources are currently available for reports:
+The overarching program areas and extensions that are associated with the data
+in the PMHC MDS are available to segment reports.
 
-PMHC
+The following are listed as the data sources currently available for reports:
+
+Flexible Funding Pool
+---------------------
+
+Other Programs commissioned through Primary Mental Health Care Schedule that are
+not otherwise described by another category. (See `PMHC Program Type <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html#program-type>`_).
+
+
+Head to Health
+--------------
+
+The Head to Health Program includes Head to Health Adult Centres and Satellites
+and pop-up clinics. (See `PMHC Program Type <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html#program-type>`_).
+
+
+AMHC
 ----
 
-PMHC is the standard Primary Mental Health Care flexible funding pool services
-(See `PMHC MDS Data Specification <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html>`_).
+The Head to Health Program that are delivering the Adult Mental Health Centre (AMHC)
+trial sites. (See `PMHC Program Type <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html#program-type>`_).
+
+
+Psychosocial
+------------
+
+Mental health services delivered through the National Psychosocial Support Services
+Program. (See `PMHC Program Type <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html#program-type>`_).
+
+
+Bushfire Recovery 20
+--------------------
+
+Mental health services in fire affected communities can use this field for episodes
+delivered through the Australian Government Mental Health Response to Bushfire Trauma.
+(See `PMHC Program Type <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html#program-type>`_).
+
 
 hAPI
 ----
@@ -285,6 +318,8 @@ are:
 * Marital Status
 * Principal Diagnosis
 * Additional Diagnosis
+* Continuity of Support
+* Organisation Type Referred to at Episode Conclusion
 
 *Note:* For a user with the Reporting role at a single Provider Organisation,
 this report is redundant as it would only ever have a single row, which is
@@ -348,10 +383,13 @@ report from a list of possible options.
 Missing/invalid episode data elements that can be selected for the A5-2 report
 are:
 
-* Service Contact Interpreter Used
 * Service Contact Postcode
 * Service Contact Participants
 * Service Contact Venue
+* Service Contact Interpreter Used
+* Service Contact Type
+* Service Contact Duration
+* Service Contact Start Time
 
 *Note:* For a user with the Reporting role at a single Provider Organisation,
 this report is redundant as it would only ever have a single row, which is
@@ -667,7 +705,7 @@ data fields.
 
 Key specifications:
 
-* A Practitioner is defined as 'active' and in-scope for this report if they
+* A Primary Practitioner is defined as 'active' and in-scope for this report if they
   have recorded one or more Service Contacts in the period
 * Service Contacts flagged as ‘No Show’ are not included for this purpose
 

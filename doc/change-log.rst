@@ -3,6 +3,13 @@
 User Guide Change log
 =====================
 
+22/8/2022
+---------
+
+* Updated :ref:`system-report-data-sources`
+* Updated :ref:`category-a4-2`
+* Updated :ref:`category-a5-2`
+
 15/8/2022
 ---------
 
