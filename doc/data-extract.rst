@@ -118,10 +118,10 @@ The resulting file cannot be uploaded. This is a download only format. It is bas
 on the most recent version used by either the core specification or an extension.
 
 Please note: In the interim, until all extensions data is transitioned to V4,
-some fields will show twice in these META files.
+some fields will show twice in these META files. 
 
-For example: “Referral date was optional in specifications prior to Version 4.
-In Version 4 referral date has been made mandatory. In order to export and
-re-upload episode data that was uploaded or entered prior to Version 4 the value
-‘09099999’ will be used in data exports and allowed for existing episode data
-without a referral date.” (See `Referral Date Definition <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html#referral-date>`_).
+  For example "referral date": For episodes where no referral date was supplied,
+  the column corresponding to versions 2 (or 3) will blank, whereas the column
+  corresponding to version 4 will have the missing date value '09099999'. If you
+  are exporting data in META format for re-upload, use the appropriate column for
+  the specification you are uploading. (See `Referral Date Definition <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html#referral-date>`_).
