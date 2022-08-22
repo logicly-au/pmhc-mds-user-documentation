@@ -3,13 +3,21 @@
 User Guide Change log
 =====================
 
-15/8/2022
+22/8/2022
 ---------
 
 * Updated :ref:`system-report-data-sources`
 * Updated :ref:`category-a4-2`
 * Updated :ref:`category-a5-2`
+
+15/8/2022
+---------
+
+* Added :ref:`intake-data`
+* Added :ref:`intake-measure-data`
+* Added :ref:`intake-episode-data`
 * Added :ref:`category-i`
+* Edited :ref:`data-extract-all-specifications`
 
 27/6/2022
 ---------

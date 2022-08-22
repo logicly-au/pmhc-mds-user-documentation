@@ -116,3 +116,13 @@ checkbox labelled **Include data from all specifications**. This downloads a fil
 that is a combination of all of the extensions listed at https://docs.pmhc-mds.com/.
 The resulting file cannot be uploaded. This is a download only format. It is based
 on the most recent version used by either the core specification or an extension.
+
+Please note: In the interim, until all extensions data is transitioned to V4,
+fields with changes to their specifications between versions will show twice in these META files.
+
+  For example "Referral Date": In versions 2 and 3, Referral date was not required. In version 4
+  it is required. For episodes where no referral date was supplied,
+  the column corresponding to versions 2 (or 3) will be blank, whereas the column
+  corresponding to version 4 will have the missing date value '09099999'. If you
+  are using the data from a file exported in the META format for re-upload, use the appropriate column for
+  the specification version you are uploading. (See `Referral Date Definition <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html#referral-date>`_).
