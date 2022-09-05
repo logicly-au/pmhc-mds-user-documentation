@@ -65,36 +65,41 @@ in the PMHC MDS are available to segment reports.
 
 The following are listed as the data sources currently available for reports:
 
+PMHC
+----
+
+The PMHC reports can be further segmented into the following data sources:
+
 Flexible Funding Pool
----------------------
++++++++++++++++++++++
 
 Other Programs commissioned through Primary Mental Health Care Schedule that are
 not otherwise described by another category. (See `PMHC Program Type <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html#program-type>`_).
 
 
 Head to Health
---------------
+++++++++++++++
 
 The Head to Health Program includes Head to Health Adult Centres and Satellites
 and pop-up clinics. (See `PMHC Program Type <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html#program-type>`_).
 
 
 AMHC
-----
+++++
 
 The Head to Health Program that are delivering the Adult Mental Health Centre (AMHC)
 trial sites. (See `PMHC Program Type <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html#program-type>`_).
 
 
 Psychosocial
-------------
+++++++++++++
 
 Mental health services delivered through the National Psychosocial Support Services
 Program. (See `PMHC Program Type <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html#program-type>`_).
 
 
 Bushfire Recovery 20
---------------------
+++++++++++++++++++++
 
 Mental health services in fire affected communities can use this field for episodes
 delivered through the Australian Government Mental Health Response to Bushfire Trauma.
