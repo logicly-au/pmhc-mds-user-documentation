@@ -371,6 +371,8 @@ You can edit and assign extra :ref:`roles <roles>`  to an existing user by follo
 3. Click the **Roles** tab
 4. Click the **Edit Roles** tab
 
+*Please note: a user can not edit their roles. The 'Edit Roles' tab will not be displayed when viewing your own profile.*
+
    .. figure:: screen-shots/user-edit-role.png
       :alt: PMHC MDS Edit Users Role
 
@@ -386,9 +388,9 @@ You can edit and assign extra :ref:`roles <roles>`  to an existing user by follo
 .. |remove-all| image:: screen-shots/remove-all-button.png
 
 7. All changes are automatically saved
-8. You will need to notify the user of these role changes. The system will not automatically do this
+8. The system will automatically notify the user overnight of any role changes.
 
-*Please note: you will still see users in your list that have had all their roles removed.*
+*Please note: you will still see users in your list that have had all their roles removed unless you use the 'Actions' feature.*
 
 .. _delete_user:
 

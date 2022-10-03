@@ -423,3 +423,5 @@ Changing a users roles or removing access
 
 Clicking on the user's name will take you to :ref:`edit-role`. From there you
 can edit there roles, or fully remove their access to the PMHC MDS.
+
+*Please note: use the 'Actions' feature when removing a user's roles to remove that user from the User Auditing list.*
