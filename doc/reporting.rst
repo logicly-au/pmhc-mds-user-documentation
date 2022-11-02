@@ -184,27 +184,26 @@ by Practitioner Category and Principle Focus of Treatment as well as PHN/PO)
 
 Key specifications:
 
-* To be counted, an intake must have a Date client contacted Intake within the reporting period
+* To be counted, an intake must have a 'Date client contacted Intake' within the reporting period
 
 .. _category-a2:
 
-A2 — Monthly volume trends
+A2 — Volume trends
 ++++++++++++++++++++++++++
 
-This report is designed to show volume trends in clients, episodes and service
-contacts. Each data point in the table and the chart shows monthly data.
+This report is designed to show volume trends in clients, episodes, service contacts
+and intakes. Each data point in the table and the chart shows weekly or monthly data,
+depending on the option selected.
 
 Key specifications:
 
-* To be counted, a client must have had one or more Service Contacts in the
-  reporting period, defined for this report purposes as ‘Active Clients’.
-  Clients are counted uniquely regardless of number of episodes
-* Episodes to be counted if one or more Service Contacts was recorded in the
-  period – defined for this report purpose as ‘Active Episodes’
-* All Service Contacts in the period are reported except those that are flagged
-  as ‘No Show’
-* All dates refer to date of service not date of upload or data entry
-
+* The inclusion criterion for intakes is a 'Date client contacted Intake' within the reporting period
+* Other items (clients/episodes/contacts) are based on 'Active Episodes'. An Active Episode is one
+  associated with at least one attended contact during the reporting period
+* The Service Contacts column reports all the contacts associated with the active episodes, except those
+  contacts that are identified as 'no show'
+* The 'Active Clients' column counts all the people who had at least one active episode
+  
 .. _category-a3:
 
 A3 — Data quality report — Missing and invalid client data
@@ -753,7 +752,7 @@ fields.
 
 Key specifications:
 
-* To be counted, an intake must have a Date client contacted Intake within the reporting period
+* To be counted, an intake must have a Date client contacted Intake within the reporting period 
 
 .. _category-b3:
 
