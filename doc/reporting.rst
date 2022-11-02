@@ -170,6 +170,22 @@ Key specifications:
   as 'No Show'
 * All dates refer to date of service not date of data upload or data entry
 
+.. _category-a1a:
+
+A1a — High level summary of overall intakes
+++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+This report is designed to provide a view analogous to the A1 for intakes,
+with data aggregated for the specified reporting period. The count is not incorporated
+with the A1 because it is based on different inclusion criteria. Additionally,
+intakes have no stratification options because PHN/PO is the only applicable 
+stratification and this is presented automatically. (The A1 allows stratification 
+by Practitioner Category and Principle Focus of Treatment as well as PHN/PO)
+
+Key specifications:
+
+* To be counted, an intake must have a Date client contacted Intake within the reporting period
+
 .. _category-a2:
 
 A2 — Monthly volume trends
@@ -725,6 +741,19 @@ Key specifications:
   if it had one or more Service Contacts recorded in the period. No distinction
   is made between Open and Completed Episodes
 * Service Contacts flagged as ‘No Show’ are not included for this purpose
+
+.. _category-b2a:
+
+B2a — Activity report — Intake characteristics
+++++++++++++++++++++++++++++++++++++++++++++++
+
+The B2a report is designed to allow selection of an Intake stratification
+variable of interest, with a menu of options covering all core Intake data
+fields.
+
+Key specifications:
+
+* To be counted, an intake must have a Date client contacted Intake within the reporting period
 
 .. _category-b3:
 
