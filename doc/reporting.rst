@@ -262,7 +262,7 @@ Two formats of this report are offered to users:
    :depth: 1
 
 Some Episode data elements are not included in the options list as they are
-allowed to have a blank value (eg. Episode End Date) or there
+allowed to have a blank value (eg. Episode End Date), or there
 is no missing value provided in the specification and the system doesn't allow
 blank values to be submitted (eg. Principal Focus of Treatment Plan):
 
@@ -275,6 +275,7 @@ blank values to be submitted (eg. Principal Focus of Treatment Plan):
 * Medication - Hypnotics and sedatives (N05C)
 * Medication - Antidepressants (N06A)
 * Medication - Psychostimulants and nootropics (N06B)
+* Program Type
 * Principal Focus of Treatment Plan
 
 Key specifications:
@@ -329,6 +330,69 @@ are:
 *Note:* For a user with the Reporting role at a single Provider Organisation,
 this report is redundant as it would only ever have a single row, which is
 already present in the output of the A4-1 report. Therefore this report is
+not made available to these users.
+
+.. _category-a4a:
+
+A4a — Data quality report — Missing and invalid intake data
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+The A4a reports are designed to identify data Intake elements with significant
+amounts of missing or invalid data.
+
+Two formats of this report are offered to users:
+
+.. contents::
+   :local:
+   :depth: 1
+
+Some Intake data elements are not included in the options list as they are
+allowed to have a blank value (eg. Date referred to other service at Intake conclusion), or there
+is no missing value provided in the specification and the system doesn't allow
+blank values to be submitted (eg. Program Type):
+
+* Client Consent to Anonymised Data
+* Program Type
+* Date referred to other service at Intake conclusion
+* Referred to Organisation Path
+
+Key specifications:
+
+* Intakes are included if the Date client contacted Intake is during the the reporting period
+* Missing/invalid data defined as: Intake data elements with invalid
+  values, or where ‘system generated’ codes have been reported to denote
+  ‘not stated’, ‘inadequately defined’ or ‘missing’
+
+.. _category-a4a-1:
+
+A4a-1 — Data quality report — Missing and invalid episode data — Summary
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+Summary format provides a simple listing of missing/invalid data rates
+for relevant Intake data elements, aggregated across the organisation,
+region or nationally.
+
+.. _category-a4a-2:
+
+A4a-2 — Data quality report — Missing and invalid episode data — Detail
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+Detailed format presents missing/invalid Intake data rates at the
+entity level (PHN and Provider Organisation). For this version, the user selects
+the specific Intake data element to be targeted for the missing/invalid data
+report from a list of possible options.
+
+Missing/invalid intake data elements that can be selected for the A4-2 report
+are:
+
+* Referrer Profession
+* Referrer Organisation Type
+* Suicide Referral Flag
+* Organisation Type Referred to at Episode Conclusion
+
+*Note:* For a user with the Reporting role at a single Provider Organisation,
+this report is redundant as it would only ever have a single row, which is
+already present in the output of the A4a-1 report. Therefore this report is
 not made available to these users.
 
 .. _category-a5:
