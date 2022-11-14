@@ -64,11 +64,19 @@ Logging In
 
 After navigating to https://pmhc-mds.net/, click **Sign in**.
 
-.. figure:: screen-shots/account-sign-in.png
+.. figure:: screen-shots/log-in.png
+   :width: 400
    :alt: PMHC MDS Sign In
 
 This will open a window to log in. Enter your email address or username
 and then your password and click **Sign in**.
+
+In order to be compliant with current best practices in security standards, 
+Multi Factor Authentication (MFA) is in the process of being implemented for login 
+to the PMHC MDS. It is being iteratively rolled out to specific user groups.
+Please refer to the 
+`MFA documentation <https://docs.logicly.com.au/en/latest/mfa-user-guide/index.html>`_ 
+for assistance in setting up and using MFA.
 
 .. _setting-backup-email:
 
