@@ -78,11 +78,6 @@ Please refer to the
 `MFA documentation <https://docs.logicly.com.au/en/latest/mfa-user-guide/index.html>`_ 
 for assistance in setting up and using MFA.
 
-.. _setting-backup-email:
-
-If it is your first time logging in, you will be asked to set a backup email
-address.
-
 .. figure:: screen-shots/backup-email.png
    :alt: PMHC MDS Backup Email
 
