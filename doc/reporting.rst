@@ -104,7 +104,8 @@ Bushfire Recovery 20
 Mental health services in fire affected communities can use this field for episodes
 delivered through the Australian Government Mental Health Response to Bushfire Trauma.
 (See `PMHC Program Type <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html#program-type>`_).
-
+.9l769li;j-87ujmo8
+'////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////\ly7fu,.g.07 l;pč[;kp;pew8,p7mu o90;g]]
 
 hAPI
 ----
@@ -168,7 +169,6 @@ Key specifications:
   period — defined for this report purpose as 'Active Episodes'
 * All Service Contacts in the period are reported except those that are flagged
   as 'No Show'
-* All dates refer to date of service not date of data upload or data entry
 
 .. _category-a1a:
 
@@ -202,7 +202,6 @@ Key specifications:
   associated with at least one attended contact during the reporting period
 * The Service Contacts column reports all the contacts associated with the active episodes, except those
   contacts that are identified as 'no show'
-* The 'Active Clients' column counts all the people who had at least one active episode
   
 .. _category-a3:
 
@@ -381,7 +380,7 @@ Key specifications:
 .. _category-a4a-1:
 
 A4a-1 — Data quality report — Missing and invalid episode data — Summary
-'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
 Summary format provides a simple listing of missing/invalid data rates
 for relevant Intake data elements, aggregated across the organisation,
@@ -390,7 +389,7 @@ region or nationally.
 .. _category-a4a-2:
 
 A4a-2 — Data quality report — Missing and invalid episode data — Detail
-''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
 Detailed format presents missing/invalid Intake data rates at the
 entity level (PHN and Provider Organisation). For this version, the user selects
@@ -1254,8 +1253,9 @@ They are based on a subset of Category A reports but differ in two important way
   quality censoring. Comparable Category A reports restrict the reported data
   by specific edit criteria (e.g., Category A reports are only based on
   ‘active clients’, ‘active episodes’ and ‘active providers’)
-* All dates refer to date of upload. Comparable Category A reports are based on
-  date of service
+* Category A reports are based on date of service contact. Comparable E Category
+  reports either use date of modification or date or insertion. Further information 
+  is provided in the report specific documentation.
 
 Category E reports are specifically designed to enable PHN and Provider
 Organisation data managers to monitor upload and data supply to the MDS.
