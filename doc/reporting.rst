@@ -168,27 +168,40 @@ Key specifications:
   period — defined for this report purpose as 'Active Episodes'
 * All Service Contacts in the period are reported except those that are flagged
   as 'No Show'
-* All dates refer to date of service not date of data upload or data entry
 
-.. _category-a2:
+.. _category-a1a:
 
-A2 — Monthly volume trends
-++++++++++++++++++++++++++
+A1a — High level summary of overall intakes
+++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-This report is designed to show volume trends in clients, episodes and service
-contacts. Each data point in the table and the chart shows monthly data.
+This report is designed to provide a view analogous to the A1 for intakes,
+with data aggregated for the specified reporting period. The count is not incorporated
+with the A1 because it is based on different inclusion criteria. Additionally,
+intakes have no stratification options because PHN/PO is the only applicable 
+stratification and this is presented automatically. (The A1 allows stratification 
+by Practitioner Category and Principle Focus of Treatment as well as PHN/PO)
 
 Key specifications:
 
-* To be counted, a client must have had one or more Service Contacts in the
-  reporting period, defined for this report purposes as ‘Active Clients’.
-  Clients are counted uniquely regardless of number of episodes
-* Episodes to be counted if one or more Service Contacts was recorded in the
-  period – defined for this report purpose as ‘Active Episodes’
-* All Service Contacts in the period are reported except those that are flagged
-  as ‘No Show’
-* All dates refer to date of service not date of upload or data entry
+* To be counted, an intake must have a 'Date client contacted Intake' within the reporting period
 
+.. _category-a2:
+
+A2 — Volume trends
+++++++++++++++++++++++++++
+
+This report is designed to show volume trends in clients, episodes, service contacts
+and intakes. Each data point in the table and the chart shows weekly or monthly data,
+depending on the option selected.
+
+Key specifications:
+
+* The inclusion criterion for intakes is a 'Date client contacted Intake' within the reporting period
+* Other items (clients/episodes/contacts) are based on 'Active Episodes'. An Active Episode is one
+  associated with at least one attended contact during the reporting period
+* The Service Contacts column reports all the contacts associated with the active episodes, except those
+  contacts that are identified as 'no show'
+  
 .. _category-a3:
 
 A3 — Data quality report — Missing and invalid client data
@@ -262,7 +275,7 @@ Two formats of this report are offered to users:
    :depth: 1
 
 Some Episode data elements are not included in the options list as they are
-allowed to have a blank value (eg. Episode End Date) or there
+allowed to have a blank value (eg. Episode End Date), or there
 is no missing value provided in the specification and the system doesn't allow
 blank values to be submitted (eg. Principal Focus of Treatment Plan):
 
@@ -275,6 +288,7 @@ blank values to be submitted (eg. Principal Focus of Treatment Plan):
 * Medication - Hypnotics and sedatives (N05C)
 * Medication - Antidepressants (N06A)
 * Medication - Psychostimulants and nootropics (N06B)
+* Program Type
 * Principal Focus of Treatment Plan
 
 Key specifications:
@@ -329,6 +343,69 @@ are:
 *Note:* For a user with the Reporting role at a single Provider Organisation,
 this report is redundant as it would only ever have a single row, which is
 already present in the output of the A4-1 report. Therefore this report is
+not made available to these users.
+
+.. _category-a4a:
+
+A4a — Data quality report — Missing and invalid intake data
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+The A4a reports are designed to identify data Intake elements with significant
+amounts of missing or invalid data.
+
+Two formats of this report are offered to users:
+
+.. contents::
+   :local:
+   :depth: 1
+
+Some Intake data elements are not included in the options list as they are
+allowed to have a blank value (eg. Date referred to other service at Intake conclusion), or there
+is no missing value provided in the specification and the system doesn't allow
+blank values to be submitted (eg. Program Type):
+
+* Client Consent to Anonymised Data
+* Program Type
+* Date referred to other service at Intake conclusion
+* Referred to Organisation Path
+
+Key specifications:
+
+* Intakes are included if the Date client contacted Intake is during the the reporting period
+* Missing/invalid data defined as: Intake data elements with invalid
+  values, or where ‘system generated’ codes have been reported to denote
+  ‘not stated’, ‘inadequately defined’ or ‘missing’
+
+.. _category-a4a-1:
+
+A4a-1 — Data quality report — Missing and invalid episode data — Summary
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+Summary format provides a simple listing of missing/invalid data rates
+for relevant Intake data elements, aggregated across the organisation,
+region or nationally.
+
+.. _category-a4a-2:
+
+A4a-2 — Data quality report — Missing and invalid episode data — Detail
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+Detailed format presents missing/invalid Intake data rates at the
+entity level (PHN and Provider Organisation). For this version, the user selects
+the specific Intake data element to be targeted for the missing/invalid data
+report from a list of possible options.
+
+Missing/invalid intake data elements that can be selected for the A4-2 report
+are:
+
+* Referrer Profession
+* Referrer Organisation Type
+* Suicide Referral Flag
+* Organisation Type Referred to at Episode Conclusion
+
+*Note:* For a user with the Reporting role at a single Provider Organisation,
+this report is redundant as it would only ever have a single row, which is
+already present in the output of the A4a-1 report. Therefore this report is
 not made available to these users.
 
 .. _category-a5:
@@ -661,6 +738,19 @@ Key specifications:
   if it had one or more Service Contacts recorded in the period. No distinction
   is made between Open and Completed Episodes
 * Service Contacts flagged as ‘No Show’ are not included for this purpose
+
+.. _category-b2a:
+
+B2a — Activity report — Intake characteristics
+++++++++++++++++++++++++++++++++++++++++++++++
+
+The B2a report is designed to allow selection of an Intake stratification
+variable of interest, with a menu of options covering all core Intake data
+fields.
+
+Key specifications:
+
+* To be counted, an intake must have a Date client contacted Intake within the reporting period 
 
 .. _category-b3:
 
@@ -1162,8 +1252,9 @@ They are based on a subset of Category A reports but differ in two important way
   quality censoring. Comparable Category A reports restrict the reported data
   by specific edit criteria (e.g., Category A reports are only based on
   ‘active clients’, ‘active episodes’ and ‘active providers’)
-* All dates refer to date of upload. Comparable Category A reports are based on
-  date of service
+* Category A reports are based on date of service contact. Comparable E Category
+  reports either use date of modification or date or insertion. Further information 
+  is provided in the report specific documentation.
 
 Category E reports are specifically designed to enable PHN and Provider
 Organisation data managers to monitor upload and data supply to the MDS.
