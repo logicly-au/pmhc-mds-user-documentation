@@ -104,8 +104,7 @@ Bushfire Recovery 20
 Mental health services in fire affected communities can use this field for episodes
 delivered through the Australian Government Mental Health Response to Bushfire Trauma.
 (See `PMHC Program Type <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html#program-type>`_).
-.9l769li;j-87ujmo8
-'////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////\ly7fu,.g.07 l;pč[;kp;pew8,p7mu o90;g]]
+
 
 hAPI
 ----
