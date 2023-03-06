@@ -177,13 +177,14 @@ A1a — High level summary of overall intakes
 This report is designed to provide a view analogous to the A1 for intakes,
 with data aggregated for the specified reporting period. The count is not incorporated
 with the A1 because it is based on different inclusion criteria. Additionally,
-intakes have no stratification options because PHN/PO is the only applicable 
-stratification and this is presented automatically. (The A1 allows stratification 
+intakes have no stratification options because PHN/PO is the only applicable
+stratification and this is presented automatically. (The A1 allows stratification
 by Practitioner Category and Principle Focus of Treatment as well as PHN/PO)
 
 Key specifications:
 
 * To be counted, an intake must have a 'Date client contacted Intake' within the reporting period
+* Only service contacts with primary practitioners are included in the report
 
 .. _category-a2:
 
@@ -201,7 +202,8 @@ Key specifications:
   associated with at least one attended contact during the reporting period
 * The Service Contacts column reports all the contacts associated with the active episodes, except those
   contacts that are identified as 'no show'
-  
+* Only service contacts with primary practitioners are included in the report
+
 .. _category-a3:
 
 A3 — Data quality report — Missing and invalid client data
@@ -750,7 +752,7 @@ fields.
 
 Key specifications:
 
-* To be counted, an intake must have a Date client contacted Intake within the reporting period 
+* To be counted, an intake must have a Date client contacted Intake within the reporting period
 
 .. _category-b3:
 
@@ -1116,6 +1118,7 @@ Key specifications:
   Aboriginal Community Controlled Health Service or has indicated that
   they have completed a recognised training programme in the delivery of
   culturally safe services to ATSI peoples
+* Only service contacts with primary practitioners are included in the report
 
 .. _category-app-3:
 
@@ -1253,7 +1256,7 @@ They are based on a subset of Category A reports but differ in two important way
   by specific edit criteria (e.g., Category A reports are only based on
   ‘active clients’, ‘active episodes’ and ‘active providers’)
 * Category A reports are based on date of service contact. Comparable E Category
-  reports either use date of modification or date or insertion. Further information 
+  reports either use date of modification or date or insertion. Further information
   is provided in the report specific documentation.
 
 Category E reports are specifically designed to enable PHN and Provider
