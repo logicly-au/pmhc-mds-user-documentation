@@ -65,10 +65,23 @@ in the PMHC MDS are available to segment reports.
 
 The following are listed as the data sources currently available for reports:
 
+.. contents::
+   :local:
+   :depth: 2
+
 PMHC
 ----
 
+The PMHC reports include all the below PMHC segments, Flexible Funding Pool,
+Head to Health, AMHC, Psychosocial, and Bushfire Recovery 2020 data. It also
+includes data linked to Beyond Blue The Way Back extension, but does not
+include hAPI heaspace extension data.
+
 The PMHC reports can be further segmented into the following data sources:
+
+.. contents::
+   :local:
+   :depth: 2
 
 Flexible Funding Pool
 +++++++++++++++++++++
@@ -105,9 +118,14 @@ Mental health services in fire affected communities can use this field for episo
 delivered through the Australian Government Mental Health Response to Bushfire Trauma.
 (See `PMHC Program Type <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html#program-type>`_).
 
+The Way Back (PMHC subset)
+--------------------------
 
-hAPI
-----
+This PMHC subset report only includes Beyond Blue The Way Back Support Services
+data linked to the episode tag `!wayback`.  (See `The Way Back Data Specification <https://docs.pmhc-mds.com/projects/data-specification-wayback/en/v3/data-specification/data-model-and-specifications.html>`_).
+
+hAPI (headspace)
+----------------
 
 hAPI is data that headspace National Office upload from their internal hAPI
 client information management system (See `headspace Data Specification <https://docs.pmhc-mds.com/projects/data-specification-headspace/en/v2/data-specification/data-model-and-specifications.html>`_).
@@ -177,8 +195,8 @@ A1a — High level summary of overall intakes
 This report is designed to provide a view analogous to the A1 for intakes,
 with data aggregated for the specified reporting period. The count is not incorporated
 with the A1 because it is based on different inclusion criteria. Additionally,
-intakes have no stratification options because PHN/PO is the only applicable 
-stratification and this is presented automatically. (The A1 allows stratification 
+intakes have no stratification options because PHN/PO is the only applicable
+stratification and this is presented automatically. (The A1 allows stratification
 by Practitioner Category and Principle Focus of Treatment as well as PHN/PO)
 
 Key specifications:
@@ -201,7 +219,7 @@ Key specifications:
   associated with at least one attended contact during the reporting period
 * The Service Contacts column reports all the contacts associated with the active episodes, except those
   contacts that are identified as 'no show'
-  
+
 .. _category-a3:
 
 A3 — Data quality report — Missing and invalid client data
@@ -750,7 +768,7 @@ fields.
 
 Key specifications:
 
-* To be counted, an intake must have a Date client contacted Intake within the reporting period 
+* To be counted, an intake must have a Date client contacted Intake within the reporting period
 
 .. _category-b3:
 
@@ -1253,7 +1271,7 @@ They are based on a subset of Category A reports but differ in two important way
   by specific edit criteria (e.g., Category A reports are only based on
   ‘active clients’, ‘active episodes’ and ‘active providers’)
 * Category A reports are based on date of service contact. Comparable E Category
-  reports either use date of modification or date or insertion. Further information 
+  reports either use date of modification or date or insertion. Further information
   is provided in the report specific documentation.
 
 Category E reports are specifically designed to enable PHN and Provider
