@@ -168,6 +168,7 @@ Key specifications:
   period — defined for this report purpose as 'Active Episodes'
 * All Service Contacts in the period are reported except those that are flagged
   as 'No Show'
+  * Only service contacts with primary practitioners are included in the report
 
 .. _category-a1a:
 
@@ -184,7 +185,6 @@ by Practitioner Category and Principle Focus of Treatment as well as PHN/PO)
 Key specifications:
 
 * To be counted, an intake must have a 'Date client contacted Intake' within the reporting period
-* Only service contacts with primary practitioners are included in the report
 
 .. _category-a2:
 
