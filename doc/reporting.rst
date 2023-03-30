@@ -177,8 +177,8 @@ A1a — High level summary of overall intakes
 This report is designed to provide a view analogous to the A1 for intakes,
 with data aggregated for the specified reporting period. The count is not incorporated
 with the A1 because it is based on different inclusion criteria. Additionally,
-intakes have no stratification options because PHN/PO is the only applicable 
-stratification and this is presented automatically. (The A1 allows stratification 
+intakes have no stratification options because PHN/PO is the only applicable
+stratification and this is presented automatically. (The A1 allows stratification
 by Practitioner Category and Principle Focus of Treatment as well as PHN/PO)
 
 Key specifications:
@@ -201,7 +201,7 @@ Key specifications:
   associated with at least one attended contact during the reporting period
 * The Service Contacts column reports all the contacts associated with the active episodes, except those
   contacts that are identified as 'no show'
-  
+
 .. _category-a3:
 
 A3 — Data quality report — Missing and invalid client data
@@ -750,7 +750,7 @@ fields.
 
 Key specifications:
 
-* To be counted, an intake must have a Date client contacted Intake within the reporting period 
+* To be counted, an intake must have a Date client contacted Intake within the reporting period
 
 .. _category-b3:
 
@@ -1253,7 +1253,7 @@ They are based on a subset of Category A reports but differ in two important way
   by specific edit criteria (e.g., Category A reports are only based on
   ‘active clients’, ‘active episodes’ and ‘active providers’)
 * Category A reports are based on date of service contact. Comparable E Category
-  reports either use date of modification or date or insertion. Further information 
+  reports either use date of modification or date or insertion. Further information
   is provided in the report specific documentation.
 
 Category E reports are specifically designed to enable PHN and Provider
@@ -1445,6 +1445,36 @@ Key specifications:
   field so the total intakes may be fewer than the total reported on I1
 * Counts in the “Not stated” column indicate that no practitioner rating was
   recorded
+
+
+.. _category-i5:
+
+I5 — Intake Conclusion Referral Pathway
++++++++++++++++++++++++++++++++++++++++
+
+The I5 summarises the type of service to which an intake process refers a client.
+It says nothing about whether that service subsequently has any interaction with
+the client, merely that the intake process considered that service type the
+appropriate follow up.
+
+The basis for the report is all intakes where the date the client contacted the
+intake service falls during the reporting period. The referral pathways enumerated
+are based on the “Organisation type referred to at Intake conclusion” variable.
+Most of the responses to this variable are grouped into broader categories, but
+a few are passed through untouched other than (usually) minor renaming:
+
+“AMHC” -> “AMHC”
+“HeadtoHelp / HeadtoHealth” -> “Head To Health”
+“Other PHN funded service” -> “Other PHN funded”
+“No Referral” -> “None”
+“Not stated/Inadequately described” -> “Unknown”
+
+Anything else except a blank is mapped to “External service”. A blank is reported as “Intake not concluded”.
+
+Key specifications:
+
+* The report counts intakes where the client first contacted the service during
+  the reporting period
 
 
 .. _produce-twb-report:
