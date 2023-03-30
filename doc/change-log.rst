@@ -3,6 +3,13 @@
 User Guide Change log
 =====================
 
+
+30/03/2023
+----------
+
+* Updated :ref:`reports` specifications for A1, A2, B1, B2, B3, B4, B5, B7 (hAPI), App-2, as only service contacts with primary practitioners are included
+
+
 01/09/2022
 ----------
 
