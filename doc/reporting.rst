@@ -177,8 +177,8 @@ A1a — High level summary of overall intakes
 This report is designed to provide a view analogous to the A1 for intakes,
 with data aggregated for the specified reporting period. The count is not incorporated
 with the A1 because it is based on different inclusion criteria. Additionally,
-intakes have no stratification options because PHN/PO is the only applicable 
-stratification and this is presented automatically. (The A1 allows stratification 
+intakes have no stratification options because PHN/PO is the only applicable
+stratification and this is presented automatically. (The A1 allows stratification
 by Practitioner Category and Principle Focus of Treatment as well as PHN/PO)
 
 Key specifications:
@@ -201,7 +201,7 @@ Key specifications:
   associated with at least one attended contact during the reporting period
 * The Service Contacts column reports all the contacts associated with the active episodes, except those
   contacts that are identified as 'no show'
-  
+
 .. _category-a3:
 
 A3 — Data quality report — Missing and invalid client data
@@ -750,7 +750,7 @@ fields.
 
 Key specifications:
 
-* To be counted, an intake must have a Date client contacted Intake within the reporting period 
+* To be counted, an intake must have a Date client contacted Intake within the reporting period
 
 .. _category-b3:
 
@@ -826,7 +826,7 @@ respectively. The B6 extends this to any type of focus.
 .. _category-b7:
 
 B7 — Activity Report — hAPI Funding Source
-+++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++
 
 This report applies to hAPI (headspace) data only.
 
@@ -850,7 +850,7 @@ Key specifications:
 .. _category-b8:
 
 B8 — YES PHN index
-++++++++++++++++++++++++++++++++++++
+++++++++++++++++++
 
 This report applies to YES-PHN data only.
 
@@ -871,6 +871,31 @@ Key specifications:
 
 * The collection date must be within the reporting period
 * Any YES-PHN surveys with more than half of the items missing is excluded
+
+.. _category-b9:
+
+B9 - Activity Report - Number of practitioners
+++++++++++++++++++++++++++++++++++++++++++++++
+
+The B9 is designed to monitor the composition of multi-practitioner teams delivering
+a single contact. It counts the number of contacts made up of different sized
+practitioner teams. It reports both the total number of practitioners involved 
+with each contact, and the number of unique practitioner categories involved.
+
+Over time, the PMHC has recorded practitioners in three different ways. Initially
+only a single practitioner (and their category) was recorded. With the introduction
+of Head To Health programs it was expanded to also include a count of different
+practitioner categories. With the release of version 4 all practitioners and
+their categories can be recorded. The B9 does not adjust for these historical
+changes, so therefore contacts conducted prior to version 4 will always be
+counted in the ‘1’ column for both Number of Practitioners and Number of
+Practitioner Categories.
+
+Key specifications:
+
+* The contact must not be a “no show” contact
+* The contact must take place during the reporting period
+
 
 .. _category-c:
 
@@ -1253,7 +1278,7 @@ They are based on a subset of Category A reports but differ in two important way
   by specific edit criteria (e.g., Category A reports are only based on
   ‘active clients’, ‘active episodes’ and ‘active providers’)
 * Category A reports are based on date of service contact. Comparable E Category
-  reports either use date of modification or date or insertion. Further information 
+  reports either use date of modification or date or insertion. Further information
   is provided in the report specific documentation.
 
 Category E reports are specifically designed to enable PHN and Provider
