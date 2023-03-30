@@ -168,7 +168,7 @@ Key specifications:
   period — defined for this report purpose as 'Active Episodes'
 * All Service Contacts in the period are reported except those that are flagged
   as 'No Show'
-  * Only service contacts with primary practitioners are included in the report
+* Only service contacts with primary practitioners are included in the report
 
 .. _category-a1a:
 
@@ -724,6 +724,7 @@ Key specifications:
   that had one or more Service Contacts recorded in the period
 * Service Contacts flagged as ‘No Show’ are not included for this purpose
 * Age is calculated at start of episode
+* Only service contacts with primary practitioners are included in the report
 
 .. _category-b2:
 
@@ -740,6 +741,7 @@ Key specifications:
   if it had one or more Service Contacts recorded in the period. No distinction
   is made between Open and Completed Episodes
 * Service Contacts flagged as ‘No Show’ are not included for this purpose
+* Only service contacts with primary practitioners are included in the report
 
 .. _category-b2a:
 
@@ -774,6 +776,7 @@ Key specifications:
 * Reporting by ‘Service Contact No Show’ element counts all service contacts
   by whether they are flagged as ‘No Show’
 * Otherwise, Service Contacts flagged as ‘No Show’ are not included in this report
+* Only service contacts with primary practitioners are included in the report
 
 .. _category-b4:
 
@@ -790,6 +793,7 @@ Key specifications:
   for this report if there is one or more Service Contacts recorded for the
   Provider Organisation in the period
 * Service Contacts flagged as ‘No Show’ are not included for this purpose
+* Only service contacts with primary practitioners are included in the report
 
 .. _category-b5:
 
@@ -805,6 +809,7 @@ Key specifications:
 * A Primary Practitioner is defined as 'active' and in-scope for this report if they
   have recorded one or more Service Contacts in the period
 * Service Contacts flagged as ‘No Show’ are not included for this purpose
+* Only service contacts with primary practitioners are included in the report
 
 .. _category-b6:
 
@@ -848,6 +853,7 @@ applies to Client counts.
 Key specifications:
 
 * Service Contacts flagged as ‘No Show’ are not included for this purpose
+* Only service contacts with primary practitioners are included in the report
 
 .. _category-b8:
 
