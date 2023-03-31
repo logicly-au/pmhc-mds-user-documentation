@@ -860,7 +860,7 @@ respectively. The B6 extends this to any type of focus.
 .. _category-b7:
 
 B7 — Activity Report — hAPI Funding Source
-+++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++
 
 This report applies to hAPI (headspace) data only.
 
@@ -885,7 +885,7 @@ Key specifications:
 .. _category-b8:
 
 B8 — YES PHN index
-++++++++++++++++++++++++++++++++++++
+++++++++++++++++++
 
 This report applies to YES-PHN data only.
 
@@ -906,6 +906,31 @@ Key specifications:
 
 * The collection date must be within the reporting period
 * Any YES-PHN surveys with more than half of the items missing is excluded
+
+.. _category-b9:
+
+B9 - Activity Report - Number of practitioners
+++++++++++++++++++++++++++++++++++++++++++++++
+
+The B9 is designed to monitor the composition of multi-practitioner teams delivering
+a single contact. It counts the number of contacts made up of different sized
+practitioner teams. It reports both the total number of practitioners involved 
+with each contact, and the number of unique practitioner categories involved.
+
+Over time, the PMHC has recorded practitioners in three different ways. Initially
+only a single practitioner (and their category) was recorded. With the introduction
+of Head To Health programs it was expanded to also include a count of different
+practitioner categories. With the release of version 4 all practitioners and
+their categories can be recorded. The B9 does not adjust for these historical
+changes, so therefore contacts conducted prior to version 4 will always be
+counted in the ‘1’ column for both Number of Practitioners and Number of
+Practitioner Categories.
+
+Key specifications:
+
+* The contact must not be a “no show” contact
+* The contact must take place during the reporting period
+
 
 .. _category-c:
 

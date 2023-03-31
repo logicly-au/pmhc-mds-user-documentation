@@ -11,6 +11,8 @@ User Guide Change log
   included
 * Added :ref:`category-i5`
 * Updated :ref:`system-report-data-sources`
+* Added :ref:`category-i5`
+* Added :ref:`category-b9`
 
 01/09/2022
 ----------
