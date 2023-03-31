@@ -3,19 +3,14 @@
 User Guide Change log
 =====================
 
-<<<<<<< HEAD
-30/03/2023
-----------
-
-* Added :ref:`category-b9`
-=======
 31/03/2023
 ----------
 
 * Updated :ref:`reports` specifications for A1, A2, B1, B2, B3, B4, B5, B7 (hAPI), App-2, as only service contacts with primary practitioners are included
 * Updated :ref:`system-report-data-sources`
+* Added :ref:`category-i5`
+* Added :ref:`category-b9`
 
->>>>>>> master
 
 01/09/2022
 ----------
