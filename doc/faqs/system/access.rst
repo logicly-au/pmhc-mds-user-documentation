@@ -83,7 +83,7 @@ the MDS access is being requested/changed):
 #. For new profiles, the roles required for the user. (See :ref:`roles` for a summary of each of the roles that currently exist within the PMHC MDS.)
 #. For existing profile updates, list the item being changed (email or mobile), what is was and what it should be changed to
 
-This letter must be faxed to (03) 9340 9090, or scanned and then emailed to support@pmhc-mds.com.
+This letter must be scanned and then emailed to support@pmhc-mds.com.
 
 Refer to :ref:`why-letter-of-authority-faq`
 
@@ -250,7 +250,7 @@ the MDS access is being requested):
 #. Mobile phone number
 #. Request access to the 'Test [Your Company Name]' Organisation
 
-This letter must be faxed to (03) 9340 9090, or scanned and emailed to support@pmhc-mds.com.
+This letter must be scanned and emailed to support@pmhc-mds.com.
 
 Base your letter on the details listed in :ref:`letter-of-authority-faq`
 

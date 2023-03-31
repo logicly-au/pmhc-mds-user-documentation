@@ -61,14 +61,29 @@ Data Sources for reports
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
 The overarching program areas and extensions that are associated with the data
-in the PMHC MDS are available to segment reports.
+in the PMHC MDS are available to partition reports.
 
 The following are listed as the data sources currently available for reports:
 
-PMHC
-----
+.. contents::
+   :local:
+   :depth: 1
 
-The PMHC reports can be further segmented into the following data sources:
+All PMHC Program Types
+----------------------
+
+The All PMHC Program Types data source includes all the following PMHC Program Types:
+
+.. contents::
+   :local:
+   :depth: 2
+
+Data linked to Beyond Blue The Way Back extension is included in all of these Program Types. 
+In order to partition reports by Way Back data a separate selection has been provided.
+
+The PMHC data source does not include any hAPI headspace extension data.
+
+.. _flexible-funding-pool:
 
 Flexible Funding Pool
 +++++++++++++++++++++
@@ -76,6 +91,7 @@ Flexible Funding Pool
 Other Programs commissioned through Primary Mental Health Care Schedule that are
 not otherwise described by another category. (See `PMHC Program Type <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html#program-type>`_).
 
+.. _head-to-health:
 
 Head to Health
 ++++++++++++++
@@ -83,6 +99,7 @@ Head to Health
 The Head to Health Program includes Head to Health Adult Centres and Satellites
 and pop-up clinics. (See `PMHC Program Type <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html#program-type>`_).
 
+.. _amhc:
 
 AMHC
 ++++
@@ -90,6 +107,7 @@ AMHC
 The Head to Health Program that are delivering the Adult Mental Health Centre (AMHC)
 trial sites. (See `PMHC Program Type <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html#program-type>`_).
 
+.. _psychosocial:
 
 Psychosocial
 ++++++++++++
@@ -97,6 +115,7 @@ Psychosocial
 Mental health services delivered through the National Psychosocial Support Services
 Program. (See `PMHC Program Type <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html#program-type>`_).
 
+.. _bushfire-recovery-20:
 
 Bushfire Recovery 20
 ++++++++++++++++++++
@@ -105,9 +124,18 @@ Mental health services in fire affected communities can use this field for episo
 delivered through the Australian Government Mental Health Response to Bushfire Trauma.
 (See `PMHC Program Type <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html#program-type>`_).
 
+.. _the-way-back-pmhc-subset:
 
-hAPI
-----
+The Way Back (PMHC subset)
+--------------------------
+
+This PMHC subset report only includes Beyond Blue The Way Back Support Services
+data linked to the episode tag `!wayback`.  (See `The Way Back Data Specification <https://docs.pmhc-mds.com/projects/data-specification-wayback/en/v3/data-specification/data-model-and-specifications.html>`_).
+
+.. _hapi-headspace:
+
+hAPI (headspace)
+----------------
 
 hAPI is data that headspace National Office upload from their internal hAPI
 client information management system (See `headspace Data Specification <https://docs.pmhc-mds.com/projects/data-specification-headspace/en/v2/data-specification/data-model-and-specifications.html>`_).
@@ -168,6 +196,7 @@ Key specifications:
   period — defined for this report purpose as 'Active Episodes'
 * All Service Contacts in the period are reported except those that are flagged
   as 'No Show'
+* Only service contacts with primary practitioners are included in the report
 
 .. _category-a1a:
 
@@ -201,6 +230,7 @@ Key specifications:
   associated with at least one attended contact during the reporting period
 * The Service Contacts column reports all the contacts associated with the active episodes, except those
   contacts that are identified as 'no show'
+* Only service contacts with primary practitioners are included in the report
 
 .. _category-a3:
 
@@ -722,6 +752,7 @@ Key specifications:
   that had one or more Service Contacts recorded in the period
 * Service Contacts flagged as ‘No Show’ are not included for this purpose
 * Age is calculated at start of episode
+* Only service contacts with primary practitioners are included in the report
 
 .. _category-b2:
 
@@ -738,6 +769,7 @@ Key specifications:
   if it had one or more Service Contacts recorded in the period. No distinction
   is made between Open and Completed Episodes
 * Service Contacts flagged as ‘No Show’ are not included for this purpose
+* Only service contacts with primary practitioners are included in the report
 
 .. _category-b2a:
 
@@ -772,6 +804,7 @@ Key specifications:
 * Reporting by ‘Service Contact No Show’ element counts all service contacts
   by whether they are flagged as ‘No Show’
 * Otherwise, Service Contacts flagged as ‘No Show’ are not included in this report
+* Only service contacts with primary practitioners are included in the report
 
 .. _category-b4:
 
@@ -788,6 +821,7 @@ Key specifications:
   for this report if there is one or more Service Contacts recorded for the
   Provider Organisation in the period
 * Service Contacts flagged as ‘No Show’ are not included for this purpose
+* Only service contacts with primary practitioners are included in the report
 
 .. _category-b5:
 
@@ -803,6 +837,7 @@ Key specifications:
 * A Primary Practitioner is defined as 'active' and in-scope for this report if they
   have recorded one or more Service Contacts in the period
 * Service Contacts flagged as ‘No Show’ are not included for this purpose
+* Only service contacts with primary practitioners are included in the report
 
 .. _category-b6:
 
@@ -846,6 +881,7 @@ applies to Client counts.
 Key specifications:
 
 * Service Contacts flagged as ‘No Show’ are not included for this purpose
+* Only service contacts with primary practitioners are included in the report
 
 .. _category-b8:
 
@@ -1141,6 +1177,7 @@ Key specifications:
   Aboriginal Community Controlled Health Service or has indicated that
   they have completed a recognised training programme in the delivery of
   culturally safe services to ATSI peoples
+* Only service contacts with primary practitioners are included in the report
 
 .. _category-app-3:
 
