@@ -61,27 +61,29 @@ Data Sources for reports
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
 The overarching program areas and extensions that are associated with the data
-in the PMHC MDS are available to segment reports.
+in the PMHC MDS are available to partition reports.
 
 The following are listed as the data sources currently available for reports:
 
 .. contents::
    :local:
-   :depth: 2
+   :depth: 1
 
-PMHC
-----
+All PMHC Program Types
+----------------------
 
-The PMHC reports include all the below PMHC segments, Flexible Funding Pool,
-Head to Health, AMHC, Psychosocial, and Bushfire Recovery 2020 data. It also
-includes data linked to Beyond Blue The Way Back extension, but does not
-include hAPI heaspace extension data.
-
-The PMHC reports can be further segmented into the following data sources:
+The All PMHC Program Types data source includes all the following PMHC Program Types:
 
 .. contents::
    :local:
    :depth: 2
+
+Data linked to Beyond Blue The Way Back extension is included in all of these Program Types. 
+In order to partition reports by Way Back data a separate selection has been provided.
+
+The PMHC data source does not include any hAPI headspace extension data.
+
+.. _flexible-funding-pool:
 
 Flexible Funding Pool
 +++++++++++++++++++++
@@ -89,6 +91,7 @@ Flexible Funding Pool
 Other Programs commissioned through Primary Mental Health Care Schedule that are
 not otherwise described by another category. (See `PMHC Program Type <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html#program-type>`_).
 
+.. _head-to-health:
 
 Head to Health
 ++++++++++++++
@@ -96,6 +99,7 @@ Head to Health
 The Head to Health Program includes Head to Health Adult Centres and Satellites
 and pop-up clinics. (See `PMHC Program Type <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html#program-type>`_).
 
+.. _amhc:
 
 AMHC
 ++++
@@ -103,6 +107,7 @@ AMHC
 The Head to Health Program that are delivering the Adult Mental Health Centre (AMHC)
 trial sites. (See `PMHC Program Type <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html#program-type>`_).
 
+.. _psychosocial:
 
 Psychosocial
 ++++++++++++
@@ -110,6 +115,7 @@ Psychosocial
 Mental health services delivered through the National Psychosocial Support Services
 Program. (See `PMHC Program Type <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html#program-type>`_).
 
+.. _bushfire-recovery-20:
 
 Bushfire Recovery 20
 ++++++++++++++++++++
@@ -118,11 +124,15 @@ Mental health services in fire affected communities can use this field for episo
 delivered through the Australian Government Mental Health Response to Bushfire Trauma.
 (See `PMHC Program Type <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html#program-type>`_).
 
+.. _the-way-back-pmhc-subset:
+
 The Way Back (PMHC subset)
 --------------------------
 
 This PMHC subset report only includes Beyond Blue The Way Back Support Services
 data linked to the episode tag `!wayback`.  (See `The Way Back Data Specification <https://docs.pmhc-mds.com/projects/data-specification-wayback/en/v3/data-specification/data-model-and-specifications.html>`_).
+
+.. _hapi-headspace:
 
 hAPI (headspace)
 ----------------
