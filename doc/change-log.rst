@@ -11,6 +11,7 @@ User Guide Change log
   B7 (hAPI), App-2, as only service contacts with primary practitioners are 
   included
 * Added :ref:`category-i5`
+* Updated :ref:`system-report-data-sources`
 
 01/09/2022
 ----------
