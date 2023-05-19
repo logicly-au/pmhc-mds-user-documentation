@@ -78,7 +78,7 @@ The All PMHC Program Types data source includes all the following PMHC Program T
    :local:
    :depth: 2
 
-Data linked to Beyond Blue The Way Back extension is included in all of these Program Types. 
+Data linked to Beyond Blue The Way Back extension is included in all of these Program Types.
 In order to partition reports by Way Back data a separate selection has been provided.
 
 The PMHC data source does not include any hAPI headspace extension data.
@@ -230,7 +230,7 @@ Key specifications:
   associated with at least one attended contact during the reporting period
 * The Service Contacts column reports all the contacts associated with the active episodes, except those
   contacts that are identified as 'no show'
-  
+
 .. _category-a3:
 
 A3 — Data quality report — Missing and invalid client data
@@ -781,7 +781,7 @@ fields.
 
 Key specifications:
 
-* To be counted, an intake must have a Date client contacted Intake within the reporting period 
+* To be counted, an intake must have a Date client contacted Intake within the reporting period
 
 .. _category-b3:
 
@@ -914,7 +914,7 @@ B9 - Activity Report - Number of practitioners
 
 The B9 is designed to monitor the composition of multi-practitioner teams delivering
 a single contact. It counts the number of contacts made up of different sized
-practitioner teams. It reports both the total number of practitioners involved 
+practitioner teams. It reports both the total number of practitioners involved
 with each contact, and the number of unique practitioner categories involved.
 
 Over time, the PMHC has recorded practitioners in three different ways. Initially
@@ -1314,7 +1314,7 @@ They are based on a subset of Category A reports but differ in two important way
   by specific edit criteria (e.g., Category A reports are only based on
   ‘active clients’, ‘active episodes’ and ‘active providers’)
 * Category A reports are based on date of service contact. Comparable E Category
-  reports either use date of modification or date or insertion. Further information 
+  reports either use date of modification or date or insertion. Further information
   is provided in the report specific documentation.
 
 Category E reports are specifically designed to enable PHN and Provider
@@ -1400,7 +1400,7 @@ Key specifications:
 * Clients comprise the clients who were the subject of the episodes defined
   immediately above, and are counted uniquely regardless of number of episodes
 * The episode count on the far right is the subset of the 'Episodes N' for which
-  there are inital and final measures from the same outcome instrument.
+  there are initial and final measures from the same outcome instrument.
 * The change for an episode is based on the effect size statistic which is
   defined as (score at episode start − score at episode end) / standard
   deviation of episode start scores for all episodes
@@ -1410,12 +1410,12 @@ Key specifications:
 
 .. _category-i:
 
-Category I: IAR-DST
--------------------
+Category I: Monitoring Intakes
+------------------------------
 
-These reports summarise the results of the Initial Assessment and Referral
-Decision Support Tool (`IAR-DST <https://docs.iar-dst.online/en/latest/>`_) and
-the clinical assessments based thereon.
+These reports monitor intakes and summarise the results of the Initial Assessment and
+Referral Decision Support Tool (`IAR-DST <https://docs.iar-dst.online/en/latest/>`_)
+and the clinical assessments based thereon.
 
 .. contents:: Available category I reports
    :local:
