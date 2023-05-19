@@ -71,11 +71,11 @@ After navigating to https://pmhc-mds.net/, click **Sign in**.
 This will open a window to log in. Enter your email address or username
 and then your password and click **Sign in**.
 
-To maintain compliance with current best practices in security policy, 
-Multi Factor Authentication (MFA) is in the process of being implemented for user access 
+To maintain compliance with current best practices in security policy,
+Multi Factor Authentication (MFA) is in the process of being implemented for user access
 to the PMHC MDS. It is being iteratively rolled out to specific user groups.
-Please refer to the 
-`MFA documentation <https://docs.logicly.com.au/en/latest/mfa-user-guide/index.html>`_ 
+Please refer to the
+`MFA documentation <https://docs.logicly.com.au/en/latest/mfa-user-guide/index.html>`_
 for assistance in setting up and using MFA.
 
 .. figure:: screen-shots/backup-email.png
@@ -222,10 +222,10 @@ Passwords must be:
 
 Please note: Users will be reminded via an email sent from noreply@logicly.com.au
 14 days prior to their password expiry date, and on PMHC MDS login 7 days prior
-to their password expiry - See see :ref:`soon-to-expire-password`.
+to their password expiry - See :ref:`soon-to-expire-password`.
 
 If a password expires the user will not be able to access the PMHC MDS until they
-reset their password - see :ref:`forgotten-password`.
+reset their password - See :ref:`forgotten-password`.
 
 .. _soon-to-expire-password:
 
@@ -298,6 +298,10 @@ If you have forgotten your password or it has expired:
 4. Click the **I'm not a robot** checkbox
 5. Click **Submit**
 6. An email with further instructions will be sent from
+   support@logicly.com.au to the email address the PMHC MDS has on file
+   for the user
+7. You will be prompted to enter your email address again
+8. An email with further instructions will be sent from
    noreply@logicly.com.au to the email address the PMHC MDS has on file
    for the user. Additionally, if you have set a backup email, then
    an email will also be sent there. An SMS with a verification code
@@ -306,29 +310,45 @@ If you have forgotten your password or it has expired:
    .. figure:: screen-shots/account-password-reset-request.png
       :alt: PMHC MDS Reset Password Request
 
-7. Open the email sent from noreply@logicly.com.au and open the link in the email
+9. Open the email sent from noreply@logicly.com.au and open the link in the email
 
    .. figure:: screen-shots/account-password-reset-email.png
       :alt: PMHC MDS Reset Password Email
 
-8. Enter the verification code you were sent via SMS
+10. Enter the verification code you were sent via SMS
 
    .. figure:: screen-shots/account-verify-user.png
       :alt: PMHC MDS User Verification
 
-9. Click **Submit**
-10. This will open the **Password reset** window
+11. Click **Submit**
+12. This will open the **Password reset** window
 
    .. figure:: screen-shots/account-password-reset.png
       :alt: PMHC MDS Password Reset
 
-11. Enter your new password
-12. Confirm you new password
-13. Click **Submit**
-14. Your password will be reset
+13. Enter your new password
+14. Confirm you new password
+15. Click **Submit**
+16. Your password will be reset
 
    .. figure:: screen-shots/account-password-reset-success.png
       :alt: PMHC MDS Password Reset Success
 
-15. Logout of the profile management page
-16. Navigate back to https://pmhc-mds.com/ and sign in
+17. Logout of the profile management page
+18. Navigate back to https://pmhc-mds.com/ and sign in
+
+
+.. _blocked-user:
+
+Forgotten or Expired Password
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+To ensure security, the system blocks users who make too many incorrect attempts
+to access their account on the PMHC MDS.
+
+When this happens, an automated email will be sent to the
+email address the PMHC MDS has on file for the user.
+
+1. Open the "Account blocked" email sent from support@logicly.com.au and follow
+   the instructions in that email to unblock your account
+2. Reset your password before attempting to log in - See :ref:`forgotten-password`.
