@@ -78,7 +78,7 @@ The All PMHC Program Types data source includes all the following PMHC Program T
    :local:
    :depth: 2
 
-Data linked to Beyond Blue The Way Back extension is included in all of these Program Types. 
+Data linked to Beyond Blue The Way Back extension is included in all of these Program Types.
 In order to partition reports by Way Back data a separate selection has been provided.
 
 The PMHC data source does not include any hAPI headspace extension data.
@@ -230,7 +230,7 @@ Key specifications:
   associated with at least one attended contact during the reporting period
 * The Service Contacts column reports all the contacts associated with the active episodes, except those
   contacts that are identified as 'no show'
-  
+
 .. _category-a3:
 
 A3 — Data quality report — Missing and invalid client data
@@ -781,7 +781,7 @@ fields.
 
 Key specifications:
 
-* To be counted, an intake must have a Date client contacted Intake within the reporting period 
+* To be counted, an intake must have a Date client contacted Intake within the reporting period
 
 .. _category-b3:
 
@@ -914,7 +914,7 @@ B9 - Activity Report - Number of practitioners
 
 The B9 is designed to monitor the composition of multi-practitioner teams delivering
 a single contact. It counts the number of contacts made up of different sized
-practitioner teams. It reports both the total number of practitioners involved 
+practitioner teams. It reports both the total number of practitioners involved
 with each contact, and the number of unique practitioner categories involved.
 
 Over time, the PMHC has recorded practitioners in three different ways. Initially
@@ -1314,7 +1314,7 @@ They are based on a subset of Category A reports but differ in two important way
   by specific edit criteria (e.g., Category A reports are only based on
   ‘active clients’, ‘active episodes’ and ‘active providers’)
 * Category A reports are based on date of service contact. Comparable E Category
-  reports either use date of modification or date or insertion. Further information 
+  reports either use date of modification or date or insertion. Further information
   is provided in the report specific documentation.
 
 Category E reports are specifically designed to enable PHN and Provider
@@ -1536,6 +1536,35 @@ Key specifications:
 
 * The report counts intakes where the client first contacted the service during
   the reporting period
+
+.. _category-i6:
+
+I6 — Intake Dispatch Status by Intake Organisation
+++++++++++++++++++++++++++++++++++++++++++++++++++
+
+The I6 and I7 comprise a pair of reports intended to help monitor linkage of
+intake and treatment (episode) organisation. Recording of such linkages is more
+complex than most MDS processes because they can involve data submission by more
+than one submitter. The data from intake and treatment organisations an be uploaded
+at different times, so potentially only one side of the transaction may be in the
+MDS. These reports help identify the extent to which events that can be inferred
+to exist have not been submitted.
+
+The I6 looks at what has happened from an intake perspective, the I7 from a
+treatment perspective.
+
+The I6 takes all the INTAKES for the chosen organisations (the Total column) and
+classifies them as having (the Linked column) or not having (the Unlinked column)
+a corresponding Intake Episode record.
+
+The By Treatment Organisation column displays the organisations that recorded
+treatment for the intakes in the Linked column. Note that the total for the By
+Treatment Organisation column can be higher than that for the Linked column as
+a single intake can be associated with more than one treatment episode.
+
+Key specifications:
+
+* The Date client contacted Intake must have occurred during the reporting period
 
 
 .. _produce-twb-report:
