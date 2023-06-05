@@ -1538,6 +1538,35 @@ Key specifications:
 * The report counts intakes where the client first contacted the service during
   the reporting period
 
+.. _category-i6:
+
+I6 — Intake Dispatch Status by Intake Organisation
+++++++++++++++++++++++++++++++++++++++++++++++++++
+
+The I6 and I7 comprise a pair of reports intended to help monitor linkage of
+intake and treatment (episode) organisation. Recording of such linkages is more
+complex than most MDS processes because they can involve data submission by more
+than one submitter. The data from intake and treatment organisations an be uploaded
+at different times, so potentially only one side of the transaction may be in the
+MDS. These reports help identify the extent to which events that can be inferred
+to exist have not been submitted.
+
+The I6 looks at what has happened from an intake perspective, the I7 from a
+treatment perspective.
+
+The I6 takes all the INTAKES for the chosen organisations (the Total column) and
+classifies them as having (the Linked column) or not having (the Unlinked column)
+a corresponding Intake Episode record.
+
+The By Treatment Organisation column displays the organisations that recorded
+treatment for the intakes in the Linked column. Note that the total for the By
+Treatment Organisation column can be higher than that for the Linked column as
+a single intake can be associated with more than one treatment episode.
+
+Key specifications:
+
+* The Date client contacted Intake must have occurred during the reporting period
+
 
 .. _produce-twb-report:
 
