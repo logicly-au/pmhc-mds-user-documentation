@@ -1400,7 +1400,7 @@ Key specifications:
 * Clients comprise the clients who were the subject of the episodes defined
   immediately above, and are counted uniquely regardless of number of episodes
 * The episode count on the far right is the subset of the 'Episodes N' for which
-  there are inital and final measures from the same outcome instrument.
+  there are initial and final measures from the same outcome instrument.
 * The change for an episode is based on the effect size statistic which is
   defined as (score at episode start − score at episode end) / standard
   deviation of episode start scores for all episodes
@@ -1410,12 +1410,13 @@ Key specifications:
 
 .. _category-i:
 
-Category I: IAR-DST
--------------------
+Category I: Monitoring Intakes
+------------------------------
 
-These reports summarise the results of the Initial Assessment and Referral
-Decision Support Tool (`IAR-DST <https://docs.iar-dst.online/en/latest/>`_) and
-the clinical assessments based thereon.
+These reports monitor intakes and dispatches to treatment organisations. Some reports 
+summarise the results and context of the Initial Assessment and
+Referral Decision Support Tool (`IAR-DST <https://docs.iar-dst.online/en/latest/>`_); others 
+look at the extent of linkage between intake and treatment episodes.
 
 .. contents:: Available category I reports
    :local:
