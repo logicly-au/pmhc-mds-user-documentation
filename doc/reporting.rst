@@ -1413,9 +1413,10 @@ Key specifications:
 Category I: Monitoring Intakes
 ------------------------------
 
-These reports monitor intakes and summarise the results of the Initial Assessment and
-Referral Decision Support Tool (`IAR-DST <https://docs.iar-dst.online/en/latest/>`_)
-and the clinical assessments based thereon.
+These reports monitor intakes and dispatches to treatment organisations. Some reports 
+summarise the results and context of the Initial Assessment and
+Referral Decision Support Tool (`IAR-DST <https://docs.iar-dst.online/en/latest/>`_); others 
+look at the extent of linkage between intake and treatment episodes.
 
 .. contents:: Available category I reports
    :local:
