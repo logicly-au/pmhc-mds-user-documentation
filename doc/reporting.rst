@@ -1538,10 +1538,10 @@ Key specifications:
 * The report counts intakes where the client first contacted the service during
   the reporting period
 
-.. _category-i6:
+.. _category-i6-and-i7:
 
-I6 — Intake Dispatch Status by Intake Organisation
-++++++++++++++++++++++++++++++++++++++++++++++++++
+I6 — Intake Dispatch Status by Intake Organisation and I7 — Link Status of Episodes Dispatched to Organisation
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 The I6 and I7 comprise a pair of reports intended to help monitor linkage of
 intake and treatment (episode) organisation. Recording of such linkages is more
@@ -1563,10 +1563,18 @@ treatment for the intakes in the Linked column. Note that the total for the By
 Treatment Organisation column can be higher than that for the Linked column as
 a single intake can be associated with more than one treatment episode.
 
+The I7 takes all EPISODES for the chosen organisations (the Total column) and
+classifies them as having (the Linked column) or not having (the Unlinked column)
+a corresponding Intake Episode record.
+
+The By Intake Organisation column displays the organisation that recorded intake
+for the episodes in the Linked column. An episode can only be linked to a single
+intake, so in this report the total for By Intake Organisation must be the same
+as the total for the Linked column.
+
 Key specifications:
 
 * The Date client contacted Intake must have occurred during the reporting period
-
 
 .. _produce-twb-report:
 
