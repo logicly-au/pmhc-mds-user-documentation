@@ -7,6 +7,7 @@ User Guide Change log
 ----------
 
 * Added :ref:`category-i8`
+* Added :ref:`category-i9`
 
 05/06/2023
 ----------

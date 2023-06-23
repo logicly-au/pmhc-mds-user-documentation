@@ -1413,9 +1413,9 @@ Key specifications:
 Category I: Monitoring Intakes
 ------------------------------
 
-These reports monitor intakes and dispatches to treatment organisations. Some reports 
+These reports monitor intakes and dispatches to treatment organisations. Some reports
 summarise the results and context of the Initial Assessment and
-Referral Decision Support Tool (`IAR-DST <https://docs.iar-dst.online/en/latest/>`_); others 
+Referral Decision Support Tool (`IAR-DST <https://docs.iar-dst.online/en/latest/>`_); others
 look at the extent of linkage between intake and treatment episodes.
 
 .. contents:: Available category I reports
@@ -1604,6 +1604,25 @@ Key specifications:
   Intake Key in the Intake Episode table that do not have a corresponding entry
   in the Intake records in the MDS
 * There is no date restriction on this report
+
+.. _category-i9:
+
+I9 — Dispatches to unidentified MDS treatment organisations
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+The I9 reports intakes where a client is referred to one or more MDS Reporting
+organisation, but no specific organisation is identified in the Referred To Organisation Path field.
+
+*Note:* that an intake may be dispatched to more than organisation type.
+
+Key specifications:
+
+* The inclusion criterion for intakes is a ‘Date client contacted Intake’ within
+  the reporting period
+* The intake must indicate one or more dispatches to an ‘Organisation type referred
+  to at Intake conclusion’ with a code of 42, 43 or 44 (“AMHC”, “Other PHN funded service”,
+  or “HeadtoHelp / HeadtoHealth”)
+* The report counts intakes, not dispatches
 
 .. _produce-twb-report:
 
