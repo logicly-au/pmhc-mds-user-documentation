@@ -1538,6 +1538,10 @@ Key specifications:
 * The report counts intakes where the client first contacted the service during
   the reporting period
 
+.. _category-i6:
+
+.. _category-i7:
+
 .. _category-i6-and-i7:
 
 I6 — Intake Dispatch Status by Intake Organisation and I7 — Link Status of Episodes Dispatched to Organisation
@@ -1575,6 +1579,31 @@ as the total for the Linked column.
 Key specifications:
 
 * The Date client contacted Intake must have occurred during the reporting period
+
+.. _category-i8:
+
+I8 — Links Without an Existing Intake
++++++++++++++++++++++++++++++++++++++
+
+The I8 identifies cases where a treatment organisation has submitted an Intake
+Episode record, but the corresponding Intake record does not exist in the MDS.
+This is possible because different organisations are responsible for these two
+types of records and the treatment organisation that provides the Intake Episode
+record may do so before the organisation responsible for the intake submits the
+Intake record. However an Intake Episode can only be submitted if the organisation
+path and intake key of the intake are defined, so the existence of the intake can
+be inferred (and identified) even in the absence of the Intake record. This report
+shows where the implied intake has not had its record submitted. For any organisation
+listed in a row the report counts the “missing” Intake records for which the
+organisation is responsible (“Dispatched by”) and those for which it has implied
+the existence of an intake by submitting an Intake Episode record (“Dispatched to”).
+
+Key specifications:
+
+* Cases in this report are identified by a combination of Organisation Path and
+  Intake Key in the Intake Episode table that do not have a corresponding entry
+  in the Intake records in the MDS
+* There is no date restriction on this report
 
 .. _category-i9:
 
