@@ -1559,7 +1559,7 @@ Key specifications:
 
 * Cases in this report are identified by a combination of Organisation Path and
   Intake Key in the Intake Episode table that do not have a corresponding entry
-  in the Intake records submitted to the MDS
+  in the Intake records in the MDS
 * There is no date restriction on this report
 
 .. _produce-twb-report:
