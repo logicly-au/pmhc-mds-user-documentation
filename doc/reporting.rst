@@ -1400,7 +1400,7 @@ Key specifications:
 * Clients comprise the clients who were the subject of the episodes defined
   immediately above, and are counted uniquely regardless of number of episodes
 * The episode count on the far right is the subset of the 'Episodes N' for which
-  there are inital and final measures from the same outcome instrument.
+  there are initial and final measures from the same outcome instrument.
 * The change for an episode is based on the effect size statistic which is
   defined as (score at episode start − score at episode end) / standard
   deviation of episode start scores for all episodes
@@ -1410,12 +1410,13 @@ Key specifications:
 
 .. _category-i:
 
-Category I: IAR-DST
--------------------
+Category I: Monitoring Intakes
+------------------------------
 
-These reports summarise the results of the Initial Assessment and Referral
-Decision Support Tool (`IAR-DST <https://docs.iar-dst.online/en/latest/>`_) and
-the clinical assessments based thereon.
+These reports monitor intakes and dispatches to treatment organisations. Some reports 
+summarise the results and context of the Initial Assessment and
+Referral Decision Support Tool (`IAR-DST <https://docs.iar-dst.online/en/latest/>`_); others 
+look at the extent of linkage between intake and treatment episodes.
 
 .. contents:: Available category I reports
    :local:
@@ -1536,6 +1537,48 @@ Key specifications:
 
 * The report counts intakes where the client first contacted the service during
   the reporting period
+
+.. _category-i6:
+
+.. _category-i7:
+
+.. _category-i6-and-i7:
+
+I6 — Intake Dispatch Status by Intake Organisation and I7 — Link Status of Episodes Dispatched to Organisation
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+The I6 and I7 comprise a pair of reports intended to help monitor linkage of
+intake and treatment (episode) organisation. Recording of such linkages is more
+complex than most MDS processes because they can involve data submission by more
+than one submitter. The data from intake and treatment organisations an be uploaded
+at different times, so potentially only one side of the transaction may be in the
+MDS. These reports help identify the extent to which events that can be inferred
+to exist have not been submitted.
+
+The I6 looks at what has happened from an intake perspective, the I7 from a
+treatment perspective.
+
+The I6 takes all the INTAKES for the chosen organisations (the Total column) and
+classifies them as having (the Linked column) or not having (the Unlinked column)
+a corresponding Intake Episode record.
+
+The By Treatment Organisation column displays the organisations that recorded
+treatment for the intakes in the Linked column. Note that the total for the By
+Treatment Organisation column can be higher than that for the Linked column as
+a single intake can be associated with more than one treatment episode.
+
+The I7 takes all EPISODES for the chosen organisations (the Total column) and
+classifies them as having (the Linked column) or not having (the Unlinked column)
+a corresponding Intake Episode record.
+
+The By Intake Organisation column displays the organisation that recorded intake
+for the episodes in the Linked column. An episode can only be linked to a single
+intake, so in this report the total for By Intake Organisation must be the same
+as the total for the Linked column.
+
+Key specifications:
+
+* The Date client contacted Intake must have occurred during the reporting period
 
 .. _category-i8:
 
