@@ -1581,10 +1581,10 @@ Key specifications:
 I9 — Dispatches to unidentified MDS treatment organisations
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-TThe I9 reports intakes where a client is referred to one or more MDS Reporting
+The I9 reports intakes where a client is referred to one or more MDS Reporting
 organisation, but no specific organisation is identified in the Referred To Organisation Path field.
 
-*Note:* that an intake may be referred to more than organisation type.
+*Note:* that an intake may be dispatched to more than organisation type.
 
 Key specifications:
 
