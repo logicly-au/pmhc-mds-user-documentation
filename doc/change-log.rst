@@ -3,7 +3,7 @@
 User Guide Change log
 =====================
 
-22/05/2023
+26/06/2023
 ----------
 
 * Added :ref:`category-i8`

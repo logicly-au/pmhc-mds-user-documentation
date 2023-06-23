@@ -1542,22 +1542,25 @@ Key specifications:
 I8 — Links Without an Existing Intake
 +++++++++++++++++++++++++++++++++++++
 
-The I8 counts episodes where an intake is known to have taken place (and indeed
-where it took place) but the Intake record does not exist. This is possible
-because data from intake and treatment organisations an be uploaded at different
-times. The linkage is defined by Intake Episode records that are submitted by the 
-treatment organisation. An Intake Episode cannot exist in the MDS without the
-related Episode record also existing, however the related Intake record may not exist.
-
-The I8 is intended to help treatment organisations identify the episodes they are
-responsible for but for which the intake organisation has not provided the intake
-record and intake organisations understand where they have not submitted intake
-records that should exist (the Dispatched by column).
+The I8 identifies cases where a treatment organisation has submitted an Intake
+Episode record, but the corresponding Intake record does not exist in the MDS.
+This is possible because different organisations are responsible for these two
+types of records and the treatment organisation that provides the Intake Episode
+record may do so before the organisation responsible for the intake submits the
+Intake record. However an Intake Episode can only be submitted if the organisation
+path and intake key of the intake are defined, so the existence of the intake can
+be inferred (and identified) even in the absence of the Intake record. This report
+shows where the implied intake has not had its record submitted. For any organisation
+listed in a row the report counts the “missing” Intake records for which the
+organisation is responsible (“Dispatched by”) and those for which it has implied
+the existence of an intake by submitting an Intake Episode record (“Dispatched to”).
 
 Key specifications:
 
-* The report summarises all episodes that should have an intake record regardless
-  of when the intake occurred
+* Cases in this report are identified by a combination of Organisation Path and
+  Intake Key in the Intake Episode table that do not have a corresponding entry
+  in the Intake records submitted to the MDS
+* There is no date restriction on this report
 
 .. _produce-twb-report:
 
