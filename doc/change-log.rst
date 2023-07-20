@@ -3,6 +3,11 @@
 User Guide Change log
 =====================
 
+21/07/2023
+----------
+
+* Added :ref:`system-report-tag-filter`
+
 26/06/2023
 ----------
 
