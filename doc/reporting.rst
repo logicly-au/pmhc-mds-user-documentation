@@ -145,6 +145,24 @@ pertinent for headspace. However there are two headspace only
 reports - the :ref:`category-a12` and the :ref:`category-b7` - and
 contact-based reports are enhanced to allow breakdowns by funding source.
 
+
+.. _system-report-tag-filter:
+
+Filter by Tag
+^^^^^^^^^^^^^
+
+The Department reserved tags identify specific data record types in the PMHC MDS and begin with an exclamation mark (!).
+
+The following tags can currently be used to filter data for reports:
+
+* `!amhc - Australian Government Mental Health Centres <https://docs.pmhc-mds.com/projects/data-specification/en/latest/reserved-tags.html?highlight=!amhc#amhc-australian-government-mental-health-centres>`_
+* `!br20 - Australian Government Mental Health Response to Bushfire <https://docs.pmhc-mds.com/projects/data-specification/en/latest/reserved-tags.html?highlight=!amhc#br20>`_
+* `!covid19 - Episode occurred as result of COVID-19 pandemic <https://docs.pmhc-mds.com/projects/data-specification/en/latest/reserved-tags.html?highlight=!amhc#covid19-australian-government-headtohelp-hubs>`_
+* `!wayback - The Way Back Support Service <https://docs.pmhc-mds.com/projects/data-specification-wayback/en/v3/data-specification/identifier-management.html#identifier-pmhc-twb-episode-tag>`_
+
+*Note: Local tags can not be used to filter standard reports.*
+
+
 .. _system-report-types:
 
 Types of Standard reports

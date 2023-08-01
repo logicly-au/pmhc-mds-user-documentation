@@ -7,6 +7,7 @@ User Guide Change log
 ----------
 
 * Update :ref:`category-a1`
+* Added :ref:`system-report-tag-filter`
 
 
 26/06/2023
