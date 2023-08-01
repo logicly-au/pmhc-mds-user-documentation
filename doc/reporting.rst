@@ -203,7 +203,8 @@ A1 — High level summary of overall volumes by entity
 
 This report is designed to provide a 'one page' view, with data aggregated for
 the specified reporting period, covering counts of clients, episodes and
-service contacts.
+service contacts. The A1 allows data to be broken down into entities or by
+Principal Focus of Treatment Plan or by Practitioner types.
 
 Key specifications:
 
@@ -215,6 +216,7 @@ Key specifications:
 * All Service Contacts in the period are reported except those that are flagged
   as 'No Show'
 * Only service contacts with primary practitioners are included in the report
+* Only primary practitioners are counted in the Practitioner Category breakdowns
 
 .. _category-a1a:
 
@@ -226,7 +228,7 @@ with data aggregated for the specified reporting period. The count is not incorp
 with the A1 because it is based on different inclusion criteria. Additionally,
 intakes have no stratification options because PHN/PO is the only applicable
 stratification and this is presented automatically. (The A1 allows stratification
-by Practitioner Category and Principle Focus of Treatment as well as PHN/PO)
+by Practitioner Category and Principle Focus of Treatment Plan as well as PHN/PO)
 
 Key specifications:
 
@@ -863,8 +865,8 @@ B6 — Client Outcomes
 
 The B6 report is an extension of the outcome indicators that note significant
 clinical changes between episode start and finish. Out-1 and Out-2
-(:ref:`category-out-1-2`) are restricted to episodes with a principal focus of
-treatment classified as "Low intensity psychological interventions" and
+(:ref:`category-out-1-2`) are restricted to episodes with a Principal Focus of
+Treatment Plan classified as "Low intensity psychological interventions" and
 "Psychological therapies delivered by mental health professionals"
 respectively. The B6 extends this to any type of focus.
 

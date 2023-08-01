@@ -3,10 +3,12 @@
 User Guide Change log
 =====================
 
-21/07/2023
+01/08/2023
 ----------
 
+* Update :ref:`category-a1`
 * Added :ref:`system-report-tag-filter`
+
 
 26/06/2023
 ----------
