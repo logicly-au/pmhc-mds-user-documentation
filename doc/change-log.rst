@@ -3,10 +3,23 @@
 User Guide Change log
 =====================
 
-22/05/2023
+01/08/2023
 ----------
 
 * Update :ref:`category-a1`
+
+
+26/06/2023
+----------
+
+* Added :ref:`category-i8`
+* Added :ref:`category-i9`
+
+05/06/2023
+----------
+
+* Updated :ref:`category-i` renamed from 'IAR-DST' to 'Monitoring Intakes'
+* Added :ref:`category-i6-and-i7`
 
 31/03/2023
 ----------
