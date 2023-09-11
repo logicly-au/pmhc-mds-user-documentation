@@ -1117,6 +1117,7 @@ Key specifications:
 * Service Contacts flagged as ‘No Show’ are not included for this purpose
 * Population is calculated from Estimated Regional Population figures
 * KPI is measured in clients per 100,000 population
+* Age is calculated at start of episode
 
 .. _category-acc-2:
 
@@ -1225,6 +1226,7 @@ Key specifications:
   Contact Occurred’
 * KPI is measured as percentage of episodes flagged as a suicide risk which
   have a service contact within 7 days
+* Age is calculated at start of episode
 
 .. _category-out:
 
@@ -1243,6 +1245,7 @@ Key specifications applying to all Out series reports:
   associated with the episode but it need not be in the reporting period
 * Measures that have an invalid total score of ‘99 = Not stated / Missing’ are excluded
 * To be counted as 'Matched', both an initial and final measure of matching type must be recorded. See :ref:`matching_measure_types`.
+* Age is calculated at start of episode
 
 *Note:* Matching of measures in the Out series is tighter than that used in :ref:`category-a9`,
 so figures may vary between these reports.
