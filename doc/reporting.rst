@@ -1135,6 +1135,7 @@ Key specifications:
 * Service Contacts flagged as ‘No Show’ are not included for this purpose
 * Population is calculated from Estimated Regional Population figures
 * KPI is measured in clients per 100,000 population
+* Age is calculated at start of episode
 
 .. _category-acc-3:
 
@@ -1153,6 +1154,7 @@ Key specifications:
 * Service Contacts flagged as ‘No Show’ are not included for this purpose
 * Population is calculated from Estimated Regional Population figures
 * KPI is measured in clients per 100,000 population
+* Age is calculated at start of episode
 
 .. _category-app-1:
 
@@ -1197,6 +1199,7 @@ Key specifications:
   they have completed a recognised training programme in the delivery of
   culturally safe services to ATSI peoples
 * Only service contacts with primary practitioners are included in the report
+* Age is calculated at start of episode
 
 .. _category-app-3:
 
