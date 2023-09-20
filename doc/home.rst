@@ -340,8 +340,8 @@ If you have forgotten your password or it has expired:
 
 .. _blocked-user:
 
-Forgotten or Expired Password
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Account Blocked
+^^^^^^^^^^^^^^^
 
 To ensure security, the system blocks users who make too many incorrect attempts
 to access their account on the PMHC MDS.
