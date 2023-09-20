@@ -68,14 +68,14 @@ After navigating to https://pmhc-mds.net/, click **Sign in**.
    :width: 400
    :alt: PMHC MDS Sign In
 
-This will open a window to log in. Enter your email address or username
-and then your password and click **Sign in**.
+This will open a window to log in. Enter your email address and then your
+password and click **Sign in**.
 
-To maintain compliance with current best practices in security policy, 
-Multi Factor Authentication (MFA) is in the process of being implemented for user access 
+To maintain compliance with current best practices in security policy,
+Multi Factor Authentication (MFA) is in the process of being implemented for user access
 to the PMHC MDS. It is being iteratively rolled out to specific user groups.
-Please refer to the 
-`MFA documentation <https://docs.logicly.com.au/en/latest/mfa-user-guide/index.html>`_ 
+Please refer to the
+`MFA documentation <https://docs.logicly.com.au/en/latest/mfa-user-guide/index.html>`_
 for assistance in setting up and using MFA.
 
 .. figure:: screen-shots/backup-email.png
@@ -152,7 +152,7 @@ To edit your details:
 1. Click the button to the right of the menubar that says **Logged in as [Name]**
 2. From the menu that opens, click **Profile**
 3. You will be taken to the Profile Management page
-4. Login using your PMHC MDS email / username and password
+4. Login using your PMHC MDS email and password
 
 .. figure:: screen-shots/account-manage-profile-login.png
    :alt: PMHC MDS Manage Details
