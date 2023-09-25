@@ -1099,8 +1099,33 @@ information that is not derived from the PMHC MDS:
   support integrated regional planning and service delivery
 
 
+.. _category-acc:
 
 .. _category-acc-1:
+
+.. _category-acc-2:
+
+.. _category-acc-3:
+
+ACC series reports
+++++++++++++++++++
+
+Key specifications applying to all ACC series reports:
+
+* Only ‘active clients’ are reported. A Client is defined as ‘active’ and
+  in scope for inclusion in this report if they had one or more Service Contacts
+  recorded in the period.
+* Service Contacts flagged as ‘No Show’ are not included for this purpose
+* Population is calculated from Estimated Regional Population figures
+* KPI is measured in clients per 100,000 population
+
+And key specifications for:
+
+.. contents::
+   :local:
+   :depth: 1
+
+.. _category-acc-1only:
 
 Acc-1 — Access to Low Intensity Services
 ++++++++++++++++++++++++++++++++++++++++
@@ -1108,17 +1133,14 @@ Acc-1 — Access to Low Intensity Services
 Purpose: Measure the proportion of regional population receiving PHN-commissioned
 low intensity psychological interventions
 
+See :ref:`key specifications for all ACC series reports <category-acc>`, plus:
+
 Key specifications:
 
-* Only ‘active clients’ are reported. A Client is defined as ‘active’ and
-  in scope for inclusion in this report if they had one or more Service Contacts
-  recorded in the period. The episode must have a 'Principal Focus of Treatment
+* The episode must have a 'Principal Focus of Treatment
   Plan' flagged as 'Low intensity psychological intervention'
-* Service Contacts flagged as ‘No Show’ are not included for this purpose
-* Population is calculated from Estimated Regional Population figures
-* KPI is measured in clients per 100,000 population
 
-.. _category-acc-2:
+.. _category-acc-2only:
 
 Acc-2 — Access to Psychological Services
 ++++++++++++++++++++++++++++++++++++++++
@@ -1126,17 +1148,14 @@ Acc-2 — Access to Psychological Services
 Purpose: Measure the proportion of regional population receiving PHN-commissioned
 psychological therapies delivered by mental health professionals.
 
+See :ref:`key specifications for all ACC series reports <category-acc>`, plus:
+
 Key specifications:
 
-* Only ‘active clients’ are reported. A Client is defined as ‘active’ and
-  in scope for inclusion in this report if they had one or more Service Contacts
-  recorded in the period. The episode must have a 'Principal Focus of Treatment
+* The episode must have a 'Principal Focus of Treatment
   Plan' flagged as 'Psychological therapy'
-* Service Contacts flagged as ‘No Show’ are not included for this purpose
-* Population is calculated from Estimated Regional Population figures
-* KPI is measured in clients per 100,000 population
 
-.. _category-acc-3:
+.. _category-acc-3only:
 
 Acc-3 — Access to Clinical Care Coordination
 ++++++++++++++++++++++++++++++++++++++++++++
@@ -1144,15 +1163,12 @@ Acc-3 — Access to Clinical Care Coordination
 Purpose: Measure the proportion of regional population receiving PHN-commissioned
 clinical care coordination for people with severe and complex mental illness.
 
+See :ref:`key specifications for all ACC series reports <category-acc>`, plus:
+
 Key specifications:
 
-* Only ‘active clients’ are reported. A Client is defined as ‘active’ and
-  in scope for inclusion in this report if they had one or more Service Contacts
-  recorded in the period. The episode must have a 'Principal Focus of Treatment
+* The episode must have a 'Principal Focus of Treatment
   Plan' flagged as 'Clinical care coordination'
-* Service Contacts flagged as ‘No Show’ are not included for this purpose
-* Population is calculated from Estimated Regional Population figures
-* KPI is measured in clients per 100,000 population
 
 .. _category-app-1:
 
