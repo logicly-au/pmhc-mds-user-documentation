@@ -3,6 +3,12 @@
 User Guide Change log
 =====================
 
+21/09/2023 
+----------
+
+* Updated :ref:`category-app-3`
+
+
 01/08/2023
 ----------
 
