@@ -910,7 +910,7 @@ providers and consumers to work together to build better services. Completion of
 the survey is voluntary. All information collected in this survey is anonymous.
 
 Detailed description and explanation about using and interpreting the YES-PHN
-is available at https://www.amhocn.org/sites/default/files/publication_files/yes_phn_guidance_v1.0_20200408.pdf.
+is available at https://www.amhocn.org/__data/assets/pdf_file/0018/700452/yes_phn_guidance_v1.0_20200408.pdf.
 The YES PHN index in the B8 report reflects the definition in this document and
 reports the proportion of respondents with an experience of service score over 80.
 
