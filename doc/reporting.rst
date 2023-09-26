@@ -1221,6 +1221,12 @@ Key specifications:
 
 .. _category-out:
 
+.. _category-out-1:
+
+.. _category-out-2:
+
+.. _category-out-3:
+
 Out series reports (Out-1 to Out-3)
 +++++++++++++++++++++++++++++++++++
 
@@ -1261,7 +1267,7 @@ See :ref:`key specifications for all Out series reports <category-out>`, plus:
   interventions", Out-2 only those identified as "Psychological therapies
   delivered by mental health professionals"
 
-.. _category-out-3:
+.. _category-out-3only:
 
 Out-3 — Completion rates for clinical outcome measures
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''
