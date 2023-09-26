@@ -630,10 +630,6 @@ Key specifications:
 A9 — Data quality report — Recording of outcome measures for completed episodes
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-.. note::
-   The criteria used for episode inclusion in this report have changed significantly
-   in September 2019 to bring them into line with the :ref:`category-out`.
-
 The A9 report is designed to show the percentage of completed episodes that have
 outcome measures recorded. Its purpose is to allow monitoring of adherence to
 the minimum requirements for outcome recording — i.e. measures to be recorded
@@ -1227,11 +1223,6 @@ Key specifications:
 
 Out series reports (Out-1 to Out-3)
 +++++++++++++++++++++++++++++++++++
-
-.. note::
-   The Out series reports were released but not widely advertised in August
-   2019 with different specifications. The revised (current) specifications
-   were released September 2019.
 
 Key specifications applying to all Out series reports:
 
