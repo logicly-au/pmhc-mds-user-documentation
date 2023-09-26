@@ -1107,8 +1107,22 @@ information that is not derived from the PMHC MDS:
 
 .. _category-acc-3:
 
-ACC series reports
+Acc series reports
 ++++++++++++++++++
+
+Purpose: Measure the proportion of regional population receiving PHN-commissioned
+specific services.
+
+Please note: For Acc series reports, it's important to keep in mind that the splits
+may not always produce the same totals. Clients can have multiple episodes and each
+episode can be counted in each group. Using age group as an example, the episode
+start date is used to determine a client's age. When a client has multiple episodes,
+and their birthday has occurred in the reporting period, each episode can fall
+into a different age group.
+
+Additionally, the remoteness classifications are derived using the episode postcode,
+but a postcode can belong to multiple remoteness classifications. These reports
+will proportion an individual episode across all relevant classifications. For example, postcode 2900 has been classified as both a major city and an inner region.
 
 Key specifications applying to all ACC series reports:
 
