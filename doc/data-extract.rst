@@ -16,48 +16,73 @@ who has the 'User Management' role. If you are unsure who has the 'User Manageme
 role please email the PMHC Helpdesk at support@pmhc-mds.com
 
 After navigating to the **Data Extract** tab, you will see a form
-to request and download a data extract.
+to request a data extract.
 
 .. figure:: screen-shots/data-extract.png
    :alt: PMHC MDS Organisations
 
-.. _view-data-extract:
+.. _request-data-extract:
 
-How to download an organisation's data
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+How to request an organisation's data
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-You can extract a PHN's or provider organisation's PMHC MDS data by completing
-the Download Data fields in the Data Extraction tab, by following these steps:
+You can request a organisation's PMHC MDS data by completing
+the **Request extract** fields in the **Data Extract** tab, by following these steps:
 
 1. Navigate to the **Data Extract** tab
-2. If you are allowed to download data from more than one organisation you will be
-   asked to select an organisation name
-3. Click the first calendar icon to select the start date and then the second
-   calendar icon to select the end date. See :ref:`data-extract-dates`
-4. Click the checkboxes next to the name/path of the organisation/s from the drop down list.
-5. Select the appropriate file type to be downloaded
-6. Click the checkboxes as relevant:
+2. On the **Request extract** tab, click the first calendar icon to select the start date
+   and then the second calendar icon to select the end date. See :ref:`data-extract-dates`
+3. Click the checkbox next to the organisation name/path. You can use the filter
+   options under the organisation name or organisation path to find the relevant
+   organisation. Only one PHN/organisation can be request at a time
+4. Select the data specification type, if other than PMHC 4.0  See :ref:`data-extract-specification`
+5. Click the options checkboxes as relevant. See :ref:`data-extract-options`
+6. Select the appropriate file type to be downloaded
 
-   * :ref:`data-extract-all-specifications`
-   * :ref:`data-extract-data-without-dates`
-   * :ref:`data-extract-all-specifications`
-
-   .. figure:: screen-shots/data-extract-view-form.png
-      :alt: PMHC MDS File Selected
+   .. figure:: screen-shots/data-extract-request-form.png
+      :alt: PMHC MDS Extract Request Form
 
 7. Click the blue **Request** button
-8. A dialogue box will be displayed, showing that the file is being requested from the server
+8. You will receive confirmation that the extract has been successfully requested,
+   and the screen will now be blank ready for the next extract request
 
-   .. figure:: screen-shots/data-extract-message-requesting.png
-      :alt: PMHC MDS File Selected
+      .. figure:: screen-shots/data-extract-message-requested.png
+         :alt: PMHC MDS Extract Requested Successfully
 
-9. When the file is ready, a 'File ready for download' message will be displayed
+*Note:* If you are not sure how data is displayed in a extract, please click on
+the **Associated Date Rules Explained** link to see the dates, specifications and
+options explained
 
-   .. figure:: screen-shots/data-extract-message-download.png
-      :alt: PMHC MDS File Selected
+9. Requested extracts will be available under the next tab, **View extracts** tab.
+See :ref:`view-data-extract`.
 
-10. Click the blue **Download** button
-11. The data extract will be downloaded to your computer
+.. _view-data-extract:
+
+How to download a requested extract
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+You can download the requested organisation's data by viewing a
+the **View extracts** table in the **Data Extract** tab, by following these steps:
+
+1. Navigate to the **Data Extract** tab
+2. Open the **View extracts** tab
+3. Find the extract you would like to download in the View Extracts table
+
+   .. figure:: screen-shots/data-extract-view-extracts.png
+      :alt: PMHC MDS View Extracts table
+
+4. Click the **Download** icon located to the far right of each extract request
+   in the 'Actions' column.
+
+*Note:* If the download icon is not displayed in the 'Actions' column, the system
+is still in the process of downloading it. You can use the 'Refresh' icon to check
+if the download has completed.
+
+5. You will receive confirmation that the extract has been successfully requested
+   via your browser
+
+Requested extracts will be available under the **View Extracts** tab for 7 days.
+
 
 .. _data-extract-dates:
 
