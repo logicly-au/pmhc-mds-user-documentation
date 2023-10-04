@@ -4,7 +4,7 @@ Concepts and Processes Frequently Asked Questions
 =================================================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    scope
    data-definitions

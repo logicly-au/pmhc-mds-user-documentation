@@ -7,7 +7,7 @@ The following tools are available in the PMHC MDS.
 
 .. contents::
    :local:
-   :depth: 2
+   :depth: 1
 
 .. _slk-generator:
 
@@ -16,7 +16,7 @@ SLK
 
 .. contents::
    :local:
-   :depth: 2
+   :depth: 1
 
 We have provided a stand-alone generator that can be used without logging into
 the PMHC MDS on https://pmhc-mds.net. This allows users to generate a client's

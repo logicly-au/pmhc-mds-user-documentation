@@ -5,7 +5,7 @@ Users
 
 .. contents::
    :local:
-   :depth: 2
+   :depth: 1
 
 You will only be able to see the **Users** tab if you have been assigned
 the 'User Management' role, when logged into the PMHC MDS on https://pmhc-mds.net.

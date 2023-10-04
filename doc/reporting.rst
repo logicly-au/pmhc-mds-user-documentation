@@ -5,7 +5,7 @@ Reports
 
 .. contents::
    :local:
-   :depth: 2
+   :depth: 1
 
 You will only be able to see the **Reports** tab if you have been assigned
 the 'Reporting' :ref:`roles`, when logged into the PMHC MDS on https://pmhc-mds.net.
@@ -67,7 +67,9 @@ The following are listed as the data sources currently available for reports:
 
 .. contents::
    :local:
-   :depth: 1
+   :depth: 3
+
+.. _data-source-all-program-types:
 
 All PMHC Program Types
 ----------------------
@@ -76,7 +78,7 @@ The All PMHC Program Types data source includes all the following PMHC Program T
 
 .. contents::
    :local:
-   :depth: 2
+   :depth: 3
 
 Data linked to Beyond Blue The Way Back extension is included in all of these Program Types.
 In order to partition reports by Way Back data a separate selection has been provided.
@@ -630,10 +632,6 @@ Key specifications:
 A9 — Data quality report — Recording of outcome measures for completed episodes
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-.. note::
-   The criteria used for episode inclusion in this report have changed significantly
-   in September 2019 to bring them into line with the :ref:`category-out`.
-
 The A9 report is designed to show the percentage of completed episodes that have
 outcome measures recorded. Its purpose is to allow monitoring of adherence to
 the minimum requirements for outcome recording — i.e. measures to be recorded
@@ -914,7 +912,7 @@ providers and consumers to work together to build better services. Completion of
 the survey is voluntary. All information collected in this survey is anonymous.
 
 Detailed description and explanation about using and interpreting the YES-PHN
-is available at https://www.amhocn.org/sites/default/files/publication_files/yes_phn_guidance_v1.0_20200408.pdf.
+is available at https://www.amhocn.org/__data/assets/pdf_file/0018/700452/yes_phn_guidance_v1.0_20200408.pdf.
 The YES PHN index in the B8 report reflects the definition in this document and
 reports the proportion of respondents with an experience of service score over 80.
 
@@ -1107,8 +1105,8 @@ information that is not derived from the PMHC MDS:
 
 .. _category-acc-3:
 
-ACC series reports
-++++++++++++++++++
+ACC series reports (Acc-1 to Acc-3)
++++++++++++++++++++++++++++++++++++
 
 Key specifications applying to all ACC series reports:
 
@@ -1118,6 +1116,7 @@ Key specifications applying to all ACC series reports:
 * Service Contacts flagged as ‘No Show’ are not included for this purpose
 * Population is calculated from Estimated Regional Population figures
 * KPI is measured in clients per 100,000 population
+* Age is calculated at start of episode
 
 And key specifications for:
 
@@ -1128,7 +1127,7 @@ And key specifications for:
 .. _category-acc-1only:
 
 Acc-1 — Access to Low Intensity Services
-++++++++++++++++++++++++++++++++++++++++
+''''''''''''''''''''''''''''''''''''''''
 
 Purpose: Measure the proportion of regional population receiving PHN-commissioned
 low intensity psychological interventions
@@ -1143,7 +1142,7 @@ Key specifications:
 .. _category-acc-2only:
 
 Acc-2 — Access to Psychological Services
-++++++++++++++++++++++++++++++++++++++++
+''''''''''''''''''''''''''''''''''''''''
 
 Purpose: Measure the proportion of regional population receiving PHN-commissioned
 psychological therapies delivered by mental health professionals.
@@ -1158,7 +1157,7 @@ Key specifications:
 .. _category-acc-3only:
 
 Acc-3 — Access to Clinical Care Coordination
-++++++++++++++++++++++++++++++++++++++++++++
+''''''''''''''''''''''''''''''''''''''''''''
 
 Purpose: Measure the proportion of regional population receiving PHN-commissioned
 clinical care coordination for people with severe and complex mental illness.
@@ -1170,10 +1169,32 @@ Key specifications:
 * The episode must have a 'Principal Focus of Treatment
   Plan' flagged as 'Clinical care coordination'
 
+.. _category-app:
+
 .. _category-app-1:
 
+.. _category-app-2:
+
+.. _category-app-3:
+
+APP series reports (App1 to App3)
++++++++++++++++++++++++++++++++++
+
+Key specifications applying to all ACC series reports:
+
+* Age is calculated at start of episode
+
+And key specifications for:
+
+.. contents::
+   :local:
+   :depth: 1
+
+
+.. _category-app-1only:
+
 App-1 — Youth receiving youth-specific services
-+++++++++++++++++++++++++++++++++++++++++++++++
+'''''''''''''''''''''''''''''''''''''''''''''''
 
 Purpose: Measure the proportion of regional youth population receiving
 youth-specific mental health services.
@@ -1189,12 +1210,12 @@ Key specifications:
 * Population is calculated from Estimated Regional Population figures
   for people aged 12-24
 * KPI is measured in clients per 100,000 population
-* Age is calculated at start of episode
 
-.. _category-app-2:
+
+.. _category-app-2only:
 
 App-2 — Indigenous Population receiving culturally appropriate services
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
 Purpose: Measure the proportion of PHN-commissioned mental health
 services delivered to the regional Indigenous population where the
@@ -1214,10 +1235,10 @@ Key specifications:
   culturally safe services to ATSI peoples
 * Only service contacts with primary practitioners are included in the report
 
-.. _category-app-3:
+.. _category-app-3only:
 
 App-3 — Suicide Risk Followup
-+++++++++++++++++++++++++++++
+'''''''''''''''''''''''''''''
 
 Purpose: Measure the proportion of people referred to PHN-commissioned
 services due to a recent suicide attempt or because they are at risk of
@@ -1241,13 +1262,14 @@ Key specifications:
 
 .. _category-out:
 
+.. _category-out-1:
+
+.. _category-out-2:
+
+.. _category-out-3:
+
 Out series reports (Out-1 to Out-3)
 +++++++++++++++++++++++++++++++++++
-
-.. note::
-   The Out series reports were released but not widely advertised in August
-   2019 with different specifications. The revised (current) specifications
-   were released September 2019.
 
 Key specifications applying to all Out series reports:
 
@@ -1256,6 +1278,7 @@ Key specifications applying to all Out series reports:
   associated with the episode but it need not be in the reporting period
 * Measures that have an invalid total score of ‘99 = Not stated / Missing’ are excluded
 * To be counted as 'Matched', both an initial and final measure of matching type must be recorded. See :ref:`matching_measure_types`.
+* Age is calculated at start of episode
 
 *Note:* Matching of measures in the Out series is tighter than that used in :ref:`category-a9`,
 so figures may vary between these reports.
@@ -1286,7 +1309,7 @@ See :ref:`key specifications for all Out series reports <category-out>`, plus:
   interventions", Out-2 only those identified as "Psychological therapies
   delivered by mental health professionals"
 
-.. _category-out-3:
+.. _category-out-3only:
 
 Out-3 — Completion rates for clinical outcome measures
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''
