@@ -16,7 +16,7 @@ SLK
 
 .. contents::
    :local:
-   :depth: 1
+   :depth: 2
 
 We have provided a stand-alone generator that can be used without logging into
 the PMHC MDS on https://pmhc-mds.net. This allows users to generate a client's
