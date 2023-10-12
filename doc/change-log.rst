@@ -3,16 +3,26 @@
 User Guide Change log
 =====================
 
-21/09/2023 
+12/10/2023 
 ----------
 
 * Updated :ref:`category-app-3`
 
+3/10/2023
+---------
+
+* Updated :ref:`category-acc` and :ref:`category-app`
+
+21/09/2023
+----------
+
+* Added :ref:`data-extract-specification`
+* Updated :ref:`data-extract-options`
 
 01/08/2023
 ----------
 
-* Update :ref:`category-a1`
+* Updated :ref:`category-a1`
 * Added :ref:`system-report-tag-filter`
 
 

@@ -5,7 +5,7 @@ Home, Sign-in & Passwords
 
 .. contents::
    :local:
-   :depth: 2
+   :depth: 1
 
 To use the PMHC MDS navigate to https://pmhc-mds.net.
 

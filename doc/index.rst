@@ -21,7 +21,7 @@ system. All enquiries should be directed to: support@pmhc-mds.com.
 .. toctree::
    :numbered:
    :caption: Table of Contents
-   :maxdepth: 1
+   :maxdepth: 3
 
    home
    organisations
