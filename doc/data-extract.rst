@@ -5,7 +5,7 @@ Data Extract
 
 .. contents::
    :local:
-   :depth: 2
+   :depth: 1
 
 You will only be able to see the **Data Extract** tab if you have been assigned
 the 'Reporting' :ref:`roles`, when logged into the PMHC MDS on https://pmhc-mds.net.
