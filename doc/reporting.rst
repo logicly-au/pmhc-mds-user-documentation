@@ -1259,6 +1259,15 @@ Purpose: Measure the proportion of people referred to PHN-commissioned
 services due to a recent suicide attempt or because they are at risk of
 suicide, who are followed up within 7 days of referral.
 
+Unlike most reports, this measure includes episodes where no service contact occurs
+to ensure all clients are followed up within the required timeframe, allowing for
+review of why no contact was made for this risk group.
+
+It is important to keep in mind that Episodes that have not yet commenced do not
+have a episode start date. As a result, it is not possible to determine the client's
+age at the beginning of the episode. Such clients will be included in the unknown
+age group.
+
 Key specifications:
 
 * Only episodes with a referral date within the reporting period are included
@@ -1272,6 +1281,7 @@ Key specifications:
   tabulated as ‘7 days or less’
 * Episodes where no service contact occurred are tabulated as ‘No Service
   Contact Occurred’
+* Clients with an uncommenced episode are tabulated as ‘Unknown’ age group
 * KPI is measured as percentage of episodes flagged as a suicide risk which
   have a service contact within 7 days
 
