@@ -285,6 +285,9 @@ passwords must be changed every three months. If you do not change your
 password it will expire and you will not be able to login to the system
 without resetting your password.
 
+   .. figure:: screen-shots/account-sign-in-error.png
+      :alt: PMHC MDS Wrong Username or Password
+
 If you have forgotten your password or it has expired:
 
 1. Navigate to https://pmhc-mds.net/ and click **Sign in**
@@ -346,9 +349,26 @@ Account Blocked
 To ensure security, the system blocks users who make too many incorrect attempts
 to access their account on the PMHC MDS.
 
-When this happens, an automated email will be sent to the
-email address the PMHC MDS has on file for the user.
+   .. figure:: screen-shots/account-blocked.png
+      :alt: PMHC MDS Account Blocked
+
+When this ocurrs, an automated email will be sent to the email address the
+PMHC MDS has on file for the user.
+
+   .. figure:: screen-shots/account-blocked-email-text.png
+      :alt: PMHC MDS Account Blocked Email Text
 
 1. Open the "Account blocked" email sent from support@logicly.com.au and follow
    the instructions in that email to unblock your account
-2. Reset your password before attempting to log in - See :ref:`forgotten-password`.
+
+      .. figure:: screen-shots/account-blocked-email-image.png
+         :alt: PMHC MDS Account Blocked Email Display
+
+2. If your IP address is displayed correctly, click the **Unblock** button
+
+The system will confirm if the unblock was successful.
+
+   .. figure:: screen-shots/account-unblocked.png
+      :alt: PMHC MDS Account Unblocked Success
+
+Please note: Reset your password before attempting to log in again - See :ref:`forgotten-password`.
