@@ -15,24 +15,30 @@ remain informed about development releases.
 YES-PHN Survey
 ^^^^^^^^^^^^^^
 
-.. _dev-YES-PHN-extract-upload-faq:
-
-YES-PHN Survey Data Extract/upload
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 The remaining YES-PHN Survey data features will be rolled out iteratively over
-the following months, and will be:
+the following months.
+
+.. _dev-YES-PHN-upload-faq:
+
+YES-PHN Survey Data Upload
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+* Ability to upload YES-PHN survey results collected outside of the PMHC MDS OMSSS feature
+
+.. _dev-YES-PHN-upload-faq:
+
+YES-PHN Survey Data Extract
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * Ability to extract YES-PHN survey data from the PMHC MDS data
-* Ability to upload YES-PHN survey data collected outside of the PMHC MDS OMSSS feature
 
 Due to privacy concerns, the Department is consulting with their legal advice
 about the YES-PHN text fields and if the data can be made available in an extract.
 
 .. _dev-data-entry-faq:
 
-YES-PHN Survey Report
-~~~~~~~~~~~~~~~~~~~~~
+YES-PHN Survey Reports
+~~~~~~~~~~~~~~~~~~~~~~
 
 The Department has consider local PHN requirements for YES-PHN reporting functionality.
 
