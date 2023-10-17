@@ -5,60 +5,65 @@ Development of the PMHC Minimum Data Set
 
 .. contents::
    :local:
-   :depth: 2
-
-.. _Stage-Two:
-
-Stage Two
-^^^^^^^^^
-
-.. _stage-two-date-faq:
-
-When is Stage Two of development going to be implemented?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Stage Two development has been split into several components as outlined below:
-
-* :ref:`dev-data-entry-faq`
-* :ref:`dev-reports-faq`
+   :depth: 1
 
 Regularly check the announcements on the `PMHC MDS homepage <https://pmhc-mds.net/#/>`_ to
 remain informed about development releases.
 
+.. _dev-YES-PHN-faq:
+
+YES-PHN Survey
+^^^^^^^^^^^^^^
+
+The remaining YES-PHN Survey data features will be rolled out iteratively over
+the following months.
+
+.. _dev-YES-PHN-upload-faq:
+
+YES-PHN Survey Data Upload
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+* Ability to upload YES-PHN survey results collected outside of the PMHC MDS OMSSS feature
+
+.. _dev-YES-PHN-upload-faq:
+
+YES-PHN Survey Data Extract
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+* Ability to extract YES-PHN survey data from the PMHC MDS data
+
+Due to privacy concerns, the Department is consulting with their legal advice
+about the YES-PHN text fields and if the data can be made available in an extract.
+
 .. _dev-data-entry-faq:
 
-Data Entry Interface
-~~~~~~~~~~~~~~~~~~~~
+YES-PHN Survey Reports
+~~~~~~~~~~~~~~~~~~~~~~
 
-The remaining features will be rolled out iteratively over the following months, and will be:
+The Department has consider local PHN requirements for YES-PHN reporting functionality.
 
-* Develop pre-filled fields for interrelated field specifications
-* An Online K5, K10+, and SDQ Outcome Measures Self-Service Interface (OMSSS)
-
-Regularly check the announcements on the `PMHC MDS home page <https://pmhc-mds.net/#/>`_ to remain informed.
+* The :ref:`category-b8` is already available
+* A more details YES-PHN Survey results report is currently in development
 
 .. _dev-reports-faq:
 
 Reporting
-~~~~~~~~~
+^^^^^^^^^
 
-The Department will consider local PHN reporting requirements in the next phase of reviewing current reporting functionality.
+The :ref:`category-i` are now all available.
 
-The :ref:`system-report-types` that are currently available are:
+The following reporting functionality is scheduled to be enhanced with row based summaries:
+* The :ref:`category-b1`
+* The :ref:`category-b2`
+* The :ref:`category-b3`
 
-* Category A: Monitoring progress of MDS implementation
-* Category B: Monitoring overall service delivery
-* Category C: Monitoring implementation of stepped care
-* Category D reports: Key Performance Indicators
-* Category E: Reports for data managers to monitor data supply
-
-Regularly check the announcements on the `PMHC MDS home page <https://pmhc-mds.net/#/>`_ to
-remain informed on development updates.
+The following new reporting functionality is scheduled to be developed:
+* A more details YES-PHN Survey results report
 
 .. _dev-MCI-faq:
 
 Master Client Index
-~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^
 
 Current development for the master client index is on hold.
 
