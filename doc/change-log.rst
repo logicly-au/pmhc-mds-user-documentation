@@ -3,10 +3,45 @@
 User Guide Change log
 =====================
 
-22/05/2023
+17/10/2023
 ----------
 
 * Added :ref:`blocked-user`
+
+12/10/2023 
+----------
+
+* Updated :ref:`category-app-3`
+
+3/10/2023
+---------
+
+* Updated :ref:`category-acc` and :ref:`category-app`
+
+21/09/2023
+----------
+
+* Added :ref:`data-extract-specification`
+* Updated :ref:`data-extract-options`
+
+01/08/2023
+----------
+
+* Updated :ref:`category-a1`
+* Added :ref:`system-report-tag-filter`
+
+
+26/06/2023
+----------
+
+* Added :ref:`category-i8`
+* Added :ref:`category-i9`
+
+05/06/2023
+----------
+
+* Updated :ref:`category-i` renamed from 'IAR-DST' to 'Monitoring Intakes'
+* Added :ref:`category-i6-and-i7`
 
 31/03/2023
 ----------

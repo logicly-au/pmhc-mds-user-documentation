@@ -5,7 +5,7 @@ Reports
 
 .. contents::
    :local:
-   :depth: 2
+   :depth: 1
 
 You will only be able to see the **Reports** tab if you have been assigned
 the 'Reporting' :ref:`roles`, when logged into the PMHC MDS on https://pmhc-mds.net.
@@ -67,7 +67,9 @@ The following are listed as the data sources currently available for reports:
 
 .. contents::
    :local:
-   :depth: 1
+   :depth: 3
+
+.. _data-source-all-program-types:
 
 All PMHC Program Types
 ----------------------
@@ -76,9 +78,9 @@ The All PMHC Program Types data source includes all the following PMHC Program T
 
 .. contents::
    :local:
-   :depth: 2
+   :depth: 3
 
-Data linked to Beyond Blue The Way Back extension is included in all of these Program Types. 
+Data linked to Beyond Blue The Way Back extension is included in all of these Program Types.
 In order to partition reports by Way Back data a separate selection has been provided.
 
 The PMHC data source does not include any hAPI headspace extension data.
@@ -145,6 +147,24 @@ pertinent for headspace. However there are two headspace only
 reports - the :ref:`category-a12` and the :ref:`category-b7` - and
 contact-based reports are enhanced to allow breakdowns by funding source.
 
+
+.. _system-report-tag-filter:
+
+Filter by Tag
+^^^^^^^^^^^^^
+
+The Department reserved tags identify specific data record types in the PMHC MDS and begin with an exclamation mark (!).
+
+The following tags can currently be used to filter data for reports:
+
+* `!amhc - Australian Government Mental Health Centres <https://docs.pmhc-mds.com/projects/data-specification/en/latest/reserved-tags.html?highlight=!amhc#amhc-australian-government-mental-health-centres>`_
+* `!br20 - Australian Government Mental Health Response to Bushfire <https://docs.pmhc-mds.com/projects/data-specification/en/latest/reserved-tags.html?highlight=!amhc#br20>`_
+* `!covid19 - Episode occurred as result of COVID-19 pandemic <https://docs.pmhc-mds.com/projects/data-specification/en/latest/reserved-tags.html?highlight=!amhc#covid19-australian-government-headtohelp-hubs>`_
+* `!wayback - The Way Back Support Service <https://docs.pmhc-mds.com/projects/data-specification-wayback/en/v3/data-specification/identifier-management.html#identifier-pmhc-twb-episode-tag>`_
+
+*Note: Local tags can not be used to filter standard reports.*
+
+
 .. _system-report-types:
 
 Types of Standard reports
@@ -185,7 +205,8 @@ A1 — High level summary of overall volumes by entity
 
 This report is designed to provide a 'one page' view, with data aggregated for
 the specified reporting period, covering counts of clients, episodes and
-service contacts.
+service contacts. The A1 allows data to be broken down into entities or by
+Principal Focus of Treatment Plan or by Practitioner types.
 
 Key specifications:
 
@@ -197,6 +218,7 @@ Key specifications:
 * All Service Contacts in the period are reported except those that are flagged
   as 'No Show'
 * Only service contacts with primary practitioners are included in the report
+* Only primary practitioners are counted in the Practitioner Category breakdowns
 
 .. _category-a1a:
 
@@ -208,7 +230,7 @@ with data aggregated for the specified reporting period. The count is not incorp
 with the A1 because it is based on different inclusion criteria. Additionally,
 intakes have no stratification options because PHN/PO is the only applicable
 stratification and this is presented automatically. (The A1 allows stratification
-by Practitioner Category and Principle Focus of Treatment as well as PHN/PO)
+by Practitioner Category and Principle Focus of Treatment Plan as well as PHN/PO)
 
 Key specifications:
 
@@ -230,7 +252,7 @@ Key specifications:
   associated with at least one attended contact during the reporting period
 * The Service Contacts column reports all the contacts associated with the active episodes, except those
   contacts that are identified as 'no show'
-  
+
 .. _category-a3:
 
 A3 — Data quality report — Missing and invalid client data
@@ -610,10 +632,6 @@ Key specifications:
 A9 — Data quality report — Recording of outcome measures for completed episodes
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-.. note::
-   The criteria used for episode inclusion in this report have changed significantly
-   in September 2019 to bring them into line with the :ref:`category-out`.
-
 The A9 report is designed to show the percentage of completed episodes that have
 outcome measures recorded. Its purpose is to allow monitoring of adherence to
 the minimum requirements for outcome recording — i.e. measures to be recorded
@@ -781,7 +799,7 @@ fields.
 
 Key specifications:
 
-* To be counted, an intake must have a Date client contacted Intake within the reporting period 
+* To be counted, an intake must have a Date client contacted Intake within the reporting period
 
 .. _category-b3:
 
@@ -845,8 +863,8 @@ B6 — Client Outcomes
 
 The B6 report is an extension of the outcome indicators that note significant
 clinical changes between episode start and finish. Out-1 and Out-2
-(:ref:`category-out-1-2`) are restricted to episodes with a principal focus of
-treatment classified as "Low intensity psychological interventions" and
+(:ref:`category-out-1-2`) are restricted to episodes with a Principal Focus of
+Treatment Plan classified as "Low intensity psychological interventions" and
 "Psychological therapies delivered by mental health professionals"
 respectively. The B6 extends this to any type of focus.
 
@@ -894,7 +912,7 @@ providers and consumers to work together to build better services. Completion of
 the survey is voluntary. All information collected in this survey is anonymous.
 
 Detailed description and explanation about using and interpreting the YES-PHN
-is available at https://www.amhocn.org/sites/default/files/publication_files/yes_phn_guidance_v1.0_20200408.pdf.
+is available at https://www.amhocn.org/__data/assets/pdf_file/0018/700452/yes_phn_guidance_v1.0_20200408.pdf.
 The YES PHN index in the B8 report reflects the definition in this document and
 reports the proportion of respondents with an experience of service score over 80.
 
@@ -914,7 +932,7 @@ B9 - Activity Report - Number of practitioners
 
 The B9 is designed to monitor the composition of multi-practitioner teams delivering
 a single contact. It counts the number of contacts made up of different sized
-practitioner teams. It reports both the total number of practitioners involved 
+practitioner teams. It reports both the total number of practitioners involved
 with each contact, and the number of unique practitioner categories involved.
 
 Over time, the PMHC has recorded practitioners in three different ways. Initially
@@ -1079,65 +1097,119 @@ information that is not derived from the PMHC MDS:
   support integrated regional planning and service delivery
 
 
+.. _category-acc:
 
 .. _category-acc-1:
 
+.. _category-acc-2:
+
+.. _category-acc-3:
+
+
+ACC series reports (Acc-1 to Acc-3)
++++++++++++++++++++++++++++++++++++
+
+Purpose: Measure the proportion of regional population receiving PHN-commissioned
+specific services.
+
+Please note: For Acc series reports, it's important to keep in mind that the splits
+may not always produce the same totals. Clients can have multiple episodes and each
+episode can be counted in each group. Using age group as an example, the episode
+start date is used to determine a client's age. When a client has multiple episodes,
+and their birthday has occurred in the reporting period, each episode can fall
+into a different age group.
+
+Additionally, the remoteness classifications are derived using the episode postcode,
+but a postcode can belong to multiple remoteness classifications. These reports
+will proportion an individual episode across all relevant classifications. For example, postcode 2900 has been classified as both a major city and an inner region.
+
+Key specifications applying to all ACC series reports:
+
+* Only ‘active clients’ are reported. A Client is defined as ‘active’ and
+  in scope for inclusion in this report if they had one or more Service Contacts
+  recorded in the period.
+* Service Contacts flagged as ‘No Show’ are not included for this purpose
+* Population is calculated from Estimated Regional Population figures
+* KPI is measured in clients per 100,000 population
+* Age is calculated at start of episode
+
+And key specifications for:
+
+.. contents::
+   :local:
+   :depth: 1
+
+.. _category-acc-1only:
+
 Acc-1 — Access to Low Intensity Services
-++++++++++++++++++++++++++++++++++++++++
+''''''''''''''''''''''''''''''''''''''''
 
 Purpose: Measure the proportion of regional population receiving PHN-commissioned
 low intensity psychological interventions
 
+See :ref:`key specifications for all ACC series reports <category-acc>`, plus:
+
 Key specifications:
 
-* Only ‘active clients’ are reported. A Client is defined as ‘active’ and
-  in scope for inclusion in this report if they had one or more Service Contacts
-  recorded in the period. The episode must have a 'Principal Focus of Treatment
+* The episode must have a 'Principal Focus of Treatment
   Plan' flagged as 'Low intensity psychological intervention'
-* Service Contacts flagged as ‘No Show’ are not included for this purpose
-* Population is calculated from Estimated Regional Population figures
-* KPI is measured in clients per 100,000 population
 
-.. _category-acc-2:
+.. _category-acc-2only:
 
 Acc-2 — Access to Psychological Services
-++++++++++++++++++++++++++++++++++++++++
+''''''''''''''''''''''''''''''''''''''''
 
 Purpose: Measure the proportion of regional population receiving PHN-commissioned
 psychological therapies delivered by mental health professionals.
 
+See :ref:`key specifications for all ACC series reports <category-acc>`, plus:
+
 Key specifications:
 
-* Only ‘active clients’ are reported. A Client is defined as ‘active’ and
-  in scope for inclusion in this report if they had one or more Service Contacts
-  recorded in the period. The episode must have a 'Principal Focus of Treatment
+* The episode must have a 'Principal Focus of Treatment
   Plan' flagged as 'Psychological therapy'
-* Service Contacts flagged as ‘No Show’ are not included for this purpose
-* Population is calculated from Estimated Regional Population figures
-* KPI is measured in clients per 100,000 population
 
-.. _category-acc-3:
+.. _category-acc-3only:
 
 Acc-3 — Access to Clinical Care Coordination
-++++++++++++++++++++++++++++++++++++++++++++
+''''''''''''''''''''''''''''''''''''''''''''
 
 Purpose: Measure the proportion of regional population receiving PHN-commissioned
 clinical care coordination for people with severe and complex mental illness.
 
+See :ref:`key specifications for all ACC series reports <category-acc>`, plus:
+
 Key specifications:
 
-* Only ‘active clients’ are reported. A Client is defined as ‘active’ and
-  in scope for inclusion in this report if they had one or more Service Contacts
-  recorded in the period. The episode must have a 'Principal Focus of Treatment
+* The episode must have a 'Principal Focus of Treatment
   Plan' flagged as 'Clinical care coordination'
-* Service Contacts flagged as ‘No Show’ are not included for this purpose
-* Population is calculated from Estimated Regional Population figures
-* KPI is measured in clients per 100,000 population
+
+.. _category-app:
 
 .. _category-app-1:
 
+.. _category-app-2:
+
+.. _category-app-3:
+
+APP series reports (App1 to App3)
++++++++++++++++++++++++++++++++++
+
+Key specifications applying to all ACC series reports:
+
+* Age is calculated at start of episode
+
+And key specifications for:
+
+.. contents::
+   :local:
+   :depth: 1
+
+
+.. _category-app-1only:
+
 App-1 — Youth receiving youth-specific services
-+++++++++++++++++++++++++++++++++++++++++++++++
+'''''''''''''''''''''''''''''''''''''''''''''''
 
 Purpose: Measure the proportion of regional youth population receiving
 youth-specific mental health services.
@@ -1153,12 +1225,12 @@ Key specifications:
 * Population is calculated from Estimated Regional Population figures
   for people aged 12-24
 * KPI is measured in clients per 100,000 population
-* Age is calculated at start of episode
 
-.. _category-app-2:
+
+.. _category-app-2only:
 
 App-2 — Indigenous Population receiving culturally appropriate services
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
 Purpose: Measure the proportion of PHN-commissioned mental health
 services delivered to the regional Indigenous population where the
@@ -1178,14 +1250,23 @@ Key specifications:
   culturally safe services to ATSI peoples
 * Only service contacts with primary practitioners are included in the report
 
-.. _category-app-3:
+.. _category-app-3only:
 
 App-3 — Suicide Risk Followup
-+++++++++++++++++++++++++++++
+'''''''''''''''''''''''''''''
 
 Purpose: Measure the proportion of people referred to PHN-commissioned
 services due to a recent suicide attempt or because they are at risk of
 suicide, who are followed up within 7 days of referral.
+
+Unlike most reports, this measure includes episodes where no service contact occurs
+to ensure all clients are followed up within the required timeframe, allowing for
+review of why no contact was made for this risk group.
+
+It is important to keep in mind that Episodes that have not yet commenced do not
+have a episode start date. As a result, it is not possible to determine the client's
+age at the beginning of the episode. Such clients will be included in the unknown
+age group.
 
 Key specifications:
 
@@ -1200,18 +1281,20 @@ Key specifications:
   tabulated as ‘7 days or less’
 * Episodes where no service contact occurred are tabulated as ‘No Service
   Contact Occurred’
+* Clients with an uncommenced episode are tabulated as ‘Unknown’ age group
 * KPI is measured as percentage of episodes flagged as a suicide risk which
   have a service contact within 7 days
 
 .. _category-out:
 
+.. _category-out-1:
+
+.. _category-out-2:
+
+.. _category-out-3:
+
 Out series reports (Out-1 to Out-3)
 +++++++++++++++++++++++++++++++++++
-
-.. note::
-   The Out series reports were released but not widely advertised in August
-   2019 with different specifications. The revised (current) specifications
-   were released September 2019.
 
 Key specifications applying to all Out series reports:
 
@@ -1220,6 +1303,7 @@ Key specifications applying to all Out series reports:
   associated with the episode but it need not be in the reporting period
 * Measures that have an invalid total score of ‘99 = Not stated / Missing’ are excluded
 * To be counted as 'Matched', both an initial and final measure of matching type must be recorded. See :ref:`matching_measure_types`.
+* Age is calculated at start of episode
 
 *Note:* Matching of measures in the Out series is tighter than that used in :ref:`category-a9`,
 so figures may vary between these reports.
@@ -1250,7 +1334,7 @@ See :ref:`key specifications for all Out series reports <category-out>`, plus:
   interventions", Out-2 only those identified as "Psychological therapies
   delivered by mental health professionals"
 
-.. _category-out-3:
+.. _category-out-3only:
 
 Out-3 — Completion rates for clinical outcome measures
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''
@@ -1314,7 +1398,7 @@ They are based on a subset of Category A reports but differ in two important way
   by specific edit criteria (e.g., Category A reports are only based on
   ‘active clients’, ‘active episodes’ and ‘active providers’)
 * Category A reports are based on date of service contact. Comparable E Category
-  reports either use date of modification or date or insertion. Further information 
+  reports either use date of modification or date or insertion. Further information
   is provided in the report specific documentation.
 
 Category E reports are specifically designed to enable PHN and Provider
@@ -1400,7 +1484,7 @@ Key specifications:
 * Clients comprise the clients who were the subject of the episodes defined
   immediately above, and are counted uniquely regardless of number of episodes
 * The episode count on the far right is the subset of the 'Episodes N' for which
-  there are inital and final measures from the same outcome instrument.
+  there are initial and final measures from the same outcome instrument.
 * The change for an episode is based on the effect size statistic which is
   defined as (score at episode start − score at episode end) / standard
   deviation of episode start scores for all episodes
@@ -1410,12 +1494,13 @@ Key specifications:
 
 .. _category-i:
 
-Category I: IAR-DST
--------------------
+Category I: Monitoring Intakes
+------------------------------
 
-These reports summarise the results of the Initial Assessment and Referral
-Decision Support Tool (`IAR-DST <https://docs.iar-dst.online/en/latest/>`_) and
-the clinical assessments based thereon.
+These reports monitor intakes and dispatches to treatment organisations. Some reports
+summarise the results and context of the Initial Assessment and
+Referral Decision Support Tool (`IAR-DST <https://docs.iar-dst.online/en/latest/>`_); others
+look at the extent of linkage between intake and treatment episodes.
 
 .. contents:: Available category I reports
    :local:
@@ -1537,6 +1622,91 @@ Key specifications:
 * The report counts intakes where the client first contacted the service during
   the reporting period
 
+.. _category-i6:
+
+.. _category-i7:
+
+.. _category-i6-and-i7:
+
+I6 — Intake Dispatch Status by Intake Organisation and I7 — Link Status of Episodes Dispatched to Organisation
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+The I6 and I7 comprise a pair of reports intended to help monitor linkage of
+intake and treatment (episode) organisation. Recording of such linkages is more
+complex than most MDS processes because they can involve data submission by more
+than one submitter. The data from intake and treatment organisations an be uploaded
+at different times, so potentially only one side of the transaction may be in the
+MDS. These reports help identify the extent to which events that can be inferred
+to exist have not been submitted.
+
+The I6 looks at what has happened from an intake perspective, the I7 from a
+treatment perspective.
+
+The I6 takes all the INTAKES for the chosen organisations (the Total column) and
+classifies them as having (the Linked column) or not having (the Unlinked column)
+a corresponding Intake Episode record.
+
+The By Treatment Organisation column displays the organisations that recorded
+treatment for the intakes in the Linked column. Note that the total for the By
+Treatment Organisation column can be higher than that for the Linked column as
+a single intake can be associated with more than one treatment episode.
+
+The I7 takes all EPISODES for the chosen organisations (the Total column) and
+classifies them as having (the Linked column) or not having (the Unlinked column)
+a corresponding Intake Episode record.
+
+The By Intake Organisation column displays the organisation that recorded intake
+for the episodes in the Linked column. An episode can only be linked to a single
+intake, so in this report the total for By Intake Organisation must be the same
+as the total for the Linked column.
+
+Key specifications:
+
+* The Date client contacted Intake must have occurred during the reporting period
+
+.. _category-i8:
+
+I8 — Links Without an Existing Intake
++++++++++++++++++++++++++++++++++++++
+
+The I8 identifies cases where a treatment organisation has submitted an Intake
+Episode record, but the corresponding Intake record does not exist in the MDS.
+This is possible because different organisations are responsible for these two
+types of records and the treatment organisation that provides the Intake Episode
+record may do so before the organisation responsible for the intake submits the
+Intake record. However an Intake Episode can only be submitted if the organisation
+path and intake key of the intake are defined, so the existence of the intake can
+be inferred (and identified) even in the absence of the Intake record. This report
+shows where the implied intake has not had its record submitted. For any organisation
+listed in a row the report counts the “missing” Intake records for which the
+organisation is responsible (“Dispatched by”) and those for which it has implied
+the existence of an intake by submitting an Intake Episode record (“Dispatched to”).
+
+Key specifications:
+
+* Cases in this report are identified by a combination of Organisation Path and
+  Intake Key in the Intake Episode table that do not have a corresponding entry
+  in the Intake records in the MDS
+* There is no date restriction on this report
+
+.. _category-i9:
+
+I9 — Dispatches to unidentified MDS treatment organisations
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+The I9 reports intakes where a client is referred to one or more MDS Reporting
+organisation, but no specific organisation is identified in the Referred To Organisation Path field.
+
+*Note:* that an intake may be dispatched to more than one organisation type.
+
+Key specifications:
+
+* The inclusion criterion for intakes is a ‘Date client contacted Intake’ within
+  the reporting period
+* The intake must indicate one or more dispatches to an ‘Organisation type referred
+  to at Intake conclusion’ with a code of 42, 43 or 44 (“AMHC”, “Other PHN funded service”,
+  or “HeadtoHelp / HeadtoHealth”)
+* The report counts intakes, not dispatches
 
 .. _produce-twb-report:
 

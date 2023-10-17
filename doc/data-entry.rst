@@ -5,7 +5,7 @@ Data Entry
 
 .. contents::
    :local:
-   :depth: 2
+   :depth: 1
 
 You will only be able to see the **Data Entry** tab if you have been assigned
 the 'Data Entry' :ref:`roles`, when logged into the PMHC MDS on https://pmhc-mds.net.
