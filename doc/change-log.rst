@@ -3,6 +3,11 @@
 User Guide Change log
 =====================
 
+17/10/2023
+----------
+
+* Added :ref:`blocked-user`
+
 12/10/2023 
 ----------
 
