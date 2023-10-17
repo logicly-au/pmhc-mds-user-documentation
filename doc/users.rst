@@ -397,7 +397,11 @@ You can edit and assign extra :ref:`roles <roles>`  to an existing user by follo
 Deleting a user
 ^^^^^^^^^^^^^^^
 
-A user can be deleted from an organisation by removing all the roles the user has at that organisation.
+A user can be deleted from an organisation by using the ‘**Actions**’ feature under
+the edit roles tab, which will remove all the roles a user has at that organisation.
+
+Once completed, if the user does not have any remaining roles within the PMHC MDS, the
+user will no longer be displayed in the view users table.
 
 See :ref:`edit-role`.
 
