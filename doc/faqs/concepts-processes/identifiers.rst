@@ -33,11 +33,8 @@ across their commissioned organisations.
 
 Some PHNs have or are already implementing centralised client identifier (‘key’)
 allocation in order to facilitate services between their contracted provider organisations.
-For those PHNs without this capability a master client index will be created during
-:ref:`Stage-Two` of the PMHC MDS implementation. The master client index will facilitate
-management of the client keys within the PHN independent of the provider organisation.
 
-In the interim it is recommended that at the very least PHNs ensure that Client Keys
+It is recommended that at the very least PHNs ensure that Client Keys
 issued by provider organisations do not overlap.
 
 Episode keys

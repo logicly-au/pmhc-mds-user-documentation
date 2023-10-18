@@ -25,7 +25,7 @@ YES-PHN Survey Data Upload
 
 * Ability to upload YES-PHN survey results collected outside of the PMHC MDS OMSSS feature
 
-.. _dev-YES-PHN-upload-faq:
+.. _dev-YES-PHN-data-extract-faq:
 
 YES-PHN Survey Data Extract
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -53,6 +53,7 @@ Reporting
 The :ref:`category-i` are now all available.
 
 The following reporting functionality is scheduled to be enhanced with row based summaries:
+
 * The :ref:`category-b1`
 * The :ref:`category-b2`
 * The :ref:`category-b3`

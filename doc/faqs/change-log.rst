@@ -323,11 +323,6 @@ System - Data Entry FAQs
 
 * Refined the answer to :ref:`updated-info-faq`
 
-System - Development FAQs
-~~~~~~~~~~~~~~~~~~~~~~~~~
-
-* Refined the answer to :ref:`stage-two-date-faq`
-
 
 10/3/2017
 ---------
@@ -377,13 +372,6 @@ System - Data Entry FAQs
 * Added the question :ref:`record-additional-data-faq`
 
 * Added the question :ref:`slk-as-client-key-faq`
-
-System - Development FAQs
-~~~~~~~~~~~~~~~~~~~~~~~~~
-
-* Added the question :ref:`stage-two-date-faq`
-
-* Added the question `What features will be included in Stage Two development?`
 
 System - Uploading FAQs
 ~~~~~~~~~~~~~~~~~~~~~~~
