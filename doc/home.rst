@@ -292,8 +292,8 @@ without resetting your password.
 
 If you have forgotten your password or it has expired:
 
-1. Navigate to https://pmhc-mds.net/ and click **Sign in**
-2. Click **Forgot Password**
+1. Navigate to https://pmhc-mds.net/
+2. Click **Forgot Password?** (next to **Sign in** button)
 
    .. figure:: screen-shots/account-password-resetting.png
       :alt: PMHC MDS Resetting Password
