@@ -147,6 +147,14 @@ The login screen will confirm when an auto-logout has occurred to an idle user.
 Updating your details
 ^^^^^^^^^^^^^^^^^^^^^
 
+If your email address or mobile number has changed, it is important that you update
+your account. These instructions require you to have a working login which you know.
+Ensure you are logged in to proceed.
+
+If you are unable to login and need your mobile phone number and/or email address
+updated to regain access then follow the instructions under
+:ref:`request-your-details-be-updated`.
+
 To edit your details:
 
 1. Click the button to the right of the menubar that says **Logged in as [Name]**
@@ -174,7 +182,6 @@ To edit your details:
 
 6. Once you have entered your changed details, click **Submit** (Please note: you can only change one contact detail at a time)
 
-
 7. An email with further instructions will be sent from
    noreply@logicly.com.au to the email address the PMHC MDS has on file
    for the user. An SMS with a verification code
@@ -195,6 +202,16 @@ To edit your details:
       :alt: PMHC MDS User Verification
 
 10. Click **Submit**
+
+.. _request-your-details-be-updated:
+
+Request your details be updated
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+If you can't access your profile, `contact the PMHC Helpdesk <mailto:support@pmhc-mds.com>`_
+so that your records can be updated. When contacting the PMHC Helpdesk you will
+be asked to arrange for a :ref:`letter of authority <letter-of-authority-faq>`
+stating the change(s) you require.
 
 .. _passwords:
 
