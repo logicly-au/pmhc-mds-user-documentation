@@ -139,6 +139,20 @@ to the PMHC episode with the tag `!wayback` and/or a linked TWB-Episode record.
 
 The resulting file can be uploaded.
 
+.. _data-extract-specification-survey:
+
+SURVEY 1.0 (YES-PHN Results)
+----------------------------
+
+If you would like to download a file that includes data from YES PHN Survey
+results, select the dropdown option labelled **SURVEY 1.0**. This downloads a
+file that is a combination of the YES-PHN data collected via invitations sent
+using the Online Measures Self Service System (OMSSS) and YES-PHN data collected
+outside of OMSSS uploaded using the PMHC MDS Survey Specification.
+(See `YES Invitation Data Specification <https://docs.pmhc-mds.com/projects/data-specification-yes-invitation/en/v1/>`_ and `Survey Specification <https://docs.pmhc-mds.com/projects/data-specification-survey/en/v1/`_).
+
+The resulting file can be uploaded.
+
 .. _data-extract-all-specifications:
 
 Include data from all specifications (includes extensions)
