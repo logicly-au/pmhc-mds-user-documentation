@@ -151,7 +151,7 @@ using the Online Measures Self Service System (OMSSS) and YES-PHN data collected
 outside of OMSSS uploaded using the PMHC MDS Survey Specification.
 (See `YES Invitation Data Specification <https://docs.pmhc-mds.com/projects/data-specification-yes-invitation/en/v1/>`_ and `Survey Specification <https://docs.pmhc-mds.com/projects/data-specification-survey/en/v1/>`_).
 
-The resulting file can be uploaded.
+The data is extracted in the `Survey Specification <https://docs.pmhc-mds.com/projects/data-specification-survey/en/v1/>`_ format and can therefore be reuploaded.
 
 .. _data-extract-all-specifications:
 
