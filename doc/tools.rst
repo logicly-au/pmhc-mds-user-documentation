@@ -7,7 +7,7 @@ The following tools are available in the PMHC MDS.
 
 .. contents::
    :local:
-   :depth: 2
+   :depth: 1
 
 .. _slk-generator:
 
@@ -111,12 +111,12 @@ the Download fields in the **Tools: YES-PHN** tab, by following these steps:
 5. Click the blue **Request** button
 6. A dialogue box will be displayed, showing that the file is being requested from the server
 
-   .. figure:: screen-shots/data-extract-message-requesting.png
+   .. figure:: screen-shots/yes-phn-data-extract-message-requesting.png
       :alt: PMHC MDS File Selected
 
 7. When the file is ready, a 'File ready for download' message will be displayed
 
-   .. figure:: screen-shots/data-extract-message-download.png
+   .. figure:: screen-shots/yes-phn-data-extract-message-download.png
       :alt: PMHC MDS File Selected
 
 8. Click the blue **Download** button

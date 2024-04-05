@@ -283,12 +283,6 @@ How can I update my user details?
 If your email address or mobile number has changed, it is important that you update
 your account. See :ref:`updating-your-details`.
 
-If you can't access your profile, contact the PMHC Helpdesk so that your records
-can be updated. When contacting the PMHC Helpdesk you will be asked to arrange
-for a :ref:`letter of authority <letter-of-authority-faq>` stating the change(s)
-
-Refer to :ref:`letter-of-authority-faq`
-
 .. _password-recovery-faq:
 
 How can I recover my password or username?

@@ -59,11 +59,6 @@ Can the Department offer assistance to PHNs in terms of creation of a spreadshee
 
 Yes – Excel data entry templates for submission are provided on the PMHC MDS website. Visit Upload Specifications `File format <https://docs.pmhc-mds.com/en/v1/data-specification/upload-specification.html#file-format>`_.
 
-Will there be further clarification on how PHNs will be expected to report on provider performance to allow engagement on how best to undertake the change process?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-See responses to :ref:`Questions-about-standards-reports`.
-
 PHNs would desirably see the actual mechanics of the MDS hands-on prior to wider release. Successful roll-out will depend on how well PHNs are able to communicate and support providers. We suggest the department conducts PHN specific webinars and training for key nominated staff
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
