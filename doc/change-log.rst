@@ -3,6 +3,11 @@
 User Guide Change log
 =====================
 
+29/4/2024
+---------
+
+* Updated :ref:`privacy_FAQs`
+
 17/10/2023
 ----------
 
