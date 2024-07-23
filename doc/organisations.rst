@@ -204,5 +204,10 @@ Inactive organisations will be displayed with a **ZZZ** icon and will be greyed 
 Deleting a Provider Organisation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-You cannot delete a provider organisation. If you believe an organisation should be
-deleted please email support@pmhc-mds.com.
+You cannot delete a provider organisation. If you believe an organisation should
+be deleted please email support@pmhc-mds.com.
+
+Please note that a provider organisation cannot be deleted if it contains any
+data within the PMHC MDS. Data can be reviewed through :ref:`data-extraction` and
+:ref:`reports`. To delete data in bulk, please refer to :ref:`deletion-upload-file`.
+If you wish to delete data record by record, please see :ref:`Deletion of client data via data entry <delete-client>`_.
