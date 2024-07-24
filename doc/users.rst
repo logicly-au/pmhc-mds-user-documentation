@@ -345,7 +345,7 @@ Viewing a user's roles
 A user can have more than one role. Each role is granted for a user against the appropriate
 organisation.
 
-You can edit and assign extra roles to an existing user by following these steps:
+You can view the roles for an existing user by following these steps:
 
 1. Navigate to the **Users** tab
 2. Click the user's name in blue displayed within the table
