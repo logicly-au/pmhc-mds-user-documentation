@@ -210,4 +210,4 @@ be deleted please email support@pmhc-mds.com.
 Please note that a provider organisation cannot be deleted if it contains any
 data within the PMHC MDS. Data can be reviewed through :ref:`data-extraction` and
 :ref:`reports`. To delete data in bulk, please refer to :ref:`deletion-upload-file`.
-If you wish to delete data record by record, please see :ref:`Deletion of client data via data entry <delete-client>`_.
+If you wish to delete data record by record, please see :ref:`Deletion of client data via data entry<delete-client>`.
