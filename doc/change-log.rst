@@ -3,8 +3,14 @@
 User Guide Change log
 =====================
 
-29/4/2024
----------
+24/07/2024
+----------
+
+* Added :ref:`deletion-upload-file`
+* Updated :ref:`delete-provider-organisation`
+
+29/04/2024
+----------
 
 * Updated :ref:`privacy_FAQs`
 
@@ -13,7 +19,7 @@ User Guide Change log
 
 * Added :ref:`blocked-user`
 
-12/10/2023 
+12/10/2023
 ----------
 
 * Updated :ref:`category-app-3`

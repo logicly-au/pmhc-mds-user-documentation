@@ -177,3 +177,11 @@ common and unusual upload error messages. These answers contain information on
 what you can do to fix the error. See - :ref:`Uploading Data FAQs <uploading-data-FAQs>`.
 
 If you require assistance in understanding an error message, please email support@pmhc-mds.com.
+
+.. _deletion-upload-file:
+
+Deletion of data via an upload file
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+All data except for Organisation records can be deleted through an upload file. Further details on how to create a deletion file is available in the online specifications.
+See: `Delete upload file format <https://docs.pmhc-mds.com/projects/data-specification/en/v4/upload-specification.html#deleting-records>`_.
