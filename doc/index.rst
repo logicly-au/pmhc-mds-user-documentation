@@ -31,6 +31,7 @@ system. All enquiries should be directed to: support@pmhc-mds.com.
    reporting
    data-extract
    tools
+   instances
    faqs/index
    change-log
 

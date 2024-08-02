@@ -233,40 +233,14 @@ I'm a third-party software developer developing software to assist with uploadin
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Yes, we can supply you with an account that has access to a test Primary Health
-Network. In order to set up the Primary Health Network account for the test environment, we need to
-follow a similar procedure to setting up a Primary Health Network account for the production environment,
-by producing a :ref:`letter of authority <letter-of-authority-faq>`.
-
-On company letterhead, this letter must be signed by an authority at your company
-who holds a position that is higher than the person for whom the account is being
-created (i.e., the person's manager or the CEO).
-
-This letter must contain the following details (for the person for whom
-the MDS access is being requested):
-
-#. The name of the person the account is for
-#. The email address of the person
-#. Contact telephone number
-#. Mobile phone number
-#. Request access to the 'Test [Your Company Name]' Organisation
-
-This letter must be scanned and emailed to support@pmhc-mds.com.
-
-Base your letter on the details listed in :ref:`letter-of-authority-faq`
+Network. Please refer to information about our :ref:`developers` instance.
 
 .. _testing-training-developer-access-faq:
 
 Can I have an account to test adding data and for training new staff?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Yes, there is a Developers PMHC MDS website available for testing and training
-purposes for PHNs, Provider Organisations and third-party developers.
-
-To set up an account on https://developers.pmhc-mds.net/ please provide us with
-a 'Letter of Authority' on your organisation's letterhead, similar to the one
-outlined for third-party software developers.
-
-See: :ref:`third-party-developer-access-faq`.
+Yes, please refer to information about our :ref:`developers` instance.
 
 .. _forgotten-password-faq:
 
