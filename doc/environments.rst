@@ -1,6 +1,6 @@
-.. _instances:
+.. _environments:
 
-Instances
+Environments
 =========
 
 .. contents::
@@ -12,8 +12,8 @@ Instances
 Production
 ----------
 
-The main (production) instance of the PMHC MDS is available at https://pmhc-mds.net/. Only real production
-data should be uploaded to this instance. A :ref:`developers` instance is provided for testing 3rd party
+The main (production) environment of the PMHC MDS is available at https://pmhc-mds.net/. Only real production
+data should be uploaded to this environment. A :ref:`developers` environment is provided for testing 3rd party
 developed software against the PMHC MDS.
 
 .. _developers:
@@ -21,14 +21,14 @@ developed software against the PMHC MDS.
 Developers
 ----------
 
-A test (developers) instance is available at https://developers.pmhc-mds.net/. This instance has been made 
+A test (developers) environment is available at https://developers.pmhc-mds.net/. This environment has been made 
 available for testing and training purposes for PHNs, Provider Organisations and third-party developers.
 
-Real client data should not be uploaded to https://developers.pmhc-mds.net/. The developers instance is 
+Real client data should not be uploaded to https://developers.pmhc-mds.net/. The developers environment is 
 being provided for the purposes of testing 3rd party developed software against the PMHC MDS only. Production 
 data should only be uploaded to https://pmhc-mds.net/
 
-Logicly reserves the right to delete data from the developers instance at any time should it become necessary. 
+Logicly reserves the right to delete data from the developers environment at any time should it become necessary. 
 While we would provide prior notification of such an event, you should not assume historical data exists 
 in the system when developing your testing procedures.
 

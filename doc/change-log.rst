@@ -6,7 +6,7 @@ User Guide Change log
 2/08/2024
 ----------
 
-* Added :ref:`instances`
+* Added :ref:`environments`
 
 24/07/2024
 ----------

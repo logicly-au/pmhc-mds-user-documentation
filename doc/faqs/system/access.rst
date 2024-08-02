@@ -233,14 +233,14 @@ I'm a third-party software developer developing software to assist with uploadin
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Yes, we can supply you with an account that has access to a test Primary Health
-Network. Please refer to information about our :ref:`developers` instance.
+Network. Please refer to information about our :ref:`developers` environment.
 
 .. _testing-training-developer-access-faq:
 
 Can I have an account to test adding data and for training new staff?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Yes, please refer to information about our :ref:`developers` instance.
+Yes, please refer to information about our :ref:`developers` environment.
 
 .. _forgotten-password-faq:
 
