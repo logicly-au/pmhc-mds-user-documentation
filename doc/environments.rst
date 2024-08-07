@@ -1,7 +1,7 @@
 .. _environments:
 
 Environments
-=========
+============
 
 .. contents::
    :local:
@@ -12,8 +12,9 @@ Environments
 Production
 ----------
 
-The main (production) environment of the PMHC MDS is available at https://pmhc-mds.net/. Only real production
-data should be uploaded to this environment. A :ref:`developers` environment is provided for testing 3rd party
+The main (production) environment of the PMHC MDS is available at https://pmhc-mds.net/. Only real data that 
+is to be reported to the Department of Health and Aged Care should be uploaded to this environment.
+A :ref:`developers` environment is provided for testing third-party
 developed software against the PMHC MDS.
 
 .. _developers:
@@ -21,11 +22,12 @@ developed software against the PMHC MDS.
 Developers
 ----------
 
-A test (developers) environment is available at https://developers.pmhc-mds.net/. This environment has been made 
+A secondary (developers) environment is available at https://developers.pmhc-mds.net/. The developers 
+environment runs the same code revision as the production environment. This environment has been made 
 available for testing and training purposes for PHNs, Provider Organisations and third-party developers.
 
 Real client data should not be uploaded to https://developers.pmhc-mds.net/. The developers environment is 
-being provided for the purposes of testing 3rd party developed software against the PMHC MDS only. Production 
+being provided for the purposes of testing third-party developed software against the PMHC MDS only. Production 
 data should only be uploaded to https://pmhc-mds.net/
 
 Logicly reserves the right to delete data from the developers environment at any time should it become necessary. 
