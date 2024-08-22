@@ -1523,6 +1523,11 @@ against the clinician’s final decision (Practitioner Level of Care)
 
 Key specifications:
 
+.. note::
+  As of `11/8/2024 <https://pmhc-mds.com/communications/#/2024/08/11/Update-to-the-PMHC-MDS-v-2-13-0/>`_ 
+  the PMHC MDS supports both `Version 1 and Version 2 of the IAR-DST <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html#iar-dst>`_. This report does not filter 
+  by IAR DST version. All IAR DST records are counted.
+
 * The report counts intakes where the client first contacted the service during
   the reporting period for which there is an IAR-DST administration (the date
   the IAR-DST was collected is not relevant)
@@ -1540,6 +1545,12 @@ psychological distress and the suggested level of care. These variables should
 correlate highly.
 
 Key specifications:
+
+.. note::
+  As of `11/8/2024 <https://pmhc-mds.com/communications/#/2024/08/11/Update-to-the-PMHC-MDS-v-2-13-0/>`_ 
+  the PMHC MDS supports both `Version 1 and Version 2 of the IAR-DST <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html#iar-dst>`_. This report does not filter 
+  by IAR DST version. All IAR DST records where there are a corresponding K10+ record 
+  collected at episode start are counted.
 
 * The report counts intakes where the client first contacted the service during
   the reporting period for which there is an IAR-DST administration, and a linked
@@ -1563,6 +1574,11 @@ their required treatment complexity.
 
 Key specifications:
 
+.. note::
+  As of `11/8/2024 <https://pmhc-mds.com/communications/#/2024/08/11/Update-to-the-PMHC-MDS-v-2-13-0/>`_ 
+  the PMHC MDS supports both `Version 1 and Version 2 of the IAR-DST <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html#iar-dst>`_. This report does not filter 
+  by IAR DST version. All IAR DST records are counted.
+
 * The report counts intakes where the client first contacted the service during
   the reporting period for which there is an IAR-DST administration (the date
   the IAR-DST was collected is not relevant)
@@ -1583,6 +1599,11 @@ intake process. It helps describe where clients are sent as a function of their
 required treatment complexity.
 
 Key specifications:
+
+.. note::
+  As of `11/8/2024 <https://pmhc-mds.com/communications/#/2024/08/11/Update-to-the-PMHC-MDS-v-2-13-0/>`_ 
+  the PMHC MDS supports both `Version 1 and Version 2 of the IAR-DST <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html#iar-dst>`_. This report does not filter 
+  by IAR DST version. All IAR DST records are counted.
 
 * The report counts intakes where the client first contacted the service during
   the reporting period for which there is an IAR-DST administration (the date
