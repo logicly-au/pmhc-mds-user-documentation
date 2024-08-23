@@ -3,6 +3,11 @@
 User Guide Change log
 =====================
 
+22/08/2024
+----------
+
+* Updated :ref:`category-i` to note that the I1-I4 does not filter by IAR-DST version.
+
 2/08/2024
 ----------
 
