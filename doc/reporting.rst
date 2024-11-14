@@ -878,7 +878,8 @@ respectively. The B6 extends this to any type of focus.
 * Client Remoteness is determined by postcode, with some postcodes extending over 
   multiple remoteness classifications. Since Episode Count is rounded to the nearest
   whole number, there may be cases where the change percentages do not result in 
-  a whole number.
+  a whole number:
+  
   * 0.17 of a postcode may be classed as Remote. With no other Remote episodes, 
     Remote will show 100% of change for 0 episodes.
   * 0.6 of a postcode may be classed as Remote. With 1 other Remote episode (with
