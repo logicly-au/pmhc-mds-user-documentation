@@ -875,6 +875,15 @@ respectively. The B6 extends this to any type of focus.
 * Effect sizes of +0.5 or more constitute 'Significant improvement',
   −0.5 or less constitute 'Significant deterioration'.
   Effect sizes between −0.5 and 0.5 indicate 'No significant change'
+* Client Remoteness is determined by postcode, with some postcodes extending over 
+  multiple remoteness classifications. Since Episode Count is rounded to the nearest
+  whole number, there may be cases where the change percentages do not result in 
+  a whole number.
+  * 0.17 of a postcode may be classed as Remote. With no other Remote episodes, 
+    Remote will show 100% of change for 0 episodes.
+  * 0.6 of a postcode may be classed as Remote. With 1 other Remote episode (with
+    a different outcome), the change will show 37.5% (0.6 / 1.6) and 62.5% (1 / 1.6) 
+    proportions for 2 episodes. 
 
 .. _category-b7:
 
