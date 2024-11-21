@@ -2,7 +2,7 @@
 .perl5
 _doc
 .doctree
-doc/build/
-doc/__pycache__/
-version.txt
 docs/build/
+docs/__pycache__/
+version.txt
+
