@@ -32,7 +32,7 @@ echo "Converting html to PDF"
 docker run --rm -e GIT_VERSION -v "$(pwd):/mnt/workdir" \
   logicly/sphinx-html2pdf:production \
   /mnt/workdir/scripts/make-pdf.pl \
-  --pdf-name "${NAME}-${VERSION}" \
+  --pdf-name "${NAME}-${VERSION}.pdf" \
   --doc-dir  "/mnt/workdir/docs" \
   --timestamp "${TIMESTAMP}"
 

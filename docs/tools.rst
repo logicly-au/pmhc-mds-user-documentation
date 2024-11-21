@@ -49,6 +49,12 @@ Generate a Client's SLK
 Video training module - Statistical Linkage Key (SLK)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+.. toctree::
+   :hidden:
+   :maxdepth: 1
+
+   slk-video-transcription
+
 This tutorial will cover a basic introduction to the Statistical Linkage Key (SLK).
 It will enable viewers to understand where you can find relevant SLK information,
 step-by-step instructions on using the manual SLK generator provided on the PMHC MDS
@@ -59,6 +65,7 @@ internal client information management system.
 
   <iframe width="560" height="315" src="https://www.youtube.com/embed/YWv4pBOvntw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+A :ref:`transcription <slk-video-transcription>` of the video is available.
 
 .. _yes-phn:
 
