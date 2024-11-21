@@ -1,1 +1,3 @@
+python-dotenv
 sphinx-rtd-theme
+sphinx-rtd-theme-ext-color-contrast
