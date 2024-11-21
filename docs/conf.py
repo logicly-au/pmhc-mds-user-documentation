@@ -15,7 +15,10 @@
 import sys
 import os
 import shlex
-import imp
+import datetime
+from os import environ
+from dotenv import load_dotenv
+from datetime import datetime
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
@@ -24,15 +27,12 @@ import imp
 
 # -- Read important params from environment
 
-#on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
-#if on_rtd:
-    # stuff
+load_dotenv('version.env')
 
-global ddict_conf
-ddict_conf = imp.load_source('ddict_conf', './version.conf')
-
-doc_name = ddict_conf.NAME
-version   = ddict_conf.VERSION
+project       = environ.get('NAME')
+version       = environ.get('VERSION')
+author        = environ.get('AUTHOR')
+current_year  = datetime.now().year
 
 # -- General configuration ------------------------------------------------
 
@@ -42,10 +42,7 @@ version   = ddict_conf.VERSION
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-
-# extensions = ['cloud_sptheme.ext.table_styling']
-extensions = ['sphinx.ext.autosectionlabel', 'sphinx_rtd_theme_ext_color_contrast']
-
+extensions = ['sphinxcontrib.jquery', 'sphinx_rtd_theme_ext_color_contrast']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -61,17 +58,13 @@ source_suffix = '.rst'
 # The master toctree document.
 master_doc = 'index'
 
-# General information about the project.
-project = u'PMHC MDS User Documentation'
-copyright = u'2023, Australian Government - Department of Health and Aged Care'
-author = u'PMHC MDS Working Group'
-
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
 # built documents.
-
-# version   = ddict_conf.SPEC_VERSION
-
+#
+# The short X.Y version.
+# version = '2.10'
+# previous_version = '02.00'
 # The full version, including alpha/beta/rc tags.
 release = version
 
@@ -80,7 +73,7 @@ release = version
 #
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
-language = None
+language = "en"
 
 # There are two options for replacing |today|: either, you set today to some
 # non-false value, then it is used:
@@ -90,7 +83,7 @@ language = None
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
-# exclude_patterns = ['something/*', 'something-else/*']
+# exclude_patterns = ['scripts/*']
 
 # The reST default role (used for this markup: `text`) to use for all
 # documents.
@@ -129,11 +122,7 @@ html_theme = 'sphinx_rtd_theme'
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
-html_theme_options = {
-# Toc options
-#'titles_only': True
-'navigation_depth': 3,
-}
+#html_theme_options = {}
 
 # Add any paths that contain custom themes here, relative to this directory.
 #html_theme_path = []
@@ -157,12 +146,19 @@ html_theme_options = {
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
+
 html_static_path = ['_static']
+
+# These paths are either relative to html_static_path
+# or fully qualified paths (eg. https://...)
+html_css_files = [
+    'custom.css',
+]
 
 # Add any extra paths that contain custom files (such as robots.txt or
 # .htaccess) here, relative to this directory. These files are copied
 # directly to the root of the documentation.
-html_extra_path = [ '.nojekyll']
+#html_extra_path = []
 
 # If not '', a 'Last updated on:' timestamp is inserted at every page bottom,
 # using the given strftime format.
@@ -220,7 +216,7 @@ html_extra_path = [ '.nojekyll']
 #html_search_scorer = 'scorer.js'
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'PMHC-MDS-User-Documentation'
+# htmlhelp_basename = 'HTML Help'
 
 # -- Options for LaTeX output ---------------------------------------------
 
@@ -241,10 +237,10 @@ latex_elements = {
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
-latex_documents = [
-  (master_doc, 'PMHC-MDS-user-documentation.tex', u'PMHC-MDS User Documentation',
-   author, 'manual'),
-]
+#latex_documents = [
+#  (master_doc, 'test.tex', u'test Documentation',
+#   u'Adam Clarke', 'manual'),
+#]
 
 # The name of an image file (relative to this directory) to place at the top of
 # the title page.
@@ -271,10 +267,10 @@ latex_documents = [
 
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
-man_pages = [
-    (master_doc, 'PMHC-MDS User Documentation', u'PMHC-MDS User Documentation',
-     [author], 1)
-]
+#man_pages = [
+#    (master_doc, 'MHE NMDS Specification', u'Mental Health Establishments National Minimum Dataset specification',
+#     [author], 1)
+#]
 
 # If true, show URL addresses after external links.
 #man_show_urls = False
@@ -285,11 +281,11 @@ man_pages = [
 # Grouping the document tree into Texinfo files. List of tuples
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
-texinfo_documents = [
-  (master_doc, 'PMHC-MDS-User-Documentation', u'PMHC-MDS User Documentation',
-   author, 'PMHC-MDS User Documentation', 'PMHC-MDS User Documentation',
-   'Miscellaneous'),
-]
+#texinfo_documents = [
+#  (master_doc, 'MHE', u'Mental Health Establishments National Minimum Dataset specification',
+#   author, 'MHE', 'Mental Health Establishments National Minimum Dataset specification',
+#   'Miscellaneous'),
+#]
 
 # Documents to append as an appendix to all manuals.
 #texinfo_appendices = []
@@ -307,22 +303,19 @@ on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 if not on_rtd:  # only import and set the theme if we're building docs locally
     import sphinx_rtd_theme
     html_theme = 'sphinx_rtd_theme'
-    html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 
 # For substitutions in docs
 # see https://github.com/hoccleve-archive/hocl.tk/blob/70b71b5a265d0b1d64c5cb6e43b686d03ead4078/docs/conf.py#L48
 
-copyright = str(2023) + ", " + author
-download_pdf = ":download:`PDF </_static/" + doc_name + "-" + version + ".pdf>`"
+copyright = str(datetime.now().year) + ", " + author
+download_pdf = ":download:`PDF </_static/" + project + "-" + version + ".pdf>`"
 
 rst_epilog = """
+.. |current-year| replace:: %(current_year)s
+..
 .. |download-pdf| replace:: %(download_pdf)s
 ..
-""" % dict(download_pdf=download_pdf)
+""" % dict(download_pdf=download_pdf, current_year=current_year)
 
 numfig = True
-
-# CSS overides
-def setup(app):
-#   app.add_javascript('https://hypothes.is/embed.js')
-   app.add_stylesheet("custom.css")
+# numfig_secnum_depth = 1
