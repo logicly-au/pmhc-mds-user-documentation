@@ -190,7 +190,9 @@ The reports provide summary data on:
 * Volumes ('active clients'/'active episodes'/contacts)
 * Data quality in terms of compliance with key business rules
 
-.. contents:: Available category A reports
+Available Category A reports:
+
+.. contents::
    :local:
    :depth: 1
 

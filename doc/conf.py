@@ -44,7 +44,7 @@ version   = ddict_conf.VERSION
 # ones.
 
 # extensions = ['cloud_sptheme.ext.table_styling']
-extensions = []
+extensions = ['sphinx.ext.autosectionlabel', 'sphinx_rtd_theme_ext_color_contrast']
 
 
 # Add any paths that contain templates here, relative to this directory.
