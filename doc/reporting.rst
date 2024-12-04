@@ -784,7 +784,8 @@ Key specifications:
 
 * An Episode is defined as 'active' and in-scope for inclusion in this report
   if it had one or more Service Contacts recorded in the period. No distinction
-  is made between Open and Completed Episodes
+  is made between Open and Completed Episodes, except for the "Organisation 
+  Referred to at Episode Conclusion" which only applies to closed episodes
 * Service Contacts flagged as ‘No Show’ are not included for this purpose
 * Only service contacts with primary practitioners are included in the report
 
