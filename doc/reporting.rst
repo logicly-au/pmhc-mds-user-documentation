@@ -788,6 +788,7 @@ Key specifications:
   Referred to at Episode Conclusion" which only applies to closed episodes
 * Service Contacts flagged as ‘No Show’ are not included for this purpose
 * Only service contacts with primary practitioners are included in the report
+* :ref:`interp_remoteness_counts` is pertinent to the B2 report
 
 .. _category-b2a:
 
@@ -823,6 +824,7 @@ Key specifications:
   by whether they are flagged as ‘No Show’
 * Otherwise, Service Contacts flagged as ‘No Show’ are not included in this report
 * Only service contacts with primary practitioners are included in the report
+* :ref:`interp_remoteness_counts` is pertinent to the B3 report
 
 .. _category-b4:
 
@@ -1018,6 +1020,7 @@ Client data elements that can be selected for the C1 report are:
 
 * Gender
 * Country of Birth – grouped to high level categories
+* :ref:`interp_remoteness_counts` is pertinent to the C1 report
 
 .. _category-c2:
 
@@ -1134,6 +1137,7 @@ Key specifications applying to all ACC series reports:
 * Population is calculated from Estimated Regional Population figures
 * KPI is measured in clients per 100,000 population
 * Age is calculated at start of episode
+* :ref:`interp_remoteness_counts` is pertinent to the Acc series reports
 
 And key specifications for:
 
@@ -1197,9 +1201,10 @@ Key specifications:
 APP series reports (App1 to App3)
 +++++++++++++++++++++++++++++++++
 
-Key specifications applying to all ACC series reports:
+Key specifications applying to all App series reports:
 
 * Age is calculated at start of episode
+* :ref:`interp_remoteness_counts` is pertinent to the App series reports
 
 And key specifications for:
 
@@ -1306,6 +1311,7 @@ Key specifications applying to all Out series reports:
 * Measures that have an invalid total score of ‘99 = Not stated / Missing’ are excluded
 * To be counted as 'Matched', both an initial and final measure of matching type must be recorded. See :ref:`matching_measure_types`.
 * Age is calculated at start of episode
+* :ref:`interp_remoteness_counts` is pertinent to the Out series reports
 
 *Note:* Matching of measures in the Out series is tighter than that used in :ref:`category-a9`,
 so figures may vary between these reports.
