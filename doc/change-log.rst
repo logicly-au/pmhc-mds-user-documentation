@@ -3,6 +3,12 @@
 User Guide Change log
 =====================
 
+10/12/2024
+----------
+
+* Added :ref:`reporting_considerations`
+* Added :ref:`reporting_inputs`
+
 22/08/2024
 ----------
 

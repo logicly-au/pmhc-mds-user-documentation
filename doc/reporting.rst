@@ -875,16 +875,7 @@ respectively. The B6 extends this to any type of focus.
 * Effect sizes of +0.5 or more constitute 'Significant improvement',
   −0.5 or less constitute 'Significant deterioration'.
   Effect sizes between −0.5 and 0.5 indicate 'No significant change'
-* Client Remoteness is determined by postcode, with some postcodes extending over 
-  multiple remoteness classifications. Since Episode Count is rounded to the nearest
-  whole number, there may be cases where the change percentages do not result in 
-  a whole number:
-  
-  * 0.17 of a postcode may be classed as Remote. With no other Remote episodes, 
-    Remote will show 100% of change for 0 episodes.
-  * 0.6 of a postcode may be classed as Remote. With 1 other Remote episode (with
-    a different outcome), the change will show 37.5% (0.6 / 1.6) and 62.5% (1 / 1.6) 
-    proportions for 2 episodes. 
+* :ref:`interp_remoteness_counts` is pertinent to the B6 report
 
 .. _category-b7:
 
@@ -1753,3 +1744,157 @@ The Way Back Quarterly Report using data contained in the PMHC MDS. See more at
 https://docs.pmhc-mds.com/projects/data-specification-wayback/en/v3/user-documentation/reports-user-guide.html
 
 *NOTE:* the **Wayback** tab will only be displayed when TWB data has been added to the PMHC MDS.
+
+.. _reporting_considerations:
+
+Reporting Considerations
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. _interp_remoteness_counts:
+
+Interpretation of remoteness counts
+-----------------------------------
+
+The PMHC MDS is a de-identified dataset and the Department of Health as custodian is 
+mindful of its obligations to protect client privacy. One expression of this is the 
+minimal collection of data locating clients’ residential location. No addresses are 
+collected, only postcodes. Postcode is a commonly collected data item as it is 
+non-specific enough to protect privacy but is readily known by most clients. As a 
+basis for geographic analysis however it is imperfect. Any analysis, breakdown or 
+comparison of the data within the PMHC MDS by geographic aggregations will be derived 
+from postcodes, and are therefore subject to caveats and/or interpretation.
+
+The PMHC MDS Remoteness Classification is derived from the client’s Area of usual 
+residence, postcode. This postcode is mapped using a concordance file to the ABS 
+defined Remoteness Areas:
+
+* Major Cities of Australia
+* Inner Regional Australia
+* Outer Regional Australia
+* Remote Australia
+* Very Remote Australia
+
+A single postcode can be mapped to more than one remoteness area using different weights. 
+This can result in low number anomalies such as that seen in this example B6 report:
+
+.. figure:: screen-shots/example-b6.png
+   :alt: Example B6 report showing anomalies due to mapping a single postcode to more than one remoteness area
+
+Notice that there are 2 episodes in the very remote Australia classification, but these 
+two episodes are distributed across the **’Significant Improvement’** and **‘No significant change’**
+categories in the seemingly impossible proportions of 61.6% and 38.4% respectively.
+
+This is because the client postcodes associated with these episodes include one postcode (0822) 
+that splits across 3 remoteness classifications, with proportions being defined by the “weight” variable:
+
++----------+--------+---------------------------+
+| Postcode | Weight | Remoteness Area           |
++==========+========+===========================+
+| 3065     | 1      | Major Cities of Australia |
++----------+--------+---------------------------+
+| 3086     | 1      | Major Cities of Australia |
++----------+--------+---------------------------+
+| 0822     | 0.173  | Outer Regional Australia  |
++----------+--------+---------------------------+
+| 0822     | 02.03  | Remote Australia          |
++----------+--------+---------------------------+
+| 0822     | 0.623  | Very Remote Australia     |
++----------+--------+---------------------------+
+| 4490     | 1      | Very Remote Australia     |
++----------+--------+---------------------------+
+
+These weights are applied to each of the 4 episodes, and their change groups, as follows. 
+Note that the sum of the weights is the same as the total number of episodes:
+
++-------------+-----------+---------------------------+
+| Change      | Weight    | Remoteness Area           |
++=============+===========+===========================+
+| No change   | 1.0000000 | Major Cities of Australia |
++-------------+-----------+---------------------------+
+| No change   | 1.0000000 | Major Cities of Australia |
++-------------+-----------+---------------------------+
+| No change   | 0.1734224 | Outer Regional Australia  |
++-------------+-----------+---------------------------+
+| No change   | 0.2034875 | Remote Australia          |
++-------------+-----------+---------------------------+
+| No change   | 0.6230901 | Very Remote Australia     |
++-------------+-----------+---------------------------+
+| Improvement | 1.0000000 | Very Remote Australia     |
++-------------+-----------+---------------------------+
+
+Compare this source data to the report above. 
+
+**Major Cities of Australia** is straightforward: 2 records, both with weights of 1 for a 
+total of 2 episodes, both of which are in the **No change** group. The next remoteness 
+category (**Inner Regional Australia**) has an episode count of 0 and is indicated by dashes 
+in the report, consistent with the source data. After that it gets confusing. The third 
+category in the report (**Outer Regional Australia**) is also listed as having an episode 
+count of 0, but in this case change groups have figures rather than dashes, with the 
+**No significant change** group indicating 100%.
+
+This can be understood looking at the source data where, unlike **Inner Regional Australia**, 
+there is an **Outer Regional Australia** row. The weight for this row is 0.1734, which 
+rounds to 0 episodes. However 100% of that 0.1734 of an episode is in the 
+**No significant change** group, hence the 100% figure for that group, and 
+the 0% reported for the other two groups.
+
+**Remote Australia** can be understood the same way, in this case 100% of its 0.2035 
+episodes are also **No significant change** (in fact this is a further 0.2034 of the same 
+episode that **Outer Regional Australia** constitutes 0.1734 of - the remaining 
+0.6231 is in **Very Remote Australia**).
+
+Which leaves the final and most confusing category: **Very Remote Australia**. The source 
+data indicates two records for this category, with weights of 1.000 and 0.6231 for a 
+total of 1.6231 episodes. This rounds to 2 episodes (which is what is reported), but the 
+percentages are based on the weighted episodes, so the Significant Improvement group is 
+1/1.6231 = 0.616 (61.6%). The No Significant Change group has 0.6231/1.6231 = 0.384 (38.4%).
+
+Strictly speaking, the Episode Counts for the 5 Client Remoteness categories are:
+
++---------------------------+--------+
+| Major Cities of Australia | 1.0000 |
++---------------------------+--------+
+| Inner Regional Australia  | 0.0000 |
++---------------------------+--------+
+| Outer Regional Australia  | 0.1734 |
++---------------------------+--------+
+| Remote Australia          | 0.2035 |
++---------------------------+--------+
+| Very Remote Australia     | 1.6231 |
++---------------------------+--------+
+
+But to reduce confusion the episode counts have been rounded. Unfortunately this may
+increase confusion because it makes it harder to understand the change percentages.
+
+.. _reporting_inputs:
+
+Inputs to help replicate system generated reports
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Organisations frequently replicate the system reports at a local level for their
+own auditing purposes.
+
+Some reports, such as the Out series reports, use extra inputs that cannot be
+generated locally.
+
+These inputs are being supplied here to assist organisations who wish to
+replicate the system reports.
+
+.. _standard-deviations:
+
+Outcome Measure Standard Deviations
+-----------------------------------
+
+Outcome Measure Standard Deviations will be updated in the second
+half of August each year.
+
+Current version:
+
+`Download PMHC Outcome Measure Standard Deviations 2024 as XLSX <_static/2024-pmhc-outcome-measure-standard-deviations.xlsx>`_.
+
+Previous versions:
+
+* `Download PMHC Outcome Measure Standard Deviations 2023 as XLSX <_static/2023-pmhc-outcome-measure-standard-deviations.xlsx>`_.
+* `Download PMHC Outcome Measure Standard Deviations 2022 as XLSX <_static/2022-pmhc-outcome-measure-standard-deviations.xlsx>`_.
+* `Download PMHC Outcome Measure Standard Deviations 2021 as XLSX <_static/2021-pmhc-outcome-measure-standard-deviations.xlsx>`_.
+* `Download PMHC Outcome Measure Standard Deviations 2020 as XLSX <_static/2020-pmhc-outcome-measure-standard-deviations.xlsx>`_.
