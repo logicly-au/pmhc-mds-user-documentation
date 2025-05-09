@@ -3,6 +3,11 @@
 User Guide Change log
 =====================
 
+06/05/2025
+
+* Updated :ref:`home` to removed user mobile device information
+* Updated :ref:`users` to removed user mobile device information
+
 10/12/2024
 ----------
 

@@ -152,7 +152,7 @@ it doesn't affect other users or the security of the organisation's data. A user
 account, should not be passed from one staff member to the next.
 
 Before inviting a user, it is always best to inform them that they will receive a
-PMHC MDS invitation by email from noreply@logicly.com.au and a verification code via SMS.
+PMHC MDS invitation by email from Logicly on noreply@logicly.com.au.
 You can also provide them with the link to the online :ref:`user-docs` to read
 the steps they will need to complete the steps outlined in :ref:`accepting-invitation`.
 
@@ -174,8 +174,7 @@ by following these steps:
 
 6. Click the blue **Invite** button
 7. You will receive confirmation that the user has been sent an email to invite
-   them to the PMHC MDS. They will also be sent an SMS containing a
-   verification code. The user will need to follow the instructions in the
+   them to the PMHC MDS. The user will need to follow the instructions in the
    email before they can gain access to the system. See :ref:`accepting-invitation`
    This invitation will be valid for 7 days. Invitations are listed in the **View Invitations** table.
 8. When the user has accepted the invitation you will be sent an email to let you know.
@@ -194,9 +193,9 @@ Adding an existing user
 Note: An existing user must have completed the required steps for :ref:`accepting-invitation`
 from their initial PMHC MDS invitation before they can be added again.
 
-Before adding an existing user please ensure you have the same email and mobile
-number as their current PMHC MDS Profile. By ensuring these are identical, the system
-will automatically pick up if a user already exists in the PMHC MDS.
+Before adding an existing user please ensure you have the same email as their
+current PMHC MDS Profile. By ensuring these are identical, the system will
+automatically pick up if a user already exists in the PMHC MDS.
 
 You can invite an existing user through the **Users** tab, by following these steps:
 
@@ -252,8 +251,6 @@ A page will display the user's invitation details, as entered on the invitation 
 .. figure:: screen-shots/user-invite-accepted.png
    :alt: PMHC MDS View Accepted Invite
 
-*Please note: For privacy reasons, only the user who issued the invitation will be able to see the invitee's mobile number.*
-
 On the page you can:
 
    * :ref:`reissue-invite`
@@ -275,7 +272,7 @@ You can reissue a pending or expired invitation through the **Users** tab, by fo
 
 #. Review all details are correct
 #. Click the 'Reissue Invitation' button to resend the invitation using the same details
-#. Click the Reissue' button to resend the email and SMS invitation details. (or click the 'Cancel' button if you decide not to reissue this invite)
+#. Click the Reissue' button to resend the email invitation details. (or click the 'Cancel' button if you decide not to reissue this invite)
 
 *Please note: If any of the details are incorrect on the previous invite,
 you will need to remove the invitation before being able to send a new invite.* See: :ref:`revoke-invite`.
@@ -292,7 +289,6 @@ The user has seven days to accept an invitation.
 When a pending invitation is revoked, this will inactivate the invite so that
 the user will no longer be able to accept the invite. You may need to inactivate
 an invitation if the invitee's details have been incorrectly entered, or if the
-single-use verification token has already been used once (is expired), or if the
 user should no longer be granted access.
 
 You can revoke a user's invitation through the **Users** tab, by following these steps:
@@ -397,7 +393,7 @@ You can edit and assign extra :ref:`roles <roles>`  to an existing user by follo
 Deleting a user
 ^^^^^^^^^^^^^^^
 
-A user can be deleted from an organisation by using the ‘**Actions**’ feature under
+A user can be deleted from an organisation by using the |remove-all| button under
 the edit roles tab, which will remove all the roles a user has at that organisation.
 
 Once completed, if the user does not have any remaining roles within the PMHC MDS, the
