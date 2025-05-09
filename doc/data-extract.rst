@@ -116,13 +116,13 @@ The resulting file can be uploaded.
 
 .. _data-extract-specification-headspace:
 
-headspace 2.0 (PMHC extension)
+headspace 4.1 (PMHC extension)
 ------------------------------
 
-If you would like to download a file that includes data from headspace extension
-(current 2.0), select the dropdown option labelled **headspace 2.0**.
-This downloads a file that is the data that has been updated from headpace headoffice hAPI system.
-(See `headspace Specification <https://docs.pmhc-mds.com/projects/data-specification-headspace/en/v2/index.html>`_).
+If you would like to download a file that includes data from headspace extension,
+select the dropdown option labelled **headspace 4.1**. This downloads a file that
+is the data that has been updated from headspace headoffice hAPI system.
+(See `headspace Specification <https://docs.pmhc-mds.com/projects/data-specification-headspace/en/v4.1/index.html>`_).
 
 The resulting file cannot be uploaded. This is a download only format.
 
@@ -165,7 +165,7 @@ This downloads a file that is a combination of all of the extensions listed at h
 The resulting file cannot be uploaded. This is a download only format. It is based
 on the most recent version used by either the core specification or an extension.
 
-Please note: In the interim, until all extensions data is transitioned to Version 4.0,
+Please note: In the interim, until all extensions data is transitioned to Version 4,
 fields with changes to their specifications between versions will show twice in these META files.
 
   For example "Referral Date": In versions 2 and 3, Referral date was not required. In version 4

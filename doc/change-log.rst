@@ -7,6 +7,8 @@ User Guide Change log
 
 * Updated :ref:`home` to removed user mobile device information
 * Updated :ref:`users` to removed user mobile device information
+* Updated :ref:`data-extract-specification-headspace` to version 4.1
+
 
 10/12/2024
 ----------
