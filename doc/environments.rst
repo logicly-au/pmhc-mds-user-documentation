@@ -45,5 +45,5 @@ This letter must contain the following details (for the person for whom the MDS 
 1. The name of the person the account is for
 2. The email address of the person
 3. Contact telephone number
-5. Request access to the ‘Test [Your Organisation or Company Name]’
-6. This letter must be scanned and emailed to support@pmhc-mds.com.
+4. Request access to the ‘Test [Your Organisation or Company Name]’
+5. This letter must be scanned and emailed to support@pmhc-mds.com.
