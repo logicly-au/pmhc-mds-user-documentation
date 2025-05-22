@@ -3,6 +3,19 @@
 User Guide Change log
 =====================
 
+06/05/2025
+
+* Updated :ref:`home` to removed user mobile device information
+* Updated :ref:`users` to removed user mobile device information
+* Updated :ref:`data-extract-specification-headspace` to version 4.1
+
+
+10/12/2024
+----------
+
+* Added :ref:`reporting_considerations`
+* Added :ref:`reporting_inputs`
+
 22/08/2024
 ----------
 

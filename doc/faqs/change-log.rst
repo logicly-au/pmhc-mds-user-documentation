@@ -3,6 +3,11 @@
 Frequently Asked Questions Change log
 =====================================
 
+06/05/2025
+----------
+
+* Removed user mobile device related questions
+
 16/12/2021
 ----------
 
@@ -38,10 +43,6 @@ System - Access FAQs
 * Updated :ref:`outstanding-invite-exists-faq`
 
 * Updated :ref:`did-not-receive-email-invitation-faq`
-
-* Updated :ref:`did-not-receive-sms-invitation-faq`
-
-* Updated :ref:`deleted-email-sms-invitation-faq`
 
 20/1/2020
 ---------
@@ -340,11 +341,7 @@ Concepts Processes - Scope FAQs
 System - Access FAQs
 ~~~~~~~~~~~~~~~~~~~~
 
-* Added the question :ref:`do-not-have-a-work-mobile-faq`
-
 * Added the question :ref:`MHNIP-data-faq`
-
-* Added the question :ref:`using-the-same-mobile-faq`
 
 * Refined the answer to :ref:`what-can-a-user-see-faq`
 
@@ -355,10 +352,6 @@ System - Access FAQs
 * Added the question :ref:`outstanding-invite-exists-faq`
 
 * Added the question :ref:`did-not-receive-email-invitation-faq`
-
-* Added the question :ref:`did-not-receive-sms-invitation-faq`
-
-* Added the question :ref:`deleted-email-sms-invitation-faq`
 
 * Refined the question :ref:`third-party-developer-access-faq`
 
