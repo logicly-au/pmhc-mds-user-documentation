@@ -10,23 +10,22 @@ use File::Slurp::Tiny qw/read_file write_file read_dir/;
 use Getopt::Long;
 use DateTime;
 
-use SD::PrinceXML::Client 22;
+use SD::PrinceXML::Client 25;
 
 GetOptions (
     "webservice=s"  => \my $webservice,
-    "spec-name=s"   => \my $spec_name,
+    "o|pdf-name=s"  => \my $pdf_name,
     "doc-dir=s"     => \my $doc_dir,
     "f|forcesphinx" => \my $sphinx,
     "t|timestamp=s" => \my $timestamp,
 ) or die("Error in command line arguments\n");
 
-my $src = "$doc_dir/build/singlehtml";
-my $dst = "$doc_dir/_static";
-my $output_file = "$dst/$spec_name.pdf";
+my $src         = "$doc_dir/build/singlehtml";
+my $dst         = "$doc_dir/_static";
+my $output_file = "$dst/$pdf_name";
 
-$spec_name   || die 'You must specify a spec name';
+$pdf_name   || die 'You must specify a name for the pdf';
 $doc_dir     || die 'You must specify a doc directory';
-$timestamp   || die 'You must specify a timestamp';
 $webservice  ||= 'https://prince.sdintra.net';
 
 #=======================================================================
@@ -48,10 +47,11 @@ createTOC( $tree );
 fixLinks( $tree );
 #fixExternalLinks( $tree ); Turned off as sometimes we need the URL contextually
 
-write_file( $src . '/index_pdf.html', $tree->as_HTML());
+write_file( $src . '/index-pdf.html', $tree->as_HTML());
 
-
+say "Altering CSS font references";
 # Fix the font references in CSS
+
 # prince does not like path separators in added files
 #  we remove the leading ../ and replace any others with a dash
 my $replacement = 'my $a = $1; $a =~ s|\.\./||g; $a =~ s|/|-|g; "url(" . $a . ")";';
@@ -84,9 +84,9 @@ say "Sending to Prince";
 my $client = SD::PrinceXML::Client->new(
     webservice       => $webservice,
     send_literal_url => 0,
-    url              => 'file://' . $src . '/index_pdf.html'
+    javascript       => 1,
+    url              => 'file://' . $src . '/index-pdf.html'
 );
-
 
 # Send the fonts
 addFontDir($client, $src . '/_static/css', 'fonts' );
@@ -97,6 +97,7 @@ my $output_pdf = $client->pdf;
 # Write the output to the output file
 say "Writing to $output_file";
 write_file( $output_file, $output_pdf );
+
 
 sub addFontDir {
     my $client       = shift;
@@ -174,7 +175,7 @@ sub createTOC {
     #@type HTML::Element
     my $tree = shift;
 
-    my ( $top_level_tag, $second_level_tag ) = qw/h2 h3/;
+    my ( $top_level_tag, $second_level_tag ) = qw/h3 h4/;
 
     my @interesting_header_nodes = $tree->find_by_tag_name( $top_level_tag, $second_level_tag );
 
@@ -236,7 +237,7 @@ sub createTOC {
         _tag => 'div',
         class => qr'toctree-wrapper'
     );
-    $toc_position->preinsert( ['h2', 'Table of Contents'], $top_level_list );
+    $toc_position->preinsert( ['h3', 'Table of Contents'], $top_level_list );
 }
 
 

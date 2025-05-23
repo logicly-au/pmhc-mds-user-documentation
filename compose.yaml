@@ -1,0 +1,21 @@
+services:
+  ddict:
+    image: logicly/webval-ddict-rtd-tools:multiplatform
+    pull_policy: always
+    command: ddict2rst.pl -C MHE -V 04.01 -D records
+    volumes:
+      - ./docs:/mnt/workdir
+      - ./ddict.conf:/etc/ddict.conf
+    working_dir: /mnt/workdir
+    environment:
+      - DDICT_CONFIG=/etc/ddict.conf
+      - GIT_VERSION
+  sphinx:
+    build:
+      context: .
+    pull_policy: always
+    command: make html
+    volumes:
+      - ./docs:/docs
+    environment:
+      - GIT_VERSION
