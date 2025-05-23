@@ -249,12 +249,12 @@ sub reanchor {
     my $el = shift;
 
     #@type HTML::Element
-    my $anchor = $el->find_by_tag_name( 'a' );
-    my $href = $anchor->attr( 'href' );
+    my $headerlink = $el->look_down( _tag => 'a', class => 'headerlink' );
+    my $href = $headerlink->attr( 'href' );
 
     # Remove the anchor from the <h3> so we don't get the ¶ when
     # rendering the h3 as text. We hide it in the PDF with CSS anyway
-    $anchor->detach();
+    $headerlink->detach();
     my $text = $el->as_text;
 
     my $rv = HTML::Element->new( 'a' );
