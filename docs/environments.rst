@@ -13,7 +13,7 @@ Production
 ----------
 
 The main (production) environment of the PMHC MDS is available at https://pmhc-mds.net/. Only real data that
-is to be reported to the Department of Health and Aged Care should be uploaded to this environment.
+is to be reported to the Department of Health, Disability and Aging (DoHDA) should be uploaded to this environment.
 A :ref:`developers` environment is provided for testing third-party
 developed software against the PMHC MDS.
 

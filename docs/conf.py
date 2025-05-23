@@ -29,7 +29,8 @@ from datetime import datetime
 
 load_dotenv('version.env')
 
-project       = environ.get('NAME')
+name       = environ.get('NAME')
+project      = environ.get('DOCNAME')
 version       = environ.get('VERSION')
 author        = environ.get('AUTHOR')
 current_year  = datetime.now().year
@@ -268,7 +269,7 @@ latex_elements = {
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 #man_pages = [
-#    (master_doc, 'MHE NMDS Specification', u'Mental Health Establishments National Minimum Dataset specification',
+#    (master_doc, 'PMHC-MDS User Documentation', u'PMHC-MDS User Documentation',
 #     [author], 1)
 #]
 
@@ -282,8 +283,8 @@ latex_elements = {
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 #texinfo_documents = [
-#  (master_doc, 'MHE', u'Mental Health Establishments National Minimum Dataset specification',
-#   author, 'MHE', 'Mental Health Establishments National Minimum Dataset specification',
+#  (master_doc, 'MHE', u'PMHC-MDS User Documentation',
+#   author, 'MHE', 'PMHC-MDS User Documentation',
 #   'Miscellaneous'),
 #]
 
@@ -308,7 +309,7 @@ if not on_rtd:  # only import and set the theme if we're building docs locally
 # see https://github.com/hoccleve-archive/hocl.tk/blob/70b71b5a265d0b1d64c5cb6e43b686d03ead4078/docs/conf.py#L48
 
 copyright = str(datetime.now().year) + ", " + author
-download_pdf = ":download:`PDF </_static/" + project + "-" + version + ".pdf>`"
+download_pdf = ":download:`PDF </_static/" + name + "-" + version + ".pdf>`"
 
 rst_epilog = """
 .. |current-year| replace:: %(current_year)s

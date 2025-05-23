@@ -44,7 +44,7 @@ tab by following these steps:
    calendar icon to select the end date
 7. If you click the **Include only records with Client Consent** tickbox, the
    data for clients that have not consented to their anonymised data being
-   provided to the Department of Health will be excluded from your report. (See `Episode — Client Consent to Anonymised Data <http://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#dfn-client-consent>`_ )
+   provided to the Department of Health, Disability and Aging (DoHDA) will be excluded from your report. (See `Episode — Client Consent to Anonymised Data <http://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#dfn-client-consent>`_ )
 8. Click the blue **Request** button
 9. Your report will be displayed on screen and can be downloaded as a CSV
 
@@ -1763,7 +1763,7 @@ Reporting Considerations
 Interpretation of remoteness counts
 -----------------------------------
 
-The PMHC MDS is a de-identified dataset and the Department of Health as custodian is 
+The PMHC MDS is a de-identified dataset and the Department of Health, Disability and Aging (DoHDA) as custodian is 
 mindful of its obligations to protect client privacy. One expression of this is the 
 minimal collection of data locating clients’ residential location. No addresses are 
 collected, only postcodes. Postcode is a commonly collected data item as it is 

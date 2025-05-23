@@ -48,8 +48,8 @@ collect and upload all non-consented client data into the regional data reposito
 and State and Territory health departments do not have access to the personal information in the
 regional data repository, only summary reports
 
-(b) Can PHNs supply the data to the Department of Health and Aged Care and state and territory health departments/agencies?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(b) Can PHNs supply the data to the Department of Health, Disability and Aging (DoHDA) and state and territory health departments/agencies?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Provision of information to the department and state and territory health departments/agencies is
 necessary for governments to undertake their role in funding, monitoring and planning future service
