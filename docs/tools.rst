@@ -1,7 +1,7 @@
 .. _tools:
 
 Tools
-=======
+=====
 
 The following tools are available in the PMHC MDS.
 

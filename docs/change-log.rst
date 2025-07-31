@@ -3,7 +3,13 @@
 User Guide Change log
 =====================
 
+31/7/2025
+---------
+
+* Added :ref:`additional-services`
+
 06/05/2025
+----------
 
 * Updated :ref:`home` to removed user mobile device information
 * Updated :ref:`users` to removed user mobile device information
