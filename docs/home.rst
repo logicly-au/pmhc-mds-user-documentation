@@ -16,7 +16,7 @@ most recent announcements made via the :ref:`mailing-list-FAQs`.
    :alt: PMHC MDS Home Page
 
 An announcements archive link is now available on the **Home** tab under the three
-most recent announcements - Click `View Archive <https://www.pmhc-mds.com/communications/>`_
+most recent announcements - Click `View Archive <https://pmhc-mds.com/communications/>`_
 to view all the PMHC MDS announcements.
 
 .. _access:
@@ -50,17 +50,20 @@ Logging In
 
 After navigating to https://pmhc-mds.net/, click **Sign in**.
 
+.. figure:: screen-shots/account-login.png
+   :alt: PMHC MDS Sign In Button
+
+This will open a window to log in. Enter your email address and click **Continue**.
+
 .. figure:: screen-shots/log-in-step-1.png
    :width: 400
    :alt: PMHC MDS Sign In Step 1
 
-This will open a window to log in. Enter your email address and click **Continue**.
+On the next window, enter your password and click **Continue**.
 
 .. figure:: screen-shots/log-in-step-2.png
    :width: 400
    :alt: PMHC MDS Sign In Step 2
-
-On the next window, enter then your password and click **Continue**.
 
 To maintain compliance with current best practices in security policy,
 Multi Factor Authentication (MFA) has been implemented for user access
@@ -73,12 +76,15 @@ in setting up and using MFA, follow the Logicly details at
 Logging Out
 ^^^^^^^^^^^
 
+We strongly encourage users to logout when they have completed their tasks.
+
 Logout by:
 
 1. Clicking on the button to the right of the menubar that says **Logged in as [Name]**
 2. Click **Logout** from the options that open
 
-We strongly encourage users to logout when they have completed their tasks.
+.. figure:: screen-shots/account-logout.png
+   :alt: PMHC MDS Log Out
 
 *Please note - the PMHC MDS will automatically log users out after 15
 minutes of inactivity.  You will see a pop up box that provides a countdown
@@ -98,63 +104,18 @@ Updating your details
 ^^^^^^^^^^^^^^^^^^^^^
 
 If your email address has changed, it is important that you update your account.
-These instructions require you to have a working login which you know.
-Ensure you are logged in to proceed.
+You must be logged in to proceed with these instructions.
 
-If you are unable to login and need your email address updated to regain access
-then follow the instructions under :ref:`request-your-details-be-updated`.
+For more information, follow the the steps outlined at `Updating Logicly account contact details <https://docs.logicly.com.au/en/latest/account-management/index.html#updating-your-details>`_
 
-To edit your details:
-
-1. Click the button to the right of the menubar that says **Logged in as [Name]**
-2. From the menu that opens, click **Profile**
-3. You will be taken to the Profile Management page
-4. Login using your PMHC MDS email and password
-
-.. figure:: screen-shots/account-manage-profile-login.png
-   :alt: PMHC MDS Manage Details
-
-5. You will see the **Manage Details** page
-
-   .. figure:: screen-shots/account-manage-details.png
-      :alt: PMHC MDS Manage Details
-
-  * To update your name, click the **Change personal details** link
-  * To update your primary email address, click the **Change email address** link
-  * To update your backup email address, click the **Change backup email address**
-    link
-  * Please note: The last section on the page, **Password lifetime**, tells you when
-    you last changed your password and when it will expire. Passwords must
-    be changed every year. See ::ref:`passwords`
-
-6. Once you have entered your changed details, click **Submit** (Please note: you
-   can only change one contact detail at a time)
-
-7. An email with further instructions will be sent from
-   noreply@logicly.com.au to the email address the PMHC MDS has on file
-   for the user. (Please note: This information will be sent to both the old and
-   the new details to confirm the change)
-
-   .. figure:: screen-shots/account-update-details-request.png
-      :alt: PMHC MDS Reset Password Request
-
-8. Open the email sent from noreply@logicly.com.au and open the link in the email
-
-   .. figure:: screen-shots/account-update-details-email.png
-      :alt: PMHC MDS Reset Password Email
-
-9. The screen will confirm the update has been completed.
-
-   .. figure:: screen-shots/account-update-details-confirm.png
-      :alt: PMHC MDS Reset Password Email
-
+If you are unable to log in - See :ref:`request-your-details-be-updated`.
 
 .. _request-your-details-be-updated:
 
 Request your details be updated
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-If you can't access your profile, `contact the PMHC Helpdesk <mailto:support@pmhc-mds.com>`_
+If you can't access your Logicly profile, `contact the PMHC Helpdesk <mailto:support@pmhc-mds.com>`_
 so that your records can be updated. When contacting the PMHC Helpdesk you will
 be asked to arrange for a :ref:`letter of authority <letter-of-authority-faq>`
 stating the change(s) you require.
@@ -169,26 +130,9 @@ passwords must be changed every twelve months. If you do not change your passwor
 it will expire and you will not be able to login to the system without resetting
 your password.
 
-Passwords must:
-
-Use a strong random password or a passphrase. In either case this must be at
-least 14 characters. Random passwords are best suited to users relying on a
-password manager as they can be generated by the password manager and need not
-be remembered. Use a passphrase if it must be remembered.
-
-When using a passphrase ensure that they aren't easily guessable by:
-
-* Using at least 4 random words. e.g. "magpie knuckle asteroid penance"
-* Not using a list of categorised words. e.g. "apple kiwi melon pear"
-* Not using a real sentence in a natural language. e.g. "The quick brown fox"
-* Not using well known phrases such as those constructed from song lyrics, movies, literature or any other publicly available material. e.g. "super califragilistic expialidocious"
-
-Please note: Users will be reminded via an email sent from noreply@logicly.com.au
-14 days prior to their password expiry date, and on PMHC MDS login 7 days prior
-to their password expiry - See :ref:`soon-to-expire-password`.
-
-If a password expires the user will not be able to access the PMHC MDS until they
-reset their password - See :ref:`forgotten-password`.
+When creating a password, if you see the message "Password unacceptably weak"
+the password is not of sufficient complexity. To learn more about the password
+complexity requirements, please refer to `Logicly password requirements <https://docs.logicly.com.au/en/latest/account-management/index.html#password-requirements>`_.
 
 .. _soon-to-expire-password:
 
@@ -204,38 +148,11 @@ reminded on PMHC MDS login 7 days prior to their password expiry.
 
 It is quicker to reset your password before it expires. Passwords can be reset
 by clicking the password reset link, which will open https://auth.logicly.com.au/.
-This link can be accessed in one of two ways:
 
-1. Either on the password reminder email; or
+For more information, follow the the steps outlined at `Password Expiry Notifications <https://docs.logicly.com.au/en/latest/account-management/index.html#password-expiry-notifications>`_.
 
-   .. figure:: screen-shots/account-password-expiry-reminder-email.png
-      :alt: PMHC MDS Resetting Password
-
-2. Under the PMHC MDS login click the **Sign in** button.
-
-   .. figure:: screen-shots/account-password-expiry-reminder-MDS-login.png
-      :alt: PMHC MDS Resetting Password
-
-When your profile management page opens, you will be shown this screen:
-
-   .. figure:: screen-shots/account-password-change.png
-      :alt: PMHC MDS Resetting Password
-
-**Please note:** If you see the message "Password unacceptably weak" after
-entering your new password, the password is not of sufficient complexity.
-Please check the password requirements. (Current users have indicated they
-find it easier to create a password that is 13 or more characters to avoid
-the complexity requirements). Iif you receive a message that your current
-password is incorrect, please reset your password through the link, :ref:`forgotten-password`.
-
-1. Click **Submit**
-2. You will receive confirmation when your new password has been successfully saved
-
-   .. figure:: screen-shots/account-password-changed-success.png
-      :alt: PMHC MDS Password Reset Success
-
-3. Log out of the profile management page
-4. Navigate back to the PMHC MDS https://pmhc-mds.com/ and sign in
+After your new password has been successfully saved, log out of the Logicly profile
+management page. Navigate back to the PMHC MDS https://pmhc-mds.net and sign in.
 
 
 .. _forgotten-password:
@@ -251,50 +168,17 @@ without resetting your password.
    .. figure:: screen-shots/account-sign-in-error.png
       :alt: PMHC MDS Wrong Username or Password
 
-If you have forgotten your password or it has expired:
+If you have forgotten your password or it has expired, you can use the automated
+‘Forgot Password’ system to reset your password. Navigate to https://pmhc-mds.net/
+and click **Forgot Password?** (next to **Sign in** button).
 
-1. Navigate to https://pmhc-mds.net/
-2. Click **Forgot Password?** (next to **Sign in** button)
+   .. figure:: screen-shots/account-password-reset-link.png
+      :alt: PMHC MDS Forgot Password Link
 
-   .. figure:: screen-shots/account-password-resetting.png
-      :alt: PMHC MDS Resetting Password
+For more information, follow the the steps outlined at `Forgotten Password <https://docs.logicly.com.au/en/latest/account-management/index.html#password-expiry-notifications>`_.
 
-3. You will be prompted to enter your email address or user name recorded
-   for the PMHC MDS
-4. Click the **I'm not a robot** checkbox
-5. Click **Submit**
-6. An email with further instructions will be sent from
-   support@logicly.com.au to the email address the PMHC MDS has on file
-   for the user
-7. You will be prompted to enter your email address again
-8. An email with further instructions will be sent from
-   noreply@logicly.com.au to the email address the PMHC MDS has on file
-   for the user. Additionally, if you have set a backup email, then
-   an email will also be sent there.
-
-   .. figure:: screen-shots/account-password-reset-request.png
-      :alt: PMHC MDS Reset Password Request
-
-9. Open the email sent from noreply@logicly.com.au and open the link in the email
-
-   .. figure:: screen-shots/account-password-reset-email.png
-      :alt: PMHC MDS Reset Password Email
-
-10. This will open the **Password reset** window
-
-   .. figure:: screen-shots/account-password-reset.png
-      :alt: PMHC MDS Password Reset
-
-11. Enter your new password
-12. Confirm you new password
-13. Click **Submit**
-14. Your password will be reset
-
-   .. figure:: screen-shots/account-password-reset-success.png
-      :alt: PMHC MDS Password Reset Success
-
-15. Logout of the profile management page
-16. Navigate back to https://pmhc-mds.com/ and sign in
+After your new password has been successfully saved, log out of the Logicly profile
+management page. Navigate back to the PMHC MDS https://pmhc-mds.net and sign in.
 
 
 .. _blocked-user:
@@ -308,23 +192,9 @@ to access their account on the PMHC MDS.
    .. figure:: screen-shots/account-blocked.png
       :alt: PMHC MDS Account Blocked
 
-When this ocurrs, an automated email will be sent to the email address the
+When this occurs, an automated email will be sent to the email address the
 PMHC MDS has on file for the user.
 
-   .. figure:: screen-shots/account-blocked-email-text.png
-      :alt: PMHC MDS Account Blocked Email Text
-
-1. Open the "Account blocked" email sent from support@logicly.com.au and follow
-   the instructions in that email to unblock your account
-
-      .. figure:: screen-shots/account-blocked-email-image.png
-         :alt: PMHC MDS Account Blocked Email Display
-
-2. If your IP address is displayed correctly, click the **Unblock** button
-
-The system will confirm if the unblock was successful.
-
-   .. figure:: screen-shots/account-unblocked.png
-      :alt: PMHC MDS Account Unblocked Success
+For more information, follow the the steps outlined at `Logicly Account Blocked <https://docs.logicly.com.au/en/latest/account-management/index.html#account-blocked>`_.
 
 Please note: Reset your password before attempting to log in again - See :ref:`forgotten-password`.
