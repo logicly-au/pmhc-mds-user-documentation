@@ -3,6 +3,12 @@
 Frequently Asked Questions Change log
 =====================================
 
+30/7/2025
+---------
+
+* Added :ref:`questions_from_clients`
+
+
 06/05/2025
 ----------
 
