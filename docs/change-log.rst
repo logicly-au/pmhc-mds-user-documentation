@@ -3,10 +3,17 @@
 User Guide Change log
 =====================
 
-06/05/2025
+31/7/2025
+---------
 
-* Updated :ref:`home` to removed user mobile device information
-* Updated :ref:`users` to removed user mobile device information
+* Added :ref:`additional-services`
+* Updated :ref:`home` to link to updated account management documentation
+
+06/05/2025
+----------
+
+* Updated :ref:`home` to remove user mobile device information
+* Updated :ref:`users` to remove user mobile device information
 * Updated :ref:`data-extract-specification-headspace` to version 4.1
 
 
