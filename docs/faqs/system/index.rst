@@ -12,6 +12,7 @@ System Frequently Asked Questions
    checking
    storing
    yes-phn
+   transitioning
    development
    mailing-list
    help-desk
