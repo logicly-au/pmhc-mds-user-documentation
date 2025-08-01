@@ -6,7 +6,7 @@ Frequently Asked Questions Change log
 31/7/2025
 ---------
 
-* Added :ref:`transitioning-to-new-cims-FAQs`
+* Added :ref:`bulk-update-transitioning-FAQs`
 
 30/7/2025
 ---------

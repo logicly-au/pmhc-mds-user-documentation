@@ -12,7 +12,7 @@ System Frequently Asked Questions
    checking
    storing
    yes-phn
-   transitioning
+   bulk-update-transitioning
    development
    mailing-list
    help-desk
