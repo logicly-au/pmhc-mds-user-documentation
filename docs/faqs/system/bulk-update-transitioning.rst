@@ -22,7 +22,7 @@ PHN will need to contact the PMHC Helpdesk at support@pmhc-mds.com to edit this 
 .. _bulk-key-change:
 
 How can I bulk change my record keys?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The PMHC MDS Helpdesk can assist with a bulk key change request, if a document mapping 
 the old keys to the new keys is provided. The mapping document needs to contain the 
