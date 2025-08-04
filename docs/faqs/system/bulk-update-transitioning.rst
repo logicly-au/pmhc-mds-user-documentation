@@ -4,7 +4,7 @@ Bulk updating data or transitioning to a new Client Information Management Syste
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The following information is being provided to assist users who need to do
-bulk updates to their data, including  transitioning to a new Client Information 
+bulk updates to their data, including transitioning to a new Client Information 
 Management System (CIMS).
 
 .. contents::
@@ -24,7 +24,7 @@ PHN will need to contact the PMHC Helpdesk at support@pmhc-mds.com to edit this 
 How can I bulk change my record keys?
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The PMHC MDS Helpdesk can assist  with a bulk key change request, if a document mapping 
+The PMHC MDS Helpdesk can assist with a bulk key change request, if a document mapping 
 the old keys to the new keys is provided. The mapping document needs to contain the 
 separate worksheets labelled as in a PMHC MDS upload or data extact, for each record type
 to be updated. Each worksheet needs to contain three columns:
