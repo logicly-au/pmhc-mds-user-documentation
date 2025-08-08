@@ -1046,10 +1046,14 @@ available on the **Data Entry** tab, by following these steps:
 2. Ensure the service contact is not already showing
 3. Click the **Add Service Contact** tab
 4. Enter the client's service contact details for that episode.
-   Mandatory fields are marked with an * (Specification `Service Contact Data Elements <http://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#service-contact-data-elements>`_)
+   Mandatory fields are marked with an * (Specification `Service Contact Data
+   Elements <http://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#service-contact-data-elements>`_)
 
 .. figure:: screen-shots/client-service-contacts-add.png
    :alt: Client Data Add Service Contact
+
+   Please note: Sites field dropdown list shows sites defined for a Provider
+   Organisation. The commissioning PHN can add sites.
 
 5. Click the blue **Save** button. (If you decide not to add this client's
    episode, you can simply navigate away from this screen)

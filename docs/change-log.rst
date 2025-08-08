@@ -9,19 +9,25 @@ User Guide Change log
 * Updated :ref:`users` to removed user mobile device information
 * Updated :ref:`data-extract-specification-headspace` to version 4.1
 
-
 10/12/2024
 ----------
 
 * Added :ref:`reporting_considerations`
 * Added :ref:`reporting_inputs`
 
+01/11/2024
+----------
+
+* Added :ref:`sites-provider-organisation`
+* Updated :ref:`add-service-contact` to include sites
+* Updated :ref:`data-extract-specification-pmhc` to version 4.1
+
 22/08/2024
 ----------
 
 * Updated :ref:`category-i` to note that the I1-I4 does not filter by IAR-DST version.
 
-2/08/2024
+02/08/2024
 ----------
 
 * Added :ref:`environments`
@@ -47,8 +53,8 @@ User Guide Change log
 
 * Updated :ref:`category-app-3`
 
-3/10/2023
----------
+03/10/2023
+----------
 
 * Updated :ref:`category-acc` and :ref:`category-app`
 
