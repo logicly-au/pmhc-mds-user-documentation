@@ -1740,6 +1740,186 @@ Key specifications:
   or “HeadtoHelp / HeadtoHealth”)
 * The report counts intakes, not dispatches
 
+.. _category-m:
+
+Category M: Monitoring Medicare Mental Health Centres (MMHC)
+------------------------------------------------------------
+
+These reports have been introduced to monitor MMHCs, however all except for the
+:ref:`category-m6` are pertinent for other program types as well.
+
+.. contents:: Available category M reports
+   :local:
+   :depth: 1
+
+.. _category-m1:
+
+M1 — Wait time report
++++++++++++++++++++++
+
+Wait time defined as number of days between a client’s intake referral date 
+and the date of the client’s first service contact.
+
+Key specifications:
+
+* Fill in
+
+.. _category-m2:
+
+M2 — Age report
++++++++++++++++
+
+Number and proportion of active clients, active episodes and service contacts by age.
+
+Key specifications:
+
+* Only 'active clients' are reported. A Client is defined as 'active' and in
+  scope for inclusion in this report if they had one or more active episodes
+  in the reporting period, where 'active episode' is defined below.
+* Only ‘active episodes’ are reported. An Episode is defined as ‘active’ and
+  in scope for inclusion in this report if it had one or more Service Contacts
+  recorded in the period. No distinction is made between Open and Completed
+  Episodes
+* Service Contacts flagged as ‘No Show’ are not included for this purpose.
+* Age is calculated at start of episode
+* A client can fall into multiple age groups because they may have multiple 
+  episodes within the reporting period
+* Client age group based on Date of Birth, grouped to the following categories:
+
+  * 0-11, 12-17, 18-25, 26-35, 36-45, 46-55, 56-65, 66-75, 76-85, 86-95, 95+
+
+.. _category-m3:
+
+M3 — Gender report
+++++++++++++++++++
+
+Number and proportion of active clients, active episodes and service contacts 
+by gender.  
+
+Key specifications:
+
+* Only 'active clients' are reported. A Client is defined as 'active' and in
+  scope for inclusion in this report if they had one or more active episodes
+  in the reporting period, where 'active episode' is defined below.
+* Only ‘active episodes’ are reported. An Episode is defined as ‘active’ and
+  in scope for inclusion in this report if it had one or more Service Contacts
+  recorded in the period. No distinction is made between Open and Completed
+  Episodes
+* Service Contacts flagged as ‘No Show’ are not included for this purpose.
+* Client gender grouped into categories as per `Client Gender <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#client-gender>`_.
+
+.. _category-m4:
+
+M4 — Aboriginal and Torres Strait Islander Status report
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Number and proportion of active clients, active episodes and service contacts by ATSI status.  
+
+Key specifications:
+
+* Only 'active clients' are reported. A Client is defined as 'active' and in
+  scope for inclusion in this report if they had one or more active episodes
+  in the reporting period, where 'active episode' is defined below.
+* Only ‘active episodes’ are reported. An Episode is defined as ‘active’ and
+  in scope for inclusion in this report if it had one or more Service Contacts
+  recorded in the period. No distinction is made between Open and Completed
+  Episodes
+* Service Contacts flagged as ‘No Show’ are not included for this purpose.
+* Client ATSI status grouped into categories as per `Aboriginal and Torres Strait Islander <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#aboriginal-and-torres-strait-islander-status>`_.
+
+.. _category-m5:
+
+M5 — Intake IAR report
+++++++++++++++++++++++
+
+IAR-DST recommended level of care presented as numbers and proportions (Level 1, Level 2, Level 3, Level 4, and Level 5).
+
+Key specifications:
+
+* Fill in
+
+.. _category-m6:
+
+M6 — Intake to MMHC report
+++++++++++++++++++++++++++
+
+Number of completed IAR-DST referred into Medicare Mental Health Centres.
+
+Key specifications:
+
+* Fill in
+
+.. _category-m7:
+
+M7 — Service Activity Counts report
++++++++++++++++++++++++++++++++++++
+
+Count of active clients, new episodes, active episodes, closed episodes 
+and service contacts in the defined reporting period.  
+
+Key specifications:
+
+* Only 'active clients' are reported. A Client is defined as 'active' and in
+  scope for inclusion in this report if they had one or more active episodes
+  in the reporting period, where 'active episode' is defined below.
+* Only ‘active episodes’ are reported. An Episode is defined as ‘active’ and
+  in scope for inclusion in this report if it had one or more Service Contacts
+  recorded in the period. No distinction is made between Open and Completed
+  Episodes
+* 'New episodes' are 'active episodes' which have commenced within the defined reporting period.
+* 'Closed episodes' includes all episodes that closed in the defined reporting period, whether
+  or not the episode had a service contact within the defined reporting period.
+* Service Contacts flagged as ‘No Show’ are not included for this purpose.
+
+.. _category-m8-1:
+
+M8 — Episode of Care Length report Option 1
++++++++++++++++++++++++++++++++++++++++++++
+
+Number of service contacts in an episode of care.
+
+Key specifications:
+
+* Episode end date is within reporting period.
+* The episode has at least one attended service contact (inside or outside the reporting period).
+
+
+.. _category-m8-2:
+
+M8 — Episode of Care Length report Option 2
++++++++++++++++++++++++++++++++++++++++++++
+
+Duration of a client’s episode of care (date of first service contact to date of last service contact) in days.
+
+Key specifications:
+
+* Episode end date is within reporting period.
+* The episode has at least one attended service contact (inside or outside the reporting period).
+
+.. _category-m9:
+
+M9 — Service Contact Type report
+++++++++++++++++++++++++++++++++
+
+Number and proportion of service contacts by service contact type.
+
+Key specifications:
+
+* Service Contacts flagged as ‘No Show’ are not included for this purpose.
+* Service contact type grouped into categories as per `Service Contact Type <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#service-contact-type>`_.
+
+.. _category-m10:
+
+M10 — Service Contact Length report
++++++++++++++++++++++++++++++++++++
+
+Number and proportion of service contacts by duration.
+
+Key specifications:
+
+* Service Contacts flagged as ‘No Show’ are not included for this purpose.
+* Service contact duraction grouped into categories as per `Duration <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#duration>`_.
+
 .. _produce-twb-report:
 
 Wayback report
