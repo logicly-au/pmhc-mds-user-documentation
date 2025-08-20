@@ -995,14 +995,15 @@ Key specifications:
 * Counts shown in the report refer to Episodes, and are displayed as numbers
   or percent column based on user selection
 * Age is calculated at start of episode
+* A client can fall into multiple age groups because they may have multiple 
+  episodes within the reporting period
 
 Client data elements that can be selected for the C1 report are:
 
 * Client age group based on Date of Birth, grouped to the following categories:
 
   * 0-11, 12-17, 18-24, 25-64, 65+
-  * Each client assigned to only age group based on age at a fixed date (e.g., beginning of year)
-
+ 
 * Indigenous status
 * Area of Usual Residence
 
