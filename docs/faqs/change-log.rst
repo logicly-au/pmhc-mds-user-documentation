@@ -3,6 +3,17 @@
 Frequently Asked Questions Change log
 =====================================
 
+31/7/2025
+---------
+
+* Added :ref:`bulk-update-transitioning-FAQs`
+
+30/7/2025
+---------
+
+* Added :ref:`questions_from_clients`
+
+
 06/05/2025
 ----------
 

@@ -13,4 +13,5 @@ Concepts and Processes Frequently Asked Questions
    identifiers
    phn-access
    support
+   client-questions
    miscellaneous

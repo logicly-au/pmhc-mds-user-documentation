@@ -786,7 +786,7 @@ Key specifications:
 
 * An Episode is defined as 'active' and in-scope for inclusion in this report
   if it had one or more Service Contacts recorded in the period. No distinction
-  is made between Open and Completed Episodes, except for the "Organisation 
+  is made between Open and Completed Episodes, except for the "Organisation
   Referred to at Episode Conclusion" which only applies to closed episodes
 * Service Contacts flagged as ‘No Show’ are not included for this purpose
 * Only service contacts with primary practitioners are included in the report
@@ -1534,8 +1534,8 @@ against the clinician’s final decision (Practitioner Level of Care)
 Key specifications:
 
 .. note::
-  As of `11/8/2024 <https://pmhc-mds.com/communications/#/2024/08/11/Update-to-the-PMHC-MDS-v-2-13-0/>`_ 
-  the PMHC MDS supports both `Version 1 and Version 2 of the IAR-DST <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html#iar-dst>`_. This report does not filter 
+  As of `11/8/2024 <https://pmhc-mds.com/communications/#/2024/08/11/Update-to-the-PMHC-MDS-v-2-13-0/>`_
+  the PMHC MDS supports both `Version 1 and Version 2 of the IAR-DST <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html#iar-dst>`_. This report does not filter
   by IAR DST version. All IAR DST records are counted.
 
 * The report counts intakes where the client first contacted the service during
@@ -1557,9 +1557,9 @@ correlate highly.
 Key specifications:
 
 .. note::
-  As of `11/8/2024 <https://pmhc-mds.com/communications/#/2024/08/11/Update-to-the-PMHC-MDS-v-2-13-0/>`_ 
-  the PMHC MDS supports both `Version 1 and Version 2 of the IAR-DST <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html#iar-dst>`_. This report does not filter 
-  by IAR DST version. All IAR DST records where there are a corresponding K10+ record 
+  As of `11/8/2024 <https://pmhc-mds.com/communications/#/2024/08/11/Update-to-the-PMHC-MDS-v-2-13-0/>`_
+  the PMHC MDS supports both `Version 1 and Version 2 of the IAR-DST <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html#iar-dst>`_. This report does not filter
+  by IAR DST version. All IAR DST records where there are a corresponding K10+ record
   collected at episode start are counted.
 
 * The report counts intakes where the client first contacted the service during
@@ -1585,8 +1585,8 @@ their required treatment complexity.
 Key specifications:
 
 .. note::
-  As of `11/8/2024 <https://pmhc-mds.com/communications/#/2024/08/11/Update-to-the-PMHC-MDS-v-2-13-0/>`_ 
-  the PMHC MDS supports both `Version 1 and Version 2 of the IAR-DST <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html#iar-dst>`_. This report does not filter 
+  As of `11/8/2024 <https://pmhc-mds.com/communications/#/2024/08/11/Update-to-the-PMHC-MDS-v-2-13-0/>`_
+  the PMHC MDS supports both `Version 1 and Version 2 of the IAR-DST <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html#iar-dst>`_. This report does not filter
   by IAR DST version. All IAR DST records are counted.
 
 * The report counts intakes where the client first contacted the service during
@@ -1611,8 +1611,8 @@ required treatment complexity.
 Key specifications:
 
 .. note::
-  As of `11/8/2024 <https://pmhc-mds.com/communications/#/2024/08/11/Update-to-the-PMHC-MDS-v-2-13-0/>`_ 
-  the PMHC MDS supports both `Version 1 and Version 2 of the IAR-DST <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html#iar-dst>`_. This report does not filter 
+  As of `11/8/2024 <https://pmhc-mds.com/communications/#/2024/08/11/Update-to-the-PMHC-MDS-v-2-13-0/>`_
+  the PMHC MDS supports both `Version 1 and Version 2 of the IAR-DST <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html#iar-dst>`_. This report does not filter
   by IAR DST version. All IAR DST records are counted.
 
 * The report counts intakes where the client first contacted the service during
@@ -1665,7 +1665,7 @@ I6 — Intake Dispatch Status by Intake Organisation and I7 — Link Status of E
 The I6 and I7 comprise a pair of reports intended to help monitor linkage of
 intake and treatment (episode) organisation. Recording of such linkages is more
 complex than most MDS processes because they can involve data submission by more
-than one submitter. The data from intake and treatment organisations an be uploaded
+than one submitter. The data from intake and treatment organisations can be uploaded
 at different times, so potentially only one side of the transaction may be in the
 MDS. These reports help identify the extent to which events that can be inferred
 to exist have not been submitted.
@@ -1763,17 +1763,17 @@ Reporting Considerations
 Interpretation of remoteness counts
 -----------------------------------
 
-The PMHC MDS is a de-identified dataset and the Department of Health, Disability and Aging (DoHDA) as custodian is 
-mindful of its obligations to protect client privacy. One expression of this is the 
-minimal collection of data locating clients’ residential location. No addresses are 
-collected, only postcodes. Postcode is a commonly collected data item as it is 
-non-specific enough to protect privacy but is readily known by most clients. As a 
-basis for geographic analysis however it is imperfect. Any analysis, breakdown or 
-comparison of the data within the PMHC MDS by geographic aggregations will be derived 
+The PMHC MDS is a de-identified dataset and the Department of Health, Disability and Aging (DoHDA) as custodian is
+mindful of its obligations to protect client privacy. One expression of this is the
+minimal collection of data locating clients’ residential location. No addresses are
+collected, only postcodes. Postcode is a commonly collected data item as it is
+non-specific enough to protect privacy but is readily known by most clients. As a
+basis for geographic analysis however it is imperfect. Any analysis, breakdown or
+comparison of the data within the PMHC MDS by geographic aggregations will be derived
 from postcodes, and are therefore subject to caveats and/or interpretation.
 
-The PMHC MDS Remoteness Classification is derived from the client’s Area of usual 
-residence, postcode. This postcode is mapped using a concordance file to the ABS 
+The PMHC MDS Remoteness Classification is derived from the client’s Area of usual
+residence, postcode. This postcode is mapped using a concordance file to the ABS
 defined Remoteness Areas:
 
 * Major Cities of Australia
@@ -1782,17 +1782,17 @@ defined Remoteness Areas:
 * Remote Australia
 * Very Remote Australia
 
-A single postcode can be mapped to more than one remoteness area using different weights. 
+A single postcode can be mapped to more than one remoteness area using different weights.
 This can result in low number anomalies such as that seen in this example B6 report:
 
 .. figure:: screen-shots/example-b6.png
    :alt: Example B6 report showing anomalies due to mapping a single postcode to more than one remoteness area
 
-Notice that there are 2 episodes in the very remote Australia classification, but these 
+Notice that there are 2 episodes in the very remote Australia classification, but these
 two episodes are distributed across the **’Significant Improvement’** and **‘No significant change’**
 categories in the seemingly impossible proportions of 61.6% and 38.4% respectively.
 
-This is because the client postcodes associated with these episodes include one postcode (0822) 
+This is because the client postcodes associated with these episodes include one postcode (0822)
 that splits across 3 remoteness classifications, with proportions being defined by the “weight” variable:
 
 +----------+--------+---------------------------+
@@ -1811,7 +1811,7 @@ that splits across 3 remoteness classifications, with proportions being defined 
 | 4490     | 1      | Very Remote Australia     |
 +----------+--------+---------------------------+
 
-These weights are applied to each of the 4 episodes, and their change groups, as follows. 
+These weights are applied to each of the 4 episodes, and their change groups, as follows.
 Note that the sum of the weights is the same as the total number of episodes:
 
 +-------------+-----------+---------------------------+
@@ -1830,31 +1830,31 @@ Note that the sum of the weights is the same as the total number of episodes:
 | Improvement | 1.0000000 | Very Remote Australia     |
 +-------------+-----------+---------------------------+
 
-Compare this source data to the report above. 
+Compare this source data to the report above.
 
-**Major Cities of Australia** is straightforward: 2 records, both with weights of 1 for a 
-total of 2 episodes, both of which are in the **No change** group. The next remoteness 
-category (**Inner Regional Australia**) has an episode count of 0 and is indicated by dashes 
-in the report, consistent with the source data. After that it gets confusing. The third 
-category in the report (**Outer Regional Australia**) is also listed as having an episode 
-count of 0, but in this case change groups have figures rather than dashes, with the 
+**Major Cities of Australia** is straightforward: 2 records, both with weights of 1 for a
+total of 2 episodes, both of which are in the **No change** group. The next remoteness
+category (**Inner Regional Australia**) has an episode count of 0 and is indicated by dashes
+in the report, consistent with the source data. After that it gets confusing. The third
+category in the report (**Outer Regional Australia**) is also listed as having an episode
+count of 0, but in this case change groups have figures rather than dashes, with the
 **No significant change** group indicating 100%.
 
-This can be understood looking at the source data where, unlike **Inner Regional Australia**, 
-there is an **Outer Regional Australia** row. The weight for this row is 0.1734, which 
-rounds to 0 episodes. However 100% of that 0.1734 of an episode is in the 
-**No significant change** group, hence the 100% figure for that group, and 
+This can be understood looking at the source data where, unlike **Inner Regional Australia**,
+there is an **Outer Regional Australia** row. The weight for this row is 0.1734, which
+rounds to 0 episodes. However 100% of that 0.1734 of an episode is in the
+**No significant change** group, hence the 100% figure for that group, and
 the 0% reported for the other two groups.
 
-**Remote Australia** can be understood the same way, in this case 100% of its 0.2035 
-episodes are also **No significant change** (in fact this is a further 0.2034 of the same 
-episode that **Outer Regional Australia** constitutes 0.1734 of - the remaining 
+**Remote Australia** can be understood the same way, in this case 100% of its 0.2035
+episodes are also **No significant change** (in fact this is a further 0.2034 of the same
+episode that **Outer Regional Australia** constitutes 0.1734 of - the remaining
 0.6231 is in **Very Remote Australia**).
 
-Which leaves the final and most confusing category: **Very Remote Australia**. The source 
-data indicates two records for this category, with weights of 1.000 and 0.6231 for a 
-total of 1.6231 episodes. This rounds to 2 episodes (which is what is reported), but the 
-percentages are based on the weighted episodes, so the Significant Improvement group is 
+Which leaves the final and most confusing category: **Very Remote Australia**. The source
+data indicates two records for this category, with weights of 1.000 and 0.6231 for a
+total of 1.6231 episodes. This rounds to 2 episodes (which is what is reported), but the
+percentages are based on the weighted episodes, so the Significant Improvement group is
 1/1.6231 = 0.616 (61.6%). The No Significant Change group has 0.6231/1.6231 = 0.384 (38.4%).
 
 Strictly speaking, the Episode Counts for the 5 Client Remoteness categories are:
