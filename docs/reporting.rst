@@ -128,6 +128,19 @@ delivered through the Australian Government Mental Health Response to Bushfire T
 
 .. _the-way-back-pmhc-subset:
 
+Supporting Recovery
++++++++++++++++++++
+
+Mental health services delivered through the Supporting Recovery pilot. (See
+`PMHC Program Type <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html#program-type>`_).
+
+MMHC
+++++
+
+Mental health services delivered through MMHC. (See
+`PMHC Program Type <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html#program-type>`_).
+
+
 The Way Back (PMHC subset)
 --------------------------
 
