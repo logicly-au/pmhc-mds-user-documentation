@@ -91,7 +91,7 @@ Flexible Funding Pool
 +++++++++++++++++++++
 
 Other Programs commissioned through Primary Mental Health Care Schedule that are
-not otherwise described by another category. (See `PMHC Program Type <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html#program-type>`_).
+not otherwise described by another category. (See `PMHC Program Type <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#program-type>`_).
 
 .. _head-to-health:
 
@@ -99,7 +99,7 @@ Head to Health
 ++++++++++++++
 
 The Head to Health Program includes Head to Health Adult Centres and Satellites
-and pop-up clinics. (See `PMHC Program Type <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html#program-type>`_).
+and pop-up clinics. (See `PMHC Program Type <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#program-type>`_).
 
 .. _amhc:
 
@@ -107,7 +107,7 @@ AMHC
 ++++
 
 The Head to Health Program that are delivering the Adult Mental Health Centre (AMHC)
-trial sites. (See `PMHC Program Type <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html#program-type>`_).
+trial sites. (See `PMHC Program Type <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#program-type>`_).
 
 .. _psychosocial:
 
@@ -115,7 +115,7 @@ Psychosocial
 ++++++++++++
 
 Mental health services delivered through the National Psychosocial Support Services
-Program. (See `PMHC Program Type <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html#program-type>`_).
+Program. (See `PMHC Program Type <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#program-type>`_).
 
 .. _bushfire-recovery-20:
 
@@ -124,22 +124,25 @@ Bushfire Recovery 20
 
 Mental health services in fire affected communities can use this field for episodes
 delivered through the Australian Government Mental Health Response to Bushfire Trauma.
-(See `PMHC Program Type <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html#program-type>`_).
+(See `PMHC Program Type <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#program-type>`_).
 
-.. _the-way-back-pmhc-subset:
+.. _supporting_recovery:
 
 Supporting Recovery
 +++++++++++++++++++
 
 Mental health services delivered through the Supporting Recovery pilot. (See
-`PMHC Program Type <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html#program-type>`_).
+`PMHC Program Type <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#program-type>`_).
+
+.. _mmhc:
 
 MMHC
 ++++
 
 Mental health services delivered through MMHC. (See
-`PMHC Program Type <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html#program-type>`_).
+`PMHC Program Type <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#program-type>`_).
 
+.. _the-way-back-pmhc-subset:
 
 The Way Back (PMHC subset)
 --------------------------
@@ -153,7 +156,7 @@ hAPI (headspace)
 ----------------
 
 hAPI is data that headspace National Office upload from their internal hAPI
-client information management system (See `headspace Data Specification <https://docs.pmhc-mds.com/projects/data-specification-headspace/en/v2/data-specification/data-model-and-specifications.html>`_).
+client information management system (See `headspace Data Specification <https://docs.pmhc-mds.com/projects/data-specification-headspace/en/latest/data-specification/data-model-and-specifications.html>`_).
 
 Some of the standard reports, namely the :ref:`category-d` and :ref:`category-e` series are not
 pertinent for headspace. However there are two headspace only
@@ -1549,7 +1552,7 @@ Key specifications:
 
 .. note::
   As of `11/8/2024 <https://pmhc-mds.com/communications/#/2024/08/11/Update-to-the-PMHC-MDS-v-2-13-0/>`_
-  the PMHC MDS supports both `Version 1 and Version 2 of the IAR-DST <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html#iar-dst>`_. This report does not filter
+  the PMHC MDS supports both `Version 1 and Version 2 of the IAR-DST <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#iar-dst>`_. This report does not filter
   by IAR DST version. All IAR DST records are counted.
 
 * The report counts intakes where the client first contacted the service during
@@ -1572,7 +1575,7 @@ Key specifications:
 
 .. note::
   As of `11/8/2024 <https://pmhc-mds.com/communications/#/2024/08/11/Update-to-the-PMHC-MDS-v-2-13-0/>`_
-  the PMHC MDS supports both `Version 1 and Version 2 of the IAR-DST <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html#iar-dst>`_. This report does not filter
+  the PMHC MDS supports both `Version 1 and Version 2 of the IAR-DST <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#iar-dst>`_. This report does not filter
   by IAR DST version. All IAR DST records where there are a corresponding K10+ record
   collected at episode start are counted.
 
@@ -1600,7 +1603,7 @@ Key specifications:
 
 .. note::
   As of `11/8/2024 <https://pmhc-mds.com/communications/#/2024/08/11/Update-to-the-PMHC-MDS-v-2-13-0/>`_
-  the PMHC MDS supports both `Version 1 and Version 2 of the IAR-DST <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html#iar-dst>`_. This report does not filter
+  the PMHC MDS supports both `Version 1 and Version 2 of the IAR-DST <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#iar-dst>`_. This report does not filter
   by IAR DST version. All IAR DST records are counted.
 
 * The report counts intakes where the client first contacted the service during
@@ -1626,7 +1629,7 @@ Key specifications:
 
 .. note::
   As of `11/8/2024 <https://pmhc-mds.com/communications/#/2024/08/11/Update-to-the-PMHC-MDS-v-2-13-0/>`_
-  the PMHC MDS supports both `Version 1 and Version 2 of the IAR-DST <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html#iar-dst>`_. This report does not filter
+  the PMHC MDS supports both `Version 1 and Version 2 of the IAR-DST <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#iar-dst>`_. This report does not filter
   by IAR DST version. All IAR DST records are counted.
 
 * The report counts intakes where the client first contacted the service during
