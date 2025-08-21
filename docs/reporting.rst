@@ -1850,7 +1850,8 @@ Key specifications:
 M5 — Intake IAR report
 ++++++++++++++++++++++
 
-IAR-DST recommended level of care presented as numbers and proportions (Level 1, Level 2, Level 3, Level 4, and Level 5).
+IAR-DST recommended level of care presented as numbers and proportions (Level 1,
+Level 1+, Level 2, Level 2+, Level 3, Level 3+, Level 4, Level 4+, and Level 5).
 
 Key specifications:
 
