@@ -1793,7 +1793,7 @@ Key specifications:
 
 * Only ‘active clients’ are reported. A Client is defined as ‘active’ and in
   scope for inclusion in this report if they had one or more active episodes
-  in the reporting period, where 'active episode' is defined below.
+  in the reporting period, where ‘active episode’ is defined below.
 * Only ‘active episodes’ are reported. An Episode is defined as ‘active’ and
   in scope for inclusion in this report if it had one or more Service Contacts
   recorded in the period. No distinction is made between Open and Completed
@@ -1816,9 +1816,9 @@ by gender.
 
 Key specifications:
 
-* Only 'active clients' are reported. A Client is defined as 'active' and in
+* Only ‘active clients’ are reported. A Client is defined as ‘active’ and in
   scope for inclusion in this report if they had one or more active episodes
-  in the reporting period, where 'active episode' is defined below.
+  in the reporting period, where ‘active episode’ is defined below.
 * Only ‘active episodes’ are reported. An Episode is defined as ‘active’ and
   in scope for inclusion in this report if it had one or more Service Contacts
   recorded in the period. No distinction is made between Open and Completed
@@ -1835,9 +1835,9 @@ Number and proportion of active clients, active episodes and service contacts by
 
 Key specifications:
 
-* Only 'active clients' are reported. A Client is defined as 'active' and in
+* Only ‘active clients’ are reported. A Client is defined as ‘active’ and in
   scope for inclusion in this report if they had one or more active episodes
-  in the reporting period, where 'active episode' is defined below.
+  in the reporting period, where ‘active episode’ is defined below.
 * Only ‘active episodes’ are reported. An Episode is defined as ‘active’ and
   in scope for inclusion in this report if it had one or more Service Contacts
   recorded in the period. No distinction is made between Open and Completed
