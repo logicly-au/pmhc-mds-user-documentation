@@ -1778,7 +1778,9 @@ and the date of the client’s first service contact.
 
 Key specifications:
 
-* Fill in
+* Service Contacts flagged as ‘No Show’ are not included for this purpose.
+* A client’s wait time is defined as the time from intake referral to the
+  first attended contact
 
 .. _category-m2:
 
@@ -1789,7 +1791,7 @@ Number and proportion of active clients, active episodes and service contacts by
 
 Key specifications:
 
-* Only 'active clients' are reported. A Client is defined as 'active' and in
+* Only ‘active clients’ are reported. A Client is defined as ‘active’ and in
   scope for inclusion in this report if they had one or more active episodes
   in the reporting period, where 'active episode' is defined below.
 * Only ‘active episodes’ are reported. An Episode is defined as ‘active’ and
@@ -1802,7 +1804,7 @@ Key specifications:
   episodes within the reporting period
 * Client age group based on Date of Birth, grouped to the following categories:
 
-  * 0-11, 12-17, 18-25, 26-35, 36-45, 46-55, 56-65, 66-75, 76-85, 86-95, 95+
+  * 0–11, 12–17, 18-25, 26-35, 36-45, 46-55, 56-65, 66-75, 76-85, 86-95, 95+
 
 .. _category-m3:
 
