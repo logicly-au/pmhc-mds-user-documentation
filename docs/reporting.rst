@@ -1855,7 +1855,8 @@ Level 1+, Level 2, Level 2+, Level 3, Level 3+, Level 4, Level 4+, and Level 5).
 
 Key specifications:
 
-* Fill in
+* To be counted, an intake must have a ‘Date client contacted Intake’ within the
+  reporting period
 
 .. _category-m6:
 
