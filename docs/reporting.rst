@@ -126,13 +126,12 @@ Mental health services in fire affected communities can use this field for episo
 delivered through the Australian Government Mental Health Response to Bushfire Trauma.
 (See `PMHC Program Type <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html#program-type>`_).
 
-.. _the-way-back-pmhc-subset:
+.. _universal_aftercare:
 
-The Way Back (PMHC subset)
---------------------------
+Universal Aftercare
++++++++++++++++++++
 
-This PMHC subset report only includes Beyond Blue The Way Back Support Services
-data linked to the episode tag `!wayback`.  (See `The Way Back Data Specification <https://docs.pmhc-mds.com/projects/data-specification-wayback/en/v3/data-specification/data-model-and-specifications.html>`_).
+Mental health services delivered through the Universal Aftercare Program (See `PMHC Program Type <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#program-type>`_).
 
 .. _hapi-headspace:
 
