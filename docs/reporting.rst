@@ -1906,7 +1906,10 @@ Key specifications:
 
 * Episode end date is within reporting period.
 * The episode has at least one attended service contact (inside or outside the reporting period).
-
+* Episode duration (days) is the number of calendar dates between the episode
+  start date and end date inclusive.
+* Number of service contacts includes all service contact regardless of
+  attendance.
 
 .. _category-m8-2:
 
