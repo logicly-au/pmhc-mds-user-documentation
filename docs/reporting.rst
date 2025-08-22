@@ -1897,8 +1897,8 @@ Key specifications:
 
 .. _category-m8-1:
 
-M8 — Episode of Care Length report Option 1
-+++++++++++++++++++++++++++++++++++++++++++
+M8 — Episode of Care Length report
+++++++++++++++++++++++++++++++++++
 
 Number of service contacts in an episode of care.
 
@@ -1906,22 +1906,11 @@ Key specifications:
 
 * Episode end date is within reporting period.
 * The episode has at least one attended service contact (inside or outside the reporting period).
-* Episode duration (days) is the number of calendar dates between the episode
-  start date and end date inclusive.
-* Number of service contacts includes all service contact regardless of
-  attendance.
-
-.. _category-m8-2:
-
-M8 — Episode of Care Length report Option 2
-+++++++++++++++++++++++++++++++++++++++++++
-
-Duration of a client’s episode of care (date of first service contact to date of last service contact) in days.
-
-Key specifications:
-
-* Episode end date is within reporting period.
-* The episode has at least one attended service contact (inside or outside the reporting period).
+* Options:
+  * Episode duration (days) is the number of calendar dates between the episode
+    start date and end date inclusive.
+  * Number of service contacts includes all service contact regardless of
+    attendance.
 
 .. _category-m9:
 
