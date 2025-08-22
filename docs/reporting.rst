@@ -1936,6 +1936,7 @@ Key specifications:
 
 * Service Contacts flagged as ‘No Show’ are not included for this purpose.
 * Service contact duraction grouped into categories as per `Duration <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#duration>`_.
+* ‘Missing’ service contact duration is excluded.
 
 .. _produce-twb-report:
 
