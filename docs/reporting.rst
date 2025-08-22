@@ -1923,6 +1923,7 @@ Key specifications:
 
 * Service Contacts flagged as ‘No Show’ are not included for this purpose.
 * Service contact type grouped into categories as per `Service Contact Type <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#service-contact-type>`_.
+* ‘ATAPS’ and ‘Missing’ service contact types are excluded.
 
 .. _category-m10:
 
