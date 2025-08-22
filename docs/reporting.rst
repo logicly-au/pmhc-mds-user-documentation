@@ -1882,16 +1882,17 @@ and service contacts in the defined reporting period.
 
 Key specifications:
 
-* Only 'active clients' are reported. A Client is defined as 'active' and in
+* Only ‘active clients’ are reported. A Client is defined as ‘active’ and in
   scope for inclusion in this report if they had one or more active episodes
-  in the reporting period, where 'active episode' is defined below.
+  in the reporting period, where ‘active episode’ is defined below.
 * Only ‘active episodes’ are reported. An Episode is defined as ‘active’ and
   in scope for inclusion in this report if it had one or more Service Contacts
   recorded in the period. No distinction is made between Open and Completed
   Episodes
-* 'New episodes' are 'active episodes' which have commenced within the defined reporting period.
-* 'Closed episodes' includes all episodes that closed in the defined reporting period, whether
-  or not the episode had a service contact within the defined reporting period.
+* ‘New episodes’ are ‘active episodes’ which have commenced within the defined
+  reporting period.
+* ‘Closed episodes’ are ‘active episodes’ which have ended within the defined
+  reporting period.
 * Service Contacts flagged as ‘No Show’ are not included for this purpose.
 
 .. _category-m8-1:
