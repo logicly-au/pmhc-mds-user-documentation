@@ -1863,11 +1863,14 @@ Key specifications:
 M6 — Intake to MMHC report
 ++++++++++++++++++++++++++
 
-Number of completed IAR-DST referred into Medicare Mental Health Centres.
+Number of completed IAR-DST referred into Medicare Mental Health Centres
+grouped by recommended level of care and presented as numbers and proportions.
 
 Key specifications:
 
-* Fill in
+* To be counted, an intake must have all of these properties:
+  * a ‘Date client contacted Intake’ within the reporting period
+  * ‘MMHC’ in its set of Organisation types referred to at intake conclusion
 
 .. _category-m7:
 
