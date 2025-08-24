@@ -1889,9 +1889,11 @@ Key specifications:
   in scope for inclusion in this report if it had one or more Service Contacts
   recorded in the period. No distinction is made between Open and Completed
   Episodes
-* ‘New episodes’ are ‘active episodes’ which have commenced within the defined
+* ‘New episodes’ are episodes with at least one attended service contact (inside
+  or outside the reporting period) and a commencement date within the defined
   reporting period.
-* ‘Closed episodes’ are ‘active episodes’ which have ended within the defined
+* ‘Closed episodes’ are episodes with at least one attended service contact
+  (inside or outside the reporting period) and an end date within the defined
   reporting period.
 * Service Contacts flagged as ‘No Show’ are not included for this purpose.
 
@@ -1909,7 +1911,7 @@ Key specifications:
 * Options:
   * Episode duration (days) is the number of calendar dates between the episode
     start date and end date inclusive.
-  * Number of service contacts includes all service contact regardless of
+  * Number of service contacts includes all service contacts regardless of
     attendance.
 
 .. _category-m9:
