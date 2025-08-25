@@ -91,7 +91,7 @@ Flexible Funding Pool
 +++++++++++++++++++++
 
 Other Programs commissioned through Primary Mental Health Care Schedule that are
-not otherwise described by another category. (See `PMHC Program Type <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html#program-type>`_).
+not otherwise described by another category. (See `PMHC Program Type <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#program-type>`_).
 
 .. _head-to-health:
 
@@ -99,7 +99,7 @@ Head to Health
 ++++++++++++++
 
 The Head to Health Program includes Head to Health Adult Centres and Satellites
-and pop-up clinics. (See `PMHC Program Type <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html#program-type>`_).
+and pop-up clinics. (See `PMHC Program Type <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#program-type>`_).
 
 .. _amhc:
 
@@ -107,7 +107,7 @@ AMHC
 ++++
 
 The Head to Health Program that are delivering the Adult Mental Health Centre (AMHC)
-trial sites. (See `PMHC Program Type <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html#program-type>`_).
+trial sites. (See `PMHC Program Type <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#program-type>`_).
 
 .. _psychosocial:
 
@@ -115,7 +115,7 @@ Psychosocial
 ++++++++++++
 
 Mental health services delivered through the National Psychosocial Support Services
-Program. (See `PMHC Program Type <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html#program-type>`_).
+Program. (See `PMHC Program Type <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#program-type>`_).
 
 .. _bushfire-recovery-20:
 
@@ -124,7 +124,23 @@ Bushfire Recovery 20
 
 Mental health services in fire affected communities can use this field for episodes
 delivered through the Australian Government Mental Health Response to Bushfire Trauma.
-(See `PMHC Program Type <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html#program-type>`_).
+(See `PMHC Program Type <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#program-type>`_).
+
+.. _supporting_recovery:
+
+Supporting Recovery
++++++++++++++++++++
+
+Mental health services delivered through the Supporting Recovery pilot. (See
+`PMHC Program Type <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#program-type>`_).
+
+.. _mmhc:
+
+MMHC
+++++
+
+Mental health services delivered through MMHC. (See
+`PMHC Program Type <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#program-type>`_).
 
 .. _the-way-back-pmhc-subset:
 
@@ -140,7 +156,7 @@ hAPI (headspace)
 ----------------
 
 hAPI is data that headspace National Office upload from their internal hAPI
-client information management system (See `headspace Data Specification <https://docs.pmhc-mds.com/projects/data-specification-headspace/en/v2/data-specification/data-model-and-specifications.html>`_).
+client information management system (See `headspace Data Specification <https://docs.pmhc-mds.com/projects/data-specification-headspace/en/latest/data-specification/data-model-and-specifications.html>`_).
 
 Some of the standard reports, namely the :ref:`category-d` and :ref:`category-e` series are not
 pertinent for headspace. However there are two headspace only
@@ -1536,7 +1552,7 @@ Key specifications:
 
 .. note::
   As of `11/8/2024 <https://pmhc-mds.com/communications/#/2024/08/11/Update-to-the-PMHC-MDS-v-2-13-0/>`_
-  the PMHC MDS supports both `Version 1 and Version 2 of the IAR-DST <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html#iar-dst>`_. This report does not filter
+  the PMHC MDS supports both `Version 1 and Version 2 of the IAR-DST <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#iar-dst>`_. This report does not filter
   by IAR DST version. All IAR DST records are counted.
 
 * The report counts intakes where the client first contacted the service during
@@ -1559,7 +1575,7 @@ Key specifications:
 
 .. note::
   As of `11/8/2024 <https://pmhc-mds.com/communications/#/2024/08/11/Update-to-the-PMHC-MDS-v-2-13-0/>`_
-  the PMHC MDS supports both `Version 1 and Version 2 of the IAR-DST <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html#iar-dst>`_. This report does not filter
+  the PMHC MDS supports both `Version 1 and Version 2 of the IAR-DST <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#iar-dst>`_. This report does not filter
   by IAR DST version. All IAR DST records where there are a corresponding K10+ record
   collected at episode start are counted.
 
@@ -1587,7 +1603,7 @@ Key specifications:
 
 .. note::
   As of `11/8/2024 <https://pmhc-mds.com/communications/#/2024/08/11/Update-to-the-PMHC-MDS-v-2-13-0/>`_
-  the PMHC MDS supports both `Version 1 and Version 2 of the IAR-DST <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html#iar-dst>`_. This report does not filter
+  the PMHC MDS supports both `Version 1 and Version 2 of the IAR-DST <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#iar-dst>`_. This report does not filter
   by IAR DST version. All IAR DST records are counted.
 
 * The report counts intakes where the client first contacted the service during
@@ -1613,7 +1629,7 @@ Key specifications:
 
 .. note::
   As of `11/8/2024 <https://pmhc-mds.com/communications/#/2024/08/11/Update-to-the-PMHC-MDS-v-2-13-0/>`_
-  the PMHC MDS supports both `Version 1 and Version 2 of the IAR-DST <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html#iar-dst>`_. This report does not filter
+  the PMHC MDS supports both `Version 1 and Version 2 of the IAR-DST <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#iar-dst>`_. This report does not filter
   by IAR DST version. All IAR DST records are counted.
 
 * The report counts intakes where the client first contacted the service during
@@ -1739,6 +1755,190 @@ Key specifications:
   to at Intake conclusion’ with a code of 42, 43 or 44 (“AMHC”, “Other PHN funded service”,
   or “HeadtoHelp / HeadtoHealth”)
 * The report counts intakes, not dispatches
+
+.. _category-m:
+
+Category M: Monitoring Medicare Mental Health Centres (MMHC)
+------------------------------------------------------------
+
+These reports have been introduced to monitor MMHCs, however all except for the
+:ref:`category-m6` are pertinent for other program types as well.
+
+.. contents:: Available category M reports
+   :local:
+   :depth: 1
+
+.. _category-m1:
+
+M1 — Wait time report
++++++++++++++++++++++
+
+Wait time defined as number of days between a client’s intake referral date 
+and the date of the client’s first service contact.
+
+Key specifications:
+
+* Service Contacts flagged as ‘No Show’ are not included for this purpose.
+* A client’s wait time is defined as the time from intake referral to the
+  first attended contact
+
+.. _category-m2:
+
+M2 — Age report
++++++++++++++++
+
+Number and proportion of active clients, active episodes and service contacts by age.
+
+Key specifications:
+
+* Only ‘active clients’ are reported. A Client is defined as ‘active’ and in
+  scope for inclusion in this report if they had one or more active episodes
+  in the reporting period, where ‘active episode’ is defined below.
+* Only ‘active episodes’ are reported. An Episode is defined as ‘active’ and
+  in scope for inclusion in this report if it had one or more Service Contacts
+  recorded in the period. No distinction is made between Open and Completed
+  Episodes
+* Service Contacts flagged as ‘No Show’ are not included for this purpose.
+* Age is calculated at start of episode
+* A client can fall into multiple age groups because they may have multiple 
+  episodes within the reporting period
+* Client age group based on Date of Birth, grouped to the following categories:
+
+  * 0–11, 12–17, 18-25, 26-35, 36-45, 46-55, 56-65, 66-75, 76-85, 86-95, 95+
+
+.. _category-m3:
+
+M3 — Gender report
+++++++++++++++++++
+
+Number and proportion of active clients, active episodes and service contacts 
+by gender.  
+
+Key specifications:
+
+* Only ‘active clients’ are reported. A Client is defined as ‘active’ and in
+  scope for inclusion in this report if they had one or more active episodes
+  in the reporting period, where ‘active episode’ is defined below.
+* Only ‘active episodes’ are reported. An Episode is defined as ‘active’ and
+  in scope for inclusion in this report if it had one or more Service Contacts
+  recorded in the period. No distinction is made between Open and Completed
+  Episodes
+* Service Contacts flagged as ‘No Show’ are not included for this purpose.
+* Client gender grouped into categories as per `Client Gender <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#client-gender>`_.
+
+.. _category-m4:
+
+M4 — Aboriginal and Torres Strait Islander Status report
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Number and proportion of active clients, active episodes and service contacts by ATSI status.  
+
+Key specifications:
+
+* Only ‘active clients’ are reported. A Client is defined as ‘active’ and in
+  scope for inclusion in this report if they had one or more active episodes
+  in the reporting period, where ‘active episode’ is defined below.
+* Only ‘active episodes’ are reported. An Episode is defined as ‘active’ and
+  in scope for inclusion in this report if it had one or more Service Contacts
+  recorded in the period. No distinction is made between Open and Completed
+  Episodes
+* Service Contacts flagged as ‘No Show’ are not included for this purpose.
+* Client ATSI status grouped into categories as per `Aboriginal and Torres Strait Islander <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#aboriginal-and-torres-strait-islander-status>`_.
+
+.. _category-m5:
+
+M5 — Intake IAR report
+++++++++++++++++++++++
+
+IAR-DST recommended level of care presented as numbers and proportions (Level 1,
+Level 1+, Level 2, Level 2+, Level 3, Level 3+, Level 4, Level 4+, and Level 5).
+
+Key specifications:
+
+* To be counted, an intake must have a ‘Date client contacted Intake’ within the
+  reporting period
+
+.. _category-m6:
+
+M6 — Intake to MMHC report
+++++++++++++++++++++++++++
+
+Number of completed IAR-DST referred into Medicare Mental Health Centres
+grouped by recommended level of care and presented as numbers and proportions.
+
+Key specifications:
+
+* To be counted, an intake must have all of these properties:
+  * a ‘Date client contacted Intake’ within the reporting period
+  * ‘MMHC’ in its set of Organisation types referred to at intake conclusion
+
+.. _category-m7:
+
+M7 — Service Activity Counts report
++++++++++++++++++++++++++++++++++++
+
+Count of active clients, new episodes, active episodes, closed episodes 
+and service contacts in the defined reporting period.  
+
+Key specifications:
+
+* Only ‘active clients’ are reported. A Client is defined as ‘active’ and in
+  scope for inclusion in this report if they had one or more active episodes
+  in the reporting period, where ‘active episode’ is defined below.
+* Only ‘active episodes’ are reported. An Episode is defined as ‘active’ and
+  in scope for inclusion in this report if it had one or more Service Contacts
+  recorded in the period. No distinction is made between Open and Completed
+  Episodes
+* ‘New episodes’ are episodes with at least one attended service contact (inside
+  or outside the reporting period) and a commencement date within the defined
+  reporting period.
+* ‘Closed episodes’ are episodes with at least one attended service contact
+  (inside or outside the reporting period) and an end date within the defined
+  reporting period.
+* Service Contacts flagged as ‘No Show’ are not included for this purpose.
+
+.. _category-m8-1:
+
+M8 — Episode of Care Length report
+++++++++++++++++++++++++++++++++++
+
+Number of service contacts in an episode of care.
+
+Key specifications:
+
+* Episode end date is within reporting period.
+* The episode has at least one attended service contact (inside or outside the reporting period).
+* Options:
+  * Episode duration (days) is the number of calendar dates between the episode
+    start date and end date inclusive.
+  * Number of service contacts includes all service contacts regardless of
+    attendance.
+
+.. _category-m9:
+
+M9 — Service Contact Type report
+++++++++++++++++++++++++++++++++
+
+Number and proportion of service contacts by service contact type.
+
+Key specifications:
+
+* Service Contacts flagged as ‘No Show’ are not included for this purpose.
+* Service contact type grouped into categories as per `Service Contact Type <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#service-contact-type>`_.
+* ‘ATAPS’ and ‘Missing’ service contact types are excluded.
+
+.. _category-m10:
+
+M10 — Service Contact Length report
++++++++++++++++++++++++++++++++++++
+
+Number and proportion of service contacts by duration.
+
+Key specifications:
+
+* Service Contacts flagged as ‘No Show’ are not included for this purpose.
+* Service contact duration grouped into categories as per `Duration <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#duration>`_.
+* ‘Missing’ service contact duration is excluded.
 
 .. _produce-twb-report:
 
