@@ -220,7 +220,7 @@ User Guide Change log
 21/10/2020
 ----------
 
-* Added :ref:`produce-twb-report`
+* Added 'Producing a TWB Report'
 
 * Updated screenshots for :ref:`produce-system-report`
 
