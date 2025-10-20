@@ -1758,8 +1758,8 @@ Key specifications:
 
 .. _category-m:
 
-Category M: Monitoring Medicare Mental Health Centres (MMHC)
-------------------------------------------------------------
+Category M: Monitoring service delivery
+---------------------------------------
 
 These reports have been introduced to monitor MMHCs, however all except for the
 :ref:`category-m6` are pertinent for other program types as well.
