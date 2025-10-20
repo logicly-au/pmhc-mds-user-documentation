@@ -1770,7 +1770,7 @@ These reports have been introduced to monitor MMHCs, however all except for the
 
 .. _category-m1:
 
-M1 — Wait time report
+M1 — Client wait time
 +++++++++++++++++++++
 
 Wait time defined as number of days between a client’s intake referral date 
@@ -1784,8 +1784,8 @@ Key specifications:
 
 .. _category-m2:
 
-M2 — Age report
-+++++++++++++++
+M2 — Activity Reports by Age group
+++++++++++++++++++++++++++++++++++
 
 Number and proportion of active clients, active episodes and service contacts by age.
 
@@ -1808,8 +1808,8 @@ Key specifications:
 
 .. _category-m3:
 
-M3 — Gender report
-++++++++++++++++++
+M3 — Activity Reports by Gender
++++++++++++++++++++++++++++++++
 
 Number and proportion of active clients, active episodes and service contacts 
 by gender.  
@@ -1828,8 +1828,8 @@ Key specifications:
 
 .. _category-m4:
 
-M4 — Aboriginal and Torres Strait Islander Status report
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+M4 — Activity Reports by Aboriginal and Torres Strait Islander status
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 Number and proportion of active clients, active episodes and service contacts by ATSI status.  
 
@@ -1847,8 +1847,8 @@ Key specifications:
 
 .. _category-m5:
 
-M5 — Intake IAR report
-++++++++++++++++++++++
+M5 — IAR-DST - Recommended Level of Care
+++++++++++++++++++++++++++++++++++++++++
 
 IAR-DST recommended level of care presented as numbers and proportions (Level 1,
 Level 1+, Level 2, Level 2+, Level 3, Level 3+, Level 4, Level 4+, and Level 5).
@@ -1860,8 +1860,8 @@ Key specifications:
 
 .. _category-m6:
 
-M6 — Intake to MMHC report
-++++++++++++++++++++++++++
+M6 — IAR-DST - Recommended Level of Care, where intake referred to MMHC
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 Number of completed IAR-DST referred into Medicare Mental Health Centres
 grouped by recommended level of care and presented as numbers and proportions.
@@ -1874,8 +1874,8 @@ Key specifications:
 
 .. _category-m7:
 
-M7 — Service Activity Counts report
-+++++++++++++++++++++++++++++++++++
+M7 — Monthly service activity
++++++++++++++++++++++++++++++
 
 Count of active clients, new episodes, active episodes, closed episodes 
 and service contacts in the defined reporting period.  
@@ -1899,8 +1899,8 @@ Key specifications:
 
 .. _category-m8-1:
 
-M8 — Episode of Care Length report
-++++++++++++++++++++++++++++++++++
+M8 — Episode of care characteristics
+++++++++++++++++++++++++++++++++++++
 
 Number of service contacts in an episode of care.
 
@@ -1909,15 +1909,14 @@ Key specifications:
 * Episode end date is within reporting period.
 * The episode has at least one attended service contact (inside or outside the reporting period).
 * Options:
-  * Episode duration (days) is the number of calendar dates between the episode
-    start date and end date inclusive.
-  * Number of service contacts includes all service contacts regardless of
-    attendance.
+
+  * Episode duration (days) is the number of calendar dates between the episode start date and end date inclusive.
+  * Number of service contacts includes all service contacts regardless of attendance.
 
 .. _category-m9:
 
-M9 — Service Contact Type report
-++++++++++++++++++++++++++++++++
+M9 — Activity Report: Service contact type
+++++++++++++++++++++++++++++++++++++++++++
 
 Number and proportion of service contacts by service contact type.
 
@@ -1929,8 +1928,8 @@ Key specifications:
 
 .. _category-m10:
 
-M10 — Service Contact Length report
-+++++++++++++++++++++++++++++++++++
+M10 — Activity Report: Service contact duration
++++++++++++++++++++++++++++++++++++++++++++++++
 
 Number and proportion of service contacts by duration.
 
