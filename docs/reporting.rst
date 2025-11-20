@@ -80,8 +80,8 @@ The All PMHC Program Types data source includes all the following PMHC Program T
    :local:
    :depth: 3
 
-Data linked to Beyond Blue The Way Back extension is included in all of these Program Types.
-In order to partition reports by Way Back data a separate selection has been provided.
+Data linked to the Universal Aftercare program, and the previous Beyond Blue The Way Back extension, is included in all of these Program Types.
+In order to partition reports by Universal Aftercare and Way Back data a separate selection has been provided.
 
 The PMHC data source does not include any hAPI headspace extension data.
 
@@ -91,7 +91,7 @@ Flexible Funding Pool
 +++++++++++++++++++++
 
 Other Programs commissioned through Primary Mental Health Care Schedule that are
-not otherwise described by another category. (See `PMHC Program Type <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html#program-type>`_).
+not otherwise described by another category. (See `PMHC Program Type <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#program-type>`_).
 
 .. _head-to-health:
 
@@ -99,7 +99,7 @@ Head to Health
 ++++++++++++++
 
 The Head to Health Program includes Head to Health Adult Centres and Satellites
-and pop-up clinics. (See `PMHC Program Type <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html#program-type>`_).
+and pop-up clinics. (See `PMHC Program Type <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#program-type>`_).
 
 .. _amhc:
 
@@ -107,7 +107,7 @@ AMHC
 ++++
 
 The Head to Health Program that are delivering the Adult Mental Health Centre (AMHC)
-trial sites. (See `PMHC Program Type <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html#program-type>`_).
+trial sites. (See `PMHC Program Type <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#program-type>`_).
 
 .. _psychosocial:
 
@@ -115,7 +115,7 @@ Psychosocial
 ++++++++++++
 
 Mental health services delivered through the National Psychosocial Support Services
-Program. (See `PMHC Program Type <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html#program-type>`_).
+Program. (See `PMHC Program Type <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#program-type>`_).
 
 .. _bushfire-recovery-20:
 
@@ -124,14 +124,22 @@ Bushfire Recovery 20
 
 Mental health services in fire affected communities can use this field for episodes
 delivered through the Australian Government Mental Health Response to Bushfire Trauma.
-(See `PMHC Program Type <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html#program-type>`_).
+(See `PMHC Program Type <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#program-type>`_).
+
+.. _universal-aftercare-pmhc-subset:
+
+Universal Aftercare
+-------------------
+
+This PMHC subset report only includes Universal Aftercare data linked to the episode tag `!uaooh`.  (See `Universal Aftercare tag <https://docs.pmhc-mds.com/data-specifications.html#current-system-tags>`_).
+
 
 .. _the-way-back-pmhc-subset:
 
 The Way Back (PMHC subset)
 --------------------------
 
-This PMHC subset report only includes Beyond Blue The Way Back Support Services
+This PMHC subset report only includes the previous Beyond Blue The Way Back Support Services
 data linked to the episode tag `!wayback`.  (See `The Way Back Data Specification <https://docs.pmhc-mds.com/projects/data-specification-wayback/en/v3/data-specification/data-model-and-specifications.html>`_).
 
 .. _hapi-headspace:
@@ -140,7 +148,7 @@ hAPI (headspace)
 ----------------
 
 hAPI is data that headspace National Office upload from their internal hAPI
-client information management system (See `headspace Data Specification <https://docs.pmhc-mds.com/projects/data-specification-headspace/en/v2/data-specification/data-model-and-specifications.html>`_).
+client information management system (See `headspace Data Specification <https://docs.pmhc-mds.com/projects/data-specification-headspace/en/v4.1/data-model-and-specifications.html#data-model-and-specifications>`_).
 
 Some of the standard reports, namely the :ref:`category-d` and :ref:`category-e` series are not
 pertinent for headspace. However there are two headspace only
@@ -160,6 +168,7 @@ The following tags can currently be used to filter data for reports:
 * `!amhc - Australian Government Mental Health Centres <https://docs.pmhc-mds.com/projects/data-specification/en/latest/reserved-tags.html?highlight=!amhc#amhc-australian-government-mental-health-centres>`_
 * `!br20 - Australian Government Mental Health Response to Bushfire <https://docs.pmhc-mds.com/projects/data-specification/en/latest/reserved-tags.html?highlight=!amhc#br20>`_
 * `!covid19 - Episode occurred as result of COVID-19 pandemic <https://docs.pmhc-mds.com/projects/data-specification/en/latest/reserved-tags.html?highlight=!amhc#covid19-australian-government-headtohelp-hubs>`_
+* `!uaooh - Universal Aftercare data <https://docs.pmhc-mds.com/data-specifications.html#current-system-tags>`_
 * `!wayback - The Way Back Support Service <https://docs.pmhc-mds.com/projects/data-specification-wayback/en/v3/data-specification/identifier-management.html#identifier-pmhc-twb-episode-tag>`_
 
 *Note: Local tags can not be used to filter standard reports.*
@@ -170,7 +179,7 @@ The following tags can currently be used to filter data for reports:
 Types of Standard reports
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The reports are grouped into five categories, each designed to serve different
+The reports are grouped into several categories, each designed to serve different
 purposes.
 
 .. contents::
@@ -725,12 +734,12 @@ lead organisation" line.
 
 The A12 tallies the number of contacts/episodes/contacts/collections occasions
 that are delivered by multiple organisations. It is based on
-`Active Episodes <https://docs.pmhc-mds.com/projects/data-specification/en/v2/data-model-and-specifications.html#active-episode>`_,
+`Active Episodes <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#active-episode>`_,
 and the number of episodes delivered at multiple organisations is what is reported in the "Active Episodes" column.
 
 The "Service Contacts" column counts all the non no-show contacts in the
-reporting period that are associated with the `Active Episodes <https://docs.pmhc-mds.com/projects/data-specification/en/v2/data-model-and-specifications.html#active-episode>`_.
-Similarly the `Active Clients <https://docs.pmhc-mds.com/projects/data-specification/en/v2/data-model-and-specifications.html#active-client>`_
+reporting period that are associated with the `Active Episodes <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#active-episode>`_.
+Similarly the `Active Clients <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#active-client>`_
 is the enumeration of all clients for whom ALL episodes
 active during the reporting period were delivered at multiple organisations.
 A single episode during the reporting period delivered at only one
@@ -746,8 +755,7 @@ tables. Their purpose is to allow the user to monitor overall service delivery
 based on counts of clients, episodes, and service contacts, stratified in
 various ways that depend on the data being sourced.
 
-There are five reports in this series, each covering a specific data category
-(Clients, Episode, Service Contacts, Provider Organisations, and Practitioners).
+There are several reports in this series, each covering a specific data category.
 
 .. contents:: Available category B reports
    :local:
@@ -995,7 +1003,7 @@ Key specifications:
 * Counts shown in the report refer to Episodes, and are displayed as numbers
   or percent column based on user selection
 * Age is calculated at start of episode
-* A client can fall into multiple age groups because they may have multiple 
+* A client can fall into multiple age groups because they may have multiple
   episodes within the reporting period
 
 Client data elements that can be selected for the C1 report are:
@@ -1003,7 +1011,7 @@ Client data elements that can be selected for the C1 report are:
 * Client age group based on Date of Birth, grouped to the following categories:
 
   * 0-11, 12-17, 18-24, 25-64, 65+
- 
+
 * Indigenous status
 * Area of Usual Residence
 
@@ -1309,7 +1317,7 @@ Out series reports (Out-1 to Out-3)
 Key specifications applying to all Out series reports:
 
 * Based on all episodes with an Episode End Date falling within the reporting period
-* There must be at least one `attended contact <https://docs.pmhc-mds.com/projects/data-specification/en/v2/data-model-and-specifications.html#attended-contact>`_
+* There must be at least one `attended contact <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#attended-service-contact>`_
   associated with the episode but it need not be in the reporting period
 * Measures that have an invalid total score of ‘99 = Not stated / Missing’ are excluded
 * To be counted as 'Matched', both an initial and final measure of matching type must be recorded. See :ref:`matching_measure_types`.
@@ -1536,7 +1544,7 @@ Key specifications:
 
 .. note::
   As of `11/8/2024 <https://pmhc-mds.com/communications/#/2024/08/11/Update-to-the-PMHC-MDS-v-2-13-0/>`_
-  the PMHC MDS supports both `Version 1 and Version 2 of the IAR-DST <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html#iar-dst>`_. This report does not filter
+  the PMHC MDS supports both `Version 1 and Version 2 of the IAR-DST <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#iar-dst>`_. This report does not filter
   by IAR DST version. All IAR DST records are counted.
 
 * The report counts intakes where the client first contacted the service during
@@ -1559,7 +1567,7 @@ Key specifications:
 
 .. note::
   As of `11/8/2024 <https://pmhc-mds.com/communications/#/2024/08/11/Update-to-the-PMHC-MDS-v-2-13-0/>`_
-  the PMHC MDS supports both `Version 1 and Version 2 of the IAR-DST <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html#iar-dst>`_. This report does not filter
+  the PMHC MDS supports both `Version 1 and Version 2 of the IAR-DST <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#iar-dst>`_. This report does not filter
   by IAR DST version. All IAR DST records where there are a corresponding K10+ record
   collected at episode start are counted.
 
@@ -1587,7 +1595,7 @@ Key specifications:
 
 .. note::
   As of `11/8/2024 <https://pmhc-mds.com/communications/#/2024/08/11/Update-to-the-PMHC-MDS-v-2-13-0/>`_
-  the PMHC MDS supports both `Version 1 and Version 2 of the IAR-DST <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html#iar-dst>`_. This report does not filter
+  the PMHC MDS supports both `Version 1 and Version 2 of the IAR-DST <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#iar-dst>`_. This report does not filter
   by IAR DST version. All IAR DST records are counted.
 
 * The report counts intakes where the client first contacted the service during
@@ -1613,7 +1621,7 @@ Key specifications:
 
 .. note::
   As of `11/8/2024 <https://pmhc-mds.com/communications/#/2024/08/11/Update-to-the-PMHC-MDS-v-2-13-0/>`_
-  the PMHC MDS supports both `Version 1 and Version 2 of the IAR-DST <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html#iar-dst>`_. This report does not filter
+  the PMHC MDS supports both `Version 1 and Version 2 of the IAR-DST <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#iar-dst>`_. This report does not filter
   by IAR DST version. All IAR DST records are counted.
 
 * The report counts intakes where the client first contacted the service during
@@ -1740,19 +1748,320 @@ Key specifications:
   or “HeadtoHelp / HeadtoHealth”)
 * The report counts intakes, not dispatches
 
-.. _produce-twb-report:
 
-Wayback report
-^^^^^^^^^^^^^^
+.. _category-w:
 
-The Way Back (TWB) Support Service Minimum Data Set is an extension of the
-Primary Mental Health Care Minimum Data Set (PMHC MDS).
+Category W: Monitoring Universal Aftercare
+------------------------------------------
 
-The Way Back Quarterly reporting function allows users to automatically populate
-The Way Back Quarterly Report using data contained in the PMHC MDS. See more at
-https://docs.pmhc-mds.com/projects/data-specification-wayback/en/v3/user-documentation/reports-user-guide.html
+These reports are designed to assist in monitoring the amount and type of data
+that has been input into the MDS for the Universal Aftercare program, formally
+known as Universal Aftercare (UA) Support Service Minimum Data Set extension.
 
-*NOTE:* the **Wayback** tab will only be displayed when TWB data has been added to the PMHC MDS.
+.. contents::
+   :local:
+   :depth: 2
+
+.. _category-w1:
+
+Report W1 — Universal Aftercare Quarterly Report Template
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Universal Aftercare Quarterly reporting function allows users to automatically populate
+Universal Aftercare Quarterly Report using data contained in the PMHC MDS. This spreadsheet
+will then require some manual completion of information not available to the
+PMHC-MDS system before providing to your PHN.
+
+Many of the items reported are summarised over two time periods - reporting
+period and year to date. The former is always a full quarter worth of data
+as selected in the drop down boxes on the report generation page, unless the
+most recent quarter has been selected in which case it will be all data from
+the start of the current quarter until the day the report is generated.
+Financial years are listed in the report dropdowns with both relevant calendar
+years listed (e.g. **2025 - 2026**). The year to date figure is always from
+July 1 of the earlier calendar year until either the end of the selected
+reporting period or the date the report was generated if the current quarter
+is selected.
+
+Data in this report is all associated with episodes that appear in the `UA Episode table <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/data-model-and-specifications.html#ua-episode-data-elements>`_, - a '**!uaooh**' tag on the main episode table is NOT sufficient.
+
+The first section of the report explicitly details the dates covered by the
+reporting period and the year to date, as well as identifying the time at which
+it was generated.
+
+Activity Data
+'''''''''''''
+
+**New Client Episodes**
+
+  This is the number of episodes commenced during the relevant period
+  (reporting or YTD). A key concept here is the episode start date. This is
+  defined as the date of the earliest contact, even if the client is a no-show,
+  but only if there is at least one `attended service contact <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#attended-service-contact>`_
+  during the reporting period.
+
+**Number of Completed Episodes (Exits)**
+
+  Any episode with an
+  `Episode - End Date <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#episode-end-date>`_
+  during the relevant period.
+
+
+**Number of Completed Episodes (Service Complete)**
+
+  The subset of Completed Episodes as defined immediately above that have an
+  `Episode - Completion Status <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#episode-completion-status>`_
+  of  `1: Episode closed - treatment completed`
+
+**Number of Administratively Closed Episodes**
+
+  The subset of Completed Episodes as defined above that have an
+  `Episode - Completion Status <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#episode-completion-status>`_
+  between 2 and 6 inclusive, indicating an administrative closure.
+
+Client Profile
+''''''''''''''
+
+The first three elements in the Client Profile summarise new episodes by client
+gender:
+
+  **Male**
+
+    The number of episodes started during the relevant period where the
+    `Client - Gender <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#episode-completion-status>`_
+    is indicated as `1: Male`
+
+  **Female**
+
+    The number of episodes started during the relevant period where the
+    `Client - Gender <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#episode-completion-status>`_
+    is indicated as `2: Female`
+
+  **Other**
+
+    The number of episodes started during the relevant period where the
+    `Client - Gender <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#episode-completion-status>`_
+    is indicated as `3: Other`
+
+The next 2 elements summarise new episodes for clients in at risk groups:
+
+  **Aboriginal and Torres Strait Islander**
+
+    The number of episodes started during the relevant period where the
+    `Client - Aboriginal and Torres Strait Islander Status <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#client-aboriginal-and-torres-strait-islander-status>`_
+    was 1,2 or 3, indicating Aboriginal or Torres Strait Islander origin or both.
+
+  **LGBTIQ**
+
+    The number of episodes started during the relevant period where the client
+    indicates a `UA Episode - Sexual Orientation <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/data-model-and-specifications.html#sexual-orientation>`_
+    other than `1: Straight or heterosexual` or `9: Not stated`.
+
+The final section in the Client Profile is Age Profile, summarising the number
+of new episodes in the relevant period by the client's age group at the time
+the episode began. This is derived from `Client - Date of Birth <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#client-date-of-birth>`_,
+using only records where `Client - Estimated Date of Birth Flag <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#client-estimated-date-of-birth-flag>`_
+is not a dummy date (code 8) and is not missing (code 9).
+
+Referral Profile
+''''''''''''''''
+
+The Referral Profile summarises referral criteria (essentially eligibility
+codes) and sources for episodes starting in the reporting period. There is
+no corresponding profile for the Year To Date.
+
+**Primary Referral Criteria**
+
+  The number of episodes starting in the reporting period with
+  `UA Episode – Eligibility Type <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/data-model-and-specifications.html#eligibility-type>`_
+  Code: 1
+
+**Secondary Referral Criteria**
+
+  The number of episodes starting in the reporting period with
+  `UA Episode – Eligibility Type <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/data-model-and-specifications.html#eligibility-type>`_
+  Code: 2
+
+**Referral Source**
+
+  The number of episodes starting in the reporting period with
+  `Episode - Referrer Organisation Type <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#referrer-organisation-type>`_
+  codes of:
+
+**Hospital ED**
+
+    * `7: Emergency Department`
+
+**Hospital Ward**
+
+    * `5: Public Hospital`
+    * `6: Private Hospital`
+
+**Community Mental Health Service**
+
+    * `4: Public mental health service`
+
+**Other**
+
+    * All the other codes (1-3,8-21,98,99)
+
+Service Contact Data
+''''''''''''''''''''
+
+The service contact section of the report is concerned exclusively with the
+`Service Contact - Modality <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#service-contact-modality)>`_
+on `attended service contacts <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#attended-service-contact>`_.
+For all contacts in the relevant period it is a simple count of the number of
+contact each modality:
+
+* `1: Face to Face`
+* `2: Telephone`
+* `3: Video`
+* `4: Internet-based`
+
+Client Measures and Experience
+''''''''''''''''''''''''''''''
+
+Information about three clinical measures is reported in this section. For each
+measure there are three summary statistics:
+
+1. The number of episodes with (valid) initial measures collected during the
+   reporting period
+2. The number of episodes with (valid) final measures collected during the
+   reporting period
+3. The number of episodes with at least two (valid) outcome measures, at least one
+   of which must be collected during the reporting period
+
+Information about collection occasions - including dates and reasons - is
+available `in the Collection Occasion specification documentation <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/data-model-and-specifications.html#collection-occasion-data-elements>`_.
+A critical feature of a collection occasion is its "reason", which is actually
+about the point in the clients' journey when the measure was taken. For
+reporting purposes this can be either "initial" (i.e. start of the episode) or
+final (end of the episode). Note however that the collection occasion dates
+need not be the same as the episode start and end dates. Measures can be
+collected on any day.
+
+The specific measures of interest are the K5/K10+ and the SIDAS. The WHO-5 was
+formerly reported but was removed in the report update of September 2022.
+Information about these measures - including what constitutes a valid measure
+- can be accessed `in the Collection Occasion Key Concepts documentation <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/data-model-and-specifications.html#collection-occasion-data-elements>`_.
+
+The two Kessler measures (K10+ and K5) are treated interchangeably in this section of the report.
+Additionally, for the 'Initial' and 'Exit' measures columns multiple measures of the same type are counted once only.
+So for example, 2 SIDAS marked as 'Final' for the same episode will only add 1 to the count. An episode with initial K5 and K10+s also only adds 1 to the count of 'Initial Measures', however this combination also adds 1 to the count of "Number of Paired Measures During Period", provided at least one of the measures was taken during the reporting period.
+
+Although there should be no cases where an episode has multiple instances of
+a particular measure taken at any collection occasion identified as initial
+or final, if such an anomaly occurs the CO is still included as having the
+initial/final/paired measure. In other words the technical definition of
+"having a measure" is interpreted as "having one or more instances of the
+relevant measure".
+
+Issues and Risks
+''''''''''''''''
+
+This section counts client deaths and suicide attempts during the relevant
+reporting period and year-to-date. Details about such events are available
+`in the UA Critical Incident - Date documentation <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/data-model-and-specifications.html#ua-critical-incident>`_.
+Codes 2 and 3 comprise deaths; code 1 indicates a suicide attempt.
+
+Key Performance Indicators
+''''''''''''''''''''''''''
+
+The KPIs produced by the automated reports are all based on particular events
+occurring within a certain number of days of a precipitating event. KPIs
+pertain to the reporting period only.
+
+Each KPI reports a reference population (the number in the 'Calc B' column)
+and the subset of that population that meets the criteria in the 'Target Metric'
+column ('Calc A'). Note that a population in this case means a count of
+episodes, not a number of people.  The ratio is presented as a percentage
+in the '% Achieved During' column.
+
+Business days are defined as Monday to Friday inclusive, unless they are
+listed in Australian Public Holidays shown within the
+`information at the Digital Transformation Office <https://data.gov.au/dataset/ds-dga-b1bc6077-dadd-4f61-9f8c-002ab2cdff10/details?q=>`_.
+The business day calculator takes into account the jurisdiction (state or
+territory of the service). A week is defined as 5 business days.
+
+Safety Plan Update / Development
+''''''''''''''''''''''''''''''''
+
+The relevant episodes here are those where the first `attended service contact <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#attended-service-contact>`_
+is within the reporting period, and the the episode has an initial
+collection occasion with a corresponding
+`UA Plan - Plan Type <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/data-model-and-specifications.html#plan-type>`_
+equal to `1: Safety Plan`. The numerator is the subset of these episodes for
+which the collection occasion date is before or on the same day as the first
+attended service contact.
+
+Please note: Prior to September 2022 it had to be on or before the date of the
+second attended service contact.
+
+Support Plan Development
+''''''''''''''''''''''''
+
+The relevant episodes here are those where the first `attended service contact <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#attended-service-contact>`_
+is within the reporting period, and the episode has an initial
+collection occasion with a corresponding
+`UA Plan - Plan Type <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/data-model-and-specifications.html#plan-type>`_
+equal to `2: Support Plan`. The numerator is the subset of these episodes for
+which the collection occasion date is not more than 10 days after the initial
+attended service contact.
+
+.. _category-w2:
+
+Report W2 — High level summary of overall volumes by entity
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+The W2 provides an overview of Universal Aftercare (UA) activity undertaken during
+the reporting period. It uses the same assumptions as the standard A1 report. It
+is a ‘one page’ view, with data aggregated for the specified reporting period,
+covering counts of clients, episodes and service contacts.
+
+Key specifications:
+
+* Data in this report is all associated with an Active UA Episode, as shown in the 'Active Episodes' column counts. This means the episode must appear in the `UA Episode table <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/data-model-and-specifications.html#ua-episode-data-elements>`_, and must have an Active Contact during the reporting period. A '**!uaooh**' tag on the main episode table is NOT sufficient for the episode to be included in this report.
+* The 'Active Contacts' column counts all the `Attended Service Contacts <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#attended-service-contact>`_ (i.e. non-no show) that occurred during the reporting period that were associated with an Active UA Episode.
+* The 'Active Clients' column counts the number of unique clients who were the recipient of services delivered as part of an Active UA Episode.
+
+.. _category-w3:
+
+Report W3 — Data Quality Report: Missing UA Episode data
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+The W3 is a summary Universal Aftercare (UA) format report that provides a simple
+listing of missing/invalid data rates for relevant UA Episode data elements. It
+is analogous to the `standard A4 report <https://docs.pmhc-mds.com/projects/user-documentation/en/latest/reporting.html#a4-data-quality-report-missing-and-invalid-episode-data>`_
+that deals with the standard PMHC Episode elements with missing data.
+
+Key specifications:
+
+* As for the W2, data in this report is all associated with an Active UA Episode; however, for this report there is slightly tighter criteria regarding what it means to be active. Rather than the usual one or more `attended service contact <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#attended-service-contact>`_ during the reporting period, for the W3 and W4, there must be at least TWO such contacts (i.e. non-no shows) during the reporting   period). The episode must appear in the `UA Episode table <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/data-model-and-specifications.html#ua-episode-data-elements>`_. This number is reported in the column labelled 'Number of active episodes in period'.
+* The 'Number of active episodes with missing data' column counts, separately for each of the UA Episode record elements, how many episodes have the pertinent missing value code. For the elements "Method of Suicide Attempt" and "Primary Nominated Professional", 'Other' (code 98) is counted as a missing value as well as 'Not stated/Inadequately described' (code 99).
+* The '% Missing Data' column is a simple percentage of the active episodes that have missing data, calculated from the preceding two columns.
+
+
+.. _category-w4:
+
+Report W4 — Data Quality Report: Missing UA Needs Identification and Recommendation Outs
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+The W4 is a summary Universal Aftercare (UA) format report that provides a simple
+listing of missing/invalid data rates for relevant UA Needs Identification and
+UA Recommendation Outs data elements. It does the same job for these elements as
+the W3 does for UA Episode data elements, and uses the same assumptions.
+
+Key specifications:
+
+* As for the W2, data in this report is all associated with an Active UA Episode;
+  however, for this report there is slightly tighter criteria regarding what it means
+  to be active. Rather than the usual one or more `attended service contact <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#attended-service-contact>`_
+  contacts (i.e. non-no shows) during the reporting period). The episode must appear
+  in the `UA Episode table <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/data-model-and-specifications.html#ua-episode-data-elements>`_.
+  This number is reported in the column labelled 'Number of active episodes in period'.
+* The 'Number of active episodes with missing data' column counts, separately for each of the UA Episode record elements, how many episodes have the pertinent missing value code. For both elements "Needs Identification" and "Recommendation Out", 'Other' (code 98) is counted as a missing value as well as 'Not stated/Inadequately described' (code 99).
+* The '% Missing Data' column is a simple percentage of the active episodes that have missing data, calculated from the preceding two columns.
 
 .. _reporting_considerations:
 
@@ -1789,12 +2098,14 @@ This can result in low number anomalies such as that seen in this example B6 rep
 .. figure:: screen-shots/example-b6.png
    :alt: Example B6 report showing anomalies due to mapping a single postcode to more than one remoteness area
 
-Notice that there are 2 episodes in the very remote Australia classification, but these
-two episodes are distributed across the **’Significant Improvement’** and **‘No significant change’**
-categories in the seemingly impossible proportions of 61.6% and 38.4% respectively.
+Notice that there are 2 episodes in the very remote Australia classification, but
+these two episodes are distributed across the **’Significant Improvement’** and
+**‘No significant change’** categories in the seemingly impossible proportions of
+61.6% and 38.4% respectively.
 
-This is because the client postcodes associated with these episodes include one postcode (0822)
-that splits across 3 remoteness classifications, with proportions being defined by the “weight” variable:
+This is because the client postcodes associated with these episodes include one
+postcode (0822) that splits across 3 remoteness classifications, with proportions
+being defined by the “weight” variable:
 
 +----------+--------+---------------------------+
 | Postcode | Weight | Remoteness Area           |
@@ -1833,30 +2144,31 @@ Note that the sum of the weights is the same as the total number of episodes:
 
 Compare this source data to the report above.
 
-**Major Cities of Australia** is straightforward: 2 records, both with weights of 1 for a
-total of 2 episodes, both of which are in the **No change** group. The next remoteness
-category (**Inner Regional Australia**) has an episode count of 0 and is indicated by dashes
-in the report, consistent with the source data. After that it gets confusing. The third
-category in the report (**Outer Regional Australia**) is also listed as having an episode
-count of 0, but in this case change groups have figures rather than dashes, with the
-**No significant change** group indicating 100%.
+**Major Cities of Australia** is straightforward: 2 records, both with weights of
+1 for a total of 2 episodes, both of which are in the **No change** group. The next
+remoteness category (**Inner Regional Australia**) has an episode count of 0 and
+is indicated by dashes in the report, consistent with the source data. After that
+it gets confusing. The third category in the report (**Outer Regional Australia**)
+is also listed as having an episode count of 0, but in this case change groups
+have figures rather than dashes, with the **No significant change** group indicating 100%.
 
 This can be understood looking at the source data where, unlike **Inner Regional Australia**,
-there is an **Outer Regional Australia** row. The weight for this row is 0.1734, which
-rounds to 0 episodes. However 100% of that 0.1734 of an episode is in the
+there is an **Outer Regional Australia** row. The weight for this row is 0.1734,
+which rounds to 0 episodes. However 100% of that 0.1734 of an episode is in the
 **No significant change** group, hence the 100% figure for that group, and
 the 0% reported for the other two groups.
 
 **Remote Australia** can be understood the same way, in this case 100% of its 0.2035
-episodes are also **No significant change** (in fact this is a further 0.2034 of the same
-episode that **Outer Regional Australia** constitutes 0.1734 of - the remaining
-0.6231 is in **Very Remote Australia**).
+episodes are also **No significant change** (in fact this is a further 0.2034 of
+the same episode that **Outer Regional Australia** constitutes 0.1734 of - the
+remaining 0.6231 is in **Very Remote Australia**).
 
-Which leaves the final and most confusing category: **Very Remote Australia**. The source
-data indicates two records for this category, with weights of 1.000 and 0.6231 for a
-total of 1.6231 episodes. This rounds to 2 episodes (which is what is reported), but the
-percentages are based on the weighted episodes, so the Significant Improvement group is
-1/1.6231 = 0.616 (61.6%). The No Significant Change group has 0.6231/1.6231 = 0.384 (38.4%).
+Which leaves the final and most confusing category: **Very Remote Australia**.
+The source data indicates two records for this category, with weights of 1.000
+and 0.6231 for a total of 1.6231 episodes. This rounds to 2 episodes (which is
+what is reported), but the percentages are based on the weighted episodes, so
+the Significant Improvement group is 1/1.6231 = 0.616 (61.6%). The No Significant
+Change group has 0.6231/1.6231 = 0.384 (38.4%).
 
 Strictly speaking, the Episode Counts for the 5 Client Remoteness categories are:
 
@@ -1894,8 +2206,8 @@ replicate the system reports.
 Outcome Measure Standard Deviations
 -----------------------------------
 
-Outcome Measure Standard Deviations will be updated in the second
-half of August each year.
+Outcome Measure Standard Deviations will be updated in the second half of August
+each year.
 
 Current version:
 
