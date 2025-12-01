@@ -80,8 +80,7 @@ The All PMHC Program Types data source includes all the following PMHC Program T
    :local:
    :depth: 3
 
-Data linked to the Universal Aftercare program, and the previous Beyond Blue The Way Back extension, is included in all of these Program Types.
-In order to partition reports by Universal Aftercare and Way Back data a separate selection has been provided.
+Data linked to the previous Beyond Blue The Way Back extension, has been migrated to the Universal Aftercare Program Type.
 
 The PMHC data source does not include any hAPI headspace extension data.
 
@@ -131,16 +130,8 @@ delivered through the Australian Government Mental Health Response to Bushfire T
 Universal Aftercare
 -------------------
 
-This PMHC subset report only includes Universal Aftercare data linked to the episode tag `!uaooh`.  (See `Universal Aftercare tag <https://docs.pmhc-mds.com/data-specifications.html#current-system-tags>`_).
-
-
-.. _the-way-back-pmhc-subset:
-
-The Way Back (PMHC subset)
---------------------------
-
-This PMHC subset report only includes the previous Beyond Blue The Way Back Support Services
-data linked to the episode tag `!wayback`.  (See `The Way Back Data Specification <https://docs.pmhc-mds.com/projects/data-specification-wayback/en/v3/data-specification/data-model-and-specifications.html>`_).
+Mental health services delivered through the Universal Aftercare Program.
+(See `PMHC Program Type <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#program-type>`_).
 
 .. _hapi-headspace:
 
@@ -169,7 +160,6 @@ The following tags can currently be used to filter data for reports:
 * `!br20 - Australian Government Mental Health Response to Bushfire <https://docs.pmhc-mds.com/projects/data-specification/en/latest/reserved-tags.html?highlight=!amhc#br20>`_
 * `!covid19 - Episode occurred as result of COVID-19 pandemic <https://docs.pmhc-mds.com/projects/data-specification/en/latest/reserved-tags.html?highlight=!amhc#covid19-australian-government-headtohelp-hubs>`_
 * `!uaooh - Universal Aftercare data <https://docs.pmhc-mds.com/data-specifications.html#current-system-tags>`_
-* `!wayback - The Way Back Support Service <https://docs.pmhc-mds.com/projects/data-specification-wayback/en/v3/data-specification/identifier-management.html#identifier-pmhc-twb-episode-tag>`_
 
 *Note: Local tags can not be used to filter standard reports.*
 
@@ -179,8 +169,7 @@ The following tags can currently be used to filter data for reports:
 Types of Standard reports
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The reports are grouped into several categories, each designed to serve different
-purposes.
+The reports are grouped into categories, each designed to serve different purposes.
 
 .. contents::
    :local:
@@ -744,6 +733,65 @@ is the enumeration of all clients for whom ALL episodes
 active during the reporting period were delivered at multiple organisations.
 A single episode during the reporting period delivered at only one
 organisation excludes client from this count.
+
+.. _category-a13:
+
+A13 — Data quality report — Universal Aftercare episodes with no linked UA episode record
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+The A13 provides an overview of the number of episodes that have the 
+Universal Aftercare Program Type but no linked UA Episode record.
+
+Key specifications:
+
+* `Active Episodes <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#active-episode>`_ with Program Type 'Universal Aftercare' that do not have an associated UA Episode record
+
+.. _category-a14:
+
+A14 — Data quality report - Missing UA Episode data
++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+The A14 is a summary Universal Aftercare (UA) format report that provides a simple
+listing of missing/invalid data rates for relevant UA Episode data elements. It
+is analogous to the `standard A4 report <https://docs.pmhc-mds.com/projects/user-documentation/en/latest/reporting.html#a4-data-quality-report-missing-and-invalid-episode-data>`_
+that deals with the standard PMHC Episode elements with missing data.
+
+Key specifications:
+
+* Data in this report is associated with an Active UA Episode; however, for this 
+  report there is slightly tighter criteria regarding what it means to be active. 
+  Rather than the usual one or more 
+  `attended service contact <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#attended-service-contact>`_ 
+  during the reporting period, for the A14, there must be at least TWO such contacts (i.e. non-no shows) during the reporting period. 
+* The episode must appear in the `UA Episode table <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/data-model-and-specifications.html#ua-episode-data-elements>`_. 
+  This number is reported in the column labelled 'Number of active episodes in period'.
+* The 'Number of active episodes with missing data' column counts, separately for each of the UA Episode record elements, 
+  how many episodes have the pertinent missing value code. For the elements "Method of Suicide Attempt" and "Primary Nominated Professional", 
+  'Other' (code 98) is counted as a missing value as well as 'Not stated/Inadequately described' (code 99).
+* The '% Missing Data' column is a simple percentage of the active episodes that have missing data, calculated from the preceding two columns.
+
+.. _category-a15:
+
+A15 — Data quality report - Missing UA Needs Identification and Recommendation Outs
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+The A15 is a summary Universal Aftercare (UA) format report that provides a simple
+listing of missing/invalid data rates for relevant UA Needs Identification and
+UA Recommendation Outs data elements. It does the same job for these elements as
+the A14 does for UA Episode data elements, and uses the same assumptions.
+
+Key specifications:
+
+* Data in this report is associated with an Active UA Episode;
+  however, for this report there is slightly tighter criteria regarding what it means
+  to be active. Rather than the usual one or more `attended service contact <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#attended-service-contact>`_
+  during the reporting period, , for the A15, there must be at least TWO such contacts (i.e. non-no shows) during the reporting period.
+* The episode must appear in the `UA Episode table <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/data-model-and-specifications.html#ua-episode-data-elements>`_.
+  This number is reported in the column labelled 'Number of active episodes in period'.
+* The 'Number of active episodes with missing data' column counts, separately for each of the UA Episode 
+  record elements, how many episodes have the pertinent missing value code. For both elements "Needs Identification" 
+  and "Recommendation Out", 'Other' (code 98) is counted as a missing value as well as 'Not stated/Inadequately described' (code 99).
+* The '% Missing Data' column is a simple percentage of the active episodes that have missing data, calculated from the preceding two columns.
 
 .. _category-b:
 
@@ -1764,12 +1812,17 @@ known as Universal Aftercare (UA) Support Service Minimum Data Set extension.
 
 .. _category-w1:
 
-Report W1 — Universal Aftercare Quarterly Report Template
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+W1 — Universal Aftercare Quarterly Report Template
+++++++++++++++++++++++++++++++++++++++++++++++++++
 
 Universal Aftercare Quarterly reporting function allows users to automatically populate
-Universal Aftercare Quarterly Report using data contained in the PMHC MDS. This spreadsheet
-will then require some manual completion of information not available to the
+Universal Aftercare Quarterly Report using data contained in the PMHC MDS.
+
+During The Wayback trial, this report was submitted to Beyond Blue. After the trial finished
+some organisations were still required to submit this report to their PHNs.
+It has now been rebranded for Universal Aftercare.
+
+This report requires some manual completion of information not available to the
 PMHC-MDS system before providing to your PHN.
 
 Many of the items reported are summarised over two time periods - reporting
@@ -1783,7 +1836,9 @@ July 1 of the earlier calendar year until either the end of the selected
 reporting period or the date the report was generated if the current quarter
 is selected.
 
-Data in this report is all associated with episodes that appear in the `UA Episode table <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/data-model-and-specifications.html#ua-episode-data-elements>`_, - a '**!uaooh**' tag on the main episode table is NOT sufficient.
+Data in this report is all associated with episodes that appear in the 
+`UA Episode table <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/data-model-and-specifications.html#ua-episode-data-elements>`_, 
+- the Universal Aftercare Program Type on the Episode record is NOT sufficient.
 
 The first section of the report explicitly details the dates covered by the
 reporting period and the year to date, as well as identifying the time at which
@@ -2008,60 +2063,6 @@ collection occasion with a corresponding
 equal to `2: Support Plan`. The numerator is the subset of these episodes for
 which the collection occasion date is not more than 10 days after the initial
 attended service contact.
-
-.. _category-w2:
-
-Report W2 — High level summary of overall volumes by entity
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-The W2 provides an overview of Universal Aftercare (UA) activity undertaken during
-the reporting period. It uses the same assumptions as the standard A1 report. It
-is a ‘one page’ view, with data aggregated for the specified reporting period,
-covering counts of clients, episodes and service contacts.
-
-Key specifications:
-
-* Data in this report is all associated with an Active UA Episode, as shown in the 'Active Episodes' column counts. This means the episode must appear in the `UA Episode table <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/data-model-and-specifications.html#ua-episode-data-elements>`_, and must have an Active Contact during the reporting period. A '**!uaooh**' tag on the main episode table is NOT sufficient for the episode to be included in this report.
-* The 'Active Contacts' column counts all the `Attended Service Contacts <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#attended-service-contact>`_ (i.e. non-no show) that occurred during the reporting period that were associated with an Active UA Episode.
-* The 'Active Clients' column counts the number of unique clients who were the recipient of services delivered as part of an Active UA Episode.
-
-.. _category-w3:
-
-Report W3 — Data Quality Report: Missing UA Episode data
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-The W3 is a summary Universal Aftercare (UA) format report that provides a simple
-listing of missing/invalid data rates for relevant UA Episode data elements. It
-is analogous to the `standard A4 report <https://docs.pmhc-mds.com/projects/user-documentation/en/latest/reporting.html#a4-data-quality-report-missing-and-invalid-episode-data>`_
-that deals with the standard PMHC Episode elements with missing data.
-
-Key specifications:
-
-* As for the W2, data in this report is all associated with an Active UA Episode; however, for this report there is slightly tighter criteria regarding what it means to be active. Rather than the usual one or more `attended service contact <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#attended-service-contact>`_ during the reporting period, for the W3 and W4, there must be at least TWO such contacts (i.e. non-no shows) during the reporting   period). The episode must appear in the `UA Episode table <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/data-model-and-specifications.html#ua-episode-data-elements>`_. This number is reported in the column labelled 'Number of active episodes in period'.
-* The 'Number of active episodes with missing data' column counts, separately for each of the UA Episode record elements, how many episodes have the pertinent missing value code. For the elements "Method of Suicide Attempt" and "Primary Nominated Professional", 'Other' (code 98) is counted as a missing value as well as 'Not stated/Inadequately described' (code 99).
-* The '% Missing Data' column is a simple percentage of the active episodes that have missing data, calculated from the preceding two columns.
-
-
-.. _category-w4:
-
-Report W4 — Data Quality Report: Missing UA Needs Identification and Recommendation Outs
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-The W4 is a summary Universal Aftercare (UA) format report that provides a simple
-listing of missing/invalid data rates for relevant UA Needs Identification and
-UA Recommendation Outs data elements. It does the same job for these elements as
-the W3 does for UA Episode data elements, and uses the same assumptions.
-
-Key specifications:
-
-* As for the W2, data in this report is all associated with an Active UA Episode;
-  however, for this report there is slightly tighter criteria regarding what it means
-  to be active. Rather than the usual one or more `attended service contact <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#attended-service-contact>`_
-  contacts (i.e. non-no shows) during the reporting period). The episode must appear
-  in the `UA Episode table <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/data-model-and-specifications.html#ua-episode-data-elements>`_.
-  This number is reported in the column labelled 'Number of active episodes in period'.
-* The 'Number of active episodes with missing data' column counts, separately for each of the UA Episode record elements, how many episodes have the pertinent missing value code. For both elements "Needs Identification" and "Recommendation Out", 'Other' (code 98) is counted as a missing value as well as 'Not stated/Inadequately described' (code 99).
-* The '% Missing Data' column is a simple percentage of the active episodes that have missing data, calculated from the preceding two columns.
 
 .. _reporting_considerations:
 
