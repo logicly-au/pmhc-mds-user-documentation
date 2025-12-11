@@ -6,6 +6,7 @@ User Guide Change log
 TBC/12/2025
 -----------
 
+* Added :ref:`category-m` reports
 * Added :ref:`category-w` reports
 
 31/07/2025
