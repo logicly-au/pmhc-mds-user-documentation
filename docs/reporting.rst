@@ -785,7 +785,7 @@ Key specifications:
 * Data in this report is associated with an Active UA Episode;
   however, for this report there is slightly tighter criteria regarding what it means
   to be active. Rather than the usual one or more `attended service contact <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#attended-service-contact>`_
-  during the reporting period, , for the A15, there must be at least TWO such contacts (i.e. non-no shows) during the reporting period.
+  during the reporting period, for the A15, there must be at least TWO such contacts (i.e. non-no shows) during the reporting period.
 * The episode must appear in the `UA Episode table <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/data-model-and-specifications.html#ua-episode-data-elements>`_.
   This number is reported in the column labelled 'Number of active episodes in period'.
 * The 'Number of active episodes with missing data' column counts, separately for each of the UA Episode 
