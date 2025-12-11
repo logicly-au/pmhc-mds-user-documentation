@@ -3,7 +3,7 @@
 User Guide Change log
 =====================
 
-TBC/11/2025
+TBC/12/2025
 -----------
 
 * Added :ref:`category-w` reports

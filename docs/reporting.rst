@@ -74,7 +74,7 @@ The following are listed as the data sources currently available for reports:
 All PMHC Program Types
 ----------------------
 
-The All PMHC Program Types data source includes all the following PMHC Program Types:
+The `All PMHC Program Types` data source includes all the following PMHC Program Types:
 
 .. contents::
    :local:
@@ -82,31 +82,22 @@ The All PMHC Program Types data source includes all the following PMHC Program T
 
 Data linked to the previous Beyond Blue The Way Back extension, has been migrated to the Universal Aftercare Program Type.
 
-The PMHC data source does not include any hAPI headspace extension data.
+.. note::
+  The `All PMHC Program Types` data source does not include any hAPI headspace extension data.
 
 .. _flexible-funding-pool:
 
 Flexible Funding Pool
 +++++++++++++++++++++
 
-Other Programs commissioned through Primary Mental Health Care Schedule that are
+Programs commissioned through the Primary Mental Health Care Schedule that are
 not otherwise described by another category. (See `PMHC Program Type <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#program-type>`_).
 
-.. _head-to-health:
+Head to Health Clinics
+++++++++++++++++++++++
 
-Head to Health
-++++++++++++++
-
-The Head to Health Program includes Head to Health Adult Centres and Satellites
-and pop-up clinics. (See `PMHC Program Type <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#program-type>`_).
-
-.. _amhc:
-
-AMHC
-++++
-
-The Head to Health Program that are delivering the Adult Mental Health Centre (AMHC)
-trial sites. (See `PMHC Program Type <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#program-type>`_).
+Mental health services delivered through Head to Health Clinics in NSW 
+and Victoria. (See `PMHC Program Type <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#program-type>`_).
 
 .. _psychosocial:
 
@@ -125,10 +116,18 @@ Mental health services in fire affected communities can use this field for episo
 delivered through the Australian Government Mental Health Response to Bushfire Trauma.
 (See `PMHC Program Type <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#program-type>`_).
 
-.. _universal-aftercare-pmhc-subset:
+.. _mmhc:
+
+MMHC
+++++
+
+Mental health services delivered through the Medicare Mental Health Care 
+Program. (See `PMHC Program Type <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#program-type>`_).
+
+.. _universal-aftercare:
 
 Universal Aftercare
--------------------
++++++++++++++++++++
 
 Mental health services delivered through the Universal Aftercare Program.
 (See `PMHC Program Type <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#program-type>`_).
@@ -139,7 +138,7 @@ hAPI (headspace)
 ----------------
 
 hAPI is data that headspace National Office upload from their internal hAPI
-client information management system (See `headspace Data Specification <https://docs.pmhc-mds.com/projects/data-specification-headspace/en/v4.1/data-model-and-specifications.html#data-model-and-specifications>`_).
+client information management system (See `headspace Data Specification <https://docs.pmhc-mds.com/projects/data-specification-headspace/en/latest/data-model-and-specifications.html#data-model-and-specifications>`_).
 
 Some of the standard reports, namely the :ref:`category-d` and :ref:`category-e` series are not
 pertinent for headspace. However there are two headspace only
@@ -161,7 +160,8 @@ The following tags can currently be used to filter data for reports:
 * `!covid19 - Episode occurred as result of COVID-19 pandemic <https://docs.pmhc-mds.com/projects/data-specification/en/latest/reserved-tags.html?highlight=!amhc#covid19-australian-government-headtohelp-hubs>`_
 * `!uaooh - Universal Aftercare data <https://docs.pmhc-mds.com/data-specifications.html#current-system-tags>`_
 
-*Note: Local tags can not be used to filter standard reports.*
+.. note::
+   Local tags can not be used to filter standard reports.
 
 
 .. _system-report-types:
@@ -753,7 +753,7 @@ A14 — Data quality report - Missing UA Episode data
 
 The A14 is a summary Universal Aftercare (UA) format report that provides a simple
 listing of missing/invalid data rates for relevant UA Episode data elements. It
-is analogous to the `standard A4 report <https://docs.pmhc-mds.com/projects/user-documentation/en/latest/reporting.html#a4-data-quality-report-missing-and-invalid-episode-data>`_
+is analogous to the `standard A4 report <category-a4>`_
 that deals with the standard PMHC Episode elements with missing data.
 
 Key specifications:
@@ -778,7 +778,7 @@ A15 — Data quality report - Missing UA Needs Identification and Recommendation
 The A15 is a summary Universal Aftercare (UA) format report that provides a simple
 listing of missing/invalid data rates for relevant UA Needs Identification and
 UA Recommendation Outs data elements. It does the same job for these elements as
-the A14 does for UA Episode data elements, and uses the same assumptions.
+the `A14 report <category-a14>`_ does for UA Episode data elements, and uses the same assumptions.
 
 Key specifications:
 
