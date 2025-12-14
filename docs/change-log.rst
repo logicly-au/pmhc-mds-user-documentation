@@ -7,6 +7,12 @@ TBC/11/2025
 -----------
 
 * Added :ref:`category-w` reports
+* Added :ref:`ua-episode-data`
+* Updated :ref:`measure-data` to include UA measures
+* Updated :ref:`episode-data` screenshots to include Veteran field
+* Updated :ref:`intake-data` screenshots to include Veteran field
+
+measure-data
 
 31/07/2025
 ----------
