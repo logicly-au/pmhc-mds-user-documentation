@@ -1909,6 +1909,7 @@ grouped by recommended level of care and presented as numbers and proportions.
 Key specifications:
 
 * To be counted, an intake must have all of these properties:
+
   * a `Date client contacted Intake <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#date-client-contacted-intake>`_ within the reporting period
   * ‘MMHC’ in its set of `Organisation types referred to at intake conclusion <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#organisation-type-referred-to-at-intake-conclusion>`_
 
