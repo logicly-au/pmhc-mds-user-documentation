@@ -949,7 +949,7 @@ Universal Aftercare Episode
 
 Episodes with Program Type Universal Aftercare have extra information associated with them. The
 extra Universal After information is shown underneath the general Episode information
-when viewing or editing and Episode.
+when viewing or editing an Episode.
 
 .. _view-ua-episodes:
 
