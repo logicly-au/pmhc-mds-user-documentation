@@ -6,9 +6,8 @@ User Guide Change log
 TBC/11/2025
 -----------
 
-* Added :ref:`category-w` reports
 * Added :ref:`ua-episode-data`
-* Updated :ref:`measure-data` to include UA measures
+* Updated :ref:`measure-data` to include Universal Aftercare measures
 * Updated :ref:`episode-data` screenshots to include Veteran field
 * Updated :ref:`intake-data` screenshots to include Veteran field
 
@@ -231,7 +230,7 @@ measure-data
 21/10/2020
 ----------
 
-* Added :ref:`Wayback reports<category-w>`
+* Added Wayback reports
 
 * Updated screenshots for :ref:`produce-system-report`
 

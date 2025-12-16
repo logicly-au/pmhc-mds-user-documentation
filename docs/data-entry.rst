@@ -696,7 +696,7 @@ available on the **Data Entry** tab, by following these steps:
 5. **Please note:** You can edit the **Episode Key** from this screen. See :ref:`edit-episode-key`
 
 .. note::
-   The Department has recently changed some reserve tags. For more information please see `System Tags <https://docs.pmhc-mds.com/data-specifications.html#supplementary-data-documentation>`_.
+   The Department has recently changed some reserve tags. For more information please see `System Tags <https://docs.pmhc-mds.com/data-specifications.html#supplementary-data-documentation>`__.
 
 .. figure:: screen-shots/client-episodes-edit.png
    :alt: Client Episodes Edit Details
@@ -761,7 +761,7 @@ available on the **Data Entry** tab, by following these steps:
    (Specification `Episode Data Elements <https://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#episode-data-elements>`__)
 
 .. note::
-   The Department has recently changed some reserve tags. For more information please see `System Tags <https://docs.pmhc-mds.com/data-specifications.html#supplementary-data-documentation>`_.
+   The Department has recently changed some reserve tags. For more information please see `System Tags <https://docs.pmhc-mds.com/data-specifications.html#supplementary-data-documentation>`__.
 
 .. figure:: screen-shots/client-episodes-add.png
    :alt: Client Data Add Episode
@@ -940,57 +940,32 @@ follow the steps at :ref:`edit-episode` and scroll to the bottom of the episode 
 
 .. _ua-episode-data:
 
-UA-Episode
-^^^^^^^^^^
+Universal Aftercare Episode
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. contents::
    :local:
    :depth: 2
 
-You can view a client's episodes through Viewing a Client's details available on
-the Data Entry tab, by following these steps:
+Episodes with Program Type Universal Aftercare have extra information associated with them. The
+extra Universal After information is shown at underneath the general Episode information
+when viewing or editing and Epsidoe.
 
 .. _view-ua-episodes:
 
-Viewing a Client's UA Episode
------------------------------
+Viewing Universal Aftercare data on a Client's Episode
+------------------------------------------------------
 
-You can view a client's UA episodes through viewing a client's details
-available on the Data Entry tab, by following these steps:
-
-1. Search for the client using the filters search fields.
-2. Click on the Client Key in blue displayed within the table list.
-3. From the Client's Summary tab, you can shortcut straight to an episode by clicking
-   the Blue Episode Key displayed in the snapshot of the five most recent episodes.
-4. Alternately, if you would like to view all episodes you can click on the
-   Episode Tab. The heading for this tab displays in brackets the total number of episodes recorded
-   in the PMHC MDS for this client at Provider Organisations for which you have access.
-
-A table will display all the Client's Episodes at Provider Organisations for which you have access.
-ua-tag
-A Drop down list is available to view:
-
-* All Episodes
-* Currently Open Episodes
-* Closed Episodes
-
-.. figure:: screen-shots/client-episodes-summary-sort.png
-   :alt: Client Episodes Sort View
-
-To view the Client's Episode details, click the Blue Episode Key.
-
-A page will display the Client's PMHC Episode details.
-
-You can edit a client's UA episode data by follow the steps at :ref:`edit-episode`
-and scroll to the bottom of the episode form.
+You can view the Universal Aftercare data associated with an episode that has the Universal Aftercare Program Type 
+by following the steps at :ref:`view-episodes` and scolling to the bottom of the tab.
 
 .. figure:: screen-shots/client-episodes-ua-view.png
-   :alt: Client Data View Intake Episode
+   :alt: Client Data View Universal Aftercare Episode
 
 .. _add-ua-episode:
 
-Adding a Client's UA Episode data
----------------------------------
+Adding Universal Aftercare data to a Client's Episode
+-----------------------------------------------------
 
 You can edit a Client's PMHC Episode details through :ref:`view-episodes`
 available on the Data Entry tab to add a Client's UA Episode data, by following these steps:
@@ -1023,26 +998,10 @@ If you receive an error message, the data will need to be corrected before the
 record is saved and added to the PMHC MDS.
 See Validation Rules - `UA Episode <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/validation-rules.html#ua-episode>`_
 
-.. _uaooh-tag-ua-episode:
-
-UA Universal Aftercare Out of Hospital
---------------------------------------
-
-A new system tag (`!uaooh`) will be introduced to distinguish episodes under the
-Universal Aftercare Outside of Hospital/Expanded Referral Pathway Trial. The
-`!uaooh` tag will only be allowed on Episode records where the Program Type is
-‘9: Universal Aftercare’. This tag should be applied to all episodes delivered
-under the Universal Aftercare Outside of Hospital/Expanded Referral Pathway Trial.
-
-         .. figure:: screen-shots/client-episodes-uaooh-tag.png
-            :alt: Client Episodes uaooh Tag
-
-See more details in the `System Tags <https://docs.pmhc-mds.com/data-specifications.html#system-tags>`_
-
 .. _edit-ua-episode:
 
-Editing a Client's UA-Episode data
-----------------------------------
+Editing Universal Aftercare data on a Client's Episode
+------------------------------------------------------
 
 You can edit a Client's PMHC Episode details through :ref:`view-episodes`
 available on the Data Entry tab, by following these steps:
@@ -1072,8 +1031,8 @@ See Validation Rules - `UA Episode <https://docs.pmhc-mds.com/projects/data-spec
 
 .. _delete-ua-episode:
 
-Deleting an UA Episode
-----------------------
+Deleting Universal Aftercare data from a Client's Episode
+---------------------------------------------------------
 
 Removing 'Universal Aftercare' from the Program Type field will delete an UA Episode,
 through :ref:`view-episodes` available on the Data Entry tab, by following these steps:
@@ -1081,7 +1040,7 @@ through :ref:`view-episodes` available on the Data Entry tab, by following these
 1. Once :ref:`view-episodes`.
 2. From the Client's Episode table, click the Episode Key.
 3. Click Edit Details tab.
-4. Remove 'Universal Aftercare' from the Program Type field by selecting another value
+4. Remove 'Universal Aftercare' from the Program Type field by selecting another Program Type
 5. Click the blue 'Save' button.
 
    Deleting the Universal Aftercare Episode data will also delete the:
@@ -1101,6 +1060,22 @@ through :ref:`view-episodes` available on the Data Entry tab, by following these
 
         .. figure:: screen-shots/client-data-saved.png
            :alt: Client Episode Data Saved Successfully
+
+.. _uaooh-tag-ua-episode:
+
+Universal Aftercare Out of Hospital
+-----------------------------------
+
+A new system tag (`!uaooh`) has been introduced to distinguish episodes under the
+Universal Aftercare Outside of Hospital/Expanded Referral Pathway Trial. The
+`!uaooh` tag will only be allowed on Episode records where the Program Type is
+‘9: Universal Aftercare’. This tag should be applied to all episodes delivered
+under the Universal Aftercare Outside of Hospital/Expanded Referral Pathway Trial.
+
+         .. figure:: screen-shots/client-episodes-uaooh-tag.png
+            :alt: Client Episodes uaooh Tag
+
+See more details in the `System Tags <https://docs.pmhc-mds.com/data-specifications.html#system-tags>`__.
 
 .. _service-contact-data:
 
@@ -1554,7 +1529,7 @@ A page will display the Measure details as recorded via the `Outcome Collection 
 
   * See `SIDAS Measure data specifications <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/data-model-and-specifications.html#sidas>`_.
   * See `WHO-5 Measure data specifications <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/data-model-and-specifications.html#who-5>`_.
-  * See `UA-Plan data specifications <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/data-model-and-specifications.html#ua-plan-data-elements>`_.
+  * See `UA-Plan data specifications <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/data-model-and-specifications.html#ua-plan-data-elements>`__.
   * See `UA-NI data specifications <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/data-model-and-specifications.html#ua-needs-identification-data-elements>`_.
 
 .. _add-collection-occasion-measure:
@@ -1590,7 +1565,7 @@ available on the Data Entry tab, by following these steps:
 
   * See `SIDAS Measure data specifications <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/data-model-and-specifications.html#sidas>`_.
   * See `WHO-5 Measure data specifications <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/data-model-and-specifications.html#who-5>`_.
-  * See `UA-Plan data specifications <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/data-model-and-specifications.html#ua-plan-data-elements>`_.
+  * See `UA-Plan data specifications <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/data-model-and-specifications.html#ua-plan-data-elements>`__.
   * See `UA-NI data specifications <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/data-model-and-specifications.html#ua-needs-identification-data-elements>`_.
 
 6. Click the blue **Save** button. (If you decide not to add this client's measure, you can simply navigate away from this screen)
@@ -1608,8 +1583,8 @@ See Validation Rules -
 `K5 <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#k5>`_
 `SDQ <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#sdq>`_
 `SIDAS <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/validation-rules.html#sidas>`_
-`UA-Plan <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/validation-rules.html#ua-plan>`_
-`UA-Plan <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/validation-rules.html#ua-needs-identification>`_
+`UA-Plan <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/validation-rules.html#ua-plan>`__
+`UA-NI <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/validation-rules.html#ua-needs-identification>`__
 
 .. _edit-collection-occasion-measure:
 
@@ -1645,8 +1620,8 @@ See Validation Rules -
 `K5 <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#k5>`_
 `SDQ <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#sdq>`_
 `SIDAS <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/validation-rules.html#sidas>`_
-`UA-Plan <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/validation-rules.html#ua-plan>`_
-`UA-Plan <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/validation-rules.html#ua-needs-identification>`_
+`UA-Plan <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/validation-rules.html#ua-plan>`__
+`UA-NI <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/validation-rules.html#ua-needs-identification>`__
 
 .. _edit-collection-occasion-measure-key:
 
