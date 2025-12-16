@@ -948,8 +948,8 @@ Universal Aftercare Episode
    :depth: 2
 
 Episodes with Program Type Universal Aftercare have extra information associated with them. The
-extra Universal After information is shown at underneath the general Episode information
-when viewing or editing and Epsidoe.
+extra Universal After information is shown underneath the general Episode information
+when viewing or editing and Episdoe.
 
 .. _view-ua-episodes:
 
@@ -957,7 +957,7 @@ Viewing Universal Aftercare data on a Client's Episode
 ------------------------------------------------------
 
 You can view the Universal Aftercare data associated with an episode that has the Universal Aftercare Program Type 
-by following the steps at :ref:`view-episodes` and scolling to the bottom of the tab.
+by following the steps at :ref:`view-episodes` and scrolling to the bottom of the tab.
 
 .. figure:: screen-shots/client-episodes-ua-view.png
    :alt: Client Data View Universal Aftercare Episode

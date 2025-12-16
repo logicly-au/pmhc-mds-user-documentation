@@ -96,7 +96,7 @@ not otherwise described by another category. (See `PMHC Program Type <https://do
 Head to Health Clinics
 ++++++++++++++++++++++
 
-Mental health services delivered through Head to Health Clinics in NSW 
+Mental health services delivered through Head to Health Clinics in New South Wales
 and Victoria. (See `PMHC Program Type <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#program-type>`_).
 
 .. _psychosocial:
@@ -155,9 +155,9 @@ The Department reserved tags identify specific data record types in the PMHC MDS
 
 The following tags can currently be used to filter data for reports:
 
-* `!amhc - Australian Government Mental Health Centres <https://docs.pmhc-mds.com/projects/data-specification/en/latest/reserved-tags.html?highlight=!amhc#amhc-australian-government-mental-health-centres>`_
-* `!br20 - Australian Government Mental Health Response to Bushfire <https://docs.pmhc-mds.com/projects/data-specification/en/latest/reserved-tags.html?highlight=!amhc#br20>`_
-* `!covid19 - Episode occurred as result of COVID-19 pandemic <https://docs.pmhc-mds.com/projects/data-specification/en/latest/reserved-tags.html?highlight=!amhc#covid19-australian-government-headtohelp-hubs>`_
+* `!amhc - Australian Government Mental Health Centres <https://docs.pmhc-mds.com/data-specifications.html#historical-system-tags>`_
+* `!br20 - Australian Government Mental Health Response to Bushfire <https://docs.pmhc-mds.com/data-specifications.html#current-system-tags>`_
+* `!covid19 - Episode occurred as result of COVID-19 pandemic <https://docs.pmhc-mds.com/data-specifications.html#historical-system-tags>`_
 * `!uaooh - Universal Aftercare data <https://docs.pmhc-mds.com/data-specifications.html#current-system-tags>`_
 
 .. note::
@@ -1909,8 +1909,8 @@ grouped by recommended level of care and presented as numbers and proportions.
 Key specifications:
 
 * To be counted, an intake must have all of these properties:
-  * a ‘Date client contacted Intake’ within the reporting period
-  * ‘MMHC’ in its set of Organisation types referred to at intake conclusion
+  * a `Date client contacted Intake <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#date-client-contacted-intake>`_ within the reporting period
+  * ‘MMHC’ in its set of `Organisation types referred to at intake conclusion <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#organisation-type-referred-to-at-intake-conclusion>`_
 
 .. _category-m7:
 
