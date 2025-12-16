@@ -3,15 +3,15 @@
 User Guide Change log
 =====================
 
-TBC/11/2025
------------
+17/12/2025
+----------
 
 * Added :ref:`ua-episode-data`
 * Updated :ref:`measure-data` to include Universal Aftercare measures
 * Updated :ref:`episode-data` screenshots to include Veteran field
 * Updated :ref:`intake-data` screenshots to include Veteran field
-
-measure-data
+* Added :ref:`category-m` reports
+* Added :ref:`category-w` reports
 
 31/07/2025
 ----------
