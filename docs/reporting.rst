@@ -1831,14 +1831,11 @@ Number and proportion of active clients, active episodes and service contacts by
 
 Key specifications:
 
-* Only ‘active clients’ are reported. A Client is defined as ‘active’ and in
-  scope for inclusion in this report if they had one or more active episodes
-  in the reporting period, where ‘active episode’ is defined below.
-* Only ‘active episodes’ are reported. An Episode is defined as ‘active’ and
-  in scope for inclusion in this report if it had one or more Service Contacts
-  recorded in the period. No distinction is made between Open and Completed
-  Episodes
-* Service Contacts flagged as ‘No Show’ are not included for this purpose.
+* Only `active clients <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#active-client>`__ 
+  are reported
+* Only `active episodes <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#active-episode>`__ are reported.
+  No distinction is made between Open and Completed Episodes
+* Service Contacts flagged as ‘No Show’ are not included for this purpose
 * Age is calculated at start of episode
 * A client can fall into multiple age groups because they may have multiple 
   episodes within the reporting period
@@ -1856,14 +1853,10 @@ by gender.
 
 Key specifications:
 
-* Only ‘active clients’ are reported. A Client is defined as ‘active’ and in
-  scope for inclusion in this report if they had one or more active episodes
-  in the reporting period, where ‘active episode’ is defined below.
-* Only ‘active episodes’ are reported. An Episode is defined as ‘active’ and
-  in scope for inclusion in this report if it had one or more Service Contacts
-  recorded in the period. No distinction is made between Open and Completed
-  Episodes
-* Service Contacts flagged as ‘No Show’ are not included for this purpose.
+* Only `active clients <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#active-client>`__ are reported
+* Only `active episodes <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#active-episode>`__ are reported
+  No distinction is made between Open and Completed Episodes
+* Service Contacts flagged as ‘No Show’ are not included for this purpose
 * Client gender grouped into categories as per `Client Gender <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#client-gender>`_.
 
 .. _category-m4:
@@ -1875,14 +1868,10 @@ Number and proportion of active clients, active episodes and service contacts by
 
 Key specifications:
 
-* Only ‘active clients’ are reported. A Client is defined as ‘active’ and in
-  scope for inclusion in this report if they had one or more active episodes
-  in the reporting period, where ‘active episode’ is defined below.
-* Only ‘active episodes’ are reported. An Episode is defined as ‘active’ and
-  in scope for inclusion in this report if it had one or more Service Contacts
-  recorded in the period. No distinction is made between Open and Completed
-  Episodes
-* Service Contacts flagged as ‘No Show’ are not included for this purpose.
+* Only `active clients <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#active-client>`__ are reported
+* Only `active episodes <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#active-episode>`__ are reported
+  No distinction is made between Open and Completed Episodes
+* Service Contacts flagged as ‘No Show’ are not included for this purpose
 * Client ATSI status grouped into categories as per `Aboriginal and Torres Strait Islander <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#aboriginal-and-torres-strait-islander-status>`_.
 
 .. _category-m5:
@@ -1923,16 +1912,12 @@ and service contacts in the defined reporting period.
 
 Key specifications:
 
-* Only ‘active clients’ are reported. A Client is defined as ‘active’ and in
-  scope for inclusion in this report if they had one or more active episodes
-  in the reporting period, where ‘active episode’ is defined below.
-* Only ‘active episodes’ are reported. An Episode is defined as ‘active’ and
-  in scope for inclusion in this report if it had one or more Service Contacts
-  recorded in the period. No distinction is made between Open and Completed
-  Episodes
+* Only `active clients <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#active-client>`__ are reported
+* Only `active episodes <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#active-episode>`__ are reported
+  No distinction is made between Open and Completed Episodes
 * ‘New episodes’ are episodes with at least one attended service contact (inside
   or outside the reporting period) and a commencement date within the defined
-  reporting period.
+  reporting period
 * ‘Closed episodes’ are episodes with at least one attended service contact
   (inside or outside the reporting period) and an end date within the defined
   reporting period.
@@ -2395,10 +2380,11 @@ each year.
 
 Current version:
 
-`Download PMHC Outcome Measure Standard Deviations 2024 as XLSX <_static/2024-pmhc-outcome-measure-standard-deviations.xlsx>`_.
+`Download PMHC Outcome Measure Standard Deviations 2025 as XLSX <_static/2025-pmhc-outcome-measure-standard-deviations.xlsx>`_.
 
 Previous versions:
 
+* `Download PMHC Outcome Measure Standard Deviations 2024 as XLSX <_static/2024-pmhc-outcome-measure-standard-deviations.xlsx>`_.
 * `Download PMHC Outcome Measure Standard Deviations 2023 as XLSX <_static/2023-pmhc-outcome-measure-standard-deviations.xlsx>`_.
 * `Download PMHC Outcome Measure Standard Deviations 2022 as XLSX <_static/2022-pmhc-outcome-measure-standard-deviations.xlsx>`_.
 * `Download PMHC Outcome Measure Standard Deviations 2021 as XLSX <_static/2021-pmhc-outcome-measure-standard-deviations.xlsx>`_.
