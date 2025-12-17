@@ -1,7 +1,7 @@
 .. _data-entry:
 
 Data Entry
-===========
+==========
 
 .. contents::
    :local:
@@ -297,7 +297,8 @@ A drop down list is available to view:
 .. figure:: screen-shots/client-intakes-details.png
    :alt: Client Intakes Details View
 
-A page will display the client's intakes details as recorded via the `Intake Data Elements <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html#intake-data-elements>`__.
+A page will display the client's intakes details as recorded via the
+`Intake Data Elements <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#intake-data-elements>`__.
 
 .. _edit-intake:
 
@@ -311,7 +312,7 @@ available on the **Data Entry** tab, by following these steps:
 2. From the client's **Intakes** table, click the **Intake Key**
 3. Click the **Edit Details** tab
 4. Update the client's **Intakes** details. Mandatory fields are marked with an *
-   (Specification `Intake Data Elements <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html#intake-data-elements>`__)
+   (Specification `Intake Data Elements <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#intake-data-elements>`__)
 5. **Please note:** You can edit the **Intake Key** from this screen. See :ref:`edit-intake-key`
 
 .. figure:: screen-shots/client-intakes-edit.png
@@ -328,7 +329,7 @@ and it will now be displaying these new details in the intake **View Details** t
 
 If you receive an error message, the data will need to be corrected before the
 record is saved and added to the PMHC MDS.
-See Validation Rules - `Intake <https://docs.pmhc-mds.com/projects/data-specification/en/v4/validation-rules.html#intake>`__.
+See Validation Rules - `Intake <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#intake>`__.
 
 .. _edit-intake-key:
 
@@ -373,12 +374,12 @@ available on the **Data Entry** tab, by following these steps:
      :alt: Client Data Add Intake - Existing Open Intake Warning
 
 4. Enter the client's intake details. Mandatory fields are marked with an *
-   (Specification `Intake Data Elements <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html#intake-data-elements>`__)
+   (Specification `Intake Data Elements <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#intake-data-elements>`__)
 
   .. figure:: screen-shots/client-intakes-add.png
      :alt: Client Data Add Intake
 
-For more information on the Intake data section see: `Intake Key Concept <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html#intake>`__
+For more information on the Intake data section see: `Intake Key Concept <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#intake>`__
 
 5. Click the blue **Save** button. (If you decide not to add this client's
    intake, you can simply navigate away from this screen)
@@ -391,7 +392,7 @@ and it will now be displaying these new details in the intake **View Details** t
 
 If you receive an error message, the data will need to be corrected before the
 record is saved and added to the PMHC MDS.
-See Validation Rules - `Intake <https://docs.pmhc-mds.com/projects/data-specification/en/v4/validation-rules.html#intake>`__.
+See Validation Rules - `Intake <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#intake>`__.
 
 .. _closing-intake:
 
@@ -404,7 +405,7 @@ available on the **Data Entry** tab, by following these steps:
 1. Once :ref:`view-intake`
 2. From the client's **Intake** table, click the **Intake Key** of the open intake
 3. Click the **Edit Details** tab
-4. Update the client's intake details, by entering an **Date referred to other service at Intake** and **Referred to Organisation Path** and **Organisation type referred to at Intake conclusion** (Specification `Intake Data Elements <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html#intake-data-elements>`__)
+4. Update the client's intake details, by entering an **Date referred to other service at Intake** and **Referred to Organisation Path** and **Organisation type referred to at Intake conclusion** (Specification `Intake Data Elements <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#intake-data-elements>`__)
 
 .. figure:: screen-shots/client-intakes-edit.png
    :alt: Client Intakes Edit Details
@@ -420,7 +421,7 @@ and it will now be displaying these new details in the intake **View Details** t
 
 If you receive an error message, the data will need to be corrected before the
 record is saved and added to the PMHC MDS.
-See Validation Rules - `Intake <https://docs.pmhc-mds.com/projects/data-specification/en/v4/validation-rules.html#intake>`__.
+See Validation Rules - `Intake <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#intake>`__.
 
 .. _delete-intake:
 
@@ -507,9 +508,9 @@ A table will display all the Measures linked to this Client's Intake.
 .. figure:: screen-shots/client-intake-measures-details.png
    :alt: Client Intake Measure Details View
 
-A page will display the Measure details as recorded via the `Measures at Intake <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html?highlight=iar#measures-at-intake>`_.
+A page will display the Measure details as recorded via the `Measures at Intake <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html?highlight=iar#measures-at-intake>`_.
 
-  * See `IAR-DST Measure data specifications <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html?highlight=iar#iar-dst>`_
+  * See `IAR-DST Measure data specifications <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html?highlight=iar#iar-dst>`_
 
 .. _add-intake-measure:
 
@@ -532,7 +533,7 @@ available on the Data Entry tab, by following these steps:
 
 4. Enter the Client's Measure details for the Intake. Mandatory fields are marked with an * .
 
-  * See `IAR-DST Measure data specifications <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html?highlight=iar#iar-dst>`_
+  * See `IAR-DST Measure data specifications <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html?highlight=iar#iar-dst>`_
 
 5. Click the blue **Save** button. (If you decide not to add this client's measure, you can simply navigate away from this screen)
 
@@ -544,7 +545,7 @@ and it will now be displaying these new details in the View Measure tab.
 
 If you receive an error message, the data will need to be corrected before the
 record is saved and added to the PMHC MDS.
-See Validation Rules for: `IAR-DST <https://docs.pmhc-mds.com/projects/data-specification/en/v4/validation-rules.html#iar-dst>`_.
+See Validation Rules - `IAR-DST <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#iar-dst>`_.
 
 .. _edit-intake-measure:
 
@@ -575,7 +576,7 @@ and it will now be displaying these new details in the View Intake Details tab.
 
 If you receive an error message, the data will need to be corrected before the
 record is saved and added to the PMHC MDS.
-See Validation Rules for: `IAR-DST <https://docs.pmhc-mds.com/projects/data-specification/en/v4/validation-rules.html#iar-dst>`_.
+See Validation Rules - `IAR-DST <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#iar-dst>`_.
 
 .. _edit-intake-measure-key:
 
@@ -695,10 +696,7 @@ available on the **Data Entry** tab, by following these steps:
 5. **Please note:** You can edit the **Episode Key** from this screen. See :ref:`edit-episode-key`
 
 .. note::
-   The Department has recently announced the "*Australian Government Mental Health Response to Bushfire Trauma*".
-   From January 2020, there is now a reserved **Episode Tag** ``!br20`` that can be easily selected or added to an Episode record if a new or existing client receives any services that meet the reporting requirements.
-   While services funded under the response must report in-scope activity using this tag, all PHNs may use this tag.
-   For more information please see `Reserved Tags - !br20 <https://docs.pmhc-mds.com/projects/data-specification/en/v2/reserved-tags.html#br20>`_.
+   The Department has recently changed some reserve tags. For more information please see `System Tags <https://docs.pmhc-mds.com/data-specifications.html#supplementary-data-documentation>`__.
 
 .. figure:: screen-shots/client-episodes-edit.png
    :alt: Client Episodes Edit Details
@@ -763,10 +761,7 @@ available on the **Data Entry** tab, by following these steps:
    (Specification `Episode Data Elements <https://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#episode-data-elements>`__)
 
 .. note::
-   The Department has recently announced the "*Australian Government Mental Health Response to Bushfire Trauma*".
-   From January 2020, there is now a reserved **Episode Tag** ``!br20`` that can be easily selected or added to an Episode record if a new or existing client receives any services that meet the reporting requirements.
-   While services funded under the response must report in-scope activity using this tag, all PHNs may use this tag.
-   For more information please see `Reserved Tags - !br20 <https://docs.pmhc-mds.com/projects/data-specification/en/v2/reserved-tags.html#br20>`_.
+   The Department has recently changed some reserve tags. For more information please see `System Tags <https://docs.pmhc-mds.com/data-specifications.html#supplementary-data-documentation>`__.
 
 .. figure:: screen-shots/client-episodes-add.png
    :alt: Client Data Add Episode
@@ -888,7 +883,7 @@ Episode record is available on the Episode record.
 You can view a client's intake episode data by follow the steps at :ref:`view-episodes`
 and scroll to the bottom of the episode form.
 
-.. figure:: screen-shots/client-intake-episodes-add.png
+.. figure:: screen-shots/client-intake-episodes-view.png
    :alt: Client Data View Intake Episode
 
 .. _edit-intake-episode:
@@ -902,7 +897,7 @@ Episode record is available on the Episode record.
 You can edit a client's intake episode data by follow the steps at :ref:`edit-episode`
 and scroll to the bottom of the episode form.
 
-.. figure:: screen-shots/client-intake-episodes-add.png
+.. figure:: screen-shots/client-intake-episodes-edit.png
    :alt: Client Data Edit Intake Episode
 
 .. _add-intake-episode:
@@ -916,7 +911,7 @@ Episode record is available on the Episode record.
 The Intake Episode record links an Intake record and an Episode record. The
 intake episode data must be entered by the organisation that delivers the
 treatment to the client.
-(Specification `Intake Episode Data Elements <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html#intake-episode-data-elements>`__)
+(Specification `Intake Episode Data Elements <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#intake-episode-data-elements>`__)
 
 .. figure:: screen-shots/client-intake-episodes-add.png
    :alt: Client Data Add Intake Episode
@@ -942,6 +937,145 @@ follow the steps at :ref:`edit-episode` and scroll to the bottom of the episode 
 
 .. figure:: screen-shots/client-intake-episodes-add.png
    :alt: Client Data Delete Intake Episode
+
+.. _ua-episode-data:
+
+Universal Aftercare Episode
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. contents::
+   :local:
+   :depth: 2
+
+Episodes with Program Type Universal Aftercare have extra information associated with them. The
+extra Universal After information is shown underneath the general Episode information
+when viewing or editing an Episode.
+
+.. _view-ua-episodes:
+
+Viewing Universal Aftercare data on a Client's Episode
+------------------------------------------------------
+
+You can view the Universal Aftercare data associated with an episode that has the Universal Aftercare Program Type 
+by following the steps at :ref:`view-episodes` and scrolling to the bottom of the tab.
+
+.. figure:: screen-shots/client-episodes-ua-view.png
+   :alt: Client Data View Universal Aftercare Episode
+
+.. _add-ua-episode:
+
+Adding Universal Aftercare data to a Client's Episode
+-----------------------------------------------------
+
+You can edit a Client's PMHC Episode details through :ref:`view-episodes`
+available on the Data Entry tab to add a Client's UA Episode data, by following these steps:
+
+1. Once :ref:`view-episodes`.
+2. From the Client's Episode table, click the Episode Key.
+3. Click Edit Details tab.
+4. Select 'Universal Aftercare' from the Program Type field
+5. Scroll to the bottom of the PMHC Episode
+
+Add the Client's UA Episode details. Mandatory fields are marked with an * . (Specification `UA Episode Data Elements <http://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#service-contact-data-elements>`_)
+
+.. figure:: screen-shots/client-episodes-ua-add.png
+   :alt: Client Episodes Edit Details
+
+You can also add the following information if available, or these can be added later:
+
+- See `UA-Critical Incident data specifications <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/data-model-and-specifications.html#ua-critical-incident-data-elements>`_ for Critical Incident Data.
+- See `UA-Recommendation Out data specifications <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/data-model-and-specifications.html#ua-recommendation-out-data-elements>`_ for Recommendation Out Data.
+
+6. Click the blue 'Save' button. (If you decide not to add UA data, you can simply navigate away from this screen)
+
+You will receive confirmation that the Client's Episode details have been saved,
+and it will now be displaying.
+
+        .. figure:: screen-shots/client-data-saved.png
+           :alt: Client Episode Data Saved Successfully
+
+If you receive an error message, the data will need to be corrected before the
+record is saved and added to the PMHC MDS.
+See Validation Rules - `UA Episode <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/validation-rules.html#ua-episode>`_
+
+.. _edit-ua-episode:
+
+Editing Universal Aftercare data on a Client's Episode
+------------------------------------------------------
+
+You can edit a Client's PMHC Episode details through :ref:`view-episodes`
+available on the Data Entry tab, by following these steps:
+
+1. Once :ref:`view-episodes`.
+2. From the Client's Episode table, click the Episode Key.
+3. Click Edit Details tab.
+4. Scroll to the bottom of the PMHC Episode.
+
+Update the Client's UA Episode details. Mandatory fields are marked with an * . (Specification `UA Episode Data Elements <http://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#service-contact-data-elements>`_)
+
+.. figure:: screen-shots/client-episodes-ua-edit.png
+   :alt: Client Episodes Edit Details
+
+5. Click the blue 'Save' button. (If you decide not to save changes, you can simply navigate away from this screen)
+
+You will receive confirmation that the Client's UA Episode details have been saved,
+and it will now be displaying these new details in the Episode View Details tab.
+
+        .. figure:: screen-shots/client-data-saved.png
+           :alt: Client Episode Data Saved Successfully
+
+If you receive an error message, the data will need to be corrected before the
+record is saved and added to the PMHC MDS.
+See Validation Rules - `UA Episode <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/validation-rules.html#ua-episode>`_
+
+
+.. _delete-ua-episode:
+
+Deleting Universal Aftercare data from a Client's Episode
+---------------------------------------------------------
+
+Removing 'Universal Aftercare' from the Program Type field will delete an UA Episode,
+through :ref:`view-episodes` available on the Data Entry tab, by following these steps:
+
+1. Once :ref:`view-episodes`.
+2. From the Client's Episode table, click the Episode Key.
+3. Click Edit Details tab.
+4. Remove 'Universal Aftercare' from the Program Type field by selecting another Program Type
+5. Click the blue 'Save' button.
+
+   Deleting the Universal Aftercare Episode data will also delete the:
+
+   * Primary Nominated Professional Contact,
+   * Critical Incidents, and
+   * Recommendation Outs.
+
+   However any associated measures will be retained.
+
+        .. figure:: screen-shots/client-episodes-ua-delete.png
+           :alt: Client Episodes UA Delete Details
+
+   **Please note: Once the collection occasion is deleted, you will not be able to recover this collection occasion data.**
+
+6. Click the red 'Confirm' button to delete the data. (If you decide not to delete the data, you can click the blue 'Cancel' button)
+
+        .. figure:: screen-shots/client-data-saved.png
+           :alt: Client Episode Data Saved Successfully
+
+.. _uaooh-tag-ua-episode:
+
+Universal Aftercare Out of Hospital
+-----------------------------------
+
+A new system tag (`!uaooh`) has been introduced to distinguish episodes under the
+Universal Aftercare Outside of Hospital/Expanded Referral Pathway Trial. The
+`!uaooh` tag will only be allowed on Episode records where the Program Type is
+‘9: Universal Aftercare’. This tag should be applied to all episodes delivered
+under the Universal Aftercare Outside of Hospital/Expanded Referral Pathway Trial.
+
+         .. figure:: screen-shots/client-episodes-uaooh-tag.png
+            :alt: Client Episodes uaooh Tag
+
+See more details in the `System Tags <https://docs.pmhc-mds.com/data-specifications.html#system-tags>`__.
 
 .. _service-contact-data:
 
@@ -1195,7 +1329,7 @@ and it will now be displaying these new details in the **View Collection Occasio
 
 If you receive an error message, the data will need to be corrected before the
 record is saved and added to the PMHC MDS.
-See Validation Rules for: `Outcome Collection Occasion Validations <https://docs.pmhc-mds.com/projects/data-specification/en/v2/validation-rules.html#current-validations>`_
+See Validation Rules - `Outcome Collection Occasion Validations <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#current-validations>`_
 
 
 .. _edit-collection-occasion-key:
@@ -1252,7 +1386,7 @@ and it will now be displaying these new details in the **View Collection Occasio
 
 If you receive an error message, the data will need to be corrected before the
 record is saved and added to the PMHC MDS.
-See Validation Rules for: `Outcome Collection Occasion Validations <https://docs.pmhc-mds.com/projects/data-specification/en/v2/validation-rules.html#current-validations>`_
+See Validation Rules - `Outcome Collection Occasion Validations <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#current-validations>`_
 
 
 
@@ -1387,9 +1521,16 @@ A table will display all the Measures linked to this Client's Episode Collection
 
 A page will display the Measure details as recorded via the `Outcome Collection Occasion Data Elements <http://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#outcome-collection-occasion-data-elements>`_.
 
-  * See `K10+ Measure data specifications <https://docs.pmhc-mds.com/projects/data-specification/en/v2/data-model-and-specifications.html#k10>`_.
-  * See `K5 Measure data specifications <https://docs.pmhc-mds.com/projects/data-specification/en/v2/data-model-and-specifications.html#k5>`_.
-  * See `SDQ Measure data specifications <https://docs.pmhc-mds.com/projects/data-specification/en/v2/data-model-and-specifications.html#sdq>`_.
+  * See `K10+ Measure data specifications <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#k10>`_.
+  * See `K5 Measure data specifications <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#k5>`_.
+  * See `SDQ Measure data specifications <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#sdq>`_.
+
+  If the client has a :ref:`ua-episode-data` you can also view the following measures when added:
+
+  * See `SIDAS Measure data specifications <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/data-model-and-specifications.html#sidas>`_.
+  * See `WHO-5 Measure data specifications <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/data-model-and-specifications.html#who-5>`_.
+  * See `UA-Plan data specifications <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/data-model-and-specifications.html#ua-plan-data-elements>`__.
+  * See `UA-NI data specifications <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/data-model-and-specifications.html#ua-needs-identification-data-elements>`_.
 
 .. _add-collection-occasion-measure:
 
@@ -1416,9 +1557,16 @@ available on the Data Entry tab, by following these steps:
 6. Click the blue **Next** button.
 7. Enter the Client's Measure details for the Collection Occasion. Mandatory fields are marked with an * .
 
-  * See `K10+ Measure data specifications <https://docs.pmhc-mds.com/projects/data-specification/en/v2/data-model-and-specifications.html#k10>`_.
-  * See `K5 Measure data specifications <https://docs.pmhc-mds.com/projects/data-specification/en/v2/data-model-and-specifications.html#k5>`_.
-  * See `SDQ Measure data specifications <https://docs.pmhc-mds.com/projects/data-specification/en/v2/data-model-and-specifications.html#sdq>`_.
+  * See `K10+ Measure data specifications <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#k10>`_.
+  * See `K5 Measure data specifications <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#k5>`_.
+  * See `SDQ Measure data specifications <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#sdq>`_.
+
+  If the client has a :ref:`ua-episode-data` you can also add the following measures:
+
+  * See `SIDAS Measure data specifications <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/data-model-and-specifications.html#sidas>`_.
+  * See `WHO-5 Measure data specifications <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/data-model-and-specifications.html#who-5>`_.
+  * See `UA-Plan data specifications <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/data-model-and-specifications.html#ua-plan-data-elements>`__.
+  * See `UA-NI data specifications <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/data-model-and-specifications.html#ua-needs-identification-data-elements>`_.
 
 6. Click the blue **Save** button. (If you decide not to add this client's measure, you can simply navigate away from this screen)
 
@@ -1430,7 +1578,13 @@ and it will now be displaying these new details in the View Measure tab.
 
 If you receive an error message, the data will need to be corrected before the
 record is saved and added to the PMHC MDS.
-See Validation Rules for: `K10+ <http://docs.pmhc-mds.com/en/v1/data-specification/validation-rules.html#k10p-current-validations>`_ `K5 <http://docs.pmhc-mds.com/en/v1/data-specification/validation-rules.html#k5-current-validations>`_ `SDQ <http://docs.pmhc-mds.com/en/v1/data-specification/validation-rules.html#sdq-current-validations>`_.
+See Validation Rules -
+`K10+ <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#k10>`_
+`K5 <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#k5>`_
+`SDQ <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#sdq>`_
+`SIDAS <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/validation-rules.html#sidas>`_
+`UA-Plan <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/validation-rules.html#ua-plan>`__
+`UA-NI <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/validation-rules.html#ua-needs-identification>`__
 
 .. _edit-collection-occasion-measure:
 
@@ -1461,7 +1615,13 @@ and it will now be displaying these new details in the View Collection Occasion 
 
 If you receive an error message, the data will need to be corrected before the
 record is saved and added to the PMHC MDS.
-See Validation Rules for: `K10+ <http://docs.pmhc-mds.com/en/v1/data-specification/validation-rules.html#k10p-current-validations>`_ `K5 <http://docs.pmhc-mds.com/en/v1/data-specification/validation-rules.html#k5-current-validations>`_ `SDQ <http://docs.pmhc-mds.com/en/v1/data-specification/validation-rules.html#sdq-current-validations>`_.
+See Validation Rules -
+`K10+ <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#k10>`_
+`K5 <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#k5>`_
+`SDQ <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#sdq>`_
+`SIDAS <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/validation-rules.html#sidas>`_
+`UA-Plan <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/validation-rules.html#ua-plan>`__
+`UA-NI <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/validation-rules.html#ua-needs-identification>`__
 
 .. _edit-collection-occasion-measure-key:
 
