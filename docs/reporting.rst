@@ -793,6 +793,13 @@ Key specifications:
   and "Recommendation Out", 'Other' (code 98) is counted as a missing value as well as 'Not stated/Inadequately described' (code 99).
 * The '% Missing Data' column is a simple percentage of the active episodes that have missing data, calculated from the preceding two columns.
 
+.. _category-a16:
+
+A16 — Data quality report - ??????
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+?????
+
 .. _category-b:
 
 Category B: Monitoring overall service delivery
