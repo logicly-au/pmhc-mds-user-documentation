@@ -795,10 +795,26 @@ Key specifications:
 
 .. _category-a16:
 
-A16 — Data quality report - ??????
+A16 — High level summary of outcome measures
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-?????
+This report presents the number and percentage of active episodes for which outcome measures were collected. 
+As well as an overall total that indicates how many episodes have at least one outcome measure it separately reports the 
+K10+, the K5, SIDAS, WHO-5 and two types of the SDQ: the self report version completed by youths (SDQ-YR), 
+and the number completed by parents (the sum of SDQ-PC and SDQ-PY versions).
+
+It also reports counts and percentages of active episodes by the collection reason - Initial, Review or Final Measures.
+A single episode may be represented in any or all of these collection reason columns.
+
+Note that a collection occasion associated with an active episode is NOT sufficient for inclusion in the TOTAL row.
+One of the outcome measures listed above MUST be an appropriate outcome measure linked to the collection occasion.
+
+Key specifications:
+
+* The episode must be active during the reporting period, but the collection occasion may occur outside the reporting period.
+* All percentages are based on the total number of active episodes but this total is not reported int eh A16 
+(it can be reverse engineered by divinding the count by the percentage; alternately the total number of active episodes can 
+seen in the corresponding A1 report).
 
 .. _category-b:
 
