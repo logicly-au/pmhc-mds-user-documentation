@@ -795,26 +795,28 @@ Key specifications:
 
 .. _category-a16:
 
-A16 — High level summary of outcome measures
+A16 — Volume of outcome measures
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 This report presents the number and percentage of active episodes for which outcome measures were collected. 
-As well as an overall total that indicates how many episodes have at least one outcome measure it separately reports the 
-K10+, the K5, SIDAS, WHO-5 and two types of the SDQ: the self report version completed by youths (SDQ-YR), 
+For the most part it reports only completed (i.e. valid) measures. As well as overall totals that indicate 
+how many episodes have at least one outcome measure it separately reports the 
+K10+, the K5, SIDAS, WHO-5 and two groupings of the SDQ: the self report version completed by youths (SDQ-YR), 
 and the number completed by parents (the sum of SDQ-PC and SDQ-PY versions).
 
-It also reports counts and percentages of active episodes by the collection reason - Initial, Review or Final Measures.
-A single episode may be represented in any or all of these collection reason columns.
+It also reports counts and percentages of active episodes by the `collection reason <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/data-model-and-specifications.html#collection-occasion-data-elements>`_: Initial, Review or Final Measures. A single episode may be represented in any or all of these collection reason columns.
 
-Note that a collection occasion associated with an active episode is NOT sufficient for inclusion in the TOTAL row.
-One of the outcome measures listed above MUST be an appropriate outcome measure linked to the collection occasion.
+The A16 allows data to be grouped by and filtered by entities at the National, State/Territory, PHN and PO levels. 
 
 Key specifications:
 
 * The episode must be active during the reporting period, but the collection occasion may occur outside the reporting period.
-* All percentages are based on the total number of active episodes but this total is not reported int eh A16 
-(it can be reverse engineered by divinding the count by the percentage; alternately the total number of active episodes can 
-seen in the corresponding A1 report).
+* All percentages are based on the total number of active episodes but this total is not reported in the A16 
+(it can be calculated by dividing the count by the percentage; alternately the total number of active episodes can 
+seen in the corresponding A1 report)
+* Other than for the first column (a measure collected for any reason) counts are based only on completed (i.e. valid) measures
+* A collection occasion associated with an active episode is NOT sufficient for inclusion. There must be an actual measure linked to the collection occasion
+* Measures that are not strictly **outcome** measures (e.g. IAR-DST, support plans) are not reported in the A16
 
 .. _category-b:
 
