@@ -800,7 +800,7 @@ A16 — Volume of completed outcome measures
 
 This report presents the number and percentage of active episodes for which outcome measures were collected. 
 For the most part it reports only completed (i.e. valid) measures. As well as overall totals that indicate 
-how many episodes have at least one outcome measure it separately reports the 
+how many episodes have at least one outcome measure, it separately reports the
 K10+, the K5, SIDAS, WHO-5 and two groupings of the SDQ: the self report version completed by youths (SDQ-YR), 
 and the number completed by parents (the sum of SDQ-PC and SDQ-PY versions).
 
