@@ -795,7 +795,7 @@ Key specifications:
 
 .. _category-a16:
 
-A16 — Volume of outcome measures
+A16 — Volume of completed outcome measures
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 This report presents the number and percentage of active episodes for which outcome measures were collected. 
