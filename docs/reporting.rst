@@ -793,6 +793,29 @@ Key specifications:
   and "Recommendation Out", 'Other' (code 98) is counted as a missing value as well as 'Not stated/Inadequately described' (code 99).
 * The '% Missing Data' column is a simple percentage of the active episodes that have missing data, calculated from the preceding two columns.
 
+.. _category-a16:
+
+A16 — Volume of completed outcome measures
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+This report presents the number and percentage of active episodes for which outcome measures were collected. 
+For the most part it reports only completed (i.e. valid) measures. As well as overall totals that indicate 
+how many episodes have at least one outcome measure, it separately reports the
+K10+, the K5, SIDAS, WHO-5 and two groupings of the SDQ: the self report version completed by youths (SDQ-YR), 
+and the number completed by parents (the sum of SDQ-PC and SDQ-PY versions).
+
+It also reports counts and percentages of active episodes by the `collection reason <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/data-model-and-specifications.html#collection-occasion-reason>`_: Initial, Review or Final Measures. A single episode may be represented in any or all of these collection reason columns.
+
+The A16 allows data to be grouped by and filtered by entities at the National, State/Territory, PHN and PO levels. 
+
+Key specifications:
+
+* The episode must be active during the reporting period, but the collection occasion may occur outside the reporting period.
+* All percentages are based on the total number of active episodes but this total is not reported in the A16 (it can be calculated by dividing the count by the percentage; alternately the total number of active episodes can be seen in the corresponding A1 report)
+* Other than for the first column (a measure collected for any reason) counts are based only on completed (i.e. valid) measures
+* A collection occasion associated with an active episode is NOT sufficient for inclusion. There must be an actual measure linked to the collection occasion
+* Measures that are not strictly **outcome** measures (e.g. IAR-DST, support plans) are not reported in the A16
+
 .. _category-b:
 
 Category B: Monitoring overall service delivery
