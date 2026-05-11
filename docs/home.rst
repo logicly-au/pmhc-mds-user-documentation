@@ -55,15 +55,15 @@ After navigating to https://pmhc-mds.net/, click **Sign in**.
 
 This will open a window to log in. Enter your email address and click **Continue**.
 
-.. figure:: screen-shots/log-in-step-1.png
+.. figure:: screen-shots/login-username-email.png
    :width: 400
-   :alt: PMHC MDS Sign In Step 1
+   :alt: PMHC MDS Login enter your username or email
 
 On the next window, enter your password and click **Continue**.
 
-.. figure:: screen-shots/log-in-step-2.png
+.. figure:: screen-shots/login-password.png
    :width: 400
-   :alt: PMHC MDS Sign In Step 2
+   :alt: PMHC MDS login enter your password
 
 To maintain compliance with current best practices in security policy,
 Multi Factor Authentication (MFA) has been implemented for user access
@@ -163,17 +163,23 @@ Forgotten or Expired Password
 As required by the Australian Government's Protective Security Policy Framework
 passwords must be changed every three months. If you do not change your
 password it will expire and you will not be able to login to the system
-without resetting your password.
+until you resetting your password.
 
-   .. figure:: screen-shots/account-sign-in-error.png
-      :alt: PMHC MDS Wrong Username or Password
+If you are trying to login with the wrong email address, with an
+incorrect password, or an expired password the "Wrong username or password"
+message will be displayed below the password entry box. For example:
 
-If you have forgotten your password or it has expired, you can use the automated
-‘Forgot Password’ system to reset your password. Navigate to https://pmhc-mds.net/
-and click **Forgot Password?** (next to **Sign in** button).
+   .. figure:: screen-shots/login-wrong-user-or-password.png
+      :width: 400
+      :alt: PMHC MDS wrong username or password message
+
+Double check that you are using the correct email address. 
+
+You can reset your password by following the **Forgot Password?** link on the
+`PMHC-MDS system home page <https://pmhc-mds.net/>`_ (next to **Sign in** button).
 
    .. figure:: screen-shots/account-password-reset-link.png
-      :alt: PMHC MDS Forgot Password Link
+      :alt: PMHC MDS forgot password link
 
 For more information, follow the the steps outlined at `Forgotten Password <https://docs.logicly.com.au/en/latest/account-management/index.html#password-expiry-notifications>`_.
 
