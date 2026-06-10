@@ -1842,7 +1842,7 @@ Key specifications:
 
 * Service Contacts flagged as ‘No Show’ are included for this purpose.
 * A client’s wait time is defined as the time from referral date as recorded on the episode record to the
-  first contact
+  first contact.
 
 .. note::
    The M1 report was updated on 10/06/2026 to ignore the referral date on the intake record; it was also updated to include unattended as well as attended contacts.
