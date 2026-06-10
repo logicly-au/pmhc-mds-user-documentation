@@ -10,7 +10,7 @@ User Guide Change log
   Plan and Support Plan KPIs are more compatible with other indicators. More
   information is available with the documentation for those indicators.
 
-* Updated :ref:`m1-client-wait-time` been redefined to calculate client wait 
+* Updated :ref:`category-m1` been redefined to calculate client wait 
   time as the number of days between referral date as recorded on the episode 
   record and the date of the first contact, whether attended or not. 
 

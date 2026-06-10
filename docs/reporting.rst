@@ -1836,7 +1836,7 @@ These reports have been introduced to monitor MMHCs, however all except for the
 M1 — Client wait time
 +++++++++++++++++++++
 
-The number of days a client waits for a first contact having been referred.
+The number of days a client waits for a first contact after having been referred.
 
 Key specifications:
 
