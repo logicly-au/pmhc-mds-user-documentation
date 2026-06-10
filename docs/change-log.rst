@@ -6,11 +6,11 @@ User Guide Change log
 10/06/2026
 ----------
 
-* Updated :ref:`w1_safety_plan` and :ref:`w1_support_plan` so that the Safety 
-  Plan and Support Plan KPIs are more compatible with other indicators. More
+* :ref:`w1_safety_plan` and :ref:`w1_support_plan` have been updated to bring 
+  the Safety Plan and Support Plan KPIs in line with other indicators. More
   information is available with the documentation for those indicators.
 
-* Updated :ref:`category-m1` been redefined to calculate client wait 
+* :ref:`category-m1` has been redefined to calculate client wait 
   time as the number of days between referral date as recorded on the episode 
   record and the date of the first contact, whether attended or not. 
 

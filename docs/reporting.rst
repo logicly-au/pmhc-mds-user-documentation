@@ -2175,11 +2175,11 @@ Information about three clinical measures is reported in this section. For each
 measure there are three summary statistics:
 
 1. The number of episodes with (valid) initial measures collected during the
-   reporting period
+   reporting period.
 2. The number of episodes with (valid) review measures collected during the
-   reporting period
+   reporting period.
 3. The number of episodes with (valid) final measures collected during the
-   reporting period
+   reporting period.
 
 Information about collection occasions - including dates and reasons - is
 available `in the Collection Occasion specification documentation <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/data-model-and-specifications.html#collection-occasion-data-elements>`_.
