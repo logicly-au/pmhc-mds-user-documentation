@@ -1836,14 +1836,16 @@ These reports have been introduced to monitor MMHCs, however all except for the
 M1 — Client wait time
 +++++++++++++++++++++
 
-Wait time defined as number of days between a client’s intake referral date 
-and the date of the client’s first service contact.
+The number of days a client waits for a first contact having been referred.
 
 Key specifications:
 
-* Service Contacts flagged as ‘No Show’ are not included for this purpose.
-* A client’s wait time is defined as the time from intake referral to the
-  first attended contact
+* Service Contacts flagged as ‘No Show’ are included for this purpose.
+* A client’s wait time is defined as the time from referral date as recorded on the episode record to the
+  first contact.
+
+.. note::
+   The M1 report was updated on 10/06/2026 to ignore the referral date on the intake record; it was also updated to include unattended as well as attended contacts.
 
 .. _category-m2:
 
