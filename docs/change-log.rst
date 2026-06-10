@@ -8,7 +8,7 @@ User Guide Change log
 
 * :ref:`w1_safety_plan` and :ref:`w1_support_plan` have been updated to bring 
   the Safety Plan and Support Plan KPIs in line with other indicators. More
-  information is available with the documentation for those indicators.
+  information is available within the documentation for those indicators.
 
 * :ref:`category-m1` has been redefined to calculate client wait 
   time as the number of days between referral date as recorded on the episode 
