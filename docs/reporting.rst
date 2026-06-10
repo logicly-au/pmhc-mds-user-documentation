@@ -2164,6 +2164,7 @@ contact each modality:
 * `2: Telephone`
 * `3: Video`
 * `4: Internet-based`
+* `5: SMS`
 
 Client Measures and Experience
 ''''''''''''''''''''''''''''''
@@ -2173,17 +2174,18 @@ measure there are three summary statistics:
 
 1. The number of episodes with (valid) initial measures collected during the
    reporting period
-2. The number of episodes with (valid) final measures collected during the
+2. The number of episodes with (valid) review measures collected during the
    reporting period
-3. The number of episodes with at least two (valid) outcome measures, at least one
-   of which must be collected during the reporting period
+3. The number of episodes with (valid) final measures collected during the
+   reporting period
 
 Information about collection occasions - including dates and reasons - is
 available `in the Collection Occasion specification documentation <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/data-model-and-specifications.html#collection-occasion-data-elements>`_.
 A critical feature of a collection occasion is its "reason", which is actually
 about the point in the clients' journey when the measure was taken. For
-reporting purposes this can be either "initial" (i.e. start of the episode) or
-final (end of the episode). Note however that the collection occasion dates
+reporting purposes this can be either "initial" (i.e. start of the episode), 
+"review" (i.e. taken during the course of the episdoe) or
+"final" (end of the episode). Note however that the collection occasion dates
 need not be the same as the episode start and end dates. Measures can be
 collected on any day.
 
@@ -2230,30 +2232,58 @@ listed in Australian Public Holidays shown within the
 The business day calculator takes into account the jurisdiction (state or
 territory of the service). A week is defined as 5 business days.
 
+.. _w1_safety_plan:
+
 Safety Plan Update / Development
 ''''''''''''''''''''''''''''''''
 
-The relevant episodes here are those where the first `attended service contact <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#attended-service-contact>`_
-is within the reporting period, and the the episode has an initial
-collection occasion with a corresponding
-`UA Plan - Plan Type <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/data-model-and-specifications.html#plan-type>`_
-equal to `1: Safety Plan`. The numerator is the subset of these episodes for
-which the collection occasion date is before or on the same day as the first
-attended service contact.
+.. note::
+   The W1 report was updated on 10/06/2026 so that the Safety Plan KPI is more 
+   compatible with other indicators.  Since its introduction as part of The 
+   Way Back trial, this KPI have been based on the number of Safety Plans 
+   recorded (that is, ‘collection occasions’). On review, it has been 
+   determined that a more appropriate basis for this KPI is the number of 
+   episodes that include at least one Safety Plan. The presence of at least 
+   one Safety Plan within an episode is sufficient to meet the KPI. 
 
-Please note: Prior to September 2022 it had to be on or before the date of the
-second attended service contact.
+The relevant episodes here are those where:
+
+*  the first `attended service contact <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#attended-service-contact>`_
+   is within the reporting period, and 
+* the episode has an initial collection occasion with a corresponding
+  `UA Plan - Plan Type <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/data-model-and-specifications.html#plan-type>`_
+  equal to `1: Safety Plan`. 
+  
+The numerator is the subset of these episodes for which the collection occasion date 
+is before or on the same day as the first attended service contact.
+
+.. note::
+   Prior to September 2022 it had to be on or before the date of the second attended service contact.
+
+.. _w1_support_plan:
 
 Support Plan Development
 ''''''''''''''''''''''''
 
-The relevant episodes here are those where the first `attended service contact <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#attended-service-contact>`_
-is within the reporting period, and the episode has an initial
-collection occasion with a corresponding
-`UA Plan - Plan Type <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/data-model-and-specifications.html#plan-type>`_
-equal to `2: Support Plan`. The numerator is the subset of these episodes for
-which the collection occasion date is not more than 10 days after the initial
-attended service contact.
+.. note::
+   The W1 report was updated on 10/06/2026 so that the Support Plan KPI is more 
+   compatible with other indicators.  Since its introduction as part of The 
+   Way Back trial, this KPI have been based on the number of Support Plans 
+   recorded (that is, ‘collection occasions’). On review, it has been 
+   determined that a more appropriate basis for this KPI is the number of 
+   episodes that include at least one Support Plan. The presence of at least 
+   one Support Plan within an episode is sufficient to meet the KPI. 
+
+The relevant episodes here are those where:
+
+*  the first `attended service contact <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#attended-service-contact>`_
+   is within the reporting period, and 
+* the episode has an initial collection occasion with a corresponding
+  `UA Plan - Plan Type <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/data-model-and-specifications.html#plan-type>`_
+  equal to `2: Support Plan`. 
+  
+The numerator is the subset of these episodes for which the collection occasion date 
+is not more than 10 business days after the initial attended service contact.
 
 .. _reporting_considerations:
 
