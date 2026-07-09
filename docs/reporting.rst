@@ -2298,7 +2298,6 @@ The numerator is the subset of these episodes for which
   `UA Plan - Plan Type <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/data-model-and-specifications.html#plan-type>`_
   equal to `2: Support Plan`. 
 
-
 .. _reporting_considerations:
 
 Reporting Considerations
