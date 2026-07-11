@@ -40,8 +40,8 @@ The PHN organisation's details will be displayed, along with the **Provider Orga
 If you have the 'User Management' role, a 'Users' tab listing
 the users that belong to this PHN will also be included.
 
-   .. figure:: screen-shots/organisation-phn-view.png
-      :alt: PMHC MDS View Organisation
+.. figure:: screen-shots/organisation-phn-view.png
+   :alt: PMHC MDS View Organisation
 
 .. _search-provider-organisation:
 
@@ -78,8 +78,8 @@ To filter the listed provider organisations:
 2. Start typing in any of the column header edit boxes now displayed above the column headers
 3. Click the blue **Apply** button
 
-   .. figure:: screen-shots/organisation-provider-filter.png
-      :alt: PMHC MDS Provider Organisations Filter
+.. figure:: screen-shots/organisation-provider-filter.png
+   :alt: PMHC MDS Provider Organisations Filter
 
 4. To remove the filters, click the black cross on the applied filter name or the **Clear all** button if more than one filter is applied
 
@@ -115,16 +115,16 @@ through the organisation tab by following these steps:
 3. Click the **Provider Organisations** tab
 4. Click the **Add Provider Organisation** tab
 
-   .. figure:: screen-shots/organisation-provider-add.png
-      :alt: PMHC MDS Add Provider Organisation
+.. figure:: screen-shots/organisation-provider-add.png
+   :alt: PMHC MDS Add Provider Organisation
 
 5. Complete all the mandatory fields marked with an **\*** in the form
 6. Click the blue **Save** button
 7. You will receive confirmation that the organisation has been saved, and it will
    now be displaying in the PHN's Provider Organisations list
 
-        .. figure:: screen-shots/client-data-saved.png
-           :alt: Provider Organisation Saved Successfully
+.. figure:: screen-shots/client-data-saved.png
+   :alt: Provider Organisation Saved Successfully
 
 .. _edit-provider-organisation:
 
@@ -137,29 +137,28 @@ details through the organisation tab, by following these steps:
 1. Navigate to the **Organisations** tab
 2. Click the PHN name in blue text displayed within the table
 
-   .. figure:: screen-shots/organisation-phn-view.png
-      :alt: PMHC MDS View PHN
+.. figure:: screen-shots/organisation-phn-view.png
+   :alt: PMHC MDS View PHN
 
 3. Click the **Provider Organisation** tab
 4. Click the **Provider Organisation** name in blue text displayed within the
    table
-
-   .. figure:: screen-shots/organisation-provider-view.png
-      :alt: PMHC MDS View Provider Organisation
+.. figure:: screen-shots/organisation-provider-view.png
+   :alt: PMHC MDS View Provider Organisation
 
 3. If you have permission to edit the Provider Organisation an **Edit Details** tab will
    be displayed
 4. Click the blue **Edit** button
 
-   .. figure:: screen-shots/organisation-provider-edit.png
-      :alt: PMHC MDS Edit Organisation
+.. figure:: screen-shots/organisation-provider-edit.png
+   :alt: PMHC MDS Edit Organisation
 
 4. Update the organisation's details. Mandatory fields are marked with an **\***
 5. Click the blue **Save** button
 6. You will receive confirmation that the updated organisation details have been saved
 
-        .. figure:: screen-shots/client-data-saved.png
-           :alt: Updated Provider Organisation Saved Successfully
+.. figure:: screen-shots/client-data-saved.png
+   :alt: Updated Provider Organisation Saved Successfully
 
 .. _inactivate-provider-organisation:
 
@@ -196,8 +195,8 @@ following these steps:
 
 Inactive organisations will be displayed with a **ZZZ** icon and will be greyed out.
 
-   .. figure:: screen-shots/organisation-provider-view-inactive.png
-      :alt: PMHC MDS View inactive Provider Organisations
+.. figure:: screen-shots/organisation-provider-view-inactive.png
+   :alt: PMHC MDS View inactive Provider Organisations
 
 .. _delete-provider-organisation:
 

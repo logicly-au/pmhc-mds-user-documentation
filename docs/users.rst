@@ -105,8 +105,8 @@ To filter the listed users:
 3. To remove the filter, click the grey cross within the edit box beside any
    entered text
 
-   .. figure:: screen-shots/users-filter.png
-      :alt: PMHC MDS Users Filter
+.. figure:: screen-shots/users-filter.png
+   :alt: PMHC MDS Users Filter
 
 .. _view-users-details:
 
@@ -162,15 +162,15 @@ by following these steps:
 1. Navigate to the **Users** tab
 2. Click the **Invite New User** tab
 
-   .. figure:: screen-shots/user-invite.png
-      :alt: PMHC MDS Invite User
+.. figure:: screen-shots/user-invite.png
+   :alt: PMHC MDS Invite User
 
 3. Complete all the fields with the new users contact details. (Mandatory fields are marked with an **\*** )
 4. Select an organisation, either a PHN or Provider Organisation
 5. Assign one or more :ref:`roles`. (Extra roles can be added after the user has access to the system. See :ref:`edit-role`)
 
-   .. figure:: screen-shots/user-invite-filled-in.png
-      :alt: PMHC MDS Invite User Complete
+.. figure:: screen-shots/user-invite-filled-in.png
+   :alt: PMHC MDS Invite User Complete
 
 6. Click the blue **Invite** button
 7. You will receive confirmation that the user has been sent an email to invite
@@ -180,8 +180,8 @@ by following these steps:
 8. When the user has accepted the invitation you will be sent an email to let you know.
    This user will then be listed in the **View Users** table
 
-   .. figure:: screen-shots/user-invite-accepted-email.png
-      :alt: PMHC MDS Invite Accepted
+.. figure:: screen-shots/user-invite-accepted-email.png
+   :alt: PMHC MDS Invite Accepted
 
 *Please note: An invitation for a new user is valid for **7 days**. If you receive an error that a previous invitation already exists for a user, you can either reissue or revoke the invitation. See :ref:`view-invite-details`.
 
@@ -204,8 +204,8 @@ You can invite an existing user through the **Users** tab, by following these st
 3. Complete all the mandatory fields marked with an **\*** in the **Invite User** form, ensuring these are the same details as their existing PMHC MDS Profile
 4. Select an organisation and assign their :ref:`roles`
 
-   .. figure:: screen-shots/user-invite.png
-      :alt: PMHC MDS Invite User
+.. figure:: screen-shots/user-invite.png
+   :alt: PMHC MDS Invite User
 
 5. Click the blue **Invite** button
 6. You will receive confirmation that the roles have been added to the existing user
@@ -224,13 +224,13 @@ You can view user invitation details through the **Users** tab, by following the
 
 A table will display a list of users that have been sent a recent invitation. These are either:
 
-   * **Pending** - these are active invitations which have not been accepted yet
-   * **Revoked** - these were active invitations which were revoked
-   * **Expired** - these are inactive invitations which were not accepted within 7 days
-   * **Accepted** - these are invitations that have been successfully accepted and the user will be listed in the **Users** tab
+* **Pending** - these are active invitations which have not been accepted yet
+* **Revoked** - these were active invitations which were revoked
+* **Expired** - these are inactive invitations which were not accepted within 7 days
+* **Accepted** - these are invitations that have been successfully accepted and the user will be listed in the **Users** tab
 
-   .. figure:: screen-shots/user-view-invites.png
-      :alt: PMHC MDS View Invites
+.. figure:: screen-shots/user-view-invites.png
+   :alt: PMHC MDS View Invites
 
 *Please note: Deleted invitations will not be display the in the View Invitations tab.*
 *Please note: Invitations sent prior to this feature launch on 29 April 2020 will not display the Organisation and Inviters details.*
@@ -253,8 +253,8 @@ A page will display the user's invitation details, as entered on the invitation 
 
 On the page you can:
 
-   * :ref:`reissue-invite`
-   * :ref:`delete-invite`
+* :ref:`reissue-invite`
+* :ref:`delete-invite`
 
 .. _reissue-invite:
 
@@ -347,8 +347,8 @@ You can view the roles for an existing user by following these steps:
 2. Click the user's name in blue displayed within the table
 3. Click the **Roles** tab to show the user's assigned roles
 
-   .. figure:: screen-shots/user-roles.png
-      :alt: PMHC MDS User Roles
+.. figure:: screen-shots/user-roles.png
+   :alt: PMHC MDS User Roles
 
 A tick displays the user currently has this role assigned at the relevant organisation.
 
@@ -369,15 +369,15 @@ You can edit and assign extra :ref:`roles <roles>`  to an existing user by follo
 
 *Please note: a user can not edit their roles. The 'Edit Roles' tab will not be displayed when viewing your own profile.*
 
-   .. figure:: screen-shots/user-edit-role.png
-      :alt: PMHC MDS Edit Users Role
+.. figure:: screen-shots/user-edit-role.png
+   :alt: PMHC MDS Edit Users Role
 
 6. A tick indicates the user currently has this role assigned at the relevant organisation.
    Multiple roles can be assigned and these roles are shown as blue ticks
 
-   * **Add** a role by clicking the empty checkbox
-   * **Remove** a role by clicking the selected checkbox
-   * In the Actions column, clicking the |remove-all| button will remove all the user's
+* **Add** a role by clicking the empty checkbox
+* **Remove** a role by clicking the selected checkbox
+* In the Actions column, clicking the |remove-all| button will remove all the user's
      roles at that organisation. If the user then has no roles left for any
      organisation they will be prevented from logging into the PMHC MDS system.
 

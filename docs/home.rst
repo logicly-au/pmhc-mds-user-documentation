@@ -165,15 +165,15 @@ passwords must be changed every three months. If you do not change your
 password it will expire and you will not be able to login to the system
 without resetting your password.
 
-   .. figure:: screen-shots/account-sign-in-error.png
-      :alt: PMHC MDS Wrong Username or Password
+.. figure:: screen-shots/account-sign-in-error.png
+   :alt: PMHC MDS Wrong Username or Password
 
 If you have forgotten your password or it has expired, you can use the automated
 ‘Forgot Password’ system to reset your password. Navigate to https://pmhc-mds.net/
 and click **Forgot Password?** (next to **Sign in** button).
 
-   .. figure:: screen-shots/account-password-reset-link.png
-      :alt: PMHC MDS Forgot Password Link
+.. figure:: screen-shots/account-password-reset-link.png
+   :alt: PMHC MDS Forgot Password Link
 
 For more information, follow the the steps outlined at `Forgotten Password <https://docs.logicly.com.au/en/latest/account-management/index.html#password-expiry-notifications>`_.
 
@@ -189,8 +189,8 @@ Account Blocked
 To ensure security, the system blocks users who make too many incorrect attempts
 to access their account on the PMHC MDS.
 
-   .. figure:: screen-shots/account-blocked.png
-      :alt: PMHC MDS Account Blocked
+.. figure:: screen-shots/account-blocked.png
+   :alt: PMHC MDS Account Blocked
 
 When this occurs, an automated email will be sent to the email address the
 PMHC MDS has on file for the user.

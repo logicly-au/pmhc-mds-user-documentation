@@ -112,19 +112,19 @@ the Download fields in the **Tools: YES-PHN** tab, by following these steps:
    asked to select an organisation name
 4. Select the appropriate file type to be downloaded
 
-   .. figure:: screen-shots/yes-phn-complete-episodes.png
-      :alt: PMHC MDS File Selected
+.. figure:: screen-shots/yes-phn-complete-episodes.png
+   :alt: PMHC MDS File Selected
 
 5. Click the blue **Request** button
 6. A dialogue box will be displayed, showing that the file is being requested from the server
 
-   .. figure:: screen-shots/yes-phn-data-extract-message-requesting.png
-      :alt: PMHC MDS File Selected
+.. figure:: screen-shots/yes-phn-data-extract-message-requesting.png
+   :alt: PMHC MDS File Selected
 
 7. When the file is ready, a 'File ready for download' message will be displayed
 
-   .. figure:: screen-shots/yes-phn-data-extract-message-download.png
-      :alt: PMHC MDS File Selected
+.. figure:: screen-shots/yes-phn-data-extract-message-download.png
+   :alt: PMHC MDS File Selected
 
 8. Click the blue **Download** button
 9. The data extract will be downloaded to your computer
@@ -158,8 +158,8 @@ details for the organisations for which you have the 'Service Feedback' role and
 'Upload' role. The upload process will send YES-PHN invitations to these clients
 via email or SMS.
 
-   .. figure:: screen-shots/yes-phn-upload.png
-      :alt: PMHC MDS Organisation Selected
+.. figure:: screen-shots/yes-phn-upload.png
+   :alt: PMHC MDS Organisation Selected
 
 The YES-PHN invitations file can either be auto generated through an internal system,
 or a :ref:`yes-phn-download-complete-episodes` can be manually completed by adding
@@ -178,15 +178,15 @@ You can upload YES-PHN invitations files through the upload tab, by following th
 4. The PHN will be pre-filled in the **Organisation** field, unless you are
    allowed to upload to more than one PHN. (If blank - See :ref:`Can't see the organisation <yes-phn-upload-organisation-faq>`)
 
-   .. figure:: screen-shots/yes-phn-upload-org-selected.png
-      :alt: PMHC MDS Organisation Selected
+.. figure:: screen-shots/yes-phn-upload-org-selected.png
+   :alt: PMHC MDS Organisation Selected
 
 5. Click the blue **Select File** button
 6. Navigate to where the upload file is saved on your system. Select the file
    and click the grey **Open** button
 
-   .. figure:: screen-shots/yes-phn-upload-file-selected.png
-      :alt: PMHC MDS Upload File Selected
+.. figure:: screen-shots/yes-phn-upload-file-selected.png
+   :alt: PMHC MDS Upload File Selected
 
 7. Check to ensure you have selected the correct file by reviewing the file
    name now displayed below the **Select File** button
@@ -227,8 +227,8 @@ You can upload data files in Test Mode through the **Upload** tab, by following 
    name now displayed below the **Select File** button
 7. Click the **Upload as test data** checkbox on the right hand side
 
-   .. figure:: screen-shots/yes-phn-upload-test-mode.png
-      :alt: PMHC MDS Test Mode selected
+.. figure:: screen-shots/yes-phn-upload-test-mode.png
+   :alt: PMHC MDS Test Mode selected
 
 8. Click the green **Upload** button
 
@@ -248,17 +248,17 @@ Viewing Previous Uploads
 
 The PMHC MDS allows you to review previous uploads.
 
-   .. figure:: screen-shots/yes-phn-upload-previous.png
-      :alt: PMHC MDS Status of Previous Uploads
+.. figure:: screen-shots/yes-phn-upload-previous.png
+   :alt: PMHC MDS Status of Previous Uploads
 
 When an upload has been completed, irregardless of whether it validated successfully
 or not, the upload will be added to the table.
 
 The **Status of Previous Uploads** table refreshes once files finish the validation process. Types of status results are:
 
-  * **accept** - the file is currently going through the validation process
-  * **complete** - the file has successfully passed the validation process
-  * **error** - the file has returned errors through the validation process. Please review the error messages and correct the data to upload again
+* **accept** - the file is currently going through the validation process
+* **complete** - the file has successfully passed the validation process
+* **error** - the file has returned errors through the validation process. Please review the error messages and correct the data to upload again
 
 Further discussion about the error messages can be found at :ref:`yes-phn-upload-error-messages`.
 
@@ -401,8 +401,8 @@ To filter the listed users:
   1. Click the grey **Filters** button. This will open a field in which to enter
      text
 
-     .. figure:: screen-shots/user-filter-fields.png
-        :alt: User Data Search Results Filtered
+.. figure:: screen-shots/user-filter-fields.png
+   :alt: User Data Search Results Filtered
 
   2. Type an appropriate filter into any of the fields
   3. Click the blue **Apply** button
