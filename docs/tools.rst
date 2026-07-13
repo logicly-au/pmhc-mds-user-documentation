@@ -398,14 +398,14 @@ information that is available.
 
 To filter the listed users:
 
-  1. Click the grey **Filters** button. This will open a field in which to enter
+1. Click the grey **Filters** button. This will open a field in which to enter
      text
 
 .. figure:: screen-shots/user-filter-fields.png
    :alt: User Data Search Results Filtered
 
-  2. Type an appropriate filter into any of the fields
-  3. Click the blue **Apply** button
+2. Type an appropriate filter into any of the fields
+3. Click the blue **Apply** button
      (or click the **Cancel** button if you decide not to filter the user data)
 
 You can view the applied filters at the top of the filtered user data table.

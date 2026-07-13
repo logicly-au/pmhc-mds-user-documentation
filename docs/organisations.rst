@@ -143,6 +143,7 @@ details through the organisation tab, by following these steps:
 3. Click the **Provider Organisation** tab
 4. Click the **Provider Organisation** name in blue text displayed within the
    table
+   
 .. figure:: screen-shots/organisation-provider-view.png
    :alt: PMHC MDS View Provider Organisation
 
