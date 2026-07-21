@@ -76,7 +76,6 @@ the MDS access is being requested/changed):
 
 #. Name
 #. Email address
-#. Contact telephone number
 #. The exact Primary Health Network or Provider Organisation's name in the MDS
    you are seeking to access
 #. For new profiles, the roles required for the user. (See :ref:`roles` for a summary of each of the roles that currently exist within the PMHC MDS.)
