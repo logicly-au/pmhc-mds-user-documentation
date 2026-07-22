@@ -376,8 +376,10 @@ You can edit and assign extra :ref:`roles <roles>`  to an existing user by follo
    Multiple roles can be assigned and these roles are shown as blue ticks
 
    * **Add** a role by clicking the empty checkbox
-   * **Remove** a role by clicking the selected checkbox, or in the Actions column, clicking the |remove-all| button will remove all the user's
-     roles at that organisation.
+   * **Remove** a role by clicking the selected checkbox
+   * **Remove all** roles at an organisation by clicking the |remove-all| button in the Actions column
+
+Click the 'Include inactive organisations' checkbox to edit roles at an inactive organisation
 
 .. |remove-all| image:: screen-shots/remove-all-button.png
 
