@@ -386,23 +386,23 @@ Click the 'Include inactive organisations' checkbox to edit roles at an inactive
 7. All changes are automatically saved
 8. The system will update overnight and notify the user of any role changes then
 
-If the user then has no roles left for any organisation they will be prevented
-from logging into the PMHC MDS system.
+If a user has no remaining roles for any organisations they will be restricted from
+seeing any additional tabs when logging into the PMHC MDS.
 
 .. _delete_user:
 
 Deleting a user
 ^^^^^^^^^^^^^^^
 
-A user can be deleted from an organisation by removing all their roles. This can
-occur by unselecting each checkbox individually or using the |remove-all| button
-under the edit roles tab, which will automatically remove all the roles a user
-has at that organisation.
+To delete a user from an organisation, all of their associated roles must be
+removed. You can either uncheck each individual checkbox manually or click the
+|remove-all| button in the edit roles tab, which automatically clears all roles
+for that user within the organisation.
 
-Once completed, if the user does not have any remaining roles within the PMHC MDS,
-the user will no longer be displayed in the view users table. If they have roles
-at another organisation, the system will update overnight and the user will then
-no longer be displayed on your end.
+Once completed, the user will disappear from the view users table if they have
+no remaining roles within the PMHC MDS. If they hold roles at another organisation
+for which you do not have data entry role, the system will perform an overnight
+update, after which the user will no longer be visible on your end.
 
 See :ref:`edit-role`.
 
