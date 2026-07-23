@@ -394,7 +394,7 @@ seeing any additional tabs when logging into the PMHC MDS.
 Deleting a user
 ^^^^^^^^^^^^^^^
 
-To delete a user from an organisation, all of their associated roles must be
+To remove a user from an organisation, all of their associated roles must be
 removed. You can either uncheck each individual checkbox manually or click the
 |remove-all| button in the edit roles tab, which automatically clears all roles
 for that user within the organisation.
