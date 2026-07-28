@@ -294,7 +294,7 @@ A drop down list is available to view:
 
 4. To view the client's intake details, click the blue **Intake Key**
 
-.. figure:: screen-shots/client-intakes-details.png
+.. figure:: screen-shots/client-intakes-view.png
    :alt: Client Intakes Details View
 
 A page will display the client's intakes details as recorded via the
@@ -956,7 +956,7 @@ when viewing or editing an Episode.
 Viewing Universal Aftercare data on a Client's Episode
 ------------------------------------------------------
 
-You can view the Universal Aftercare data associated with an episode that has the Universal Aftercare Program Type 
+You can view the Universal Aftercare data associated with an episode that has the Universal Aftercare Program Type
 by following the steps at :ref:`view-episodes` and scrolling to the bottom of the tab.
 
 .. figure:: screen-shots/client-episodes-ua-view.png
