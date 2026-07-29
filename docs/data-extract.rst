@@ -103,12 +103,12 @@ Data Extract Specification
 
 .. _data-extract-specification-pmhc:
 
-PMHC 4.0
+PMHC 4.1
 --------
 
 If you would like to download a file that includes data from the Primary Mental
 Health Care Minimum Data Set (PMHC MDS), select the dropdown option
-labelled **PMHC 4.0**. This downloads a file that is the base PMHC MDS data which
+labelled **PMHC 4.1**. This downloads a file that is the base PMHC MDS data which
 is not linked to any extensions dataset.
 (See `PMHC-MDS Data Specification <https://docs.pmhc-mds.com/projects/data-specification/en/latest/index.html#>`_).
 
