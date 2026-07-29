@@ -122,12 +122,14 @@ stating the change(s) you require.
 
 .. _passwords:
 
-Passwords Requirements
-^^^^^^^^^^^^^^^^^^^^^^
+.. _password-requirements:
+
+Password Requirements
+^^^^^^^^^^^^^^^^^^^^^
 
 As required by the Australian Government's Protective Security Policy Framework
 passwords must be changed every twelve months. If you do not change your password
-it will expire and you will not be able to login to the system without resetting
+it will expire and you will not be able to login to the system until you reset
 your password.
 
 When creating a password, if you see the message "Password unacceptably weak"
@@ -139,8 +141,8 @@ complexity requirements, please refer to `Logicly password requirements <https:/
 Password Expiry Notifications
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-As required by the Australian Government's Protective Security Policy Framework
-passwords must be changed every twelve months.
+Please refer to :ref:`password-requirements` for information about how often
+passwords need changing.
 
 Users will be reminded via an email sent from noreply@logicly.com.au each
 day for 14 days prior to their password expiry date, and will also be
@@ -160,10 +162,8 @@ management page. Navigate back to the PMHC MDS https://pmhc-mds.net and sign in.
 Forgotten or Expired Password
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-As required by the Australian Government's Protective Security Policy Framework
-passwords must be changed every three months. If you do not change your
-password it will expire and you will not be able to login to the system
-until you resetting your password.
+Please refer to :ref:`password-requirements` for information about how often
+passwords need changing.
 
 If you are trying to login with the wrong email address, with an
 incorrect password, or an expired password the "Wrong username or password"
