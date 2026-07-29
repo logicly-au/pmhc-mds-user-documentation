@@ -3,8 +3,18 @@
 User Guide Change log
 =====================
 
-31/7/2025
----------
+17/12/2025
+----------
+
+* Added :ref:`ua-episode-data`
+* Updated :ref:`measure-data` to include Universal Aftercare measures
+* Updated :ref:`episode-data` screenshots to include Veteran field
+* Updated :ref:`intake-data` screenshots to include Veteran field
+* Added :ref:`category-m` reports
+* Added :ref:`category-w` reports
+
+31/07/2025
+----------
 
 * Added :ref:`additional-services`
 * Updated :ref:`home` to link to updated account management documentation
@@ -226,7 +236,7 @@ User Guide Change log
 21/10/2020
 ----------
 
-* Added :ref:`produce-twb-report`
+* Added Wayback reports
 
 * Updated screenshots for :ref:`produce-system-report`
 
