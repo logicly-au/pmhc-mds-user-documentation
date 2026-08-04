@@ -2292,6 +2292,7 @@ The relevant episodes here are those where:
 The denominator is the count of these episodes.
 
 The numerator is the subset of these episodes for which
+
 * the collection occasion date is not more than 10 business days after the
   initial attended service contact.
 * the collection occasion has a corresponding
