@@ -18,7 +18,7 @@ role please email the PMHC Helpdesk at support@pmhc-mds.com.
 After navigating to the **Data Entry** tab, you will be presented a table of clients.
 
 .. figure:: screen-shots/clients.png
-   :alt: Data Entry tab View
+   :alt: **Data Entry** tab View
 
 .. _client-data:
 
@@ -294,7 +294,7 @@ A drop down list is available to view:
 
 4. To view the client's intake details, click the blue **Intake Key**
 
-.. figure:: screen-shots/client-intakes-details.png
+.. figure:: screen-shots/client-intakes-view.png
    :alt: Client Intakes Details View
 
 A page will display the client's intakes details as recorded via the
@@ -493,7 +493,7 @@ Viewing a Client's Measure for an Intake
 PMHC MDS requires the use of the IAR-DST at intake.
 
 You can view a Client's Measure added to an Intake through :ref:`view-intake`
-available on the Data Entry tab, by following these steps:
+available on the **Data Entry** tab, by following these steps:
 
 1. Once :ref:`Viewing the Intake <view-intake>`.
 2. Scroll down to the IAR-DST Measures
@@ -514,7 +514,7 @@ A page will display the Measure details as recorded via the `Measures at Intake 
 
 .. _add-intake-measure:
 
-Adding an Client's Measures for a Intake
+Adding a Client's Measures for an Intake
 ----------------------------------------
 
 PMHC MDS requires the use of the IAR-DST at intake.
@@ -522,11 +522,11 @@ PMHC MDS requires the use of the IAR-DST at intake.
 Single or multiple measures can be added to an Intake.
 
 You can add a Client's Measure for a Intake through :ref:`view-intake`
-available on the Data Entry tab, by following these steps:
+available on the **Data Entry** tab, by following these steps:
 
 1. Once :ref:`view-intake`.
 2. Firstly double check the measure is not already showing.
-3. Click the Add New IAR-DST** tab.
+3. Click the **Add New IAR-DST** tab.
 
 .. figure:: screen-shots/client-intake-measures-add.png
    :alt: Client Data Add Collection Occasions
@@ -553,7 +553,7 @@ Editing a Client's Measures for a Intake
 ----------------------------------------
 
 You can edit a Client's Measure for a Intake through :ref:`view-collection-occasion`
-available on the Data Entry tab, by following these steps:
+available on the **Data Entry** tab, by following these steps:
 
 1. Once :ref:`view-collection-occasion`.
 2. Scroll down to the IAR-DST measures.
@@ -584,7 +584,7 @@ Editing a Measure Key
 ~~~~~~~~~~~~~~~~~~~~~
 
 You can edit an measure's identification key through :ref:`view-collection-occasion`
-available on the Data Entry tab, by following these steps:
+available on the **Data Entry** tab, by following these steps:
 
 1. In step four when :ref:`edit-collection-occasion-measure`.
 2. From the Edit IAR-DST measure details tab, click the **Edit Key** button.
@@ -607,7 +607,7 @@ Deleting a Measure from a Intake
 --------------------------------
 
 You can delete a Client's Measure from a Intake through ':ref:`view-collection-occasion-measure`'
-available on the Data Entry tab, by following these steps:
+available on the **Data Entry** tab, by following these steps:
 
 1. Once :ref:`view-collection-occasion`.
 2. Scroll down to the IAR-DST Measures
@@ -850,7 +850,7 @@ episode will no longer be displayed.
 Cannot Delete
 ~~~~~~~~~~~~~
 
-If the episode you are trying to delete has any dependant records, you will not
+If the episode you are trying to delete has any linked IAR-DST records, you will not
 be able to proceed with deleting this episode until all the related records have
 been deleted.
 
@@ -956,7 +956,7 @@ when viewing or editing an Episode.
 Viewing Universal Aftercare data on a Client's Episode
 ------------------------------------------------------
 
-You can view the Universal Aftercare data associated with an episode that has the Universal Aftercare Program Type 
+You can view the Universal Aftercare data associated with an episode that has the Universal Aftercare Program Type
 by following the steps at :ref:`view-episodes` and scrolling to the bottom of the tab.
 
 .. figure:: screen-shots/client-episodes-ua-view.png
@@ -968,7 +968,7 @@ Adding Universal Aftercare data to a Client's Episode
 -----------------------------------------------------
 
 You can edit a Client's PMHC Episode details through :ref:`view-episodes`
-available on the Data Entry tab to add a Client's UA Episode data, by following these steps:
+available on the **Data Entry** tab to add a Client's UA Episode data, by following these steps:
 
 1. Once :ref:`view-episodes`.
 2. From the Client's Episode table, click the Episode Key.
@@ -1004,7 +1004,7 @@ Editing Universal Aftercare data on a Client's Episode
 ------------------------------------------------------
 
 You can edit a Client's PMHC Episode details through :ref:`view-episodes`
-available on the Data Entry tab, by following these steps:
+available on the **Data Entry** tab, by following these steps:
 
 1. Once :ref:`view-episodes`.
 2. From the Client's Episode table, click the Episode Key.
@@ -1035,7 +1035,7 @@ Deleting Universal Aftercare data from a Client's Episode
 ---------------------------------------------------------
 
 Removing 'Universal Aftercare' from the Program Type field will delete an UA Episode,
-through :ref:`view-episodes` available on the Data Entry tab, by following these steps:
+through :ref:`view-episodes` available on the **Data Entry** tab, by following these steps:
 
 1. Once :ref:`view-episodes`.
 2. From the Client's Episode table, click the Episode Key.
@@ -1508,7 +1508,7 @@ Viewing a Client's Measures for a Collection Occasion
 -----------------------------------------------------
 
 You can view a Client's Measures added to a Collection Occasion through :ref:`view-collection-occasion`
-available on the Data Entry tab, by following these steps:
+available on the **Data Entry** tab, by following these steps:
 
 1. Once :ref:`Viewing the Collection Occasion <view-collection-occasion>`.
 2. Scroll down to the Measures
@@ -1543,7 +1543,7 @@ Adding an Client's Measures for a Collection Occasion
 
 Single or multiple measures can be added to a collection occasion. You can add a
 Client's Measure for a Collection Occasion. Multiple  through :ref:`view-collection-occasion`
-available on the Data Entry tab, by following these steps:
+available on the **Data Entry** tab, by following these steps:
 
 1. Once :ref:`view-collection-occasion`.
 2. Firstly double check the measure is not already showing.
@@ -1596,7 +1596,7 @@ Editing a Client's Measures for a Collection Occasion
 -----------------------------------------------------
 
 You can edit a Client's Measure for a Collection Occasion through :ref:`view-collection-occasion`
-available on the Data Entry tab, by following these steps:
+available on the **Data Entry** tab, by following these steps:
 
 1. Once :ref:`view-collection-occasion`.
 2. Scroll down to the Measures
@@ -1633,7 +1633,7 @@ Editing a Measure Key
 ~~~~~~~~~~~~~~~~~~~~~
 
 You can edit an measure's identification key through :ref:`view-collection-occasion`
-available on the Data Entry tab, by following these steps:
+available on the **Data Entry** tab, by following these steps:
 
 1. In step four when :ref:`edit-collection-occasion-measure`.
 2. From the Edit Measure details tab, click the **Edit Key** button.
@@ -1656,7 +1656,7 @@ Deleting a Measure from a Collection Occasion
 ---------------------------------------------
 
 You can delete a Client's Measure from a Collection Occasion through ':ref:`view-collection-occasion-measure`'
-available on the Data Entry tab, by following these steps:
+available on the **Data Entry** tab, by following these steps:
 
 1. Once :ref:`view-collection-occasion`.
 2. Scroll down to the Measures
