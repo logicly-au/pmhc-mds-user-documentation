@@ -2250,14 +2250,20 @@ Safety Plan Update / Development
 
 The relevant episodes here are those where:
 
-*  the first `attended service contact <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#attended-service-contact>`_
-   is within the reporting period, and 
+* the first `attended service contact <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#attended-service-contact>`_
+  is within the reporting period, and
 * the episode has an initial collection occasion with a corresponding
+  `UA Plan - Plan Type <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/data-model-and-specifications.html#plan-type>`_.
+
+The denominator is the count of these episodes.
+
+The numerator is the subset of these episodes for which:
+
+* the collection occasion date is before or on the same day as the
+  first attended service contact.
+* the collection occasion has a corresponding
   `UA Plan - Plan Type <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/data-model-and-specifications.html#plan-type>`_
   equal to `1: Safety Plan`. 
-  
-The numerator is the subset of these episodes for which the collection occasion date 
-is before or on the same day as the first attended service contact.
 
 .. note::
    Prior to September 2022 it had to be on or before the date of the second attended service contact.
@@ -2278,14 +2284,20 @@ Support Plan Development
 
 The relevant episodes here are those where:
 
-*  the first `attended service contact <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#attended-service-contact>`_
-   is within the reporting period, and 
+* the first `attended service contact <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#attended-service-contact>`_
+  is within the reporting period, and
 * the episode has an initial collection occasion with a corresponding
+  `UA Plan - Plan Type <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/data-model-and-specifications.html#plan-type>`_.
+
+The denominator is the count of these episodes.
+
+The numerator is the subset of these episodes for which
+
+* the collection occasion date is not more than 10 business days after the
+  initial attended service contact.
+* the collection occasion has a corresponding
   `UA Plan - Plan Type <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/data-model-and-specifications.html#plan-type>`_
   equal to `2: Support Plan`. 
-  
-The numerator is the subset of these episodes for which the collection occasion date 
-is not more than 10 business days after the initial attended service contact.
 
 .. _reporting_considerations:
 
