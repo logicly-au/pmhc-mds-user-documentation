@@ -2138,20 +2138,20 @@ no corresponding profile for the Year To Date.
 
 **Hospital ED**
 
-    * `7: Emergency Department`
+  * `7: Emergency Department`
 
 **Hospital Ward**
 
-    * `5: Public Hospital`
-    * `6: Private Hospital`
+  * `5: Public Hospital`
+  * `6: Private Hospital`
 
 **Community Mental Health Service**
 
-    * `4: Public mental health service`
+  * `4: Public mental health service`
 
 **Other**
 
-    * All the other codes (1-3,8-21,98,99)
+  * All the other codes (1-3,8-21,98,99)
 
 Service Contact Data
 ''''''''''''''''''''
