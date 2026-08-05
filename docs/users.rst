@@ -377,27 +377,32 @@ You can edit and assign extra :ref:`roles <roles>`  to an existing user by follo
 
    * **Add** a role by clicking the empty checkbox
    * **Remove** a role by clicking the selected checkbox
-   * In the Actions column, clicking the |remove-all| button will remove all the user's
-     roles at that organisation. If the user then has no roles left for any
-     organisation they will be prevented from logging into the PMHC MDS system.
+   * **Remove all** roles at an organisation by clicking the |remove-all| button in the Actions column
+
+Click the 'Include inactive organisations' checkbox to edit roles at an inactive organisation
 
 .. |remove-all| image:: screen-shots/remove-all-button.png
 
 7. All changes are automatically saved
-8. The system will automatically notify the user overnight of any role changes.
+8. The system will update overnight and notify the user of any role changes then
 
-*Please note: you will still see users in your list that have had all their roles removed unless you use the 'Actions' feature.*
+If a user has no remaining roles for any organisations they will be restricted from
+seeing any additional tabs when logging into the PMHC MDS.
 
 .. _delete_user:
 
 Deleting a user
 ^^^^^^^^^^^^^^^
 
-A user can be deleted from an organisation by using the |remove-all| button under
-the edit roles tab, which will remove all the roles a user has at that organisation.
+To remove a user from an organisation, all of their associated roles must be
+removed. You can either uncheck each individual checkbox manually or click the
+|remove-all| button in the edit roles tab, which automatically clears all roles
+for that user within the organisation.
 
-Once completed, if the user does not have any remaining roles within the PMHC MDS, the
-user will no longer be displayed in the view users table.
+Once completed, the user will disappear from the view users table if they have
+no remaining roles within the PMHC MDS. If they hold roles at another organisation
+for which you do not have data entry role, the system will perform an overnight
+update, after which the user will no longer be visible on your end.
 
 See :ref:`edit-role`.
 
@@ -420,15 +425,16 @@ Viewing all Organisational Users
 
 You can view users assigned to an organisation through the organisation tab, by following these steps:
 
-1. Navigate to the tab showing either the PHNs details or the provider organisations details
-2. Click on the PHNs or provider organisations name in blue displayed within the table list.
-   If you are unsure how to view the details see :ref:`view-PHN` or :ref:`view-provider-organisation`
-3. Under the **Users** tab, you can view a table list of the
-   organisation's users
-4. You can filter the users within this table list,
-   click the grey **Filters** button and start typing in an edit box now
-   displayed under the column headers. To remove the filter, click the grey
-   cross within the edit box beside any entered text
+1. Navigate to the tab showing either the PHNs details or the provider organisations
+   details
+2. Click on the PHNs or provider organisations name in blue displayed within the
+   table list. If you are unsure how to view the details see :ref:`view-PHN` or
+   :ref:`view-provider-organisation`
+3. Under the **Users** tab, you can view a table list of the organisation's users
+4. You can filter the users within this table list, click the grey **Filters**
+   button and start typing in an edit box now displayed under the column headers.
+   To remove the filter, click the grey cross within the edit box beside any
+   entered text
 
 .. figure:: screen-shots/users-organisation-list.png
    :alt: PMHC MDS User Roles at Organisation
