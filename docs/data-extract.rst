@@ -39,15 +39,15 @@ the **Request extract** fields in the **Data Extract** tab, by following these s
 5. Click the options checkboxes as relevant. See :ref:`data-extract-options`
 6. Select the appropriate file type to be downloaded
 
-   .. figure:: screen-shots/data-extract-request-form.png
-      :alt: PMHC MDS Extract Request Form
+.. figure:: screen-shots/data-extract-request-form.png
+   :alt: PMHC MDS Extract Request Form
 
 7. Click the blue **Request** button
 8. You will receive confirmation that the extract has been successfully requested,
    and the screen will now be blank ready for the next extract request
 
-      .. figure:: screen-shots/data-extract-message-requested.png
-         :alt: PMHC MDS Extract Requested Successfully
+.. figure:: screen-shots/data-extract-message-requested.png
+    :alt: PMHC MDS Extract Requested Successfully
 
 *Note:* If you are not sure how data is displayed in a extract, please click on
 the **Associated Date Rules Explained** link to see the dates, specifications and
@@ -68,8 +68,8 @@ the **View extracts** table in the **Data Extract** tab, by following these step
 2. Open the **View extracts** tab
 3. Find the extract you would like to download in the View Extracts table
 
-   .. figure:: screen-shots/data-extract-view-extracts.png
-      :alt: PMHC MDS View Extracts table
+.. figure:: screen-shots/data-extract-view-extracts.png
+   :alt: PMHC MDS View Extracts table
 
 4. Click the **Download** icon located to the far right of each extract request
    in the 'Actions' column.
@@ -103,12 +103,12 @@ Data Extract Specification
 
 .. _data-extract-specification-pmhc:
 
-PMHC 4.0
+PMHC 4.1
 --------
 
 If you would like to download a file that includes data from the Primary Mental
 Health Care Minimum Data Set (PMHC MDS), select the dropdown option
-labelled **PMHC 4.0**. This downloads a file that is the base PMHC MDS data which
+labelled **PMHC 4.1**. This downloads a file that is the base PMHC MDS data which
 is not linked to any extensions dataset.
 (See `PMHC-MDS Data Specification <https://docs.pmhc-mds.com/projects/data-specification/en/latest/index.html#>`_).
 
@@ -189,12 +189,12 @@ Include data without associated dates
 As the query is date based, the following data will by default, not be included
 in the extract:
 
-   * The start date of an episode is derived from the date of the first service contact.
+* The start date of an episode is derived from the date of the first service contact.
      Therefore, if an episode doesn't have any associated service contacts, there will be
      no start date for the episode and they will not be included in the data extract
-   * Clients that don't have any associated episodes, or who are associated
+* Clients that don't have any associated episodes, or who are associated
      with an episode with no service contacts also will not be included in the data extract
-   * Practitioners who are not associated with a service contact will not be included
+* Practitioners who are not associated with a service contact will not be included
      in the data extract
 
 If you would like to include these inactive episodes, inactive clients and

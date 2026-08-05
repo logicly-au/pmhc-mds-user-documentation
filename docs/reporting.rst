@@ -793,6 +793,29 @@ Key specifications:
   and "Recommendation Out", 'Other' (code 98) is counted as a missing value as well as 'Not stated/Inadequately described' (code 99).
 * The '% Missing Data' column is a simple percentage of the active episodes that have missing data, calculated from the preceding two columns.
 
+.. _category-a16:
+
+A16 — Volume of completed outcome measures
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+This report presents the number and percentage of active episodes for which outcome measures were collected. 
+For the most part it reports only completed (i.e. valid) measures. As well as overall totals that indicate 
+how many episodes have at least one outcome measure, it separately reports the
+K10+, the K5, SIDAS, WHO-5 and two groupings of the SDQ: the self report version completed by youths (SDQ-YR), 
+and the number completed by parents (the sum of SDQ-PC and SDQ-PY versions).
+
+It also reports counts and percentages of active episodes by the `collection reason <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/data-model-and-specifications.html#collection-occasion-reason>`_: Initial, Review or Final Measures. A single episode may be represented in any or all of these collection reason columns.
+
+The A16 allows data to be grouped by and filtered by entities at the National, State/Territory, PHN and PO levels. 
+
+Key specifications:
+
+* The episode must be active during the reporting period, but the collection occasion may occur outside the reporting period.
+* All percentages are based on the total number of active episodes but this total is not reported in the A16 (it can be calculated by dividing the count by the percentage; alternately the total number of active episodes can be seen in the corresponding A1 report)
+* Other than for the first column (a measure collected for any reason) counts are based only on completed (i.e. valid) measures
+* A collection occasion associated with an active episode is NOT sufficient for inclusion. There must be an actual measure linked to the collection occasion
+* Measures that are not strictly **outcome** measures (e.g. IAR-DST, support plans) are not reported in the A16
+
 .. _category-b:
 
 Category B: Monitoring overall service delivery
@@ -1813,14 +1836,16 @@ These reports have been introduced to monitor MMHCs, however all except for the
 M1 — Client wait time
 +++++++++++++++++++++
 
-Wait time defined as number of days between a client’s intake referral date 
-and the date of the client’s first service contact.
+The number of days a client waits for a first contact after having been referred.
 
 Key specifications:
 
-* Service Contacts flagged as ‘No Show’ are not included for this purpose.
-* A client’s wait time is defined as the time from intake referral to the
-  first attended contact
+* Service Contacts flagged as ‘No Show’ are included for this purpose.
+* A client’s wait time is defined as the time from referral date as recorded on the episode record to the
+  first contact.
+
+.. note::
+   The M1 report was updated on 10/06/2026 to ignore the referral date on the intake record; it was also updated to include unattended as well as attended contacts.
 
 .. _category-m2:
 
@@ -2113,20 +2138,20 @@ no corresponding profile for the Year To Date.
 
 **Hospital ED**
 
-    * `7: Emergency Department`
+  * `7: Emergency Department`
 
 **Hospital Ward**
 
-    * `5: Public Hospital`
-    * `6: Private Hospital`
+  * `5: Public Hospital`
+  * `6: Private Hospital`
 
 **Community Mental Health Service**
 
-    * `4: Public mental health service`
+  * `4: Public mental health service`
 
 **Other**
 
-    * All the other codes (1-3,8-21,98,99)
+  * All the other codes (1-3,8-21,98,99)
 
 Service Contact Data
 ''''''''''''''''''''
@@ -2141,6 +2166,7 @@ contact each modality:
 * `2: Telephone`
 * `3: Video`
 * `4: Internet-based`
+* `5: SMS`
 
 Client Measures and Experience
 ''''''''''''''''''''''''''''''
@@ -2149,18 +2175,19 @@ Information about three clinical measures is reported in this section. For each
 measure there are three summary statistics:
 
 1. The number of episodes with (valid) initial measures collected during the
-   reporting period
-2. The number of episodes with (valid) final measures collected during the
-   reporting period
-3. The number of episodes with at least two (valid) outcome measures, at least one
-   of which must be collected during the reporting period
+   reporting period.
+2. The number of episodes with (valid) review measures collected during the
+   reporting period.
+3. The number of episodes with (valid) final measures collected during the
+   reporting period.
 
 Information about collection occasions - including dates and reasons - is
 available `in the Collection Occasion specification documentation <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/data-model-and-specifications.html#collection-occasion-data-elements>`_.
 A critical feature of a collection occasion is its "reason", which is actually
 about the point in the clients' journey when the measure was taken. For
-reporting purposes this can be either "initial" (i.e. start of the episode) or
-final (end of the episode). Note however that the collection occasion dates
+reporting purposes this can be either "initial" (i.e. start of the episode), 
+"review" (i.e. taken during the course of the episdoe) or
+"final" (end of the episode). Note however that the collection occasion dates
 need not be the same as the episode start and end dates. Measures can be
 collected on any day.
 
@@ -2207,30 +2234,70 @@ listed in Australian Public Holidays shown within the
 The business day calculator takes into account the jurisdiction (state or
 territory of the service). A week is defined as 5 business days.
 
+.. _w1_safety_plan:
+
 Safety Plan Update / Development
 ''''''''''''''''''''''''''''''''
 
-The relevant episodes here are those where the first `attended service contact <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#attended-service-contact>`_
-is within the reporting period, and the the episode has an initial
-collection occasion with a corresponding
-`UA Plan - Plan Type <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/data-model-and-specifications.html#plan-type>`_
-equal to `1: Safety Plan`. The numerator is the subset of these episodes for
-which the collection occasion date is before or on the same day as the first
-attended service contact.
+.. note::
+   The W1 report was updated on 10/06/2026 so that the Safety Plan KPI is more 
+   compatible with other indicators.  Since its introduction as part of The 
+   Way Back trial, this KPI have been based on the number of Safety Plans 
+   recorded (that is, ‘collection occasions’). On review, it has been 
+   determined that a more appropriate basis for this KPI is the number of 
+   episodes that include at least one Safety Plan. The presence of at least 
+   one Safety Plan within an episode is sufficient to meet the KPI. 
 
-Please note: Prior to September 2022 it had to be on or before the date of the
-second attended service contact.
+The relevant episodes here are those where:
+
+* the first `attended service contact <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#attended-service-contact>`_
+  is within the reporting period, and
+* the episode has an initial collection occasion with a corresponding
+  `UA Plan - Plan Type <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/data-model-and-specifications.html#plan-type>`_.
+
+The denominator is the count of these episodes.
+
+The numerator is the subset of these episodes for which:
+
+* the collection occasion date is before or on the same day as the
+  first attended service contact.
+* the collection occasion has a corresponding
+  `UA Plan - Plan Type <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/data-model-and-specifications.html#plan-type>`_
+  equal to `1: Safety Plan`. 
+
+.. note::
+   Prior to September 2022 it had to be on or before the date of the second attended service contact.
+
+.. _w1_support_plan:
 
 Support Plan Development
 ''''''''''''''''''''''''
 
-The relevant episodes here are those where the first `attended service contact <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#attended-service-contact>`_
-is within the reporting period, and the episode has an initial
-collection occasion with a corresponding
-`UA Plan - Plan Type <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/data-model-and-specifications.html#plan-type>`_
-equal to `2: Support Plan`. The numerator is the subset of these episodes for
-which the collection occasion date is not more than 10 days after the initial
-attended service contact.
+.. note::
+   The W1 report was updated on 10/06/2026 so that the Support Plan KPI is more 
+   compatible with other indicators.  Since its introduction as part of The 
+   Way Back trial, this KPI have been based on the number of Support Plans 
+   recorded (that is, ‘collection occasions’). On review, it has been 
+   determined that a more appropriate basis for this KPI is the number of 
+   episodes that include at least one Support Plan. The presence of at least 
+   one Support Plan within an episode is sufficient to meet the KPI. 
+
+The relevant episodes here are those where:
+
+* the first `attended service contact <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#attended-service-contact>`_
+  is within the reporting period, and
+* the episode has an initial collection occasion with a corresponding
+  `UA Plan - Plan Type <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/data-model-and-specifications.html#plan-type>`_.
+
+The denominator is the count of these episodes.
+
+The numerator is the subset of these episodes for which
+
+* the collection occasion date is not more than 10 business days after the
+  initial attended service contact.
+* the collection occasion has a corresponding
+  `UA Plan - Plan Type <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/data-model-and-specifications.html#plan-type>`_
+  equal to `2: Support Plan`. 
 
 .. _reporting_considerations:
 
