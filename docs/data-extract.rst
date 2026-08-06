@@ -101,51 +101,45 @@ It will not include any records that are outside the date range of the request.
 Data Extract Specification
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+
+.. contents::
+   :local:
+   :depth: 1
+
 .. _data-extract-specification-pmhc:
 
-PMHC 4.1
---------
+PMHC (core)
+-----------
 
-If you would like to download a file that includes data from the Primary Mental
-Health Care Minimum Data Set (PMHC MDS), select the dropdown option
-labelled **PMHC 4.1**. This downloads a file that is the base PMHC MDS data which
-is not linked to any extensions dataset.
+If you would like to download a file that includes core data from the
+Primary Mental Health Care Minimum Data Set (PMHC MDS), select the dropdown option
+labelled **PMHC** in the current version specification.
+
+This downloads a file that is the core PMHC MDS data, which includes transitioned data from past extensions like `Wayback`
 (See `PMHC-MDS Data Specification <https://docs.pmhc-mds.com/projects/data-specification/en/latest/index.html#>`_).
 
 The resulting file can be uploaded.
 
 .. _data-extract-specification-headspace:
 
-headspace 4.1 (PMHC extension)
-------------------------------
+headspace (PMHC extension)
+--------------------------
 
 If you would like to download a file that includes data from headspace extension,
-select the dropdown option labelled **headspace 4.1**. This downloads a file that
-is the data that has been updated from headspace headoffice hAPI system.
-(See `headspace Specification <https://docs.pmhc-mds.com/projects/data-specification-headspace/en/v4.1/index.html>`_).
+select the dropdown option labelled **headspace**in the current version specification.
+This downloads a file that is the data that has been updated from headspace
+headoffice hAPI system.
+(See `headspace Specification <https://docs.pmhc-mds.com/projects/data-specification-headspace/en/latest/index.html>`_).
 
 The resulting file cannot be uploaded. This is a download only format.
 
-.. _data-extract-specification-TWB:
-
-The Way Back 3.0 (PMHC extension)
----------------------------------
-
-If you would like to download a file that includes data from The Way Back Support
-Services extension (current 3.0), select the dropdown option labelled **WAYBACK 3.0**.
-This downloads a file that is a combination of the base PMHC MDS data extensions linked
-to the PMHC episode with the tag `!wayback` and/or a linked TWB-Episode record.
-(See `The Way Back Data Specification <https://docs.pmhc-mds.com/projects/data-specification-wayback/en/v3/data-specification/data-model-and-specifications.html>`_).
-
-The resulting file can be uploaded.
-
 .. _data-extract-specification-survey:
 
-SURVEY 1.0 (YES-PHN Results)
-----------------------------
+SURVEY (YES-PHN Results)
+------------------------
 
 If you would like to download a file that includes data from the YES PHN Survey
-results, select the dropdown option labelled **SURVEY 1.0**. This downloads a
+results, select the dropdown option labelled **SURVEY**in the current version specification. This downloads a
 file that is a combination of the YES-PHN data collected via invitations sent
 using the Online Measures Self Service System (OMSSS) and YES-PHN data collected
 outside of OMSSS uploaded using the PMHC MDS Survey Specification.
@@ -155,25 +149,28 @@ The data is extracted in the `Survey Specification <https://docs.pmhc-mds.com/pr
 
 .. _data-extract-all-specifications:
 
-Include data from all specifications (includes extensions)
-----------------------------------------------------------
+Include data from all specifications (includes past extensions)
+---------------------------------------------------------------
 
 If you would like to download a file that includes data from all PMHC MDS extensions (current and past),
 select the dropdown option labelled **Include data from all specifications**.
 This downloads a file that is a combination of all of the extensions listed at https://docs.pmhc-mds.com/.
 
 The resulting file cannot be uploaded. This is a download only format. It is based
-on the most recent version used by either the core specification or an extension.
+on the most recent version used by either the core specification or for both current extensions and unsupported past extensions.
 
-Please note: In the interim, until all extensions data is transitioned to Version 4,
-fields with changes to their specifications between versions will show twice in these META files.
+Please note: Fields with changes to their specifications between versions will show twice in these META files.
 
-  For example "Referral Date": In versions 2 and 3, Referral date was not required. In version 4
+These are:
+
+  "**Referral Date**": In versions 2 and 3, Referral date was not required. In version 4 onwards
   it is required. For episodes where no referral date was supplied,
   the column corresponding to versions 2 (or 3) will be blank, whereas the column
   corresponding to version 4 will have the missing date value '09099999'. If you
   are using the data from a file exported in the META format for re-upload, use the appropriate column for
-  the specification version you are uploading. (See `Referral Date Definition <https://docs.pmhc-mds.com/projects/data-specification/en/v4/data-model-and-specifications.html#referral-date>`_).
+  the specification version you are uploading. (See `Referral Date Definition <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#referral-date>`_).
+
+  "**Funding Source**":
 
 
 .. _data-extract-options:
