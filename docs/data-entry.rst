@@ -97,7 +97,7 @@ available on the **Data Entry** tab, by following these steps:
 
 4. Click the **Details** tab for more information about the client
 
-A page will display the client's details as recorded via the `Client Data Elements <https://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#client-data-elements>`_.
+A page will display the client's details as recorded via the `Client Data Elements <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#client-data-elements>`_.
 
 .. figure:: screen-shots/client-view-details.png
    :alt: Client Data Details View
@@ -114,7 +114,7 @@ available on the **Data Entry** tab, by following these steps:
 2. From the **Client Search Table**, click the **Client Key**
 3. Click the **Details** tab, to view client's details
 4. Click the **Edit Details** tab
-5. Update the client's details. Mandatory fields are marked with an * (Specification `Client Data Elements <https://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#client-data-elements>`_)
+5. Update the client's details. Mandatory fields are marked with an * (Specification `Client Data Elements <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#client-data-elements>`_)
 6. **Please note:** You can edit the **Client Key** from this screen. See :ref:`edit-client-key`
 
 .. figure:: screen-shots/client-view-edit.png
@@ -140,7 +140,7 @@ will now be display the updated details in the **Clients View Details** tab.
 
 If you receive an error message, the data will need to be corrected before the
 record is saved and added to the PMHC MDS.
-See Validation Rules - `Client <https://docs.pmhc-mds.com/en/v1/data-specification/validation-rules.html#client-current-validations>`_.
+See Validation Rules - `Client <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#client>`_.
 
 .. _edit-client-key:
 
@@ -173,6 +173,9 @@ will now be displaying the updated client key details in the **Clients View Deta
 Adding a New Client
 -------------------
 
+See the definition of a `Client <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#client>`_
+if you are not sure what data should be added as a client to the PMHC MDS.
+
 You can add a client through the :ref:`search-client`
 available on the **Data Entry** tab, by following these steps:
 
@@ -180,7 +183,7 @@ available on the **Data Entry** tab, by following these steps:
 2. Firstly double check the client is not already added
 3. Click the blue **Add New Client** button
 4. Choose the **Provider Organisation** from the drop down list
-5. Enter the client's details. Mandatory fields are marked with an * (Specification `Client Data Elements <https://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#client-data-elements>`_)
+5. Enter the client's details. Mandatory fields are marked with an * (Specification `Client Data Elements <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#client-data-elements>`_)
 6. **Please note:** With the **Statistical Linkage Key** field you can choose
    to **Enter** or **Generate** a client's SLK.
    The SLK is generated on your device, the names used are not stored or
@@ -203,7 +206,7 @@ now be displaying the client's saved information in the **Clients View Details**
 
 If you receive an error message, the data will need to be corrected before the
 record is saved and added to the PMHC MDS.
-See Validation Rules - `Client <https://docs.pmhc-mds.com/en/v1/data-specification/validation-rules.html#client-current-validations>`_.
+See Validation Rules - `Client <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#client>`_.
 
 .. _delete-client:
 
@@ -362,6 +365,10 @@ will now be displaying the updated intake key details in the Intake **View Detai
 Adding a Client's Intake data
 -----------------------------
 
+The collection of Intake data may not be required for all programs. See the
+definition of a `Intake <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#intake>`_
+if you are not sure what data should be added as an intake to the PMHC MDS.
+
 You can add a client's intake data through :ref:`view-client-details`
 available on the **Data Entry** tab, by following these steps:
 
@@ -490,8 +497,6 @@ Intake IAR-DST Measure
 Viewing a Client's Measure for an Intake
 ----------------------------------------
 
-PMHC MDS requires the use of the IAR-DST at intake.
-
 You can view a Client's Measure added to an Intake through :ref:`view-intake`
 available on the **Data Entry** tab, by following these steps:
 
@@ -517,9 +522,10 @@ A page will display the Measure details as recorded via the `Measures at Intake 
 Adding a Client's Measures for an Intake
 ----------------------------------------
 
-PMHC MDS requires the use of the IAR-DST at intake.
+The collection of Initial Assessment and Referral Decision Support Tool (`IAR-DST <https://iar-dst.online/#/>`_)
+data may not be required for all programs. Please see `Intake <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#intake>`_.
 
-Single or multiple measures can be added to an Intake.
+Single or multiple measures can be added to an Intake, but it is not expected to have more than one IAR-DST records for each intake.
 
 You can add a Client's Measure for a Intake through :ref:`view-intake`
 available on the **Data Entry** tab, by following these steps:
@@ -678,7 +684,7 @@ A drop down list is available to view:
 .. figure:: screen-shots/client-episodes-details.png
    :alt: Client Episodes Details View
 
-A page will display the client's episode details as recorded via the `Episode Data Elements <https://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#episode-data-elements>`__.
+A page will display the client's episode details as recorded via the `Episode Data Elements <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#episode-data-elements>`__.
 
 .. _edit-episode:
 
@@ -692,7 +698,7 @@ available on the **Data Entry** tab, by following these steps:
 2. From the client's **Episode** table, click the **Episode Key**
 3. Click the **Edit Details** tab
 4. Update the client's **Episode** details. Mandatory fields are marked with an *
-   (Specification `Episode Data Elements <https://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#episode-data-elements>`__)
+   (Specification `Episode Data Elements <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#episode-data-elements>`__)
 5. **Please note:** You can edit the **Episode Key** from this screen. See :ref:`edit-episode-key`
 
 .. note::
@@ -712,7 +718,7 @@ and it will now be displaying these new details in the episode **View Details** 
 
 If you receive an error message, the data will need to be corrected before the
 record is saved and added to the PMHC MDS.
-See Validation Rules - `Episode <https://docs.pmhc-mds.com/en/v1/data-specification/validation-rules.html#episode-current-validations>`__.
+See Validation Rules - `Episode <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#episode>`__.
 
 .. _edit-episode-key:
 
@@ -745,12 +751,15 @@ will now be displaying the updated episode key details in the Episode **View Det
 Adding a Client's Episode data
 ------------------------------
 
+See the definition of an `Episode <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#episode>`_
+if you are not sure what data should be added as an episode of care to the PMHC MDS.
+
 You can add a client's episode data through :ref:`view-client-details`
 available on the **Data Entry** tab, by following these steps:
 
 1. Once :ref:`view-episodes`
 2. Check to ensure the client does not have any open episodes already showing.
-   (A client can only have `one open episode <https://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#key-concepts-episode>`__ at a provider organisation)
+   (A client can only have `one open episode <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#episode-data-elements>`__ at a provider organisation)
 3. Click the **Add Episode** tab
    (If a client already has an open episode, the following warning message will be displayed at the top off the Add Episode form)
 
@@ -758,7 +767,7 @@ available on the **Data Entry** tab, by following these steps:
    :alt: Client Data Add Episode Existing Open Episode Warning
 
 4. Enter the client's episode details. Mandatory fields are marked with an *
-   (Specification `Episode Data Elements <https://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#episode-data-elements>`__)
+   (Specification `Episode Data Elements <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#episode-data-elements>`__)
 
 .. note::
    The Department has recently changed some reserve tags. For more information please see `System Tags <https://docs.pmhc-mds.com/data-specifications.html#supplementary-data-documentation>`__.
@@ -779,7 +788,7 @@ and it will now be displaying these new details in the episode **View Details** 
 
 If you receive an error message, the data will need to be corrected before the
 record is saved and added to the PMHC MDS.
-See Validation Rules - `Episode <https://docs.pmhc-mds.com/en/v1/data-specification/validation-rules.html#episode-current-validations>`__.
+See Validation Rules - `Episode <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#episode>`__.
 
 .. _closing-episode:
 
@@ -792,7 +801,7 @@ available on the **Data Entry** tab, by following these steps:
 1. Once :ref:`view-episodes`
 2. From the client's **Episode** table, click the **Episode Key** of the open episode
 3. Click the **Edit Details** tab
-4. Update the client's episode details, by entering an **End Date** and **Completion Status** and **Organisation type referred to at Episode Conclusion** (Specification `Episode Data Elements <https://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#episode-data-elements>`__)
+4. Update the client's episode details, by entering an **End Date** and **Completion Status** and **Organisation type referred to at Episode Conclusion** (Specification `Episode Data Elements <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#episode-data-elements>`__)
 
 .. figure:: screen-shots/client-episodes-edit.png
    :alt: Client Episodes Edit Details
@@ -808,7 +817,7 @@ and it will now be displaying these new details in the episode **View Details** 
 
 If you receive an error message, the data will need to be corrected before the
 record is saved and added to the PMHC MDS.
-See Validation Rules - `Episode <https://docs.pmhc-mds.com/en/v1/data-specification/validation-rules.html#episode-current-validations>`__.
+See Validation Rules - `Episode <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#episode>`__.
 
 .. _delete-episode:
 
@@ -905,12 +914,16 @@ and scroll to the bottom of the episode form.
 Adding a Client's Intake Episode data
 -------------------------------------
 
+See the definition of an `Intake Episode <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#intake-episode>`_
+if you are not sure what data should be added as an intake episode to the PMHC MDS.
+
 Where the client has been referred via an intake process, an additional Intake
 Episode record is available on the Episode record.
 
-The Intake Episode record links an Intake record and an Episode record. The
-intake episode data must be entered by the organisation that delivers the
-treatment to the client.
+The Intake Episode record links an Intake record and an Episode record. The intake
+organisation must provide the intake data to the treatment organisation as the
+organisation that delivers the treatment to the client must enter the intake
+details in the Intake Episode section.
 (Specification `Intake Episode Data Elements <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#intake-episode-data-elements>`__)
 
 .. figure:: screen-shots/client-intake-episodes-add.png
@@ -976,7 +989,7 @@ available on the **Data Entry** tab to add a Client's UA Episode data, by follow
 4. Select 'Universal Aftercare' from the Program Type field
 5. Scroll to the bottom of the PMHC Episode
 
-Add the Client's UA Episode details. Mandatory fields are marked with an * . (Specification `UA Episode Data Elements <http://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#service-contact-data-elements>`_)
+Add the Client's UA Episode details. Mandatory fields are marked with an * . (Specification `UA Episode Data Elements <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#ua-episode-data-elements>`_)
 
 .. figure:: screen-shots/client-episodes-ua-add.png
    :alt: Client Episodes Edit Details
@@ -1011,7 +1024,7 @@ available on the **Data Entry** tab, by following these steps:
 3. Click Edit Details tab.
 4. Scroll to the bottom of the PMHC Episode.
 
-Update the Client's UA Episode details. Mandatory fields are marked with an * . (Specification `UA Episode Data Elements <http://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#service-contact-data-elements>`_)
+Update the Client's UA Episode details. Mandatory fields are marked with an * . (Specification `UA Episode Data Elements <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#ua-episode-data-elements>`_)
 
 .. figure:: screen-shots/client-episodes-ua-edit.png
    :alt: Client Episodes Edit Details
@@ -1108,7 +1121,7 @@ available on the **Data Entry** tab, by following these steps:
 .. figure:: screen-shots/client-service-contacts-details.png
    :alt: Client Episode Service Contacts Details View
 
-A page will display the Service Contacts details as recorded via the `Service Contact Data Elements <http://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#service-contact-data-elements>`_.
+A page will display the Service Contacts details as recorded via the `Service Contact Data Elements <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#service-contact-data-elements>`_.
 
 .. _edit-service-contact:
 
@@ -1122,7 +1135,7 @@ available on the **Data Entry** tab, by following these steps:
 2. From the **Service Contacts** table, click the **Service Contact Key**
 3. Click the **Edit Service Contact** tab
 4. Update the client's service contact details for that service contact.
-   Mandatory fields are marked with an * (Specification `Service Contact Data Elements <http://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#service-contact-data-elements>`_)
+   Mandatory fields are marked with an * (Specification `Service Contact Data Elements <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#service-contact-data-elements>`_)
 5. **Please note:** You can edit the Service Contact Key from this screen. See :ref:`edit-service-contact-key`
 
 .. figure:: screen-shots/client-service-contacts-edit.png
@@ -1139,7 +1152,7 @@ and it will now be displaying these new details in the **View Service Contact De
 
 If you receive an error message, the data will need to be corrected before the
 record is saved and added to the PMHC MDS.
-See Validation Rules - `Service Contact <http://docs.pmhc-mds.com/en/v1/data-specification/validation-rules.html#service-contact-current-validations>`_.
+See Validation Rules - `Service Contact <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#service-contact>`_.
 
 .. _edit-service-contact-key:
 
@@ -1173,6 +1186,9 @@ service contact's **View Details** tab.
 Adding a Client's Service Contact data
 --------------------------------------
 
+See the definition of a `Service Contact <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#service-contact>`_
+if you are not sure what data should be added as a service contact to the PMHC MDS.
+
 You can add a client's service contacts through the :ref:`view-episodes`
 available on the **Data Entry** tab, by following these steps:
 
@@ -1181,7 +1197,7 @@ available on the **Data Entry** tab, by following these steps:
 3. Click the **Add Service Contact** tab
 4. Enter the client's service contact details for that episode.
    Mandatory fields are marked with an * (Specification `Service Contact Data
-   Elements <http://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#service-contact-data-elements>`_)
+   Elements <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#service-contact-data-elements>`_)
 
 .. figure:: screen-shots/client-service-contacts-add.png
    :alt: Client Data Add Service Contact
@@ -1200,7 +1216,7 @@ and it will now be displaying these new details in the **View Service Contact De
 
 If you receive an error message, the data will need to be corrected before the
 record is saved and added to the PMHC MDS.
-See Validation Rules - `Service Contact <http://docs.pmhc-mds.com/en/v1/data-specification/validation-rules.html#service-contact-current-validations>`_.
+See Validation Rules - `Service Contact <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#service-contact>`_.
 
 .. _duplicate-service-contact:
 
@@ -1218,7 +1234,7 @@ available on the **Data Entry** tab, by following these steps:
 2. Click the **Duplicate this Service Contact** icon next to a record, or
    open the service contact record and click the **Duplicate** button
 3. Complete the mandatory fields marked with an * and review the pre-filled values
-   (Specification `Service Contact Data Elements <http://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#service-contact-data-elements>`_)
+   (Specification `Service Contact Data Elements <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#service-contact-data-elements>`_)
 
 .. figure:: screen-shots/client-service-contacts-duplicate.png
    :alt: Client Data Add Service Contact
@@ -1234,7 +1250,7 @@ and it will now be displaying these new details in the **View Service Contact De
 
 If you receive an error message, the data will need to be corrected before the
 record is saved and added to the PMHC MDS.
-See Validation Rules - `Service Contact <http://docs.pmhc-mds.com/en/v1/data-specification/validation-rules.html#service-contact-current-validations>`_.
+See Validation Rules - `Service Contact <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#service-contact>`_.
 
 .. _delete-service-contact:
 
@@ -1270,8 +1286,8 @@ service contact will no longer be displayed.
 
 .. _outcome-collection-occasion-data:
 
-Outcome Collection Occasions
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Collection Occasions
+^^^^^^^^^^^^^^^^^^^^
 
 .. contents::
    :local:
@@ -1279,8 +1295,8 @@ Outcome Collection Occasions
 
 .. _view-collection-occasion:
 
-Viewing a Client's Outcome Collection Occasions for an Episode
---------------------------------------------------------------
+Viewing a Client's Collection Occasions for an Episode
+------------------------------------------------------
 
 You can view a client's outcome collection occasions through :ref:`view-episodes`
 available on the **Data Entry** tab, by following these steps:
@@ -1301,13 +1317,13 @@ A table will display all the collection occasions linked to this client's episod
    :alt: Client Episode Collection Occasions Details View
 
 A page will display the collection occasion's details as recorded via the
-`Outcome Collection Occasion Data Elements <http://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#outcome-collection-occasion-data-elements>`_.
+`Collection Occasion Data Elements <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#collection-occasion-data-elements>`_.
 
 
 .. _edit-collection-occasion:
 
-Editing a Client's Outcome Collection Occasions for an Episode
---------------------------------------------------------------
+Editing a Client's Collection Occasions for an Episode
+------------------------------------------------------
 
 You can edit a client's outcome collection occasions through :ref:`view-collection-occasion`
 available on the **Data Entry** tab, by following these steps:
@@ -1316,7 +1332,7 @@ available on the **Data Entry** tab, by following these steps:
 2. Click the **Collection Occasion Key**
 3. Click **Edit Details** tab
 4. Update the client's collection occasion's details. Mandatory fields are marked with an *
-   (Specification `Outcome Collection Occasion Data Elements <http://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#outcome-collection-occasion-data-elements>`_)
+   (Specification `Collection Occasion Data Elements <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#collection-occasion-data-elements>`_)
 5. **Please note:** You can edit the **Collection Occasion Key** from this screen. See :ref:`edit-collection-occasion-key`
 
 .. figure:: screen-shots/client-collection-occasions-edit.png
@@ -1333,7 +1349,7 @@ and it will now be displaying these new details in the **View Collection Occasio
 
 If you receive an error message, the data will need to be corrected before the
 record is saved and added to the PMHC MDS.
-See Validation Rules - `Outcome Collection Occasion Validations <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#current-validations>`_
+See Validation Rules - `Collection Occasion Validations <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#collection-occasion>`_
 
 
 .. _edit-collection-occasion-key:
@@ -1364,8 +1380,11 @@ will now be displaying the updated collection occasion key details in the **Coll
 
 .. _add-collection-occasion:
 
-Adding a Client's Outcome Collection Occasion data
---------------------------------------------------
+Adding a Client's Collection Occasion data
+------------------------------------------
+
+See the definition of a `Collection Occasion <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#collection-occasion>`_
+if you are not sure what data should be added as a collection occasion during an episode and when.
 
 You can add a client's outcome collection occasions through :ref:`view-collection-occasion`
 available on the **Data Entry** tab, by following these steps:
@@ -1374,7 +1393,7 @@ available on the **Data Entry** tab, by following these steps:
 2. Check that the collection occasion is not already showing
 3. Click the **Add New Collection Occasion** tab
 4. Enter the client's collection occasion details for that episode.
-   Mandatory fields are marked with an * (Specification `Outcome Collection Occasion Data Elements <http://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#outcome-collection-occasion-data-elements>`_)
+   Mandatory fields are marked with an * (Specification `Collection Occasion Data Elements <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#collection-occasion-data-elements>`_)
 
 .. figure:: screen-shots/client-collection-occasions-add.png
    :alt: Client Data Add Collection Occasions
@@ -1390,14 +1409,14 @@ and it will now be displaying these new details in the **View Collection Occasio
 
 If you receive an error message, the data will need to be corrected before the
 record is saved and added to the PMHC MDS.
-See Validation Rules - `Outcome Collection Occasion Validations <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#current-validations>`_
+See Validation Rules - `Collection Occasion Validations <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#collection-occasion>`_
 
 
 
 .. _generate-collection-occasion-link:
 
-Generate a Client's Outcome Collection Occasion Self Service Link through the Online Measures Self Service System (OMSSS)
-----------------------------------------------------------------------------------------------------------------------------
+Generate a Client's Collection Occasion Self Service Link through the Online Measures Self Service System (OMSSS)
+-----------------------------------------------------------------------------------------------------------------
 
 The Online Measures Self Service System (OMSSS) is a service funded by
 the Australian Government Department of Health, Disability and Aging (DoHDA) as part of the Primary Mental
@@ -1407,7 +1426,7 @@ standardised outcome measures mandated in the PMHC MDS and have the results
 reported back to their service providers. See more at http://docs.omsss.online/.
 
 You can now generate a self service link on the PMHC MDS for a
-Outcome Collection Occasion through :ref:`view-collection-occasion`
+Collection Occasion through :ref:`view-collection-occasion`
 available on the **Data Entry** tab, by following these steps:
 
 1. Navigate to :ref:`view-collection-occasion`
@@ -1465,8 +1484,8 @@ Questionnaires are valid for 7 days. The following reminder emails will be sent:
 
 .. _delete-collection-occasion:
 
-Deleting an Outcome Collection Occasion
----------------------------------------
+Deleting an Collection Occasion
+-------------------------------
 
 You can delete a client's outcome collection occasion through :ref:`view-collection-occasion`
 available on the **Data Entry** tab, by following these steps:
@@ -1524,7 +1543,7 @@ A table will display all the Measures linked to this Client's Episode Collection
 .. figure:: screen-shots/client-collection-occasions-measures-details.png
    :alt: Client Episode Collection Occasions Details View
 
-A page will display the Measure details as recorded via the `Outcome Collection Occasion Data Elements <http://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#outcome-collection-occasion-data-elements>`_.
+A page will display the Measure details as recorded via the `Collection Occasion Data Elements <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#collection-occasion-data-elements>`_.
 
 * See `K10+ Measure data specifications <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#k10>`_.
 * See `K5 Measure data specifications <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#k5>`_.
@@ -1542,8 +1561,11 @@ A page will display the Measure details as recorded via the `Outcome Collection 
 Adding an Client's Measures for a Collection Occasion
 -----------------------------------------------------
 
+See the definition of a `Collection Occasion <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#collection-occasion>`_
+if you are not sure what data should be added as a measure during an episode and when.
+
 Single or multiple measures can be added to a collection occasion. You can add a
-Client's Measure for a Collection Occasion. Multiple  through :ref:`view-collection-occasion`
+Client's Measure for a Collection Occasion, through :ref:`view-collection-occasion`
 available on the **Data Entry** tab, by following these steps:
 
 1. Once :ref:`view-collection-occasion`.
@@ -1587,9 +1609,9 @@ See Validation Rules -
 `K10+ <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#k10>`_
 `K5 <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#k5>`_
 `SDQ <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#sdq>`_
-`SIDAS <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/validation-rules.html#sidas>`_
-`UA-Plan <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/validation-rules.html#ua-plan>`__
-`UA-NI <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/validation-rules.html#ua-needs-identification>`__
+`SIDAS <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#sidas>`_
+`UA-Plan <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#ua-plan>`__
+`UA-NI <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#ua-needs-identification>`__
 
 .. _edit-collection-occasion-measure:
 
@@ -1744,7 +1766,7 @@ and it will now be displaying these new details in the **View Practitioner Detai
 
 If you receive an error message, the data will need to be corrected before the
 record is saved and added to the PMHC MDS.
-See Validation Rules - `Practitioner <http://docs.pmhc-mds.com/en/v1/data-specification/validation-rules.html#practitioner-current-validations>`__.
+See Validation Rules - `Practitioner <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#practitioner>`__.
 
 .. _edit-practitioner-key:
 
@@ -1776,6 +1798,9 @@ will now be displaying the updated practitioner key details in the **Practitione
 Adding a Practitioner
 ----------------------
 
+See the definition of a `Practitioner <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#practitioner>`_
+if you are not sure what data should be added as a practitioner to the PMHC MDS.
+
 You can view a practitioner's details through :ref:`find-practitioner`
 on the **Data Entry** tab, by following these steps:
 
@@ -1797,7 +1822,7 @@ and it will now display these new details in the **View Practitioner Details** t
 
 If you receive an error message, the data will need to be corrected before the
 record is saved and added to the PMHC MDS.
-See Validation Rules - `Practitioner <http://docs.pmhc-mds.com/en/v1/data-specification/validation-rules.html#practitioner-current-validations>`__.
+See Validation Rules - `Practitioner <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#practitioner>`__.
 
 You can add a practitioners individually through the data entry interface or
 alternatively, practitioner records can be uploaded in bulk. See :ref:`upload`.
@@ -1893,10 +1918,10 @@ on the **Data Entry** tab, by following these steps:
 2. From the **View Details** tab, click the **Practitioner Key**
 
 .. figure:: screen-shots/client-service-contacts-practitioner-key.png
-   :alt: Practitioner Key on Outcome Collection Occasions Details
+   :alt: Practitioner Key on Collection Occasions Details
 
 A page will display the practitioner's details as recorded via
-the `Practitioner Data Elements <http://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#practitioner-data-elements>`_.
+the `Practitioner Data Elements <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#practitioner-data-elements>`_.
 
 .. figure:: screen-shots/practitioner-details.png
    :alt: Practitioner Details View
