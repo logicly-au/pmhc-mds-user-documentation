@@ -391,7 +391,7 @@ seeing any additional tabs when logging into the PMHC MDS.
 
 .. _delete_user:
 
-Deleting a user
+Removing a user
 ^^^^^^^^^^^^^^^
 
 To remove a user from an organisation, all of their associated roles must be
