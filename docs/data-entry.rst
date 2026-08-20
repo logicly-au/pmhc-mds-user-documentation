@@ -140,7 +140,7 @@ will now be display the updated details in the **Clients View Details** tab.
 
 If you receive an error message, the data will need to be corrected before the
 record is saved and added to the PMHC MDS.
-See Validation Rules - `Client <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#client>`_.
+See Validation Rules - `Client <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#client>`__.
 
 .. _edit-client-key:
 
@@ -173,7 +173,7 @@ will now be displaying the updated client key details in the **Clients View Deta
 Adding a New Client
 -------------------
 
-See the definition of a `Client <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#client>`_
+See the definition of a `Client <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#client>`__
 if you are not sure what data should be added as a client to the PMHC MDS.
 
 You can add a client through the :ref:`search-client`
@@ -206,7 +206,7 @@ now be displaying the client's saved information in the **Clients View Details**
 
 If you receive an error message, the data will need to be corrected before the
 record is saved and added to the PMHC MDS.
-See Validation Rules - `Client <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#client>`_.
+See Validation Rules - `Client <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#client>`__.
 
 .. _delete-client:
 
@@ -522,7 +522,7 @@ A page will display the Measure details as recorded via the `Measures at Intake 
 Adding a Client's Measures for an Intake
 ----------------------------------------
 
-The collection of Initial Assessment and Referral Decision Support Tool (`IAR-DST <https://iar-dst.online/#/>`_)
+The collection of Initial Assessment and Referral Decision Support Tool (`IAR-DST <https://iar-dst.online/#/>`__)
 data may not be required for all programs. Please see `Intake <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#intake>`_.
 
 Single or multiple measures can be added to an Intake, but it is not expected to have more than one IAR-DST records for each intake.
@@ -551,7 +551,7 @@ and it will now be displaying these new details in the View Measure tab.
 
 If you receive an error message, the data will need to be corrected before the
 record is saved and added to the PMHC MDS.
-See Validation Rules - `IAR-DST <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#iar-dst>`_.
+See Validation Rules - `IAR-DST <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#iar-dst>`__.
 
 .. _edit-intake-measure:
 
@@ -582,7 +582,7 @@ and it will now be displaying these new details in the View Intake Details tab.
 
 If you receive an error message, the data will need to be corrected before the
 record is saved and added to the PMHC MDS.
-See Validation Rules - `IAR-DST <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#iar-dst>`_.
+See Validation Rules - `IAR-DST <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#iar-dst>`__.
 
 .. _edit-intake-measure-key:
 
@@ -920,11 +920,13 @@ if you are not sure what data should be added as an intake episode to the PMHC M
 Where the client has been referred via an intake process, an additional Intake
 Episode record is available on the Episode record.
 
-The Intake Episode record links an Intake record and an Episode record. The intake
-organisation must provide the intake data to the treatment organisation as the
-organisation that delivers the treatment to the client must enter the intake
-details in the Intake Episode section.
-(Specification `Intake Episode Data Elements <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#intake-episode-data-elements>`__)
+.. note::
+   The Intake Episode record links an Intake record and an Episode record. It must be
+   provided by the organisation that delivers the episode, not the intake. The intake
+   organisation must provide the Intake Organisation Path and Intake Key to the treatment 
+   organisation so that these details can be entered into the Intake Episode record to
+   link the two records.
+   (Specification `Intake Episode Data Elements <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#intake-episode-data-elements>`__)
 
 .. figure:: screen-shots/client-intake-episodes-add.png
    :alt: Client Data Add Intake Episode
@@ -1152,7 +1154,7 @@ and it will now be displaying these new details in the **View Service Contact De
 
 If you receive an error message, the data will need to be corrected before the
 record is saved and added to the PMHC MDS.
-See Validation Rules - `Service Contact <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#service-contact>`_.
+See Validation Rules - `Service Contact <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#service-contact>`__.
 
 .. _edit-service-contact-key:
 
@@ -1186,7 +1188,7 @@ service contact's **View Details** tab.
 Adding a Client's Service Contact data
 --------------------------------------
 
-See the definition of a `Service Contact <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#service-contact>`_
+See the definition of a `Service Contact <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#service-contact>`__
 if you are not sure what data should be added as a service contact to the PMHC MDS.
 
 You can add a client's service contacts through the :ref:`view-episodes`
@@ -1216,7 +1218,7 @@ and it will now be displaying these new details in the **View Service Contact De
 
 If you receive an error message, the data will need to be corrected before the
 record is saved and added to the PMHC MDS.
-See Validation Rules - `Service Contact <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#service-contact>`_.
+See Validation Rules - `Service Contact <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#service-contact>`__.
 
 .. _duplicate-service-contact:
 
@@ -1250,7 +1252,7 @@ and it will now be displaying these new details in the **View Service Contact De
 
 If you receive an error message, the data will need to be corrected before the
 record is saved and added to the PMHC MDS.
-See Validation Rules - `Service Contact <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#service-contact>`_.
+See Validation Rules - `Service Contact <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#service-contact>`__.
 
 .. _delete-service-contact:
 
@@ -1609,7 +1611,7 @@ See Validation Rules -
 `K10+ <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#k10>`_
 `K5 <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#k5>`_
 `SDQ <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#sdq>`_
-`SIDAS <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#sidas>`_
+`SIDAS <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#sidas>`__
 `UA-Plan <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#ua-plan>`__
 `UA-NI <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#ua-needs-identification>`__
 
@@ -1646,7 +1648,7 @@ See Validation Rules -
 `K10+ <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#k10>`_
 `K5 <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#k5>`_
 `SDQ <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#sdq>`_
-`SIDAS <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/validation-rules.html#sidas>`_
+`SIDAS <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/validation-rules.html#sidas>`__
 `UA-Plan <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/validation-rules.html#ua-plan>`__
 `UA-NI <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/validation-rules.html#ua-needs-identification>`__
 
@@ -1798,7 +1800,7 @@ will now be displaying the updated practitioner key details in the **Practitione
 Adding a Practitioner
 ----------------------
 
-See the definition of a `Practitioner <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#practitioner>`_
+See the definition of a `Practitioner <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#practitioner>`__
 if you are not sure what data should be added as a practitioner to the PMHC MDS.
 
 You can view a practitioner's details through :ref:`find-practitioner`
