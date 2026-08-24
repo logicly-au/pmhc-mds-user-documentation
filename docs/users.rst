@@ -395,14 +395,14 @@ Removing a user
 ^^^^^^^^^^^^^^^
 
 To remove a user from an organisation, all of their associated roles must be
-removed. You can either uncheck each individual checkbox manually or click the
-|remove-all| button in the edit roles tab, which automatically clears all roles
-for that user within the organisation.
+removed from that organisation.
 
-Once completed, the user will disappear from the view users table if they have
-no remaining roles within the PMHC MDS. If they hold roles at another organisation
-for which you do not have data entry role, the system will perform an overnight
-update, after which the user will no longer be visible on your end.
+In the user’s "Edit Roles" tab, you can remove roles by either manually unchecking
+each role's checkbox manually or by clicking the |remove-all| button to clear
+**all** roles at once.
+
+Once a user has no active roles across any organisation you manage, they will
+automatically be removed from your "View Users" table.
 
 See :ref:`edit-role`.
 
