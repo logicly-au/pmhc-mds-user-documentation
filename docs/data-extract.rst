@@ -89,18 +89,26 @@ Requested extracts will be available under the **View Extracts** tab for 7 days.
 Dates explained for Data Extract
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The Data Extract dates are based on the Client's Service Contact dates for the PMHC MDS.
+The Data Extract dates are based on the dates of the client’s data in the PMHC MDS.
+Dates are included in the Service Contact, Collection Occasion and Intake records.
 
-The default data extract file will include all service contacts that have been recorded
-within the date range of the request, the associated client and episode and measures records.
+The default data extract file will include all service contacts, collection occasions
+and intakes that have been recorded within the date range of the request, and the
+associated client, episode, measure and universal aftercare data records.
 
 It will not include any records that are outside the date range of the request.
+
 
 .. _data-extract-specification:
 
 Data Extract Specification
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+An extract in the core data specification or one of the current extension data
+specifications should meet most needs to review current data or re-upload modified
+data. The ‘Include data from all specifications’ (or META format) option should
+only be used when there is a specific requirement for all specifications, both
+core and extension data (current and historic).
 
 .. contents::
    :local:
@@ -111,41 +119,54 @@ Data Extract Specification
 PMHC (core)
 -----------
 
-If you would like to download a file that includes core data from the
-Primary Mental Health Care Minimum Data Set (PMHC MDS), select the dropdown option
-labelled **PMHC** in the current version specification.
+To download the core PMHC MDS data, select the "PMHC" option from the dropdown
+menu in the current version specification. This downloads a file in the current
+core PMHC MDS data specification. Information about the current core PMHC MDS
+data specification can be found at `PMHC-MDS Data Specification <https://docs.pmhc-mds.com/projects/data-specification/en/latest/index.html#>`_.
 
-This downloads a file that is the core PMHC MDS data, which includes transitioned data from past extensions like `Wayback`
-(See `PMHC-MDS Data Specification <https://docs.pmhc-mds.com/projects/data-specification/en/latest/index.html#>`_).
+This file will include all data added into the PMHC MDS under any previous core
+specification or extension specification, except for headspace.
 
-The resulting file can be uploaded.
+Where the data was transitioned from an extension to the core (e.g. Wayback and HeadtoHelp),
+the core and extension records will be contained in the file.
+
+Where the data was added using any other extension (e.g. National Suicide Prevention Trial)
+the core records will be contained in the file, but not the extension records.
+
+**The resulting file can be uploaded by either PHNs or Provider Organisations.**
 
 .. _data-extract-specification-headspace:
 
 headspace (PMHC extension)
 --------------------------
 
-If you would like to download a file that includes data from headspace extension,
-select the dropdown option labelled **headspace**in the current version specification.
-This downloads a file that is the data that has been updated from headspace
-headoffice hAPI system.
+To download only headspace data, select the "**headspace**" option from the
+dropdown menu in the current version specification. This downloads a file that
+contains only the data that has been uploaded from headspace’s hAPI system.
 (See `headspace Specification <https://docs.pmhc-mds.com/projects/data-specification-headspace/en/latest/index.html>`_).
 
-The resulting file cannot be uploaded. This is a download only format.
+**The resulting file can be uploaded by headspace Head Office.**
+
+**This is a download only format for all PHNs and Provider Organisations.**
+
 
 .. _data-extract-specification-survey:
 
 SURVEY (YES-PHN Results)
 ------------------------
 
-If you would like to download a file that includes data from the YES PHN Survey
-results, select the dropdown option labelled **SURVEY**in the current version specification. This downloads a
-file that is a combination of the YES-PHN data collected via invitations sent
-using the Online Measures Self Service System (OMSSS) and YES-PHN data collected
-outside of OMSSS uploaded using the PMHC MDS Survey Specification.
+To download data from the YES PHN Survey results, select the "SURVEY" option from
+the dropdown menu in the current version specification.  This downloads a file that
+contains a combination of the YES-PHN data collected via invitations sent using the
+Online Measures Self Service System (OMSSS) and YES-PHN data collected outside of
+OMSSS uploaded using the PMHC MDS Survey Specification.
 (See `YES Invitation Data Specification <https://docs.pmhc-mds.com/projects/data-specification-yes-invitation/en/v1/>`_ and `Survey Specification <https://docs.pmhc-mds.com/projects/data-specification-survey/en/v1/>`_).
 
-The data is extracted in the `Survey Specification <https://docs.pmhc-mds.com/projects/data-specification-survey/en/v1/>`_ format and can therefore be reuploaded.
+The data in some fields will be suppressed in this data extract to avoid spilling
+any potentially identifying information. These are outlined in the data specification
+documentation in the relevant definition fields.
+
+**Re-upload of the extracted file is not advised due to the suppressed data.**
 
 .. _data-extract-all-specifications:
 
@@ -159,18 +180,23 @@ This downloads a file that is a combination of all of the extensions listed at h
 The resulting file cannot be uploaded. This is a download only format. It is based
 on the most recent version used by either the core specification or for both current extensions and unsupported past extensions.
 
-Please note: Fields with changes to their specifications between versions will show twice in these META files.
+**Please note:** Where dataset specifications have fields with the same name but
+different definitions, there will be multiple columns for that field in these META files.
 
 These are:
 
-  "**Referral Date**": In versions 2 and 3, Referral date was not required. In version 4 onwards
-  it is required. For episodes where no referral date was supplied,
-  the column corresponding to versions 2 (or 3) will be blank, whereas the column
-  corresponding to version 4 will have the missing date value '09099999'. If you
-  are using the data from a file exported in the META format for re-upload, use the appropriate column for
-  the specification version you are uploading. (See `Referral Date Definition <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#referral-date>`_).
+  "**Referral Date**": The Referral Date was made mandatory in the Version 4 core
+  PMHC specification. In earlier versions it was not required. For episodes where
+  no referral date was supplied, the column corresponding to versions prior to 4
+  will be blank, whereas the column corresponding to version 4 onwards will have
+  the missing date value ‘09099999’.
 
-  "**Funding Source**":
+  "**Funding Source**": The Service Contact Funding Source field was introduced
+  into the core PMHC specification in version 4. There were two earlier extension
+  datasets ('headspace 2.0', 'WAYBACK 3.0') that had this field with different
+  values; these will show in a separate column to any values from versions and
+  extensions from version 4 onwards.
+
 
 
 .. _data-extract-options:
@@ -186,16 +212,17 @@ Include data without associated dates
 As the query is date based, the following data will by default, not be included
 in the extract:
 
-   * The start date of an episode is derived from the date of the first service contact.
-     Therefore, if an episode doesn't have any associated service contacts, there will be
-     no start date for the episode and they will not be included in the data extract
-   * Clients that don't have any associated episodes, or who are associated
-     with an episode with no service contacts also will not be included in the data extract
-   * Practitioners who are not associated with a service contact will not be included
-     in the data extract
+   * **Inactive Episodes**: An episode's start date is determined by its first
+     recorded service contact. Consequently, any episode without associated
+     service contacts has no start date and will be excluded from the extract.
+   * **Inactive Clients**: Clients who have no episodes or intakes, or whose
+     episodes do not contain any service contacts or collection occasions, will
+     not be included in the data extract.
+   * **Inactive practitioners**: Practitioners who are not linked to any service
+     contact will be left out of the data extract.
 
-If you would like to include these inactive episodes, inactive clients and
-inactive practitioners check the checkbox labelled **Include data without associated dates**.
+If you would like to include these inactive episodes, inactive clients, and
+inactive practitioners, check the checkbox labelled **Include data without associated dates**.
 
 .. _data-extract-all-epsiode-data:
 
@@ -204,6 +231,6 @@ Include all data associated with matched episodes
 
 If you would like to include all the associated data for active episodes
 within the data extract date range, check the checkbox labelled
-**Include all data associated with matched episodes**. The data extract will
-then also include ALL service contacts and ALL measures including those that are
-outside the data extract date range.
+**Include all data associated with matched episodes**. This setting expands the
+data extract for those active episodes to include ALL service contacts and ALL measures,
+including those that are outside the data extract date range.
