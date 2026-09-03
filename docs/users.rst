@@ -376,12 +376,15 @@ You can edit and assign extra :ref:`roles <roles>`  to an existing user by follo
    Multiple roles can be assigned and these roles are shown as blue ticks
 
    * **Add** a role by clicking the empty checkbox
-   * **Remove** a role by clicking the selected checkbox
-   * **Remove all** roles at an organisation by clicking the |remove-all| button in the Actions column
-
-Click the 'Include inactive organisations' checkbox to edit roles at an inactive organisation
+   * **Remove** a role by clicking the selected checkbox, or in the Actions column, clicking the |remove-all| button will remove all the user's
+     roles at that organisation.
 
 .. |remove-all| image:: screen-shots/remove-all-button.png
+
+If this process will remove a user from the PMHC MDS, you will recieve a warning. Click the blue **Continue** button to delete this client. (or click the **Cancel** button if you decide not toremove this user)
+
+.. figure:: screen-shots/user-remove-confirm.png
+   :alt: PMHC MDS Removing User Confirmation
 
 7. All changes are automatically saved
 8. The system will update overnight and notify the user of any role changes then
