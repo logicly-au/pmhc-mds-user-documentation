@@ -374,7 +374,7 @@ longest are displayed at the top.
 Auditing Users
 ^^^^^^^^^^^^^^
 
-User managers should periodically check this table and :ref:`remove all roles <delete_user>`
+User managers should periodically check this table and :ref:`remove all roles <delete-user>`
 from any user who no longer requires access.
 
 A monthly 'PMHC-MDS User Audit Reminder Notification' email will be sent to users

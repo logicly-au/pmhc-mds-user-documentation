@@ -392,7 +392,7 @@ If this process will remove a user from the PMHC MDS, you will recieve a warning
 If a user has no remaining roles for any organisations they will be restricted from
 seeing any additional tabs when logging into the PMHC MDS.
 
-.. _delete_user:
+.. _delete-user:
 
 Removing a user
 ^^^^^^^^^^^^^^^

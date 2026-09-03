@@ -3,10 +3,11 @@
 User Guide Change log
 =====================
 
-23/06/2023
+31/08/2023
 ----------
 
-* Updated :ref:`delete_user`
+* Updated :ref:`delete-user`
+* Updated :ref:`edit-role`
 
 10/06/2026
 ----------
