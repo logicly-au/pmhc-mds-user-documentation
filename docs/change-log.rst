@@ -3,6 +3,14 @@
 User Guide Change log
 =====================
 
+10/09/2026
+----------
+
+
+* Added :ref:`notes_group_by_site`
+* Updated :ref:`category-m1`
+* Updated :ref:`category-m8-1`
+
 10/06/2026
 ----------
 
