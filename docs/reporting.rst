@@ -2479,8 +2479,6 @@ Strictly speaking, the Episode Counts for the 5 Client Remoteness categories are
 But to reduce confusion the episode counts have been rounded. Unfortunately this may
 increase confusion because it makes it harder to understand the change percentages.
 
-:ref:`notes_group_by_site` are relevant to this report
-
 .. _notes_group_by_site:
 
 Notes on Group By Site
@@ -2548,7 +2546,7 @@ in a Group By Site mode is the same as the corresponding not Grouped By Site mod
 (Note that  service contacts are unique at the site level so do not need to be
 adjusted in this way.)
 
-For example the B2 — Activity Report: Episode Characteristics by Program Type
+For example the :ref:`category-b2`
 would count Program Type against the two sites as follows:
 
 +---------+----------------+------------+--------------------+
@@ -2560,7 +2558,7 @@ would count Program Type against the two sites as follows:
 +---------+----------------+------------+--------------------+
 | B       | PT2            | 1          | 3                  |
 +---------+----------------+------------+--------------------+
-| Total   |                | 2          | 17                 |
+| Total                    | 2          | 17                 |
 +---------+----------------+------------+--------------------+
 
 .. _example-episode-data-element-options:
@@ -2570,7 +2568,7 @@ Detailed example of Episode duration (days) and Number of service contacts in an
 
 One of the :ref:`episode-data-element-options` for the :ref:`category-m8-1` - works
 differently to the general case above. Conversely, episode duration works like
-all the rest:
+all the rest.
 
 Episode X starts on Jan 1 and ends on Jan 12 and has a duration of 12 days.
 Episode Y starts on Jan 9 and ends on Jan 14 and therefore has a duration of 6
@@ -2610,7 +2608,7 @@ for the Total/No Group By reported above. But Site B only contributed to
 +----------+--------+---------+-------------------------------+-------------------------------------------+
 | PO 1     | B      | Jan     | 6 (= 6 days / 1 episode)      | 7 (= 7 contacts / 1 episode)              |
 +----------+--------+---------+-------------------------------+-------------------------------------------+
-| Total    |        |         | 9                             | 8.5                                       |
+| Total                       | 9                             | 8.5                                       |
 +----------+--------+---------+-------------------------------+-------------------------------------------+
 
 Episode duration has been implemented in this manner as there was not seen to be
