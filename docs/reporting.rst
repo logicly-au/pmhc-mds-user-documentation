@@ -121,7 +121,7 @@ delivered through the Australian Government Mental Health Response to Bushfire T
 MMHC
 ++++
 
-Mental health services delivered through the Medicare Mental Health Care 
+Mental health services delivered through the Medicare Mental Health Care
 Program. (See `PMHC Program Type <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#program-type>`_).
 
 .. _universal-aftercare:
@@ -739,7 +739,7 @@ organisation excludes client from this count.
 A13 — Data quality report — Universal Aftercare episodes with no linked UA episode record
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-The A13 provides an overview of the number of episodes that have the 
+The A13 provides an overview of the number of episodes that have the
 Universal Aftercare Program Type but no linked UA Episode record.
 
 Key specifications:
@@ -758,15 +758,15 @@ that deals with the standard PMHC Episode elements with missing data.
 
 Key specifications:
 
-* Data in this report is associated with an Active UA Episode; however, for this 
-  report there is slightly tighter criteria regarding what it means to be active. 
-  Rather than the usual one or more 
-  `attended service contact <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#attended-service-contact>`_ 
-  during the reporting period, for the A14, there must be at least TWO such contacts (i.e. non-no shows) during the reporting period. 
-* The episode must appear in the `UA Episode table <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/data-model-and-specifications.html#ua-episode-data-elements>`_. 
+* Data in this report is associated with an Active UA Episode; however, for this
+  report there is slightly tighter criteria regarding what it means to be active.
+  Rather than the usual one or more
+  `attended service contact <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#attended-service-contact>`_
+  during the reporting period, for the A14, there must be at least TWO such contacts (i.e. non-no shows) during the reporting period.
+* The episode must appear in the `UA Episode table <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/data-model-and-specifications.html#ua-episode-data-elements>`_.
   This number is reported in the column labelled 'Number of active episodes in period'.
-* The 'Number of active episodes with missing data' column counts, separately for each of the UA Episode record elements, 
-  how many episodes have the pertinent missing value code. For the elements "Method of Suicide Attempt" and "Primary Nominated Professional", 
+* The 'Number of active episodes with missing data' column counts, separately for each of the UA Episode record elements,
+  how many episodes have the pertinent missing value code. For the elements "Method of Suicide Attempt" and "Primary Nominated Professional",
   'Other' (code 98) is counted as a missing value as well as 'Not stated/Inadequately described' (code 99).
 * The '% Missing Data' column is a simple percentage of the active episodes that have missing data, calculated from the preceding two columns.
 
@@ -788,8 +788,8 @@ Key specifications:
   during the reporting period, for the A15, there must be at least TWO such contacts (i.e. non-no shows) during the reporting period.
 * The episode must appear in the `UA Episode table <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/data-model-and-specifications.html#ua-episode-data-elements>`_.
   This number is reported in the column labelled 'Number of active episodes in period'.
-* The 'Number of active episodes with missing data' column counts, separately for each of the UA Episode 
-  record elements, how many episodes have the pertinent missing value code. For both elements "Needs Identification" 
+* The 'Number of active episodes with missing data' column counts, separately for each of the UA Episode
+  record elements, how many episodes have the pertinent missing value code. For both elements "Needs Identification"
   and "Recommendation Out", 'Other' (code 98) is counted as a missing value as well as 'Not stated/Inadequately described' (code 99).
 * The '% Missing Data' column is a simple percentage of the active episodes that have missing data, calculated from the preceding two columns.
 
@@ -798,15 +798,15 @@ Key specifications:
 A16 — Volume of completed outcome measures
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-This report presents the number and percentage of active episodes for which outcome measures were collected. 
-For the most part it reports only completed (i.e. valid) measures. As well as overall totals that indicate 
+This report presents the number and percentage of active episodes for which outcome measures were collected.
+For the most part it reports only completed (i.e. valid) measures. As well as overall totals that indicate
 how many episodes have at least one outcome measure, it separately reports the
-K10+, the K5, SIDAS, WHO-5 and two groupings of the SDQ: the self report version completed by youths (SDQ-YR), 
+K10+, the K5, SIDAS, WHO-5 and two groupings of the SDQ: the self report version completed by youths (SDQ-YR),
 and the number completed by parents (the sum of SDQ-PC and SDQ-PY versions).
 
 It also reports counts and percentages of active episodes by the `collection reason <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/data-model-and-specifications.html#collection-occasion-reason>`_: Initial, Review or Final Measures. A single episode may be represented in any or all of these collection reason columns.
 
-The A16 allows data to be grouped by and filtered by entities at the National, State/Territory, PHN and PO levels. 
+The A16 allows data to be grouped by and filtered by entities at the National, State/Territory, PHN and PO levels.
 
 Key specifications:
 
@@ -1843,6 +1843,7 @@ Key specifications:
 * Service Contacts flagged as ‘No Show’ are included for this purpose.
 * A client’s wait time is defined as the time from referral date as recorded on the episode record to the
   first contact.
+* :ref:`notes_group_by_site` are relevant to this report.
 
 .. note::
    The M1 report was updated on 10/06/2026 to ignore the referral date on the intake record; it was also updated to include unattended as well as attended contacts.
@@ -1856,13 +1857,13 @@ Number and proportion of active clients, active episodes and service contacts by
 
 Key specifications:
 
-* Only `active clients <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#active-client>`__ 
+* Only `active clients <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#active-client>`__
   are reported
 * Only `active episodes <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#active-episode>`__ are reported.
   No distinction is made between Open and Completed Episodes
 * Service Contacts flagged as ‘No Show’ are not included for this purpose
 * Age is calculated at start of episode
-* A client can fall into multiple age groups because they may have multiple 
+* A client can fall into multiple age groups because they may have multiple
   episodes within the reporting period
 * Client age group based on Date of Birth, grouped to the following categories:
 
@@ -1873,8 +1874,8 @@ Key specifications:
 M3 — Activity Reports by Gender
 +++++++++++++++++++++++++++++++
 
-Number and proportion of active clients, active episodes and service contacts 
-by gender.  
+Number and proportion of active clients, active episodes and service contacts
+by gender.
 
 Key specifications:
 
@@ -1889,7 +1890,7 @@ Key specifications:
 M4 — Activity Reports by Aboriginal and Torres Strait Islander status
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-Number and proportion of active clients, active episodes and service contacts by ATSI status.  
+Number and proportion of active clients, active episodes and service contacts by ATSI status.
 
 Key specifications:
 
@@ -1932,8 +1933,8 @@ Key specifications:
 M7 — Monthly service activity
 +++++++++++++++++++++++++++++
 
-Count of active clients, new episodes, active episodes, closed episodes 
-and service contacts in the defined reporting period.  
+Count of active clients, new episodes, active episodes, closed episodes
+and service contacts in the defined reporting period.
 
 Key specifications:
 
@@ -1959,10 +1960,65 @@ Key specifications:
 
 * Episode end date is within reporting period.
 * The episode has at least one attended service contact (inside or outside the reporting period).
-* Options:
+* :ref:`episode-data-element-options`:
 
-  * Episode duration (days) is the number of calendar dates between the episode start date and end date inclusive.
-  * Number of service contacts includes all service contacts regardless of attendance.
+  * :ref:`episode-duration-days`.
+  * :ref:`number-service-contacts-in-episode`.
+
+* :ref:`notes_group_by_site` are relevant to this report.
+
+.. _episode-data-element-options:
+
+Episode data element options
+''''''''''''''''''''''''''''
+
+.. _episode-duration-days:
+
+Episode duration (days)
+"""""""""""""""""""""""
+
+Episode duration is defined as the number of calendar dates between the episode
+start date and end date inclusive.
+
+Within the PMHC MDS an episode occurs at a Provider Organisation, therefore when
+there is no Group By or when Grouping By State/Territory, PHN or Provider Organisation
+the calculation is simply as per the definition.
+
+However, when Grouping By Site the episode duration reported against a particular
+site could be either the portion of the episode that occurred for that site (which
+could be the same or shorter than the overall episode duration), or use the overall
+episode duration (which is the same method as other Group Bys).
+
+For the :ref:`M8 report <category-m8-1>`, it was decided that the overall episode
+duration would be used as there was not seen to be value in calculating and
+summarising, for example, shorter durations that only cover the period during
+which there were contacts delivered by a particular site.
+
+This is different to the decision made regarding the number of service contacts
+described below.
+
+For a comprehensive worked example of what this means please refer to
+:ref:`example-episode-data-element-options`.
+
+.. _number-service-contacts-in-episode:
+
+Number of service contacts in an episode
+""""""""""""""""""""""""""""""""""""""""
+All service contacts in an episode are counted, regardless of attendance (No show).
+
+Within the core PMHC MDS data specification a service contact occurs at the
+Provider Organisation to which the Episode belongs. Therefore when there is no
+Group By or when Grouping By State/Territory, PHN or Provider Organisation the
+calculation is simply as per the definition.
+
+However, when Grouping By Site, it was decided that it was meaningful to split
+an episode and report only contacts actually delivered by the Site(s) against
+which the statistics were reported. This is different to the decision made
+regarding Episode Duration above.
+
+For a comprehensive worked example of what this means please refer to
+:ref:`example-episode-data-element-options`.
+
 
 .. _category-m9:
 
@@ -2029,8 +2085,8 @@ July 1 of the earlier calendar year until either the end of the selected
 reporting period or the date the report was generated if the current quarter
 is selected.
 
-Data in this report is all associated with episodes that appear in the 
-`UA Episode table <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/data-model-and-specifications.html#ua-episode-data-elements>`_, 
+Data in this report is all associated with episodes that appear in the
+`UA Episode table <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/data-model-and-specifications.html#ua-episode-data-elements>`_,
 - the Universal Aftercare Program Type on the Episode record is NOT sufficient.
 
 The first section of the report explicitly details the dates covered by the
@@ -2138,20 +2194,20 @@ no corresponding profile for the Year To Date.
 
 **Hospital ED**
 
-    * `7: Emergency Department`
+  * `7: Emergency Department`
 
 **Hospital Ward**
 
-    * `5: Public Hospital`
-    * `6: Private Hospital`
+  * `5: Public Hospital`
+  * `6: Private Hospital`
 
 **Community Mental Health Service**
 
-    * `4: Public mental health service`
+  * `4: Public mental health service`
 
 **Other**
 
-    * All the other codes (1-3,8-21,98,99)
+  * All the other codes (1-3,8-21,98,99)
 
 Service Contact Data
 ''''''''''''''''''''
@@ -2185,7 +2241,7 @@ Information about collection occasions - including dates and reasons - is
 available `in the Collection Occasion specification documentation <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/data-model-and-specifications.html#collection-occasion-data-elements>`_.
 A critical feature of a collection occasion is its "reason", which is actually
 about the point in the clients' journey when the measure was taken. For
-reporting purposes this can be either "initial" (i.e. start of the episode), 
+reporting purposes this can be either "initial" (i.e. start of the episode),
 "review" (i.e. taken during the course of the episdoe) or
 "final" (end of the episode). Note however that the collection occasion dates
 need not be the same as the episode start and end dates. Measures can be
@@ -2240,13 +2296,13 @@ Safety Plan Update / Development
 ''''''''''''''''''''''''''''''''
 
 .. note::
-   The W1 report was updated on 10/06/2026 so that the Safety Plan KPI is more 
-   compatible with other indicators.  Since its introduction as part of The 
-   Way Back trial, this KPI have been based on the number of Safety Plans 
-   recorded (that is, ‘collection occasions’). On review, it has been 
-   determined that a more appropriate basis for this KPI is the number of 
-   episodes that include at least one Safety Plan. The presence of at least 
-   one Safety Plan within an episode is sufficient to meet the KPI. 
+   The W1 report was updated on 10/06/2026 so that the Safety Plan KPI is more
+   compatible with other indicators.  Since its introduction as part of The
+   Way Back trial, this KPI have been based on the number of Safety Plans
+   recorded (that is, ‘collection occasions’). On review, it has been
+   determined that a more appropriate basis for this KPI is the number of
+   episodes that include at least one Safety Plan. The presence of at least
+   one Safety Plan within an episode is sufficient to meet the KPI.
 
 The relevant episodes here are those where:
 
@@ -2263,7 +2319,7 @@ The numerator is the subset of these episodes for which:
   first attended service contact.
 * the collection occasion has a corresponding
   `UA Plan - Plan Type <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/data-model-and-specifications.html#plan-type>`_
-  equal to `1: Safety Plan`. 
+  equal to `1: Safety Plan`.
 
 .. note::
    Prior to September 2022 it had to be on or before the date of the second attended service contact.
@@ -2274,13 +2330,13 @@ Support Plan Development
 ''''''''''''''''''''''''
 
 .. note::
-   The W1 report was updated on 10/06/2026 so that the Support Plan KPI is more 
-   compatible with other indicators.  Since its introduction as part of The 
-   Way Back trial, this KPI have been based on the number of Support Plans 
-   recorded (that is, ‘collection occasions’). On review, it has been 
-   determined that a more appropriate basis for this KPI is the number of 
-   episodes that include at least one Support Plan. The presence of at least 
-   one Support Plan within an episode is sufficient to meet the KPI. 
+   The W1 report was updated on 10/06/2026 so that the Support Plan KPI is more
+   compatible with other indicators.  Since its introduction as part of The
+   Way Back trial, this KPI have been based on the number of Support Plans
+   recorded (that is, ‘collection occasions’). On review, it has been
+   determined that a more appropriate basis for this KPI is the number of
+   episodes that include at least one Support Plan. The presence of at least
+   one Support Plan within an episode is sufficient to meet the KPI.
 
 The relevant episodes here are those where:
 
@@ -2297,7 +2353,7 @@ The numerator is the subset of these episodes for which
   initial attended service contact.
 * the collection occasion has a corresponding
   `UA Plan - Plan Type <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/data-model-and-specifications.html#plan-type>`_
-  equal to `2: Support Plan`. 
+  equal to `2: Support Plan`.
 
 .. _reporting_considerations:
 
@@ -2422,6 +2478,177 @@ Strictly speaking, the Episode Counts for the 5 Client Remoteness categories are
 
 But to reduce confusion the episode counts have been rounded. Unfortunately this may
 increase confusion because it makes it harder to understand the change percentages.
+
+.. _notes_group_by_site:
+
+Notes on Group By Site
+----------------------
+
+Generally when PMHC MDS reports group by Site, the calculation typically includes an episode that is delivered by multiple sites in the calculations for every site. Each episode is treated as an indivisible whole and an episode will be counted against multiple sites if at least one contact for the episode was delivered by multiple sites. When reporting the totals, a unique count of episodes is provided, not the sum of the individual rows. Hence the total number of episodes reported in a Group By Site mode is the same as the corresponding not Grouped By Site mode.
+
+For a more detailed, worked example of what this means please refer to :ref:`example-group-by-site`.
+
+The :ref:`category-m8-1` is an exception when Grouping By Site for
+:ref:`episode-duration-days` and :ref:`number-service-contacts-in-episode`.
+
+.. _example-group-by-site:
+
+Detailed examples of Group By Site
+++++++++++++++++++++++++++++++++++
+
+Consider two episodes X and Y. Episode X is delivered exclusively by Site A. Episode Y is delivered partly at Site A and partly at Site B. There are a total of 17 service contacts between the two episodes.
+
++----------+--------+-----------+---------------+--------------+
+| PO       | Site   | Episode   | Program Type  | Contact Date |
++==========+========+===========+===============+==============+
+| PO 1     | A      | X         | PT1           | Jan 1        |
++----------+--------+-----------+---------------+--------------+
+| PO 1     | A      | X         | PT1           | Jan 2        |
++----------+--------+-----------+---------------+--------------+
+| PO 1     | A      | X         | PT1           | Jan 3        |
++----------+--------+-----------+---------------+--------------+
+| PO 1     | A      | X         | PT1           | Jan 4        |
++----------+--------+-----------+---------------+--------------+
+| PO 1     | A      | X         | PT1           | Jan 5        |
++----------+--------+-----------+---------------+--------------+
+| PO 1     | A      | X         | PT1           | Jan 6        |
++----------+--------+-----------+---------------+--------------+
+| PO 1     | A      | X         | PT1           | Jan 8        |
++----------+--------+-----------+---------------+--------------+
+| PO 1     | A      | X         | PT1           | Jan 10       |
++----------+--------+-----------+---------------+--------------+
+| PO 1     | A      | X         | PT1           | Jan 11       |
++----------+--------+-----------+---------------+--------------+
+| PO 1     | A      | X         | PT1           | Jan 12       |
++----------+--------+-----------+---------------+--------------+
+| PO 1     | B      | Y         | PT2           | Jan 9        |
++----------+--------+-----------+---------------+--------------+
+| PO 1     | B      | Y         | PT2           | Jan 10       |
++----------+--------+-----------+---------------+--------------+
+| PO 1     | A      | Y         | PT2           | Jan 11       |
++----------+--------+-----------+---------------+--------------+
+| PO 1     | A      | Y         | PT2           | Jan 12       |
++----------+--------+-----------+---------------+--------------+
+| PO 1     | A      | Y         | PT2           | Jan 13       |
++----------+--------+-----------+---------------+--------------+
+| PO 1     | B      | Y         | PT2           | Jan 13       |
++----------+--------+-----------+---------------+--------------+
+| PO 1     | A      | Y         | PT2           | Jan 14       |
++----------+--------+-----------+---------------+--------------+
+
+Generally when PMHC MDS reports group by Site, the calculation typically includes
+an episode that is delivered by multiple sites in the calculations for every site.
+Each episode is treated as an indivisible whole and an episode may be counted
+across multiple sites (i.e. at least one contact for the episode was delivered
+by that site). When reporting the totals, a unique count of episodes is provided,
+not the sum of the individual rows. Hence the total number of episodes reported
+in a Group By Site mode is the same as the corresponding not Grouped By Site mode.
+(Note that  service contacts are unique at the site level so do not need to be
+adjusted in this way.)
+
+For example the :ref:`category-b2`
+would count Program Type against the two sites as follows:
+
++---------+----------------+------------+--------------------+
+| Site    | Program Type   | Episodes   | Service Contacts   |
++=========+================+============+====================+
+| A       | PT1            | 1          | 10                 |
++---------+----------------+------------+--------------------+
+| A       | PT2            | 1          | 4                  |
++---------+----------------+------------+--------------------+
+| B       | PT2            | 1          | 3                  |
++---------+----------------+------------+--------------------+
+| Total                    | 2          | 17                 |
++---------+----------------+------------+--------------------+
+
+.. _example-episode-data-element-options:
+
+Detailed example of Episode duration (days) and Number of service contacts in an episode when grouping by Site
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+One of the :ref:`episode-data-element-options` for the :ref:`category-m8-1` - works
+differently to the general case above. Conversely, episode duration works like
+all the rest.
+
+Episode X starts on Jan 1 and ends on Jan 12 and has a duration of 12 days.
+Episode Y starts on Jan 9 and ends on Jan 14 and therefore has a duration of 6
+days. The number of contacts per episode at each site is summarised:
+
++----------+--------+-----------+---------------------+
+| PO       | Site   | Episode   | Number of contacts  |
++==========+========+===========+=====================+
+| PO 1     | A      | X         | 10                  |
++----------+--------+-----------+---------------------+
+| PO 1     | A      | Y         | 4                   |
++----------+--------+-----------+---------------------+
+| PO 1     | B      | Y         | 3                   |
++----------+--------+-----------+---------------------+
+
+At the PO level the :ref:`M8 report <category-m8-1>` would summarise the mean
+values for these episodes (albeit on different screens) as follows:
+
++----------+---------+--------------------------------+-------------------------------------------+
+| PO       | Month   | :ref:`episode-duration-days`   | :ref:`number-service-contacts-in-episode` |
++==========+=========+================================+===========================================+
+| PO 1     | Jan     | 9                              | 8.5                                       |
++----------+---------+--------------------------------+-------------------------------------------+
+
+Episode duration is calculated as (12 + 6)/2 = 9
+and number of contacts as (10 + 7)/2 = 8.5.
+
+Site A contributes to all episodes, so its summary statistics are the same as
+for the Total/No Group By reported above. But Site B only contributed to
+1 episode so it has different summary statistics:
+
+
++----------+--------+---------+-------------------------------+-------------------------------------------+
+| PO       | Site   | Month   | :ref:`episode-duration-days`  | :ref:`number-service-contacts-in-episode` |
++==========+========+=========+===============================+===========================================+
+| PO 1     | A      | Jan     | 9                             | 8.5                                       |
++----------+--------+---------+-------------------------------+-------------------------------------------+
+| PO 1     | B      | Jan     | 6 (= 6 days / 1 episode)      | 7 (= 7 contacts / 1 episode)              |
++----------+--------+---------+-------------------------------+-------------------------------------------+
+| Total                       | 9                             | 8.5                                       |
++----------+--------+---------+-------------------------------+-------------------------------------------+
+
+Episode duration has been implemented in this manner as there was not seen to be
+value in calculating and summarising, for example, shorter durations that only
+cover the period during which there were contacts delivered by a particular site -
+in this example the episode duration for Site A would drop to 8.5 days: Jan 1 - Jan 12
+(12 days for episode A) + Jan 11 - Jan 14 (5 days for episode B) gives (12+5)/2 = 8.5.
+
+By contrast, it was decided that it was meaningful to split an episode and report
+only contacts actually delivered by the site(s) against which the statistics were
+reported. Thus the number of contacts is calculated and summarised as follows:
+
++----------+---------+---------------------------------------------------------------------------------+--------------------------------------------------+
+| PO       | Site    | Number of contacts actually delivered by that site for all pertinent episodes   | Mean number of contacts                          |
++==========+=========+=================================================================================+==================================================+
+| PO 1     | A       | 10 (ep X) + 4 (ep Y)                                                            | 7 ( = (10 contacts + 4 contacts ) / 2 episodes)  |
++----------+---------+---------------------------------------------------------------------------------+--------------------------------------------------+
+| PO 1     | B       | 3 (ep Y)                                                                        | 3 ( = 3 contacts / 1 episode)                    |
++----------+---------+---------------------------------------------------------------------------------+--------------------------------------------------+
+
+In the :ref:`M8 report <category-m8-1>` for :ref:`number-service-contacts-in-episode`,
+these sites would be summarised as
+
++----------+--------+---------------------------+-----------+-----------+-----------+-----------+
+| PO       | Site   | Total number of contacts  | Mean      | Median    | Minimum   | Maximum   |
++==========+========+===========================+===========+===========+===========+===========+
+| PO 1     | A      | 14                        | 7         | 7         | 4         | 10        |
++----------+--------+---------------------------+-----------+-----------+-----------+-----------+
+| PO 1     | 3      | 3                         | 3         | 3         | 3         | 3         |
++----------+--------+---------------------------+-----------+-----------+-----------+-----------+
+
+Note that no total is provided for this view. The rationale is that the total
+based on these calculations would appear to be reporting the length of complete
+episodes, but would only be summarising the shorter durations at each site. The
+total for Mean in this case would be (7 + 3)/2 = 5, a severe distortion of the
+actual observed mean episode length of 8.5 contacts per episode for the PO as a
+whole. Not only is this misleading, but it is inconsistent with the totals reported
+at PO level with no Site Group By Site. To minimise confusion both the totals and
+the chart based upon the totals for this view have been suppressed.
+
 
 .. _reporting_inputs:
 

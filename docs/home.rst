@@ -178,8 +178,8 @@ Double check that you are using the correct email address.
 You can reset your password by following the **Forgot Password?** link on the
 `PMHC-MDS system home page <https://pmhc-mds.net/>`_ (next to **Sign in** button).
 
-   .. figure:: screen-shots/account-password-reset-link.png
-      :alt: PMHC MDS forgot password link
+.. figure:: screen-shots/account-password-reset-link.png
+   :alt: PMHC MDS Forgot Password Link
 
 For more information, follow the the steps outlined at `Forgotten Password <https://docs.logicly.com.au/en/latest/account-management/index.html#password-expiry-notifications>`_.
 
@@ -195,8 +195,8 @@ Account Blocked
 To ensure security, the system blocks users who make too many incorrect attempts
 to access their account on the PMHC MDS.
 
-   .. figure:: screen-shots/account-blocked.png
-      :alt: PMHC MDS Account Blocked
+.. figure:: screen-shots/account-blocked.png
+   :alt: PMHC MDS Account Blocked
 
 When this occurs, an automated email will be sent to the email address the
 PMHC MDS has on file for the user.

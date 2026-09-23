@@ -38,15 +38,15 @@ You can upload data files through the upload tab, by following these steps:
    unless you are allowed to upload to more than one PHN which will allow you to
    select the PHN whose data you are uploading
 
-   .. figure:: screen-shots/upload-org-selected.png
-      :alt: PMHC MDS Organisation Selected
+.. figure:: screen-shots/upload-org-selected.png
+   :alt: PMHC MDS Organisation Selected
 
 4. Click the blue **Select File** button
 5. Navigate to where the upload file is saved on your system. Select the file
    and click the grey **Open** button
 
-   .. figure:: screen-shots/upload-file-selected.png
-      :alt: PMHC MDS Upload File Selected
+.. figure:: screen-shots/upload-file-selected.png
+   :alt: PMHC MDS Upload File Selected
 
 6. Check to ensure you have selected the correct file by reviewing the file
    name now displayed below the **Select File** button
@@ -87,8 +87,8 @@ You can upload data files in Test Mode through the **Upload** tab, by following 
    name now displayed below the **Select File** button
 7. Click the **Upload as test data** checkbox on the right hand side
 
-   .. figure:: screen-shots/upload-test-mode.png
-      :alt: PMHC MDS Test Mode selected
+.. figure:: screen-shots/upload-test-mode.png
+   :alt: PMHC MDS Test Mode selected
 
 8. Click the green **Upload** button
 
@@ -108,17 +108,17 @@ Viewing Previous Uploads
 
 The PMHC MDS allows you to review previous uploads.
 
-   .. figure:: screen-shots/upload-previous.png
-      :alt: PMHC MDS Status of Previous Uploads
+.. figure:: screen-shots/upload-previous.png
+   :alt: PMHC MDS Status of Previous Uploads
 
 When an upload has been completed, irregardless of whether it validated successfully
 or not, the upload will be added to the table.
 
 The **Status of Previous Uploads** table refreshes once files finish the validation process. Types of status results are:
 
-  * **accept** - the file is currently going through the validation process
-  * **complete** - the file has successfully passed the validation process
-  * **error** - the file has returned errors through the validation process. Please review the error messages and correct the data to upload again
+* **accept** - the file is currently going through the validation process
+* **complete** - the file has successfully passed the validation process
+* **error** - the file has returned errors through the validation process. Please review the error messages and correct the data to upload again
 
 Further discussion about the error messages can be found at :ref:`upload-error-messages`.
 
