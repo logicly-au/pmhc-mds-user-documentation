@@ -2655,4 +2655,4 @@ the chart based upon the totals for this view have been suppressed.
 Inputs to help replicate system generated reports
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-This section has been moved to https://docs.pmhc-mds.com/data-specifications.html#inputs-to-help-replicate-system-generated-reports.
+Please refer to https://docs.pmhc-mds.com/data-specifications.html#inputs-to-help-replicate-system-generated-reports.
