@@ -6,21 +6,26 @@ User Guide Change log
 10/09/2026
 ----------
 
-
 * Added :ref:`notes_group_by_site`
 * Updated :ref:`category-m1`
 * Updated :ref:`category-m8-1`
 
+31/08/2026
+----------
+
+* Updated :ref:`delete-user`
+* Updated :ref:`edit-role`
+
 10/06/2026
 ----------
 
-* :ref:`w1_safety_plan` and :ref:`w1_support_plan` have been updated to bring 
+* :ref:`w1_safety_plan` and :ref:`w1_support_plan` have been updated to bring
   the Safety Plan and Support Plan KPIs in line with other indicators. More
   information is available within the documentation for those indicators.
 
-* :ref:`category-m1` has been redefined to calculate client wait 
-  time as the number of days between referral date as recorded on the episode 
-  record and the date of the first contact, whether attended or not. 
+* :ref:`category-m1` has been redefined to calculate client wait
+  time as the number of days between referral date as recorded on the episode
+  record and the date of the first contact, whether attended or not.
 
 17/12/2025
 ----------
