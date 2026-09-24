@@ -3,7 +3,7 @@
 User Guide Change log
 =====================
 
-31/08/2023
+31/08/2026
 ----------
 
 * Updated :ref:`delete-user`
