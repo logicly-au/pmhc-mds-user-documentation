@@ -18,7 +18,7 @@ role please email the PMHC Helpdesk at support@pmhc-mds.com.
 After navigating to the **Data Entry** tab, you will be presented a table of clients.
 
 .. figure:: screen-shots/clients.png
-   :alt: Data Entry tab View
+   :alt: **Data Entry** tab View
 
 .. _client-data:
 
@@ -51,14 +51,14 @@ information that is available.
 
 To filter the listed clients:
 
-  1. Click the grey **Filters** button. This will open a field in which to enter
+1. Click the grey **Filters** button. This will open a field in which to enter
      text
 
-     .. figure:: screen-shots/client-filter-fields.png
-        :alt: Client Data Search Results Filtered
+.. figure:: screen-shots/client-filter-fields.png
+   :alt: Client Data Search Results Filtered
 
-  2. Type an appropriate filter into any of the fields
-  3. Click the blue **Apply** button
+2. Type an appropriate filter into any of the fields
+3. Click the blue **Apply** button
      (or click the **Cancel** button if you decide not to filter the client data)
 
 You can view the applied filters at the top of the filtered client data table.
@@ -97,7 +97,7 @@ available on the **Data Entry** tab, by following these steps:
 
 4. Click the **Details** tab for more information about the client
 
-A page will display the client's details as recorded via the `Client Data Elements <https://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#client-data-elements>`_.
+A page will display the client's details as recorded via the `Client Data Elements <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#client-data-elements>`_.
 
 .. figure:: screen-shots/client-view-details.png
    :alt: Client Data Details View
@@ -114,11 +114,11 @@ available on the **Data Entry** tab, by following these steps:
 2. From the **Client Search Table**, click the **Client Key**
 3. Click the **Details** tab, to view client's details
 4. Click the **Edit Details** tab
-5. Update the client's details. Mandatory fields are marked with an * (Specification `Client Data Elements <https://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#client-data-elements>`_)
+5. Update the client's details. Mandatory fields are marked with an * (Specification `Client Data Elements <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#client-data-elements>`_)
 6. **Please note:** You can edit the **Client Key** from this screen. See :ref:`edit-client-key`
 
-    .. figure:: screen-shots/client-view-edit.png
-       :alt: Client Data Edit Details
+.. figure:: screen-shots/client-view-edit.png
+   :alt: Client Data Edit Details
 
 7. **Please note:** If you edit the **Date of Birth** or **Gender** you will be
    required to update the **Statistical Linkage Key** field.
@@ -126,8 +126,8 @@ available on the **Data Entry** tab, by following these steps:
    The SLK is generated on your device, the names used are not stored or
    transmitted over the network.
 
-    .. figure:: screen-shots/client-view-generate-slk-edit.png
-       :alt: Client Data Generated Client SLK Edit
+.. figure:: screen-shots/client-view-generate-slk-edit.png
+   :alt: Client Data Generated Client SLK Edit
 
 8. Click the blue **Save** button. (If you decide not to save changes, you can
    navigate away from this screen)
@@ -135,12 +135,12 @@ available on the **Data Entry** tab, by following these steps:
 You will receive confirmation that the client's details have been saved, and it
 will now be display the updated details in the **Clients View Details** tab.
 
-        .. figure:: screen-shots/client-data-saved.png
-           :alt: Client Data Saved Successfully
+.. figure:: screen-shots/client-data-saved.png
+   :alt: Client Data Saved Successfully
 
 If you receive an error message, the data will need to be corrected before the
 record is saved and added to the PMHC MDS.
-See Validation Rules - `Client <https://docs.pmhc-mds.com/en/v1/data-specification/validation-rules.html#client-current-validations>`_.
+See Validation Rules - `Client <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#client>`__.
 
 .. _edit-client-key:
 
@@ -153,8 +153,8 @@ available on the **Data Entry** tab, by following these steps:
 1. Return to step five when :ref:`edit-client`
 2. From the **Client Edit Details** tab, click the **Edit Key** button
 
-       .. figure:: screen-shots/client-view-edit-key.png
-          :alt: Client Data Edit Client Key
+.. figure:: screen-shots/client-view-edit-key.png
+   :alt: Client Data Edit Client Key
 
 3. Type in the new client key and click **Next**
 4. Double check the new key is correct and click **Save**. (If it is incorrect,
@@ -164,14 +164,17 @@ available on the **Data Entry** tab, by following these steps:
 You will receive confirmation that the client's key has been saved, and the screen
 will now be displaying the updated client key details in the **Clients View Details** tab.
 
-       .. figure:: screen-shots/client-view-key-saved.png
-          :alt: Client Key Saved Successfully
+.. figure:: screen-shots/client-view-key-saved.png
+   :alt: Client Key Saved Successfully
 
 
 .. _add-client:
 
 Adding a New Client
 -------------------
+
+See the definition of a `Client <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#client>`__
+if you are not sure what data should be added as a client to the PMHC MDS.
 
 You can add a client through the :ref:`search-client`
 available on the **Data Entry** tab, by following these steps:
@@ -180,14 +183,14 @@ available on the **Data Entry** tab, by following these steps:
 2. Firstly double check the client is not already added
 3. Click the blue **Add New Client** button
 4. Choose the **Provider Organisation** from the drop down list
-5. Enter the client's details. Mandatory fields are marked with an * (Specification `Client Data Elements <https://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#client-data-elements>`_)
+5. Enter the client's details. Mandatory fields are marked with an * (Specification `Client Data Elements <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#client-data-elements>`_)
 6. **Please note:** With the **Statistical Linkage Key** field you can choose
    to **Enter** or **Generate** a client's SLK.
    The SLK is generated on your device, the names used are not stored or
    transmitted over the network.
 
-    .. figure:: screen-shots/client-view-generate-slk.png
-       :alt: Client Data Generate Client SLK
+.. figure:: screen-shots/client-view-generate-slk.png
+   :alt: Client Data Generate Client SLK
 
 7. Click the blue **Save** button. (If you decide not to add this client, you
    can simply navigate away from this screen)
@@ -198,12 +201,12 @@ available on the **Data Entry** tab, by following these steps:
 You will receive confirmation that the Client has been saved, and it will
 now be displaying the client's saved information in the **Clients View Details** tab.
 
-        .. figure:: screen-shots/client-data-saved.png
-           :alt: Client Data Saved Successfully
+.. figure:: screen-shots/client-data-saved.png
+   :alt: Client Data Saved Successfully
 
 If you receive an error message, the data will need to be corrected before the
 record is saved and added to the PMHC MDS.
-See Validation Rules - `Client <https://docs.pmhc-mds.com/en/v1/data-specification/validation-rules.html#client-current-validations>`_.
+See Validation Rules - `Client <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#client>`__.
 
 .. _delete-client:
 
@@ -229,15 +232,15 @@ Confirm Delete
 1. Click the blue **Confirm** button to delete this client.
    (or click the orange **Cancel** button if you decide not to delete this client data)
 
-  .. figure:: screen-shots/client-view-delete-confirm.png
-     :alt: Client Data Confirm Delete
+.. figure:: screen-shots/client-view-delete-confirm.png
+   :alt: Client Data Confirm Delete
 
 After you click **Confirm**, you will receive confirmation that the client has
 been deleted, and you will be redirected to the :ref:`search-client`, which
 will no longer display the deleted client.
 
-    .. figure:: screen-shots/client-view-delete-successful.png
-       :alt: Client Data Delete Successful
+.. figure:: screen-shots/client-view-delete-successful.png
+   :alt: Client Data Delete Successful
 
 .. _cannot-delete-client:
 
@@ -250,8 +253,8 @@ been deleted.
 
 1. Click on the link provided to view the Client's Episodes, or click the orange **Dismiss** button
 
-  .. figure:: screen-shots/client-view-delete-cannot.png
-     :alt: Client Data Cannot Delete
+.. figure:: screen-shots/client-view-delete-cannot.png
+   :alt: Client Data Cannot Delete
 
 See :ref:`delete-episode`.
 
@@ -294,7 +297,7 @@ A drop down list is available to view:
 
 4. To view the client's intake details, click the blue **Intake Key**
 
-.. figure:: screen-shots/client-intakes-details.png
+.. figure:: screen-shots/client-intakes-view.png
    :alt: Client Intakes Details View
 
 A page will display the client's intakes details as recorded via the
@@ -324,8 +327,8 @@ available on the **Data Entry** tab, by following these steps:
 You will receive confirmation that the client's intake details have been saved,
 and it will now be displaying these new details in the intake **View Details** tab.
 
-        .. figure:: screen-shots/client-data-saved.png
-           :alt: Client Intake Data Saved Successfully
+.. figure:: screen-shots/client-data-saved.png
+   :alt: Client Intake Data Saved Successfully
 
 If you receive an error message, the data will need to be corrected before the
 record is saved and added to the PMHC MDS.
@@ -342,8 +345,8 @@ available on the **Data Entry** tab, by following these steps:
 1. Return to step five when :ref:`edit-intake`
 2. From the Episode **Edit Details** tab, click the **Edit Key** button
 
-       .. figure:: screen-shots/client-intakes-edit-key.png
-          :alt: Episode Data Edit Episode Key
+.. figure:: screen-shots/client-intakes-edit-key.png
+   :alt: Episode Data Edit Episode Key
 
 3. Type in the new episode key and click **Next**
 4. Double check the new key is correct and click **Save**. (If it is incorrect,
@@ -353,14 +356,18 @@ available on the **Data Entry** tab, by following these steps:
 You will receive confirmation that the Intake's key has been saved, and the screen
 will now be displaying the updated intake key details in the Intake **View Details** tab.
 
-       .. figure:: screen-shots/client-intakes-edit-key-saved.png
-          :alt: Episode Key Saved Successfully
+.. figure:: screen-shots/client-intakes-edit-key-saved.png
+   :alt: Episode Key Saved Successfully
 
 
 .. _add-intake:
 
 Adding a Client's Intake data
 -----------------------------
+
+The collection of Intake data may not be required for all programs. See the
+definition of a `Intake <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#intake>`_
+if you are not sure what data should be added as an intake to the PMHC MDS.
 
 You can add a client's intake data through :ref:`view-client-details`
 available on the **Data Entry** tab, by following these steps:
@@ -370,14 +377,14 @@ available on the **Data Entry** tab, by following these steps:
 3. Click the **Add Intake** tab
    (If a client already has an open intake, the following warning message will be displayed at the top off the Add Intake form)
 
-  .. figure:: screen-shots/client-intakes-add-existing-open.png
-     :alt: Client Data Add Intake - Existing Open Intake Warning
+.. figure:: screen-shots/client-intakes-add-existing-open.png
+   :alt: Client Data Add Intake - Existing Open Intake Warning
 
 4. Enter the client's intake details. Mandatory fields are marked with an *
    (Specification `Intake Data Elements <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#intake-data-elements>`__)
 
-  .. figure:: screen-shots/client-intakes-add.png
-     :alt: Client Data Add Intake
+.. figure:: screen-shots/client-intakes-add.png
+   :alt: Client Data Add Intake
 
 For more information on the Intake data section see: `Intake Key Concept <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#intake>`__
 
@@ -387,8 +394,8 @@ For more information on the Intake data section see: `Intake Key Concept <https:
 You will receive confirmation that the client's intake details have been added,
 and it will now be displaying these new details in the intake **View Details** tab.
 
-        .. figure:: screen-shots/client-data-saved.png
-           :alt: Client Intake Data Saved Successfully
+.. figure:: screen-shots/client-data-saved.png
+   :alt: Client Intake Data Saved Successfully
 
 If you receive an error message, the data will need to be corrected before the
 record is saved and added to the PMHC MDS.
@@ -416,8 +423,8 @@ available on the **Data Entry** tab, by following these steps:
 You will receive confirmation that the client's intake details have been saved,
 and it will now be displaying these new details in the intake **View Details** tab.
 
-        .. figure:: screen-shots/client-data-saved.png
-           :alt: Client Intakes Data Saved Successfully
+.. figure:: screen-shots/client-data-saved.png
+   :alt: Client Intakes Data Saved Successfully
 
 If you receive an error message, the data will need to be corrected before the
 record is saved and added to the PMHC MDS.
@@ -448,15 +455,15 @@ Confirm Delete
 1. Click the blue **Confirm** button to delete this intake. (or click the
    orange **Cancel** button if you decide not to delete this intake data)
 
-  .. figure:: screen-shots/client-intakes-delete-confirm.png
-     :alt: Client Intake Data Confirm Delete
+.. figure:: screen-shots/client-intakes-delete-confirm.png
+   :alt: Client Intake Data Confirm Delete
 
 After you click **Confirm**, you will receive confirmation that the intake has
 been deleted, and you will be redirected to :ref:`View Intakes <view-intake>` where the
 intake will no longer be displayed.
 
-    .. figure:: screen-shots/client-intakes-delete-successful.png
-       :alt: Client Intake Data Delete Successful
+.. figure:: screen-shots/client-intakes-delete-successful.png
+   :alt: Client Intake Data Delete Successful
 
 .. _cannot-delete-intake:
 
@@ -470,8 +477,8 @@ been deleted.
 1. You can click on the link provided to view the client's intake measure,
    or click the orange **Dismiss** button
 
-  .. figure:: screen-shots/client-intakes-delete-cannot.png
-     :alt: Client Intake Data Cannot Delete
+.. figure:: screen-shots/client-intakes-delete-cannot.png
+   :alt: Client Intake Data Cannot Delete
 
 See :ref:`delete-intake-measure`.
 
@@ -490,10 +497,8 @@ Intake IAR-DST Measure
 Viewing a Client's Measure for an Intake
 ----------------------------------------
 
-PMHC MDS requires the use of the IAR-DST at intake.
-
 You can view a Client's Measure added to an Intake through :ref:`view-intake`
-available on the Data Entry tab, by following these steps:
+available on the **Data Entry** tab, by following these steps:
 
 1. Once :ref:`Viewing the Intake <view-intake>`.
 2. Scroll down to the IAR-DST Measures
@@ -510,42 +515,43 @@ A table will display all the Measures linked to this Client's Intake.
 
 A page will display the Measure details as recorded via the `Measures at Intake <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html?highlight=iar#measures-at-intake>`_.
 
-  * See `IAR-DST Measure data specifications <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html?highlight=iar#iar-dst>`_
+* See `IAR-DST Measure data specifications <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html?highlight=iar#iar-dst>`_
 
 .. _add-intake-measure:
 
-Adding an Client's Measures for a Intake
+Adding a Client's Measures for an Intake
 ----------------------------------------
 
-PMHC MDS requires the use of the IAR-DST at intake.
+The collection of Initial Assessment and Referral Decision Support Tool (`IAR-DST <https://iar-dst.online/#/>`__)
+data may not be required for all programs. Please see `Intake <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#intake>`_.
 
-Single or multiple measures can be added to an Intake.
+Single or multiple measures can be added to an Intake, but it is not expected to have more than one IAR-DST records for each intake.
 
 You can add a Client's Measure for a Intake through :ref:`view-intake`
-available on the Data Entry tab, by following these steps:
+available on the **Data Entry** tab, by following these steps:
 
 1. Once :ref:`view-intake`.
 2. Firstly double check the measure is not already showing.
-3. Click the Add New IAR-DST** tab.
+3. Click the **Add New IAR-DST** tab.
 
 .. figure:: screen-shots/client-intake-measures-add.png
    :alt: Client Data Add Collection Occasions
 
 4. Enter the Client's Measure details for the Intake. Mandatory fields are marked with an * .
 
-  * See `IAR-DST Measure data specifications <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html?highlight=iar#iar-dst>`_
+* See `IAR-DST Measure data specifications <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html?highlight=iar#iar-dst>`_
 
 5. Click the blue **Save** button. (If you decide not to add this client's measure, you can simply navigate away from this screen)
 
 You will receive confirmation that the Client's Measure details have been added,
 and it will now be displaying these new details in the View Measure tab.
 
-        .. figure:: screen-shots/client-data-saved.png
-           :alt: Client Data Saved Successfully
+.. figure:: screen-shots/client-data-saved.png
+   :alt: Client Data Saved Successfully
 
 If you receive an error message, the data will need to be corrected before the
 record is saved and added to the PMHC MDS.
-See Validation Rules - `IAR-DST <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#iar-dst>`_.
+See Validation Rules - `IAR-DST <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#iar-dst>`__.
 
 .. _edit-intake-measure:
 
@@ -553,7 +559,7 @@ Editing a Client's Measures for a Intake
 ----------------------------------------
 
 You can edit a Client's Measure for a Intake through :ref:`view-collection-occasion`
-available on the Data Entry tab, by following these steps:
+available on the **Data Entry** tab, by following these steps:
 
 1. Once :ref:`view-collection-occasion`.
 2. Scroll down to the IAR-DST measures.
@@ -561,22 +567,22 @@ available on the Data Entry tab, by following these steps:
 4. Click Edit IAR-DST.
 5. Update the Client's Measure details. Mandatory fields are marked with an * .
 
-  *Please note: You can edit the Measure Key from this screen. See* :ref:`edit-intake-measure-key`.
+*Please note: You can edit the Measure Key from this screen. See* :ref:`edit-intake-measure-key`.
 
-    .. figure:: screen-shots/client-intake-measures-edit.png
-       :alt: Client Intakes Edit Details
+.. figure:: screen-shots/client-intake-measures-edit.png
+   :alt: Client Intakes Edit Details
 
 6. Click the blue **Save** button. (If you decide not to save changes, you can simply navigate away from this screen)
 
 You will receive confirmation that the Client's Intakes details have been saved,
 and it will now be displaying these new details in the View Intake Details tab.
 
-        .. figure:: screen-shots/client-data-saved.png
-           :alt: Client Data Saved Successfully
+.. figure:: screen-shots/client-data-saved.png
+   :alt: Client Data Saved Successfully
 
 If you receive an error message, the data will need to be corrected before the
 record is saved and added to the PMHC MDS.
-See Validation Rules - `IAR-DST <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#iar-dst>`_.
+See Validation Rules - `IAR-DST <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#iar-dst>`__.
 
 .. _edit-intake-measure-key:
 
@@ -584,13 +590,13 @@ Editing a Measure Key
 ~~~~~~~~~~~~~~~~~~~~~
 
 You can edit an measure's identification key through :ref:`view-collection-occasion`
-available on the Data Entry tab, by following these steps:
+available on the **Data Entry** tab, by following these steps:
 
 1. In step four when :ref:`edit-collection-occasion-measure`.
 2. From the Edit IAR-DST measure details tab, click the **Edit Key** button.
 
-       .. figure:: screen-shots/client-intake-measures-edit-key.png
-          :alt: Client Data Edit Intake Measure Key
+.. figure:: screen-shots/client-intake-measures-edit-key.png
+   :alt: Client Data Edit Intake Measure Key
 
 3. Type in the new measure key and click 'Next'.
 4. Double check the new key is correct and click save. (If it is incorrect, click back to re-enter the key or click the 'cross' in the top right to cancel this key change request)
@@ -598,8 +604,8 @@ available on the Data Entry tab, by following these steps:
 You will receive confirmation that the Measure's key has been saved, and the screen
 will now be displaying the updated measure key details in the View Measure details tab.
 
-       .. figure:: screen-shots/client-intake-measures-edit-key-saved.png
-          :alt: Intake Key Saved Successfully
+.. figure:: screen-shots/client-intake-measures-edit-key-saved.png
+   :alt: Intake Key Saved Successfully
 
 .. _delete-intake-measure:
 
@@ -607,7 +613,7 @@ Deleting a Measure from a Intake
 --------------------------------
 
 You can delete a Client's Measure from a Intake through ':ref:`view-collection-occasion-measure`'
-available on the Data Entry tab, by following these steps:
+available on the **Data Entry** tab, by following these steps:
 
 1. Once :ref:`view-collection-occasion`.
 2. Scroll down to the IAR-DST Measures
@@ -616,19 +622,19 @@ available on the Data Entry tab, by following these steps:
 5. Click the red **Delete** button.
 6. You will be displayed a 'Confirm Deletion' screen.
 
-  **Please note: Once the measure is deleted, you will not be able to recover this measure data.**
+**Please note: Once the measure is deleted, you will not be able to recover this measure data.**
 
 7. Click the blue **Confirm** button to delete this measure. (or click the orange **Cancel** button if you decide not to delete this measure data)
 
-  .. figure:: screen-shots/client-intake-measures-delete-confirm.png
-     :alt: Client Intake Measure Data Confirm Delete
+.. figure:: screen-shots/client-intake-measures-delete-confirm.png
+   :alt: Client Intake Measure Data Confirm Delete
 
 After you click 'Confirm', you will receive confirmation that the measure has
 been deleted, and you will be redirected to the :ref:`View Measures <view-collection-occasion-measure>` where the
 measure will no longer be displayed.
 
-    .. figure:: screen-shots/client-intake-measures-delete-successful.png
-       :alt: Client Intake Measure Data Delete Successful
+.. figure:: screen-shots/client-intake-measures-delete-successful.png
+   :alt: Client Intake Measure Data Delete Successful
 
 
 .. _episode-data:
@@ -678,7 +684,7 @@ A drop down list is available to view:
 .. figure:: screen-shots/client-episodes-details.png
    :alt: Client Episodes Details View
 
-A page will display the client's episode details as recorded via the `Episode Data Elements <https://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#episode-data-elements>`__.
+A page will display the client's episode details as recorded via the `Episode Data Elements <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#episode-data-elements>`__.
 
 .. _edit-episode:
 
@@ -692,7 +698,7 @@ available on the **Data Entry** tab, by following these steps:
 2. From the client's **Episode** table, click the **Episode Key**
 3. Click the **Edit Details** tab
 4. Update the client's **Episode** details. Mandatory fields are marked with an *
-   (Specification `Episode Data Elements <https://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#episode-data-elements>`__)
+   (Specification `Episode Data Elements <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#episode-data-elements>`__)
 5. **Please note:** You can edit the **Episode Key** from this screen. See :ref:`edit-episode-key`
 
 .. note::
@@ -707,12 +713,12 @@ available on the **Data Entry** tab, by following these steps:
 You will receive confirmation that the client's episode details have been saved,
 and it will now be displaying these new details in the episode **View Details** tab.
 
-        .. figure:: screen-shots/client-data-saved.png
-           :alt: Client Episode Data Saved Successfully
+.. figure:: screen-shots/client-data-saved.png
+   :alt: Client Episode Data Saved Successfully
 
 If you receive an error message, the data will need to be corrected before the
 record is saved and added to the PMHC MDS.
-See Validation Rules - `Episode <https://docs.pmhc-mds.com/en/v1/data-specification/validation-rules.html#episode-current-validations>`__.
+See Validation Rules - `Episode <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#episode>`__.
 
 .. _edit-episode-key:
 
@@ -725,8 +731,8 @@ available on the **Data Entry** tab, by following these steps:
 1. Return to step five when :ref:`edit-episode`
 2. From the Episode **Edit Details** tab, click the **Edit Key** button
 
-       .. figure:: screen-shots/client-episodes-edit-key.png
-          :alt: Episode Data Edit Episode Key
+.. figure:: screen-shots/client-episodes-edit-key.png
+   :alt: Episode Data Edit Episode Key
 
 3. Type in the new episode key and click **Next**
 4. Double check the new key is correct and click **Save**. (If it is incorrect,
@@ -736,8 +742,8 @@ available on the **Data Entry** tab, by following these steps:
 You will receive confirmation that the Episode's key has been saved, and the screen
 will now be displaying the updated episode key details in the Episode **View Details** tab.
 
-       .. figure:: screen-shots/client-episodes-edit-key-saved.png
-          :alt: Episode Key Saved Successfully
+.. figure:: screen-shots/client-episodes-edit-key-saved.png
+   :alt: Episode Key Saved Successfully
 
 
 .. _add-episode:
@@ -745,20 +751,23 @@ will now be displaying the updated episode key details in the Episode **View Det
 Adding a Client's Episode data
 ------------------------------
 
+See the definition of an `Episode <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#episode>`_
+if you are not sure what data should be added as an episode of care to the PMHC MDS.
+
 You can add a client's episode data through :ref:`view-client-details`
 available on the **Data Entry** tab, by following these steps:
 
 1. Once :ref:`view-episodes`
 2. Check to ensure the client does not have any open episodes already showing.
-   (A client can only have `one open episode <https://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#key-concepts-episode>`__ at a provider organisation)
+   (A client can only have `one open episode <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#episode-data-elements>`__ at a provider organisation)
 3. Click the **Add Episode** tab
    (If a client already has an open episode, the following warning message will be displayed at the top off the Add Episode form)
 
-  .. figure:: screen-shots/client-episodes-add-existing-open.png
-     :alt: Client Data Add Episode Existing Open Episode Warning
+.. figure:: screen-shots/client-episodes-add-existing-open.png
+   :alt: Client Data Add Episode Existing Open Episode Warning
 
 4. Enter the client's episode details. Mandatory fields are marked with an *
-   (Specification `Episode Data Elements <https://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#episode-data-elements>`__)
+   (Specification `Episode Data Elements <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#episode-data-elements>`__)
 
 .. note::
    The Department has recently changed some reserve tags. For more information please see `System Tags <https://docs.pmhc-mds.com/data-specifications.html#supplementary-data-documentation>`__.
@@ -774,12 +783,12 @@ available on the **Data Entry** tab, by following these steps:
 You will receive confirmation that the client's episode details have been added,
 and it will now be displaying these new details in the episode **View Details** tab.
 
-        .. figure:: screen-shots/client-data-saved.png
-           :alt: Client Episode Data Saved Successfully
+.. figure:: screen-shots/client-data-saved.png
+   :alt: Client Episode Data Saved Successfully
 
 If you receive an error message, the data will need to be corrected before the
 record is saved and added to the PMHC MDS.
-See Validation Rules - `Episode <https://docs.pmhc-mds.com/en/v1/data-specification/validation-rules.html#episode-current-validations>`__.
+See Validation Rules - `Episode <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#episode>`__.
 
 .. _closing-episode:
 
@@ -792,7 +801,7 @@ available on the **Data Entry** tab, by following these steps:
 1. Once :ref:`view-episodes`
 2. From the client's **Episode** table, click the **Episode Key** of the open episode
 3. Click the **Edit Details** tab
-4. Update the client's episode details, by entering an **End Date** and **Completion Status** and **Organisation type referred to at Episode Conclusion** (Specification `Episode Data Elements <https://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#episode-data-elements>`__)
+4. Update the client's episode details, by entering an **End Date** and **Completion Status** and **Organisation type referred to at Episode Conclusion** (Specification `Episode Data Elements <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#episode-data-elements>`__)
 
 .. figure:: screen-shots/client-episodes-edit.png
    :alt: Client Episodes Edit Details
@@ -803,12 +812,12 @@ available on the **Data Entry** tab, by following these steps:
 You will receive confirmation that the client's episode details have been saved,
 and it will now be displaying these new details in the episode **View Details** tab.
 
-        .. figure:: screen-shots/client-data-saved.png
-           :alt: Client Episode Data Saved Successfully
+.. figure:: screen-shots/client-data-saved.png
+   :alt: Client Episode Data Saved Successfully
 
 If you receive an error message, the data will need to be corrected before the
 record is saved and added to the PMHC MDS.
-See Validation Rules - `Episode <https://docs.pmhc-mds.com/en/v1/data-specification/validation-rules.html#episode-current-validations>`__.
+See Validation Rules - `Episode <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#episode>`__.
 
 .. _delete-episode:
 
@@ -835,30 +844,30 @@ Confirm Delete
 1. Click the blue **Confirm** button to delete this episode. (or click the
    orange **Cancel** button if you decide not to delete this episode data)
 
-  .. figure:: screen-shots/client-episodes-delete-confirm.png
-     :alt: Client Episode Data Confirm Delete
+.. figure:: screen-shots/client-episodes-delete-confirm.png
+   :alt: Client Episode Data Confirm Delete
 
 After you click **Confirm**, you will receive confirmation that the episode has
 been deleted, and you will be redirected to :ref:`View Episodes <view-episodes>` where the
 episode will no longer be displayed.
 
-    .. figure:: screen-shots/client-episodes-delete-successful.png
-       :alt: Client Episode Data Delete Successful
+.. figure:: screen-shots/client-episodes-delete-successful.png
+   :alt: Client Episode Data Delete Successful
 
 .. _cannot-delete-episode:
 
 Cannot Delete
 ~~~~~~~~~~~~~
 
-If the episode you are trying to delete has any dependant records, you will not
+If the episode you are trying to delete has any linked IAR-DST records, you will not
 be able to proceed with deleting this episode until all the related records have
 been deleted.
 
 1. You can click on the link provided to view the client's service contacts
    and collection occasions, or click the orange **Dismiss** button
 
-  .. figure:: screen-shots/client-episodes-delete-cannot.png
-     :alt: Client Episode Data Cannot Delete
+.. figure:: screen-shots/client-episodes-delete-cannot.png
+   :alt: Client Episode Data Cannot Delete
 
 See :ref:`delete-service-contact` and :ref:`delete-collection-occasion`.
 
@@ -905,13 +914,19 @@ and scroll to the bottom of the episode form.
 Adding a Client's Intake Episode data
 -------------------------------------
 
+See the definition of an `Intake Episode <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#intake-episode>`_
+if you are not sure what data should be added as an intake episode to the PMHC MDS.
+
 Where the client has been referred via an intake process, an additional Intake
 Episode record is available on the Episode record.
 
-The Intake Episode record links an Intake record and an Episode record. The
-intake episode data must be entered by the organisation that delivers the
-treatment to the client.
-(Specification `Intake Episode Data Elements <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#intake-episode-data-elements>`__)
+.. note::
+   The Intake Episode record links an Intake record and an Episode record. It must be
+   provided by the organisation that delivers the episode, not the intake. The intake
+   organisation must provide the Intake Organisation Path and Intake Key to the treatment 
+   organisation so that these details can be entered into the Intake Episode record to
+   link the two records.
+   (Specification `Intake Episode Data Elements <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#intake-episode-data-elements>`__)
 
 .. figure:: screen-shots/client-intake-episodes-add.png
    :alt: Client Data Add Intake Episode
@@ -956,7 +971,7 @@ when viewing or editing an Episode.
 Viewing Universal Aftercare data on a Client's Episode
 ------------------------------------------------------
 
-You can view the Universal Aftercare data associated with an episode that has the Universal Aftercare Program Type 
+You can view the Universal Aftercare data associated with an episode that has the Universal Aftercare Program Type
 by following the steps at :ref:`view-episodes` and scrolling to the bottom of the tab.
 
 .. figure:: screen-shots/client-episodes-ua-view.png
@@ -968,7 +983,7 @@ Adding Universal Aftercare data to a Client's Episode
 -----------------------------------------------------
 
 You can edit a Client's PMHC Episode details through :ref:`view-episodes`
-available on the Data Entry tab to add a Client's UA Episode data, by following these steps:
+available on the **Data Entry** tab to add a Client's UA Episode data, by following these steps:
 
 1. Once :ref:`view-episodes`.
 2. From the Client's Episode table, click the Episode Key.
@@ -976,7 +991,7 @@ available on the Data Entry tab to add a Client's UA Episode data, by following 
 4. Select 'Universal Aftercare' from the Program Type field
 5. Scroll to the bottom of the PMHC Episode
 
-Add the Client's UA Episode details. Mandatory fields are marked with an * . (Specification `UA Episode Data Elements <http://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#service-contact-data-elements>`_)
+Add the Client's UA Episode details. Mandatory fields are marked with an * . (Specification `UA Episode Data Elements <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#ua-episode-data-elements>`_)
 
 .. figure:: screen-shots/client-episodes-ua-add.png
    :alt: Client Episodes Edit Details
@@ -991,8 +1006,8 @@ You can also add the following information if available, or these can be added l
 You will receive confirmation that the Client's Episode details have been saved,
 and it will now be displaying.
 
-        .. figure:: screen-shots/client-data-saved.png
-           :alt: Client Episode Data Saved Successfully
+.. figure:: screen-shots/client-data-saved.png
+   :alt: Client Episode Data Saved Successfully
 
 If you receive an error message, the data will need to be corrected before the
 record is saved and added to the PMHC MDS.
@@ -1004,14 +1019,14 @@ Editing Universal Aftercare data on a Client's Episode
 ------------------------------------------------------
 
 You can edit a Client's PMHC Episode details through :ref:`view-episodes`
-available on the Data Entry tab, by following these steps:
+available on the **Data Entry** tab, by following these steps:
 
 1. Once :ref:`view-episodes`.
 2. From the Client's Episode table, click the Episode Key.
 3. Click Edit Details tab.
 4. Scroll to the bottom of the PMHC Episode.
 
-Update the Client's UA Episode details. Mandatory fields are marked with an * . (Specification `UA Episode Data Elements <http://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#service-contact-data-elements>`_)
+Update the Client's UA Episode details. Mandatory fields are marked with an * . (Specification `UA Episode Data Elements <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#ua-episode-data-elements>`_)
 
 .. figure:: screen-shots/client-episodes-ua-edit.png
    :alt: Client Episodes Edit Details
@@ -1021,8 +1036,8 @@ Update the Client's UA Episode details. Mandatory fields are marked with an * . 
 You will receive confirmation that the Client's UA Episode details have been saved,
 and it will now be displaying these new details in the Episode View Details tab.
 
-        .. figure:: screen-shots/client-data-saved.png
-           :alt: Client Episode Data Saved Successfully
+.. figure:: screen-shots/client-data-saved.png
+   :alt: Client Episode Data Saved Successfully
 
 If you receive an error message, the data will need to be corrected before the
 record is saved and added to the PMHC MDS.
@@ -1035,7 +1050,7 @@ Deleting Universal Aftercare data from a Client's Episode
 ---------------------------------------------------------
 
 Removing 'Universal Aftercare' from the Program Type field will delete an UA Episode,
-through :ref:`view-episodes` available on the Data Entry tab, by following these steps:
+through :ref:`view-episodes` available on the **Data Entry** tab, by following these steps:
 
 1. Once :ref:`view-episodes`.
 2. From the Client's Episode table, click the Episode Key.
@@ -1043,23 +1058,23 @@ through :ref:`view-episodes` available on the Data Entry tab, by following these
 4. Remove 'Universal Aftercare' from the Program Type field by selecting another Program Type
 5. Click the blue 'Save' button.
 
-   Deleting the Universal Aftercare Episode data will also delete the:
+Deleting the Universal Aftercare Episode data will also delete the:
 
-   * Primary Nominated Professional Contact,
-   * Critical Incidents, and
-   * Recommendation Outs.
+* Primary Nominated Professional Contact,
+* Critical Incidents, and
+* Recommendation Outs.
 
-   However any associated measures will be retained.
+However any associated measures will be retained.
 
-        .. figure:: screen-shots/client-episodes-ua-delete.png
-           :alt: Client Episodes UA Delete Details
+.. figure:: screen-shots/client-episodes-ua-delete.png
+   :alt: Client Episodes UA Delete Details
 
    **Please note: Once the collection occasion is deleted, you will not be able to recover this collection occasion data.**
 
 6. Click the red 'Confirm' button to delete the data. (If you decide not to delete the data, you can click the blue 'Cancel' button)
 
-        .. figure:: screen-shots/client-data-saved.png
-           :alt: Client Episode Data Saved Successfully
+.. figure:: screen-shots/client-data-saved.png
+   :alt: Client Episode Data Saved Successfully
 
 .. _uaooh-tag-ua-episode:
 
@@ -1072,8 +1087,8 @@ Universal Aftercare Outside of Hospital/Expanded Referral Pathway Trial. The
 ‘9: Universal Aftercare’. This tag should be applied to all episodes delivered
 under the Universal Aftercare Outside of Hospital/Expanded Referral Pathway Trial.
 
-         .. figure:: screen-shots/client-episodes-uaooh-tag.png
-            :alt: Client Episodes uaooh Tag
+.. figure:: screen-shots/client-episodes-uaooh-tag.png
+   :alt: Client Episodes uaooh Tag
 
 See more details in the `System Tags <https://docs.pmhc-mds.com/data-specifications.html#system-tags>`__.
 
@@ -1100,15 +1115,15 @@ available on the **Data Entry** tab, by following these steps:
    in the PMHC MDS for this episode
 3. A table will display all the Service Contacts linked to this client's Episode
 
-   .. figure:: screen-shots/client-service-contacts-view.png
-     :alt: Client Episode Service Contacts Table View
+.. figure:: screen-shots/client-service-contacts-view.png
+   :alt: Client Episode Service Contacts Table View
 
 4. To view the Service Contact's details, click the blue **Service Contact Key**
 
-   .. figure:: screen-shots/client-service-contacts-details.png
-     :alt: Client Episode Service Contacts Details View
+.. figure:: screen-shots/client-service-contacts-details.png
+   :alt: Client Episode Service Contacts Details View
 
-A page will display the Service Contacts details as recorded via the `Service Contact Data Elements <http://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#service-contact-data-elements>`_.
+A page will display the Service Contacts details as recorded via the `Service Contact Data Elements <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#service-contact-data-elements>`_.
 
 .. _edit-service-contact:
 
@@ -1122,7 +1137,7 @@ available on the **Data Entry** tab, by following these steps:
 2. From the **Service Contacts** table, click the **Service Contact Key**
 3. Click the **Edit Service Contact** tab
 4. Update the client's service contact details for that service contact.
-   Mandatory fields are marked with an * (Specification `Service Contact Data Elements <http://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#service-contact-data-elements>`_)
+   Mandatory fields are marked with an * (Specification `Service Contact Data Elements <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#service-contact-data-elements>`_)
 5. **Please note:** You can edit the Service Contact Key from this screen. See :ref:`edit-service-contact-key`
 
 .. figure:: screen-shots/client-service-contacts-edit.png
@@ -1134,12 +1149,12 @@ available on the **Data Entry** tab, by following these steps:
 You will receive confirmation that the client's service contact details have been saved,
 and it will now be displaying these new details in the **View Service Contact Details** tab.
 
-        .. figure:: screen-shots/client-data-saved.png
-           :alt: Client Data Saved Successfully
+.. figure:: screen-shots/client-data-saved.png
+   :alt: Client Data Saved Successfully
 
 If you receive an error message, the data will need to be corrected before the
 record is saved and added to the PMHC MDS.
-See Validation Rules - `Service Contact <http://docs.pmhc-mds.com/en/v1/data-specification/validation-rules.html#service-contact-current-validations>`_.
+See Validation Rules - `Service Contact <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#service-contact>`__.
 
 .. _edit-service-contact-key:
 
@@ -1152,8 +1167,8 @@ available on the **Data Entry** tab, by following these steps:
 1. In step five when :ref:`edit-service-contact`
 2. From the **Service Contact Edit Details** tab, click the **Edit Key** button
 
-       .. figure:: screen-shots/client-service-contacts-edit-key.png
-          :alt: Client Data Edit Service Contact Key
+.. figure:: screen-shots/client-service-contacts-edit-key.png
+   :alt: Client Data Edit Service Contact Key
 
 3. Type in the new service contact key and click **Next**
 4. Ensure the new key is correct and click save. (If it is incorrect, click
@@ -1164,14 +1179,17 @@ You will receive confirmation that the Service Contact's key has been saved, and
 will now be displaying the updated service contact key details in the
 service contact's **View Details** tab.
 
-       .. figure:: screen-shots/client-service-contacts-edit-key-saved.png
-          :alt: Service Contact Key Saved Successfully
+.. figure:: screen-shots/client-service-contacts-edit-key-saved.png
+   :alt: Service Contact Key Saved Successfully
 
 
 .. _add-service-contact:
 
 Adding a Client's Service Contact data
 --------------------------------------
+
+See the definition of a `Service Contact <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#service-contact>`__
+if you are not sure what data should be added as a service contact to the PMHC MDS.
 
 You can add a client's service contacts through the :ref:`view-episodes`
 available on the **Data Entry** tab, by following these steps:
@@ -1180,10 +1198,14 @@ available on the **Data Entry** tab, by following these steps:
 2. Ensure the service contact is not already showing
 3. Click the **Add Service Contact** tab
 4. Enter the client's service contact details for that episode.
-   Mandatory fields are marked with an * (Specification `Service Contact Data Elements <http://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#service-contact-data-elements>`_)
+   Mandatory fields are marked with an * (Specification `Service Contact Data
+   Elements <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#service-contact-data-elements>`_)
 
 .. figure:: screen-shots/client-service-contacts-add.png
    :alt: Client Data Add Service Contact
+
+   Please note: Sites field dropdown list shows sites defined for a Provider
+   Organisation. The commissioning PHN can add sites.
 
 5. Click the blue **Save** button. (If you decide not to add this client's
    episode, you can simply navigate away from this screen)
@@ -1191,12 +1213,12 @@ available on the **Data Entry** tab, by following these steps:
 You will receive confirmation that the client's service contact details have been added,
 and it will now be displaying these new details in the **View Service Contact Details** tab.
 
-        .. figure:: screen-shots/client-data-saved.png
-           :alt: Client Data Saved Successfully
+.. figure:: screen-shots/client-data-saved.png
+   :alt: Client Data Saved Successfully
 
 If you receive an error message, the data will need to be corrected before the
 record is saved and added to the PMHC MDS.
-See Validation Rules - `Service Contact <http://docs.pmhc-mds.com/en/v1/data-specification/validation-rules.html#service-contact-current-validations>`_.
+See Validation Rules - `Service Contact <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#service-contact>`__.
 
 .. _duplicate-service-contact:
 
@@ -1214,10 +1236,10 @@ available on the **Data Entry** tab, by following these steps:
 2. Click the **Duplicate this Service Contact** icon next to a record, or
    open the service contact record and click the **Duplicate** button
 3. Complete the mandatory fields marked with an * and review the pre-filled values
-   (Specification `Service Contact Data Elements <http://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#service-contact-data-elements>`_)
+   (Specification `Service Contact Data Elements <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#service-contact-data-elements>`_)
 
-   .. figure:: screen-shots/client-service-contacts-duplicate.png
-     :alt: Client Data Add Service Contact
+.. figure:: screen-shots/client-service-contacts-duplicate.png
+   :alt: Client Data Add Service Contact
 
 4. Click the blue **Save** button. (If you decide not to duplicate this
    client's service contact, you can simply navigate away from this screen)
@@ -1225,12 +1247,12 @@ available on the **Data Entry** tab, by following these steps:
 You will receive confirmation that the client's service contact details have been added,
 and it will now be displaying these new details in the **View Service Contact Details** tab.
 
-        .. figure:: screen-shots/client-data-saved.png
-           :alt: Client Data Saved Successfully
+.. figure:: screen-shots/client-data-saved.png
+   :alt: Client Data Saved Successfully
 
 If you receive an error message, the data will need to be corrected before the
 record is saved and added to the PMHC MDS.
-See Validation Rules - `Service Contact <http://docs.pmhc-mds.com/en/v1/data-specification/validation-rules.html#service-contact-current-validations>`_.
+See Validation Rules - `Service Contact <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#service-contact>`__.
 
 .. _delete-service-contact:
 
@@ -1249,25 +1271,25 @@ available on the **Data Entry** tab, by following these steps:
 7. Click the red **Delete** button
 8. You will be prompted to confirm the deletion
 
-  **Please note: You are not able to recover the data for a deleted service contact.**
+**Please note: You are not able to recover the data for a deleted service contact.**
 
 9. Click the blue **Confirm** button to delete this service contact. (or click
    the orange **Cancel** button if you decide not to delete this service contact data)
 
-  .. figure:: screen-shots/client-service-contacts-delete-confirm.png
-     :alt: Client Service Contact Data Confirm Delete
+.. figure:: screen-shots/client-service-contacts-delete-confirm.png
+   :alt: Client Service Contact Data Confirm Delete
 
 After you click **Confirm**, you will receive confirmation that the service contact has
 been deleted, and you will be redirected to the :ref:`View Service Contacts <view-service-contact>` where the
 service contact will no longer be displayed.
 
-    .. figure:: screen-shots/client-service-contacts-delete-successful.png
-       :alt: Client Service Contact Data Delete Successful
+.. figure:: screen-shots/client-service-contacts-delete-successful.png
+   :alt: Client Service Contact Data Delete Successful
 
 .. _outcome-collection-occasion-data:
 
-Outcome Collection Occasions
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Collection Occasions
+^^^^^^^^^^^^^^^^^^^^
 
 .. contents::
    :local:
@@ -1275,8 +1297,8 @@ Outcome Collection Occasions
 
 .. _view-collection-occasion:
 
-Viewing a Client's Outcome Collection Occasions for an Episode
---------------------------------------------------------------
+Viewing a Client's Collection Occasions for an Episode
+------------------------------------------------------
 
 You can view a client's outcome collection occasions through :ref:`view-episodes`
 available on the **Data Entry** tab, by following these steps:
@@ -1297,13 +1319,13 @@ A table will display all the collection occasions linked to this client's episod
    :alt: Client Episode Collection Occasions Details View
 
 A page will display the collection occasion's details as recorded via the
-`Outcome Collection Occasion Data Elements <http://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#outcome-collection-occasion-data-elements>`_.
+`Collection Occasion Data Elements <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#collection-occasion-data-elements>`_.
 
 
 .. _edit-collection-occasion:
 
-Editing a Client's Outcome Collection Occasions for an Episode
---------------------------------------------------------------
+Editing a Client's Collection Occasions for an Episode
+------------------------------------------------------
 
 You can edit a client's outcome collection occasions through :ref:`view-collection-occasion`
 available on the **Data Entry** tab, by following these steps:
@@ -1312,7 +1334,7 @@ available on the **Data Entry** tab, by following these steps:
 2. Click the **Collection Occasion Key**
 3. Click **Edit Details** tab
 4. Update the client's collection occasion's details. Mandatory fields are marked with an *
-   (Specification `Outcome Collection Occasion Data Elements <http://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#outcome-collection-occasion-data-elements>`_)
+   (Specification `Collection Occasion Data Elements <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#collection-occasion-data-elements>`_)
 5. **Please note:** You can edit the **Collection Occasion Key** from this screen. See :ref:`edit-collection-occasion-key`
 
 .. figure:: screen-shots/client-collection-occasions-edit.png
@@ -1324,12 +1346,12 @@ available on the **Data Entry** tab, by following these steps:
 You will receive confirmation that the client's collection occasion's details have been saved,
 and it will now be displaying these new details in the **View Collection Occasion Details** tab.
 
-        .. figure:: screen-shots/client-data-saved.png
-           :alt: Client Data Saved Successfully
+.. figure:: screen-shots/client-data-saved.png
+   :alt: Client Data Saved Successfully
 
 If you receive an error message, the data will need to be corrected before the
 record is saved and added to the PMHC MDS.
-See Validation Rules - `Outcome Collection Occasion Validations <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#current-validations>`_
+See Validation Rules - `Collection Occasion Validations <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#collection-occasion>`_
 
 
 .. _edit-collection-occasion-key:
@@ -1343,8 +1365,8 @@ available on the **Data Entry** tab, by following these steps:
 1. In step five when :ref:`edit-collection-occasion`
 2. From the **Collection Occasion Edit Details** tab, click the **Edit Key** button
 
-       .. figure:: screen-shots/client-collection-occasions-edit-key.png
-          :alt: Client Data Edit Collection Occasion Key
+.. figure:: screen-shots/client-collection-occasions-edit-key.png
+   :alt: Client Data Edit Collection Occasion Key
 
 3. Type in the new collection occasion key and click **Next**
 4. Ensure the new key is correct and click **Save**. (If it is incorrect, click
@@ -1354,14 +1376,17 @@ available on the **Data Entry** tab, by following these steps:
 You will receive confirmation that the collection occasion's key has been saved, and the screen
 will now be displaying the updated collection occasion key details in the **Collection Occasion View Details** tab.
 
-       .. figure:: screen-shots/client-collection-occasions-edit-key-saved.png
-          :alt: Collection Occasion Key Saved Successfully
+.. figure:: screen-shots/client-collection-occasions-edit-key-saved.png
+   :alt: Collection Occasion Key Saved Successfully
 
 
 .. _add-collection-occasion:
 
-Adding a Client's Outcome Collection Occasion data
---------------------------------------------------
+Adding a Client's Collection Occasion data
+------------------------------------------
+
+See the definition of a `Collection Occasion <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#collection-occasion>`_
+if you are not sure what data should be added as a collection occasion during an episode and when.
 
 You can add a client's outcome collection occasions through :ref:`view-collection-occasion`
 available on the **Data Entry** tab, by following these steps:
@@ -1370,7 +1395,7 @@ available on the **Data Entry** tab, by following these steps:
 2. Check that the collection occasion is not already showing
 3. Click the **Add New Collection Occasion** tab
 4. Enter the client's collection occasion details for that episode.
-   Mandatory fields are marked with an * (Specification `Outcome Collection Occasion Data Elements <http://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#outcome-collection-occasion-data-elements>`_)
+   Mandatory fields are marked with an * (Specification `Collection Occasion Data Elements <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#collection-occasion-data-elements>`_)
 
 .. figure:: screen-shots/client-collection-occasions-add.png
    :alt: Client Data Add Collection Occasions
@@ -1381,19 +1406,19 @@ available on the **Data Entry** tab, by following these steps:
 You will receive confirmation that the client's collection occasion's details have been added,
 and it will now be displaying these new details in the **View Collection Occasion Details** tab.
 
-        .. figure:: screen-shots/client-data-saved.png
-           :alt: Client Data Saved Successfully
+.. figure:: screen-shots/client-data-saved.png
+   :alt: Client Data Saved Successfully
 
 If you receive an error message, the data will need to be corrected before the
 record is saved and added to the PMHC MDS.
-See Validation Rules - `Outcome Collection Occasion Validations <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#current-validations>`_
+See Validation Rules - `Collection Occasion Validations <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#collection-occasion>`_
 
 
 
 .. _generate-collection-occasion-link:
 
-Generate a Client's Outcome Collection Occasion Self Service Link through the Online Measures Self Service System (OMSSS)
-----------------------------------------------------------------------------------------------------------------------------
+Generate a Client's Collection Occasion Self Service Link through the Online Measures Self Service System (OMSSS)
+-----------------------------------------------------------------------------------------------------------------
 
 The Online Measures Self Service System (OMSSS) is a service funded by
 the Australian Government Department of Health, Disability and Aging (DoHDA) as part of the Primary Mental
@@ -1403,7 +1428,7 @@ standardised outcome measures mandated in the PMHC MDS and have the results
 reported back to their service providers. See more at http://docs.omsss.online/.
 
 You can now generate a self service link on the PMHC MDS for a
-Outcome Collection Occasion through :ref:`view-collection-occasion`
+Collection Occasion through :ref:`view-collection-occasion`
 available on the **Data Entry** tab, by following these steps:
 
 1. Navigate to :ref:`view-collection-occasion`
@@ -1434,8 +1459,9 @@ available on the **Data Entry** tab, by following these steps:
 7. Click the blue **Back to start** button.
 
 Questionnaires are valid for 7 days. The following reminder emails will be sent:
- * 2 days after the invitation - Reminding the client to fill in the questionnaire. Also reminding them of the date on which it will expire.
- * 6 days after the invitation - Reminding the client to fill in the questionnaire. Reminding them that it will expire tomorrow.
+
+* 2 days after the invitation - Reminding the client to fill in the questionnaire. Also reminding them of the date on which it will expire.
+* 6 days after the invitation - Reminding the client to fill in the questionnaire. Reminding them that it will expire tomorrow.
 
 *Example Self Service Link Screens*
 
@@ -1460,8 +1486,8 @@ Questionnaires are valid for 7 days. The following reminder emails will be sent:
 
 .. _delete-collection-occasion:
 
-Deleting an Outcome Collection Occasion
----------------------------------------
+Deleting an Collection Occasion
+-------------------------------
 
 You can delete a client's outcome collection occasion through :ref:`view-collection-occasion`
 available on the **Data Entry** tab, by following these steps:
@@ -1478,15 +1504,15 @@ available on the **Data Entry** tab, by following these steps:
 10. Click the blue **Confirm** button to delete this collection occasion. (or
     click the orange **Cancel** button if you decide not to delete this collection occasion data)
 
-  .. figure:: screen-shots/client-collection-occasions-delete-confirm.png
-     :alt: Client Collection Occasion Data Confirm Delete
+.. figure:: screen-shots/client-collection-occasions-delete-confirm.png
+   :alt: Client Collection Occasion Data Confirm Delete
 
 After you click **Confirm**, you will receive confirmation that the collection occasion has
 been deleted, and you will be redirected to the :ref:`View Collection Occasions <view-collection-occasion>` where the
 collection occasion will no longer be displayed.
 
-    .. figure:: screen-shots/client-collection-occasions-delete-successful.png
-       :alt: Client Collection Occasion Data Delete Successful
+.. figure:: screen-shots/client-collection-occasions-delete-successful.png
+   :alt: Client Collection Occasion Data Delete Successful
 
 
 .. _measure-data:
@@ -1504,7 +1530,7 @@ Viewing a Client's Measures for a Collection Occasion
 -----------------------------------------------------
 
 You can view a Client's Measures added to a Collection Occasion through :ref:`view-collection-occasion`
-available on the Data Entry tab, by following these steps:
+available on the **Data Entry** tab, by following these steps:
 
 1. Once :ref:`Viewing the Collection Occasion <view-collection-occasion>`.
 2. Scroll down to the Measures
@@ -1519,27 +1545,30 @@ A table will display all the Measures linked to this Client's Episode Collection
 .. figure:: screen-shots/client-collection-occasions-measures-details.png
    :alt: Client Episode Collection Occasions Details View
 
-A page will display the Measure details as recorded via the `Outcome Collection Occasion Data Elements <http://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#outcome-collection-occasion-data-elements>`_.
+A page will display the Measure details as recorded via the `Collection Occasion Data Elements <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#collection-occasion-data-elements>`_.
 
-  * See `K10+ Measure data specifications <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#k10>`_.
-  * See `K5 Measure data specifications <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#k5>`_.
-  * See `SDQ Measure data specifications <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#sdq>`_.
+* See `K10+ Measure data specifications <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#k10>`_.
+* See `K5 Measure data specifications <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#k5>`_.
+* See `SDQ Measure data specifications <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#sdq>`_.
 
   If the client has a :ref:`ua-episode-data` you can also view the following measures when added:
 
-  * See `SIDAS Measure data specifications <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/data-model-and-specifications.html#sidas>`_.
-  * See `WHO-5 Measure data specifications <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/data-model-and-specifications.html#who-5>`_.
-  * See `UA-Plan data specifications <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/data-model-and-specifications.html#ua-plan-data-elements>`__.
-  * See `UA-NI data specifications <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/data-model-and-specifications.html#ua-needs-identification-data-elements>`_.
+* See `SIDAS Measure data specifications <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/data-model-and-specifications.html#sidas>`_.
+* See `WHO-5 Measure data specifications <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/data-model-and-specifications.html#who-5>`_.
+* See `UA-Plan data specifications <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/data-model-and-specifications.html#ua-plan-data-elements>`__.
+* See `UA-NI data specifications <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/data-model-and-specifications.html#ua-needs-identification-data-elements>`_.
 
 .. _add-collection-occasion-measure:
 
 Adding an Client's Measures for a Collection Occasion
 -----------------------------------------------------
 
+See the definition of a `Collection Occasion <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#collection-occasion>`_
+if you are not sure what data should be added as a measure during an episode and when.
+
 Single or multiple measures can be added to a collection occasion. You can add a
-Client's Measure for a Collection Occasion. Multiple  through :ref:`view-collection-occasion`
-available on the Data Entry tab, by following these steps:
+Client's Measure for a Collection Occasion, through :ref:`view-collection-occasion`
+available on the **Data Entry** tab, by following these steps:
 
 1. Once :ref:`view-collection-occasion`.
 2. Firstly double check the measure is not already showing.
@@ -1557,24 +1586,24 @@ available on the Data Entry tab, by following these steps:
 6. Click the blue **Next** button.
 7. Enter the Client's Measure details for the Collection Occasion. Mandatory fields are marked with an * .
 
-  * See `K10+ Measure data specifications <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#k10>`_.
-  * See `K5 Measure data specifications <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#k5>`_.
-  * See `SDQ Measure data specifications <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#sdq>`_.
+* See `K10+ Measure data specifications <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#k10>`_.
+* See `K5 Measure data specifications <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#k5>`_.
+* See `SDQ Measure data specifications <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#sdq>`_.
 
-  If the client has a :ref:`ua-episode-data` you can also add the following measures:
+If the client has a :ref:`ua-episode-data` you can also add the following measures:
 
-  * See `SIDAS Measure data specifications <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/data-model-and-specifications.html#sidas>`_.
-  * See `WHO-5 Measure data specifications <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/data-model-and-specifications.html#who-5>`_.
-  * See `UA-Plan data specifications <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/data-model-and-specifications.html#ua-plan-data-elements>`__.
-  * See `UA-NI data specifications <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/data-model-and-specifications.html#ua-needs-identification-data-elements>`_.
+* See `SIDAS Measure data specifications <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/data-model-and-specifications.html#sidas>`_.
+* See `WHO-5 Measure data specifications <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/data-model-and-specifications.html#who-5>`_.
+* See `UA-Plan data specifications <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/data-model-and-specifications.html#ua-plan-data-elements>`__.
+* See `UA-NI data specifications <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/data-model-and-specifications.html#ua-needs-identification-data-elements>`_.
 
 6. Click the blue **Save** button. (If you decide not to add this client's measure, you can simply navigate away from this screen)
 
 You will receive confirmation that the Client's Measure details have been added,
 and it will now be displaying these new details in the View Measure tab.
 
-        .. figure:: screen-shots/client-collection-occasions-measures-saved-add.png
-           :alt: Client Data Saved Successfully
+.. figure:: screen-shots/client-collection-occasions-measures-saved-add.png
+   :alt: Client Data Saved Successfully
 
 If you receive an error message, the data will need to be corrected before the
 record is saved and added to the PMHC MDS.
@@ -1582,9 +1611,9 @@ See Validation Rules -
 `K10+ <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#k10>`_
 `K5 <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#k5>`_
 `SDQ <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#sdq>`_
-`SIDAS <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/validation-rules.html#sidas>`_
-`UA-Plan <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/validation-rules.html#ua-plan>`__
-`UA-NI <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/validation-rules.html#ua-needs-identification>`__
+`SIDAS <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#sidas>`__
+`UA-Plan <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#ua-plan>`__
+`UA-NI <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#ua-needs-identification>`__
 
 .. _edit-collection-occasion-measure:
 
@@ -1592,7 +1621,7 @@ Editing a Client's Measures for a Collection Occasion
 -----------------------------------------------------
 
 You can edit a Client's Measure for a Collection Occasion through :ref:`view-collection-occasion`
-available on the Data Entry tab, by following these steps:
+available on the **Data Entry** tab, by following these steps:
 
 1. Once :ref:`view-collection-occasion`.
 2. Scroll down to the Measures
@@ -1600,18 +1629,18 @@ available on the Data Entry tab, by following these steps:
 4. Click Edit Measure
 5. Update the Client's Measure details. Mandatory fields are marked with an * .
 
-  *Please note: You can edit the Measure Key from this screen. See* :ref:`edit-collection-occasion-measure-key`.
+*Please note: You can edit the Measure Key from this screen. See* :ref:`edit-collection-occasion-measure-key`.
 
-    .. figure:: screen-shots/client-collection-occasions-measures-edit.png
-       :alt: Client Collection Occasions Edit Details
+.. figure:: screen-shots/client-collection-occasions-measures-edit.png
+   :alt: Client Collection Occasions Edit Details
 
 6. Click the blue **Save** button. (If you decide not to save changes, you can simply navigate away from this screen)
 
 You will receive confirmation that the Client's Collection Occasions details have been saved,
 and it will now be displaying these new details in the View Collection Occasion Details tab.
 
-        .. figure:: screen-shots/client-collection-occasions-measures-saved-edit.png
-           :alt: Client Data Saved Successfully
+.. figure:: screen-shots/client-collection-occasions-measures-saved-edit.png
+   :alt: Client Data Saved Successfully
 
 If you receive an error message, the data will need to be corrected before the
 record is saved and added to the PMHC MDS.
@@ -1619,7 +1648,7 @@ See Validation Rules -
 `K10+ <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#k10>`_
 `K5 <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#k5>`_
 `SDQ <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#sdq>`_
-`SIDAS <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/validation-rules.html#sidas>`_
+`SIDAS <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/validation-rules.html#sidas>`__
 `UA-Plan <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/validation-rules.html#ua-plan>`__
 `UA-NI <https://docs.pmhc-mds.com/projects/data-specification/en/v5.0/validation-rules.html#ua-needs-identification>`__
 
@@ -1629,13 +1658,13 @@ Editing a Measure Key
 ~~~~~~~~~~~~~~~~~~~~~
 
 You can edit an measure's identification key through :ref:`view-collection-occasion`
-available on the Data Entry tab, by following these steps:
+available on the **Data Entry** tab, by following these steps:
 
 1. In step four when :ref:`edit-collection-occasion-measure`.
 2. From the Edit Measure details tab, click the **Edit Key** button.
 
-       .. figure:: screen-shots/client-collection-occasions-measures-edit-key.png
-          :alt: Client Data Edit Collection Occasion Measure Key
+.. figure:: screen-shots/client-collection-occasions-measures-edit-key.png
+   :alt: Client Data Edit Collection Occasion Measure Key
 
 3. Type in the new measure key and click 'Next'.
 4. Double check the new key is correct and click save. (If it is incorrect, click back to re-enter the key or click the 'cross' in the top right to cancel this key change request)
@@ -1643,8 +1672,8 @@ available on the Data Entry tab, by following these steps:
 You will receive confirmation that the Measure's key has been saved, and the screen
 will now be displaying the updated measure key details in the View Measure details tab.
 
-       .. figure:: screen-shots/client-collection-occasions-measures-edit-key-saved.png
-          :alt: Collection Occasion Key Saved Successfully
+.. figure:: screen-shots/client-collection-occasions-measures-edit-key-saved.png
+   :alt: Collection Occasion Key Saved Successfully
 
 .. _delete-collection-occasion-measure:
 
@@ -1652,7 +1681,7 @@ Deleting a Measure from a Collection Occasion
 ---------------------------------------------
 
 You can delete a Client's Measure from a Collection Occasion through ':ref:`view-collection-occasion-measure`'
-available on the Data Entry tab, by following these steps:
+available on the **Data Entry** tab, by following these steps:
 
 1. Once :ref:`view-collection-occasion`.
 2. Scroll down to the Measures
@@ -1661,12 +1690,12 @@ available on the Data Entry tab, by following these steps:
 5. Click the red **Delete** button.
 6. You will be displayed a 'Confirm Deletion' screen.
 
-  **Please note: Once the measure is deleted, you will not be able to recover this measure data.**
+**Please note: Once the measure is deleted, you will not be able to recover this measure data.**
 
 7. Click the blue **Confirm** button to delete this measure. (or click the orange **Cancel** button if you decide not to delete this measure data)
 
-  .. figure:: screen-shots/client-collection-occasions-measures-delete-confirm.png
-     :alt: Client Measure Data Confirm Delete
+.. figure:: screen-shots/client-collection-occasions-measures-delete-confirm.png
+   :alt: Client Measure Data Confirm Delete
 
 After you click 'Confirm', you will receive confirmation that the measure has
 been deleted, and you will be redirected to the :ref:`View Measures <view-collection-occasion-measure>` where the
@@ -1734,12 +1763,12 @@ on the **Data Entry** tab, by following these steps:
 You will receive confirmation that the practitioner's details have been added,
 and it will now be displaying these new details in the **View Practitioner Details** tab.
 
-        .. figure:: screen-shots/client-data-saved.png
-           :alt: Client Data Saved Successfully
+.. figure:: screen-shots/client-data-saved.png
+   :alt: Client Data Saved Successfully
 
 If you receive an error message, the data will need to be corrected before the
 record is saved and added to the PMHC MDS.
-See Validation Rules - `Practitioner <http://docs.pmhc-mds.com/en/v1/data-specification/validation-rules.html#practitioner-current-validations>`__.
+See Validation Rules - `Practitioner <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#practitioner>`__.
 
 .. _edit-practitioner-key:
 
@@ -1752,8 +1781,8 @@ available on the **Data Entry** tab, by following these steps:
 1. In step five, when :ref:`edit-practitioner`
 2. From the **Practitioner Edit Details** tab, click the **Edit Key** button
 
-       .. figure:: screen-shots/practitioner-view-edit-key.png
-          :alt: Practitioner Data Edit Practitioner Key
+.. figure:: screen-shots/practitioner-view-edit-key.png
+   :alt: Practitioner Data Edit Practitioner Key
 
 3. Type in the new practitioner key and click **Next**
 4. Ensure the new key is correct and click **Save**. If it is incorrect, click
@@ -1762,14 +1791,17 @@ available on the **Data Entry** tab, by following these steps:
 You will receive confirmation that the **Practitioners Key** has been saved, and the screen
 will now be displaying the updated practitioner key details in the **Practitioner View Details** tab.
 
-       .. figure:: screen-shots/practitioner-view-key-saved.png
-          :alt: Practitioner Key Saved Successfully
+.. figure:: screen-shots/practitioner-view-key-saved.png
+   :alt: Practitioner Key Saved Successfully
 
 
 .. _add-practitioner:
 
 Adding a Practitioner
 ----------------------
+
+See the definition of a `Practitioner <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#practitioner>`__
+if you are not sure what data should be added as a practitioner to the PMHC MDS.
 
 You can view a practitioner's details through :ref:`find-practitioner`
 on the **Data Entry** tab, by following these steps:
@@ -1787,12 +1819,12 @@ on the **Data Entry** tab, by following these steps:
 You will receive confirmation that the practitioner's details have been added,
 and it will now display these new details in the **View Practitioner Details** tab.
 
-        .. figure:: screen-shots/client-data-saved.png
-           :alt: Client Data Saved Successfully
+.. figure:: screen-shots/client-data-saved.png
+   :alt: Client Data Saved Successfully
 
 If you receive an error message, the data will need to be corrected before the
 record is saved and added to the PMHC MDS.
-See Validation Rules - `Practitioner <http://docs.pmhc-mds.com/en/v1/data-specification/validation-rules.html#practitioner-current-validations>`__.
+See Validation Rules - `Practitioner <https://docs.pmhc-mds.com/projects/data-specification/en/latest/validation-rules.html#practitioner>`__.
 
 You can add a practitioners individually through the data entry interface or
 alternatively, practitioner records can be uploaded in bulk. See :ref:`upload`.
@@ -1820,15 +1852,15 @@ Confirm Delete
 1. Click the blue **Confirm** button to delete this practitioner.
    (or click the orange **Cancel** button to cancel the deletion)
 
-  .. figure:: screen-shots/practitioner-delete-confirm.png
-     :alt: Practitioner Data Confirm Delete
+.. figure:: screen-shots/practitioner-delete-confirm.png
+   :alt: Practitioner Data Confirm Delete
 
 After you click **Confirm**, you will receive confirmation that the practitioner has
 been deleted, and you will be redirected to the :ref:`View Practitioners<view-practitioner>` where the
 practitioner will no longer be displayed.
 
-    .. figure:: screen-shots/practitioner-delete-successful.png
-       :alt: Practitioner Data Delete Successful
+.. figure:: screen-shots/practitioner-delete-successful.png
+   :alt: Practitioner Data Delete Successful
 
 .. _cannot-delete-practitioner:
 
@@ -1841,8 +1873,8 @@ been edited or deleted.
 
 1. Click the orange **Dismiss** button
 
-  .. figure:: screen-shots/practitioner-delete-cannot.png
-     :alt: Client Episode Data Cannot Delete
+.. figure:: screen-shots/practitioner-delete-cannot.png
+   :alt: Client Episode Data Cannot Delete
 
 See :ref:`edit-service-contact` or :ref:`delete-service-contact`.
 
@@ -1888,10 +1920,10 @@ on the **Data Entry** tab, by following these steps:
 2. From the **View Details** tab, click the **Practitioner Key**
 
 .. figure:: screen-shots/client-service-contacts-practitioner-key.png
-   :alt: Practitioner Key on Outcome Collection Occasions Details
+   :alt: Practitioner Key on Collection Occasions Details
 
 A page will display the practitioner's details as recorded via
-the `Practitioner Data Elements <http://docs.pmhc-mds.com/en/v1/data-specification/data-model-and-specifications.html#practitioner-data-elements>`_.
+the `Practitioner Data Elements <https://docs.pmhc-mds.com/projects/data-specification/en/latest/data-model-and-specifications.html#practitioner-data-elements>`_.
 
 .. figure:: screen-shots/practitioner-details.png
    :alt: Practitioner Details View
