@@ -3,6 +3,11 @@
 User Guide Change log
 =====================
 
+23/10/2026
+----------
+
+* Updated :ref:`name-like-scanning-service`
+
 10/09/2026
 ----------
 
