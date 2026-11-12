@@ -52,7 +52,7 @@ Each PHN has the capacity to add additional outcome measures to their own region
 data collection systems to meet local requirements but these are not necessary for
 reporting the national data PMHC minimum data set.
 
-Alternative measures – additional measures set by PHNS
+Alternative measures – additional measures set by PHNs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Can the measures be extended to include the Depression, Anxiety Stress Scale (DASS) and Modified Scale Suicide Ideation (MSSI)?

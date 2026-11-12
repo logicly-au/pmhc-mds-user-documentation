@@ -238,7 +238,7 @@ In general, it is expected that each Service Contact is reported separately.
 However, PHNs have discretion on how to handle multiple contacts on a single day.
 The approach taken will depend on how PHNs commission and remunerate service providers.
 We have assumed that most services will be paid on a service contacts-as-delivered basis,
-and thus PHNS will want to track these. But where PHNs opt to remunerate at whole-of-episode
+and thus PHNs will want to track these. But where PHNs opt to remunerate at whole-of-episode
 of care basis, aggregating Service Contact-Duration to whole days may be a more efficient approach.
 
 Service Contact – No Show: When item “Service Contact - No Show” is selected as “Yes”, it would be useful to capture how that time of appointment was used.
