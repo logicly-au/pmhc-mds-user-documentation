@@ -88,7 +88,7 @@ This unit of counting is not appropriate for the full range of services that mig
 This is agreed.  The scope of the PMHC MDS does not cover every activity that a
 PHN may commission.
 
-Where activities are outside the scope of the PMHC MDS, PHNS are expected to
+Where activities are outside the scope of the PMHC MDS, PHNs are expected to
 set up their own arrangements to collect data suitable for reporting purposes.
 See also the response above regarding :ref:`community-based-suicide-prevention-activities`.
 
